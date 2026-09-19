@@ -1,0 +1,261 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "law_registry.v2.schema.json",
+  "title": "Law Corpus Registry v2",
+  "description": "Four-sub-report registry for data/law <-> Qdrant. Each sub-report answers one question and carries its own gate; gates.overall is the single boolean a CI job should act on.",
+  "$comment": "The four sub-reports replace the single binary validation_ok flag (see .dev/ongoing/04.md section 5). Note that this document is NOT a superset of the v1 law_registry.json: it drops summary.data_law_md_files, files[].articles_in_qdrant / in_qdrant_eli / alias_eli / missing_eli / source_basename_present_in_qdrant, qdrant_only_articles and detail. Consumers of those keys (templates/law-registry.html, src/presentation/routers/law_registry.py) must be migrated before this shape replaces data/law/_mapping/law_registry.json.",
+  "type": "object",
+  "required": ["schema_version", "generated_at", "collection", "summary", "coverage_report", "identity_report", "provenance_report", "fidelity_report", "gates"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": { "const": "2.0.0" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "collection": { "type": "string", "minLength": 1 },
+    "summary": { "$ref": "#/$defs/summary" },
+    "coverage_report": { "$ref": "#/$defs/coverage_report" },
+    "identity_report": { "$ref": "#/$defs/identity_report" },
+    "provenance_report": { "$ref": "#/$defs/provenance_report" },
+    "fidelity_report": { "$ref": "#/$defs/fidelity_report" },
+    "gates": { "$ref": "#/$defs/gates" }
+  },
+
+  "$defs": {
+
+    "eli": {
+      "type": "string",
+      "pattern": "^[A-Z]{2,3}(\\.[A-Za-z0-9_\\-]+)+$"
+    },
+
+    "sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+
+    "relative_path": {
+      "type": "string",
+      "pattern": "^[^/].*\\.md$"
+    },
+
+    "language": {
+      "enum": ["pt", "es", "en"]
+    },
+
+    "gate_status": {
+      "enum": ["pass", "fail", "skipped"]
+    },
+
+    "summary": {
+      "type": "object",
+      "required": [
+        "md_files_total",
+        "reference_only_files",
+        "elis_local_total",
+        "elis_in_qdrant_total",
+        "qdrant_points_total",
+        "language_breakdown"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "md_files_total":         { "type": "integer", "minimum": 0 },
+        "reference_only_files":   { "type": "integer", "minimum": 0 },
+        "elis_local_total":       { "type": "integer", "minimum": 0 },
+        "elis_in_qdrant_total":   { "type": "integer", "minimum": 0 },
+        "qdrant_points_total":    { "type": "integer", "minimum": 0 },
+        "language_breakdown": {
+          "type": "object",
+          "required": ["pt", "es", "en"],
+          "additionalProperties": false,
+          "properties": {
+            "pt": { "type": "integer", "minimum": 0 },
+            "es": { "type": "integer", "minimum": 0 },
+            "en": { "type": "integer", "minimum": 0 }
+          }
+        }
+      }
+    },
+
+    "coverage_report": {
+      "type": "object",
+      "required": ["gate", "files", "totals"],
+      "additionalProperties": false,
+      "properties": {
+        "gate": { "$ref": "#/$defs/gate_status" },
+        "totals": {
+          "type": "object",
+          "required": ["missing_total", "extra_total", "reference_only_blocks"],
+          "additionalProperties": false,
+          "properties": {
+            "missing_total":        { "type": "integer", "minimum": 0 },
+            "extra_total":          { "type": "integer", "minimum": 0 },
+            "reference_only_blocks":{ "type": "integer", "minimum": 0 }
+          }
+        },
+        "files": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["file", "language", "reference_only", "articles_local", "articles_ingested", "missing_eli", "extra_eli"],
+            "additionalProperties": false,
+            "properties": {
+              "file":              { "$ref": "#/$defs/relative_path" },
+              "language":          { "$ref": "#/$defs/language" },
+              "reference_only":    { "type": "boolean" },
+              "reference_note":    { "type": ["string", "null"] },
+              "articles_local":    { "type": "integer", "minimum": 0 },
+              "articles_ingested": { "type": "integer", "minimum": 0 },
+              "missing_eli": {
+                "type": "array",
+                "items": { "$ref": "#/$defs/eli" },
+                "uniqueItems": true
+              },
+              "extra_eli": {
+                "type": "array",
+                "items": { "$ref": "#/$defs/eli" },
+                "uniqueItems": true
+              },
+              "blocks_without_eli": { "type": "integer", "minimum": 0 }
+            }
+          }
+        }
+      }
+    },
+
+    "identity_report": {
+      "type": "object",
+      "required": ["gate", "collisions", "totals"],
+      "additionalProperties": false,
+      "properties": {
+        "gate": { "$ref": "#/$defs/gate_status" },
+        "totals": {
+          "type": "object",
+          "required": ["collisions_total", "intentional_multilocale", "unintentional_duplicate"],
+          "additionalProperties": false,
+          "properties": {
+            "collisions_total":         { "type": "integer", "minimum": 0 },
+            "intentional_multilocale":  { "type": "integer", "minimum": 0 },
+            "unintentional_duplicate":  { "type": "integer", "minimum": 0 }
+          }
+        },
+        "collisions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["eli", "kind", "sources", "canonical_source"],
+            "additionalProperties": false,
+            "properties": {
+              "eli":              { "$ref": "#/$defs/eli" },
+              "kind": {
+                "enum": ["intentional_multilocale", "unintentional_duplicate", "cross_file_duplicate"]
+              },
+              "sources": {
+                "type": "array",
+                "minItems": 2,
+                "uniqueItems": true,
+                "items": { "$ref": "#/$defs/relative_path" }
+              },
+              "canonical_source": {
+                "oneOf": [
+                  { "$ref": "#/$defs/relative_path" },
+                  { "type": "null" }
+                ]
+              },
+              "resolution_note": { "type": ["string", "null"] }
+            }
+          }
+        }
+      }
+    },
+
+    "provenance_report": {
+      "type": "object",
+      "required": ["gate", "points", "totals"],
+      "additionalProperties": false,
+      "properties": {
+        "gate": { "$ref": "#/$defs/gate_status" },
+        "totals": {
+          "type": "object",
+          "required": ["points_total", "matched", "mismatched", "missing_source_field"],
+          "additionalProperties": false,
+          "properties": {
+            "points_total":        { "type": "integer", "minimum": 0 },
+            "matched":             { "type": "integer", "minimum": 0 },
+            "mismatched":          { "type": "integer", "minimum": 0 },
+            "missing_source_field":{ "type": "integer", "minimum": 0 }
+          }
+        },
+        "points": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["eli", "qdrant_original_id", "source_path_in_payload", "source_path_expected", "match"],
+            "additionalProperties": false,
+            "properties": {
+              "eli":                     { "$ref": "#/$defs/eli" },
+              "qdrant_original_id":      { "type": "string", "minLength": 1 },
+              "source_path_in_payload": {
+                "oneOf": [
+                  { "$ref": "#/$defs/relative_path" },
+                  { "type": "null" }
+                ]
+              },
+              "source_path_expected":    { "$ref": "#/$defs/relative_path" },
+              "match":                   { "type": "boolean" }
+            }
+          }
+        }
+      }
+    },
+
+    "fidelity_report": {
+      "type": "object",
+      "required": ["gate", "items", "totals"],
+      "additionalProperties": false,
+      "properties": {
+        "gate": { "$ref": "#/$defs/gate_status" },
+        "totals": {
+          "type": "object",
+          "required": ["exact", "normalized", "drift", "unreadable"],
+          "additionalProperties": false,
+          "properties": {
+            "exact":      { "type": "integer", "minimum": 0 },
+            "normalized": { "type": "integer", "minimum": 0 },
+            "drift":      { "type": "integer", "minimum": 0 },
+            "unreadable": { "type": "integer", "minimum": 0 }
+          }
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["eli", "status", "local_sha256", "qdrant_sha256", "local_chars", "qdrant_chars"],
+            "additionalProperties": false,
+            "properties": {
+              "eli":           { "$ref": "#/$defs/eli" },
+              "status": {
+                "enum": ["exact", "normalized", "drift", "unreadable"]
+              },
+              "local_sha256":  { "$ref": "#/$defs/sha256" },
+              "qdrant_sha256": { "$ref": "#/$defs/sha256" },
+              "local_chars":   { "type": "integer", "minimum": 0 },
+              "qdrant_chars":  { "type": "integer", "minimum": 0 },
+              "drift_note":    { "type": ["string", "null"] }
+            }
+          }
+        }
+      }
+    },
+
+    "gates": {
+      "type": "object",
+      "required": ["coverage", "identity", "provenance", "fidelity", "overall"],
+      "additionalProperties": false,
+      "properties": {
+        "coverage":   { "$ref": "#/$defs/gate_status" },
+        "identity":   { "$ref": "#/$defs/gate_status" },
+        "provenance": { "$ref": "#/$defs/gate_status" },
+        "fidelity":   { "$ref": "#/$defs/gate_status" },
+        "overall":    { "$ref": "#/$defs/gate_status" }
+      }
+    }
+  }
+}

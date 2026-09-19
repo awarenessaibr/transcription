@@ -1,19 +1,19 @@
 {
   "summary": {
-    "generated_at": "2026-09-13T04:36:33.095992",
-    "data_law_md_files": 100,
-    "data_law_articles_unique": 1119,
-    "data_law_reference_only_files": 4,
+    "generated_at": "2026-09-19T11:35:06.383098",
+    "data_law_md_files": 119,
+    "data_law_articles_unique": 1145,
+    "data_law_reference_only_files": 3,
     "qdrant_points": 1119,
     "qdrant_articles_with_local_file": 1119,
-    "data_law_articles_not_in_qdrant": 0,
-    "alias_only_same_article_already_ingested": 289,
-    "genuinely_missing_articles": 0,
+    "data_law_articles_not_in_qdrant": 26,
+    "alias_only_same_article_already_ingested": 294,
+    "genuinely_missing_articles": 26,
     "qdrant_articles_without_local_file": 0,
     "language_breakdown": {
       "pt": 55,
-      "es": 21,
-      "en": 24
+      "es": 41,
+      "en": 23
     }
   },
   "files": [
@@ -1322,6 +1322,330 @@
       "blocks_without_eli": 0
     },
     {
+      "file": "CL/CL.CPCL.C1.Art.228.md",
+      "language": "es",
+      "title": "Código Penal — Art. 228",
+      "reference_only": false,
+      "reference_note": null,
+      "articles_local": 1,
+      "articles_in_qdrant": 0,
+      "articles_missing": 1,
+      "alias_only_not_separately_ingested": 0,
+      "missing_eli": [
+        "CL.CPCL.C1.Art.228"
+      ],
+      "alias_eli": [],
+      "in_qdrant_eli": [],
+      "source_basename_present_in_qdrant": false,
+      "blocks_without_eli": 0
+    },
+    {
+      "file": "CL/CL.CPCL.C1.Art.229.md",
+      "language": "es",
+      "title": "Código Penal — Art. 229",
+      "reference_only": false,
+      "reference_note": null,
+      "articles_local": 1,
+      "articles_in_qdrant": 0,
+      "articles_missing": 1,
+      "alias_only_not_separately_ingested": 0,
+      "missing_eli": [
+        "CL.CPCL.C1.Art.229"
+      ],
+      "alias_eli": [],
+      "in_qdrant_eli": [],
+      "source_basename_present_in_qdrant": false,
+      "blocks_without_eli": 0
+    },
+    {
+      "file": "CL/CL.CPCL.C1.Art.256.md",
+      "language": "es",
+      "title": "Código Penal — Art. 256",
+      "reference_only": false,
+      "reference_note": null,
+      "articles_local": 1,
+      "articles_in_qdrant": 0,
+      "articles_missing": 1,
+      "alias_only_not_separately_ingested": 0,
+      "missing_eli": [
+        "CL.CPCL.C1.Art.256"
+      ],
+      "alias_eli": [],
+      "in_qdrant_eli": [],
+      "source_basename_present_in_qdrant": false,
+      "blocks_without_eli": 0
+    },
+    {
+      "file": "CL/CL.CPCL.C1.Art.257.md",
+      "language": "es",
+      "title": "Código Penal — Art. 257",
+      "reference_only": false,
+      "reference_note": null,
+      "articles_local": 1,
+      "articles_in_qdrant": 0,
+      "articles_missing": 1,
+      "alias_only_not_separately_ingested": 0,
+      "missing_eli": [
+        "CL.CPCL.C1.Art.257"
+      ],
+      "alias_eli": [],
+      "in_qdrant_eli": [],
+      "source_basename_present_in_qdrant": false,
+      "blocks_without_eli": 0
+    },
+    {
+      "file": "CL/CL.CPCL.C1.Art.269_bis.md",
+      "language": "es",
+      "title": "Código Penal — Art. 269 bis",
+      "reference_only": false,
+      "reference_note": null,
+      "articles_local": 1,
+      "articles_in_qdrant": 0,
+      "articles_missing": 1,
+      "alias_only_not_separately_ingested": 0,
+      "missing_eli": [
+        "CL.CPCL.C1.Art.269_bis"
+      ],
+      "alias_eli": [],
+      "in_qdrant_eli": [],
+      "source_basename_present_in_qdrant": false,
+      "blocks_without_eli": 0
+    },
+    {
+      "file": "CL/CL.CPCL.C1.Art.269_ter.md",
+      "language": "es",
+      "title": "Código Penal — Art. 269 ter",
+      "reference_only": false,
+      "reference_note": null,
+      "articles_local": 1,
+      "articles_in_qdrant": 1,
+      "articles_missing": 0,
+      "alias_only_not_separately_ingested": 0,
+      "missing_eli": [],
+      "alias_eli": [],
+      "in_qdrant_eli": [
+        "CL.CPCL.C1.Art.269_ter"
+      ],
+      "source_basename_present_in_qdrant": false,
+      "blocks_without_eli": 0
+    },
+    {
+      "file": "CL/CL.L19496.Art.53A.md",
+      "language": "es",
+      "title": "Ley 19496 — Art. 53 A",
+      "reference_only": false,
+      "reference_note": null,
+      "articles_local": 1,
+      "articles_in_qdrant": 0,
+      "articles_missing": 1,
+      "alias_only_not_separately_ingested": 0,
+      "missing_eli": [
+        "CL.L19496.Art.53A"
+      ],
+      "alias_eli": [],
+      "in_qdrant_eli": [],
+      "source_basename_present_in_qdrant": false,
+      "blocks_without_eli": 0
+    },
+    {
+      "file": "CL/CL.L19496.Art.56.md",
+      "language": "es",
+      "title": "Ley 19496 — Art. 56",
+      "reference_only": false,
+      "reference_note": null,
+      "articles_local": 1,
+      "articles_in_qdrant": 0,
+      "articles_missing": 1,
+      "alias_only_not_separately_ingested": 0,
+      "missing_eli": [
+        "CL.L19496.Art.56"
+      ],
+      "alias_eli": [],
+      "in_qdrant_eli": [],
+      "source_basename_present_in_qdrant": false,
+      "blocks_without_eli": 0
+    },
+    {
+      "file": "CL/CL.L19496.Art.56A.md",
+      "language": "es",
+      "title": "Ley 19496 — Art. 56 A",
+      "reference_only": false,
+      "reference_note": null,
+      "articles_local": 1,
+      "articles_in_qdrant": 0,
+      "articles_missing": 1,
+      "alias_only_not_separately_ingested": 0,
+      "missing_eli": [
+        "CL.L19496.Art.56A"
+      ],
+      "alias_eli": [],
+      "in_qdrant_eli": [],
+      "source_basename_present_in_qdrant": false,
+      "blocks_without_eli": 0
+    },
+    {
+      "file": "CL/CL.L19496.Art.56B.md",
+      "language": "es",
+      "title": "Ley 19496 — Art. 56 B",
+      "reference_only": false,
+      "reference_note": null,
+      "articles_local": 1,
+      "articles_in_qdrant": 0,
+      "articles_missing": 1,
+      "alias_only_not_separately_ingested": 0,
+      "missing_eli": [
+        "CL.L19496.Art.56B"
+      ],
+      "alias_eli": [],
+      "in_qdrant_eli": [],
+      "source_basename_present_in_qdrant": false,
+      "blocks_without_eli": 0
+    },
+    {
+      "file": "CL/CL.L19496.Art.56C.md",
+      "language": "es",
+      "title": "Ley 19496 — Art. 56 C",
+      "reference_only": false,
+      "reference_note": null,
+      "articles_local": 1,
+      "articles_in_qdrant": 0,
+      "articles_missing": 1,
+      "alias_only_not_separately_ingested": 0,
+      "missing_eli": [
+        "CL.L19496.Art.56C"
+      ],
+      "alias_eli": [],
+      "in_qdrant_eli": [],
+      "source_basename_present_in_qdrant": false,
+      "blocks_without_eli": 0
+    },
+    {
+      "file": "CL/CL.L19496.Art.56D.md",
+      "language": "es",
+      "title": "Ley 19496 — Art. 56 D",
+      "reference_only": false,
+      "reference_note": null,
+      "articles_local": 1,
+      "articles_in_qdrant": 0,
+      "articles_missing": 1,
+      "alias_only_not_separately_ingested": 0,
+      "missing_eli": [
+        "CL.L19496.Art.56D"
+      ],
+      "alias_eli": [],
+      "in_qdrant_eli": [],
+      "source_basename_present_in_qdrant": false,
+      "blocks_without_eli": 0
+    },
+    {
+      "file": "CL/CL.L19496.Art.56E.md",
+      "language": "es",
+      "title": "Ley 19496 — Art. 56 E",
+      "reference_only": false,
+      "reference_note": null,
+      "articles_local": 1,
+      "articles_in_qdrant": 0,
+      "articles_missing": 1,
+      "alias_only_not_separately_ingested": 0,
+      "missing_eli": [
+        "CL.L19496.Art.56E"
+      ],
+      "alias_eli": [],
+      "in_qdrant_eli": [],
+      "source_basename_present_in_qdrant": false,
+      "blocks_without_eli": 0
+    },
+    {
+      "file": "CL/CL.L19496.Art.56F.md",
+      "language": "es",
+      "title": "Ley 19496 — Art. 56 F",
+      "reference_only": false,
+      "reference_note": null,
+      "articles_local": 1,
+      "articles_in_qdrant": 0,
+      "articles_missing": 1,
+      "alias_only_not_separately_ingested": 0,
+      "missing_eli": [
+        "CL.L19496.Art.56F"
+      ],
+      "alias_eli": [],
+      "in_qdrant_eli": [],
+      "source_basename_present_in_qdrant": false,
+      "blocks_without_eli": 0
+    },
+    {
+      "file": "CL/CL.L19496.Art.56G.md",
+      "language": "es",
+      "title": "Ley 19496 — Art. 56 G",
+      "reference_only": false,
+      "reference_note": null,
+      "articles_local": 1,
+      "articles_in_qdrant": 0,
+      "articles_missing": 1,
+      "alias_only_not_separately_ingested": 0,
+      "missing_eli": [
+        "CL.L19496.Art.56G"
+      ],
+      "alias_eli": [],
+      "in_qdrant_eli": [],
+      "source_basename_present_in_qdrant": false,
+      "blocks_without_eli": 0
+    },
+    {
+      "file": "CL/CL.L19496.Art.56H.md",
+      "language": "es",
+      "title": "Ley 19496 — Art. 56 H",
+      "reference_only": false,
+      "reference_note": null,
+      "articles_local": 1,
+      "articles_in_qdrant": 0,
+      "articles_missing": 1,
+      "alias_only_not_separately_ingested": 0,
+      "missing_eli": [
+        "CL.L19496.Art.56H"
+      ],
+      "alias_eli": [],
+      "in_qdrant_eli": [],
+      "source_basename_present_in_qdrant": false,
+      "blocks_without_eli": 0
+    },
+    {
+      "file": "CL/CL.L19496.Art.57.md",
+      "language": "es",
+      "title": "Ley 19496 — Art. 57",
+      "reference_only": false,
+      "reference_note": null,
+      "articles_local": 1,
+      "articles_in_qdrant": 0,
+      "articles_missing": 1,
+      "alias_only_not_separately_ingested": 0,
+      "missing_eli": [
+        "CL.L19496.Art.57"
+      ],
+      "alias_eli": [],
+      "in_qdrant_eli": [],
+      "source_basename_present_in_qdrant": false,
+      "blocks_without_eli": 0
+    },
+    {
+      "file": "CL/CL.L20555.Art.1.md",
+      "language": "es",
+      "title": "Ley 20555 — Art. 1",
+      "reference_only": false,
+      "reference_note": null,
+      "articles_local": 1,
+      "articles_in_qdrant": 0,
+      "articles_missing": 1,
+      "alias_only_not_separately_ingested": 0,
+      "missing_eli": [
+        "CL.L20555.Art.1"
+      ],
+      "alias_eli": [],
+      "in_qdrant_eli": [],
+      "source_basename_present_in_qdrant": false,
+      "blocks_without_eli": 0
+    },
+    {
       "file": "CL/ChileanCivilCodeandRelatedLaws.md",
       "language": "es",
       "title": "Chilean Civil Code and Related Laws \\- Consolidated Text",
@@ -1346,9 +1670,11 @@
       "articles_local": 7,
       "articles_in_qdrant": 7,
       "articles_missing": 0,
-      "alias_only_not_separately_ingested": 0,
+      "alias_only_not_separately_ingested": 1,
       "missing_eli": [],
-      "alias_eli": [],
+      "alias_eli": [
+        "CL.CPCL.C1.Art.269_ter"
+      ],
       "in_qdrant_eli": [
         "CL.CPCL.C1.Art.17",
         "CL.CPCL.C1.Art.94",
@@ -1378,16 +1704,71 @@
       "blocks_without_eli": 18
     },
     {
+      "file": "CL/CodigoPenal_269bis_269ter.md",
+      "language": "es",
+      "title": "CPENAL — Código Penal de Chile, § II bis. De la obstrucción a la investigación",
+      "reference_only": false,
+      "reference_note": null,
+      "articles_local": 2,
+      "articles_in_qdrant": 1,
+      "articles_missing": 1,
+      "alias_only_not_separately_ingested": 2,
+      "missing_eli": [
+        "CL.CPCL.C1.Art.269_bis"
+      ],
+      "alias_eli": [
+        "CL.CPCL.C1.Art.269_bis",
+        "CL.CPCL.C1.Art.269_ter"
+      ],
+      "in_qdrant_eli": [
+        "CL.CPCL.C1.Art.269_ter"
+      ],
+      "source_basename_present_in_qdrant": false,
+      "blocks_without_eli": 0
+    },
+    {
+      "file": "CL/CodigoPenal_Prevaricacion.md",
+      "language": "es",
+      "title": "CPENAL — Código Penal de Chile, § IV. Prevaricación",
+      "reference_only": false,
+      "reference_note": null,
+      "articles_local": 10,
+      "articles_in_qdrant": 0,
+      "articles_missing": 10,
+      "alias_only_not_separately_ingested": 2,
+      "missing_eli": [
+        "CL.CPCL.C1.Art.223",
+        "CL.CPCL.C1.Art.224",
+        "CL.CPCL.C1.Art.225",
+        "CL.CPCL.C1.Art.226",
+        "CL.CPCL.C1.Art.227",
+        "CL.CPCL.C1.Art.228",
+        "CL.CPCL.C1.Art.229",
+        "CL.CPCL.C1.Art.230",
+        "CL.CPCL.C1.Art.231",
+        "CL.CPCL.C1.Art.232"
+      ],
+      "alias_eli": [
+        "CL.CPCL.C1.Art.228",
+        "CL.CPCL.C1.Art.229"
+      ],
+      "in_qdrant_eli": [],
+      "source_basename_present_in_qdrant": false,
+      "blocks_without_eli": 0
+    },
+    {
       "file": "CL/Constitucion.md",
       "language": "es",
       "title": "Constitución Política de Chile",
       "reference_only": false,
       "reference_note": null,
-      "articles_local": 6,
+      "articles_local": 7,
       "articles_in_qdrant": 6,
-      "articles_missing": 0,
+      "articles_missing": 1,
       "alias_only_not_separately_ingested": 0,
-      "missing_eli": [],
+      "missing_eli": [
+        "CL.CONST.T1.C3.P2.Art.19.2"
+      ],
       "alias_eli": [],
       "in_qdrant_eli": [
         "CL.CONST.T1.C1.Art.1",
@@ -1781,22 +2162,6 @@
       "file": "CORP/LATAM_CodeOfConduct_2024.md",
       "language": "en",
       "title": "LATAM_CodeOfConduct_2024 — LATAM Group Code of Conduct (2024)",
-      "reference_only": true,
-      "reference_note": "whole-code / institutional document (no article ELIs)",
-      "articles_local": 0,
-      "articles_in_qdrant": 0,
-      "articles_missing": 0,
-      "alias_only_not_separately_ingested": 0,
-      "missing_eli": [],
-      "alias_eli": [],
-      "in_qdrant_eli": [],
-      "source_basename_present_in_qdrant": false,
-      "blocks_without_eli": 19
-    },
-    {
-      "file": "CORP/SixthStreet_CodeOfEthics.md",
-      "language": "en",
-      "title": "SixthStreet_CodeOfEthics — Sixth Street Partners Investment Adviser Code of Ethics",
       "reference_only": true,
       "reference_note": "whole-code / institutional document (no article ELIs)",
       "articles_local": 0,
@@ -3435,20 +3800,20 @@
   "qdrant_only_articles": [],
   "detail": {
     "collection": "la8159_law",
-    "validation_ok": true,
-    "article_blocks_total": 1621,
-    "article_blocks_without_eli": 213,
-    "articles_with_eli": 1119,
-    "colliding_elis": 289,
+    "validation_ok": false,
+    "article_blocks_total": 1633,
+    "article_blocks_without_eli": 194,
+    "articles_with_eli": 1145,
+    "colliding_elis": 293,
     "duplicate_original_ids": {},
     "articles_language_breakdown": {
       "pt": 674,
-      "es": 153,
+      "es": 179,
       "en": 292
     },
-    "content_exact": 788,
+    "content_exact": 787,
     "content_normalized": 280,
-    "content_drift": 51,
+    "content_drift": 52,
     "content_drift_eli": [
       "BR.CC.PG.L3.T4.C1.S4.Art.206.P3.V",
       "BR.D7724.C4.Art.15",
@@ -3472,6 +3837,7 @@
       "BR.ABEAR_PAC.Art.3",
       "BR.D7724.C10.Art.68",
       "BR.ABEAR_PIAP.Art.3",
+      "CL.CPCL.C1.Art.269_ter",
       "BR.D7724.C4.Art.19",
       "BR.L12527.C1.Art.5",
       "BR.CC.PE.L1.T9.C1.Art.927",
@@ -3502,11 +3868,38 @@
       "BR.L9784.C10.Art.29",
       "BR.L12527.C3.Art.11"
     ],
-    "title_drift": 0,
-    "theme_drift": 0,
+    "title_drift": 1,
+    "theme_drift": 1,
     "tags_drift": 0,
-    "doc_type_drift": 26,
-    "missing_eli": [],
+    "doc_type_drift": 672,
+    "missing_eli": [
+      "CL.CONST.T1.C3.P2.Art.19.2",
+      "CL.CPCL.C1.Art.223",
+      "CL.CPCL.C1.Art.224",
+      "CL.CPCL.C1.Art.225",
+      "CL.CPCL.C1.Art.226",
+      "CL.CPCL.C1.Art.227",
+      "CL.CPCL.C1.Art.228",
+      "CL.CPCL.C1.Art.229",
+      "CL.CPCL.C1.Art.230",
+      "CL.CPCL.C1.Art.231",
+      "CL.CPCL.C1.Art.232",
+      "CL.CPCL.C1.Art.256",
+      "CL.CPCL.C1.Art.257",
+      "CL.CPCL.C1.Art.269_bis",
+      "CL.L19496.Art.53A",
+      "CL.L19496.Art.56",
+      "CL.L19496.Art.56A",
+      "CL.L19496.Art.56B",
+      "CL.L19496.Art.56C",
+      "CL.L19496.Art.56D",
+      "CL.L19496.Art.56E",
+      "CL.L19496.Art.56F",
+      "CL.L19496.Art.56G",
+      "CL.L19496.Art.56H",
+      "CL.L19496.Art.57",
+      "CL.L20555.Art.1"
+    ],
     "extra_eli": []
   }
 }

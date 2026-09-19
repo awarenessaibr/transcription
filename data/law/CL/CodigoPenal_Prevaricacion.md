@@ -113,35 +113,6 @@ Se aplicarán respectivamente las penas determinadas en los artículos precedent
 
 ---
 
-### Art. 228 — Prevaricación – Empleado público no judicial
-
-**Theme:** Criminal Law – Prevaricación  
-**ELI ID:** `CL.CPCL.C1.Art.228`  
-**Tags:** norm_type: penalty · scope: administrative · sanctions: suspension, financial_penalty
-
-El que, desempeñando un empleo público no perteneciente al orden judicial, dictare a sabiendas providencia o resolución manifiestamente injusta en negocio contencioso-administrativo o meramente administrativo, incurrirá en las penas de suspensión del empleo en su grado medio y multa de once a quince unidades tributarias mensuales.
-
-> **BCN amendment note:** LEY 19450 Art. 1 h) D.O. 18.03.1996  
-> **BCN amendment note:** LEY 19450 Art. 1 d) D.O. 18.03.1996
-
-**Source:** [BCN Ley Chile — Código Penal, § IV Prevaricación](https://bcn.cl/gdyHI3)
-
----
-
-### Art. 229 — Prevaricación – Omisión de persecución o aprehensión
-
-**Theme:** Criminal Law – Prevaricación  
-**ELI ID:** `CL.CPCL.C1.Art.229`  
-**Tags:** norm_type: penalty · scope: administrative · sanctions: suspension, financial_penalty
-
-Sufrirán las penas de suspensión de empleo en su grado medio y multa de seis a diez unidades tributarias mensuales los funcionarios a que se refiere el artículo anterior, que, por malicia o negligencia inexcusables y faltando a las obligaciones de su oficio, no procedieren a la persecución o aprehensión de los delincuentes después de requerimiento o denuncia formal hecha por escrito.
-
-> **BCN amendment note:** LEY 19450 Art. 1 d) D.O. 18.03.1996
-
-**Source:** [BCN Ley Chile — Código Penal, § IV Prevaricación](https://bcn.cl/gdyHI3)
-
----
-
 ### Art. 230 — Prevaricación – Falta de renta del funcionario
 
 **Theme:** Criminal Law – Prevaricación  

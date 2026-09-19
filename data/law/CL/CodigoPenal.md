@@ -67,16 +67,6 @@ No se consideraran como vejaciones injustas las molestias o penalidades que sean
 
 ---
 
-### Art. 269 ter — Obstruccion a la investigacion por funcionario
-
-**ELI ID:** `CL.CPCL.C1.Art.269_ter`  
-**Hierarchy:** Compat alias · Art. 269 ter  
-**Tags:** norm_type: penalty · scope: criminal · sanctions: criminal_liability, disqualification
-
-El funcionario policial, el fiscal del Ministerio Publico, o el abogado asistente del fiscal, en su caso, que a sabiendas ocultare, alterare o destruyere cualquier antecedente, objeto o documento, o imagen o sonido contenido en sistemas de registro y almacenamiento audiovisual que permita establecer la existencia o inexistencia de un delito, la participacion punible en el de alguna persona o su inocencia, o que pueda servir para la determinacion de la pena, sera castigado con presidio menor en cualquiera de sus grados e inhabilitacion especial perpetua para el cargo.
-
----
-
 ### Art. 412 — Calumnia
 
 **ELI ID:** `CL.CPCL.T2.P6.Art.412`  

@@ -1,31 +1,31 @@
 # Law Corpus Registry — `data/law/` ↔ Qdrant `la8159_law`
 
-Generated: 2026-09-13T04:36:33.095992
+Generated: 2026-09-19T11:35:06.383098
 
 ## Summary
 
 | Metric | Value |
 |---|---|
-| data/law .md files | 100 |
-| Article blocks (with ELI) | 1119 |
-| Unique article ELIs | 1119 |
-| Reference-only files (no ELI) | 4 |
+| data/law .md files | 119 |
+| Article blocks (with ELI) | 1145 |
+| Unique article ELIs | 1145 |
+| Reference-only files (no ELI) | 3 |
 | Qdrant points | 1119 |
 | Qdrant unique original_ids | 1119 |
 | Qdrant duplicate original_ids | 0 |
-| Articles missing in Qdrant | 0 |
+| Articles missing in Qdrant | 26 |
 | Qdrant articles with no local ELI | 0 |
-| Same article already ingested (alias) | 289 |
-| Content exact match | 788 |
+| Same article already ingested (alias) | 294 |
+| Content exact match | 787 |
 | Content whitespace/separator-normalised | 280 |
-| Content drift (legacy revision) | 51 |
-| Title drift | 0 |
-| Theme drift / Tags drift | 0 / 0 |
-| doc_type drift (derived mapping) | 26 |
-| Files by language | {'pt': 55, 'es': 21, 'en': 24} |
-| Articles by language | {'pt': 674, 'es': 153, 'en': 292} |
-| Colliding ELIs (multi-locale) | 289 |
-| Validation OK | True |
+| Content drift (legacy revision) | 52 |
+| Title drift | 1 |
+| Theme drift / Tags drift | 1 / 0 |
+| doc_type drift (derived mapping) | 672 |
+| Files by language | {'pt': 55, 'es': 41, 'en': 23} |
+| Articles by language | {'pt': 674, 'es': 179, 'en': 292} |
+| Colliding ELIs (multi-locale) | 293 |
+| Validation OK | False |
 
 ## Per-file coverage
 
@@ -67,10 +67,30 @@ Generated: 2026-09-13T04:36:33.095992
 | `BR/R770_ANAC_CodigoEtica.md` | pt |  | 46 | 46 |  |  |
 | `CL/CC_CodigoCivil.md` | es |  | 6 | 6 |  |  |
 | `CL/CHIPENCOD_CP.md` | es |  | 12 | 12 |  |  |
+| `CL/CL.CPCL.C1.Art.228.md` | es |  | 1 | 0 |  |  |
+| `CL/CL.CPCL.C1.Art.229.md` | es |  | 1 | 0 |  |  |
+| `CL/CL.CPCL.C1.Art.256.md` | es |  | 1 | 0 |  |  |
+| `CL/CL.CPCL.C1.Art.257.md` | es |  | 1 | 0 |  |  |
+| `CL/CL.CPCL.C1.Art.269_bis.md` | es |  | 1 | 0 |  |  |
+| `CL/CL.CPCL.C1.Art.269_ter.md` | es |  | 1 | 1 |  |  |
+| `CL/CL.L19496.Art.53A.md` | es |  | 1 | 0 |  |  |
+| `CL/CL.L19496.Art.56.md` | es |  | 1 | 0 |  |  |
+| `CL/CL.L19496.Art.56A.md` | es |  | 1 | 0 |  |  |
+| `CL/CL.L19496.Art.56B.md` | es |  | 1 | 0 |  |  |
+| `CL/CL.L19496.Art.56C.md` | es |  | 1 | 0 |  |  |
+| `CL/CL.L19496.Art.56D.md` | es |  | 1 | 0 |  |  |
+| `CL/CL.L19496.Art.56E.md` | es |  | 1 | 0 |  |  |
+| `CL/CL.L19496.Art.56F.md` | es |  | 1 | 0 |  |  |
+| `CL/CL.L19496.Art.56G.md` | es |  | 1 | 0 |  |  |
+| `CL/CL.L19496.Art.56H.md` | es |  | 1 | 0 |  |  |
+| `CL/CL.L19496.Art.57.md` | es |  | 1 | 0 |  |  |
+| `CL/CL.L20555.Art.1.md` | es |  | 1 | 0 |  |  |
 | `CL/ChileanCivilCodeandRelatedLaws.md` | es | yes | 0 | 0 |  | whole-code / institutional document (no article ELIs) |
-| `CL/CodigoPenal.md` | es |  | 7 | 7 |  |  |
+| `CL/CodigoPenal.md` | es |  | 7 | 7 | 1 |  |
 | `CL/CodigoPenalChile.md` | es | yes | 0 | 0 |  | whole-code / institutional document (no article ELIs) |
-| `CL/Constitucion.md` | es |  | 6 | 6 |  |  |
+| `CL/CodigoPenal_269bis_269ter.md` | es |  | 2 | 1 | 2 |  |
+| `CL/CodigoPenal_Prevaricacion.md` | es |  | 10 | 0 | 2 |  |
+| `CL/Constitucion.md` | es |  | 7 | 6 |  |  |
 | `CL/Constitucion_BCN.md` | es |  | 4 | 4 |  |  |
 | `CL/DAN17_DGAC.md` | es |  | 12 | 12 |  |  |
 | `CL/DFL1_19653_L18575.md` | es |  | 2 | 2 |  |  |
@@ -87,7 +107,6 @@ Generated: 2026-09-13T04:36:33.095992
 | `CL/L20880_Probidad.md` | es |  | 2 | 2 |  |  |
 | `CL/R218_JAC_DerechosPasajeros.md` | es |  | 4 | 4 |  |  |
 | `CORP/LATAM_CodeOfConduct_2024.md` | en | yes | 0 | 0 |  | whole-code / institutional document (no article ELIs) |
-| `CORP/SixthStreet_CodeOfEthics.md` | en | yes | 0 | 0 |  | whole-code / institutional document (no article ELIs) |
 | `INT/BR/ACHR_1969.md` | pt |  | 30 | 30 | 30 |  |
 | `INT/BR/BR_CL_Joint_Declaration_2024.md` | pt |  | 8 | 8 | 8 |  |
 | `INT/BR/Hague_1980.md` | pt |  | 2 | 2 | 2 |  |
