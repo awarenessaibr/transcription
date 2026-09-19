@@ -1,24 +1,38 @@
 {
   "original_id": "CL.CPR_BCN.C1.Art.5",
-  "collection": "la8159_law",
+  "collection": "transcription_law",
   "title": "Art. 5 - Soberanía y deber estatal de respetar y promover derechos",
   "source_path": "CL/Constitucion_BCN.md",
-  "generated_at": "2026-09-19T06:20:51+00:00",
-  "provider": "",
+  "generated_at": "2026-09-19T06:52:53+00:00",
+  "provider": "deepseek",
   "model": "deepseek-flash",
   "fields_reviewed": [
-    "doc_type"
+    "norm_type",
+    "scope",
+    "direction",
+    "sanctions",
+    "title",
+    "theme",
+    "tags",
+    "doc_type",
+    "source_file",
+    "content"
   ],
-  "enrichment_fields": [],
-  "include_content": false,
-  "summary": "The article's doc_type is unresolved ('unknown') while the snippet header clearly identifies the instrument as the Constitución Política de la República de Chile, so it should be set to 'Constitution'.",
+  "enrichment_fields": [
+    "norm_type",
+    "scope",
+    "direction",
+    "sanctions"
+  ],
+  "include_content": true,
+  "summary": "The article's metadata is largely complete and accurate; the only clear defect is the unresolved `doc_type` of \"unknown\", which the document header identifies as a Constitution.",
   "suggestions": [
     {
       "field": "doc_type",
       "current": "unknown",
       "suggested": "Constitution",
-      "rationale": "The document header names the instrument as the 'Constitución Política de la República de Chile', which maps to the controlled token 'Constitution'.",
-      "justification": "The vocabulary instructs that doc_type be read from the document header, its title, law number or framework_code, not from the article's subject matter. The snippet's top-level heading is 'Constitución Política de la República de Chile (BCN official text)', and the ELI ID 'CL.CPR_BCN.C1.Art.5' confirms the CPR_BCN framework. A 'Constitución' is expressly mapped to the token 'Constitution'.",
+      "rationale": "The document header names the instrument as the \"Constitución Política de la República de Chile\", so the controlled token `Constitution` applies.",
+      "justification": "The vocabulary rule for `doc_type` requires reading the instrument type from the document header, and the snippet's first line identifies the source as the Chilean Constitution. The `framework_code` CPR_BCN and the article's constitutional subject matter corroborate this. Replacing the unresolved `unknown` with `Constitution` is a low-risk, high-confidence correction.",
       "evidence": "# Constitución Política de la República de Chile (BCN official text)",
       "confidence": "high",
       "normalized_from": [],
@@ -28,10 +42,28 @@
   ],
   "dropped": 0,
   "current": {
-    "doc_type": "unknown"
+    "norm_type": [],
+    "scope": [],
+    "direction": null,
+    "sanctions": [],
+    "title": "Art. 5 - Soberanía y deber estatal de respetar y promover derechos",
+    "theme": "Bases de la institucionalidad",
+    "tags": [],
+    "doc_type": "unknown",
+    "source_file": "Constitucion_BCN.md",
+    "content": "La soberanía reside esencialmente en la Nación. Su ejercicio se realiza por el pueblo a través del plebiscito y de elecciones periódicas y, también, por las autoridades que esta Constitución establece. Ningún sector del pueblo ni individuo alguno puede atribuirse su ejercicio.\n\nEl ejercicio de la soberanía reconoce como limitación el respeto a los derechos esenciales que emanan de la naturaleza humana. Es deber de los órganos del Estado respetar y promover tales derechos, garantizados por esta Constitución, así como por los tratados internacionales ratificados por Chile y que se encuentren vigentes.\n\n---"
   },
   "decision_logic": {
-    "doc_type": "Read the instrument type from the document header/title or framework_code, never from the article's subject matter; map 'Constitución'/'Constituição' to the controlled token 'Constitution'; only replace 'unknown' when the header explicitly names the instrument."
+    "doc_type": "Read the instrument type from the document header/title or framework_code; replace `unknown` only when the header explicitly names the instrument, using the controlled token (Constitución → Constitution).",
+    "norm_type": "Leave empty: the article states a foundational principle and a duty, but the CURRENT/EXPECTED arrays are empty and no concrete operative verb classification is required by the evidence.",
+    "scope": "Leave empty: no addressee token is clearly licensed beyond the general state, and EXPECTED keeps the list empty.",
+    "direction": "Leave null: the article mixes declaratory and duty language without a single dominant modality, and EXPECTED keeps it null.",
+    "sanctions": "Leave empty: the article attaches no consequence to a breach.",
+    "title": "Keep as is: matches the header and EXPECTED.",
+    "theme": "Keep as is: matches the header and EXPECTED.",
+    "tags": "Leave empty: no controlled tag evidence in the snippet.",
+    "source_file": "Keep as is: matches EXPECTED.",
+    "content": "Keep as is: matches EXPECTED verbatim."
   },
   "applied": []
 }

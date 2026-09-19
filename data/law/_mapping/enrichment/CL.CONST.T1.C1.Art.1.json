@@ -1,0 +1,76 @@
+{
+  "original_id": "CL.CONST.T1.C1.Art.1",
+  "collection": "transcription_law",
+  "title": "Art. 1 — Constitución Política de Chile, Capítulo I, Artículo 1",
+  "source_path": "CL/Constitucion.md",
+  "generated_at": "2026-09-19T06:50:59+00:00",
+  "provider": "deepseek",
+  "model": "deepseek-flash",
+  "fields_reviewed": [
+    "norm_type",
+    "scope",
+    "direction",
+    "sanctions",
+    "title",
+    "theme",
+    "tags",
+    "doc_type",
+    "source_file",
+    "content"
+  ],
+  "enrichment_fields": [
+    "norm_type",
+    "scope",
+    "direction",
+    "sanctions"
+  ],
+  "include_content": true,
+  "summary": "The article's metadata is largely correct; the only clear defect is the unresolved `doc_type` of \"unknown\", which the document header and EXPECTED both identify as a Constitution.",
+  "suggestions": [
+    {
+      "field": "doc_type",
+      "current": "unknown",
+      "suggested": "Constitution",
+      "rationale": "The document header names the instrument \"Constitución Política de Chile\", so the controlled token `Constitution` applies.",
+      "justification": "The vocabulary instructs that `doc_type` is read from the document header, its title, its law number or `framework_code`, never from the article's subject matter. The snippet's header reads \"# Constitución Política de Chile\" and the article title repeats \"Constitución Política de Chile\", and the framework_code is CONST. The offline ingester likewise computes `Constitution`, so replacing the unresolved `unknown` is a low-risk, high-confidence correction.",
+      "evidence": "# Constitución Política de Chile",
+      "confidence": "high",
+      "normalized_from": [],
+      "unknown_tokens": [],
+      "vocabulary": "controlled"
+    }
+  ],
+  "dropped": 0,
+  "current": {
+    "norm_type": [
+      "right"
+    ],
+    "scope": [
+      "constitutional"
+    ],
+    "direction": null,
+    "sanctions": [],
+    "title": "Art. 1 — Constitución Política de Chile, Capítulo I, Artículo 1",
+    "theme": "Constitutional Law",
+    "tags": [
+      "norm_type: right",
+      "scope: constitutional"
+    ],
+    "doc_type": "unknown",
+    "source_file": "Constitucion.md",
+    "content": "Persons are born free and equal, in dignity and rights. Family is the fundamental core of society. The State recognizes and protects the intermediate groups through which society organizes and structures itself and guarantees them the necessary autonomy to fulfill with their own specific purposes. The State is at the service of the human person and its goal is to promote the common good, for which it must contribute to create the social conditions which may allow each and every one of the members of the national community to achieve their greatest possible spiritual and material fulfillment, with full respect for the rights and guaranties established by this Constitutions. It is the duty of the State to safeguard national security, to provide protection to the population and the family, tending the strengthening of the latter, to promote the harmonized integration of all the sectors of the Nation and to ensure everyone the right to participate in the national life with equal opportunities.\n\n---"
+  },
+  "decision_logic": {
+    "doc_type": "Read the instrument type from the document header/title or framework_code; if the header names a Constitución/Constituição, set `Constitution`. Only replace an `unknown`/null value, and never infer doc_type from the article's subject matter.",
+    "norm_type": "Keep the existing `right` token: the article confers rights (\"Persons are born free and equal, in dignity and rights\") and the ingester agrees; no change needed.",
+    "scope": "Keep `constitutional`: the provision is constitutional law and the ingester agrees; no second domain token is warranted by the text.",
+    "direction": "Leave null: the article states principles and duties without a single operative modal verb mapping cleanly to mandatory/prohibitive/permissive, and the ingester also leaves it null.",
+    "sanctions": "Leave empty: the article attaches no consequence to a breach, and the vocabulary warns against inferring sanctions from the instrument's topic.",
+    "title": "Keep as is: it matches the header and the ingester's value.",
+    "theme": "Keep as is: \"Constitutional Law\" matches the snippet's Theme line.",
+    "tags": "Keep as is: the tags mirror norm_type and scope, which are unchanged.",
+    "source_file": "Keep as is: it matches the corpus file name.",
+    "content": "Keep as is: the body is present and identical to the ingester's value; never truncate."
+  },
+  "applied": []
+}
