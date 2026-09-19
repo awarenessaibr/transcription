@@ -1,0 +1,49 @@
+version: '3.8'
+
+services:
+  transcription:
+    image: leandrodisconzi/transcription-transcription:serverless
+    build: .
+    container_name: transcription-transcription
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/workspace/data
+    env_file:
+      - .env.example
+    environment:
+      # Explicitly pass common envs to be visible in `docker-compose config`
+      - HUGGINGFACE_HUB_TOKEN=${HUGGINGFACE_HUB_TOKEN}
+      - PYANNOTE_AUTH_TOKEN=${PYANNOTE_AUTH_TOKEN}
+      - AUDIO_DIR=${AUDIO_DIR:-./data/audio}
+      - ORIGINALS_DIR=${ORIGINALS_DIR:-./data/originals}
+      - TRANSCRIPT_DIR=${TRANSCRIPT_DIR:-./data/transcripts}
+      - QUEUE_PATH=${QUEUE_PATH:-./data/queue.json}
+      # AI-Native (Phase 2)
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY:-}
+      - ANTHROPIC_BASE_URL=${ANTHROPIC_BASE_URL:-https://api.deepseek.com/anthropic}
+      - ANTHROPIC_MODEL=${ANTHROPIC_MODEL:-deepseek-v4-pro}
+      - QDRANT_URL=${QDRANT_URL:-http://qdrant:6333}
+      - QDRANT_API_KEY=${QDRANT_API_KEY:-}
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          cpus: '2.0'
+          memory: 8G
+    depends_on:
+      - qdrant
+
+  qdrant:
+    image: qdrant/qdrant:v1.12.6
+    container_name: transcription-qdrant
+    ports:
+      - "6333:6333"
+    volumes:
+      - qdrant_data:/qdrant/storage
+    restart: unless-stopped
+
+volumes:
+  qdrant_data:
+
+# Optional local override file: docker-compose.override.yml can be used to change build/run-time settings

@@ -1,0 +1,2154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Law Corpus Registry · la8159_law</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg-primary: #f8f7f4;
+  --bg-card: #ffffff;
+  --bg-card-hover: #f2f0ea;
+  --bg-surface: #f1efe8;
+  --border: #e1ddd1;
+  --border-strong: #c7c1b0;
+  --text-primary: #1b1c1e;
+  --text-secondary: #52555c;
+  --text-muted: #8a8b87;
+  --accent: #24405f;
+  --accent-dim: rgba(36, 64, 95, 0.07);
+  --status-flag: #7a3733;
+  --status-flag-dim: rgba(122, 55, 51, 0.08);
+  --status-analysis: #8a6a2c;
+  --status-analysis-dim: rgba(138, 106, 44, 0.09);
+  --status-note: #3f6b4f;
+  --status-note-dim: rgba(63, 107, 79, 0.08);
+  --mono: 'JetBrains Mono', ui-monospace, monospace;
+  --serif: 'Source Serif 4', Georgia, serif;
+  --sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: var(--sans);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+  min-height: 100vh;
+  padding-bottom: 60px;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+code {
+  font-family: var(--mono); font-size: 0.85em; color: var(--accent);
+  background: var(--bg-surface); padding: 1px 6px; border-radius: 2px;
+}
+
+/* ---------- Masthead ---------- */
+.masthead { border-bottom: 1px solid var(--border); padding: 44px 0 32px; }
+.masthead-inner { max-width: 1180px; margin: 0 auto; padding: 0 32px; }
+.masthead-row {
+  display: flex; justify-content: space-between; align-items: flex-start;
+  gap: 16px; flex-wrap: wrap; margin-bottom: 18px;
+}
+.masthead-back {
+  font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.06em;
+  text-transform: uppercase; color: var(--text-muted); display: inline-block;
+}
+.masthead-back:hover { color: var(--accent); text-decoration: none; }
+.masthead-actions { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-left: auto; }
+.masthead-badge {
+  display: inline-block; font-family: var(--mono); font-size: 0.68rem;
+  letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-secondary);
+  border: 1px solid var(--border-strong); padding: 5px 12px; border-radius: 2px;
+  margin-bottom: 20px;
+}
+.masthead h1 {
+  font-family: var(--serif); font-size: clamp(1.6rem, 3vw, 2.3rem);
+  font-weight: 600; line-height: 1.25; margin-bottom: 10px;
+}
+.masthead-sub { font-size: 0.96rem; color: var(--text-secondary); max-width: 760px; line-height: 1.7; }
+
+/* ---------- Buttons ---------- */
+.btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.06em;
+  text-transform: uppercase; padding: 9px 13px; border-radius: 3px;
+  border: 1px solid var(--border-strong); background: var(--bg-card);
+  color: var(--text-secondary); cursor: pointer; transition: all .15s ease;
+  white-space: nowrap; line-height: 1;
+}
+.btn:hover { color: var(--accent); border-color: var(--accent); background: var(--accent-dim); text-decoration: none; }
+.btn-primary { color: var(--accent); border-color: var(--accent); }
+.btn-primary:hover { background: var(--accent); color: #fff; }
+.btn-ghost { border-color: var(--border); background: transparent; color: var(--text-muted); }
+.btn-ghost:hover { color: var(--accent); border-color: var(--accent); background: transparent; }
+
+/* ---------- Stats ---------- */
+.stats-bar { background: var(--bg-card); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+.stats-inner { max-width: 1180px; margin: 0 auto; padding: 0 32px; display: flex; flex-wrap: wrap; }
+.stat-item { flex: 1 1 150px; padding: 18px 14px; border-right: 1px solid var(--border); }
+.stat-item:last-child { border-right: none; }
+.stat-val { font-family: var(--mono); font-size: 0.92rem; font-weight: 500; color: var(--text-primary); }
+.stat-label { font-size: 0.68rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.07em; margin-top: 5px; }
+
+/* ---------- Toolbar ---------- */
+.toolbar {
+  position: sticky; top: 0; z-index: 60;
+  background: rgba(248, 247, 244, 0.93);
+  -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border);
+}
+.toolbar-inner { max-width: 1180px; margin: 0 auto; padding: 13px 32px; display: flex; flex-direction: column; gap: 10px; }
+.toolbar-row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.search-wrap { position: relative; flex: 1 1 280px; min-width: 200px; }
+.search-wrap svg { position: absolute; left: 11px; top: 50%; transform: translateY(-50%); color: var(--text-muted); pointer-events: none; }
+.search-input {
+  width: 100%; font-family: var(--sans); font-size: 0.86rem;
+  padding: 9px 12px 9px 34px; border-radius: 3px; border: 1px solid var(--border-strong);
+  background: var(--bg-card); color: var(--text-primary); outline: none;
+  transition: border-color .15s, box-shadow .15s;
+}
+.search-input::placeholder { color: var(--text-muted); }
+.search-input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-dim); }
+
+.select {
+  font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.04em;
+  padding: 9px 28px 9px 11px; border-radius: 3px;
+  border: 1px solid var(--border-strong); background: var(--bg-card);
+  color: var(--text-secondary); cursor: pointer; outline: none;
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath fill='none' stroke='%238a8b87' stroke-width='1.4' d='M1 1l4 4 4-4'/%3E%3C/svg%3E");
+  background-repeat: no-repeat; background-position: right 10px center;
+}
+.select:focus { border-color: var(--accent); }
+
+.chips { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+.chip {
+  font-family: var(--mono); font-size: 0.66rem; letter-spacing: 0.04em;
+  padding: 5px 11px; border-radius: 2px; border: 1px solid var(--border);
+  background: var(--bg-card); color: var(--text-secondary); cursor: pointer;
+  transition: all .15s ease; white-space: nowrap; display: inline-flex; align-items: center; gap: 6px;
+}
+.chip:hover { border-color: var(--border-strong); color: var(--text-primary); }
+.chip.is-active { background: var(--accent); border-color: var(--accent); color: #fff; }
+.chip .dot { width: 6px; height: 6px; border-radius: 50%; background: currentColor; opacity: .75; }
+.chip-count { opacity: .6; font-size: 0.6rem; }
+
+.result-line {
+  font-family: var(--mono); font-size: 0.68rem; color: var(--text-muted);
+  letter-spacing: 0.04em; display: flex; align-items: center; gap: 10px;
+}
+.result-line .clear-link { color: var(--accent); cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
+
+/* ---------- Main ---------- */
+.main { max-width: 1180px; margin: 0 auto; padding: 0 32px; }
+.section-head { padding: 34px 0 16px; }
+.section-head h2 { font-family: var(--serif); font-size: 1.35rem; font-weight: 600; }
+.section-head p { color: var(--text-secondary); font-size: 0.9rem; margin-top: 6px; max-width: 700px; }
+.section-head .section-meta {
+  font-family: var(--mono); font-size: 0.66rem; color: var(--text-muted);
+  letter-spacing: 0.06em; text-transform: uppercase; margin-top: 8px;
+}
+
+/* ---------- Law card grid ---------- */
+.law-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 12px; padding: 6px 0 40px;
+}
+
+.law-card {
+  position: relative; display: flex; flex-direction: column; gap: 11px;
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-left: 3px solid var(--border-strong); border-radius: 3px;
+  padding: 16px 18px 15px; cursor: pointer;
+  transition: background .15s ease, border-color .15s ease, transform .15s ease, box-shadow .15s ease;
+}
+.law-card:hover {
+  background: var(--bg-card-hover); border-color: var(--border-strong);
+  transform: translateY(-1px); box-shadow: 0 2px 10px rgba(27, 28, 30, 0.05);
+}
+.law-card:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.law-card[data-jur="BR"]      { border-left-color: var(--status-note); }
+.law-card[data-jur="CL"]      { border-left-color: var(--status-analysis); }
+.law-card[data-jur="CORP"]    { border-left-color: var(--accent); }
+.law-card[data-jur="INT"]     { border-left-color: #5a4a7a; }
+.law-card[data-ref="true"]    { border-left-style: dashed; }
+
+.law-top { display: flex; gap: 11px; align-items: flex-start; }
+.law-badge {
+  flex: 0 0 auto; min-width: 44px; height: 34px; padding: 0 8px;
+  border-radius: 3px; display: flex; align-items: center; justify-content: center;
+  font-family: var(--mono); font-size: 0.7rem; font-weight: 500;
+  letter-spacing: 0.05em; border: 1px solid var(--border);
+  background: var(--bg-surface); color: var(--text-secondary);
+}
+.law-card[data-jur="BR"] .law-badge   { background: var(--status-note-dim); color: var(--status-note); border-color: rgba(63,107,79,.22); }
+.law-card[data-jur="CL"] .law-badge   { background: var(--status-analysis-dim); color: var(--status-analysis); border-color: rgba(138,106,44,.22); }
+.law-card[data-jur="CORP"] .law-badge { background: var(--accent-dim); color: var(--accent); border-color: rgba(36,64,95,.22); }
+.law-card[data-jur="INT"] .law-badge  { background: rgba(90,74,122,.08); color: #5a4a7a; border-color: rgba(90,74,122,.22); }
+
+.law-headtext { flex: 1; min-width: 0; }
+.law-title {
+  font-family: var(--serif); font-size: 1rem; font-weight: 600;
+  line-height: 1.3; color: var(--text-primary);
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.law-file {
+  font-family: var(--mono); font-size: 0.66rem; color: var(--text-muted);
+  margin-top: 4px; word-break: break-all; line-height: 1.5;
+}
+
+.law-meta { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.lang-pill {
+  font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.06em;
+  text-transform: uppercase; padding: 3px 8px; border-radius: 2px;
+  border: 1px solid var(--border); background: var(--bg-surface); color: var(--text-secondary);
+}
+.lang-pt { background: var(--status-note-dim); color: var(--status-note); border-color: rgba(63,107,79,.22); }
+.lang-es { background: var(--status-analysis-dim); color: var(--status-analysis); border-color: rgba(138,106,44,.22); }
+.lang-en { background: var(--accent-dim); color: var(--accent); border-color: rgba(36,64,95,.22); }
+
+.ref-pill {
+  font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.06em;
+  text-transform: uppercase; padding: 3px 8px; border-radius: 2px;
+  border: 1px dashed var(--border-strong); color: var(--text-muted); background: transparent;
+}
+
+/* coverage bar */
+.coverage-row {
+  display: flex; align-items: center; gap: 10px;
+  padding-top: 4px;
+}
+.coverage-bar {
+  flex: 1; height: 5px; background: var(--bg-surface);
+  border-radius: 3px; overflow: hidden; border: 1px solid var(--border);
+}
+.coverage-fill {
+  height: 100%; background: var(--status-note); border-radius: 3px;
+  transition: width .3s ease;
+}
+.coverage-fill.partial { background: var(--status-analysis); }
+.coverage-fill.none { background: var(--border-strong); }
+.coverage-label {
+  font-family: var(--mono); font-size: 0.62rem; color: var(--text-muted);
+  letter-spacing: 0.03em; white-space: nowrap;
+}
+
+.law-foot {
+  display: flex; align-items: center; gap: 12px;
+  padding-top: 9px; border-top: 1px dashed var(--border);
+  font-family: var(--mono); font-size: 0.63rem; color: var(--text-muted);
+}
+.law-foot .num { color: var(--text-secondary); font-weight: 500; }
+.law-foot .spacer { flex: 1; }
+
+.eli-preview {
+  font-family: var(--mono); font-size: 0.62rem; color: var(--text-muted);
+  background: var(--bg-surface); border: 1px solid var(--border);
+  border-radius: 2px; padding: 5px 8px; line-height: 1.5;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+
+/* ---------- Modal ---------- */
+.modal-overlay {
+  display: none; position: fixed; inset: 0; background: rgba(20, 20, 18, 0.55);
+  z-index: 1000; justify-content: center; align-items: flex-start;
+  padding: 40px 20px; overflow-y: auto;
+}
+.modal-overlay.active { display: flex; }
+.modal {
+  background: var(--bg-primary); border: 1px solid var(--border-strong);
+  border-radius: 6px; max-width: 860px; width: 100%; margin: auto 0;
+  box-shadow: 0 20px 60px rgba(20, 20, 18, 0.22);
+  animation: modalIn .18s ease-out;
+}
+@keyframes modalIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+
+.modal-header {
+  padding: 22px 28px 18px; border-bottom: 1px solid var(--border);
+  display: flex; align-items: flex-start; gap: 16px;
+}
+.modal-header-body { flex: 1; min-width: 0; }
+.modal-type-badge {
+  font-family: var(--mono); font-size: 0.6rem; text-transform: uppercase;
+  letter-spacing: 0.06em; padding: 4px 10px; border-radius: 2px;
+  display: inline-block; margin-bottom: 10px;
+}
+.modal-title {
+  font-family: var(--serif); font-size: 1.35rem; font-weight: 600;
+  line-height: 1.3; color: var(--text-primary);
+}
+.modal-sub {
+  font-family: var(--mono); font-size: 0.7rem; color: var(--text-muted);
+  margin-top: 8px; word-break: break-all;
+}
+.modal-close {
+  flex: 0 0 auto; background: transparent; border: 1px solid var(--border-strong);
+  color: var(--text-muted); width: 30px; height: 30px; border-radius: 3px;
+  cursor: pointer; font-size: 1.05rem; line-height: 1;
+  transition: color .15s, border-color .15s;
+}
+.modal-close:hover { color: var(--text-primary); border-color: var(--text-primary); }
+
+.modal-body { padding: 22px 28px 8px; }
+.modal-section { margin-bottom: 24px; }
+.modal-section-label {
+  font-family: var(--mono); font-size: 0.63rem; text-transform: uppercase;
+  letter-spacing: 0.08em; color: var(--text-muted); margin-bottom: 12px;
+  display: flex; align-items: center; gap: 10px;
+}
+.modal-section-label::after { content: ''; flex: 1; height: 1px; background: var(--border); }
+
+.kv-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: 3px;
+  overflow: hidden;
+}
+.kv { background: var(--bg-card); padding: 11px 14px; }
+.kv dt {
+  font-family: var(--mono); font-size: 0.58rem; text-transform: uppercase;
+  letter-spacing: 0.07em; color: var(--text-muted); margin-bottom: 4px;
+}
+.kv dd { font-size: 0.84rem; color: var(--text-primary); line-height: 1.5; word-break: break-word; }
+
+/* ELI listing */
+.eli-list {
+  max-height: 340px; overflow-y: auto; padding: 12px;
+  background: var(--bg-card); border: 1px solid var(--border); border-radius: 3px;
+  display: flex; flex-direction: column; gap: 3px;
+  font-family: var(--mono); font-size: 0.68rem;
+}
+.eli-list::-webkit-scrollbar { width: 8px; }
+.eli-list::-webkit-scrollbar-thumb { background: var(--border-strong); border-radius: 4px; }
+.eli-list::-webkit-scrollbar-track { background: var(--bg-surface); }
+.eli-item {
+  padding: 5px 9px; border-radius: 2px; color: var(--text-secondary);
+  border-left: 2px solid var(--border);
+  transition: background .15s ease, border-color .15s ease;
+}
+.eli-item:hover { background: var(--accent-dim); border-left-color: var(--accent); color: var(--accent); }
+.eli-item.eli-missing { color: var(--status-flag); border-left-color: var(--status-flag); }
+.eli-item.eli-alias   { color: var(--status-analysis); border-left-color: var(--status-analysis); opacity: .8; }
+
+/* Source doc viewer */
+details.source-doc {
+  border: 1px solid var(--border); border-radius: 3px;
+  background: var(--bg-card); overflow: hidden;
+}
+details.source-doc > summary {
+  cursor: pointer; list-style: none; padding: 12px 16px;
+  font-family: var(--mono); font-size: 0.66rem; text-transform: uppercase;
+  letter-spacing: 0.07em; color: var(--text-muted);
+  display: flex; align-items: center; gap: 8px; user-select: none;
+}
+details.source-doc > summary::-webkit-details-marker { display: none; }
+details.source-doc > summary::before {
+  content: '▸'; font-size: 0.72rem; color: var(--text-muted); transition: transform .15s;
+}
+details.source-doc[open] > summary::before { transform: rotate(90deg); }
+details.source-doc > summary:hover { color: var(--accent); }
+.source-body {
+  padding: 4px 18px 18px; border-top: 1px solid var(--border);
+  max-height: 520px; overflow-y: auto;
+}
+
+.md-h { font-family: var(--serif); font-weight: 600; line-height: 1.35; color: var(--text-primary); }
+.md-h1 { font-size: 1.3rem; margin: 0 0 14px; }
+.md-h2 { font-size: 1.08rem; margin: 22px 0 10px; }
+.md-h3 { font-size: 0.94rem; margin: 18px 0 8px; }
+.md-h4, .md-h5, .md-h6 { font-size: 0.86rem; margin: 14px 0 6px; }
+.md-p { font-size: 0.88rem; color: var(--text-secondary); line-height: 1.7; margin-bottom: 10px; }
+.md-quote {
+  border-left: 3px solid var(--accent); background: var(--accent-dim);
+  padding: 11px 15px; margin: 8px 0; border-radius: 0 3px 3px 0;
+  font-size: 0.9rem; font-style: italic; color: var(--text-primary); line-height: 1.65;
+}
+.md-ul { margin: 8px 0 12px 20px; font-size: 0.88rem; color: var(--text-secondary); }
+.md-ul li { margin-bottom: 4px; line-height: 1.6; }
+.md-hr { border: none; border-top: 1px solid var(--border); margin: 20px 0; }
+.md-table { width: 100%; border-collapse: collapse; margin: 10px 0 16px; font-size: 0.84rem; }
+.md-table th {
+  text-align: left; font-family: var(--mono); font-size: 0.64rem;
+  text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted);
+  padding: 8px 12px; border-bottom: 1px solid var(--border-strong); font-weight: 500;
+}
+.md-table td { padding: 9px 12px; border-bottom: 1px solid var(--border); color: var(--text-secondary); vertical-align: top; }
+.md-table tr:last-child td { border-bottom: none; }
+.md-pre {
+  font-family: var(--mono); font-size: 0.72rem; background: var(--bg-surface);
+  border: 1px solid var(--border); border-radius: 3px; padding: 12px 14px;
+  overflow-x: auto; line-height: 1.6; color: var(--text-secondary); margin: 10px 0;
+}
+
+.source-status {
+  font-family: var(--mono); font-size: 0.7rem; color: var(--text-muted);
+  text-align: center; padding: 18px;
+}
+
+/* reference-only variant */
+.ref-banner {
+  background: var(--bg-surface); border: 1px dashed var(--border-strong);
+  border-radius: 3px; padding: 14px 18px; font-size: 0.84rem;
+  color: var(--text-secondary); line-height: 1.6;
+}
+.ref-banner strong { color: var(--text-primary); }
+
+/* Modal footer */
+.modal-footer {
+  padding: 14px 28px; border-top: 1px solid var(--border);
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  flex-wrap: wrap;
+}
+.modal-footer-note {
+  font-family: var(--mono); font-size: 0.64rem; color: var(--text-muted);
+  flex: 1; min-width: 160px;
+}
+
+/* ---------- Empty state ---------- */
+.empty-state {
+  border: 1px dashed var(--border-strong); border-radius: 4px;
+  background: var(--bg-card); padding: 48px 32px; text-align: center;
+  margin-bottom: 40px;
+}
+.empty-state h3 { font-family: var(--serif); font-size: 1.15rem; font-weight: 600; margin-bottom: 8px; }
+.empty-state p { font-size: 0.88rem; color: var(--text-secondary); max-width: 520px; margin: 0 auto 18px; }
+.empty-actions { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
+
+/* ---------- Dropzone ---------- */
+.dropzone-overlay {
+  position: fixed; inset: 0; z-index: 900; display: none;
+  align-items: center; justify-content: center;
+  background: rgba(248, 247, 244, 0.86);
+  -webkit-backdrop-filter: blur(4px); backdrop-filter: blur(4px);
+  border: 3px dashed var(--accent);
+}
+.dropzone-overlay.active { display: flex; }
+.dropzone-overlay span {
+  font-family: var(--mono); font-size: 0.85rem; letter-spacing: 0.08em;
+  text-transform: uppercase; color: var(--accent);
+}
+
+/* ---------- Footer ---------- */
+.page-footer { border-top: 1px solid var(--border); padding: 28px 0; text-align: center; margin-top: 20px; }
+.page-footer p { font-size: 0.76rem; color: var(--text-muted); line-height: 1.8; }
+.page-footer .mono { font-family: var(--mono); }
+
+/* ---------- Index action + menu ---------- */
+.btn-accent { background: var(--accent); border-color: var(--accent); color: #fff; }
+.btn-accent:hover { background: #1b3149; border-color: #1b3149; color: #fff; }
+.btn[disabled], .btn[aria-disabled="true"] { opacity: .45; pointer-events: none; }
+
+.btn-wrap { position: relative; display: inline-flex; }
+.index-menu {
+  position: absolute; top: calc(100% + 8px); right: 0; z-index: 60;
+  min-width: 320px; background: var(--bg-card); border: 1px solid var(--border-strong);
+  border-radius: 10px; box-shadow: 0 14px 34px rgba(20, 24, 30, .14);
+  padding: 8px; display: none;
+}
+.index-menu.active { display: block; }
+.menu-head {
+  font-family: var(--mono); font-size: 0.62rem; text-transform: uppercase; letter-spacing: .1em;
+  color: var(--text-muted); padding: 8px 10px 6px;
+}
+.menu-item {
+  display: block; width: 100%; text-align: left; background: none; border: 0;
+  padding: 10px 12px; border-radius: 7px; cursor: pointer; font: inherit;
+}
+.menu-item:hover { background: var(--accent-dim); }
+.menu-item strong { display: block; font-size: 0.83rem; color: var(--text-primary); font-weight: 600; }
+.menu-item span { display: block; font-size: 0.72rem; color: var(--text-muted); margin-top: 3px; line-height: 1.5; }
+.menu-item.danger strong { color: var(--status-flag); }
+.menu-sep { height: 1px; background: var(--border); margin: 7px 4px; }
+.menu-toggles { padding: 4px 12px 10px; display: grid; gap: 8px; }
+.menu-toggle { display: flex; align-items: flex-start; gap: 9px; font-size: 0.76rem; color: var(--text-secondary); cursor: pointer; }
+.menu-toggle input { margin-top: 2px; accent-color: var(--accent); }
+.menu-toggle small { display: block; color: var(--text-muted); font-size: 0.68rem; line-height: 1.45; }
+
+/* ---------- Index job panel ---------- */
+.job-panel {
+  display: none; border: 1px solid var(--border); border-left: 3px solid var(--accent);
+  background: var(--bg-card); border-radius: 8px; padding: 14px 16px; margin: 0 0 18px;
+}
+.job-panel.active { display: block; }
+.job-panel.is-error { border-left-color: var(--status-flag); }
+.job-panel.is-done { border-left-color: var(--status-note); }
+.job-head { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 10px; }
+.job-state {
+  font-family: var(--mono); font-size: 0.62rem; text-transform: uppercase; letter-spacing: .09em;
+  padding: 3px 8px; border-radius: 999px; border: 1px solid var(--border-strong); color: var(--text-secondary);
+}
+.job-panel.is-error .job-state { color: var(--status-flag); border-color: var(--status-flag); }
+.job-panel.is-done .job-state { color: var(--status-note); border-color: var(--status-note); }
+.job-title { font-size: 0.8rem; color: var(--text-secondary); }
+.job-request { font-family: var(--mono); font-size: 0.66rem; color: var(--text-muted); margin-left: auto; }
+.job-phase { margin-top: 9px; }
+.job-phase-head { display: flex; justify-content: space-between; font-size: 0.7rem; color: var(--text-secondary); margin-bottom: 4px; }
+.job-phase-head .mono { font-family: var(--mono); color: var(--text-muted); }
+.job-bar { height: 5px; background: var(--bg-surface); border-radius: 3px; overflow: hidden; }
+.job-fill { height: 100%; background: var(--accent); border-radius: 3px; transition: width .22s ease; }
+.job-fill.indeterminate { width: 34% !important; animation: jobslide 1.4s ease-in-out infinite; }
+@keyframes jobslide { 0% { margin-left: 0; } 50% { margin-left: 66%; } 100% { margin-left: 0; } }
+.job-stats { margin-top: 12px; display: grid; grid-template-columns: repeat(auto-fit, minmax(118px, 1fr)); gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: 6px; overflow: hidden; }
+.job-stat { background: var(--bg-card); padding: 8px 11px; }
+.job-stat dt { font-family: var(--mono); font-size: 0.6rem; text-transform: uppercase; letter-spacing: .07em; color: var(--text-muted); }
+.job-stat dd { font-size: 0.95rem; color: var(--text-primary); margin-top: 2px; }
+.job-target-label { font-family: var(--mono); font-size: 0.64rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: .08em; margin: 14px 0 6px; }
+.job-failures { margin-top: 10px; max-height: 168px; overflow-y: auto; border: 1px solid var(--border); border-radius: 6px; }
+.job-failure { padding: 8px 11px; border-bottom: 1px solid var(--border); font-size: 0.72rem; }
+.job-failure:last-child { border-bottom: 0; }
+.job-failure code { font-family: var(--mono); font-size: 0.68rem; color: var(--status-flag); }
+.job-note { font-size: 0.72rem; color: var(--text-muted); }
+
+/* ---------- Payload review + editor ---------- */
+.eli-item.is-clickable { cursor: pointer; }
+.eli-item.is-clickable::after { content: '▸'; float: right; opacity: .45; font-size: 0.72rem; }
+.payload-toolbar { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
+.tab {
+  font-family: var(--mono); font-size: 0.66rem; text-transform: uppercase; letter-spacing: .07em;
+  padding: 5px 11px; border-radius: 999px; border: 1px solid var(--border); background: transparent;
+  color: var(--text-muted); cursor: pointer;
+}
+.tab.is-active { background: var(--accent-dim); border-color: var(--accent); color: var(--accent); }
+.payload-target { display: inline-flex; align-items: center; gap: 6px; margin-left: auto; font-size: 0.7rem; color: var(--text-muted); }
+.payload-target select {
+  font-family: var(--mono); font-size: 0.7rem; padding: 5px 8px; border-radius: 6px;
+  background: var(--surface-2); color: var(--text); border: 1px solid var(--border-2);
+  max-width: 260px;
+}
+.payload-target select:focus { outline: none; border-color: var(--accent); }
+.payload-state { font-size: 0.74rem; color: var(--text-muted); }
+.payload-target + .payload-state { margin-left: 0; }
+.payload-state.is-live { color: var(--status-note); }
+.payload-state.is-absent { color: var(--status-flag); }
+
+.payload-table { border: 1px solid var(--border); border-radius: 6px; overflow: hidden; background: var(--bg-card); }
+.pt-row { display: grid; grid-template-columns: 168px 1fr; border-bottom: 1px solid var(--border); }
+.pt-row:last-child { border-bottom: 0; }
+.pt-key {
+  font-family: var(--mono); font-size: 0.68rem; color: var(--text-secondary);
+  padding: 8px 12px; background: var(--bg-surface); word-break: break-word;
+}
+.pt-val { padding: 8px 12px; font-size: 0.76rem; color: var(--text-primary); word-break: break-word; white-space: pre-wrap; max-height: 220px; overflow-y: auto; }
+.pt-val.is-null { color: var(--text-muted); font-style: italic; }
+.pt-val.is-object { font-family: var(--mono); font-size: 0.68rem; line-height: 1.6; }
+.pt-nested { border-top: 1px dashed var(--border); }
+.pt-nested .pt-row { grid-template-columns: 168px 1fr; }
+.pt-nested .pt-key { background: var(--bg-card); padding-left: 24px; }
+
+.diff-badge {
+  font-family: var(--mono); font-size: 0.58rem; text-transform: uppercase; letter-spacing: .07em;
+  padding: 2px 6px; border-radius: 999px; border: 1px solid currentColor; margin-left: 8px;
+}
+.d-exact { color: var(--status-note); }
+.d-whitespace { color: var(--status-analysis); }
+.d-drift { color: var(--status-flag); }
+.d-absent { color: var(--text-muted); }
+
+.edit-grid { display: grid; gap: 12px; }
+.edit-field label { display: block; font-family: var(--mono); font-size: 0.63rem; text-transform: uppercase; letter-spacing: .08em; color: var(--text-muted); margin-bottom: 5px; }
+.edit-field label .req { color: var(--status-flag); }
+.edit-input, .edit-textarea {
+  width: 100%; font: inherit; font-size: 0.8rem; color: var(--text-primary);
+  background: var(--bg-card); border: 1px solid var(--border); border-radius: 6px; padding: 8px 10px;
+}
+.edit-textarea { font-family: var(--mono); font-size: 0.74rem; line-height: 1.6; min-height: 220px; resize: vertical; }
+.edit-input:focus, .edit-textarea:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-dim); }
+.edit-input.is-dirty, .edit-textarea.is-dirty { border-color: var(--status-analysis); }
+.edit-actions { display: flex; align-items: center; gap: 9px; flex-wrap: wrap; margin-top: 14px; }
+.edit-warn {
+  font-size: 0.74rem; color: var(--status-flag); background: var(--status-flag-dim);
+  border: 1px solid rgba(122,55,51,.24); border-radius: 6px; padding: 9px 12px; line-height: 1.6;
+}
+.edit-note { font-size: 0.72rem; color: var(--text-muted); line-height: 1.6; }
+.dirty-count { font-family: var(--mono); font-size: 0.68rem; color: var(--status-analysis); }
+
+/* ---------- Toasts ---------- */
+.toast-wrap { position: fixed; right: 20px; bottom: 20px; z-index: 200; display: grid; gap: 9px; max-width: 380px; }
+.toast {
+  background: var(--bg-card); border: 1px solid var(--border-strong); border-left: 3px solid var(--accent);
+  border-radius: 8px; padding: 11px 14px; box-shadow: 0 10px 26px rgba(20,24,30,.13);
+  font-size: 0.78rem; color: var(--text-primary); line-height: 1.55;
+}
+.toast.is-error { border-left-color: var(--status-flag); }
+.toast.is-ok { border-left-color: var(--status-note); }
+.toast code { font-family: var(--mono); font-size: 0.7rem; }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 900px) {
+  .masthead { padding: 28px 0 22px; }
+  .masthead-inner, .main, .stats-inner, .toolbar-inner { padding-left: 16px; padding-right: 16px; }
+  .masthead-actions { width: 100%; }
+  .modal-overlay { padding: 16px 10px; }
+  .modal-header, .modal-body, .modal-footer { padding-left: 18px; padding-right: 18px; }
+  .law-grid { grid-template-columns: 1fr; }
+  .stat-item { flex: 1 1 50%; border-bottom: 1px solid var(--border); }
+}
+</style>
+</head>
+<body>
+
+<!-- ================= MASTHEAD ================= -->
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="masthead-row">
+      <span class="masthead-back">Case Hub / Law Corpus / data-law ↔ qdrant la8159_law</span>
+      <div class="masthead-actions">
+        <button class="btn btn-ghost" id="refreshRegistryBtn" title="Re-validate the corpus and rewrite law_registry.json">Refresh registry</button>
+        <button class="btn btn-ghost" id="registryBtn">Registry source</button>
+        <div class="btn-wrap">
+          <button class="btn btn-accent" id="indexBtn" aria-haspopup="true" aria-expanded="false">
+            Index <span id="indexBtnCount"></span>
+          </button>
+          <div class="index-menu" id="indexMenu" role="menu">
+            <div class="menu-head">Ingestion</div>
+            <button class="menu-item" id="indexPendingBtn" role="menuitem">
+              <strong>Index not yet indexed</strong>
+              <span id="indexPendingDesc">Incremental walk — only articles missing from the active collection.</span>
+            </button>
+            <button class="menu-item danger" id="indexForceBtn" role="menuitem">
+              <strong>Full forced ingestion</strong>
+              <span id="indexForceDesc">Re-embeds the entire corpus and rewrites every payload.</span>
+            </button>
+            <div class="menu-sep"></div>
+            <div class="menu-toggles">
+              <label class="menu-toggle">
+                <input type="checkbox" id="optDryRun">
+                <span>Dry run<small>Report what would change without writing.</small></span>
+              </label>
+              <label class="menu-toggle">
+                <input type="checkbox" id="optRecreate">
+                <span>Recreate local collection<small>Drops transcription_law first. Not available in incremental mode.</small></span>
+              </label>
+            </div>
+            <div class="menu-sep"></div>
+            <div class="menu-head">Target</div>
+            <div class="menu-toggles">
+              <label class="menu-toggle"><input type="radio" name="indexTarget" value="local" checked><span>transcription_law<small>Repo-owned · dense 384-dim semantic search. Safe default.</small></span></label>
+              <label class="menu-toggle"><input type="radio" name="indexTarget" value="canonical"><span>la8159_law + BM25<small>Shared production payload store. Dense vectors are never replaced.</small></span></label>
+              <label class="menu-toggle"><input type="radio" name="indexTarget" value="both"><span>Both<small>Local, then canonical.</small></span></label>
+            </div>
+          </div>
+        </div>
+        <label class="btn btn-ghost">
+          Load folder
+          <input type="file" id="folderInput" webkitdirectory directory multiple accept=".json,.md" hidden>
+        </label>
+        <label class="btn btn-primary">
+          Load registry
+          <input type="file" id="fileInput" multiple accept=".json,.md" hidden>
+        </label>
+      </div>
+    </div>
+    <div class="masthead-badge">la8159_law · article-level ingestion</div>
+    <h1>Law Corpus Registry</h1>
+    <p class="masthead-sub">
+      Every statute, regulation, and instrument in <code>data-law/</code> — Brazilian, Chilean,
+      corporate and international sources — together with its article-level ELI identifiers and
+      Qdrant coverage state.
+    </p>
+  </div>
+</header>
+
+<!-- ================= STATS ================= -->
+<div class="stats-bar">
+  <div class="stats-inner" id="statsBar"></div>
+</div>
+
+<!-- ================= TOOLBAR ================= -->
+<div class="toolbar">
+  <div class="toolbar-inner">
+    <div class="toolbar-row">
+      <div class="search-wrap">
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6">
+          <circle cx="7" cy="7" r="4.5"/><path d="M10.5 10.5L14 14"/>
+        </svg>
+        <input type="search" class="search-input" id="searchInput"
+               placeholder="Search titles, file paths, ELI IDs, notes…"
+               autocomplete="off" spellcheck="false">
+      </div>
+      <select class="select" id="sortSelect">
+        <option value="jurisdiction">Sort · Jurisdiction</option>
+        <option value="title">Sort · Title A–Z</option>
+        <option value="articles">Sort · Most articles</option>
+        <option value="language">Sort · Language</option>
+      </select>
+      <button class="chip" id="refOnlyChip"><span class="dot"></span> Reference-only</button>
+    </div>
+    <div class="toolbar-row">
+      <div class="chips" id="jurChips"></div>
+      <div class="chips" id="langChips"></div>
+    </div>
+    <div class="result-line" id="resultLine"></div>
+  </div>
+</div>
+
+<!-- ================= MAIN ================= -->
+<main class="main">
+  <div class="job-panel" id="jobPanel"></div>
+  <div id="content"></div>
+</main>
+
+<!-- ================= MODAL ================= -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-header">
+      <div class="modal-header-body" id="modalHeader"></div>
+      <button class="modal-close" id="modalClose" aria-label="Close">✕</button>
+    </div>
+    <div class="modal-body" id="modalBody"></div>
+    <div class="modal-footer">
+      <span class="modal-footer-note" id="modalFooterNote"></span>
+      <button class="btn btn-ghost" id="modalLoadSource">Load source file</button>
+    </div>
+  </div>
+</div>
+
+<!-- ================= DROPZONE ================= -->
+<div class="dropzone-overlay" id="dropzone"><span>Drop law_registry.json or LAW_REGISTRY.md</span></div>
+<div class="toast-wrap" id="toastWrap"></div>
+
+<footer class="page-footer">
+  <p>
+    <span class="mono">Law Corpus Registry · la8159_law</span><br>
+    Article-level ELI coverage derived from <span class="mono">law_registry.json</span> ·
+    Non-statutory corporate and soft-law instruments are marked reference-only.
+  </p>
+</footer>
+
+<script>
+/* ==================================================================
+   CONSTANTS
+   ================================================================== */
+const REGISTRY_FILE = 'law_registry.json';
+const REGISTRY_MD   = 'LAW_REGISTRY.md';
+
+// When served by the app (GET /law-registry) the FastAPI router at /api/law/*
+// provides live Qdrant access. Opened straight from disk, the page degrades to
+// the original read-only file browsing.
+const API = '/api/law';
+
+const JURISDICTIONS = {
+  BR:   { key: 'BR',   label: 'Brazil',        desc: 'Brazilian federal, ANAC, ABEAR instruments' },
+  CL:   { key: 'CL',   label: 'Chile',         desc: 'Chilean codes, DGAC, consumer and probity law' },
+  CORP: { key: 'CORP', label: 'Corporate',     desc: 'Institutional compliance caches' },
+  INT:  { key: 'INT',  label: 'International', desc: 'ICAO, IATA, OAS, UN and bilateral instruments' }
+};
+
+const LANGUAGES = {
+  pt: 'Português',
+  es: 'Español',
+  en: 'English'
+};
+
+/* ==================================================================
+   STATE
+   ================================================================== */
+const state = {
+  summary: null,
+  files: [],
+  registryMd: '',
+  loaded: false,
+  query: '',
+  jur: 'all',
+  lang: 'all',
+  sort: 'jurisdiction',
+  refOnly: false,
+  currentFile: null,
+  sourceCache: {},
+
+  // API-backed state (only meaningful when served by the app)
+  api: false,
+  status: null,
+  job: null,
+  pollTimer: null,
+  payload: null,
+  payloadTab: 'live',
+  payloadCollection: 'la8159_law'
+};
+
+/* ==================================================================
+   API HELPERS
+   ================================================================== */
+function toast(message, kind = 'info', timeout = 5200) {
+  const wrap = document.getElementById('toastWrap');
+  if (!wrap) return;
+  const el = document.createElement('div');
+  el.className = 'toast' + (kind === 'error' ? ' is-error' : kind === 'ok' ? ' is-ok' : '');
+  el.innerHTML = message;
+  wrap.appendChild(el);
+  if (timeout) setTimeout(() => el.remove(), timeout);
+  return el;
+}
+
+async function apiFetch(path, options = {}) {
+  const { asText = false, ...init } = options;
+  const res = await fetch(API + path, {
+    cache: 'no-store',
+    headers: { 'Content-Type': 'application/json', ...(init.headers || {}) },
+    ...init
+  });
+  const raw = await res.text();
+  if (!res.ok) {
+    let detail = `HTTP ${res.status}`;
+    try {
+      const parsed = JSON.parse(raw);
+      detail = (parsed && (parsed.detail || parsed.message)) || detail;
+    } catch (e) {
+      if (raw) detail = raw.slice(0, 400);
+    }
+    const err = new Error(typeof detail === 'string' ? detail : JSON.stringify(detail));
+    err.status = res.status;
+    throw err;
+  }
+  if (asText) return raw;
+  try { return raw ? JSON.parse(raw) : null; } catch (e) { return { detail: raw }; }
+}
+
+async function detectApi() {
+  try {
+    await apiFetch('/status');
+    state.api = true;
+  } catch (e) {
+    state.api = false;
+    console.info('[law] API unavailable — read-only file mode.', e.message);
+  }
+  return state.api;
+}
+
+/* ==================================================================
+   HELPERS
+   ================================================================== */
+function escapeHtml(s) {
+  return String(s ?? '')
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
+
+function formatNumber(n) {
+  return Number(n ?? 0).toLocaleString('en-US');
+}
+
+function jurisdictionOf(path) {
+  const first = String(path || '').split('/')[0]?.toUpperCase();
+  if (JURISDICTIONS[first]) return first;
+  return 'INT';
+}
+
+function basename(path) {
+  return String(path || '').split('/').pop() || path;
+}
+
+function shortTitle(title) {
+  return String(title || '').split(/\s+—\s+/)[0].trim();
+}
+
+/* ==================================================================
+   INGESTION
+   ================================================================== */
+function ingestRegistry(data, md) {
+  if (typeof data === 'string') {
+    try { data = JSON.parse(data); }
+    catch (e) { console.error('Registry JSON parse failed:', e); return; }
+  }
+
+  state.summary = data.summary || {};
+  state.files = (data.files || []).map(f => {
+    const jur = jurisdictionOf(f.file);
+    const total = Number(f.articles_local ?? 0);
+    const inQdrant = Number(f.articles_in_qdrant ?? 0);
+    const missing = Number(f.articles_missing ?? 0);
+    const aliases = Number(f.alias_only_not_separately_ingested ?? 0);
+    const coverage = total > 0 ? Math.min(1, inQdrant / total) : 0;
+
+    return {
+      ...f,
+      _jur: jur,
+      _filename: basename(f.file),
+      _total: total,
+      _inQdrant: inQdrant,
+      _missing: missing,
+      _aliases: aliases,
+      _coverage: coverage,
+      _eliCount: (f.in_qdrant_eli || []).length,
+      _shortTitle: shortTitle(f.title)
+    };
+  });
+
+  if (md) state.registryMd = md;
+  state.loaded = true;
+  buildFilters();
+  render();
+}
+
+/* ==================================================================
+   LOADING
+   ================================================================== */
+async function loadFromServer() {
+  // 1) Live API (served app) — registry JSON + markdown come from the router.
+  if (state.api) {
+    try {
+      const [data, md] = await Promise.all([
+        apiFetch('/registry'),
+        apiFetch('/registry/markdown', { asText: true }).catch(() => '')
+      ]);
+      if (data && data.files) {
+        ingestRegistry(data, typeof md === 'string' ? md : '');
+        return true;
+      }
+    } catch (e) {
+      console.info('API registry fetch failed — falling back to relative files.', e.message);
+    }
+  }
+
+  // 2) Relative files (page opened from the corpus root).
+  try {
+    const [jsonRes, mdRes] = await Promise.allSettled([
+      fetch(REGISTRY_FILE, { cache: 'no-store' }),
+      fetch(REGISTRY_MD,   { cache: 'no-store' })
+    ]);
+
+    if (jsonRes.status !== 'fulfilled' || !jsonRes.value.ok) return false;
+    const data = await jsonRes.value.json();
+    const md   = mdRes.status === 'fulfilled' && mdRes.value.ok ? await mdRes.value.text() : '';
+    ingestRegistry(data, md);
+    return true;
+  } catch (e) {
+    console.info('Auto-fetch failed — use the load buttons.', e);
+    return false;
+  }
+}
+
+function readFiles(fileList) {
+  const files = Array.from(fileList);
+  const jsonFile = files.find(f => /law_registry\.json$/i.test(f.name)) ||
+                   files.find(f => /\.json$/i.test(f.name));
+  const mdFile   = files.find(f => /LAW_REGISTRY\.md$/i.test(f.name)) ||
+                   files.find(f => /registry.*\.md$/i.test(f.name));
+
+  if (!jsonFile) { alert('No law_registry.json file found.'); return; }
+
+  const readers = [];
+  readers.push(readAsText(jsonFile));
+  if (mdFile) readers.push(readAsText(mdFile));
+
+  Promise.all(readers).then(([jsonText, mdText]) => {
+    try {
+      const data = JSON.parse(jsonText);
+      ingestRegistry(data, mdText || '');
+    } catch (e) {
+      alert('Could not parse law_registry.json: ' + e.message);
+    }
+  });
+}
+
+function readAsText(file) {
+  return new Promise((resolve) => {
+    const fr = new FileReader();
+    fr.onload = () => resolve(String(fr.result));
+    fr.onerror = () => resolve('');
+    fr.readAsText(file);
+  });
+}
+
+/* ==================================================================
+   FILTERS
+   ================================================================== */
+function buildFilters() {
+  const jurCounts = {};
+  const langCounts = {};
+  state.files.forEach(f => {
+    jurCounts[f._jur] = (jurCounts[f._jur] || 0) + 1;
+    langCounts[f.language] = (langCounts[f.language] || 0) + 1;
+  });
+
+  const jurChips = document.getElementById('jurChips');
+  jurChips.innerHTML =
+    `<button class="chip is-active" data-jur="all">All jurisdictions <span class="chip-count">${state.files.length}</span></button>` +
+    Object.keys(JURISDICTIONS)
+      .filter(k => jurCounts[k])
+      .map(k => `<button class="chip" data-jur="${k}">${JURISDICTIONS[k].label} <span class="chip-count">${jurCounts[k]}</span></button>`)
+      .join('');
+
+  const langChips = document.getElementById('langChips');
+  langChips.innerHTML =
+    `<button class="chip is-active" data-lang="all">Any language</button>` +
+    Object.keys(LANGUAGES)
+      .filter(k => langCounts[k])
+      .map(k => `<button class="chip" data-lang="${k}">${LANGUAGES[k]} <span class="chip-count">${langCounts[k]}</span></button>`)
+      .join('');
+
+  jurChips.querySelectorAll('.chip').forEach(btn => {
+    btn.addEventListener('click', () => {
+      state.jur = btn.dataset.jur;
+      jurChips.querySelectorAll('.chip').forEach(b => b.classList.toggle('is-active', b === btn));
+      render();
+    });
+  });
+
+  langChips.querySelectorAll('.chip').forEach(btn => {
+    btn.addEventListener('click', () => {
+      state.lang = btn.dataset.lang;
+      langChips.querySelectorAll('.chip').forEach(b => b.classList.toggle('is-active', b === btn));
+      render();
+    });
+  });
+}
+
+/* ==================================================================
+   MATCH / SORT
+   ================================================================== */
+function matchesQuery(file, q) {
+  if (!q) return true;
+  const hay = [
+    file.file, file.title, file.language, file.reference_note,
+    (file.in_qdrant_eli || []).join(' '),
+    (file.missing_eli || []).join(' '),
+    (file.alias_eli || []).join(' ')
+  ].join(' \u0000 ').toLowerCase();
+  return q.toLowerCase().split(/\s+/).filter(Boolean).every(term => hay.includes(term));
+}
+
+function getFiltered() {
+  let list = state.files.filter(f => {
+    if (state.jur !== 'all' && f._jur !== state.jur) return false;
+    if (state.lang !== 'all' && f.language !== state.lang) return false;
+    if (state.refOnly && !f.reference_only) return false;
+    return matchesQuery(f, state.query);
+  });
+
+  const sorters = {
+    jurisdiction: (a, b) =>
+      a._jur.localeCompare(b._jur) ||
+      a.language.localeCompare(b.language) ||
+      a.title.localeCompare(b.title, 'es'),
+    title: (a, b) => a.title.localeCompare(b.title, 'es'),
+    articles: (a, b) => (b._total - a._total) || a.title.localeCompare(b.title, 'es'),
+    language: (a, b) => a.language.localeCompare(b.language) || a.title.localeCompare(b.title, 'es')
+  };
+  list.sort(sorters[state.sort] || sorters.jurisdiction);
+  return list;
+}
+
+/* ==================================================================
+   RENDER
+   ================================================================== */
+function render() {
+  renderStats();
+  renderContent();
+}
+
+function renderStats() {
+  const bar = document.getElementById('statsBar');
+  const s = state.summary || {};
+
+  const totalFiles = s.data_law_md_files ?? state.files.length;
+  const totalArticles = s.data_law_articles_unique ?? 0;
+  const qdrantPoints = s.qdrant_points ?? 0;
+  const refOnly = s.data_law_reference_only_files ?? 0;
+  const langBreak = s.language_breakdown || {};
+  const langCount = Object.keys(langBreak).length || 0;
+  const missing = s.genuinely_missing_articles ?? 0;
+
+  const items = [
+    ['Files', formatNumber(totalFiles)],
+    ['Unique articles', formatNumber(totalArticles)],
+    ['Qdrant points', formatNumber(qdrantPoints)],
+    ['Languages', formatNumber(langCount)],
+    ['Reference-only', formatNumber(refOnly)],
+    ['Missing', formatNumber(missing)]
+  ];
+
+  bar.innerHTML = items.map(([label, val]) =>
+    `<div class="stat-item"><div class="stat-val">${val}</div><div class="stat-label">${label}</div></div>`
+  ).join('');
+}
+
+function renderContent() {
+  const content = document.getElementById('content');
+  const resultLine = document.getElementById('resultLine');
+
+  if (!state.loaded) {
+    content.innerHTML = `
+      <div class="section-head">
+        <h2>Registry not loaded</h2>
+        <p>Serve this page from the folder containing <code>law_registry.json</code>, or load it manually below.</p>
+      </div>
+      <div class="empty-state">
+        <h3>No registry detected</h3>
+        <p>Select the folder that contains <code>law_registry.json</code> and <code>LAW_REGISTRY.md</code>, or pick the files individually. Nothing leaves your machine.</p>
+        <div class="empty-actions">
+          <label class="btn btn-primary">Select folder<input type="file" webkitdirectory directory multiple accept=".json,.md" hidden id="emptyFolder"></label>
+          <label class="btn">Select files<input type="file" multiple accept=".json,.md" hidden id="emptyFiles"></label>
+        </div>
+      </div>`;
+    resultLine.textContent = '';
+    const ef = document.getElementById('emptyFolder');
+    const ei = document.getElementById('emptyFiles');
+    if (ef) ef.addEventListener('change', e => readFiles(e.target.files));
+    if (ei) ei.addEventListener('change', e => readFiles(e.target.files));
+    return;
+  }
+
+  const list = getFiltered();
+
+  const activeFilters = [];
+  if (state.query) activeFilters.push(`“${state.query}”`);
+  if (state.jur !== 'all') activeFilters.push(JURISDICTIONS[state.jur].label);
+  if (state.lang !== 'all') activeFilters.push(LANGUAGES[state.lang]);
+  if (state.refOnly) activeFilters.push('reference-only');
+
+  resultLine.innerHTML =
+    `<span>${list.length} of ${state.files.length} files</span>` +
+    (activeFilters.length
+      ? `<span>· filtered by ${activeFilters.join(' · ')}</span><span class="clear-link" id="clearFilters">reset</span>`
+      : '');
+
+  const clear = document.getElementById('clearFilters');
+  if (clear) {
+    clear.addEventListener('click', () => {
+      state.query = '';
+      state.jur = 'all';
+      state.lang = 'all';
+      state.refOnly = false;
+      document.getElementById('searchInput').value = '';
+      document.getElementById('refOnlyChip').classList.remove('is-active');
+      document.querySelectorAll('#jurChips .chip').forEach(b => b.classList.toggle('is-active', b.dataset.jur === 'all'));
+      document.querySelectorAll('#langChips .chip').forEach(b => b.classList.toggle('is-active', b.dataset.lang === 'all'));
+      render();
+    });
+  }
+
+  if (!list.length) {
+    content.innerHTML = `
+      <div class="empty-state">
+        <h3>No files match</h3>
+        <p>Try a broader search term or reset the active filters.</p>
+      </div>`;
+    return;
+  }
+
+  let html = '';
+  if (state.sort === 'jurisdiction') {
+    const groups = new Map();
+    list.forEach(f => {
+      if (!groups.has(f._jur)) groups.set(f._jur, []);
+      groups.get(f._jur).push(f);
+    });
+    groups.forEach((items, key) => {
+      const jur = JURISDICTIONS[key];
+      const articleSum = items.reduce((n, f) => n + f._total, 0);
+      html += `
+        <div class="section-head">
+          <h2>${escapeHtml(jur.label)}</h2>
+          <p>${escapeHtml(jur.desc)}</p>
+          <div class="section-meta">${items.length} file${items.length === 1 ? '' : 's'} · ${formatNumber(articleSum)} articles</div>
+        </div>
+        <div class="law-grid">${items.map(cardHtml).join('')}</div>`;
+    });
+  } else {
+    html = `<div class="section-head" style="padding-top:24px"></div>
+            <div class="law-grid">${list.map(cardHtml).join('')}</div>`;
+  }
+
+  content.innerHTML = html;
+
+  content.querySelectorAll('.law-card').forEach(card => {
+    card.addEventListener('click', () => openModal(card.dataset.file));
+    card.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openModal(card.dataset.file); }
+    });
+  });
+}
+
+function cardHtml(f) {
+  const cov = f._coverage;
+  const covClass = f.reference_only ? 'none' : (cov >= 0.999 ? '' : (cov > 0 ? 'partial' : 'none'));
+  const covLabel = f.reference_only
+    ? 'reference only'
+    : `${f._inQdrant}/${f._total} in Qdrant`;
+
+  const eliPreview = (f.in_qdrant_eli || []).slice(0, 2).join(' · ') +
+    ((f.in_qdrant_eli || []).length > 2 ? ' · …' : '');
+
+  return `
+    <article class="law-card" data-jur="${f._jur}" data-ref="${f.reference_only ? 'true' : 'false'}"
+             data-file="${escapeHtml(f.file)}" tabindex="0">
+      <div class="law-top">
+        <div class="law-badge">${escapeHtml(f._jur)}</div>
+        <div class="law-headtext">
+          <h3 class="law-title">${escapeHtml(f._shortTitle || f.title)}</h3>
+          <div class="law-file">${escapeHtml(f.file)}</div>
+        </div>
+      </div>
+
+      <div class="law-meta">
+        <span class="lang-pill lang-${escapeHtml(f.language)}">${escapeHtml(f.language)}</span>
+        ${f.reference_only ? '<span class="ref-pill">reference only</span>' : ''}
+      </div>
+
+      <div class="coverage-row">
+        <div class="coverage-bar">
+          <div class="coverage-fill ${covClass}" style="width:${Math.round(cov * 100)}%"></div>
+        </div>
+        <span class="coverage-label">${covLabel}</span>
+      </div>
+
+      ${eliPreview ? `<div class="eli-preview">${escapeHtml(eliPreview)}</div>` : ''}
+
+      <div class="law-foot">
+        <span><span class="num">${f._total}</span> art</span>
+        <span><span class="num">${f._inQdrant}</span> qdrant</span>
+        ${f._missing ? `<span style="color:var(--status-flag)"><span class="num">${f._missing}</span> missing</span>` : ''}
+        <span class="spacer"></span>
+        <span>${escapeHtml(f.language.toUpperCase())}</span>
+      </div>
+    </article>`;
+}
+
+/* ==================================================================
+   MODAL
+   ================================================================== */
+function openModal(fileKey) {
+  const f = state.files.find(x => x.file === fileKey);
+  if (!f) return;
+  state.currentFile = f;
+
+  const header = document.getElementById('modalHeader');
+  const body = document.getElementById('modalBody');
+  const footerNote = document.getElementById('modalFooterNote');
+  const loadBtn = document.getElementById('modalLoadSource');
+
+  const badgeColor = f.reference_only ? 'conf-partial' : 'conf-confirmed';
+  header.innerHTML = `
+    <span class="modal-type-badge ${badgeColor}">
+      ${f.reference_only ? 'reference-only' : 'article-ingested'}
+    </span>
+    <h2 class="modal-title" id="modalTitle">${escapeHtml(f.title)}</h2>
+    <div class="modal-sub">${escapeHtml(f.file)}</div>
+  `;
+
+  const kv = [
+    ['Jurisdiction', JURISDICTIONS[f._jur].label],
+    ['Language', LANGUAGES[f.language] || f.language],
+    ['Articles (local)', formatNumber(f._total)],
+    ['In Qdrant', formatNumber(f._inQdrant)],
+    ['Missing', formatNumber(f._missing)],
+    ['Aliases', formatNumber(f._aliases)],
+    ['Coverage', f.reference_only ? '—' : `${Math.round(f._coverage * 100)}%`],
+    ['Basename in Qdrant', f.source_basename_present_in_qdrant ? 'yes' : 'no']
+  ];
+
+  let html = `<div class="modal-section">
+    <div class="modal-section-label">Metadata</div>
+    <dl class="kv-grid">
+      ${kv.map(([k, v]) => `<div class="kv"><dt>${escapeHtml(k)}</dt><dd>${escapeHtml(v)}</dd></div>`).join('')}
+    </dl>
+  </div>`;
+
+  if (f.reference_only) {
+    html += `<div class="modal-section">
+      <div class="modal-section-label">Notes</div>
+      <div class="ref-banner">
+        <strong>Kept as reference only.</strong>
+        ${escapeHtml(f.reference_note || 'Whole-code or institutional document with no article-level ELI headers — intentionally not article-ingested.')}
+      </div>
+    </div>`;
+  }
+
+  const elis = f.in_qdrant_eli || [];
+  if (elis.length) {
+    html += `<div class="modal-section">
+      <div class="modal-section-label">ELI identifiers · ${elis.length}${state.api ? ' <span class="edit-note" style="margin-left:8px">click one to review and edit its Qdrant payload</span>' : ''}</div>
+      <div class="eli-list">
+        ${elis.map(id => `<div class="eli-item${state.api ? ' is-clickable' : ''}" data-eli="${escapeHtml(id)}">${escapeHtml(id)}</div>`).join('')}
+      </div>
+    </div>`;
+  }
+
+  const missing = f.missing_eli || [];
+  if (missing.length) {
+    html += `<div class="modal-section">
+      <div class="modal-section-label" style="color:var(--status-flag)">Missing from Qdrant · ${missing.length}</div>
+      <div class="eli-list">
+        ${missing.map(id => `<div class="eli-item eli-missing${state.api ? ' is-clickable' : ''}" data-eli="${escapeHtml(id)}">${escapeHtml(id)}</div>`).join('')}
+      </div>
+    </div>`;
+  }
+
+  const aliases = f.alias_eli || [];
+  if (aliases.length) {
+    html += `<div class="modal-section">
+      <div class="modal-section-label" style="color:var(--status-analysis)">Alias identifiers · ${aliases.length}</div>
+      <div class="eli-list">
+        ${aliases.map(id => `<div class="eli-item eli-alias">${escapeHtml(id)}</div>`).join('')}
+      </div>
+    </div>`;
+  }
+
+  html += `<div class="modal-section">
+    <div class="modal-section-label">Source document</div>
+    <details class="source-doc" id="sourceDoc">
+      <summary>Show raw markdown from <span style="color:var(--accent)">${escapeHtml(f.file)}</span></summary>
+      <div class="source-body" id="sourceBody">
+        <div class="source-status">Click “Load source file” to fetch the file contents.</div>
+      </div>
+    </details>
+  </div>`;
+
+  body.innerHTML = html;
+  footerNote.textContent = `${f._filename} · ${JURISDICTIONS[f._jur].label}`;
+  loadBtn.style.display = 'inline-flex';
+  loadBtn.textContent = 'Load source file';
+
+  if (state.api) {
+    body.querySelectorAll('.eli-item[data-eli]').forEach(el => {
+      el.addEventListener('click', () => openArticle(el.dataset.eli));
+    });
+  }
+
+  document.getElementById('modalOverlay').classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeModal() {
+  document.getElementById('modalOverlay').classList.remove('active');
+  document.body.style.overflow = '';
+  state.currentFile = null;
+}
+
+/* ---------- Source fetch ---------- */
+async function loadSourceFile() {
+  const f = state.currentFile;
+  if (!f) return;
+  const body = document.getElementById('sourceBody');
+  const btn  = document.getElementById('modalLoadSource');
+
+  if (state.sourceCache[f.file]) {
+    body.innerHTML = renderMarkdown(state.sourceCache[f.file]);
+    document.getElementById('sourceDoc').open = true;
+    return;
+  }
+
+  btn.textContent = 'Loading…';
+  btn.disabled = true;
+  try {
+    let text = null;
+    if (state.api) {
+      try {
+        text = await apiFetch(`/source?path=${encodeURIComponent(f.file)}`, { asText: true });
+        if (typeof text !== 'string' || !text) text = null;
+      } catch (err) {
+        console.info('API source fetch failed, trying relative path.', err.message);
+      }
+    }
+    if (text === null) {
+      const res = await fetch(f.file, { cache: 'no-store' });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      text = await res.text();
+    }
+    state.sourceCache[f.file] = text;
+    body.innerHTML = renderMarkdown(text);
+    document.getElementById('sourceDoc').open = true;
+    btn.textContent = 'Reload source';
+  } catch (e) {
+    body.innerHTML = `<div class="source-status" style="color:var(--status-flag)">Could not fetch <code>${escapeHtml(f.file)}</code>. Serve this page from the corpus root, or open the file directly.</div>`;
+    btn.textContent = 'Retry';
+  } finally {
+    btn.disabled = false;
+  }
+}
+
+/* ==================================================================
+   MINI MARKDOWN RENDERER
+   ================================================================== */
+function inlineMd(s) {
+  return escapeHtml(s)
+    .replace(/`([^`]+)`/g, '<code>$1</code>')
+    .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+    .replace(/(^|[^*])\*([^*\n]+)\*/g, '$1<em>$2</em>')
+    .replace(/\[\[([^\]]+)\]\]/g, '<span class="wikilink">$1</span>');
+}
+
+function splitRow(line) {
+  return line.trim().replace(/^\|/, '').replace(/\|$/, '').split('|').map(c => c.trim());
+}
+
+function renderMarkdown(md) {
+  const lines = (md || '').split(/\r?\n/);
+  const out = [];
+  let i = 0;
+
+  while (i < lines.length) {
+    const line = lines[i];
+
+    if (/^\s*$/.test(line)) { i++; continue; }
+
+    if (/^\s*\|/.test(line) && i + 1 < lines.length && /^\s*\|[\s\-:|]+\|\s*$/.test(lines[i + 1])) {
+      const head = splitRow(line);
+      i += 2;
+      const rows = [];
+      while (i < lines.length && /^\s*\|/.test(lines[i])) { rows.push(splitRow(lines[i])); i++; }
+      out.push(
+        '<table class="md-table"><thead><tr>' +
+        head.map(h => `<th>${inlineMd(h)}</th>`).join('') +
+        '</tr></thead><tbody>' +
+        rows.map(r => '<tr>' + r.map(c => `<td>${inlineMd(c)}</td>`).join('') + '</tr>').join('') +
+        '</tbody></table>'
+      );
+      continue;
+    }
+
+    const h = line.match(/^(#{1,6})\s+(.*)$/);
+    if (h) {
+      const lvl = h[1].length;
+      out.push(`<h${lvl} class="md-h md-h${lvl}">${inlineMd(h[2])}</h${lvl}>`);
+      i++; continue;
+    }
+
+    if (/^>\s?/.test(line)) {
+      const buf = [];
+      while (i < lines.length && /^>\s?/.test(lines[i])) {
+        buf.push(lines[i].replace(/^>\s?/, ''));
+        i++;
+      }
+      out.push('<blockquote class="md-quote">' + buf.map(inlineMd).join('<br>') + '</blockquote>');
+      continue;
+    }
+
+    if (/^\s*-{3,}\s*$/.test(line)) { out.push('<hr class="md-hr">'); i++; continue; }
+
+    if (/^\s*[-*]\s+/.test(line)) {
+      const buf = [];
+      while (i < lines.length && /^\s*[-*]\s+/.test(lines[i])) {
+        buf.push(lines[i].replace(/^\s*[-*]\s+/, ''));
+        i++;
+      }
+      out.push('<ul class="md-ul">' + buf.map(b => `<li>${inlineMd(b)}</li>`).join('') + '</ul>');
+      continue;
+    }
+
+    const buf = [];
+    while (
+      i < lines.length &&
+      !/^\s*$/.test(lines[i]) &&
+      !/^(#{1,6}\s|>|\s*[-*]\s|\s*\||\s*-{3,}\s*$)/.test(lines[i])
+    ) {
+      buf.push(lines[i]);
+      i++;
+    }
+    if (buf.length) out.push('<p class="md-p">' + buf.map(inlineMd).join(' ') + '</p>');
+    else i++;
+  }
+
+  return out.join('\n');
+}
+
+/* ==================================================================
+   REGISTRY SOURCE MODAL
+   ================================================================== */
+function openRegistrySource() {
+  if (!state.registryMd) {
+    alert('LAW_REGISTRY.md was not loaded. Load it along with law_registry.json.');
+    return;
+  }
+  const header = document.getElementById('modalHeader');
+  const body = document.getElementById('modalBody');
+  const footerNote = document.getElementById('modalFooterNote');
+  const loadBtn = document.getElementById('modalLoadSource');
+
+  header.innerHTML = `
+    <span class="modal-type-badge conf-confirmed">source document</span>
+    <h2 class="modal-title" id="modalTitle">LAW_REGISTRY.md</h2>
+    <div class="modal-sub">Human-readable corpus registry · per-file coverage</div>
+  `;
+  body.innerHTML = `<div class="source-body" style="padding:0;max-height:640px;overflow-y:auto">${renderMarkdown(state.registryMd)}</div>`;
+  footerNote.textContent = 'LAW_REGISTRY.md';
+  loadBtn.style.display = 'none';
+  state.currentFile = null;
+  document.getElementById('modalOverlay').classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+/* ==================================================================
+   INDEX CONTROL (API)
+   ================================================================== */
+function selectedTarget() {
+  const el = document.querySelector('input[name="indexTarget"]:checked');
+  return el ? el.value : 'local';
+}
+
+function pendingFor(status, target) {
+  if (!status) return null;
+  const local = status.local || {};
+  const canonical = status.canonical || {};
+  if (target === 'local') return local.exists ? (local.missing || 0) : null;
+  if (target === 'canonical') return canonical.missing || 0;
+  return (local.exists ? (local.missing || 0) : 0) + (canonical.missing || 0);
+}
+
+function collectionLabel(target) {
+  const collections = (state.status && {
+    local: [state.status.local.collection],
+    canonical: [state.status.canonical.collection, state.status.canonical.collection + '_bm25'],
+    both: [state.status.local.collection, state.status.canonical.collection]
+  }) || { local: ['transcription_law'], canonical: ['la8159_law'], both: [] };
+  return (collections[target] || []).join(' + ');
+}
+
+function renderIndexButton() {
+  const btn = document.getElementById('indexBtn');
+  const count = document.getElementById('indexBtnCount');
+  const pendingBtn = document.getElementById('indexPendingBtn');
+  const forceBtn = document.getElementById('indexForceBtn');
+
+  if (!state.api) {
+    btn.setAttribute('aria-disabled', 'true');
+    btn.title = 'API unavailable — this page is in read-only file mode.';
+    count.textContent = '';
+    return;
+  }
+  btn.removeAttribute('aria-disabled');
+  btn.removeAttribute('title');
+
+  const target = selectedTarget();
+  const pending = pendingFor(state.status, target);
+  const busy = state.job && (state.job.state === 'running' || state.job.state === 'queued');
+
+  // The payload reviewer follows the active target; “both” reviews the local copy.
+  state.payloadCollection = target === 'canonical'
+    ? ((state.status && state.status.canonical.collection) || 'la8159_law')
+    : ((state.status && state.status.local.collection) || 'transcription_law');
+
+  if (busy) {
+    count.textContent = '· running';
+  } else if (pending === 0) {
+    count.textContent = '· up to date';
+  } else if (pending === null) {
+    count.textContent = '';
+  } else {
+    count.textContent = `· ${formatNumber(pending)} pending`;
+  }
+
+  const collection = collectionLabel(target);
+  pendingBtn.querySelector('span').textContent =
+    pending
+      ? `Embed the ${formatNumber(pending)} article(s) missing from ${collection}.`
+      : `Nothing missing from ${collection} — this will be a no-op.`;
+  forceBtn.querySelector('span').textContent =
+    `Re-embed all ${formatNumber((state.status && state.status.unique_elis) || 0)} article(s) and rewrite every payload in ${collection}.`;
+
+  const recreate = document.getElementById('optRecreate');
+  if (target !== 'local') {
+    recreate.checked = false;
+    recreate.disabled = true;
+  } else {
+    recreate.disabled = false;
+  }
+}
+
+function openIndexMenu() {
+  document.getElementById('indexMenu').classList.add('active');
+  document.getElementById('indexBtn').setAttribute('aria-expanded', 'true');
+}
+
+function closeIndexMenu() {
+  document.getElementById('indexMenu').classList.remove('active');
+  document.getElementById('indexBtn').setAttribute('aria-expanded', 'false');
+}
+
+async function refreshStatus(quiet = true) {
+  if (!state.api) return null;
+  try {
+    state.status = await apiFetch('/status');
+    renderIndexButton();
+    syncPayloadCollectionOptions();
+    if (!state.job && state.status.active_job) {
+      state.job = state.status.active_job;
+      renderJobPanel();
+      pollJob(state.status.active_job.id);
+    }
+    return state.status;
+  } catch (e) {
+    if (!quiet) toast(`Could not read index status: <code>${escapeHtml(e.message)}</code>`, 'error');
+    return null;
+  }
+}
+
+async function startIndex(mode) {
+  const target = selectedTarget();
+  const dryRun = document.getElementById('optDryRun').checked;
+  const recreate = document.getElementById('optRecreate').checked;
+  const collection = collectionLabel(target);
+
+  if (recreate && mode === 'incremental') {
+    toast('“Recreate collection” only applies to full forced ingestion.', 'error');
+    return;
+  }
+
+  if (mode === 'force') {
+    const warning = target === 'local'
+      ? `Re-embed all ${formatNumber((state.status && state.status.unique_elis) || 0)} articles into ${collection}?`
+      : `Re-ingest the entire corpus into the SHARED production collection(s) ${collection}?`;
+    const detail = target === 'local'
+      ? (recreate ? '\n\nThe local collection will be dropped and rebuilt from scratch.' : '\n\nEvery existing vector will be recomputed.')
+      : '\n\nDense vectors on existing points are preserved (set_payload only); BM25 sparse vectors are regenerated.';
+    if (!confirm(warning + detail)) return;
+  }
+
+  if (!dryRun && target !== 'local') {
+    const effect = mode === 'force'
+      ? 'Existing dense vectors and point IDs are preserved, and no point is deleted — but every payload will be refreshed and the BM25 sparse vectors regenerated.'
+      : 'Nothing already in the collection is rewritten: only articles that are not there yet are added. Existing payloads and vectors are left exactly as they are.';
+    const ok = confirm(
+      `Write to the shared production collections?\n\n${collection}\n\n` +
+      `This mutates data other projects read. ${effect}\n\nProceed?`
+    );
+    if (!ok) return;
+  }
+
+  closeIndexMenu();
+  try {
+    const job = await apiFetch('/index', {
+      method: 'POST',
+      body: JSON.stringify({
+        mode,
+        target,
+        dry_run: dryRun,
+        recreate_local: recreate,
+        confirm: target === 'local' ? false : true
+      })
+    });
+    state.job = job;
+    renderJobPanel();
+    pollJob(job.id);
+  } catch (e) {
+    toast(`Could not start ingestion: <code>${escapeHtml(e.message)}</code>`, 'error');
+  }
+}
+
+function pollJob(jobId) {
+  clearTimeout(state.pollTimer);
+  state.pollTimer = setTimeout(async () => {
+    try {
+      const job = await apiFetch(`/index/${jobId}`);
+      state.job = job;
+      renderJobPanel();
+      renderIndexButton();
+      if (job.state === 'queued' || job.state === 'running') {
+        pollJob(jobId);
+      } else {
+        onJobFinished(job);
+      }
+    } catch (e) {
+      toast(`Lost track of job ${escapeHtml(jobId)}: <code>${escapeHtml(e.message)}</code>`, 'error');
+    }
+  }, 900);
+}
+
+async function onJobFinished(job) {
+  if (job.state === 'done') {
+    const stats = job.result && job.result.targets ? Object.keys(job.result.targets).join(', ') : '';
+    toast(`Ingestion finished (${escapeHtml(stats)}).`, 'ok');
+  } else if (job.state === 'cancelled') {
+    toast('Ingestion cancelled.', 'error');
+  } else {
+    toast(`Ingestion failed: <code>${escapeHtml(job.error || 'unknown error')}</code>`, 'error', 0);
+  }
+  await refreshStatus();
+  if (!(job.request && job.request.dry_run)) {
+    await reloadRegistryData();
+  }
+}
+
+async function reloadRegistryData() {
+  if (!state.api) return;
+  try {
+    const [data, md] = await Promise.all([
+      apiFetch('/registry'),
+      apiFetch('/registry/markdown', { asText: true }).catch(() => '')
+    ]);
+    if (data && data.files) ingestRegistry(data, typeof md === 'string' ? md : '');
+  } catch (e) {
+    console.warn('Registry reload failed', e);
+  }
+}
+
+async function cancelJob() {
+  if (!state.job) return;
+  try {
+    state.job = await apiFetch(`/index/${state.job.id}/cancel`, { method: 'POST' });
+    renderJobPanel();
+  } catch (e) {
+    toast(`Could not cancel: <code>${escapeHtml(e.message)}</code>`, 'error');
+  }
+}
+
+async function refreshRegistryArtifacts() {
+  const btn = document.getElementById('refreshRegistryBtn');
+  btn.disabled = true;
+  btn.textContent = 'Refreshing…';
+  try {
+    const res = await apiFetch('/registry/refresh', { method: 'POST' });
+    toast(
+      `Registry rewritten (${res.ok ? 'coverage complete' : 'coverage gaps remain'}).<br>` +
+      `<code>${escapeHtml(basename(res.json))}</code> · <code>${escapeHtml(basename(res.markdown))}</code>`,
+      res.ok ? 'ok' : 'error'
+    );
+    await Promise.all([reloadRegistryData(), refreshStatus()]);
+  } catch (e) {
+    toast(`Refresh failed: <code>${escapeHtml(e.message)}</code>`, 'error');
+  } finally {
+    btn.disabled = false;
+    btn.textContent = 'Refresh registry';
+  }
+}
+
+function jobStateLabel(state) {
+  return { queued: 'queued', running: 'running', done: 'completed', error: 'failed', cancelled: 'cancelled' }[state] || state;
+}
+
+function renderJobPanel() {
+  const panel = document.getElementById('jobPanel');
+  const job = state.job;
+
+  if (!job) {
+    panel.classList.remove('active');
+    panel.innerHTML = '';
+    return;
+  }
+
+  panel.classList.add('active');
+  panel.classList.toggle('is-error', job.state === 'error' || job.state === 'cancelled');
+  panel.classList.toggle('is-done', job.state === 'done');
+
+  const live = job.state === 'running' || job.state === 'queued';
+  const req = job.request || {};
+  const started = job.started_at ? new Date(job.started_at).toLocaleTimeString() : '—';
+
+  let html = `
+    <div class="job-head">
+      <span class="job-state">${escapeHtml(jobStateLabel(job.state))}</span>
+      <span class="job-title">
+        ${escapeHtml(req.mode === 'force' ? 'Full forced ingestion' : 'Incremental — not yet indexed')}
+        ${req.dry_run ? '· dry run' : ''}
+      </span>
+      <span class="job-request">${escapeHtml((req.targets || []).join(' + '))} · ${escapeHtml(job.id)} · started ${escapeHtml(started)}</span>
+    </div>`;
+
+  if (req.dry_run) {
+    html += `<div class="edit-note">Dry run — nothing is written. The figures below are what a real run would do.</div>`;
+  }
+
+  if (live && !(job.phases || []).length) {
+    html += `<div class="job-phase">
+      <div class="job-phase-head"><span>Parsing corpus…</span><span class="mono">starting</span></div>
+      <div class="job-bar"><div class="job-fill indeterminate"></div></div>
+    </div>`;
+  }
+
+  (job.phases || []).forEach(p => {
+    html += `<div class="job-phase">
+      <div class="job-phase-head">
+        <span>${escapeHtml(p.phase)}</span>
+        <span class="mono">${formatNumber(p.done)} / ${formatNumber(p.total)} · ${p.percent}%</span>
+      </div>
+      <div class="job-bar"><div class="job-fill" style="width:${p.percent}%"></div></div>
+    </div>`;
+  });
+
+  const targets = job.result && job.result.targets;
+  if (targets) {
+    if (job.result.corpus) {
+      html += `<div class="job-target-label">Corpus · ${formatNumber(job.result.corpus.files)} files · ` +
+              `${formatNumber(job.result.corpus.unique_elis)} unique ELIs</div>`;
+    }
+    Object.entries(targets).forEach(([name, s]) => {
+      html += `<div class="job-target-label">${escapeHtml(s.target || name)} → ${escapeHtml(collectionLabel(name) || name)}</div>
+        <dl class="job-stats">
+          <div class="job-stat"><dt>scanned</dt><dd>${formatNumber(s.scanned)}</dd></div>
+          <div class="job-stat"><dt>created</dt><dd>${formatNumber(s.created)}</dd></div>
+          <div class="job-stat"><dt>updated</dt><dd>${formatNumber(s.updated)}</dd></div>
+          <div class="job-stat"><dt>skipped</dt><dd>${formatNumber(s.skipped)}</dd></div>
+          <div class="job-stat"><dt>embedded</dt><dd>${formatNumber(s.embedded)}</dd></div>
+          <div class="job-stat"><dt>failed</dt><dd style="${s.failed ? 'color:var(--status-flag)' : ''}">${formatNumber(s.failed)}</dd></div>
+        </dl>`;
+      (s.notes || []).forEach(n => { html += `<div class="job-note">· ${escapeHtml(n)}</div>`; });
+      if ((s.failures || []).length) {
+        html += `<div class="job-failures">${s.failures.map(f =>
+          `<div class="job-failure">${escapeHtml(f.reason || 'failure')} · <code>${escapeHtml(f.original_id || '')}</code><br>${escapeHtml(f.error || '')}</div>`
+        ).join('')}</div>`;
+      }
+    });
+  }
+
+  if (job.error) {
+    html += `<div class="edit-warn" style="margin-top:12px"><strong>${escapeHtml(jobStateLabel(job.state))}:</strong> ${escapeHtml(job.error)}</div>`;
+  }
+
+  html += `<div class="edit-actions">
+    ${live ? '<button class="btn btn-ghost" id="jobCancelBtn">Cancel</button>' : '<button class="btn btn-ghost" id="jobDismissBtn">Dismiss</button>'}
+  </div>`;
+
+  panel.innerHTML = html;
+
+  const cancelBtn = document.getElementById('jobCancelBtn');
+  if (cancelBtn) cancelBtn.addEventListener('click', cancelJob);
+  const dismissBtn = document.getElementById('jobDismissBtn');
+  if (dismissBtn) dismissBtn.addEventListener('click', () => { clearTimeout(state.pollTimer); state.job = null; renderJobPanel(); renderIndexButton(); });
+}
+
+/* ==================================================================
+   PAYLOAD REVIEW + EDITOR (API)
+   ================================================================== */
+function diffBadge(kind) {
+  if (!kind) return '';
+  const labels = { exact: 'matches corpus', whitespace: 'whitespace only', drift: 'differs from corpus' };
+  if (!labels[kind]) return '';
+  return `<span class="diff-badge d-${kind}">${labels[kind]}</span>`;
+}
+
+function valueCell(key, value, diff) {
+  if (value === null || value === undefined) return '<span class="is-null">absent</span>';
+  const text = typeof value === 'object' ? JSON.stringify(value, null, 2) : String(value);
+  if (key === 'content' || key === 'text') {
+    const chars = String(value).length;
+    return `<div>${diffBadge(diff)}</div>
+      <div style="max-height:200px;overflow-y:auto;white-space:pre-wrap;font-family:var(--mono);font-size:.7rem;line-height:1.7">${escapeHtml(text.slice(0, 4000))}${text.length > 4000 ? '\n…' : ''}</div>
+      <div class="edit-note">${formatNumber(chars)} chars</div>`;
+  }
+  return escapeHtml(text) + diffBadge(diff);
+}
+
+function payloadTable(payload, diff, nested) {
+  const NESTED = ['original_data', 'metadata'];
+  const keys = Object.keys(payload);
+  if (!keys.length) return '<div class="edit-note">Empty payload.</div>';
+  return `<div class="payload-table">${keys.map(key => {
+    const value = payload[key];
+    const isObject = value && typeof value === 'object';
+    let row = `<div class="pt-row">
+      <div class="pt-key">${escapeHtml(key)}</div>
+      <div class="pt-val ${isObject ? 'is-object' : ''} ${value === null ? 'is-null' : ''}">${valueCell(key, value, diff && diff[key])}</div>
+    </div>`;
+    if (nested && isObject && NESTED.includes(key)) row += payloadTable(value, null, false);
+    return row;
+  }).join('')}</div>`;
+}
+
+function renderArticleModal() {
+  const article = state.payload;
+  const body = document.getElementById('modalBody');
+  const header = document.getElementById('modalHeader');
+  const footerNote = document.getElementById('modalFooterNote');
+  const loadBtn = document.getElementById('modalLoadSource');
+
+  if (!article) return;
+
+  header.innerHTML = `
+    <span class="modal-type-badge ${article.indexed ? 'conf-confirmed' : 'conf-partial'}">
+      ${article.indexed ? 'indexed' : 'not indexed'}
+    </span>
+    <h2 class="modal-title" id="modalTitle">${escapeHtml(article.original_id)}</h2>
+    <div class="modal-sub">${escapeHtml(article.collection)}${article.point_id ? ' · ' + escapeHtml(article.point_id) : ''}</div>
+  `;
+
+  footerNote.textContent = article.original_id;
+  loadBtn.style.display = 'none';
+
+  const editable = article.editable_fields || [];
+  const live = article.live || null;
+  const expected = article.expected || null;
+  const diff = article.diff || {};
+
+  let html = `<div class="modal-section">
+    <div class="modal-section-label">Payload structure</div>
+    <div class="payload-toolbar">
+      <button class="tab ${state.payloadTab === 'live' ? 'is-active' : ''}" data-tab="live">Live in Qdrant</button>
+      <button class="tab ${state.payloadTab === 'expected' ? 'is-active' : ''}" data-tab="expected">From corpus</button>
+      <button class="tab ${state.payloadTab === 'raw' ? 'is-active' : ''}" data-tab="raw">Raw JSON</button>
+      <label class="payload-target" title="Which collection this payload is read from and written to">
+        <span>Collection</span>
+        <select id="payloadCollectionSelect">
+          ${payloadCollectionOptions(article.collection).map(name => `
+            <option value="${escapeHtml(name)}" ${name === article.collection ? 'selected' : ''}>${escapeHtml(name)}</option>`).join('')}
+        </select>
+      </label>
+      <span class="payload-state ${article.indexed ? 'is-live' : 'is-absent'}">
+        ${article.indexed ? 'point present' : 'point absent — nothing to edit yet'}
+      </span>
+    </div>`;
+
+  if (!article.indexed) {
+    html += `<div class="edit-warn">
+      <strong>This article is not in ${escapeHtml(article.collection)}.</strong>
+      Editing requires an existing point, because creating one would need a real embedding vector.
+      Use <strong>Index&nbsp;→ Index not yet indexed</strong> to embed it first.
+    </div>`;
+  }
+
+  if (state.payloadTab === 'raw') {
+    html += `<div class="payload-table"><div class="pt-row"><div class="pt-key">${escapeHtml(article.collection)}</div>
+      <div class="pt-val is-object">${escapeHtml(JSON.stringify({ live, expected, diff }, null, 2))}</div></div></div>`;
+  } else if (state.payloadTab === 'expected') {
+    html += expected
+      ? payloadTable(expected, null, true)
+      : '<div class="edit-note">No corpus block found for this ELI.</div>';
+  } else {
+    html += live
+      ? payloadTable(live, diff, true)
+      : '<div class="edit-note">No payload — the point does not exist.</div>';
+  }
+  html += '</div>';
+
+  // ---- Editor -------------------------------------------------------
+  if (live) {
+    const source = article.corpus || {};
+    const value = (key) => (live[key] !== undefined && live[key] !== null)
+      ? String(live[key])
+      : (source[key] !== undefined && source[key] !== null ? String(source[key]) : '');
+
+    html += `<div class="modal-section">
+      <div class="modal-section-label">Edit payload
+        ${Object.keys(diff).length ? '<span class="edit-note" style="margin-left:8px">fields marked “differs from corpus” are out of sync with the Markdown source</span>' : ''}
+      </div>
+      <div class="edit-warn" style="margin-bottom:12px">
+        Writing here updates the Qdrant payload only — the Markdown in <code>${escapeHtml(article.corpus ? article.corpus.source_path : 'data/law')}</code> is not touched,
+        and edits are lost if the corpus is re-ingested. <strong>Dense vectors and point IDs are never modified.</strong>
+      </div>
+      <div class="edit-grid">
+        ${editable.filter(k => k !== 'content').map(key => `
+          <div class="edit-field">
+            <label for="edit-${escapeHtml(key)}">${escapeHtml(key)}</label>
+            <input class="edit-input" id="edit-${escapeHtml(key)}" data-field="${escapeHtml(key)}"
+                   value="${escapeHtml(value(key))}" spellcheck="false">
+          </div>`).join('')}
+        ${editable.includes('content') ? `
+          <div class="edit-field">
+            <label for="edit-content">content <span class="req">·</span> <span class="edit-note">editing this re-derives <code>text</code> and <code>sha256_short</code></span></label>
+            <textarea class="edit-textarea" id="edit-content" data-field="content" spellcheck="false">${escapeHtml(value('content'))}</textarea>
+          </div>` : ''}
+      </div>
+      <div class="edit-actions">
+        <button class="btn btn-accent" id="savePayloadBtn">Save payload</button>
+        <button class="btn btn-ghost" id="revertPayloadBtn">Revert</button>
+        <span class="dirty-count" id="dirtyCount"></span>
+      </div>
+    </div>`;
+  }
+
+  body.innerHTML = html;
+
+  body.querySelectorAll('.tab').forEach(tab => {
+    tab.addEventListener('click', () => { state.payloadTab = tab.dataset.tab; renderArticleModal(); });
+  });
+
+  const collectionSelect = document.getElementById('payloadCollectionSelect');
+  if (collectionSelect) {
+    collectionSelect.addEventListener('change', () => openArticle(article.original_id, collectionSelect.value));
+  }
+
+  if (live) bindPayloadEditor(article);
+}
+
+function payloadCollectionOptions(current) {
+  const names = [];
+  const add = (name) => { if (name && !names.includes(name)) names.push(name); };
+  add(current);
+  add(state.status && state.status.canonical && state.status.canonical.collection);
+  add(state.status && state.status.local && state.status.local.collection);
+  return names;
+}
+
+// ``GET /status`` is the slowest call on the page (it validates the whole
+// corpus). If it lands after the modal opened, add the missing collection names
+// in place rather than re-rendering the modal, so in-progress edits survive.
+function syncPayloadCollectionOptions() {
+  const select = document.getElementById('payloadCollectionSelect');
+  if (!select || !state.status) return;
+  payloadCollectionOptions(select.value).forEach(name => {
+    if (!Array.from(select.options).some(o => o.value === name)) {
+      select.appendChild(new Option(name, name));
+    }
+  });
+}
+
+function bindPayloadEditor(article) {
+  const fields = Array.from(document.querySelectorAll('[data-field]'));
+  const count = document.getElementById('dirtyCount');
+  const original = {};
+  fields.forEach(el => {
+    original[el.dataset.field] = el.value;
+    el.addEventListener('input', () => {
+      el.classList.toggle('is-dirty', el.value !== original[el.dataset.field]);
+      const dirty = fields.filter(f => f.value !== original[f.dataset.field]);
+      count.textContent = dirty.length ? `${dirty.length} field(s) changed` : '';
+    });
+  });
+
+  document.getElementById('revertPayloadBtn').addEventListener('click', () => renderArticleModal());
+
+  document.getElementById('savePayloadBtn').addEventListener('click', async () => {
+    const btn = document.getElementById('savePayloadBtn');
+    const patch = {};
+    fields.forEach(el => {
+      if (el.value !== original[el.dataset.field]) patch[el.dataset.field] = el.value;
+    });
+    if (!Object.keys(patch).length) { toast('No changes to save.', 'error'); return; }
+
+    btn.disabled = true;
+    btn.textContent = 'Saving…';
+    try {
+      const res = await apiFetch('/payload', {
+        method: 'PATCH',
+        body: JSON.stringify({ original_id: article.original_id, fields: patch, collection: article.collection })
+      });
+      toast(`Updated <code>${escapeHtml(article.original_id)}</code> in ${escapeHtml(res.collection)} — ${Object.keys(patch).length} field(s).`, 'ok');
+      state.payload = await apiFetch(
+        `/article?original_id=${encodeURIComponent(article.original_id)}&collection=${encodeURIComponent(article.collection)}`
+      );
+      renderArticleModal();
+      await refreshStatus();
+    } catch (e) {
+      toast(`Save failed: <code>${escapeHtml(e.message)}</code>`, 'error');
+    } finally {
+      btn.disabled = false;
+      btn.textContent = 'Save payload';
+    }
+  });
+}
+
+async function openArticle(originalId, collection) {
+  const body = document.getElementById('modalBody');
+  if (collection) state.payloadCollection = collection;
+  body.innerHTML = '<div class="source-status">Loading payload…</div>';
+  document.getElementById('modalOverlay').classList.add('active');
+  document.body.style.overflow = 'hidden';
+  state.currentFile = null;
+  state.payloadTab = 'live';
+  try {
+    state.payload = await apiFetch(
+      `/article?original_id=${encodeURIComponent(originalId)}&collection=${encodeURIComponent(state.payloadCollection)}`
+    );
+    renderArticleModal();
+  } catch (e) {
+    document.getElementById('modalHeader').innerHTML =
+      `<span class="modal-type-badge conf-partial">unavailable</span>
+       <h2 class="modal-title" id="modalTitle">${escapeHtml(originalId)}</h2>`;
+    body.innerHTML = `<div class="edit-warn">Could not load this payload: ${escapeHtml(e.message)}</div>`;
+  }
+}
+
+/* ==================================================================
+   EVENT BINDING
+   ================================================================== */
+function bindUI() {
+  let debounce;
+  document.getElementById('searchInput').addEventListener('input', (e) => {
+    clearTimeout(debounce);
+    const val = e.target.value;
+    debounce = setTimeout(() => { state.query = val.trim(); render(); }, 120);
+  });
+
+  document.getElementById('sortSelect').addEventListener('change', (e) => {
+    state.sort = e.target.value;
+    render();
+  });
+
+  document.getElementById('refOnlyChip').addEventListener('click', (e) => {
+    state.refOnly = !state.refOnly;
+    e.currentTarget.classList.toggle('is-active', state.refOnly);
+    render();
+  });
+
+  document.getElementById('modalClose').addEventListener('click', closeModal);
+  document.getElementById('modalOverlay').addEventListener('click', (e) => {
+    if (e.target.id === 'modalOverlay') closeModal();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && document.getElementById('modalOverlay').classList.contains('active')) closeModal();
+  });
+
+  document.getElementById('modalLoadSource').addEventListener('click', loadSourceFile);
+  document.getElementById('registryBtn').addEventListener('click', openRegistrySource);
+  document.getElementById('refreshRegistryBtn').addEventListener('click', () => {
+    if (!state.api) { toast('API unavailable — cannot refresh the registry from here.', 'error'); return; }
+    refreshRegistryArtifacts();
+  });
+
+  // Index button + its mode menu
+  const indexBtn = document.getElementById('indexBtn');
+  indexBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    if (!state.api) {
+      toast('API unavailable — start the app and open <code>/law-registry</code> to index.', 'error');
+      return;
+    }
+    refreshStatus();
+    if (document.getElementById('indexMenu').classList.contains('active')) closeIndexMenu();
+    else openIndexMenu();
+  });
+  document.getElementById('indexMenu').addEventListener('click', (e) => e.stopPropagation());
+  document.addEventListener('click', closeIndexMenu);
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeIndexMenu(); });
+
+  document.getElementById('indexPendingBtn').addEventListener('click', () => startIndex('incremental'));
+  document.getElementById('indexForceBtn').addEventListener('click', () => startIndex('force'));
+  document.querySelectorAll('input[name="indexTarget"]').forEach(el => {
+    el.addEventListener('change', renderIndexButton);
+  });
+  document.getElementById('optRecreate').addEventListener('change', renderIndexButton);
+
+  document.getElementById('folderInput').addEventListener('change', e => readFiles(e.target.files));
+  document.getElementById('fileInput').addEventListener('change', e => readFiles(e.target.files));
+
+  const dz = document.getElementById('dropzone');
+  let dragDepth = 0;
+  window.addEventListener('dragenter', (e) => {
+    e.preventDefault();
+    dragDepth++;
+    if (e.dataTransfer && Array.from(e.dataTransfer.types || []).includes('Files')) {
+      dz.classList.add('active');
+    }
+  });
+  window.addEventListener('dragover', (e) => e.preventDefault());
+  window.addEventListener('dragleave', (e) => {
+    e.preventDefault();
+    dragDepth = Math.max(0, dragDepth - 1);
+    if (dragDepth === 0) dz.classList.remove('active');
+  });
+  window.addEventListener('drop', (e) => {
+    e.preventDefault();
+    dragDepth = 0;
+    dz.classList.remove('active');
+    if (e.dataTransfer && e.dataTransfer.files && e.dataTransfer.files.length) {
+      readFiles(e.dataTransfer.files);
+    }
+  });
+}
+
+/* ==================================================================
+   INIT
+   ================================================================== */
+async function init() {
+  bindUI();
+  render();
+  await detectApi();
+  await loadFromServer();
+  if (state.api) {
+    await refreshStatus();
+  }
+  renderIndexButton();
+}
+
+document.addEventListener('DOMContentLoaded', init);
+</script>
+</body>
+</html>

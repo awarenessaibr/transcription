@@ -1,0 +1,842 @@
+{
+  "transcript_id": "I-002_02_NAR-02_STG_2_boarding_gate",
+  "source_file": "",
+  "language": "es",
+  "timestamp": "2024-07-05T13:08:31",
+  "provider": "",
+  "original_transcript_id": "I-002_02_NAR-02_STG_2_boarding_gate",
+  "metadata": {
+    "timestamps": {
+      "QuickTime_Movie_Header_Created": "2024-07-05T20:08:31.000Z",
+      "File_Modified_Date": "2025-07-06T15:53:46.000Z"
+    },
+    "audio_properties": {
+      "duration": "00:04:42.688",
+      "track_id": "48000",
+      "preferred_volume": "1"
+    },
+    "file_info": {
+      "file_size": "2423926 bytes",
+      "file_size_kb": "2367.12 KB",
+      "major_brand": "M4A",
+      "content_type": "audio/mp4",
+      "file_name": "aeropuerto_STG_2.m4a"
+    },
+    "ontology_node_id": "TRNS_a51eca2c",
+    "ontology_schema_version": "2.3.1"
+  },
+  "title": "Aeropuerto Arturo Merino Benítez 2 — FINAL v2",
+  "subtitle": "Boarding Gate",
+  "recording_datetime": "2024-07-05T13:08:00",
+  "location": "Arturo Merino Benítez International Airport (SCL), Santiago, Chile — Boarding Gate",
+  "audio_id": "aeropuerto_STG_2",
+  "case_id": "I-002",
+  "narrative_id": "NAR-02_STG_2_boarding_gate",
+  "chronological_order": 2,
+  "prior_stage": "I-002_01_NAR-01_STG_1_pre_boarding",
+  "next_stage": "I-002_03_NAR-05_STG_5_aircraft_removal",
+  "classification": "Attorney Work Product — Privileged and Confidential",
+  "participants": [
+    {
+      "canonical_name": "Leandro Disconzi",
+      "role": "Passenger",
+      "speaker_label": "Passenger (Leandro Disconzi)",
+      "speaker_id": "SPK-passenger-leandro"
+    },
+    {
+      "canonical_name": "Latam Gate Staff (NAR-02_STG_2_boarding_gate)",
+      "role": "Latam Gate Staff — initial greeter",
+      "speaker_label": "Latam Gate Staff",
+      "speaker_id": "SPK-latam-gate-staff-nar-02-stg-2-boarding-gate"
+    },
+    {
+      "canonical_name": "Latam Gate Staff (Acuser) (NAR-02_STG_2_boarding_gate)",
+      "role": "Latam Gate Staff — primary disputant, later accuser",
+      "speaker_label": "Latam Gate Staff (Acuser)",
+      "speaker_id": "SPK-latam-gate-staff-acuser-nar-02-stg-2-boarding-gate"
+    },
+    {
+      "canonical_name": "Latam Gate Staff 2 (NAR-02_STG_2_boarding_gate)",
+      "role": "Latam Gate Staff 2 — secondary staff, explains security crew delays",
+      "speaker_label": "Latam Gate Staff 2",
+      "speaker_id": "SPK-latam-gate-staff-2-nar-02-stg-2-boarding-gate"
+    },
+    {
+      "canonical_name": "Piloto (RUIZ) (NAR-02_STG_2_boarding_gate)",
+      "role": "Pilot — makes PA announcements",
+      "speaker_label": "Piloto (RUIZ)",
+      "speaker_id": "SPK-piloto-ruiz-nar-02-stg-2-boarding-gate"
+    }
+  ],
+  "violations_cited": [],
+  "tags": [
+    "transcript",
+    "narrative",
+    "evidence",
+    "boarding-gate",
+    "boarding-time-dispute",
+    "misleading-display"
+  ],
+  "forensic_clusters": {
+    "cluster_A_boarding_time_dispute": {
+      "segments": [
+        "0-4"
+      ],
+      "summary": "Passenger asks about boarding status. Staff initially says 'es su presentación'. Passenger points out the display says 'embarcando'. Staff contradicts: 'ah no, en unos minutos'. The core semantic dispute — 'boarding' vs. 'presentation time' — is established."
+    },
+    "cluster_B_definitional_battle": {
+      "segments": [
+        "5-14"
+      ],
+      "summary": "Passenger questions what 'embarque' actually means and asks for documentation. Staff repeatedly insists 'esa es la hora de presentación' without providing written proof. Passenger escalates: '¿Hay alguna documentación explicándolo? Porque me parece que es distinto.' Staff's only defense is repetition."
+    },
+    "cluster_C_delayed_flight_and_rushing": {
+      "segments": [
+        "15-17"
+      ],
+      "summary": "Passenger reveals the flight arrived late, and he had to rush and fight with PDI to get to the gate on time. He expresses frustration that LATAM could notify passengers of delays via the app but doesn't. The boarding display shows 'embarcando' when boarding hasn't actually started — the system is misleading."
+    },
+    "cluster_D_system_admission": {
+      "segments": [
+        "18-24"
+      ],
+      "summary": "Staff admits 'en este minuto nosotros vamos a empezar el embarco' confirming boarding hasn't started yet despite the display. Passenger's math (12:35 + 40 min = 13:15 departure) is dismissed. Staff says the 40-min rule is disclosed at purchase, not on the boarding pass. Passenger calls the system 'estupido'; staff laughs and says 'Claro'. Passenger escalates to 'es como un engaño' (it's like a deception)."
+    },
+    "cluster_E_second_staff_intervention": {
+      "segments": [
+        "25-28"
+      ],
+      "summary": "A second staff member intervenes, claiming 'ellos tienen otro tiempo' (the system shows a different time than the passenger's phone). Passenger counters that the correct time should be communicated to passengers. Staff 2 explains about waiting for the security crew. Passenger directly challenges: 'Pero tu entiende que no estas correcto?' Staff concedes: 'ah no po, no ta correcto' — an admission that the system is not correct."
+    },
+    "cluster_F_pilot_closure": {
+      "segments": [
+        "29-30"
+      ],
+      "summary": "Pilot Ruiz makes PA announcements welcoming passengers to flight A8159 to Brasilia and giving safety instructions. The recording ends mid-announcement."
+    }
+  },
+  "key_evidentiary_findings": [
+    {
+      "id": "S2-1",
+      "finding": "Boarding display showed 'embarcando' (boarding) when boarding had not actually begun — staff confirmed 'ah no, en unos minutos'",
+      "segments": [
+        "4"
+      ],
+      "strength": "High",
+      "cross_reference": "Supports pattern of misleading passenger-facing information systems"
+    },
+    {
+      "id": "S2-2",
+      "finding": "Staff provided no written documentation to support the distinction between 'boarding time' and 'presentation time' despite passenger's direct request",
+      "segments": [
+        "10",
+        "14"
+      ],
+      "strength": "High",
+      "cross_reference": "F-005 (documentation-refusal pattern)"
+    },
+    {
+      "id": "S2-3",
+      "finding": "Passenger had to 'correr y pelear con PDI' (run and fight with immigration) to reach the gate because the app showed boarding had started when it hadn't",
+      "segments": [
+        "16"
+      ],
+      "strength": "High",
+      "cross_reference": "Establishes emotional/physical toll caused by misleading boarding-time display"
+    },
+    {
+      "id": "S2-4",
+      "finding": "Staff laughed and agreed ('Claro') when passenger called the system 'estupido' — implicit acknowledgment of the misleading practice",
+      "segments": [
+        "23"
+      ],
+      "strength": "High",
+      "cross_reference": "Staff admission of system deficiency; captured on recording"
+    },
+    {
+      "id": "S2-5",
+      "finding": "Staff 2 admitted the system time differs from what passengers see: 'Ellos tienen otro tiempo al que le sale acá en su teléfono'",
+      "segments": [
+        "25"
+      ],
+      "strength": "Medium",
+      "cross_reference": "System-vs-reality discrepancy acknowledged by LATAM personnel"
+    },
+    {
+      "id": "S2-6",
+      "finding": "Staff conceded the system was not correct: 'ah no po, no ta correcto'",
+      "segments": [
+        "28"
+      ],
+      "strength": "High",
+      "cross_reference": "Direct staff admission that the boarding-time display system is incorrect"
+    },
+    {
+      "id": "S2-7",
+      "finding": "Passenger characterized the boarding-time display practice as 'un engaño' (a deception) — a direct allegation of misleading conduct",
+      "segments": [
+        "24"
+      ],
+      "strength": "High",
+      "cross_reference": "F-003 (manufactured pretext pattern) — the boarding-time display may serve as part of a broader system of passenger misinformation"
+    }
+  ],
+  "corrections_applied": [
+    {
+      "segment": "2, 7, 19",
+      "original": "lo embarque",
+      "corrected": "el embarque",
+      "reason": "Portuguese interference: 'o embarque' (Portuguese) rendered as 'lo embarque' in Portuñol. Passenger is a native Portuguese speaker; ASR captured the mixed form."
+    },
+    {
+      "segment": "8",
+      "original": "Nosotros comenzamos el enbarco y 40 minutos antes",
+      "corrected": "nosotros comenzamos el embarco 40 minutos antes",
+      "reason": "'enbarco' is ASR error for 'embarco'. Removed spurious 'y'."
+    },
+    {
+      "segment": "18",
+      "original": "Mira, neste minuto nosostros vamos impiezar en enbarco",
+      "corrected": "Mira, en este minuto nosotros vamos a empezar el embarco",
+      "reason": "Multiple Portuguese/ASR errors: 'neste'→'en este', 'nosostros'→'nosotros', 'impiezar'→'empezar', 'enbarco'→'embarco'"
+    },
+    {
+      "segment": "26",
+      "original": "pasageros",
+      "corrected": "pasajeros",
+      "reason": "ASR error: 'pasageros' is not standard Spanish"
+    },
+    {
+      "segment": "27",
+      "original": "dela aeronave",
+      "corrected": "de la aeronave",
+      "reason": "ASR concatenation error"
+    },
+    {
+      "segment": "30",
+      "original": "hasta que suelo condenar",
+      "corrected": "hasta que...",
+      "reason": "ASR error — text is unintelligible. Likely 'hasta que se los indiquemos' or similar pilot PA language. Truncated as recording ends."
+    },
+    {
+      "segment": "16",
+      "original": "Two separate segments (id 23, id 26) with overlapping content",
+      "corrected": "Merged into single segment (continuous passenger speech)",
+      "reason": "ASR diarization split passenger's continuous monologue into two entries; text overlap confirms continuity"
+    },
+    {
+      "segment": "19",
+      "original": "Two separate segments (id 29, id 30)",
+      "corrected": "Merged into single segment (continuous passenger speech)",
+      "reason": "Passenger's speech continues uninterrupted across the segment boundary"
+    },
+    {
+      "segment": "20",
+      "original": "Two separate staff segments (id 31, id 33) interrupted by passenger id 32",
+      "corrected": "Merged into single continuous staff speech; passenger id 32 placed as overlapping speech on segment 21",
+      "reason": "Staff's speech is continuous; passenger interjects during it"
+    }
+  ],
+  "segments": [
+    {
+      "index": 0,
+      "speaker": "passenger",
+      "start": 25.71,
+      "end": 28.97,
+      "duration": 3.26,
+      "text": "Voy a hacer otra pregunta a señora.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:08:25.710"
+    },
+    {
+      "index": 1,
+      "speaker": "airline_staff",
+      "start": 29.33,
+      "end": 30.1,
+      "duration": 0.77,
+      "text": "¿para embarcar?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:08:29.330"
+    },
+    {
+      "index": 2,
+      "speaker": "passenger",
+      "start": 30.03,
+      "end": 39.01,
+      "duration": 8.98,
+      "text": "Si no era una pregunta sobre... me gustaría entender lo embarque porque acá es 12.35",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:08:30.030"
+    },
+    {
+      "index": 3,
+      "speaker": "airline_staff",
+      "start": 38.0,
+      "end": 39.5,
+      "duration": 1.5,
+      "text": "es su presentación",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:08:38.000"
+    },
+    {
+      "index": 4,
+      "speaker": "passenger",
+      "start": 41.54,
+      "end": 44.53,
+      "duration": 2.99,
+      "text": "allí está diciendo que ya está embarcando",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:08:41.540"
+    },
+    {
+      "index": 5,
+      "speaker": "airline_staff",
+      "start": 44.53,
+      "end": 45.3,
+      "duration": 0.77,
+      "text": "en uns minutos si",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:08:44.530"
+    },
+    {
+      "index": 6,
+      "speaker": "passenger",
+      "start": 45.4,
+      "end": 46.5,
+      "duration": 1.1,
+      "text": "si, yo entiendo, pero",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:08:45.400"
+    },
+    {
+      "index": 7,
+      "speaker": "passenger",
+      "start": 47.0,
+      "end": 53.3,
+      "duration": 6.3,
+      "text": "lo que exactamente significa embarque? lo, lo el procedimiento de llegar acá? el procedimiento de entrar en el avión? ... ",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:08:47.000"
+    },
+    {
+      "index": 8,
+      "speaker": "airline_staff",
+      "start": 53.68,
+      "end": 54.4,
+      "duration": 0.72,
+      "text": "de llegar acá",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:08:53.680"
+    },
+    {
+      "index": 9,
+      "speaker": "passenger",
+      "start": 54.4,
+      "end": 55.28,
+      "duration": 0.88,
+      "text": "porque lo que veo",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:08:54.400"
+    },
+    {
+      "index": 10,
+      "speaker": "airline_staff",
+      "start": 55.3,
+      "end": 55.6,
+      "duration": 0.3,
+      "text": "aham",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:08:55.300"
+    },
+    {
+      "index": 11,
+      "speaker": "passenger",
+      "start": 55.6,
+      "end": 59.0,
+      "duration": 3.4,
+      "text": "Yo estoy como por acá con la Latam.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:08:55.600"
+    },
+    {
+      "index": 12,
+      "speaker": "airline_staff",
+      "start": 59.2,
+      "end": 60.5,
+      "duration": 1.3,
+      "text": "ah, ok.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:08:59.200"
+    },
+    {
+      "index": 13,
+      "speaker": "passenger",
+      "start": 60.6,
+      "end": 67.16,
+      "duration": 6.56,
+      "text": "Lo que veo es que este vuelo que llegó, que es el que va a Brasilia, llegó atrasado.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:09:00.600"
+    },
+    {
+      "index": 14,
+      "speaker": "airline_staff",
+      "start": 67.1,
+      "end": 67.95,
+      "duration": 0.85,
+      "text": "si",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:09:07.100"
+    },
+    {
+      "index": 15,
+      "speaker": "passenger",
+      "start": 68.0,
+      "end": 72.3,
+      "duration": 4.3,
+      "text": "Ya, entonces, lo embarque de ese va a atrasar un poco también.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:09:08.000"
+    },
+    {
+      "index": 16,
+      "speaker": "airline_staff",
+      "start": 72.32,
+      "end": 73.0,
+      "duration": 0.68,
+      "text": "No",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:09:12.320"
+    },
+    {
+      "index": 17,
+      "speaker": "unresolved_speaker",
+      "start": 73.0,
+      "end": 74.9,
+      "duration": 1.9,
+      "text": "Estamos bien en la hora del embarque,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:09:13.000"
+    },
+    {
+      "index": 18,
+      "speaker": "airline_staff",
+      "start": 75.0,
+      "end": 78.9,
+      "duration": 3.9,
+      "text": "nosotros comenzamos el embarco 40 minutos antes de la salida del avion",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:09:15.000"
+    },
+    {
+      "index": 19,
+      "speaker": "passenger",
+      "start": 78.9,
+      "end": 81.1,
+      "duration": 2.2,
+      "text": "¿Qué significa el embarque acá, por favor?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:09:18.900"
+    },
+    {
+      "index": 20,
+      "speaker": "airline_staff",
+      "start": 81.42999999999999,
+      "end": 82.85,
+      "duration": 1.42,
+      "text": "La hora de apresentacion",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:09:21.430"
+    },
+    {
+      "index": 21,
+      "speaker": "passenger",
+      "start": 82.92,
+      "end": 83.8,
+      "duration": 0.88,
+      "text": "¿Certeza?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:09:22.920"
+    },
+    {
+      "index": 22,
+      "speaker": "airline_staff",
+      "start": 83.85,
+      "end": 85.4,
+      "duration": 1.55,
+      "text": "Esa es la hora de presentación.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:09:23.850"
+    },
+    {
+      "index": 23,
+      "speaker": "passenger",
+      "start": 85.5,
+      "end": 92.5,
+      "duration": 7.0,
+      "text": "¿Tú puedes  me direccionar esa información? ¿Hay alguna documentación explicándolo? Porque me parece que es distinto.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:09:25.500"
+    },
+    {
+      "index": 24,
+      "speaker": "passenger",
+      "start": 95.49,
+      "end": 98.82,
+      "duration": 3.33,
+      "text": "que las personas empiezan a entrar.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:09:35.490"
+    },
+    {
+      "index": 25,
+      "speaker": "airline_staff",
+      "start": 98.83,
+      "end": 101.2,
+      "duration": 2.37,
+      "text": "No, esa es la hora de presentación.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:09:38.830"
+    },
+    {
+      "index": 26,
+      "speaker": "airline_staff",
+      "start": 101.25,
+      "end": 103.0,
+      "duration": 1.75,
+      "text": "la hora del embarque es otra.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:09:41.250"
+    },
+    {
+      "index": 27,
+      "speaker": "passenger",
+      "start": 103.1,
+      "end": 104.5,
+      "duration": 1.4,
+      "text": "Donde es la hora del embarque? mostra me",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:09:43.100"
+    },
+    {
+      "index": 28,
+      "speaker": "airline_staff",
+      "start": 104.69,
+      "end": 109.6,
+      "duration": 4.91,
+      "text": "Ahí nos sale la hora del embarque. La hora del embarque nosotros la decimos acá. Pero eso es por hora de presentación",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:09:44.690"
+    },
+    {
+      "index": 29,
+      "speaker": "passenger",
+      "start": 109.7,
+      "end": 113.0,
+      "duration": 3.3,
+      "text": "Lo que voy es",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:09:49.700"
+    },
+    {
+      "index": 30,
+      "speaker": "passenger",
+      "start": 113.0,
+      "end": 125.0,
+      "duration": 12.0,
+      "text": "la Latam podría, pero yo sé por qué no lo hace, que no está avisando los atrasos, porque esto todo tiene mucha cosa envolvida, yo entiendo eso",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:09:53.000"
+    },
+    {
+      "index": 31,
+      "speaker": "passenger",
+      "start": 125.0,
+      "end": 136.0,
+      "duration": 11.0,
+      "text": "entiende? pero lo que me carga es porque yo tuve que correr y tener que pelear con PDI, pelear con este, pelear con aquel",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:10:05.000"
+    },
+    {
+      "index": 32,
+      "speaker": "passenger",
+      "start": 136.0,
+      "end": 139.8,
+      "duration": 3.8,
+      "text": "porque llegué acá y todavía no está,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:10:16.000"
+    },
+    {
+      "index": 33,
+      "speaker": "passenger",
+      "start": 139.85,
+      "end": 147.5,
+      "duration": 7.65,
+      "text": "pero el señal ya está. Eso da señal para otras partes del sistema. El sistema esta que ya está embarcando.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:10:19.850"
+    },
+    {
+      "index": 34,
+      "speaker": "airline_staff",
+      "start": 146.7,
+      "end": 149.6,
+      "duration": 2.9,
+      "text": "Mira, en este minuto nosotros vamos a empezar el embarco",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:10:26.700"
+    },
+    {
+      "index": 35,
+      "speaker": "passenger",
+      "start": 149.65,
+      "end": 156.5,
+      "duration": 6.85,
+      "text": "y entonces ya entonces lo embarque entonces va a empezar a la 1 y 10 ya ya",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:10:29.650"
+    },
+    {
+      "index": 36,
+      "speaker": "airline_staff",
+      "start": 156.5,
+      "end": 157.0,
+      "duration": 0.5,
+      "text": "exacto",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:10:36.500"
+    },
+    {
+      "index": 37,
+      "speaker": "passenger",
+      "start": 157.2,
+      "end": 160.5,
+      "duration": 3.3,
+      "text": "¿dónde está escrito eso? ¿Dónde estaba previsto eso?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:10:37.200"
+    },
+    {
+      "index": 38,
+      "speaker": "airline_staff",
+      "start": 160.6,
+      "end": 167.9,
+      "duration": 7.3,
+      "text": "Eso sale cuando usted compra el pasaje, que el embarque comienza 40 minutos antes. No. No en el pasaje, sale cuando usted lo compra. ",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:10:40.600"
+    },
+    {
+      "index": 39,
+      "speaker": "passenger",
+      "start": 167.99,
+      "end": 171.4,
+      "duration": 3.41,
+      "text": "40 minutos antes, mira, si tú adicionas 40 minutos acá... ",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:10:47.990"
+    },
+    {
+      "index": 40,
+      "speaker": "airline_staff",
+      "start": 171.2,
+      "end": 173.0,
+      "duration": 1.8,
+      "text": "Por que esa es la hora de presentación.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:10:51.200"
+    },
+    {
+      "index": 41,
+      "speaker": "passenger",
+      "start": 173.2,
+      "end": 177.5,
+      "duration": 4.3,
+      "text": "Si tú adicionas 40 minutos acá, va a dar el horario que el vuelo sale, mi amigo. Por favor, mira la. 40 minutos acá. ",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:10:53.200"
+    },
+    {
+      "index": 42,
+      "speaker": "airline_staff",
+      "start": 178.9,
+      "end": 181.4,
+      "duration": 2.5,
+      "text": "presentación. Esa es la hora de presentación",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:10:58.900"
+    },
+    {
+      "index": 43,
+      "speaker": "passenger",
+      "start": 181.45,
+      "end": 188.2,
+      "duration": 6.75,
+      "text": "Mira, no está bien eso, deberían avisar a las personas, porque todos tenemos la aplicación.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:11:01.450"
+    },
+    {
+      "index": 44,
+      "speaker": "passenger",
+      "start": 188.2,
+      "end": 192.0,
+      "duration": 3.8,
+      "text": "Podrían avisar a las personas. Porque todos tenemos la aplicación. Entonces podría avisar. Mira.\nCambió el portón también",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:11:08.200"
+    },
+    {
+      "index": 45,
+      "speaker": "airline_staff",
+      "start": 192.0,
+      "end": 192.2,
+      "duration": 0.2,
+      "text": "aham",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:11:12.000"
+    },
+    {
+      "index": 46,
+      "speaker": "airline_staff",
+      "start": 193.0,
+      "end": 193.7,
+      "duration": 0.7,
+      "text": "Ae si,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:11:13.000"
+    },
+    {
+      "index": 47,
+      "speaker": "passenger",
+      "start": 193.7,
+      "end": 200.0,
+      "duration": 6.3,
+      "text": "Porque están manejando, porque están manejando los horarios y no es un problema. Pero el problema es cuando se hacen estúpidos.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:11:13.700"
+    },
+    {
+      "index": 48,
+      "speaker": "airline_staff",
+      "start": 199.8,
+      "end": 201.0,
+      "duration": 1.2,
+      "text": "laughs",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:11:19.800"
+    },
+    {
+      "index": 49,
+      "speaker": "airline_staff",
+      "start": 201.0,
+      "end": 202.1,
+      "duration": 1.1,
+      "text": "Claro, Es el",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:11:21.000"
+    },
+    {
+      "index": 50,
+      "speaker": "passenger",
+      "start": 202.0,
+      "end": 203.5,
+      "duration": 1.5,
+      "text": "es el embarque",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:11:22.000"
+    },
+    {
+      "index": 51,
+      "speaker": "airline_staff",
+      "start": 203.5,
+      "end": 205.0,
+      "duration": 1.5,
+      "text": "ya, ahora ya van a embarcar.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:11:23.500"
+    },
+    {
+      "index": 52,
+      "speaker": "passenger",
+      "start": 205.0,
+      "end": 207.0,
+      "duration": 2.0,
+      "text": "Mira, yo se. pero es como, es un engaño.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:11:25.000"
+    },
+    {
+      "index": 53,
+      "speaker": "airline_staff",
+      "start": 207.0,
+      "end": 209.6,
+      "duration": 2.6,
+      "text": "tienen otro tiempo",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:11:27.000"
+    },
+    {
+      "index": 54,
+      "speaker": "passenger",
+      "start": 209.6,
+      "end": 210.0,
+      "duration": 0.4,
+      "text": "¿Ah?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:11:29.600"
+    },
+    {
+      "index": 55,
+      "speaker": "airline_staff",
+      "start": 210.0,
+      "end": 214.0,
+      "duration": 4.0,
+      "text": "Ellos tienen otro tiempos al que les sale acá en su teléfono.\n\n",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:11:30.000"
+    },
+    {
+      "index": 56,
+      "speaker": "passenger",
+      "start": 214.2,
+      "end": 220.0,
+      "duration": 5.8,
+      "text": "Sí, pero entonces si ese tiempo es más correcto, debería ser passado a los clientes\n",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:11:34.200"
+    },
+    {
+      "index": 57,
+      "speaker": "airline_staff",
+      "start": 219.8,
+      "end": 224.5,
+      "duration": 4.7,
+      "text": "Claro! A veces tienen que esperar a que llegue toda la tripulación y a que salgan todos los pasajeros",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:11:39.800"
+    },
+    {
+      "index": 58,
+      "speaker": "passenger",
+      "start": 224.6,
+      "end": 229.0,
+      "duration": 4.4,
+      "text": "esta triste eso, pero tu entiendes que no esta correcto?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:11:44.600"
+    },
+    {
+      "index": 59,
+      "speaker": "airline_staff",
+      "start": 229.1,
+      "end": 231.0,
+      "duration": 1.9,
+      "text": "Ah no po, no esta correcto.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:11:49.100"
+    }
+  ]
+}

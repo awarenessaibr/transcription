@@ -1,0 +1,2743 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Speaker Registry · I-002</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #f8f7f4;
+            --bg-card: #ffffff;
+            --bg-card-hover: #f2f0ea;
+            --bg-surface: #f1efe8;
+            --border: #e1ddd1;
+            --border-strong: #c7c1b0;
+            --text-primary: #1b1c1e;
+            --text-secondary: #52555c;
+            --text-muted: #8a8b87;
+            --accent: #24405f;
+            --accent-dim: rgba(36, 64, 95, 0.07);
+            --status-flag: #7a3733;
+            --status-flag-dim: rgba(122, 55, 51, 0.08);
+            --status-analysis: #8a6a2c;
+            --status-analysis-dim: rgba(138, 106, 44, 0.09);
+            --status-note: #3f6b4f;
+            --status-note-dim: rgba(63, 107, 79, 0.08);
+            --mono: 'JetBrains Mono', ui-monospace, monospace;
+            --serif: 'Source Serif 4', Georgia, serif;
+            --sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--sans);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            padding-bottom: 60px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        code {
+            font-family: var(--mono);
+            font-size: 0.85em;
+            color: var(--accent);
+            background: var(--bg-surface);
+            padding: 1px 6px;
+            border-radius: 2px;
+        }
+
+        /* ------------------------------------------------------------------ */
+        /* Masthead                                                            */
+        /* ------------------------------------------------------------------ */
+        .masthead {
+            border-bottom: 1px solid var(--border);
+            padding: 44px 0 32px;
+        }
+
+        .masthead-inner {
+            max-width: 1180px;
+            margin: 0 auto;
+            padding: 0 32px;
+        }
+
+        .masthead-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 16px;
+            flex-wrap: wrap;
+            margin-bottom: 18px;
+        }
+
+        .masthead-back {
+            font-family: var(--mono);
+            font-size: 0.7rem;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            display: inline-block;
+        }
+
+        .masthead-back:hover {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .masthead-actions {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-left: auto;
+        }
+
+        .masthead-badge {
+            display: inline-block;
+            font-family: var(--mono);
+            font-size: 0.68rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+            border: 1px solid var(--border-strong);
+            padding: 5px 12px;
+            border-radius: 2px;
+            margin-bottom: 20px;
+        }
+
+        .masthead h1 {
+            font-family: var(--serif);
+            font-size: clamp(1.6rem, 3vw, 2.3rem);
+            font-weight: 600;
+            line-height: 1.25;
+            margin-bottom: 10px;
+            color: var(--text-primary);
+        }
+
+        .masthead-sub {
+            font-size: 0.96rem;
+            color: var(--text-secondary);
+            max-width: 700px;
+            line-height: 1.7;
+        }
+
+        /* ------------------------------------------------------------------ */
+        /* Buttons                                                             */
+        /* ------------------------------------------------------------------ */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-family: var(--mono);
+            font-size: 0.68rem;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            padding: 9px 13px;
+            border-radius: 3px;
+            border: 1px solid var(--border-strong);
+            background: var(--bg-card);
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all .15s ease;
+            white-space: nowrap;
+            line-height: 1;
+        }
+
+        .btn:hover {
+            color: var(--accent);
+            border-color: var(--accent);
+            background: var(--accent-dim);
+            text-decoration: none;
+        }
+
+        .btn-primary {
+            color: var(--accent);
+            border-color: var(--accent);
+        }
+
+        .btn-primary:hover {
+            background: var(--accent);
+            color: #fff;
+        }
+
+        .btn-ghost {
+            border-color: var(--border);
+            background: transparent;
+            color: var(--text-muted);
+        }
+
+        .btn-ghost:hover {
+            color: var(--accent);
+            border-color: var(--accent);
+            background: transparent;
+        }
+
+        .btn[disabled] {
+            opacity: .4;
+            pointer-events: none;
+        }
+
+        /* ------------------------------------------------------------------ */
+        /* Stats bar                                                           */
+        /* ------------------------------------------------------------------ */
+        .stats-bar {
+            background: var(--bg-card);
+            border-top: 1px solid var(--border);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .stats-inner {
+            max-width: 1180px;
+            margin: 0 auto;
+            padding: 0 32px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .stat-item {
+            flex: 1 1 150px;
+            padding: 18px 14px;
+            border-right: 1px solid var(--border);
+        }
+
+        .stat-item:last-child {
+            border-right: none;
+        }
+
+        .stat-val {
+            font-family: var(--mono);
+            font-size: 0.92rem;
+            font-weight: 500;
+            color: var(--text-primary);
+            word-break: break-word;
+        }
+
+        .stat-label {
+            font-size: 0.68rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.07em;
+            margin-top: 5px;
+        }
+
+        /* ------------------------------------------------------------------ */
+        /* Layout                                                              */
+        /* ------------------------------------------------------------------ */
+        .main {
+            max-width: 1180px;
+            margin: 0 auto;
+            padding: 0 32px;
+        }
+
+        .section-head {
+            padding: 34px 0 16px;
+        }
+
+        .section-head h2 {
+            font-family: var(--serif);
+            font-size: 1.35rem;
+            font-weight: 600;
+        }
+
+        .section-head p {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-top: 6px;
+            max-width: 700px;
+        }
+
+        /* ------------------------------------------------------------------ */
+        /* Toolbar                                                             */
+        /* ------------------------------------------------------------------ */
+        .toolbar {
+            position: sticky;
+            top: 0;
+            z-index: 60;
+            background: rgba(248, 247, 244, 0.93);
+            -webkit-backdrop-filter: blur(12px);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .toolbar-inner {
+            max-width: 1180px;
+            margin: 0 auto;
+            padding: 13px 32px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .toolbar-row {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .search-wrap {
+            position: relative;
+            flex: 1 1 260px;
+            min-width: 200px;
+        }
+
+        .search-wrap svg {
+            position: absolute;
+            left: 11px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+            pointer-events: none;
+        }
+
+        .search-input {
+            width: 100%;
+            font-family: var(--sans);
+            font-size: 0.86rem;
+            padding: 9px 12px 9px 34px;
+            border-radius: 3px;
+            border: 1px solid var(--border-strong);
+            background: var(--bg-card);
+            color: var(--text-primary);
+            outline: none;
+            transition: border-color .15s, box-shadow .15s;
+        }
+
+        .search-input::placeholder {
+            color: var(--text-muted);
+        }
+
+        .search-input:focus {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px var(--accent-dim);
+        }
+
+        .select {
+            font-family: var(--mono);
+            font-size: 0.68rem;
+            letter-spacing: 0.04em;
+            padding: 9px 28px 9px 11px;
+            border-radius: 3px;
+            border: 1px solid var(--border-strong);
+            background: var(--bg-card);
+            color: var(--text-secondary);
+            cursor: pointer;
+            outline: none;
+            appearance: none;
+            background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath fill='none' stroke='%238a8b87' stroke-width='1.4' d='M1 1l4 4 4-4'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 10px center;
+        }
+
+        .select:focus {
+            border-color: var(--accent);
+        }
+
+        .chips {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .chip {
+            font-family: var(--mono);
+            font-size: 0.66rem;
+            letter-spacing: 0.04em;
+            padding: 5px 11px;
+            border-radius: 2px;
+            border: 1px solid var(--border);
+            background: var(--bg-card);
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all .15s ease;
+            white-space: nowrap;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .chip:hover {
+            border-color: var(--border-strong);
+            color: var(--text-primary);
+        }
+
+        .chip.is-active {
+            background: var(--accent);
+            border-color: var(--accent);
+            color: #fff;
+        }
+
+        .chip .dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: currentColor;
+            opacity: .75;
+        }
+
+        .chip-count {
+            opacity: .6;
+            font-size: 0.6rem;
+        }
+
+        .result-line {
+            font-family: var(--mono);
+            font-size: 0.68rem;
+            color: var(--text-muted);
+            letter-spacing: 0.04em;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .result-line .clear-link {
+            color: var(--accent);
+            cursor: pointer;
+            text-decoration: underline;
+            text-underline-offset: 2px;
+        }
+
+        /* ------------------------------------------------------------------ */
+        /* Speaker grid                                                        */
+        /* ------------------------------------------------------------------ */
+        .speaker-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(292px, 1fr));
+            gap: 12px;
+            padding: 6px 0 48px;
+        }
+
+        .speaker-card {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            gap: 11px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-left: 3px solid var(--border-strong);
+            border-radius: 3px;
+            padding: 16px 18px 15px;
+            cursor: pointer;
+            transition: background .15s ease, border-color .15s ease, transform .15s ease, box-shadow .15s ease;
+        }
+
+        .speaker-card:hover {
+            background: var(--bg-card-hover);
+            border-color: var(--border-strong);
+            transform: translateY(-1px);
+            box-shadow: 0 2px 10px rgba(27, 28, 30, 0.05);
+        }
+
+        .speaker-card:focus-visible {
+            outline: 2px solid var(--accent);
+            outline-offset: 2px;
+        }
+
+        .speaker-card[data-org="latam"] {
+            border-left-color: var(--accent);
+        }
+
+        .speaker-card[data-org="carabineros"] {
+            border-left-color: var(--status-note);
+        }
+
+        .speaker-card[data-org="dgac"] {
+            border-left-color: var(--status-analysis);
+        }
+
+        .speaker-card[data-org="passenger"] {
+            border-left-color: var(--status-flag);
+        }
+
+        .speaker-card[data-org="other"] {
+            border-left-color: var(--border-strong);
+        }
+
+        .spk-top {
+            display: flex;
+            gap: 11px;
+            align-items: flex-start;
+        }
+
+        .spk-avatar {
+            flex: 0 0 auto;
+            width: 34px;
+            height: 34px;
+            border-radius: 3px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: var(--mono);
+            font-size: 0.78rem;
+            font-weight: 500;
+            background: var(--bg-surface);
+            color: var(--text-secondary);
+            border: 1px solid var(--border);
+        }
+
+        .speaker-card[data-org="latam"] .spk-avatar {
+            background: var(--accent-dim);
+            color: var(--accent);
+            border-color: rgba(36, 64, 95, .2);
+        }
+
+        .speaker-card[data-org="carabineros"] .spk-avatar {
+            background: var(--status-note-dim);
+            color: var(--status-note);
+            border-color: rgba(63, 107, 79, .2);
+        }
+
+        .speaker-card[data-org="dgac"] .spk-avatar {
+            background: var(--status-analysis-dim);
+            color: var(--status-analysis);
+            border-color: rgba(138, 106, 44, .2);
+        }
+
+        .speaker-card[data-org="passenger"] .spk-avatar {
+            background: var(--status-flag-dim);
+            color: var(--status-flag);
+            border-color: rgba(122, 55, 51, .2);
+        }
+
+        .spk-headtext {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .spk-name {
+            font-family: var(--serif);
+            font-size: 1.02rem;
+            font-weight: 600;
+            line-height: 1.3;
+            color: var(--text-primary);
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .spk-role {
+            font-size: 0.78rem;
+            color: var(--text-secondary);
+            line-height: 1.45;
+            margin-top: 2px;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .flag-btn {
+            flex: 0 0 auto;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            color: var(--border-strong);
+            font-size: 0.95rem;
+            line-height: 1;
+            padding: 2px 1px;
+            transition: color .15s, transform .15s;
+        }
+
+        .flag-btn:hover {
+            color: var(--status-analysis);
+            transform: scale(1.12);
+        }
+
+        .flag-btn.is-on {
+            color: var(--status-analysis);
+        }
+
+        .spk-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            align-items: center;
+        }
+
+        .org-pill {
+            font-family: var(--mono);
+            font-size: 0.62rem;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            padding: 3px 8px;
+            border-radius: 2px;
+            background: var(--bg-surface);
+            color: var(--text-secondary);
+            border: 1px solid var(--border);
+            white-space: nowrap;
+        }
+
+        .conf-pill {
+            font-family: var(--mono);
+            font-size: 0.6rem;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            padding: 3px 8px;
+            border-radius: 2px;
+            white-space: nowrap;
+        }
+
+        .conf-confirmed {
+            background: var(--status-note-dim);
+            color: var(--status-note);
+        }
+
+        .conf-partial {
+            background: var(--status-analysis-dim);
+            color: var(--status-analysis);
+        }
+
+        .conf-role-only {
+            background: var(--bg-surface);
+            color: var(--text-muted);
+        }
+
+        .spk-foot {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            padding-top: 10px;
+            border-top: 1px dashed var(--border);
+            font-family: var(--mono);
+            font-size: 0.64rem;
+            color: var(--text-muted);
+        }
+
+        .spk-foot .num {
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+
+        .spk-foot .spacer {
+            flex: 1;
+        }
+
+        .spk-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+
+        .tag-mini {
+            font-family: var(--mono);
+            font-size: 0.58rem;
+            letter-spacing: 0.03em;
+            padding: 2px 7px;
+            border-radius: 2px;
+            background: var(--bg-surface);
+            color: var(--text-muted);
+            border: 1px solid var(--border);
+        }
+
+        .tag-mini.tag-org {
+            color: var(--accent);
+            border-color: rgba(36, 64, 95, .2);
+            background: var(--accent-dim);
+        }
+
+        .tag-mini.tag-conf {
+            color: var(--status-analysis);
+            border-color: rgba(138, 106, 44, .2);
+            background: var(--status-analysis-dim);
+        }
+
+        /* ------------------------------------------------------------------ */
+        /* Empty state / dropzone                                              */
+        /* ------------------------------------------------------------------ */
+        .empty-state {
+            border: 1px dashed var(--border-strong);
+            border-radius: 4px;
+            background: var(--bg-card);
+            padding: 48px 32px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .empty-state h3 {
+            font-family: var(--serif);
+            font-size: 1.15rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .empty-state p {
+            font-size: 0.88rem;
+            color: var(--text-secondary);
+            max-width: 460px;
+            margin: 0 auto 18px;
+        }
+
+        .empty-actions {
+            display: flex;
+            gap: 8px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .dropzone-overlay {
+            position: fixed;
+            inset: 0;
+            z-index: 900;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            background: rgba(248, 247, 244, 0.86);
+            -webkit-backdrop-filter: blur(4px);
+            backdrop-filter: blur(4px);
+            border: 3px dashed var(--accent);
+        }
+
+        .dropzone-overlay.active {
+            display: flex;
+        }
+
+        .dropzone-overlay span {
+            font-family: var(--mono);
+            font-size: 0.85rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--accent);
+        }
+
+        /* ------------------------------------------------------------------ */
+        /* Notes panel (inside modal)                                          */
+        /* ------------------------------------------------------------------ */
+        .notes-panel {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            padding: 20px 22px;
+            margin-top: 12px;
+        }
+
+        .notes-head {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            margin-bottom: 14px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .notes-label {
+            font-family: var(--mono);
+            font-size: 0.68rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--text-secondary);
+        }
+
+        .notes-count {
+            font-family: var(--mono);
+            font-size: 0.66rem;
+            padding: 3px 9px;
+            border-radius: 2px;
+            border: 1px solid var(--border-strong);
+            color: var(--text-muted);
+        }
+
+        .notes-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+
+        .notes-empty {
+            font-size: 0.84rem;
+            color: var(--text-muted);
+            padding: 14px;
+            background: var(--bg-surface);
+            border: 1px dashed var(--border);
+            border-radius: 3px;
+            text-align: center;
+        }
+
+        .note-card {
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            border-left: 3px solid var(--border-strong);
+            border-radius: 3px;
+            padding: 12px 15px;
+        }
+
+        .note-card.note-admission {
+            border-left-color: var(--status-flag);
+        }
+
+        .note-card.note-xref {
+            border-left-color: var(--accent);
+        }
+
+        .note-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            align-items: center;
+            margin-bottom: 6px;
+        }
+
+        .note-type {
+            font-family: var(--mono);
+            font-size: 0.58rem;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            padding: 2px 7px;
+            border-radius: 2px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-strong);
+            color: var(--text-muted);
+        }
+
+        .note-author {
+            font-size: 0.84rem;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .note-seg {
+            font-family: var(--mono);
+            font-size: 0.66rem;
+            color: var(--text-muted);
+            margin-left: auto;
+        }
+
+        .note-body {
+            font-size: 0.86rem;
+            color: var(--text-secondary);
+            line-height: 1.65;
+            white-space: pre-wrap;
+        }
+
+        .note-del {
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            color: var(--text-muted);
+            font-family: var(--mono);
+            font-size: 0.62rem;
+            padding: 0;
+            text-decoration: underline;
+            text-underline-offset: 2px;
+        }
+
+        .note-del:hover {
+            color: var(--status-flag);
+        }
+
+        .note-form {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .note-form textarea {
+            width: 100%;
+            min-height: 72px;
+            resize: vertical;
+            font-family: var(--sans);
+            font-size: 0.86rem;
+            line-height: 1.6;
+            padding: 11px 13px;
+            border-radius: 3px;
+            border: 1px solid var(--border-strong);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            outline: none;
+        }
+
+        .note-form textarea:focus {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px var(--accent-dim);
+        }
+
+        .note-form-row {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .note-form-row .spacer {
+            flex: 1;
+        }
+
+        /* ------------------------------------------------------------------ */
+        /* Markdown source rendering                                           */
+        /* ------------------------------------------------------------------ */
+        .md-h {
+            font-family: var(--serif);
+            font-weight: 600;
+            line-height: 1.35;
+            color: var(--text-primary);
+        }
+
+        .md-h1 {
+            font-size: 1.3rem;
+            margin: 0 0 14px;
+        }
+
+        .md-h2 {
+            font-size: 1.08rem;
+            margin: 22px 0 10px;
+        }
+
+        .md-h3 {
+            font-size: 0.94rem;
+            margin: 18px 0 8px;
+        }
+
+        .md-h4,
+        .md-h5,
+        .md-h6 {
+            font-size: 0.86rem;
+            margin: 14px 0 6px;
+        }
+
+        .md-p {
+            font-size: 0.88rem;
+            color: var(--text-secondary);
+            line-height: 1.7;
+            margin-bottom: 10px;
+        }
+
+        .md-quote {
+            border-left: 3px solid var(--accent);
+            background: var(--accent-dim);
+            padding: 11px 15px;
+            margin: 8px 0;
+            border-radius: 0 3px 3px 0;
+            font-size: 0.9rem;
+            font-style: italic;
+            color: var(--text-primary);
+            line-height: 1.65;
+        }
+
+        .md-ul {
+            margin: 8px 0 12px 20px;
+            font-size: 0.88rem;
+            color: var(--text-secondary);
+        }
+
+        .md-ul li {
+            margin-bottom: 4px;
+            line-height: 1.6;
+        }
+
+        .md-hr {
+            border: none;
+            border-top: 1px solid var(--border);
+            margin: 20px 0;
+        }
+
+        .md-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0 16px;
+            font-size: 0.84rem;
+        }
+
+        .md-table th {
+            text-align: left;
+            font-family: var(--mono);
+            font-size: 0.64rem;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: var(--text-muted);
+            padding: 8px 12px;
+            border-bottom: 1px solid var(--border-strong);
+            font-weight: 500;
+        }
+
+        .md-table td {
+            padding: 9px 12px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-secondary);
+            vertical-align: top;
+        }
+
+        .md-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .wikilink {
+            font-family: var(--mono);
+            font-size: 0.88em;
+            color: var(--accent);
+        }
+
+        /* ------------------------------------------------------------------ */
+        /* Modal                                                               */
+        /* ------------------------------------------------------------------ */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(20, 20, 18, 0.55);
+            z-index: 1000;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 40px 20px;
+            overflow-y: auto;
+        }
+
+        .modal-overlay.active {
+            display: flex;
+        }
+
+        .modal {
+            background: var(--bg-primary);
+            border: 1px solid var(--border-strong);
+            border-radius: 6px;
+            max-width: 820px;
+            width: 100%;
+            margin: auto 0;
+            box-shadow: 0 20px 60px rgba(20, 20, 18, 0.22);
+            animation: modalIn .18s ease-out;
+        }
+
+        @keyframes modalIn {
+            from {
+                opacity: 0;
+                transform: translateY(8px);
+            }
+
+            to {
+                opacity: 1;
+                transform: none;
+            }
+        }
+
+        .modal-header {
+            padding: 22px 28px 18px;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+        }
+
+        .modal-header-body {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .modal-type-badge {
+            font-family: var(--mono);
+            font-size: 0.6rem;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            padding: 4px 10px;
+            border-radius: 2px;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        .modal-title {
+            font-family: var(--serif);
+            font-size: 1.35rem;
+            font-weight: 600;
+            line-height: 1.3;
+            color: var(--text-primary);
+        }
+
+        .modal-role {
+            font-size: 0.88rem;
+            color: var(--text-secondary);
+            margin-top: 5px;
+            line-height: 1.55;
+        }
+
+        .modal-audio-ref {
+            font-family: var(--mono);
+            font-size: 0.68rem;
+            color: var(--text-muted);
+            margin-top: 8px;
+            word-break: break-all;
+        }
+
+        .modal-close {
+            flex: 0 0 auto;
+            background: transparent;
+            border: 1px solid var(--border-strong);
+            color: var(--text-muted);
+            width: 30px;
+            height: 30px;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 1.05rem;
+            line-height: 1;
+            transition: color .15s, border-color .15s;
+        }
+
+        .modal-close:hover {
+            color: var(--text-primary);
+            border-color: var(--text-primary);
+        }
+
+        .modal-body {
+            padding: 22px 28px 8px;
+        }
+
+        .modal-section {
+            margin-bottom: 24px;
+        }
+
+        .modal-section-label {
+            font-family: var(--mono);
+            font-size: 0.63rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--text-muted);
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .modal-section-label::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: var(--border);
+        }
+
+        .kv-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+            gap: 1px;
+            background: var(--border);
+            border: 1px solid var(--border);
+            border-radius: 3px;
+            overflow: hidden;
+        }
+
+        .kv {
+            background: var(--bg-card);
+            padding: 11px 14px;
+        }
+
+        .kv dt {
+            font-family: var(--mono);
+            font-size: 0.58rem;
+            text-transform: uppercase;
+            letter-spacing: 0.07em;
+            color: var(--text-muted);
+            margin-bottom: 4px;
+        }
+
+        .kv dd {
+            font-size: 0.84rem;
+            color: var(--text-primary);
+            line-height: 1.5;
+            word-break: break-word;
+        }
+
+        .stmt-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .stmt-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-left: 3px solid var(--accent);
+            border-radius: 3px;
+            padding: 14px 17px;
+        }
+
+        .stmt-quote {
+            font-family: var(--serif);
+            font-size: 1rem;
+            font-style: italic;
+            color: var(--text-primary);
+            line-height: 1.6;
+            margin-bottom: 8px;
+        }
+
+        .stmt-quote::before {
+            content: '\201C';
+            color: var(--accent);
+            margin-right: 2px;
+        }
+
+        .stmt-quote::after {
+            content: '\201D';
+            color: var(--accent);
+            margin-left: 2px;
+        }
+
+        .stmt-ctx {
+            font-size: 0.84rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        .stmt-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            align-items: center;
+            margin-top: 10px;
+            padding-top: 9px;
+            border-top: 1px dashed var(--border);
+            font-family: var(--mono);
+            font-size: 0.64rem;
+            color: var(--text-muted);
+        }
+
+        .stmt-meta .seg-chip {
+            padding: 2px 7px;
+            border-radius: 2px;
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            color: var(--text-secondary);
+        }
+
+        .pill-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .tr-pill {
+            font-family: var(--mono);
+            font-size: 0.66rem;
+            padding: 5px 10px;
+            border-radius: 2px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            color: var(--text-secondary);
+            white-space: nowrap;
+        }
+
+        .alias-pill {
+            font-family: var(--mono);
+            font-size: 0.66rem;
+            padding: 4px 10px;
+            border-radius: 2px;
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            color: var(--text-secondary);
+        }
+
+        .tag-pill {
+            font-family: var(--mono);
+            font-size: 0.63rem;
+            padding: 4px 10px;
+            border-radius: 2px;
+            background: var(--accent-dim);
+            border: 1px solid rgba(36, 64, 95, .18);
+            color: var(--accent);
+        }
+
+        details.source-doc {
+            border: 1px solid var(--border);
+            border-radius: 3px;
+            background: var(--bg-card);
+            overflow: hidden;
+        }
+
+        details.source-doc>summary {
+            cursor: pointer;
+            list-style: none;
+            padding: 12px 16px;
+            font-family: var(--mono);
+            font-size: 0.66rem;
+            text-transform: uppercase;
+            letter-spacing: 0.07em;
+            color: var(--text-muted);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            user-select: none;
+        }
+
+        details.source-doc>summary::-webkit-details-marker {
+            display: none;
+        }
+
+        details.source-doc>summary::before {
+            content: '▸';
+            font-size: 0.72rem;
+            color: var(--text-muted);
+            transition: transform .15s;
+        }
+
+        details.source-doc[open]>summary::before {
+            transform: rotate(90deg);
+        }
+
+        details.source-doc>summary:hover {
+            color: var(--accent);
+        }
+
+        .source-body {
+            padding: 4px 18px 18px;
+            border-top: 1px solid var(--border);
+        }
+
+        .source-body>.md-h1:first-child {
+            display: none;
+        }
+
+        .modal-footer {
+            padding: 14px 28px;
+            border-top: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .modal-footer-note {
+            font-family: var(--mono);
+            font-size: 0.64rem;
+            color: var(--text-muted);
+            flex: 1;
+            min-width: 160px;
+        }
+
+        /* ------------------------------------------------------------------ */
+        /* Footer                                                              */
+        /* ------------------------------------------------------------------ */
+        .page-footer {
+            border-top: 1px solid var(--border);
+            padding: 28px 0;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .page-footer p {
+            font-size: 0.76rem;
+            color: var(--text-muted);
+            line-height: 1.8;
+        }
+
+        .page-footer .mono {
+            font-family: var(--mono);
+        }
+
+        /* ------------------------------------------------------------------ */
+        /* Responsive                                                          */
+        /* ------------------------------------------------------------------ */
+        @media (max-width: 900px) {
+            .masthead {
+                padding: 28px 0 22px;
+            }
+
+            .masthead-inner,
+            .main,
+            .stats-inner,
+            .toolbar-inner {
+                padding-left: 16px;
+                padding-right: 16px;
+            }
+
+            .masthead-actions {
+                width: 100%;
+            }
+
+            .modal-overlay {
+                padding: 16px 10px;
+            }
+
+            .modal-header,
+            .modal-body,
+            .modal-footer {
+                padding-left: 18px;
+                padding-right: 18px;
+            }
+
+            .speaker-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .stat-item {
+                flex: 1 1 50%;
+                border-bottom: 1px solid var(--border);
+            }
+        }
+
+        @media (max-width: 560px) {
+            .toolbar-row .select {
+                flex: 1 1 auto;
+            }
+
+            .masthead-actions .btn {
+                flex: 1 1 auto;
+                justify-content: center;
+            }
+        }
+
+        /* ================= APPEARANCE MAPPING (speaker_index.json) ================= */
+        .modal-section-label .section-count {
+            font-family: var(--mono);
+            font-size: 0.62rem;
+            letter-spacing: 0.02em;
+            text-transform: none;
+            color: var(--text-muted);
+            margin-left: 8px;
+        }
+
+        .appearance-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .appearance-card {
+            border: 1px solid var(--border);
+            border-left: 3px solid var(--accent);
+            border-radius: 2px;
+            background: var(--bg-card);
+            padding: 10px 12px;
+        }
+
+        .appearance-head {
+            display: flex;
+            align-items: baseline;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 6px;
+        }
+
+        .appearance-tid {
+            font-family: var(--mono);
+            font-size: 0.7rem;
+            color: var(--text-primary);
+            word-break: break-all;
+        }
+
+        .appearance-count {
+            font-family: var(--mono);
+            font-size: 0.62rem;
+            color: var(--text-muted);
+            margin-left: auto;
+            white-space: nowrap;
+        }
+
+        .seg-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px;
+            margin-top: 7px;
+        }
+
+        .seg-chip-num {
+            font-family: var(--mono);
+            font-size: 0.6rem;
+            padding: 2px 6px;
+            border-radius: 2px;
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            color: var(--text-secondary);
+        }
+
+        .seg-more {
+            font-family: var(--mono);
+            font-size: 0.6rem;
+            padding: 2px 6px;
+            color: var(--text-muted);
+        }
+
+        .label-chip {
+            font-family: var(--mono);
+            font-size: 0.62rem;
+            padding: 3px 8px;
+            border-radius: 2px;
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            color: var(--text-secondary);
+        }
+
+        .spk-index-note {
+            font-family: var(--mono);
+            font-size: 0.6rem;
+            color: var(--text-muted);
+            margin-top: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ================= MASTHEAD ================= -->
+    <header class="masthead">
+        <div class="masthead-inner">
+            <div class="masthead-row">
+                <span class="masthead-back">Case Hub / Synthesis / Speaker Map</span>
+                <div class="masthead-actions">
+                    <label class="btn btn-ghost">
+                        Load folder
+                        <input type="file" id="folderInput" webkitdirectory directory multiple accept=".md" hidden>
+                    </label>
+                    <label class="btn btn-ghost">
+                        Load files
+                        <input type="file" id="fileInput" multiple accept=".md" hidden>
+                    </label>
+                    <button class="btn btn-primary" id="exportBtn">Export notes</button>
+                </div>
+            </div>
+            <div class="masthead-badge">Incident I-002 · LATAM / DGAC / Carabineros</div>
+            <h1>Speaker Registry</h1>
+            <p class="masthead-sub">
+                Every participant identified across the I-002 transcript set — agents, officials, officers and
+                the claimant — consolidated from the <code>SPK-*.md</code> speaker notes.
+            </p>
+        </div>
+    </header>
+
+    <!-- ================= STATS ================= -->
+    <div class="stats-bar">
+        <div class="stats-inner" id="statsBar"></div>
+    </div>
+
+    <!-- ================= TOOLBAR ================= -->
+    <div class="toolbar">
+        <div class="toolbar-inner">
+            <div class="toolbar-row">
+                <div class="search-wrap">
+                    <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor"
+                        stroke-width="1.6">
+                        <circle cx="7" cy="7" r="4.5" />
+                        <path d="M10.5 10.5L14 14" />
+                    </svg>
+                    <input type="search" class="search-input" id="searchInput"
+                        placeholder="Search names, roles, aliases, quotes, transcripts…" autocomplete="off"
+                        spellcheck="false">
+                </div>
+                <select class="select" id="sortSelect">
+                    <option value="org">Sort · Organization</option>
+                    <option value="name">Sort · Name A–Z</option>
+                    <option value="statements">Sort · Most statements</option>
+                    <option value="transcripts">Sort · Most transcripts</option>
+                    <option value="segments">Sort · Most mapped segments</option>
+                    <option value="confidence">Sort · Confidence</option>
+                </select>
+                <button class="chip" id="flaggedChip"><span class="dot"></span> Flagged</button>
+            </div>
+            <div class="toolbar-row">
+                <div class="chips" id="orgChips"></div>
+                <div class="chips" id="confChips"></div>
+            </div>
+            <div class="result-line" id="resultLine"></div>
+        </div>
+    </div>
+
+    <!-- ================= MAIN ================= -->
+    <main class="main">
+        <div id="content"></div>
+    </main>
+
+    <!-- ================= MODAL ================= -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <div class="modal-header">
+                <div class="modal-header-body" id="modalHeader"></div>
+                <button class="modal-close" id="modalClose" aria-label="Close">✕</button>
+            </div>
+            <div class="modal-body" id="modalBody"></div>
+            <div class="modal-footer">
+                <span class="modal-footer-note" id="modalFooterNote"></span>
+                <button class="btn btn-ghost" id="modalDownload">Export .md</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ================= DROPZONE ================= -->
+    <div class="dropzone-overlay" id="dropzone"><span>Drop .md speaker files to load</span></div>
+
+    <footer class="page-footer">
+        <p>
+            <span class="mono">Attorney Work Product — Privileged and Confidential</span><br>
+            Speaker notes derived from <span class="mono">06-SPEAKER-MAP.md</span> · Local annotations stored in this
+            browser only.
+        </p>
+    </footer>
+
+    <script>
+        /* ==================================================================
+           FILE MANIFEST
+           The live list is served by GET /api/speakers/files; the array below is
+           only a fallback for offline/file:// usage.
+           ================================================================== */
+        const SPEAKERS_API = '/api/speakers';
+        const SPEAKERS_DIR_URL = '/speakers/';
+
+        const FALLBACK_SPEAKER_FILES = [
+            "SPK-antonela-latam-agent.md",
+            "SPK-background-nar-10-stg-16-counter-confrontation.md",
+            "SPK-carabinero-constancia-nar-carabineros-1.md",
+            "SPK-carabinero-dartnell-female-1.md",
+            "SPK-carabinero-speaker-00-nar-carabineros-3.md",
+            "SPK-computer-officer-nar-carabineros-1.md",
+            "SPK-computer-officer-nar-carabineros-2.md",
+            "SPK-dgac-don-nicolas-nar-14-terminal-internacional-t2-counter.md",
+            "SPK-dgac-don-nicolas-nar-16-stg-23-dgac-don-nicolas.md",
+            "SPK-dgac-don-nicolas.md",
+            "SPK-dgac-edgardo-ortiz-nar-16-stg-23-dgac-don-nicolas.md",
+            "SPK-dgac-edgardo-ortiz.md",
+            "SPK-dgac-nar-06-stg-6-jetbridge-standoff.md",
+            "SPK-dgac-nar-07-stg-7-post-removal-investigation.md",
+            "SPK-dgac-official-1-nar-15-stg-22-dgac-office.md",
+            "SPK-dgac-official-2-nar-15-stg-22-dgac-office.md",
+            "SPK-dgac-official-3-nar-16-stg-23-dgac-don-nicolas.md",
+            "SPK-diego-latam-supervisor.md",
+            "SPK-female-carabinero-2-nar-carabineros-1.md",
+            "SPK-female-carabinero-2-nar-carabineros-2.md",
+            "SPK-female-carabinero-2-nar-carabineros-3.md",
+            "SPK-joaquin-barraza-latam-security.md",
+            "SPK-latam-boss-nar-07-stg-7-post-removal-investigation.md",
+            "SPK-latam-gate-staff-2-nar-02-stg-2-boarding-gate.md",
+            "SPK-latam-gate-staff-acuser-nar-02-stg-2-boarding-gate.md",
+            "SPK-latam-gate-staff-nar-02-stg-2-boarding-gate.md",
+            "SPK-latam-luggage-supervisor-dominika-nar-09-stg-15-luggage-recovery.md",
+            "SPK-latam-official-nar-19-stg-12.md",
+            "SPK-latam-pilot-ruiz-nar-01-stg-1-pre-boarding.md",
+            "SPK-latam-staff-acuser-nar-07-stg-7-post-removal-investigation.md",
+            "SPK-latam-staff-counter-2-nar-14-terminal-internacional-t2-counter.md",
+            "SPK-latam-staff-counter-female-nar-14-terminal-internacional-t2-counter.md",
+            "SPK-latam-staff-counter-nar-14-terminal-internacional-t2-counter.md",
+            "SPK-latam-staff-nar-19-stg-12.md",
+            "SPK-latam-staff-random-nar-16-stg-23-dgac-don-nicolas.md",
+            "SPK-latam-staff-speaker-01-nar-latam-stg-4.md",
+            "SPK-latam-supervisora-nar-19-stg-12.md",
+            "SPK-pasajeros-del-vuelo-nar-06-stg-6-jetbridge-standoff.md",
+            "SPK-passenger-leandro.md",
+            "SPK-pdi-2-nar-stg-8-pdi-identity-control.md",
+            "SPK-pdi-female-nar-stg-8-pdi-identity-control.md",
+            "SPK-pdi-nar-06-stg-6-jetbridge-standoff.md",
+            "SPK-pdi-nar-07-stg-7-post-removal-investigation.md",
+            "SPK-pdi-nar-stg-8-pdi-identity-control.md",
+            "SPK-pilot-ruiz.md",
+            "SPK-piloto-ruiz-nar-02-stg-2-boarding-gate.md",
+            "SPK-review-important-nar-stg-8-pdi-identity-control.md",
+            "SPK-stewardess-accuser.md"
+        ];
+
+        /* ==================================================================
+           STATE
+           ================================================================== */
+        const LS_NOTES = 'spk:notes:v1';
+        const LS_FLAGS = 'spk:flags:v1';
+
+        const state = {
+            speakers: [],
+            loaded: false,
+            query: '',
+            org: 'all',
+            confidence: 'all',
+            sort: 'org',
+            flaggedOnly: false,
+            notes: safeParse(localStorage.getItem(LS_NOTES), {}),
+            flags: safeParse(localStorage.getItem(LS_FLAGS), {}),
+            currentId: null,
+            indexSummary: null,
+            indexMappedCount: 0,
+            manifestSource: null
+        };
+
+        function safeParse(raw, fallback) {
+            try { const v = JSON.parse(raw); return v && typeof v === 'object' ? v : fallback; }
+            catch (e) { return fallback; }
+        }
+
+        /* ==================================================================
+           MINI YAML FRONTMATTER PARSER
+           ================================================================== */
+        function unquote(v) {
+            if (v == null) return '';
+            v = String(v).trim();
+            if ((v.startsWith('"') && v.endsWith('"')) || (v.startsWith("'") && v.endsWith("'"))) {
+                return v.slice(1, -1);
+            }
+            return v;
+        }
+
+        function parseYamlLite(src) {
+            const lines = src.split(/\r?\n/).filter(l => l.trim() !== '' && !/^\s*#/.test(l));
+            let idx = 0;
+
+            function indentOf(l) { const m = l.match(/^ */); return m ? m[0].length : 0; }
+
+            function parseBlock(indent) {
+                const obj = {};
+                while (idx < lines.length) {
+                    const line = lines[idx];
+                    const cur = indentOf(line);
+                    if (cur < indent) break;
+                    const t = line.trim();
+                    if (t.startsWith('- ')) break;
+                    const ci = t.indexOf(':');
+                    if (ci === -1) { idx++; continue; }
+                    const key = t.slice(0, ci).trim();
+                    const val = t.slice(ci + 1).trim();
+                    idx++;
+                    if (val === '') {
+                        const next = lines[idx];
+                        if (next) {
+                            const ni = indentOf(next);
+                            const nt = next.trim();
+                            if (nt.startsWith('- ') && ni > cur) obj[key] = parseList(ni);
+                            else if (ni > cur) obj[key] = parseBlock(ni);
+                            else obj[key] = '';
+                        } else obj[key] = '';
+                    } else {
+                        obj[key] = unquote(val);
+                    }
+                }
+                return obj;
+            }
+
+            function parseList(indent) {
+                const arr = [];
+                while (idx < lines.length) {
+                    const line = lines[idx];
+                    const cur = indentOf(line);
+                    if (cur < indent) break;
+                    const t = line.trim();
+                    if (!t.startsWith('- ')) break;
+                    const rest = t.slice(2).trim();
+                    idx++;
+                    const ci = rest.indexOf(':');
+                    const looksLikeMap = ci > 0 && /^[A-Za-z0-9_"'\-]+$/.test(rest.slice(0, ci).trim());
+                    if (looksLikeMap) {
+                        const item = {};
+                        item[rest.slice(0, ci).trim()] = unquote(rest.slice(ci + 1).trim());
+                        while (idx < lines.length) {
+                            const l2 = lines[idx];
+                            const i2 = indentOf(l2);
+                            if (i2 <= cur) break;
+                            const t2 = l2.trim();
+                            if (t2.startsWith('- ')) break;
+                            const c2 = t2.indexOf(':');
+                            if (c2 === -1) { idx++; continue; }
+                            item[t2.slice(0, c2).trim()] = unquote(t2.slice(c2 + 1).trim());
+                            idx++;
+                        }
+                        arr.push(item);
+                    } else {
+                        arr.push(unquote(rest));
+                    }
+                }
+                return arr;
+            }
+
+            return parseBlock(0);
+        }
+
+        function splitFrontmatter(text) {
+            const m = text.match(/^\uFEFF?---\r?\n([\s\S]*?)\r?\n---\r?\n?([\s\S]*)$/);
+            if (!m) return { data: {}, body: text };
+            return { data: parseYamlLite(m[1]), body: m[2] || '' };
+        }
+
+        /* ==================================================================
+           INLINE / BLOCK MARKDOWN RENDERER
+           ================================================================== */
+        function escapeHtml(s) {
+            return String(s)
+                .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+        }
+
+        function inlineMd(s) {
+            return escapeHtml(s)
+                .replace(/`([^`]+)`/g, '<code>$1</code>')
+                .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+                .replace(/(^|[^*])\*([^*\n]+)\*/g, '$1<em>$2</em>')
+                .replace(/\[\[([^\]]+)\]\]/g, '<span class="wikilink">$1</span>');
+        }
+
+        function splitRow(line) {
+            return line.trim().replace(/^\|/, '').replace(/\|$/, '').split('|').map(c => c.trim());
+        }
+
+        function renderMarkdown(md) {
+            const lines = (md || '').split(/\r?\n/);
+            const out = [];
+            let i = 0;
+
+            while (i < lines.length) {
+                const line = lines[i];
+
+                if (/^\s*$/.test(line)) { i++; continue; }
+
+                // Generated marker comments (e.g. the BEGIN:APPEARANCES marker) are invisible
+                if (line.trim().startsWith('<' + '!--') && line.trim().endsWith('-->')) { i++; continue; }
+
+                // Table
+                if (/^\s*\|/.test(line) && i + 1 < lines.length && /^\s*\|[\s\-:|]+\|\s*$/.test(lines[i + 1])) {
+                    const head = splitRow(line);
+                    i += 2;
+                    const rows = [];
+                    while (i < lines.length && /^\s*\|/.test(lines[i])) { rows.push(splitRow(lines[i])); i++; }
+                    out.push(
+                        '<table class="md-table"><thead><tr>' +
+                        head.map(h => `<th>${inlineMd(h)}</th>`).join('') +
+                        '</tr></thead><tbody>' +
+                        rows.map(r => '<tr>' + r.map(c => `<td>${inlineMd(c)}</td>`).join('') + '</tr>').join('') +
+                        '</tbody></table>'
+                    );
+                    continue;
+                }
+
+                // Heading
+                const h = line.match(/^(#{1,6})\s+(.*)$/);
+                if (h) {
+                    const lvl = h[1].length;
+                    out.push(`<h${lvl} class="md-h md-h${lvl}">${inlineMd(h[2])}</h${lvl}>`);
+                    i++; continue;
+                }
+
+                // Blockquote
+                if (/^>\s?/.test(line)) {
+                    const buf = [];
+                    while (i < lines.length && /^>\s?/.test(lines[i])) {
+                        buf.push(lines[i].replace(/^>\s?/, ''));
+                        i++;
+                    }
+                    out.push('<blockquote class="md-quote">' + buf.map(inlineMd).join('<br>') + '</blockquote>');
+                    continue;
+                }
+
+                // Horizontal rule
+                if (/^\s*-{3,}\s*$/.test(line)) { out.push('<hr class="md-hr">'); i++; continue; }
+
+                // Unordered list
+                if (/^\s*[-*]\s+/.test(line)) {
+                    const buf = [];
+                    while (i < lines.length && /^\s*[-*]\s+/.test(lines[i])) {
+                        buf.push(lines[i].replace(/^\s*[-*]\s+/, ''));
+                        i++;
+                    }
+                    out.push('<ul class="md-ul">' + buf.map(b => `<li>${inlineMd(b)}</li>`).join('') + '</ul>');
+                    continue;
+                }
+
+                // Paragraph
+                const buf = [];
+                while (
+                    i < lines.length &&
+                    !/^\s*$/.test(lines[i]) &&
+                    !/^(#{1,6}\s|>|\s*[-*]\s|\s*\||\s*-{3,}\s*$)/.test(lines[i])
+                ) {
+                    buf.push(lines[i]);
+                    i++;
+                }
+                if (buf.length) out.push('<p class="md-p">' + buf.map(inlineMd).join(' ') + '</p>');
+                else i++;
+            }
+
+            return out.join('\n');
+        }
+
+        /* ==================================================================
+           NORMALISATION HELPERS
+           ================================================================== */
+        const ORG_DEFS = {
+            latam: { key: 'latam', label: 'LATAM Airlines', cls: 'org-latam' },
+            carabineros: { key: 'carabineros', label: 'Carabineros de Chile', cls: 'org-carabineros' },
+            dgac: { key: 'dgac', label: 'DGAC', cls: 'org-dgac' },
+            pdi: { key: 'pdi', label: 'PDI', cls: 'org-pdi' },
+            passenger: { key: 'passenger', label: 'Passenger', cls: 'org-passenger' },
+            other: { key: 'other', label: 'Other / Ambient', cls: 'org-other' }
+        };
+
+        function classifyOrg(sp) {
+            const blob = [
+                (sp.organization || ''),
+                (sp.tags || []).join(' ')
+            ].join(' ').toLowerCase();
+
+            if (blob.includes('latam')) return ORG_DEFS.latam;
+            if (blob.includes('carabinero')) return ORG_DEFS.carabineros;
+            if (blob.includes('dgac') || blob.includes('aeronáutica') || blob.includes('aeronautica')) return ORG_DEFS.dgac;
+            if (blob.includes('pdi') || blob.includes('investigaciones')) return ORG_DEFS.pdi;
+            if (blob.includes('passenger-self') || blob.includes('passenger')) return ORG_DEFS.passenger;
+            return ORG_DEFS.other;
+        }
+
+        function stripBrackets(s) {
+            return String(s || '').replace(/^\[\[/, '').replace(/\]\]$/, '').trim();
+        }
+
+        /* ==================================================================
+           APPEARANCE MAPPING (data/speaker_index.json)
+           ================================================================== */
+        const SEG_CHIP_LIMIT = 40;
+
+        function splitCsv(value, cast) {
+            if (Array.isArray(value)) return value.map(cast || String);
+            return String(value == null ? '' : value)
+                .split(',')
+                .map(s => s.trim())
+                .filter(s => s !== '')
+                .map(cast || String);
+        }
+
+        /** Normalise a frontmatter `appearances:` list into a uniform shape. */
+        function appearancesFromFrontmatter(raw) {
+            if (!Array.isArray(raw)) return [];
+            return raw
+                .map(a => {
+                    if (a && typeof a === 'object') {
+                        const segments = splitCsv(a.segment_indices);
+                        return {
+                            transcript_id: stripBrackets(a.transcript_id),
+                            labels: splitCsv(a.segment_labels),
+                            segments,
+                            count: segments.length
+                        };
+                    }
+                    return { transcript_id: stripBrackets(a), labels: [], segments: [], count: 0 };
+                })
+                .filter(a => a.transcript_id);
+        }
+
+        /** Normalise a mapped_speakers[...] entry from speaker_index.json. */
+        function appearancesFromIndex(entry) {
+            if (!entry || !Array.isArray(entry.appearances)) return [];
+            return entry.appearances
+                .map(a => {
+                    const segments = splitCsv(a.segment_indices);
+                    return {
+                        transcript_id: stripBrackets(a.transcript_id),
+                        labels: splitCsv(a.segment_labels),
+                        segments,
+                        count: segments.length
+                    };
+                })
+                .filter(a => a.transcript_id);
+        }
+
+        /**
+         * Attach the authoritative per-transcript/segment mapping to a speaker.
+         * The index wins when present; the enriched MD frontmatter is the fallback
+         * (e.g. when files are drag-and-dropped instead of fetched).
+         */
+        function attachAppearances(sp, indexEntry) {
+            const fromIndex = appearancesFromIndex(indexEntry);
+            if (fromIndex.length) {
+                sp.appearances = fromIndex;
+                sp.mappingSource = 'index';
+            } else {
+                sp.appearances = appearancesFromFrontmatter(sp.appearances_raw);
+                sp.mappingSource = sp.appearances.length ? 'frontmatter' : 'none';
+            }
+
+            // Safety net: transcripts listed without an appearance still get a row.
+            const known = new Set(sp.appearances.map(a => a.transcript_id));
+            sp.transcripts_appearing.map(stripBrackets).forEach(tid => {
+                if (tid && !known.has(tid)) {
+                    sp.appearances.push({ transcript_id: tid, labels: [], segments: [], count: 0 });
+                    known.add(tid);
+                }
+            });
+
+            sp.segment_count = sp.appearances.reduce((n, a) => n + a.count, 0);
+            sp.appearance_count = sp.appearances.length;
+            sp.labels = Array.from(new Set(sp.appearances.flatMap(a => a.labels)));
+            sp.transcripts = sp.appearances.length
+                ? sp.appearances.map(a => a.transcript_id)
+                : sp.transcripts_appearing.map(stripBrackets);
+        }
+
+        function shortName(name) {
+            const s = String(name || '').replace(/\s*\([^)]*\)\s*$/, '').trim();
+            return s || String(name || '');
+        }
+
+        function initials(name) {
+            const s = shortName(name).replace(/[^\p{L}\p{N}\s]/gu, ' ').trim();
+            if (!s) return '?';
+            const parts = s.split(/\s+/).filter(Boolean);
+            if (parts.length === 1) return parts[0].slice(0, 2).toUpperCase();
+            return (parts[0][0] + parts[1][0]).toUpperCase();
+        }
+
+        function confClass(c) {
+            const v = String(c || '').toLowerCase();
+            if (v === 'confirmed') return 'conf-confirmed';
+            if (v === 'partial') return 'conf-partial';
+            return 'conf-role-only';
+        }
+
+        function confRank(c) {
+            const v = String(c || '').toLowerCase();
+            if (v === 'confirmed') return 0;
+            if (v === 'partial') return 1;
+            return 2;
+        }
+
+        /* ==================================================================
+           INGESTION
+           ================================================================== */
+        function ingest(files, indexData) {
+            const mapped = (indexData && indexData.mapped_speakers) || {};
+
+            state.indexSummary = (indexData && indexData.summary) || null;
+            state.indexMappedCount = Object.keys(mapped).length;
+
+            state.speakers = files.map(({ name, text }) => {
+                const { data, body } = splitFrontmatter(text);
+                const sp = {
+                    file: name,
+                    id: data.speaker_id || name.replace(/\.md$/, ''),
+                    display_name: data.display_name || name.replace(/\.md$/, ''),
+                    role: data.role || '',
+                    organization: data.organization || '',
+                    identification_confidence: data.identification_confidence || 'role-only',
+                    incidents: Array.isArray(data.incidents) ? data.incidents : (data.incidents ? [data.incidents] : []),
+                    transcripts_appearing: Array.isArray(data.transcripts_appearing) ? data.transcripts_appearing : [],
+                    appearances_raw: data.appearances,
+                    key_statements: Array.isArray(data.key_statements) ? data.key_statements : [],
+                    tags: Array.isArray(data.tags) ? data.tags : [],
+                    aliases: Array.isArray(data.aliases) ? data.aliases : [],
+                    classification: data.classification || '',
+                    body: body || '',
+                    raw: text
+                };
+                sp.org = classifyOrg(sp);
+                sp.short = shortName(sp.display_name);
+                attachAppearances(sp, mapped[sp.id]);
+                return sp;
+            });
+
+            // De-duplicate by id (keep first)
+            const seen = new Set();
+            state.speakers = state.speakers.filter(s => {
+                if (seen.has(s.id)) return false;
+                seen.add(s.id);
+                return true;
+            });
+
+            state.loaded = true;
+            buildFilters();
+            render();
+        }
+
+        /* ==================================================================
+           LOADING
+           ================================================================== */
+        async function resolveManifest() {
+            try {
+                const res = await fetch(`${SPEAKERS_API}/files`, { cache: 'no-store' });
+                if (res.ok) {
+                    const data = await res.json();
+                    if (Array.isArray(data.files) && data.files.length) {
+                        state.manifestSource = 'api';
+                        return data.files;
+                    }
+                }
+            } catch (e) {
+                console.warn('Speaker manifest API unavailable, using built-in list.', e);
+            }
+            state.manifestSource = 'fallback';
+            return FALLBACK_SPEAKER_FILES;
+        }
+
+        async function loadSpeakerIndex() {
+            try {
+                const res = await fetch(`${SPEAKERS_API}/index`, { cache: 'no-store' });
+                if (res.ok) return await res.json();
+                console.warn(`Speaker index unavailable (HTTP ${res.status}).`);
+            } catch (e) {
+                console.warn('Speaker index unavailable, falling back to MD frontmatter.', e);
+            }
+            return null;
+        }
+
+        async function fetchSpeakerText(name) {
+            // Prefer the served /speakers/ mount; fall back to a relative path so
+            // the page also works when opened from a directory of .md files.
+            for (const url of [`${SPEAKERS_DIR_URL}${name}`, name]) {
+                try {
+                    const res = await fetch(url, { cache: 'no-store' });
+                    if (!res.ok) continue;
+                    const ct = (res.headers.get('content-type') || '').toLowerCase();
+                    if (ct.includes('json') || ct.includes('html')) continue;
+                    return { name, text: await res.text() };
+                } catch (e) { /* try the next URL shape */ }
+            }
+            return null;
+        }
+
+        async function loadFromServer() {
+            const manifest = await resolveManifest();
+            const indexData = await loadSpeakerIndex();
+
+            const results = await Promise.allSettled(manifest.map(fetchSpeakerText));
+            const ok = results
+                .filter(r => r.status === 'fulfilled' && r.value)
+                .map(r => r.value);
+
+            if (ok.length > 0) {
+                ingest(ok, indexData);
+                if (ok.length < manifest.length) {
+                    console.warn(`Loaded ${ok.length}/${manifest.length} speaker files.`);
+                }
+                return true;
+            }
+            return false;
+        }
+
+        function readFiles(fileList) {
+            const files = Array.from(fileList).filter(f => /\.md$/i.test(f.name));
+            if (!files.length) return;
+            Promise.all(files.map(f => new Promise((resolve) => {
+                const fr = new FileReader();
+                fr.onload = () => resolve({ name: f.name, text: String(fr.result) });
+                fr.onerror = () => resolve({ name: f.name, text: '' });
+                fr.readAsText(f);
+            }))).then(ingest);
+        }
+
+        /* ==================================================================
+           FILTERS
+           ================================================================== */
+        function buildFilters() {
+            const orgCounts = {};
+            const confCounts = {};
+            state.speakers.forEach(s => {
+                orgCounts[s.org.key] = (orgCounts[s.org.key] || 0) + 1;
+                const c = String(s.identification_confidence || 'role-only').toLowerCase();
+                confCounts[c] = (confCounts[c] || 0) + 1;
+            });
+
+            const orgChips = document.getElementById('orgChips');
+            const orgKeys = Object.keys(ORG_DEFS).filter(k => orgCounts[k]);
+            orgChips.innerHTML =
+                `<button class="chip is-active" data-org="all">All organizations <span class="chip-count">${state.speakers.length}</span></button>` +
+                orgKeys.map(k =>
+                    `<button class="chip" data-org="${k}">${ORG_DEFS[k].label} <span class="chip-count">${orgCounts[k]}</span></button>`
+                ).join('');
+
+            const confChips = document.getElementById('confChips');
+            const confKeys = ['confirmed', 'partial', 'role-only'].filter(c => confCounts[c]);
+            confChips.innerHTML =
+                `<button class="chip is-active" data-conf="all">Any confidence</button>` +
+                confKeys.map(c =>
+                    `<button class="chip" data-conf="${c}">${c} <span class="chip-count">${confCounts[c]}</span></button>`
+                ).join('');
+
+            orgChips.querySelectorAll('.chip').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    state.org = btn.dataset.org;
+                    orgChips.querySelectorAll('.chip').forEach(b => b.classList.toggle('is-active', b === btn));
+                    render();
+                });
+            });
+
+            confChips.querySelectorAll('.chip').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    state.confidence = btn.dataset.conf;
+                    confChips.querySelectorAll('.chip').forEach(b => b.classList.toggle('is-active', b === btn));
+                    render();
+                });
+            });
+        }
+
+        function matchesQuery(sp, q) {
+            if (!q) return true;
+            const hay = [
+                sp.display_name, sp.short, sp.role, sp.organization, sp.id,
+                (sp.aliases || []).join(' '),
+                (sp.tags || []).join(' '),
+                (sp.incidents || []).join(' '),
+                (sp.transcripts_appearing || []).join(' '),
+                (sp.appearances || []).map(a => `${a.transcript_id} ${(a.labels || []).join(' ')} ${(a.segments || []).join(' ')}`).join(' '),
+                (sp.key_statements || []).map(k => `${k.quote || ''} ${k.context || ''}`).join(' ')
+            ].join(' \u0000 ').toLowerCase();
+            return q.toLowerCase().split(/\s+/).filter(Boolean).every(term => hay.includes(term));
+        }
+
+        function getFiltered() {
+            let list = state.speakers.filter(sp => {
+                if (state.org !== 'all' && sp.org.key !== state.org) return false;
+                if (state.confidence !== 'all' &&
+                    String(sp.identification_confidence || '').toLowerCase() !== state.confidence) return false;
+                if (state.flaggedOnly && !state.flags[sp.id]) return false;
+                return matchesQuery(sp, state.query);
+            });
+
+            const sorters = {
+                name: (a, b) => shortName(a.display_name).localeCompare(shortName(b.display_name), 'es'),
+                org: (a, b) =>
+                    a.org.label.localeCompare(b.org.label) ||
+                    shortName(a.display_name).localeCompare(shortName(b.display_name), 'es'),
+                statements: (a, b) => (b.key_statements.length - a.key_statements.length) ||
+                    shortName(a.display_name).localeCompare(shortName(b.display_name), 'es'),
+                transcripts: (a, b) => (b.transcripts_appearing.length - a.transcripts_appearing.length) ||
+                    shortName(a.display_name).localeCompare(shortName(b.display_name), 'es'),
+                segments: (a, b) => ((b.segment_count || 0) - (a.segment_count || 0)) ||
+                    shortName(a.display_name).localeCompare(shortName(b.display_name), 'es'),
+                confidence: (a, b) =>
+                    confRank(a.identification_confidence) - confRank(b.identification_confidence) ||
+                    shortName(a.display_name).localeCompare(shortName(b.display_name), 'es')
+            };
+            list.sort(sorters[state.sort] || sorters.org);
+            return list;
+        }
+
+        /* ==================================================================
+           RENDER
+           ================================================================== */
+        function render() {
+            renderStats();
+            renderContent();
+        }
+
+        function renderStats() {
+            const bar = document.getElementById('statsBar');
+            const sps = state.speakers;
+
+            const orgs = new Set(sps.map(s => s.org.key));
+            const incidents = new Set();
+            sps.forEach(s => (s.incidents || []).forEach(i => incidents.add(i)));
+            const confirmed = sps.filter(s => String(s.identification_confidence).toLowerCase() === 'confirmed').length;
+            const statements = sps.reduce((n, s) => n + s.key_statements.length, 0);
+            const segments = sps.reduce((n, s) => n + (s.segment_count || 0), 0);
+            const notes = Object.values(state.notes).reduce((n, arr) => n + (arr ? arr.length : 0), 0);
+
+            const items = [
+                ['Speakers', sps.length],
+                ['Organizations', orgs.size],
+                ['Incidents', incidents.size],
+                ['Confirmed IDs', confirmed],
+                ['Key statements', statements],
+                ['Mapped segments', segments],
+                ['Analyst notes', notes]
+            ];
+
+            bar.innerHTML = items.map(([label, val]) =>
+                `<div class="stat-item"><div class="stat-val">${val}</div><div class="stat-label">${label}</div></div>`
+            ).join('');
+        }
+
+        function renderContent() {
+            const content = document.getElementById('content');
+            const resultLine = document.getElementById('resultLine');
+
+            if (!state.loaded) {
+                content.innerHTML = `
+      <div class="section-head">
+        <h2>Speaker files not loaded</h2>
+        <p>Serve this page from the folder containing the <code>SPK-*.md</code> notes, or load them manually below.</p>
+      </div>
+      <div class="empty-state">
+        <h3>No source documents detected</h3>
+        <p>Select the folder that holds the speaker notes, or pick the individual <code>.md</code> files. Nothing leaves your machine.</p>
+        <div class="empty-actions">
+          <label class="btn btn-primary">Select folder<input type="file" webkitdirectory directory multiple accept=".md" hidden id="emptyFolder"></label>
+          <label class="btn">Select files<input type="file" multiple accept=".md" hidden id="emptyFiles"></label>
+        </div>
+      </div>`;
+                resultLine.textContent = '';
+                const ef = document.getElementById('emptyFolder');
+                const ei = document.getElementById('emptyFiles');
+                if (ef) ef.addEventListener('change', e => readFiles(e.target.files));
+                if (ei) ei.addEventListener('change', e => readFiles(e.target.files));
+                return;
+            }
+
+            const list = getFiltered();
+
+            const activeFilters = [];
+            if (state.query) activeFilters.push(`“${state.query}”`);
+            if (state.org !== 'all') activeFilters.push(ORG_DEFS[state.org].label);
+            if (state.confidence !== 'all') activeFilters.push(state.confidence);
+            if (state.flaggedOnly) activeFilters.push('flagged');
+
+            resultLine.innerHTML =
+                `<span>${list.length} of ${state.speakers.length} speakers</span>` +
+                (activeFilters.length
+                    ? `<span>· filtered by ${activeFilters.join(' · ')}</span><span class="clear-link" id="clearFilters">reset</span>`
+                    : '');
+
+            const clear = document.getElementById('clearFilters');
+            if (clear) {
+                clear.addEventListener('click', () => {
+                    state.query = '';
+                    state.org = 'all';
+                    state.confidence = 'all';
+                    state.flaggedOnly = false;
+                    document.getElementById('searchInput').value = '';
+                    document.getElementById('flaggedChip').classList.remove('is-active');
+                    document.querySelectorAll('#orgChips .chip').forEach(b => b.classList.toggle('is-active', b.dataset.org === 'all'));
+                    document.querySelectorAll('#confChips .chip').forEach(b => b.classList.toggle('is-active', b.dataset.conf === 'all'));
+                    render();
+                });
+            }
+
+            if (!list.length) {
+                content.innerHTML = `
+      <div class="empty-state">
+        <h3>No speakers match</h3>
+        <p>Try a broader search term or reset the active filters.</p>
+      </div>`;
+                return;
+            }
+
+            // Group by organization when sorting by org
+            let html = '';
+            if (state.sort === 'org') {
+                const groups = new Map();
+                list.forEach(sp => {
+                    if (!groups.has(sp.org.key)) groups.set(sp.org.key, []);
+                    groups.get(sp.org.key).push(sp);
+                });
+                groups.forEach((items, key) => {
+                    html += `
+        <div class="section-head">
+          <h2>${ORG_DEFS[key].label}</h2>
+          <p>${items.length} speaker${items.length === 1 ? '' : 's'} identified.</p>
+        </div>
+        <div class="speaker-grid">${items.map(cardHtml).join('')}</div>`;
+                });
+            } else {
+                html = `<div class="section-head" style="padding-top:24px"></div>
+            <div class="speaker-grid">${list.map(cardHtml).join('')}</div>`;
+            }
+
+            content.innerHTML = html;
+
+            content.querySelectorAll('.speaker-card').forEach(card => {
+                card.addEventListener('click', (e) => {
+                    if (e.target.closest('.flag-btn')) return;
+                    openModal(card.dataset.id);
+                });
+                card.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openModal(card.dataset.id); }
+                });
+            });
+
+            content.querySelectorAll('.flag-btn').forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    const id = btn.dataset.id;
+                    if (state.flags[id]) delete state.flags[id];
+                    else state.flags[id] = true;
+                    localStorage.setItem(LS_FLAGS, JSON.stringify(state.flags));
+                    btn.classList.toggle('is-on', !!state.flags[id]);
+                    if (state.flaggedOnly) render();
+                });
+            });
+        }
+
+        function cardHtml(sp) {
+            const flagged = !!state.flags[sp.id];
+            const noteCount = (state.notes[sp.id] || []).length;
+            const tags = (sp.tags || [])
+                .filter(t => t !== 'speaker')
+                .slice(0, 3)
+                .map(t => {
+                    const cls = t.startsWith('organization/') ? 'tag-org'
+                        : t.startsWith('identification/') ? 'tag-conf' : '';
+                    return `<span class="tag-mini ${cls}">${escapeHtml(t)}</span>`;
+                }).join('');
+
+            return `
+    <article class="speaker-card" data-org="${sp.org.key}" data-id="${escapeHtml(sp.id)}" tabindex="0">
+      <div class="spk-top">
+        <div class="spk-avatar">${escapeHtml(initials(sp.display_name))}</div>
+        <div class="spk-headtext">
+          <h3 class="spk-name">${escapeHtml(sp.short)}</h3>
+          <p class="spk-role">${escapeHtml(sp.role || 'Role unspecified')}</p>
+        </div>
+        <button class="flag-btn ${flagged ? 'is-on' : ''}" data-id="${escapeHtml(sp.id)}"
+                title="${flagged ? 'Remove flag' : 'Flag for review'}" aria-label="Flag">★</button>
+      </div>
+
+      <div class="spk-meta">
+        <span class="org-pill">${escapeHtml(sp.org.label)}</span>
+        <span class="conf-pill ${confClass(sp.identification_confidence)}">${escapeHtml(sp.identification_confidence)}</span>
+      </div>
+
+      ${tags ? `<div class="spk-tags">${tags}</div>` : ''}
+
+      <div class="spk-foot">
+        <span><span class="num">${sp.key_statements.length}</span> stmt</span>
+        <span><span class="num">${sp.transcripts.length}</span> trns</span>
+        ${sp.segment_count ? `<span><span class="num">${sp.segment_count}</span> seg</span>` : ''}
+        ${noteCount ? `<span><span class="num">${noteCount}</span> note</span>` : ''}
+        <span class="spacer"></span>
+        <span>${escapeHtml((sp.incidents || []).join(', ') || '—')}</span>
+      </div>
+    </article>`;
+        }
+
+        /* ==================================================================
+           MODAL
+           ================================================================== */
+        function openModal(id) {
+            const sp = state.speakers.find(s => s.id === id);
+            if (!sp) return;
+            state.currentId = id;
+
+            const header = document.getElementById('modalHeader');
+            const body = document.getElementById('modalBody');
+            const footerNote = document.getElementById('modalFooterNote');
+
+            header.innerHTML = `
+    <span class="modal-type-badge ${confClass(sp.identification_confidence)}">${escapeHtml(sp.identification_confidence)} identification</span>
+    <h2 class="modal-title" id="modalTitle">${escapeHtml(sp.display_name)}</h2>
+    <p class="modal-role">${escapeHtml(sp.role || 'Role unspecified')} · ${escapeHtml(sp.org.label)}</p>
+    <p class="modal-audio-ref">${escapeHtml(sp.file)} · ${escapeHtml(sp.id)}</p>
+  `;
+
+            const kv = [
+                ['Organization', sp.org.label],
+                ['Confidence', sp.identification_confidence],
+                ['Incidents', (sp.incidents || []).join(', ') || '—'],
+                ['Statements', String(sp.key_statements.length)],
+                ['Transcripts', String(sp.transcripts.length)],
+                ['Mapped segments', String(sp.segment_count || 0)],
+                ['Classification', sp.classification || '—']
+            ];
+
+            let html = `<div class="modal-section">
+    <div class="modal-section-label">Identity</div>
+    <dl class="kv-grid">
+      ${kv.map(([k, v]) => `<div class="kv"><dt>${escapeHtml(k)}</dt><dd>${escapeHtml(v)}</dd></div>`).join('')}
+    </dl>
+  </div>`;
+
+            // Key statements
+            if (sp.key_statements.length) {
+                html += `<div class="modal-section">
+      <div class="modal-section-label">Key statements</div>
+      <div class="stmt-list">
+        ${sp.key_statements.map(k => `
+          <div class="stmt-card">
+            <p class="stmt-quote">${escapeHtml(k.quote || '')}</p>
+            ${k.context ? `<p class="stmt-ctx">${escapeHtml(k.context)}</p>` : ''}
+            <div class="stmt-meta">
+              ${k.segment ? `<span class="seg-chip">segment ${escapeHtml(k.segment)}</span>` : ''}
+              ${k.transcript ? `<span>${escapeHtml(stripBrackets(k.transcript))}</span>` : ''}
+            </div>
+          </div>`).join('')}
+      </div>
+    </div>`;
+            }
+
+            // Appearances — per-transcript segment mapping from speaker_index.json
+            if (sp.appearances.length) {
+                const total = sp.segment_count || 0;
+                const sourceLabel = sp.mappingSource === 'index'
+                    ? 'data/speaker_index.json'
+                    : sp.mappingSource === 'frontmatter'
+                        ? 'MD frontmatter'
+                        : 'transcript list only';
+
+                html += `<div class="modal-section">
+      <div class="modal-section-label">Appearances
+        <span class="section-count">${sp.appearances.length} transcript${sp.appearances.length === 1 ? '' : 's'} · ${total} mapped segment${total === 1 ? '' : 's'}</span>
+      </div>
+      <div class="appearance-list">
+        ${sp.appearances.map(a => {
+                    const extra = a.segments.length > SEG_CHIP_LIMIT ? a.segments.length - SEG_CHIP_LIMIT : 0;
+                    const shown = a.segments.slice(0, SEG_CHIP_LIMIT);
+                    return `
+          <div class="appearance-card">
+            <div class="appearance-head">
+              <span class="appearance-tid">${escapeHtml(a.transcript_id)}</span>
+              <span class="appearance-count">${a.count} segment${a.count === 1 ? '' : 's'}</span>
+            </div>
+            ${a.labels.length
+                            ? `<div class="pill-row">${a.labels.map(l => `<span class="label-chip">${escapeHtml(l)}</span>`).join('')}</div>`
+                            : ''}
+            ${a.segments.length
+                            ? `<div class="seg-chips">
+                  ${shown.map(i => `<span class="seg-chip-num">${escapeHtml(i)}</span>`).join('')}
+                  ${extra ? `<span class="seg-more">+${extra} more</span>` : ''}
+                </div>`
+                            : `<div class="seg-chips"><span class="seg-more">no segment indices recorded</span></div>`}
+          </div>`;
+                }).join('')}
+      </div>
+      <p class="spk-index-note">mapping source: ${escapeHtml(sourceLabel)}</p>
+    </div>`;
+            } else if (sp.transcripts_appearing.length) {
+                html += `<div class="modal-section">
+      <div class="modal-section-label">Appears in transcripts</div>
+      <div class="pill-row">
+        ${sp.transcripts_appearing.map(t => `<span class="tr-pill">${escapeHtml(stripBrackets(t))}</span>`).join('')}
+      </div>
+    </div>`;
+            }
+
+            // Aliases & tags
+            if ((sp.aliases || []).length || (sp.tags || []).length) {
+                html += `<div class="modal-section">
+      <div class="modal-section-label">Aliases &amp; tags</div>
+      <div class="pill-row" style="margin-bottom:8px">
+        ${(sp.aliases || []).map(a => `<span class="alias-pill">${escapeHtml(a)}</span>`).join('')}
+      </div>
+      <div class="pill-row">
+        ${(sp.tags || []).map(t => `<span class="tag-pill">${escapeHtml(t)}</span>`).join('')}
+      </div>
+    </div>`;
+            }
+
+            // Analyst notes
+            const notes = state.notes[sp.id] || [];
+            html += `<div class="modal-section">
+    <div class="modal-section-label">Analyst notes</div>
+    <div class="notes-panel">
+      <div class="notes-head">
+        <span class="notes-label">Local annotations</span>
+        <span class="notes-count">${notes.length}</span>
+      </div>
+      <div class="notes-list" id="noteList">
+        ${notes.length
+                    ? notes.map((n, i) => `
+              <div class="note-card">
+                <div class="note-meta">
+                  <span class="note-type">note</span>
+                  <span class="note-author">Analyst</span>
+                  <span class="note-seg">${escapeHtml(n.ts || '')}</span>
+                  <button class="note-del" data-index="${i}">delete</button>
+                </div>
+                <div class="note-body">${escapeHtml(n.text || '')}</div>
+              </div>`).join('')
+                    : `<div class="notes-empty">No notes recorded for this speaker yet.</div>`}
+      </div>
+      <div class="note-form">
+        <textarea id="noteInput" placeholder="Add an observation, contradiction, cross-reference…"></textarea>
+        <div class="note-form-row">
+          <span class="spacer"></span>
+          <button class="btn btn-primary" id="noteSave">Save note</button>
+        </div>
+      </div>
+    </div>
+  </div>`;
+
+            // Source document
+            html += `<div class="modal-section">
+    <div class="modal-section-label">Source document</div>
+    <details class="source-doc">
+      <summary>Show rendered speaker note</summary>
+      <div class="source-body">${renderMarkdown(sp.body)}</div>
+    </details>
+  </div>`;
+
+            body.innerHTML = html;
+            footerNote.textContent = `${sp.org.label} · ${sp.id}`;
+
+            // Note handlers
+            const noteList = document.getElementById('noteList');
+            noteList.querySelectorAll('.note-del').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const idx = Number(btn.dataset.index);
+                    const arr = state.notes[sp.id] || [];
+                    arr.splice(idx, 1);
+                    if (arr.length) state.notes[sp.id] = arr; else delete state.notes[sp.id];
+                    persistNotes();
+                    openModal(sp.id);
+                    render();
+                });
+            });
+
+            document.getElementById('noteSave').addEventListener('click', () => {
+                const ta = document.getElementById('noteInput');
+                const text = ta.value.trim();
+                if (!text) return;
+                const arr = state.notes[sp.id] || [];
+                arr.push({ text, ts: new Date().toISOString().slice(0, 16).replace('T', ' ') });
+                state.notes[sp.id] = arr;
+                persistNotes();
+                openModal(sp.id);
+                render();
+            });
+
+            document.getElementById('modalOverlay').classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            document.getElementById('modalOverlay').classList.remove('active');
+            document.body.style.overflow = '';
+            state.currentId = null;
+        }
+
+        function persistNotes() {
+            localStorage.setItem(LS_NOTES, JSON.stringify(state.notes));
+        }
+
+        /* ==================================================================
+           EXPORT
+           ================================================================== */
+        function download(filename, text, mime) {
+            const blob = new Blob([text], { type: mime || 'text/plain;charset=utf-8' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            setTimeout(() => URL.revokeObjectURL(url), 1000);
+        }
+
+        function exportAllNotes() {
+            const lines = [
+                '---',
+                'note_type: analyst-notes-export',
+                `exported_utc: "${new Date().toISOString()}"`,
+                `speakers_with_notes: ${Object.keys(state.notes).length}`,
+                'classification: "Attorney Work Product — Privileged and Confidential"',
+                '---',
+                '',
+                '# Analyst Notes — Speaker Registry',
+                ''
+            ];
+
+            const flagged = Object.keys(state.flags);
+            if (flagged.length) {
+                lines.push('## Flagged speakers', '');
+                flagged.forEach(id => {
+                    const sp = state.speakers.find(s => s.id === id);
+                    lines.push(`- ${sp ? sp.display_name : id} (\`${id}\`)`);
+                });
+                lines.push('');
+            }
+
+            Object.keys(state.notes).forEach(id => {
+                const sp = state.speakers.find(s => s.id === id);
+                const arr = state.notes[id] || [];
+                if (!arr.length) return;
+                lines.push(`## ${sp ? sp.display_name : id}`, '', `*${sp ? sp.role + ' · ' + sp.org.label : ''}*`, `*ID: \`${id}\`*`, '');
+                arr.forEach(n => {
+                    lines.push(`- **${n.ts || ''}** — ${n.text}`);
+                });
+                lines.push('');
+            });
+
+            if (Object.keys(state.notes).length === 0) {
+                lines.push('_No analyst notes recorded._', '');
+            }
+
+            download('analyst-notes-speakers.md', lines.join('\n'), 'text/markdown;charset=utf-8');
+        }
+
+        function exportSpeaker(sp) {
+            const notes = state.notes[sp.id] || [];
+            let out = sp.raw.trimEnd();
+            if (notes.length) {
+                out += '\n\n---\n\n## Analyst Notes\n\n';
+                notes.forEach(n => { out += `- **${n.ts || ''}** — ${n.text}\n`; });
+            }
+            if (state.flags[sp.id]) {
+                out += '\n> ⚑ Flagged for review\n';
+            }
+            download(sp.file, out, 'text/markdown;charset=utf-8');
+        }
+
+        /* ==================================================================
+           EVENT BINDING
+           ================================================================== */
+        function bindUI() {
+            let debounce;
+            document.getElementById('searchInput').addEventListener('input', (e) => {
+                clearTimeout(debounce);
+                const val = e.target.value;
+                debounce = setTimeout(() => { state.query = val.trim(); render(); }, 120);
+            });
+
+            document.getElementById('sortSelect').addEventListener('change', (e) => {
+                state.sort = e.target.value;
+                render();
+            });
+
+            document.getElementById('flaggedChip').addEventListener('click', (e) => {
+                state.flaggedOnly = !state.flaggedOnly;
+                e.currentTarget.classList.toggle('is-active', state.flaggedOnly);
+                render();
+            });
+
+            document.getElementById('modalClose').addEventListener('click', closeModal);
+            document.getElementById('modalOverlay').addEventListener('click', (e) => {
+                if (e.target.id === 'modalOverlay') closeModal();
+            });
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape' && document.getElementById('modalOverlay').classList.contains('active')) closeModal();
+            });
+
+            document.getElementById('modalDownload').addEventListener('click', () => {
+                const sp = state.speakers.find(s => s.id === state.currentId);
+                if (sp) exportSpeaker(sp);
+            });
+
+            document.getElementById('exportBtn').addEventListener('click', exportAllNotes);
+            document.getElementById('folderInput').addEventListener('change', e => readFiles(e.target.files));
+            document.getElementById('fileInput').addEventListener('change', e => readFiles(e.target.files));
+
+            // Global drag & drop
+            const dz = document.getElementById('dropzone');
+            let dragDepth = 0;
+            window.addEventListener('dragenter', (e) => {
+                e.preventDefault();
+                dragDepth++;
+                if (e.dataTransfer && Array.from(e.dataTransfer.types || []).includes('Files')) {
+                    dz.classList.add('active');
+                }
+            });
+            window.addEventListener('dragover', (e) => e.preventDefault());
+            window.addEventListener('dragleave', (e) => {
+                e.preventDefault();
+                dragDepth = Math.max(0, dragDepth - 1);
+                if (dragDepth === 0) dz.classList.remove('active');
+            });
+            window.addEventListener('drop', (e) => {
+                e.preventDefault();
+                dragDepth = 0;
+                dz.classList.remove('active');
+                if (e.dataTransfer && e.dataTransfer.files && e.dataTransfer.files.length) {
+                    readFiles(e.dataTransfer.files);
+                }
+            });
+        }
+
+        /* ==================================================================
+           INIT
+           ================================================================== */
+        async function init() {
+            bindUI();
+            render(); // renders the "not loaded" state immediately
+            const ok = await loadFromServer();
+            if (!ok) {
+                console.info('Speaker files could not be fetched automatically — use the folder/file pickers.');
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', init);
+    </script>
+</body>
+
+</html>

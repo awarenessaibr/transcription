@@ -1,0 +1,2922 @@
+{
+  "transcript_id": "I-002_24_NAR-19_STG_12",
+  "source_file": "",
+  "language": "es",
+  "timestamp": "2024-07-06T09:13:00Z",
+  "provider": "",
+  "original_transcript_id": "I-002_24_NAR-19_STG_12",
+  "metadata": {},
+  "title": "STG-12 — Day 2 Counter Interaction (Boarding Denial & Pattern Confirmation)",
+  "subtitle": "Overnight ban persists; LATAM Official says '¡Cállate!'; shifting narratives challenged; independent witness evidence; 85% flight monopoly confirmed",
+  "recording_datetime": "2024-07-06T09:13:00Z",
+  "location": "Arturo Merino Benítez International Airport, Santiago, Chile — LATAM Counter",
+  "audio_id": "aeropuerto_stg_12",
+  "case_id": "I-002",
+  "narrative_id": "NAR-19_STG_12",
+  "chronological_order": 27,
+  "prior_stage": "I-002_23_NAR_CARABINEROS_3",
+  "next_stage": "",
+  "classification": "Attorney Work Product — Privileged and Confidential",
+  "participants": [
+    {
+      "canonical_name": "Leandro Disconzi",
+      "role": "Passenger / victim",
+      "speaker_label": "Passenger (Leandro Disconzi)",
+      "speaker_id": "SPK-passenger-leandro"
+    },
+    {
+      "canonical_name": "LATAM Supervisora (NAR-19_STG_12)",
+      "role": "LATAM Supervisor — shift change, initially confused, denies boarding",
+      "speaker_label": "LATAM Supervisora",
+      "speaker_id": "SPK-latam-supervisora-nar-19-stg-12"
+    },
+    {
+      "canonical_name": "LATAM Official (NAR-19_STG_12)",
+      "role": "LATAM Official — dismissive, says '¡Cállate!', refers to constancia",
+      "speaker_label": "LATAM Official",
+      "speaker_id": "SPK-latam-official-nar-19-stg-12"
+    },
+    {
+      "canonical_name": "LATAM Staff (NAR-19_STG_12)",
+      "role": "LATAM Staff — says 'Gracias'",
+      "speaker_label": "LATAM Staff",
+      "speaker_id": "SPK-latam-staff-nar-19-stg-12"
+    },
+    {
+      "canonical_name": "SPEAKER_00 (English speaker)",
+      "role": "Unidentified LATAM or airport staff — says 'Thank you' at end",
+      "speaker_label": "SPEAKER_00"
+    }
+  ],
+  "violations_cited": [
+    "LPDC Art. 23 bis — failure to provide lawful written reasons",
+    "CPCL Art. 197 — falsification of private document (unsigned carta)",
+    "CPCL Art. 211 (CHIPENCOD) — calumnia (false accusation of aggression)",
+    "CACH Art. 133 — denied‑boarding compensation not offered",
+    "CACH Art. 131 — no rights information provided",
+    "LPDC Art. 3(b) — right to truthful information violated",
+    "Systemic institutional practice — daily false detentions confirmed by Carabineros (cross‑reference)",
+    "Abuso de autoridad — forcible removal without valid cause",
+    "Lifetime travel ban without due process (85% market share)",
+    "Stigmatisation and discrimination via 'disruptivo' label"
+  ],
+  "tags": [
+    "transcript",
+    "narrative",
+    "evidence",
+    "latam",
+    "boarding-denial",
+    "day-2",
+    "shifting-narratives",
+    "witness-evidence",
+    "monopoly-abuse",
+    "systemic-pattern"
+  ],
+  "forensic_clusters": {},
+  "key_evidentiary_findings": [
+    {
+      "id": "STG12-1",
+      "finding": "Boarding ban persists overnight across shift change — 'No puede embarcar.' The 'disruptivo' label (F-019) remains active, confirming system‑wide implementation of the travel ban.",
+      "strength": "High"
+    },
+    {
+      "id": "STG12-2",
+      "finding": "Supervisor confuses timeline — asks '¿qué hizo anoche?' Leandro corrects that the incident occurred at 1 PM, not last night. Indicates poor information transfer between shifts.",
+      "strength": "Low"
+    },
+    {
+      "id": "STG12-3",
+      "finding": "Core claim restated consistently: 'La PDI vio la cámara y comprobó que no pasó nada.' Leandro offers to verify with PDI. Account matches all prior recordings.",
+      "strength": "High"
+    },
+    {
+      "id": "STG12-4",
+      "finding": "LATAM Official (SPEAKER_03) says '¡Cállate!' — an overtly dismissive, silencing command. Reinforces power asymmetry and contrasts with passenger's documented calm bearing.",
+      "strength": "High"
+    },
+    {
+      "id": "STG12-5",
+      "finding": "Carabineros constancia acknowledged by LATAM staff: 'Esto es una declaración que tú hiciste en cara de dinero.' Indicates the constancia has been shown to them.",
+      "strength": "Medium"
+    },
+    {
+      "id": "STG12-6",
+      "finding": "Leandro states intent to file individual complaints against the accuser and pilot: 'voy a hacer una denuncia contra las dos personas también.' Moves from institutional complaint to personal accountability.",
+      "strength": "Medium"
+    },
+    {
+      "id": "STG12-7",
+      "finding": "Shifting‑narratives pattern restated with precision: aggression → camera disproved → boarding pass. '¿Por qué cambiaron de narrativa? ¿Porque una no funcionó?' Consistent across 20+ hours and 7+ interlocutors.",
+      "strength": "High"
+    },
+    {
+      "id": "STG12-8",
+      "finding": "Independent passenger witness: a lady seated next to him 'también no vio nada.' Confirms no aggression occurred. Other passengers questioned the situation collectively.",
+      "strength": "High"
+    },
+    {
+      "id": "STG12-9",
+      "finding": "Leandro possesses audio recordings of LATAM security and DGAC discussing camera evidence. States 'tengo varias grabaciones... no de vídeo, de audio.' Corroborates the existence of the case file recordings.",
+      "strength": "High"
+    },
+    {
+      "id": "STG12-10",
+      "finding": "Lifetime ban scope confirmed: '85 % de los vuelos para donde voy, a la TAM.' Combined with LATAM's monopoly, this constitutes a de facto regional travel prohibition.",
+      "strength": "High"
+    },
+    {
+      "id": "STG12-11",
+      "finding": "Dolo evidence: Leandro asserts LATAM acted 'de propósito, sabiendo que estaban incorrectos' and 'sabiendo que estaban mentindo.' Directly asserts intentionality and knowledge of falsity.",
+      "strength": "High"
+    },
+    {
+      "id": "STG12-12",
+      "finding": "Stigmatisation: Leandro says 'me miran como lo malo.' The 'disruptivo' label primes all interactions with a presumption of passenger wrongdoing, causing psychological harm.",
+      "strength": "Medium"
+    }
+  ],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 0,
+      "speaker": "passenger",
+      "start": 10.745,
+      "end": 12.005,
+      "duration": 1.26,
+      "text": "Hola, buenos días.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:13:10.745+00:00"
+    },
+    {
+      "index": 1,
+      "speaker": "passenger",
+      "start": 12.925,
+      "end": 13.605,
+      "duration": 0.68,
+      "text": "¿Cómo estás?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:13:12.925+00:00"
+    },
+    {
+      "index": 2,
+      "speaker": "passenger",
+      "start": 14.165,
+      "end": 15.465,
+      "duration": 1.3,
+      "text": "¿Es tarde ya?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:13:14.165+00:00"
+    },
+    {
+      "index": 3,
+      "speaker": "passenger",
+      "start": 16.685,
+      "end": 18.385,
+      "duration": 1.7,
+      "text": "Buenos días. Buenos días.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:13:16.685+00:00"
+    },
+    {
+      "index": 4,
+      "speaker": "airline_supervisor",
+      "start": 18.385,
+      "end": 20.285,
+      "duration": 1.9,
+      "text": "Tiene que esperar seguridad, pero no",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:13:18.385+00:00"
+    },
+    {
+      "index": 5,
+      "speaker": "airline_supervisor",
+      "start": 20.845,
+      "end": 22.425,
+      "duration": 1.58,
+      "text": "puede embarcar.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:13:20.845+00:00"
+    },
+    {
+      "index": 6,
+      "speaker": "airline_supervisor",
+      "start": 23.285,
+      "end": 25.325,
+      "duration": 2.04,
+      "text": "Tiene que, sí, usted puede esperar. Yo no puedo embarcar.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:13:23.285+00:00"
+    },
+    {
+      "index": 7,
+      "speaker": "passenger",
+      "start": 25.325,
+      "end": 25.725,
+      "duration": 0.4,
+      "text": "¿Qué tal?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:13:25.325+00:00"
+    },
+    {
+      "index": 8,
+      "speaker": "passenger",
+      "start": 26.225,
+      "end": 28.785,
+      "duration": 2.56,
+      "text": "Yo claramente pensé que no puedo embarcar. ¿Qué le pasó?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:13:26.225+00:00"
+    },
+    {
+      "index": 9,
+      "speaker": "airline_supervisor",
+      "start": 28.785,
+      "end": 30.265,
+      "duration": 1.48,
+      "text": "Bueno, pero ¿qué hizo anoche?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:13:28.785+00:00"
+    },
+    {
+      "index": 10,
+      "speaker": "passenger",
+      "start": 30.725,
+      "end": 31.045,
+      "duration": 0.32,
+      "text": "¿Ah?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:13:30.725+00:00"
+    },
+    {
+      "index": 11,
+      "speaker": "airline_supervisor",
+      "start": 31.045,
+      "end": 32.585,
+      "duration": 1.54,
+      "text": "¿Qué hizo usted anoche en el embarque?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:13:31.045+00:00"
+    },
+    {
+      "index": 12,
+      "speaker": "passenger",
+      "start": 33.145,
+      "end": 34.085,
+      "duration": 0.94,
+      "text": "¿Anoche?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:13:33.145+00:00"
+    },
+    {
+      "index": 13,
+      "speaker": "airline_supervisor",
+      "start": 34.365,
+      "end": 36.005,
+      "duration": 1.64,
+      "text": "Sí, anoche en el embarque.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:13:34.365+00:00"
+    },
+    {
+      "index": 14,
+      "speaker": "passenger",
+      "start": 36.585,
+      "end": 38.725,
+      "duration": 2.14,
+      "text": "Eso pasó ayer a la una de la tarde.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:13:36.585+00:00"
+    },
+    {
+      "index": 15,
+      "speaker": "airline_supervisor",
+      "start": 38.725,
+      "end": 41.425,
+      "duration": 2.7,
+      "text": "¿Y qué hizo con el... y qué pasó adentro en el embarque?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:13:38.725+00:00"
+    },
+    {
+      "index": 16,
+      "speaker": "passenger",
+      "start": 41.945,
+      "end": 42.905,
+      "duration": 0.96,
+      "text": "¿Del embarque?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:13:41.945+00:00"
+    },
+    {
+      "index": 17,
+      "speaker": "airline_supervisor",
+      "start": 42.905,
+      "end": 43.085,
+      "duration": 0.18,
+      "text": "Sí.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:13:42.905+00:00"
+    },
+    {
+      "index": 18,
+      "speaker": "passenger",
+      "start": 43.085,
+      "end": 45.085,
+      "duration": 2.0,
+      "text": "Yo fui acusado de agresión.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:13:43.085+00:00"
+    },
+    {
+      "index": 19,
+      "speaker": "airline_supervisor",
+      "start": 45.085,
+      "end": 47.225,
+      "duration": 2.14,
+      "text": "¿Y vio el agente?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:13:45.085+00:00"
+    },
+    {
+      "index": 20,
+      "speaker": "passenger",
+      "start": 47.225,
+      "end": 52.305,
+      "duration": 5.08,
+      "text": "No, yo no vi la cámara. La PDI vio la cámara. Y la PDI comprobó que no pasó nada.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:13:47.225+00:00"
+    },
+    {
+      "index": 21,
+      "speaker": "airline_supervisor",
+      "start": 52.385,
+      "end": 53.025,
+      "duration": 0.64,
+      "text": "¿Seguro?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:13:52.385+00:00"
+    },
+    {
+      "index": 22,
+      "speaker": "passenger",
+      "start": 53.025,
+      "end": 53.545,
+      "duration": 0.52,
+      "text": "¿Sí?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:13:53.025+00:00"
+    },
+    {
+      "index": 23,
+      "speaker": "passenger",
+      "start": 54.185,
+      "end": 55.725,
+      "duration": 1.54,
+      "text": "¿Podemos comprobar eso?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:13:54.185+00:00"
+    },
+    {
+      "index": 24,
+      "speaker": "airline_supervisor",
+      "start": 55.725,
+      "end": 56.465,
+      "duration": 0.74,
+      "text": "No,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:13:55.725+00:00"
+    },
+    {
+      "index": 25,
+      "speaker": "passenger",
+      "start": 56.465,
+      "end": 57.685,
+      "duration": 1.22,
+      "text": "No, no. Pero me gustaría de comprobar.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:13:56.465+00:00"
+    },
+    {
+      "index": 26,
+      "speaker": "airline_supervisor",
+      "start": 57.685,
+      "end": 60.845,
+      "duration": 3.16,
+      "text": "conmigo no, con el supervisor de seguridad.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:13:57.685+00:00"
+    },
+    {
+      "index": 27,
+      "speaker": "passenger",
+      "start": 61.285,
+      "end": 62.285,
+      "duration": 1.0,
+      "text": "¿Dónde estás?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:14:01.285+00:00"
+    },
+    {
+      "index": 28,
+      "speaker": "airline_supervisor",
+      "start": 62.285,
+      "end": 64.565,
+      "duration": 2.28,
+      "text": "Él viene, está en un procedimiento y viene para acá.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:14:02.285+00:00"
+    },
+    {
+      "index": 29,
+      "speaker": "passenger",
+      "start": 64.565,
+      "end": 64.965,
+      "duration": 0.4,
+      "text": "¿Es lo",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:14:04.565+00:00"
+    },
+    {
+      "index": 30,
+      "speaker": "airline_supervisor",
+      "start": 64.905,
+      "end": 65.165,
+      "duration": 0.26,
+      "text": "¿Lo mismo?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:14:04.905+00:00"
+    },
+    {
+      "index": 31,
+      "speaker": "passenger",
+      "start": 65.165,
+      "end": 65.685,
+      "duration": 0.52,
+      "text": "de ayer?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:14:05.165+00:00"
+    },
+    {
+      "index": 32,
+      "speaker": "airline_supervisor",
+      "start": 66.345,
+      "end": 67.185,
+      "duration": 0.84,
+      "text": "El mismo Daría.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:14:06.345+00:00"
+    },
+    {
+      "index": 33,
+      "speaker": "passenger",
+      "start": 67.185,
+      "end": 68.565,
+      "duration": 1.38,
+      "text": "Ah, bueno, lo mismo de ayer. Está",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:14:07.185+00:00"
+    },
+    {
+      "index": 34,
+      "speaker": "passenger",
+      "start": 68.945,
+      "end": 69.885,
+      "duration": 0.94,
+      "text": "me diciendo",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:14:08.945+00:00"
+    },
+    {
+      "index": 35,
+      "speaker": "airline_supervisor",
+      "start": 70.005,
+      "end": 70.305,
+      "duration": 0.3,
+      "text": "Sí.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:14:10.005+00:00"
+    },
+    {
+      "index": 36,
+      "speaker": "passenger",
+      "start": 70.305,
+      "end": 70.945,
+      "duration": 0.64,
+      "text": "eso,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:14:10.305+00:00"
+    },
+    {
+      "index": 37,
+      "speaker": "passenger",
+      "start": 71.325,
+      "end": 71.965,
+      "duration": 0.64,
+      "text": "pero la",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:14:11.325+00:00"
+    },
+    {
+      "index": 38,
+      "speaker": "passenger",
+      "start": 72.125,
+      "end": 80.825,
+      "duration": 8.7,
+      "text": "PDI ya confirmó que no pasó nada en las cámaras. Entonces, ahora, yo quiero entender porque eso fueron acusaciones falsas. Esa deformación.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:14:12.125+00:00"
+    },
+    {
+      "index": 39,
+      "speaker": "airline_supervisor",
+      "start": 81.305,
+      "end": 83.965,
+      "duration": 2.66,
+      "text": "¿Y dónde está la PDI que le dijo que no? ¿Usted vio las cámaras?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:14:21.305+00:00"
+    },
+    {
+      "index": 40,
+      "speaker": "passenger",
+      "start": 84.645,
+      "end": 85.445,
+      "duration": 0.8,
+      "text": "Mira,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:14:24.645+00:00"
+    },
+    {
+      "index": 41,
+      "speaker": "airline_supervisor",
+      "start": 85.445,
+      "end": 87.225,
+      "duration": 1.78,
+      "text": "La PDI, usted vio las cámaras,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:14:25.445+00:00"
+    },
+    {
+      "index": 42,
+      "speaker": "passenger",
+      "start": 87.225,
+      "end": 87.805,
+      "duration": 0.58,
+      "text": "yo no.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:14:27.225+00:00"
+    },
+    {
+      "index": 43,
+      "speaker": "passenger",
+      "start": 88.165,
+      "end": 89.085,
+      "duration": 0.92,
+      "text": "Yo no porque no me dieron.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:14:28.165+00:00"
+    },
+    {
+      "index": 44,
+      "speaker": "airline_supervisor",
+      "start": 89.025,
+      "end": 94.805,
+      "duration": 5.78,
+      "text": "y la de la PDI, imposible que le diga eso a los pasajeros de que no, que el fondo vio las cámaras.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:14:29.025+00:00"
+    },
+    {
+      "index": 45,
+      "speaker": "passenger",
+      "start": 94.805,
+      "end": 98.965,
+      "duration": 4.16,
+      "text": "Si tuviese pasado una agresión como pasó acá, yo no tendría que ser liberado.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:14:34.805+00:00"
+    },
+    {
+      "index": 46,
+      "speaker": "passenger",
+      "start": 99.925,
+      "end": 100.445,
+      "duration": 0.52,
+      "text": "¿Te acuerdas?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:14:39.925+00:00"
+    },
+    {
+      "index": 47,
+      "speaker": "airline_supervisor",
+      "start": 100.445,
+      "end": 101.165,
+      "duration": 0.72,
+      "text": "Ya, mamá, no le...",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:14:40.445+00:00"
+    },
+    {
+      "index": 48,
+      "speaker": "passenger",
+      "start": 101.165,
+      "end": 102.325,
+      "duration": 1.16,
+      "text": "Ahá.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:14:41.165+00:00"
+    },
+    {
+      "index": 49,
+      "speaker": "airline_supervisor",
+      "start": 102.325,
+      "end": 103.365,
+      "duration": 1.04,
+      "text": "Ah, ¿qué pasó?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:14:42.325+00:00"
+    },
+    {
+      "index": 50,
+      "speaker": "airline_staff",
+      "start": 103.365,
+      "end": 104.545,
+      "duration": 1.18,
+      "text": "Gracias.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:14:43.365+00:00"
+    },
+    {
+      "index": 51,
+      "speaker": "passenger",
+      "start": 104.545,
+      "end": 107.185,
+      "duration": 2.64,
+      "text": "Yo falei, ahá. Claramente que yo no sería liberado.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:14:44.545+00:00"
+    },
+    {
+      "index": 52,
+      "speaker": "airline_supervisor",
+      "start": 107.185,
+      "end": 112.405,
+      "duration": 5.22,
+      "text": "Tiene que bajar el tono, porque conmigo no ha sido. Tiene que esperar, porque tiene que esperar su persona de seguridad.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:14:47.185+00:00"
+    },
+    {
+      "index": 53,
+      "speaker": "passenger",
+      "start": 112.565,
+      "end": 113.885,
+      "duration": 1.32,
+      "text": "Que todo lo que estoy contigo",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:14:52.565+00:00"
+    },
+    {
+      "index": 54,
+      "speaker": "airline_supervisor",
+      "start": 113.885,
+      "end": 114.425,
+      "duration": 0.54,
+      "text": "La PDI,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:14:53.885+00:00"
+    },
+    {
+      "index": 55,
+      "speaker": "passenger",
+      "start": 114.425,
+      "end": 118.585,
+      "duration": 4.16,
+      "text": "me sacaron la fuerza y tú no me escuchas, tú no me dejas hablar. Bueno,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:14:54.425+00:00"
+    },
+    {
+      "index": 56,
+      "speaker": "airline_supervisor",
+      "start": 118.585,
+      "end": 122.985,
+      "duration": 4.4,
+      "text": "sí, porque si tú, si alguien te sacó la PDI, imposible que te diga.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:14:58.585+00:00"
+    },
+    {
+      "index": 57,
+      "speaker": "passenger",
+      "start": 123.365,
+      "end": 124.845,
+      "duration": 1.48,
+      "text": "vamos hablar con la PDI.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:15:03.365+00:00"
+    },
+    {
+      "index": 58,
+      "speaker": "airline_supervisor",
+      "start": 124.845,
+      "end": 132.605,
+      "duration": 7.76,
+      "text": "¿Qué pasó? Tú con la PDI, dime la PDI, que según tú, no pasó nada en el embarque. La PDI te lo dijo a ti.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:15:04.845+00:00"
+    },
+    {
+      "index": 59,
+      "speaker": "passenger",
+      "start": 132.805,
+      "end": 133.225,
+      "duration": 0.42,
+      "text": "Sí,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:15:12.805+00:00"
+    },
+    {
+      "index": 60,
+      "speaker": "passenger",
+      "start": 135.445,
+      "end": 135.885,
+      "duration": 0.44,
+      "text": "sí.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:15:15.445+00:00"
+    },
+    {
+      "index": 61,
+      "speaker": "passenger",
+      "start": 136.365,
+      "end": 139.665,
+      "duration": 3.3,
+      "text": "Y eso está también acá. Yo no iba mentir a los carabineros.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:15:16.365+00:00"
+    },
+    {
+      "index": 62,
+      "speaker": "passenger",
+      "start": 140.425,
+      "end": 143.165,
+      "duration": 2.74,
+      "text": "¿Y eso? Yo no iba mentir a eso a los carabineros.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:15:20.425+00:00"
+    },
+    {
+      "index": 63,
+      "speaker": "passenger",
+      "start": 143.925,
+      "end": 147.325,
+      "duration": 3.4,
+      "text": "Por favor, pero llama también alguien de la PDI para confirmar eso.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:15:23.925+00:00"
+    },
+    {
+      "index": 64,
+      "speaker": "passenger",
+      "start": 148.065,
+      "end": 149.205,
+      "duration": 1.14,
+      "text": "Ah, ¿por qué no?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:15:28.065+00:00"
+    },
+    {
+      "index": 65,
+      "speaker": "airline_staff",
+      "start": 149.565,
+      "end": 156.045,
+      "duration": 6.48,
+      "text": "Porque nos reclamó un contacto con ellos para ver un tema, ¿sí? Por eso no hay que vivir directamente con la subvención de seguridad.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:15:29.565+00:00"
+    },
+    {
+      "index": 66,
+      "speaker": "airline_staff",
+      "start": 156.545,
+      "end": 157.685,
+      "duration": 1.14,
+      "text": "Y el que va a llegar en un momento.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:15:36.545+00:00"
+    },
+    {
+      "index": 67,
+      "speaker": "passenger",
+      "start": 157.685,
+      "end": 160.605,
+      "duration": 2.92,
+      "text": "Esa es la seguridad es lo que está haciendo estas acusaciones. No,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:15:37.685+00:00"
+    },
+    {
+      "index": 68,
+      "speaker": "airline_staff",
+      "start": 160.605,
+      "end": 161.705,
+      "duration": 1.1,
+      "text": "O sea, ahí tiene que ir con la subvención.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:15:40.605+00:00"
+    },
+    {
+      "index": 69,
+      "speaker": "passenger",
+      "start": 161.705,
+      "end": 165.165,
+      "duration": 3.46,
+      "text": "yo estoy explicando. No, yo estoy explicando exactamente esto.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:15:41.705+00:00"
+    },
+    {
+      "index": 70,
+      "speaker": "airline_staff",
+      "start": 165.165,
+      "end": 167.685,
+      "duration": 2.52,
+      "text": "No, pero pues te digo, ¿cómo te dice ahí la subvención?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:15:45.165+00:00"
+    },
+    {
+      "index": 71,
+      "speaker": "passenger",
+      "start": 167.685,
+      "end": 170.225,
+      "duration": 2.54,
+      "text": "Está la palabra de una persona",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:15:47.685+00:00"
+    },
+    {
+      "index": 72,
+      "speaker": "passenger",
+      "start": 170.845,
+      "end": 171.545,
+      "duration": 0.7,
+      "text": "contra mi",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:15:50.845+00:00"
+    },
+    {
+      "index": 73,
+      "speaker": "passenger",
+      "start": 172.165,
+      "end": 184.065,
+      "duration": 11.9,
+      "text": "palabra, pero aquí yo estoy confirmando esta palabra en documento. Si yo estuviera mentiendo, eso pesa para mí. No, yo no iba mentir para los carabineros. Yo garanto que no me hiciste ningún tipo de tiempo.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:15:52.165+00:00"
+    },
+    {
+      "index": 74,
+      "speaker": "passenger",
+      "start": 184.345,
+      "end": 188.025,
+      "duration": 3.68,
+      "text": "Entonces, un detalle que eso me pasó después de muchas luchas,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:16:04.345+00:00"
+    },
+    {
+      "index": 75,
+      "speaker": "passenger",
+      "start": 188.485,
+      "end": 190.005,
+      "duration": 1.52,
+      "text": "a las 11 de la noche,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:16:08.485+00:00"
+    },
+    {
+      "index": 76,
+      "speaker": "passenger",
+      "start": 191.485,
+      "end": 194.965,
+      "duration": 3.48,
+      "text": "la PDI nos dio las cosas a las 2 de la tarde. ¿Pone eso?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:16:11.485+00:00"
+    },
+    {
+      "index": 77,
+      "speaker": "passenger",
+      "start": 195.205,
+      "end": 199.005,
+      "duration": 3.8,
+      "text": "¿No? ¿Pone eso? Sí, claro, eso es de la constancia. No era la PDI, es de la constancia.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:16:15.205+00:00"
+    },
+    {
+      "index": 78,
+      "speaker": "airline_staff",
+      "start": 199.005,
+      "end": 199.845,
+      "duration": 0.84,
+      "text": "¿Cuánto se hizo usted?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:16:19.005+00:00"
+    },
+    {
+      "index": 79,
+      "speaker": "passenger",
+      "start": 199.845,
+      "end": 200.305,
+      "duration": 0.46,
+      "text": "Sí. No",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:16:19.845+00:00"
+    },
+    {
+      "index": 80,
+      "speaker": "airline_staff",
+      "start": 200.365,
+      "end": 201.445,
+      "duration": 1.08,
+      "text": "El PDI.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:16:20.365+00:00"
+    },
+    {
+      "index": 81,
+      "speaker": "passenger",
+      "start": 202.045,
+      "end": 207.865,
+      "duration": 5.82,
+      "text": "me pasaron nada. Mira, me pasaron eso porque yo peleé mucho para me pasar algo, sin firma, sin nada.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:16:22.045+00:00"
+    },
+    {
+      "index": 82,
+      "speaker": "airline_staff",
+      "start": 208.045,
+      "end": 210.805,
+      "duration": 2.76,
+      "text": "Pero es que si PDI no dice nada, el presupuesto es otro.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:16:28.045+00:00"
+    },
+    {
+      "index": 83,
+      "speaker": "passenger",
+      "start": 211.685,
+      "end": 213.905,
+      "duration": 2.22,
+      "text": "Mira, si hubiese pasado una agresión,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:16:31.685+00:00"
+    },
+    {
+      "index": 84,
+      "speaker": "passenger",
+      "start": 214.545,
+      "end": 220.865,
+      "duration": 6.32,
+      "text": "la PDI tenía me liberado, tenía me llevado a la trabineros para hacer una denuncia o algo, ¿cierto?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:16:34.545+00:00"
+    },
+    {
+      "index": 85,
+      "speaker": "passenger",
+      "start": 221.685,
+      "end": 225.905,
+      "duration": 4.22,
+      "text": "Dale, gente, por favor. Mira, está tan triste eso porque yo",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:16:41.685+00:00"
+    },
+    {
+      "index": 86,
+      "speaker": "passenger",
+      "start": 226.065,
+      "end": 227.425,
+      "duration": 1.36,
+      "text": "estoy sufriendo con eso,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:16:46.065+00:00"
+    },
+    {
+      "index": 87,
+      "speaker": "passenger",
+      "start": 228.645,
+      "end": 230.285,
+      "duration": 1.64,
+      "text": "¿ya? Yo no hice nada.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:16:48.645+00:00"
+    },
+    {
+      "index": 88,
+      "speaker": "passenger",
+      "start": 230.605,
+      "end": 234.665,
+      "duration": 4.06,
+      "text": "Tengo testigos dentro del vuelo. No tiene un testigo que",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:16:50.605+00:00"
+    },
+    {
+      "index": 89,
+      "speaker": "passenger",
+      "start": 235.465,
+      "end": 245.105,
+      "duration": 9.64,
+      "text": "vio lo que están diciendo que vio. Empezaron con la agresión. Después vieron que no tenía agresión y pasaron que yo pasé sin mostrar mi boarding pass.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:16:55.465+00:00"
+    },
+    {
+      "index": 90,
+      "speaker": "airline_staff",
+      "start": 245.165,
+      "end": 245.725,
+      "duration": 0.56,
+      "text": "¿Leandro?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:17:05.165+00:00"
+    },
+    {
+      "index": 91,
+      "speaker": "passenger",
+      "start": 245.725,
+      "end": 246.145,
+      "duration": 0.42,
+      "text": "¿Sí?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:17:05.725+00:00"
+    },
+    {
+      "index": 92,
+      "speaker": "airline_staff",
+      "start": 246.325,
+      "end": 248.505,
+      "duration": 2.18,
+      "text": "Porque esto es una declaración que tú hiciste en cara de dinero.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:17:06.325+00:00"
+    },
+    {
+      "index": 93,
+      "speaker": "passenger",
+      "start": 248.545,
+      "end": 248.905,
+      "duration": 0.36,
+      "text": "Sí.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:17:08.545+00:00"
+    },
+    {
+      "index": 94,
+      "speaker": "airline_staff",
+      "start": 249.085,
+      "end": 255.245,
+      "duration": 6.16,
+      "text": "Ya. ¿Y es donde tiene el tema de que se acaba y que la PDI no te... Dice que no hay nada en las cámaras?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:17:09.085+00:00"
+    },
+    {
+      "index": 95,
+      "speaker": "airline_staff",
+      "start": 256.125,
+      "end": 256.404,
+      "duration": 0.279,
+      "text": "¿Pasa?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:17:16.125+00:00"
+    },
+    {
+      "index": 96,
+      "speaker": "airline_staff",
+      "start": 257.665,
+      "end": 259.285,
+      "duration": 1.62,
+      "text": "Claro, porque es lo que tú dices en cara de dinero.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:17:17.665+00:00"
+    },
+    {
+      "index": 97,
+      "speaker": "passenger",
+      "start": 259.285,
+      "end": 260.845,
+      "duration": 1.56,
+      "text": "Sí, claro, claro. Pero no,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:17:19.285+00:00"
+    },
+    {
+      "index": 98,
+      "speaker": "airline_staff",
+      "start": 260.845,
+      "end": 263.445,
+      "duration": 2.6,
+      "text": "¿Qué digo? El documento de PDI no te digo nada.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:17:20.845+00:00"
+    },
+    {
+      "index": 99,
+      "speaker": "passenger",
+      "start": 263.445,
+      "end": 289.665,
+      "duration": 26.22,
+      "text": "yo pedí mucho y creí en mí que para conseguir eso de la LATAM fue una lucha de las 3 de la tarde a las 11 de la noche, ¿ya? Entonces la PDI yo estoy intentando también, pero parece que están todos juntos. Eso, porque nadie quiere pasar información, pero yo voy a cenar, yo voy a todo, lo que sea, porque fue extremadamente injusto. Fue información, fueron dos alegaciones falsas. Yo quiero el nombre del",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:17:23.445+00:00"
+    },
+    {
+      "index": 100,
+      "speaker": "passenger",
+      "start": 290.225,
+      "end": 298.685,
+      "duration": 8.46,
+      "text": "chico que me hizo las acusaciones y también quiero el nombre del piloto, porque voy a hacer una denuncia contra las dos personas también,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:17:50.225+00:00"
+    },
+    {
+      "index": 101,
+      "speaker": "passenger",
+      "start": 299.105,
+      "end": 299.365,
+      "duration": 0.26,
+      "text": "¿ya?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:17:59.105+00:00"
+    },
+    {
+      "index": 102,
+      "speaker": "airline_staff",
+      "start": 299.365,
+      "end": 301.705,
+      "duration": 2.34,
+      "text": "Ya tienes que verlo con el cuando llegue el subvención.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:17:59.365+00:00"
+    },
+    {
+      "index": 103,
+      "speaker": "airline_supervisor",
+      "start": 301.705,
+      "end": 305.865,
+      "duration": 4.16,
+      "text": "Claro, están, va, hablé recién con él. Se llama Nicolás, está adentro y viene para acá.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:18:01.705+00:00"
+    },
+    {
+      "index": 104,
+      "speaker": "passenger",
+      "start": 305.865,
+      "end": 306.265,
+      "duration": 0.4,
+      "text": "Nicolás.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:18:05.865+00:00"
+    },
+    {
+      "index": 105,
+      "speaker": "airline_supervisor",
+      "start": 306.265,
+      "end": 306.865,
+      "duration": 0.6,
+      "text": "¿Para qué hablar?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:18:06.265+00:00"
+    },
+    {
+      "index": 106,
+      "speaker": "passenger",
+      "start": 306.865,
+      "end": 308.305,
+      "duration": 1.44,
+      "text": "No es el día de hoy, entonces, que bueno.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:18:06.865+00:00"
+    },
+    {
+      "index": 107,
+      "speaker": "airline_staff",
+      "start": 308.665,
+      "end": 310.225,
+      "duration": 1.56,
+      "text": "Puedes esperar acá, no más, no, no,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:18:08.665+00:00"
+    },
+    {
+      "index": 108,
+      "speaker": "passenger",
+      "start": 310.225,
+      "end": 313.525,
+      "duration": 3.3,
+      "text": "Sí, mira, yo estoy esperando hasta hace más de 24 horas.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:18:10.225+00:00"
+    },
+    {
+      "index": 109,
+      "speaker": "airline_staff",
+      "start": 313.865,
+      "end": 314.485,
+      "duration": 0.62,
+      "text": "no, no, no, no.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:18:13.865+00:00"
+    },
+    {
+      "index": 110,
+      "speaker": "airline_staff",
+      "start": 314.685,
+      "end": 315.165,
+      "duration": 0.48,
+      "text": "Ahí va a llegar,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:18:14.685+00:00"
+    },
+    {
+      "index": 111,
+      "speaker": "passenger",
+      "start": 315.165,
+      "end": 316.585,
+      "duration": 1.42,
+      "text": "Ah, hay muchos problemas, sí.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:18:15.165+00:00"
+    },
+    {
+      "index": 112,
+      "speaker": "airline_staff",
+      "start": 317.025,
+      "end": 317.625,
+      "duration": 0.6,
+      "text": "va a llegar.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:18:17.025+00:00"
+    },
+    {
+      "index": 113,
+      "speaker": "airline_supervisor",
+      "start": 317.825,
+      "end": 319.865,
+      "duration": 2.04,
+      "text": "Sí, hablé con él recién para que viniera.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:18:17.825+00:00"
+    },
+    {
+      "index": 114,
+      "speaker": "airline_staff",
+      "start": 320.825,
+      "end": 323.665,
+      "duration": 2.84,
+      "text": "Ahí cuando esté acá el Nicolás, ahí va a hablar contigo.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:18:20.825+00:00"
+    },
+    {
+      "index": 115,
+      "speaker": "passenger",
+      "start": 324.625,
+      "end": 326.685,
+      "duration": 2.06,
+      "text": "Sí, pero lo que quiero",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:18:24.625+00:00"
+    },
+    {
+      "index": 116,
+      "speaker": "passenger",
+      "start": 326.905,
+      "end": 327.285,
+      "duration": 0.38,
+      "text": "es",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:18:26.905+00:00"
+    },
+    {
+      "index": 117,
+      "speaker": "passenger",
+      "start": 327.765,
+      "end": 328.705,
+      "duration": 0.94,
+      "text": "comprovar",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:18:27.765+00:00"
+    },
+    {
+      "index": 118,
+      "speaker": "passenger",
+      "start": 329.025,
+      "end": 329.705,
+      "duration": 0.68,
+      "text": "eso,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:18:29.025+00:00"
+    },
+    {
+      "index": 119,
+      "speaker": "passenger",
+      "start": 330.565,
+      "end": 331.105,
+      "duration": 0.54,
+      "text": "porque",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:18:30.565+00:00"
+    },
+    {
+      "index": 120,
+      "speaker": "passenger",
+      "start": 332.525,
+      "end": 336.585,
+      "duration": 4.06,
+      "text": "donde están las cámaras? Yo puedo tener acceso para que podamos comprovar eso?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:18:32.525+00:00"
+    },
+    {
+      "index": 121,
+      "speaker": "airline_supervisor",
+      "start": 336.585,
+      "end": 342.025,
+      "duration": 5.44,
+      "text": "Ah, pregunte, claro, ahí tendría que preguntar, claro, ahí tendría que preguntar al chico de seguridad, porque nosotros no tenemos acceso a...",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:18:36.585+00:00"
+    },
+    {
+      "index": 122,
+      "speaker": "passenger",
+      "start": 342.025,
+      "end": 343.805,
+      "duration": 1.78,
+      "text": "Sí, pero lo que digo es porque",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:18:42.025+00:00"
+    },
+    {
+      "index": 123,
+      "speaker": "passenger",
+      "start": 344.225,
+      "end": 344.645,
+      "duration": 0.42,
+      "text": "todos",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:18:44.225+00:00"
+    },
+    {
+      "index": 124,
+      "speaker": "passenger",
+      "start": 344.865,
+      "end": 349.405,
+      "duration": 4.54,
+      "text": "pensan o parece que yo soy lo incorrecto, que están contra mí.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:18:44.865+00:00"
+    },
+    {
+      "index": 125,
+      "speaker": "passenger",
+      "start": 349.825,
+      "end": 351.425,
+      "duration": 1.6,
+      "text": "Mira, yo no hice nada a nadie.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:18:49.825+00:00"
+    },
+    {
+      "index": 126,
+      "speaker": "airline_supervisor",
+      "start": 351.425,
+      "end": 356.505,
+      "duration": 5.08,
+      "text": "Por eso es que para nosotros, por ejemplo, por ejemplo, un golpe, yo como jefa de él,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:18:51.425+00:00"
+    },
+    {
+      "index": 127,
+      "speaker": "airline_supervisor",
+      "start": 356.985,
+      "end": 360.745,
+      "duration": 3.76,
+      "text": "yo no le puedo decir, ya, pues, apúrese. No, no, eso es ilegal. Y",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:18:56.985+00:00"
+    },
+    {
+      "index": 128,
+      "speaker": "passenger",
+      "start": 360.745,
+      "end": 361.545,
+      "duration": 0.8,
+      "text": "Sí, claro.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:19:00.745+00:00"
+    },
+    {
+      "index": 129,
+      "speaker": "airline_supervisor",
+      "start": 361.545,
+      "end": 362.185,
+      "duration": 0.64,
+      "text": "hacer así,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:19:01.545+00:00"
+    },
+    {
+      "index": 130,
+      "speaker": "passenger",
+      "start": 362.185,
+      "end": 363.325,
+      "duration": 1.14,
+      "text": "No, claro. Yo",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:19:02.185+00:00"
+    },
+    {
+      "index": 131,
+      "speaker": "airline_supervisor",
+      "start": 363.145,
+      "end": 364.465,
+      "duration": 1.32,
+      "text": "en Chile, eso no corre",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:19:03.145+00:00"
+    },
+    {
+      "index": 132,
+      "speaker": "passenger",
+      "start": 364.465,
+      "end": 365.885,
+      "duration": 1.42,
+      "text": "puedo mostrar lo que yo hice.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:19:04.465+00:00"
+    },
+    {
+      "index": 133,
+      "speaker": "airline_supervisor",
+      "start": 365.885,
+      "end": 369.925,
+      "duration": 4.04,
+      "text": "tampoco hacer... Ni siquiera yo hacerle a él,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:19:05.885+00:00"
+    },
+    {
+      "index": 134,
+      "speaker": "passenger",
+      "start": 370.325,
+      "end": 370.805,
+      "duration": 0.48,
+      "text": "No, nada.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:19:10.325+00:00"
+    },
+    {
+      "index": 135,
+      "speaker": "airline_supervisor",
+      "start": 370.805,
+      "end": 371.025,
+      "duration": 0.22,
+      "text": "así,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:19:10.805+00:00"
+    },
+    {
+      "index": 136,
+      "speaker": "passenger",
+      "start": 371.025,
+      "end": 373.345,
+      "duration": 2.32,
+      "text": "No, claro, claro que no. Claro que no.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:19:11.025+00:00"
+    },
+    {
+      "index": 137,
+      "speaker": "airline_supervisor",
+      "start": 373.345,
+      "end": 378.825,
+      "duration": 5.48,
+      "text": "entonces, ahí para que tú vayas con el supervisor y vente para cámaras, nosotros no tenemos acceso a las cámaras.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:19:13.345+00:00"
+    },
+    {
+      "index": 138,
+      "speaker": "passenger",
+      "start": 378.825,
+      "end": 384.905,
+      "duration": 6.08,
+      "text": "Pero, ¿y dónde fue? Mira, si ustedes no tenían acceso a la cámara, ¿cómo que",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:19:18.825+00:00"
+    },
+    {
+      "index": 139,
+      "speaker": "passenger",
+      "start": 385.825,
+      "end": 387.925,
+      "duration": 2.1,
+      "text": "hicieron dos acusaciones?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:19:25.825+00:00"
+    },
+    {
+      "index": 140,
+      "speaker": "airline_supervisor",
+      "start": 387.925,
+      "end": 388.365,
+      "duration": 0.44,
+      "text": "Claro.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:19:27.925+00:00"
+    },
+    {
+      "index": 141,
+      "speaker": "passenger",
+      "start": 389.845,
+      "end": 391.265,
+      "duration": 1.42,
+      "text": "¿Para qué propósito? Ya,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:19:29.845+00:00"
+    },
+    {
+      "index": 142,
+      "speaker": "airline_supervisor",
+      "start": 391.845,
+      "end": 394.625,
+      "duration": 2.78,
+      "text": "Es que no sé qué le estuvo, él pasó con el chico, ¿qué pasó con él?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:19:31.845+00:00"
+    },
+    {
+      "index": 143,
+      "speaker": "passenger",
+      "start": 394.625,
+      "end": 398.885,
+      "duration": 4.26,
+      "text": "pero miren la cámara, yo cuestioné el piloto que",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:19:34.625+00:00"
+    },
+    {
+      "index": 144,
+      "speaker": "passenger",
+      "start": 399.465,
+      "end": 405.825,
+      "duration": 6.36,
+      "text": "estaba esperando que el vuelo estaba atrasado, ¿ya? Yo hice una pregunta y sí picó.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:19:39.465+00:00"
+    },
+    {
+      "index": 145,
+      "speaker": "airline_supervisor",
+      "start": 406.005,
+      "end": 408.145,
+      "duration": 2.14,
+      "text": "Es que tú no puedes tener ese asunto porque tú...",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:19:46.005+00:00"
+    },
+    {
+      "index": 146,
+      "speaker": "passenger",
+      "start": 408.145,
+      "end": 414.005,
+      "duration": 5.86,
+      "text": "Mira, una pregunta, una pregunta, una pregunta, no, no, yo hice una pregunta a la persona afuera antes del vuelo.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:19:48.145+00:00"
+    },
+    {
+      "index": 147,
+      "speaker": "airline_supervisor",
+      "start": 414.385,
+      "end": 420.005,
+      "duration": 5.62,
+      "text": "Pero qué problema es que tú no estés con el chico que estaba embarcando, ¿te acuerdas? Sí, porque tú estás en",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:19:54.385+00:00"
+    },
+    {
+      "index": 148,
+      "speaker": "passenger",
+      "start": 420.005,
+      "end": 421.785,
+      "duration": 1.78,
+      "text": "Sí, yo le pregunté a él, mira,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:20:00.005+00:00"
+    },
+    {
+      "index": 149,
+      "speaker": "passenger",
+      "start": 422.025,
+      "end": 424.385,
+      "duration": 2.36,
+      "text": "en verdad, estaba así atrasado.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:20:02.025+00:00"
+    },
+    {
+      "index": 150,
+      "speaker": "passenger",
+      "start": 424.845,
+      "end": 430.285,
+      "duration": 5.44,
+      "text": "El boarding demoró menos de 15 minutos, fue muy rápido, ¿ya?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:20:04.845+00:00"
+    },
+    {
+      "index": 151,
+      "speaker": "passenger",
+      "start": 430.525,
+      "end": 431.405,
+      "duration": 0.88,
+      "text": "Entonces, ya la niña,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:20:10.525+00:00"
+    },
+    {
+      "index": 152,
+      "speaker": "passenger",
+      "start": 431.845,
+      "end": 434.285,
+      "duration": 2.44,
+      "text": "me preocupo y voy a tocar, ¿ya? Sí, ya, ya.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:20:11.845+00:00"
+    },
+    {
+      "index": 153,
+      "speaker": "passenger",
+      "start": 434.465,
+      "end": 438.085,
+      "duration": 3.62,
+      "text": "Podría que decirle, estaría paralizado para la mañana. Y",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:20:14.465+00:00"
+    },
+    {
+      "index": 154,
+      "speaker": "airline_staff",
+      "start": 439.105,
+      "end": 440.985,
+      "duration": 1.88,
+      "text": "Y eso, me pegaste.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:20:19.105+00:00"
+    },
+    {
+      "index": 155,
+      "speaker": "passenger",
+      "start": 442.165,
+      "end": 447.485,
+      "duration": 5.32,
+      "text": "después, yo creo que vieron la cámara que eso no pasó, que no fue una agresión.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:20:22.165+00:00"
+    },
+    {
+      "index": 156,
+      "speaker": "passenger",
+      "start": 447.665,
+      "end": 458.405,
+      "duration": 10.74,
+      "text": "Y ahí cambiaron la historia, cambiaron la narrativa. Y ahí fue otra alegración falsa que dijeron que yo paseé sin mostrar mi boarding pass. ¿A quién que yo mostré mi boarding pass?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:20:27.665+00:00"
+    },
+    {
+      "index": 157,
+      "speaker": "passenger",
+      "start": 461.085,
+      "end": 462.505,
+      "duration": 1.42,
+      "text": "Ya, entonces,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:20:41.085+00:00"
+    },
+    {
+      "index": 158,
+      "speaker": "passenger",
+      "start": 463.705,
+      "end": 465.065,
+      "duration": 1.36,
+      "text": "gente, yo estoy",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:20:43.705+00:00"
+    },
+    {
+      "index": 159,
+      "speaker": "passenger",
+      "start": 465.825,
+      "end": 466.345,
+      "duration": 0.52,
+      "text": "malo.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:20:45.825+00:00"
+    },
+    {
+      "index": 160,
+      "speaker": "passenger",
+      "start": 467.105,
+      "end": 468.045,
+      "duration": 0.94,
+      "text": "Yo estoy acá,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:20:47.105+00:00"
+    },
+    {
+      "index": 161,
+      "speaker": "passenger",
+      "start": 468.685,
+      "end": 469.825,
+      "duration": 1.14,
+      "text": "en medio de un divorcio.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:20:48.685+00:00"
+    },
+    {
+      "index": 162,
+      "speaker": "passenger",
+      "start": 471.465,
+      "end": 475.785,
+      "duration": 4.32,
+      "text": "Yo estoy acá desde donde la mañana era él. Y fui sacado del vuelo a fuerza.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:20:51.465+00:00"
+    },
+    {
+      "index": 163,
+      "speaker": "passenger",
+      "start": 476.165,
+      "end": 477.885,
+      "duration": 1.72,
+      "text": "Ahí sí se sirió una agresión.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:20:56.165+00:00"
+    },
+    {
+      "index": 164,
+      "speaker": "passenger",
+      "start": 478.705,
+      "end": 479.885,
+      "duration": 1.18,
+      "text": "Me botaron afuera.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:20:58.705+00:00"
+    },
+    {
+      "index": 165,
+      "speaker": "passenger",
+      "start": 480.365,
+      "end": 487.185,
+      "duration": 6.82,
+      "text": "Mira, yo tuve que me quedar atrás de todos para conseguir un documento que al menos dissesse lo que pasó.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:21:00.365+00:00"
+    },
+    {
+      "index": 166,
+      "speaker": "passenger",
+      "start": 488.365,
+      "end": 496.105,
+      "duration": 7.74,
+      "text": "Toda la noche con frío, con hambre, y no para allá, para acá, intentando resolver. Y voy a hablar con las personas y parece que yo soy el malo. Mira,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:21:08.365+00:00"
+    },
+    {
+      "index": 167,
+      "speaker": "passenger",
+      "start": 496.365,
+      "end": 501.505,
+      "duration": 5.14,
+      "text": "mira la cámara. Mira, si otro lugar se hizo una agresión, la PDI no tenía que dejar de salir.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:21:16.365+00:00"
+    },
+    {
+      "index": 168,
+      "speaker": "passenger",
+      "start": 501.725,
+      "end": 502.945,
+      "duration": 1.22,
+      "text": "Gente, es como está tan...",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:21:21.725+00:00"
+    },
+    {
+      "index": 169,
+      "speaker": "passenger",
+      "start": 504.645,
+      "end": 505.925,
+      "duration": 1.28,
+      "text": "Alguien se fijó",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:21:24.645+00:00"
+    },
+    {
+      "index": 170,
+      "speaker": "passenger",
+      "start": 507.265,
+      "end": 510.345,
+      "duration": 3.08,
+      "text": "y el piloto simplemente decidió que no iba a salir.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:21:27.265+00:00"
+    },
+    {
+      "index": 171,
+      "speaker": "airline_staff",
+      "start": 510.545,
+      "end": 513.205,
+      "duration": 2.66,
+      "text": "O sea, si el piloto decidió que no embarcabas,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:21:30.545+00:00"
+    },
+    {
+      "index": 172,
+      "speaker": "airline_staff",
+      "start": 513.385,
+      "end": 516.025,
+      "duration": 2.64,
+      "text": "ya es algo totalmente distinto al servicio pasajero.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:21:33.385+00:00"
+    },
+    {
+      "index": 173,
+      "speaker": "passenger",
+      "start": 516.025,
+      "end": 516.305,
+      "duration": 0.28,
+      "text": "Claro,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:21:36.025+00:00"
+    },
+    {
+      "index": 174,
+      "speaker": "airline_staff",
+      "start": 516.305,
+      "end": 517.405,
+      "duration": 1.1,
+      "text": "Pero, la zona.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:21:36.305+00:00"
+    },
+    {
+      "index": 175,
+      "speaker": "passenger",
+      "start": 517.405,
+      "end": 519.745,
+      "duration": 2.34,
+      "text": "sí, pero desde lo que me he ido,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:21:37.405+00:00"
+    },
+    {
+      "index": 176,
+      "speaker": "passenger",
+      "start": 521.105,
+      "end": 523.585,
+      "duration": 2.48,
+      "text": "el piloto tiene la mayor autonomía",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:21:41.105+00:00"
+    },
+    {
+      "index": 177,
+      "speaker": "passenger",
+      "start": 523.765,
+      "end": 526.205,
+      "duration": 2.44,
+      "text": "a decidir que alguien se queda o no.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:21:43.765+00:00"
+    },
+    {
+      "index": 178,
+      "speaker": "passenger",
+      "start": 526.645,
+      "end": 527.405,
+      "duration": 0.76,
+      "text": "Pero no",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:21:46.645+00:00"
+    },
+    {
+      "index": 179,
+      "speaker": "passenger",
+      "start": 528.045,
+      "end": 530.005,
+      "duration": 1.96,
+      "text": "puede ser sin",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:21:48.045+00:00"
+    },
+    {
+      "index": 180,
+      "speaker": "passenger",
+      "start": 530.425,
+      "end": 533.325,
+      "duration": 2.9,
+      "text": "una justificativa. No puede ser sin... ¿De qué va a ser?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:21:50.425+00:00"
+    },
+    {
+      "index": 181,
+      "speaker": "airline_staff",
+      "start": 533.325,
+      "end": 539.485,
+      "duration": 6.16,
+      "text": "Que es lo que te decía Baudí. ¿Desconocemos en verdad los motivos por qué te fueron sacando la máquina? No sabemos muy bien la historia.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:21:53.325+00:00"
+    },
+    {
+      "index": 182,
+      "speaker": "passenger",
+      "start": 539.485,
+      "end": 541.245,
+      "duration": 1.76,
+      "text": "Ya, tienes cámara dentro del vuelo.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:21:59.485+00:00"
+    },
+    {
+      "index": 183,
+      "speaker": "airline_staff",
+      "start": 541.245,
+      "end": 542.345,
+      "duration": 1.1,
+      "text": "Entonces, la experiencia...",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:22:01.245+00:00"
+    },
+    {
+      "index": 184,
+      "speaker": "passenger",
+      "start": 542.345,
+      "end": 543.305,
+      "duration": 0.96,
+      "text": "Yo tengo varias.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:22:02.345+00:00"
+    },
+    {
+      "index": 185,
+      "speaker": "airline_staff",
+      "start": 543.305,
+      "end": 544.205,
+      "duration": 0.9,
+      "text": "Grabaciones.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:22:03.305+00:00"
+    },
+    {
+      "index": 186,
+      "speaker": "passenger",
+      "start": 544.165,
+      "end": 546.785,
+      "duration": 2.62,
+      "text": "Tengo varias. No grabación de vídeo, grabación de audio.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:22:04.165+00:00"
+    },
+    {
+      "index": 187,
+      "speaker": "airline_staff",
+      "start": 547.025,
+      "end": 548.405,
+      "duration": 1.38,
+      "text": "Por eso. ¿Ya? Ya, pero en legalidad.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:22:07.025+00:00"
+    },
+    {
+      "index": 188,
+      "speaker": "passenger",
+      "start": 548.405,
+      "end": 552.005,
+      "duration": 3.6,
+      "text": "Explicando até mismo... Disculpe, disculpe de cortar, pero explicando até mismo",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:22:08.405+00:00"
+    },
+    {
+      "index": 189,
+      "speaker": "passenger",
+      "start": 552.505,
+      "end": 555.505,
+      "duration": 3.0,
+      "text": "los chicos de la seguridad,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:22:12.505+00:00"
+    },
+    {
+      "index": 190,
+      "speaker": "passenger",
+      "start": 555.885,
+      "end": 557.565,
+      "duration": 1.68,
+      "text": "también de la DGAC,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:22:15.885+00:00"
+    },
+    {
+      "index": 191,
+      "speaker": "passenger",
+      "start": 558.125,
+      "end": 561.285,
+      "duration": 3.16,
+      "text": "diciendo, yo vi que fue una agresión, yo vi en la cámara.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:22:18.125+00:00"
+    },
+    {
+      "index": 192,
+      "speaker": "passenger",
+      "start": 561.525,
+      "end": 562.405,
+      "duration": 0.88,
+      "text": "Y después,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:22:21.525+00:00"
+    },
+    {
+      "index": 193,
+      "speaker": "passenger",
+      "start": 562.585,
+      "end": 564.465,
+      "duration": 1.88,
+      "text": "lo que tú pasó sin mostrar tu",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:22:22.585+00:00"
+    },
+    {
+      "index": 194,
+      "speaker": "passenger",
+      "start": 564.785,
+      "end": 565.565,
+      "duration": 0.78,
+      "text": "borde en paz.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:22:24.785+00:00"
+    },
+    {
+      "index": 195,
+      "speaker": "passenger",
+      "start": 565.765,
+      "end": 566.205,
+      "duration": 0.44,
+      "text": "Como,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:22:25.765+00:00"
+    },
+    {
+      "index": 196,
+      "speaker": "passenger",
+      "start": 566.425,
+      "end": 569.865,
+      "duration": 3.44,
+      "text": "hasta las personas dentro del vuelo estaban cuestionando.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:22:26.425+00:00"
+    },
+    {
+      "index": 197,
+      "speaker": "passenger",
+      "start": 570.125,
+      "end": 571.525,
+      "duration": 1.4,
+      "text": "Todos estaban cuestionando.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:22:30.125+00:00"
+    },
+    {
+      "index": 198,
+      "speaker": "passenger",
+      "start": 571.885,
+      "end": 573.105,
+      "duration": 1.22,
+      "text": "Todos estávamos juntos.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:22:31.885+00:00"
+    },
+    {
+      "index": 199,
+      "speaker": "passenger",
+      "start": 573.585,
+      "end": 574.525,
+      "duration": 0.94,
+      "text": "Nadie vio nada.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:22:33.585+00:00"
+    },
+    {
+      "index": 200,
+      "speaker": "passenger",
+      "start": 575.145,
+      "end": 577.465,
+      "duration": 2.32,
+      "text": "Tiene una señora que estaba a mi lado, también no vio nada.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:22:35.145+00:00"
+    },
+    {
+      "index": 201,
+      "speaker": "passenger",
+      "start": 577.885,
+      "end": 580.385,
+      "duration": 2.5,
+      "text": "Y todos estaban... ¿Por qué cambiaron de narrativa?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:22:37.885+00:00"
+    },
+    {
+      "index": 202,
+      "speaker": "passenger",
+      "start": 580.825,
+      "end": 582.145,
+      "duration": 1.32,
+      "text": "Porque una no funcionó.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:22:40.825+00:00"
+    },
+    {
+      "index": 203,
+      "speaker": "passenger",
+      "start": 582.625,
+      "end": 584.705,
+      "duration": 2.08,
+      "text": "Entiendes? Como está tan claro eso.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:22:42.625+00:00"
+    },
+    {
+      "index": 204,
+      "speaker": "passenger",
+      "start": 586.305,
+      "end": 588.085,
+      "duration": 1.78,
+      "text": "Y parece que me",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:22:46.305+00:00"
+    },
+    {
+      "index": 205,
+      "speaker": "airline_staff",
+      "start": 590.525,
+      "end": 592.825,
+      "duration": 2.3,
+      "text": "Pero ahí tranquilo. Ahí tienes que verlo con el subvención cuando llegue.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:22:50.525+00:00"
+    },
+    {
+      "index": 206,
+      "speaker": "airline_staff",
+      "start": 593.225,
+      "end": 594.565,
+      "duration": 1.34,
+      "text": "Y él te va a",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:22:53.225+00:00"
+    },
+    {
+      "index": 207,
+      "speaker": "passenger",
+      "start": 594.905,
+      "end": 595.385,
+      "duration": 0.48,
+      "text": "va a...",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:22:54.905+00:00"
+    },
+    {
+      "index": 208,
+      "speaker": "airline_staff",
+      "start": 595.385,
+      "end": 597.105,
+      "duration": 1.72,
+      "text": "decir efectivamente si",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:22:55.385+00:00"
+    },
+    {
+      "index": 209,
+      "speaker": "airline_staff",
+      "start": 598.005,
+      "end": 600.865,
+      "duration": 2.86,
+      "text": "baja o si mantiene la negación de embarcada.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:22:58.005+00:00"
+    },
+    {
+      "index": 210,
+      "speaker": "passenger",
+      "start": 601.065,
+      "end": 601.465,
+      "duration": 0.4,
+      "text": "Mira,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:23:01.065+00:00"
+    },
+    {
+      "index": 211,
+      "speaker": "airline_staff",
+      "start": 601.465,
+      "end": 601.905,
+      "duration": 0.44,
+      "text": "Pero ahí",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:23:01.465+00:00"
+    },
+    {
+      "index": 212,
+      "speaker": "passenger",
+      "start": 601.905,
+      "end": 603.465,
+      "duration": 1.56,
+      "text": "yo no voy a viajar más con Latam.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:23:01.905+00:00"
+    },
+    {
+      "index": 213,
+      "speaker": "passenger",
+      "start": 603.705,
+      "end": 606.665,
+      "duration": 2.96,
+      "text": "Yo no quiero viajar más con Latam. Nunca más.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:23:03.705+00:00"
+    },
+    {
+      "index": 214,
+      "speaker": "airline_staff",
+      "start": 606.665,
+      "end": 610.485,
+      "duration": 3.82,
+      "text": "tienes que verlo con el subvención cuando llegue. Porque como te explicaba acá, no sabemos muy bien la historia. Entonces,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:23:06.665+00:00"
+    },
+    {
+      "index": 215,
+      "speaker": "passenger",
+      "start": 610.485,
+      "end": 615.965,
+      "duration": 5.48,
+      "text": "¿Tá? Entonces, vamos investigar la historia. Porque si usted no va a investigar la historia, voy yo a investigar.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:23:10.485+00:00"
+    },
+    {
+      "index": 216,
+      "speaker": "airline_staff",
+      "start": 616.005,
+      "end": 616.725,
+      "duration": 0.72,
+      "text": "por eso.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:23:16.005+00:00"
+    },
+    {
+      "index": 217,
+      "speaker": "passenger",
+      "start": 616.725,
+      "end": 618.105,
+      "duration": 1.38,
+      "text": "Yo voy a investigar, decía mucho.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:23:16.725+00:00"
+    },
+    {
+      "index": 218,
+      "speaker": "airline_staff",
+      "start": 618.105,
+      "end": 623.105,
+      "duration": 5.0,
+      "text": "Pero por eso te digo, tienes que esperar acá que llegue el subvención de seguridad. Y él te va a dar la indicación.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:23:18.105+00:00"
+    },
+    {
+      "index": 219,
+      "speaker": "airline_staff",
+      "start": 624.125,
+      "end": 626.805,
+      "duration": 2.68,
+      "text": "Porque él maneja el procedimiento. Entonces,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:23:24.125+00:00"
+    },
+    {
+      "index": 220,
+      "speaker": "airline_staff",
+      "start": 627.105,
+      "end": 630.625,
+      "duration": 3.52,
+      "text": "él te va a dar la información a pasar si mantienes la negativa de embarcada. Pues,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:23:27.105+00:00"
+    },
+    {
+      "index": 221,
+      "speaker": "passenger",
+      "start": 630.625,
+      "end": 635.525,
+      "duration": 4.9,
+      "text": "Puede mantener la... Yo no me importo. Lo que quiero saber, exactamente,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:23:30.625+00:00"
+    },
+    {
+      "index": 222,
+      "speaker": "passenger",
+      "start": 636.845,
+      "end": 639.825,
+      "duration": 2.98,
+      "text": "cuál fue, principalmente, la carta de desembarco del piloto.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:23:36.845+00:00"
+    },
+    {
+      "index": 223,
+      "speaker": "airline_staff",
+      "start": 639.825,
+      "end": 640.045,
+      "duration": 0.22,
+      "text": "yo",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:23:39.825+00:00"
+    },
+    {
+      "index": 224,
+      "speaker": "passenger",
+      "start": 640.045,
+      "end": 640.405,
+      "duration": 0.36,
+      "text": "Entiendes?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:23:40.045+00:00"
+    },
+    {
+      "index": 225,
+      "speaker": "airline_staff",
+      "start": 640.325,
+      "end": 641.625,
+      "duration": 1.3,
+      "text": "lo desconozco. Ahí tienes que verlo con el",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:23:40.325+00:00"
+    },
+    {
+      "index": 226,
+      "speaker": "passenger",
+      "start": 641.585,
+      "end": 648.725,
+      "duration": 7.14,
+      "text": "Pero, entiendes? Yo me gustaría saber exactamente lo que fue pasado. Porque la PDI pidió",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:23:41.585+00:00"
+    },
+    {
+      "index": 227,
+      "speaker": "airline_staff",
+      "start": 645.365,
+      "end": 645.465,
+      "duration": 0.1,
+      "text": "subvención.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:23:45.365+00:00"
+    },
+    {
+      "index": 228,
+      "speaker": "passenger",
+      "start": 649.085,
+      "end": 652.905,
+      "duration": 3.82,
+      "text": "una carta de desembarco para que pudesse cerrar eso.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:23:49.085+00:00"
+    },
+    {
+      "index": 229,
+      "speaker": "passenger",
+      "start": 653.525,
+      "end": 656.945,
+      "duration": 3.42,
+      "text": "Passaron esa carta a la PDI. La PDI no quiere pasar.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:23:53.525+00:00"
+    },
+    {
+      "index": 230,
+      "speaker": "passenger",
+      "start": 657.745,
+      "end": 659.885,
+      "duration": 2.14,
+      "text": "La Latam no quiere pasar.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:23:57.745+00:00"
+    },
+    {
+      "index": 231,
+      "speaker": "passenger",
+      "start": 660.345,
+      "end": 663.085,
+      "duration": 2.74,
+      "text": "La DGAC no quiere pasar. Parece que están",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:24:00.345+00:00"
+    },
+    {
+      "index": 232,
+      "speaker": "airline_staff",
+      "start": 663.085,
+      "end": 663.285,
+      "duration": 0.2,
+      "text": "Es que",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:24:03.085+00:00"
+    },
+    {
+      "index": 233,
+      "speaker": "passenger",
+      "start": 663.285,
+      "end": 664.925,
+      "duration": 1.64,
+      "text": "comunados, ¿entiendes?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:24:03.285+00:00"
+    },
+    {
+      "index": 234,
+      "speaker": "airline_staff",
+      "start": 664.925,
+      "end": 665.905,
+      "duration": 0.98,
+      "text": "son áreas",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:24:04.925+00:00"
+    },
+    {
+      "index": 235,
+      "speaker": "airline_staff",
+      "start": 666.365,
+      "end": 667.865,
+      "duration": 1.5,
+      "text": "distintas. Entonces,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:24:06.365+00:00"
+    },
+    {
+      "index": 236,
+      "speaker": "passenger",
+      "start": 667.865,
+      "end": 669.765,
+      "duration": 1.9,
+      "text": "Son áreas distintas, pero que están haciendo...",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:24:07.865+00:00"
+    },
+    {
+      "index": 237,
+      "speaker": "passenger",
+      "start": 670.125,
+      "end": 672.365,
+      "duration": 2.24,
+      "text": "Están entrelazados.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:24:10.125+00:00"
+    },
+    {
+      "index": 238,
+      "speaker": "airline_staff",
+      "start": 672.365,
+      "end": 675.905,
+      "duration": 3.54,
+      "text": "no funciona de la misma forma. Todos funcionan con distintos procedimientos.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:24:12.365+00:00"
+    },
+    {
+      "index": 239,
+      "speaker": "airline_staff",
+      "start": 676.285,
+      "end": 678.205,
+      "duration": 1.92,
+      "text": "Por eso te digo, policía, algo totalmente distinto.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:24:16.285+00:00"
+    },
+    {
+      "index": 240,
+      "speaker": "passenger",
+      "start": 678.205,
+      "end": 684.245,
+      "duration": 6.04,
+      "text": "Pero, donde voy, me mandan a otro lado. Donde voy, me mandan a otro lado. Entonces, yo me siento como estúpido acá. Sí,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:24:18.205+00:00"
+    },
+    {
+      "index": 241,
+      "speaker": "airline_staff",
+      "start": 684.245,
+      "end": 686.365,
+      "duration": 2.12,
+      "text": "Pues, te digo, puedes esperar acá tranquilamente.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:24:24.245+00:00"
+    },
+    {
+      "index": 242,
+      "speaker": "airline_supervisor",
+      "start": 686.365,
+      "end": 687.265,
+      "duration": 0.9,
+      "text": "el supervisor, claro,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:24:26.365+00:00"
+    },
+    {
+      "index": 243,
+      "speaker": "airline_staff",
+      "start": 687.265,
+      "end": 688.285,
+      "duration": 1.02,
+      "text": "Y él va a llegar acá.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:24:27.265+00:00"
+    },
+    {
+      "index": 244,
+      "speaker": "airline_supervisor",
+      "start": 688.465,
+      "end": 690.285,
+      "duration": 1.82,
+      "text": "porque él está dentro de la... Claro, ¿qué está",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:24:28.465+00:00"
+    },
+    {
+      "index": 245,
+      "speaker": "airline_staff",
+      "start": 690.285,
+      "end": 691.965,
+      "duration": 1.68,
+      "text": "Tienes que salir del embarque para venir a hablar.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:24:30.285+00:00"
+    },
+    {
+      "index": 246,
+      "speaker": "airline_supervisor",
+      "start": 691.965,
+      "end": 695.705,
+      "duration": 3.74,
+      "text": "contigo? Y la TAM está aquí afuera de la G o la H, no",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:24:31.965+00:00"
+    },
+    {
+      "index": 247,
+      "speaker": "airline_staff",
+      "start": 695.705,
+      "end": 696.485,
+      "duration": 0.78,
+      "text": "Claro, no traemos más.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:24:35.705+00:00"
+    },
+    {
+      "index": 248,
+      "speaker": "passenger",
+      "start": 696.545,
+      "end": 696.945,
+      "duration": 0.4,
+      "text": "sí,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:24:36.545+00:00"
+    },
+    {
+      "index": 249,
+      "speaker": "airline_supervisor",
+      "start": 696.945,
+      "end": 697.465,
+      "duration": 0.52,
+      "text": "es una TAM.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:24:36.945+00:00"
+    },
+    {
+      "index": 250,
+      "speaker": "passenger",
+      "start": 697.465,
+      "end": 699.005,
+      "duration": 1.54,
+      "text": "sí, entiendo, entiendo. Pero,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:24:37.465+00:00"
+    },
+    {
+      "index": 251,
+      "speaker": "passenger",
+      "start": 700.685,
+      "end": 707.905,
+      "duration": 7.22,
+      "text": "¿vamos resolver eso y descubrir lo que pasó, por favor? Porque si viene una persona y va a hablar, vamos a mirar la cámara.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:24:40.685+00:00"
+    },
+    {
+      "index": 252,
+      "speaker": "airline_staff",
+      "start": 707.905,
+      "end": 710.105,
+      "duration": 2.2,
+      "text": "Pero tienes que verlo con él. Sí, tienes que verlo con él.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:24:47.905+00:00"
+    },
+    {
+      "index": 253,
+      "speaker": "airline_supervisor",
+      "start": 709.305,
+      "end": 709.805,
+      "duration": 0.5,
+      "text": "Sí, en el...",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:24:49.305+00:00"
+    },
+    {
+      "index": 254,
+      "speaker": "passenger",
+      "start": 710.105,
+      "end": 712.465,
+      "duration": 2.36,
+      "text": "¿Sabes por qué? Yo estoy cansado de eso. Yo,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:24:50.105+00:00"
+    },
+    {
+      "index": 255,
+      "speaker": "passenger",
+      "start": 713.165,
+      "end": 714.105,
+      "duration": 0.94,
+      "text": "¿sabes cuál es el peor?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:24:53.165+00:00"
+    },
+    {
+      "index": 256,
+      "speaker": "passenger",
+      "start": 714.825,
+      "end": 716.165,
+      "duration": 1.34,
+      "text": "Eso fue hecho de más fe.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:24:54.825+00:00"
+    },
+    {
+      "index": 257,
+      "speaker": "passenger",
+      "start": 716.965,
+      "end": 720.345,
+      "duration": 3.38,
+      "text": "Eso fueron dos acusaciones falsas. Que eso es defamación.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:24:56.965+00:00"
+    },
+    {
+      "index": 258,
+      "speaker": "passenger",
+      "start": 721.725,
+      "end": 723.345,
+      "duration": 1.62,
+      "text": "Y también me prohibieron de volar.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:25:01.725+00:00"
+    },
+    {
+      "index": 259,
+      "speaker": "passenger",
+      "start": 723.665,
+      "end": 727.685,
+      "duration": 4.02,
+      "text": "85 % de los vuelos para donde voy, a la TAM.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:25:03.665+00:00"
+    },
+    {
+      "index": 260,
+      "speaker": "passenger",
+      "start": 728.665,
+      "end": 730.765,
+      "duration": 2.1,
+      "text": "Me dificultaron la vida de",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:25:08.665+00:00"
+    },
+    {
+      "index": 261,
+      "speaker": "passenger",
+      "start": 731.565,
+      "end": 732.785,
+      "duration": 1.22,
+      "text": "propósito.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:25:11.565+00:00"
+    },
+    {
+      "index": 262,
+      "speaker": "passenger",
+      "start": 733.525,
+      "end": 738.925,
+      "duration": 5.4,
+      "text": "Me hicieron mal de propósito, sabiendo que estaban incorrectos.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:25:13.525+00:00"
+    },
+    {
+      "index": 263,
+      "speaker": "passenger",
+      "start": 739.785,
+      "end": 741.245,
+      "duration": 1.46,
+      "text": "Sabiendo que estaban mentindo.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:25:19.785+00:00"
+    },
+    {
+      "index": 264,
+      "speaker": "airline_supervisor",
+      "start": 741.425,
+      "end": 743.185,
+      "duration": 1.76,
+      "text": "Tienes que verlo, tienes que verlo.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:25:21.425+00:00"
+    },
+    {
+      "index": 265,
+      "speaker": "airline_supervisor",
+      "start": 743.525,
+      "end": 743.965,
+      "duration": 0.44,
+      "text": "Sí.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:25:23.525+00:00"
+    },
+    {
+      "index": 266,
+      "speaker": "passenger",
+      "start": 744.625,
+      "end": 748.605,
+      "duration": 3.98,
+      "text": "Es triste eso, muy triste. Muy triste. Muy triste la actitud.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:25:24.625+00:00"
+    },
+    {
+      "index": 267,
+      "speaker": "passenger",
+      "start": 749.265,
+      "end": 752.745,
+      "duration": 3.48,
+      "text": "Donde ustedes ahora, pero de la mayoría de las personas con quien voy a hablar,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:25:29.265+00:00"
+    },
+    {
+      "index": 268,
+      "speaker": "passenger",
+      "start": 753.045,
+      "end": 754.745,
+      "duration": 1.7,
+      "text": "que me miran como lo malo.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:25:33.045+00:00"
+    },
+    {
+      "index": 269,
+      "speaker": "airline_staff",
+      "start": 755.025,
+      "end": 758.705,
+      "duration": 3.68,
+      "text": "Hoy te digo, tienes que esperar acá. Pero paciente, no, o sea, no va a venir al tiro.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:25:35.025+00:00"
+    },
+    {
+      "index": 270,
+      "speaker": "airline_staff",
+      "start": 759.365,
+      "end": 759.705,
+      "duration": 0.34,
+      "text": "¿Ya?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:25:39.365+00:00"
+    },
+    {
+      "index": 271,
+      "speaker": "airline_staff",
+      "start": 760.345,
+      "end": 761.425,
+      "duration": 1.08,
+      "text": "Así que ahí, te",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:25:40.345+00:00"
+    },
+    {
+      "index": 272,
+      "speaker": "airline_staff",
+      "start": 761.665,
+      "end": 762.665,
+      "duration": 1.0,
+      "text": "espera un momento, ¿ya?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:25:41.665+00:00"
+    },
+    {
+      "index": 273,
+      "speaker": "airline_staff",
+      "start": 764.625,
+      "end": 767.525,
+      "duration": 2.9,
+      "text": "Igual, si sabemos que andas por acá, te vamos a avisar para que hablas con él, ¿ya?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:25:44.625+00:00"
+    },
+    {
+      "index": 274,
+      "speaker": "airline_staff",
+      "start": 768.365,
+      "end": 768.785,
+      "duration": 0.42,
+      "text": "Gracias.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:25:48.365+00:00"
+    },
+    {
+      "index": 275,
+      "speaker": "airline_staff",
+      "start": 770.905,
+      "end": 771.005,
+      "duration": 0.1,
+      "text": "Gracias.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:25:50.905+00:00"
+    },
+    {
+      "index": 276,
+      "speaker": "unresolved_speaker",
+      "start": 792.365,
+      "end": 792.785,
+      "duration": 0.42,
+      "text": "Thank",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:26:12.365+00:00"
+    },
+    {
+      "index": 277,
+      "speaker": "unresolved_speaker",
+      "start": 794.325,
+      "end": 795.885,
+      "duration": 1.56,
+      "text": "you.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T09:26:14.325+00:00"
+    }
+  ],
+  "reviewed": true
+}

@@ -1,0 +1,2191 @@
+{
+    "transcript_id": "I-001_0_Guarulhos_incident_Lost_Phone_Report",
+    "source_file": "transcription/data/audio/GRU-Terminal 2.m4a",
+    "language": "pt",
+    "timestamp": "2026-07-13T08:32:05.164Z",
+    "provider": "local",
+    "original_transcript_id": "Terminal_2-first-5min_1783925904.m4a, Terminal_2-5-10min_1783928981.m4a",
+    "metadata": {
+        "timestamps": {
+            "QuickTime_Movie_Header_Created": "2024-04-04T23:00:00.000Z",
+            "File_Modified_Date": "2026-07-13T08:32:05.164Z"
+        },
+        "audio_properties": {
+            "duration": "00:10:09.722",
+            "track_id": "48000",
+            "preferred_volume": "1"
+        },
+        "file_info": {
+            "file_size": "5270638 bytes",
+            "file_size_kb": "5147.11 KB",
+            "major_brand": "M4A",
+            "content_type": "audio/mp4",
+            "file_name": "Terminal 2-full.m4a"
+        },
+        "ontology_node_id": "TRNS_GRU_T2_LOST_PHONE_FULL",
+        "ontology_schema_version": "2.3.1"
+    },
+    "title": "GRU Airport — Lost Phone Report and Full Incident Narrative (Parts 1 & 2)",
+    "subtitle": "LATAM Customer Service — Lost Phone Report and Legal Evidence Compilation",
+    "recording_datetime": "2024-04-04T23:00:00",
+    "location": "GRU (Guarulhos) International Airport, São Paulo, Brazil — Terminal 2, LATAM Customer Service Desk",
+    "audio_id": "Terminal_2_full",
+    "case_id": "C-2026-07-13-001",
+    "narrative_id": "NAR-GRU-02_lost_phone_full",
+    "chronological_order": 1,
+    "prior_stage": "NAR-GRU-01_counter_dispute",
+    "next_stage": "NAR-GRU-03_phone_recovery_followup",
+    "classification": "Attorney Work Product — Privileged and Confidential",
+    "participants": [
+        {
+            "canonical_name": "Leandro Disconzi",
+            "role": "Passenger",
+            "speaker_label": "Passenger (Leandro Disconzi)"
+        },
+        {
+            "canonical_name": "Unknown",
+            "role": "LATAM Customer Service Agent — Assisted with lost phone report",
+            "speaker_label": "LATAM Customer Service (Female)"
+        }
+    ],
+    "violations_cited": [],
+    "tags": [
+        "transcript",
+        "narrative",
+        "evidence",
+        "lost-property",
+        "phone-report",
+        "harassment-reference",
+        "legal-intent",
+        "pet-travel",
+        "missed-connection"
+    ],
+    "forensic_clusters": {
+        "cluster_A_lost_phone_initiation": {
+            "segments": [
+                "0-45"
+            ],
+            "summary": "Passenger reports a forgotten phone left in seat 28C on flight LA632 (Santiago → São Paulo). Staff takes details: flight number, seat, phone description (Huawei, black, scratched back). Passenger provides contact surname (Disconzi) and explains the phone was in a pouch inside the seat pocket. Staff explains the cleaning crew will search and contact if found."
+        },
+        "cluster_B_cat_conversation_and_personal_context": {
+            "segments": [
+                "20-40"
+            ],
+            "summary": "Casual conversation about the passenger's cat (female, calico, thick fur, came from cold climate). Staff asks the cat's name ('Racita' / likely 'Rosita'), and passenger explains the cat is the last of a family of three. This establishes the passenger's emotional connection to his pet and the stress of traveling with her."
+        },
+        "cluster_C_full_incident_narrative": {
+            "segments": [
+                "46-93"
+            ],
+            "summary": "Passenger provides a comprehensive chronology: LATAM refused to check his baggage; police confiscated a knife at security; he ran to the gate but the flight (23:05) had already closed by 23:00; 3.5-hour rebooking queue; inadequate hotel offered outside Guarulhos at 2-3 AM; LATAM in Santiago rejected a wooden cat carrier that had been accepted by British Airways for 14-hour flights; employee harassment (cursed at him); he is compiling evidence for moral damages and legal action."
+        }
+    },
+    "key_evidentiary_findings": [
+        {
+            "id": "KEF-T2-1",
+            "finding": "Passenger states a LATAM employee cursed at him ('me xingou inteiro' and 'mandando tomar no cu'), directly referencing the André BD Marinho incident.",
+            "segments": [
+                "48",
+                "50",
+                "53"
+            ],
+            "strength": "High",
+            "cross_reference": "Connects to NAR-GRU-01 (BD Marinho confrontation) and corroborates the harassment claim."
+        },
+        {
+            "id": "KEF-T2-2",
+            "finding": "Passenger states he will pursue moral damages ('danos morais') and is compiling evidence for a legal case against LATAM.",
+            "segments": [
+                "49",
+                "48"
+            ],
+            "strength": "High",
+            "cross_reference": "Demonstrates passenger's intent to seek legal remedy and his awareness of his rights."
+        },
+        {
+            "id": "KEF-T2-3",
+            "finding": "Passenger left his phone in seat 28C of flight LA632 (Santiago → São Paulo) during the chaotic rebooking process.",
+            "segments": [
+                "24",
+                "7",
+                "50"
+            ],
+            "strength": "High",
+            "cross_reference": "Establishes the lost property details and links the loss directly to the airline's service failure."
+        },
+        {
+            "id": "KEF-T2-4",
+            "finding": "LATAM refused to check baggage; passenger was forced to carry luggage with a knife, which police confiscated at security.",
+            "segments": [
+                "62"
+            ],
+            "strength": "High",
+            "cross_reference": "Documents negligence in baggage handling and adds to the list of service failures."
+        },
+        {
+            "id": "KEF-T2-5",
+            "finding": "Passenger arrived at the gate at 23:00 for a 23:05 flight, but the flight was already closed.",
+            "segments": [
+                "65",
+                "66"
+            ],
+            "strength": "High",
+            "cross_reference": "Establishes that the passenger attempted to board on time but was denied due to early closure."
+        },
+        {
+            "id": "KEF-T2-6",
+            "finding": "Rebooking queue took 3.5 hours; hotel offered at 2-3 AM was outside Guarulhos, requiring additional travel.",
+            "segments": [
+                "67",
+                "68",
+                "69"
+            ],
+            "strength": "High",
+            "cross_reference": "Documents unreasonable delay and inadequate accommodation, violating ANAC Resolution 400/2016."
+        },
+        {
+            "id": "KEF-T2-7",
+            "finding": "LATAM in Santiago rejected a wooden cat carrier that had been used by British Airways for a 14-hour flight from London to Santiago.",
+            "segments": [
+                "79",
+                "84",
+                "85",
+                "86"
+            ],
+            "strength": "High",
+            "cross_reference": "Demonstrates inconsistent and possibly unreasonable pet travel policies, causing additional stress and inconvenience."
+        },
+        {
+            "id": "KEF-T2-8",
+            "finding": "Passenger's cat was in distress ('em destresse' / stress) due to the extended delays and handling.",
+            "segments": [
+                "73"
+            ],
+            "strength": "Medium",
+            "cross_reference": "Adds emotional and animal welfare dimensions to the passenger's claim."
+        },
+        {
+            "id": "KEF-T2-9",
+            "finding": "Passenger explicitly states he will 'enfiar a mão na LATAM' (take legal action) — clear declaration of intent.",
+            "segments": [
+                "87"
+            ],
+            "strength": "High",
+            "cross_reference": "Confirms the passenger's resolve and provides context for his meticulous recording."
+        }
+    ],
+    "corrections_applied": [
+        {
+            "segment": "25",
+            "original": "bem quantinha",
+            "corrected": "bem quentinha",
+            "reason": "ASR error; context indicates staff is commenting on the cat being warm."
+        },
+        {
+            "segment": "44",
+            "original": "linha",
+            "corrected": "fileira",
+            "reason": "Context indicates 'fileira' (row) for seat 28C."
+        },
+        {
+            "segment": "45",
+            "original": "nas três",
+            "corrected": "na 28C",
+            "reason": "ASR misheard 'na 28C' as 'nas três'."
+        },
+        {
+            "segment": "59",
+            "original": "Não tinha nenhum avião de segurança",
+            "corrected": "Não tinha ninguém da segurança",
+            "reason": "Illogical 'security airplane' corrected to 'security personnel'."
+        },
+        {
+            "segment": "111",
+            "original": "A guitarra está de trás",
+            "corrected": "A parte de trás está...",
+            "reason": "Illogical 'guitar' corrected to 'parte de trás' (back part) describing the phone."
+        },
+        {
+            "segment": "113",
+            "original": "Não está arrastado na frente, mas está arrastado na frente.",
+            "corrected": "Não está riscado na frente, mas está riscado atrás.",
+            "reason": "Contradictory phrasing corrected to 'riscado' (scratched) and differentiates front/back."
+        },
+        {
+            "segment": "115",
+            "original": "Rachado atrás",
+            "corrected": "Riscado atrás",
+            "reason": "Context implies 'scratched' rather than 'cracked'."
+        },
+        {
+            "segment": "3",
+            "original": "E o acento também.",
+            "corrected": "E o assento também.",
+            "reason": "'Acento' (accent) corrected to 'assento' (seat)."
+        },
+        {
+            "segment": "28",
+            "original": "Disconze",
+            "corrected": "Disconzi",
+            "reason": "Passenger's surname spelling corrected."
+        },
+        {
+            "segment": "84",
+            "original": "taixa",
+            "corrected": "caixa",
+            "reason": "'Taixa' corrected to 'caixa' (box/crate)."
+        },
+        {
+            "segment": "73",
+            "original": "destresse",
+            "corrected": "estresse",
+            "reason": "'Destresse' corrected to 'estresse' (stress)."
+        },
+        {
+            "segment": "6",
+            "original": "Assim, número de acessos, arco e jato.",
+            "corrected": "[Garbled audio]",
+            "reason": "Severe ASR error; does not represent coherent speech."
+        },
+        {
+            "segment": "30",
+            "original": "Especialmente as pessoas com deficiência de identidade... [repeated]",
+            "corrected": "[Garbled audio]",
+            "reason": "Severe ASR hallucination; nonsensical repetition."
+        },
+        {
+            "segment": "All occurrences",
+            "original": "A CIDADE NO BRASIL",
+            "corrected": "[Silence/Artifact]",
+            "reason": "ASR artifact; does not represent actual speech."
+        }
+    ],
+    "segments": [
+        {
+            "index": 0,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 0.031,
+            "end": 0.048,
+            "duration": 0.017,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 1,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 0.166,
+            "end": 0.638,
+            "duration": 0.472,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 2,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 0.672,
+            "end": 4.621,
+            "duration": 3.949,
+            "text": "Número do voo, número do voo, número do voo...",
+            "reviewed": true
+        },
+        {
+            "index": 3,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 5.448,
+            "end": 6.730,
+            "duration": 1.282,
+            "text": "Saúde!",
+            "reviewed": true
+        },
+        {
+            "index": 4,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 8.148,
+            "end": 9.245,
+            "duration": 1.097,
+            "text": "Ah!",
+            "reviewed": true
+        },
+        {
+            "index": 5,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 10.966,
+            "end": 11.894,
+            "duration": 0.928,
+            "text": "Calma... [unclear]",
+            "reviewed": true
+        },
+        {
+            "index": 6,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 13.295,
+            "end": 25.225,
+            "duration": 11.930,
+            "text": "[Garbled audio]",
+            "reviewed": true
+        },
+        {
+            "index": 7,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 25.883,
+            "end": 26.440,
+            "duration": 0.557,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 8,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 26.761,
+            "end": 28.060,
+            "duration": 1.299,
+            "text": "Você veio de onde?",
+            "reviewed": true
+        },
+        {
+            "index": 9,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 28.381,
+            "end": 36.380,
+            "duration": 7.999,
+            "text": "O voo de Santiago a São Paulo foi o LA632.",
+            "reviewed": true
+        },
+        {
+            "index": 10,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 37.713,
+            "end": 38.725,
+            "duration": 1.012,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 11,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 38.725,
+            "end": 39.316,
+            "duration": 0.591,
+            "text": "Sim.",
+            "reviewed": true
+        },
+        {
+            "index": 12,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 38.827,
+            "end": 38.843,
+            "duration": 0.016,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 13,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 38.860,
+            "end": 39.248,
+            "duration": 0.388,
+            "text": "Sim.",
+            "reviewed": true
+        },
+        {
+            "index": 14,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 39.316,
+            "end": 39.873,
+            "duration": 0.557,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 15,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 39.873,
+            "end": 39.974,
+            "duration": 0.101,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 16,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 39.974,
+            "end": 41.965,
+            "duration": 1.991,
+            "text": "É isso aí!",
+            "reviewed": true
+        },
+        {
+            "index": 17,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 41.965,
+            "end": 43.383,
+            "duration": 1.418,
+            "text": "Oi!",
+            "reviewed": true
+        },
+        {
+            "index": 18,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 43.417,
+            "end": 46.049,
+            "duration": 2.632,
+            "text": "Tá chata já? Já era pra estar em casa?",
+            "reviewed": true
+        },
+        {
+            "index": 19,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 44.142,
+            "end": 44.834,
+            "duration": 0.692,
+            "text": "Claro!",
+            "reviewed": true
+        },
+        {
+            "index": 20,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 46.319,
+            "end": 51.112,
+            "duration": 4.793,
+            "text": "É menino? É menina. É menina, geralmente quando tem três cores assim.",
+            "reviewed": true
+        },
+        {
+            "index": 21,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 47.787,
+            "end": 47.855,
+            "duration": 0.068,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 22,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 48.125,
+            "end": 48.412,
+            "duration": 0.287,
+            "text": "Né?",
+            "reviewed": true
+        },
+        {
+            "index": 23,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 52.057,
+            "end": 55.094,
+            "duration": 3.037,
+            "text": "A LATAM está ajudando um bocado?",
+            "reviewed": true
+        },
+        {
+            "index": 24,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 54.453,
+            "end": 54.976,
+            "duration": 0.523,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 25,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 55.094,
+            "end": 58.925,
+            "duration": 3.831,
+            "text": "Nossa, bem quentinha, né? Ela é grande.",
+            "reviewed": true
+        },
+        {
+            "index": 26,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 57.254,
+            "end": 61.068,
+            "duration": 3.814,
+            "text": "É que ela é grande, o pelo dela é muito grosso, porque ela vem do frio.",
+            "reviewed": true
+        },
+        {
+            "index": 27,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 61.118,
+            "end": 62.772,
+            "duration": 1.654,
+            "text": "Ah, é tudo assim não!",
+            "reviewed": true
+        },
+        {
+            "index": 28,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 62.401,
+            "end": 66.468,
+            "duration": 4.067,
+            "text": "Então o pelo dela é muito grosso. Ela é grande também, mas o pelo dela é muito grosso.",
+            "reviewed": true
+        },
+        {
+            "index": 29,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 65.506,
+            "end": 68.982,
+            "duration": 3.476,
+            "text": "É porque o rosto dela é bem... como é o nome dela?",
+            "reviewed": true
+        },
+        {
+            "index": 30,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 68.982,
+            "end": 69.910,
+            "duration": 0.928,
+            "text": "Assim, tá?",
+            "reviewed": true
+        },
+        {
+            "index": 31,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 69.995,
+            "end": 74.770,
+            "duration": 4.775,
+            "text": "Racita, que diferente! É uma delícia. Você é coisa... Eu tenho quatro.",
+            "reviewed": true
+        },
+        {
+            "index": 32,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 72.931,
+            "end": 73.758,
+            "duration": 0.827,
+            "text": "Você acordou?",
+            "reviewed": true
+        },
+        {
+            "index": 33,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 74.247,
+            "end": 74.737,
+            "duration": 0.490,
+            "text": "Sim?",
+            "reviewed": true
+        },
+        {
+            "index": 34,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 75.074,
+            "end": 75.817,
+            "duration": 0.743,
+            "text": "Eu sempre tinha...",
+            "reviewed": true
+        },
+        {
+            "index": 35,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 75.091,
+            "end": 76.998,
+            "duration": 1.907,
+            "text": "Eu sempre tive vários também.",
+            "reviewed": true
+        },
+        {
+            "index": 36,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 76.812,
+            "end": 77.943,
+            "duration": 1.131,
+            "text": "E até tem.",
+            "reviewed": true
+        },
+        {
+            "index": 37,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 77.437,
+            "end": 80.204,
+            "duration": 2.767,
+            "text": "Essa é a última de uma família de três.",
+            "reviewed": true
+        },
+        {
+            "index": 38,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 80.288,
+            "end": 81.554,
+            "duration": 1.266,
+            "text": "Bom dia, gente!",
+            "reviewed": true
+        },
+        {
+            "index": 39,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 81.318,
+            "end": 85.267,
+            "duration": 3.949,
+            "text": "Eu tinha os três, tinha a mãe e teve os dois filhos, só ficou essa agora, tadinha.",
+            "reviewed": true
+        },
+        {
+            "index": 40,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 87.241,
+            "end": 91.139,
+            "duration": 3.898,
+            "text": "Leandro.",
+            "reviewed": true
+        },
+        {
+            "index": 41,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 87.494,
+            "end": 88.034,
+            "duration": 0.540,
+            "text": "Leandro",
+            "reviewed": true
+        },
+        {
+            "index": 42,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 91.173,
+            "end": 94.852,
+            "duration": 3.679,
+            "text": "Ok, porque eu tenho certeza que estava ali dentro. E o que fazer?",
+            "reviewed": true
+        },
+        {
+            "index": 43,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 94.852,
+            "end": 97.973,
+            "duration": 3.121,
+            "text": "Eu não sei, eu não sei trabalhar no aeroporto não.",
+            "reviewed": true
+        },
+        {
+            "index": 44,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 98.007,
+            "end": 101.298,
+            "duration": 3.291,
+            "text": "Eu estava na fileira 28, estava na 28C.",
+            "reviewed": true
+        },
+        {
+            "index": 45,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 102.142,
+            "end": 104.858,
+            "duration": 2.716,
+            "text": "Eu estava na 28C, com o gato.",
+            "reviewed": true
+        },
+        {
+            "index": 46,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 105.095,
+            "end": 109.330,
+            "duration": 4.235,
+            "text": "Porque assim, eu não tinha... [unclear]",
+            "reviewed": true
+        },
+        {
+            "index": 47,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 109.465,
+            "end": 114.325,
+            "duration": 4.860,
+            "text": "Eu entendo, eu entendo, porém o voo estava atrasado.",
+            "reviewed": true
+        },
+        {
+            "index": 48,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 114.899,
+            "end": 125.480,
+            "duration": 10.581,
+            "text": "E fez com que eu perdesse o outro voo e aí isso desencadeou uma bagunça que até funcionário da LATAM tem me xingando, me mandando tomar no cu.",
+            "reviewed": true
+        },
+        {
+            "index": 49,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 126.138,
+            "end": 131.420,
+            "duration": 5.282,
+            "text": "Sim, eu vou entrar com danos morais e com tudo em cima, porém,",
+            "reviewed": true
+        },
+        {
+            "index": 50,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 132.888,
+            "end": 139.638,
+            "duration": 6.750,
+            "text": "Dentro dessa bagunça, eu deixei meu telefone ali dentro. Esse telefone é importante, tá? Então, eu tô fazendo um requerimento agora.",
+            "reviewed": true
+        },
+        {
+            "index": 51,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 140.363,
+            "end": 143.317,
+            "duration": 2.954,
+            "text": "E eu quero saber qual é o procedimento.",
+            "reviewed": true
+        },
+        {
+            "index": 52,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 143.131,
+            "end": 146.978,
+            "duration": 3.847,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 53,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 146.978,
+            "end": 146.995,
+            "duration": 0.017,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 54,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 146.995,
+            "end": 147.164,
+            "duration": 0.169,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 55,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 147.164,
+            "end": 148.919,
+            "duration": 1.755,
+            "text": "Caso apareça.",
+            "reviewed": true
+        },
+        {
+            "index": 56,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 148.970,
+            "end": 149.003,
+            "duration": 0.033,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 57,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 149.105,
+            "end": 151.923,
+            "duration": 2.818,
+            "text": "Pode ser feito um pedido para verificar o avião.",
+            "reviewed": true
+        },
+        {
+            "index": 58,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 152.632,
+            "end": 155.399,
+            "duration": 2.767,
+            "text": "Ou eles fazem uma verificação do avião toda vez que chega.",
+            "reviewed": true
+        },
+        {
+            "index": 59,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 155.180,
+            "end": 161.558,
+            "duration": 6.378,
+            "text": "Não tinha ninguém da segurança, não tinha ninguém da segurança.",
+            "reviewed": true
+        },
+        {
+            "index": 60,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 160.951,
+            "end": 162.841,
+            "duration": 1.890,
+            "text": "Não tinha ninguém junto ali.",
+            "reviewed": true
+        },
+        {
+            "index": 61,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 162.892,
+            "end": 162.976,
+            "duration": 0.084,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 62,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 162.976,
+            "end": 166.790,
+            "duration": 3.814,
+            "text": "Se foi o principal da limpeza que encontrou, eles sempre entregam.",
+            "reviewed": true
+        },
+        {
+            "index": 63,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 163.162,
+            "end": 163.955,
+            "duration": 0.793,
+            "text": "Só era eu.",
+            "reviewed": true
+        },
+        {
+            "index": 64,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 166.790,
+            "end": 167.735,
+            "duration": 0.945,
+            "text": "Então,",
+            "reviewed": true
+        },
+        {
+            "index": 65,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 167.650,
+            "end": 170.030,
+            "duration": 2.380,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 66,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 170.030,
+            "end": 172.527,
+            "duration": 2.497,
+            "text": "É que não teria nenhuma outra pessoa ali pra pegar.",
+            "reviewed": true
+        },
+        {
+            "index": 67,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 173.118,
+            "end": 182.112,
+            "duration": 8.994,
+            "text": "Porque quem estava junto comigo na fila e ele estava dentro do pouch, dentro do bolsinho que estava ali dentro, ninguém viu, ninguém, certeza que ninguém o pegou.",
+            "reviewed": true
+        },
+        {
+            "index": 68,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 182.652,
+            "end": 183.175,
+            "duration": 0.523,
+            "text": "Ahem.",
+            "reviewed": true
+        },
+        {
+            "index": 69,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 183.580,
+            "end": 184.913,
+            "duration": 1.333,
+            "text": "O aeroporto... [unclear]",
+            "reviewed": true
+        },
+        {
+            "index": 70,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 184.913,
+            "end": 185.555,
+            "duration": 0.642,
+            "text": "Por favor.",
+            "reviewed": true
+        },
+        {
+            "index": 71,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 184.930,
+            "end": 184.964,
+            "duration": 0.034,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 72,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 192.237,
+            "end": 192.828,
+            "duration": 0.591,
+            "text": "Sim!",
+            "reviewed": true
+        },
+        {
+            "index": 73,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 192.997,
+            "end": 193.030,
+            "duration": 0.033,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 74,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 193.233,
+            "end": 193.368,
+            "duration": 0.135,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 75,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 194.228,
+            "end": 194.802,
+            "duration": 0.574,
+            "text": "Obrigada.",
+            "reviewed": true
+        },
+        {
+            "index": 76,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 194.954,
+            "end": 195.038,
+            "duration": 0.084,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 77,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 195.089,
+            "end": 197.148,
+            "duration": 2.059,
+            "text": "Olá!",
+            "reviewed": true
+        },
+        {
+            "index": 78,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 195.477,
+            "end": 195.848,
+            "duration": 0.371,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 79,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 195.950,
+            "end": 196.321,
+            "duration": 0.371,
+            "text": "Olá!",
+            "reviewed": true
+        },
+        {
+            "index": 80,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 199.612,
+            "end": 200.776,
+            "duration": 1.164,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 81,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 210.580,
+            "end": 215.153,
+            "duration": 4.573,
+            "text": "É normal isso? De um funcionário xingar o cliente?",
+            "reviewed": true
+        },
+        {
+            "index": 82,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 216.689,
+            "end": 219.389,
+            "duration": 2.700,
+            "text": "Mandar tomar no cu e me chamar de imbecil.",
+            "reviewed": true
+        },
+        {
+            "index": 83,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 217.246,
+            "end": 217.735,
+            "duration": 0.489,
+            "text": "Mandando",
+            "reviewed": true
+        },
+        {
+            "index": 84,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 219.575,
+            "end": 224.840,
+            "duration": 5.265,
+            "text": "Falar que fala assim mesmo com todo mundo e que eu não vou ser nem o primeiro nem o último a fazer reclamação.",
+            "reviewed": true
+        },
+        {
+            "index": 85,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 219.811,
+            "end": 219.912,
+            "duration": 0.101,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 86,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 224.840,
+            "end": 228.029,
+            "duration": 3.189,
+            "text": "Mas foi, sabe?",
+            "reviewed": true
+        },
+        {
+            "index": 87,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 228.215,
+            "end": 228.552,
+            "duration": 0.337,
+            "text": "Hã?",
+            "reviewed": true
+        },
+        {
+            "index": 88,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 228.670,
+            "end": 230.628,
+            "duration": 1.958,
+            "text": "Foi comissário?",
+            "reviewed": true
+        },
+        {
+            "index": 89,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 230.628,
+            "end": 235.623,
+            "duration": 4.995,
+            "text": "Não, não foi atendente de quem estava tentando remarcar.",
+            "reviewed": true
+        },
+        {
+            "index": 90,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 236.517,
+            "end": 240.989,
+            "duration": 4.472,
+            "text": "Os voos e fazer...",
+            "reviewed": true
+        },
+        {
+            "index": 91,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 239.268,
+            "end": 239.538,
+            "duration": 0.270,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 92,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 241.310,
+            "end": 242.879,
+            "duration": 1.569,
+            "text": "Essa é a dúvida.",
+            "reviewed": true
+        },
+        {
+            "index": 93,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 244.685,
+            "end": 244.921,
+            "duration": 0.236,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 94,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 244.921,
+            "end": 244.938,
+            "duration": 0.017,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 95,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 244.938,
+            "end": 244.972,
+            "duration": 0.034,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 96,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 244.972,
+            "end": 245.765,
+            "duration": 0.793,
+            "text": "Olá!",
+            "reviewed": true
+        },
+        {
+            "index": 97,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 245.765,
+            "end": 246.035,
+            "duration": 0.270,
+            "text": "É...",
+            "reviewed": true
+        },
+        {
+            "index": 98,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 246.035,
+            "end": 247.098,
+            "duration": 1.063,
+            "text": "Preto se chamar?",
+            "reviewed": true
+        },
+        {
+            "index": 99,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 247.098,
+            "end": 247.874,
+            "duration": 0.776,
+            "text": "É preto, sim.",
+            "reviewed": true
+        },
+        {
+            "index": 100,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 247.874,
+            "end": 249.410,
+            "duration": 1.536,
+            "text": "[Unclear]",
+            "reviewed": true
+        },
+        {
+            "index": 101,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 249.680,
+            "end": 250.625,
+            "duration": 0.945,
+            "text": "Qual marca mesmo?",
+            "reviewed": true
+        },
+        {
+            "index": 102,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 250.591,
+            "end": 251.603,
+            "duration": 1.012,
+            "text": "É um... [Huawei model]",
+            "reviewed": true
+        },
+        {
+            "index": 103,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 252.717,
+            "end": 253.173,
+            "duration": 0.456,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 104,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 253.696,
+            "end": 255.822,
+            "duration": 2.126,
+            "text": "É com um H.",
+            "reviewed": true
+        },
+        {
+            "index": 105,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 255.839,
+            "end": 257.881,
+            "duration": 2.042,
+            "text": "Deixa eu achar que eu também não sei como escrever.",
+            "reviewed": true
+        },
+        {
+            "index": 106,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 257.797,
+            "end": 259.703,
+            "duration": 1.906,
+            "text": "H-U-W-A-I?",
+            "reviewed": true
+        },
+        {
+            "index": 107,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 259.737,
+            "end": 261.003,
+            "duration": 1.266,
+            "text": "E...",
+            "reviewed": true
+        },
+        {
+            "index": 108,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 261.357,
+            "end": 268.360,
+            "duration": 7.003,
+            "text": "Deixa eu ver aqui... pera, segura. ... aqui.",
+            "reviewed": true
+        },
+        {
+            "index": 109,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 269.052,
+            "end": 270.115,
+            "duration": 1.063,
+            "text": "Obrigado.",
+            "reviewed": true
+        },
+        {
+            "index": 110,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 270.723,
+            "end": 273.203,
+            "duration": 2.480,
+            "text": "Ai, peraí.",
+            "reviewed": true
+        },
+        {
+            "index": 111,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 274.334,
+            "end": 276.038,
+            "duration": 1.704,
+            "text": "A parte de trás está...",
+            "reviewed": true
+        },
+        {
+            "index": 112,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 276.055,
+            "end": 276.089,
+            "duration": 0.034,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 113,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 276.663,
+            "end": 279.633,
+            "duration": 2.970,
+            "text": "Não está riscado na frente, mas está riscado atrás.",
+            "reviewed": true
+        },
+        {
+            "index": 114,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 281.793,
+            "end": 282.063,
+            "duration": 0.270,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 115,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 282.755,
+            "end": 283.919,
+            "duration": 1.164,
+            "text": "Riscado atrás, né?",
+            "reviewed": true
+        },
+        {
+            "index": 116,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 284.138,
+            "end": 284.155,
+            "duration": 0.017,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 117,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 284.155,
+            "end": 285.083,
+            "duration": 0.928,
+            "text": "Deixa eu atravessar.",
+            "reviewed": true
+        },
+        {
+            "index": 118,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 288.543,
+            "end": 290.888,
+            "duration": 2.345,
+            "text": "Tchau, muito graças, amiga.",
+            "reviewed": true
+        },
+        {
+            "index": 119,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 289.336,
+            "end": 289.724,
+            "duration": 0.388,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 120,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 290.973,
+            "end": 291.327,
+            "duration": 0.354,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 121,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 291.968,
+            "end": 294.112,
+            "duration": 2.144,
+            "text": "[Unclear ASR error]",
+            "reviewed": true
+        },
+        {
+            "index": 122,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 294.432,
+            "end": 294.466,
+            "duration": 0.034,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 123,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 296.086,
+            "end": 297.638,
+            "duration": 1.552,
+            "text": "Já voltamos.",
+            "reviewed": true
+        },
+        {
+            "index": 124,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 298.583,
+            "end": 298.972,
+            "duration": 0.389,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 125,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 299.967,
+            "end": 300.187,
+            "duration": 0.220,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 126,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 300.659,
+            "end": 300.963,
+            "duration": 0.304,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 127,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 301.000,
+            "end": 304.000,
+            "duration": 3.000,
+            "text": "O nome do seu voo era o Eliá.",
+            "reviewed": true
+        },
+        {
+            "index": 128,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 304.000,
+            "end": 305.000,
+            "duration": 1.000,
+            "text": "Deixa eu encontrar de novo.",
+            "reviewed": true
+        },
+        {
+            "index": 129,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 305.000,
+            "end": 306.000,
+            "duration": 1.000,
+            "text": "E o assento também.",
+            "reviewed": true
+        },
+        {
+            "index": 130,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 306.000,
+            "end": 308.000,
+            "duration": 2.000,
+            "text": "LA-632",
+            "reviewed": true
+        },
+        {
+            "index": 131,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 308.000,
+            "end": 310.000,
+            "duration": 2.000,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 132,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 310.000,
+            "end": 312.000,
+            "duration": 2.000,
+            "text": "[Garbled audio]",
+            "reviewed": true
+        },
+        {
+            "index": 133,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 330.000,
+            "end": 332.000,
+            "duration": 2.000,
+            "text": "Tá, eu tava na 28C.",
+            "reviewed": true
+        },
+        {
+            "index": 134,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 332.000,
+            "end": 334.000,
+            "duration": 2.000,
+            "text": "Sim.",
+            "reviewed": true
+        },
+        {
+            "index": 135,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 333.000,
+            "end": 339.000,
+            "duration": 6.000,
+            "text": "Sim, eu estava na 28C, com o gato.",
+            "reviewed": true
+        },
+        {
+            "index": 136,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 340.000,
+            "end": 341.000,
+            "duration": 1.000,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 137,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 341.000,
+            "end": 342.000,
+            "duration": 1.000,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 138,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 340.000,
+            "end": 341.000,
+            "duration": 1.000,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 139,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 341.000,
+            "end": 342.000,
+            "duration": 1.000,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 140,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 341.000,
+            "end": 343.000,
+            "duration": 2.000,
+            "text": "Era só eu que estava na 28C com o gato.",
+            "reviewed": true
+        },
+        {
+            "index": 141,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 345.000,
+            "end": 347.000,
+            "duration": 2.000,
+            "text": "[Unclear]",
+            "reviewed": true
+        },
+        {
+            "index": 142,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 347.000,
+            "end": 349.000,
+            "duration": 2.000,
+            "text": "Mais... cinco, seis, nove.",
+            "reviewed": true
+        },
+        {
+            "index": 143,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 349.000,
+            "end": 352.000,
+            "duration": 3.000,
+            "text": "Mas, 5, 6, 9, 9, 4,",
+            "reviewed": true
+        },
+        {
+            "index": 144,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 351.000,
+            "end": 353.000,
+            "duration": 2.000,
+            "text": "9466",
+            "reviewed": true
+        },
+        {
+            "index": 145,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 353.000,
+            "end": 355.000,
+            "duration": 2.000,
+            "text": "9-4-6-6?",
+            "reviewed": true
+        },
+        {
+            "index": 146,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 355.000,
+            "end": 356.000,
+            "duration": 1.000,
+            "text": "Sim.",
+            "reviewed": true
+        },
+        {
+            "index": 147,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 356.000,
+            "end": 357.000,
+            "duration": 1.000,
+            "text": "Uhum.",
+            "reviewed": true
+        },
+        {
+            "index": 148,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 357.000,
+            "end": 358.000,
+            "duration": 1.000,
+            "text": "18 20.",
+            "reviewed": true
+        },
+        {
+            "index": 149,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 362.000,
+            "end": 364.000,
+            "duration": 2.000,
+            "text": "Tem algum outro telefone?",
+            "reviewed": true
+        },
+        {
+            "index": 150,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 364.000,
+            "end": 366.000,
+            "duration": 2.000,
+            "text": "Sim, o que está dentro do avião.",
+            "reviewed": true
+        },
+        {
+            "index": 151,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 367.000,
+            "end": 368.000,
+            "duration": 1.000,
+            "text": "LATAM",
+            "reviewed": true
+        },
+        {
+            "index": 152,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 368.000,
+            "end": 369.000,
+            "duration": 1.000,
+            "text": "É.",
+            "reviewed": true
+        },
+        {
+            "index": 153,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 368.000,
+            "end": 369.000,
+            "duration": 1.000,
+            "text": "Qual é mesmo?",
+            "reviewed": true
+        },
+        {
+            "index": 154,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 369.000,
+            "end": 374.000,
+            "duration": 5.000,
+            "text": "Disconzi, que é o meu sobrenome, fica mais fácil.",
+            "reviewed": true
+        },
+        {
+            "index": 155,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 375.000,
+            "end": 376.000,
+            "duration": 1.000,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 156,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 380.000,
+            "end": 381.000,
+            "duration": 1.000,
+            "text": "[Garbled audio]",
+            "reviewed": true
+        },
+        {
+            "index": 157,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 381.000,
+            "end": 385.000,
+            "duration": 4.000,
+            "text": "Eu já vou te passar aqui para não ter risco de...",
+            "reviewed": true
+        },
+        {
+            "index": 158,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 385.000,
+            "end": 387.000,
+            "duration": 2.000,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 159,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 386.000,
+            "end": 388.000,
+            "duration": 2.000,
+            "text": "É isso aí galera.",
+            "reviewed": true
+        },
+        {
+            "index": 160,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 388.000,
+            "end": 390.000,
+            "duration": 2.000,
+            "text": "É isso aí.",
+            "reviewed": true
+        },
+        {
+            "index": 161,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 390.000,
+            "end": 393.000,
+            "duration": 3.000,
+            "text": "Tchau, tchau! Bom descanso!",
+            "reviewed": true
+        },
+        {
+            "index": 162,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 394.000,
+            "end": 396.000,
+            "duration": 2.000,
+            "text": "Esse é o exemplo.",
+            "reviewed": true
+        },
+        {
+            "index": 163,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 403.000,
+            "end": 405.000,
+            "duration": 2.000,
+            "text": "Não é isso!",
+            "reviewed": true
+        },
+        {
+            "index": 164,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 405.000,
+            "end": 407.000,
+            "duration": 2.000,
+            "text": "A capa do... [unclear]",
+            "reviewed": true
+        },
+        {
+            "index": 165,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 408.000,
+            "end": 410.000,
+            "duration": 2.000,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 166,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 412.000,
+            "end": 414.000,
+            "duration": 2.000,
+            "text": "Certo, Leandro, já deixei aqui.",
+            "reviewed": true
+        },
+        {
+            "index": 167,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 417.000,
+            "end": 422.000,
+            "duration": 5.000,
+            "text": "Caso eles entrem em contato com a gente, a gente entra em contato com o senhor.",
+            "reviewed": true
+        },
+        {
+            "index": 168,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 422.000,
+            "end": 427.000,
+            "duration": 5.000,
+            "text": "Tá, e caso não entre em contato, simplesmente eu dou como perdido?",
+            "reviewed": true
+        },
+        {
+            "index": 169,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 427.000,
+            "end": 432.000,
+            "duration": 5.000,
+            "text": "Aí eu vou te passar um e-mail para onde você também pode estar encaminhando.",
+            "reviewed": true
+        },
+        {
+            "index": 170,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 432.000,
+            "end": 441.000,
+            "duration": 9.000,
+            "text": "Isso se não encontrarem vai ser só um agravante em cima do processo, porque já tem um bocado de coisa.",
+            "reviewed": true
+        },
+        {
+            "index": 171,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 447.000,
+            "end": 450.000,
+            "duration": 3.000,
+            "text": "É incrível, incrível. Me xingou inteiro.",
+            "reviewed": true
+        },
+        {
+            "index": 172,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 450.000,
+            "end": 452.000,
+            "duration": 2.000,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 173,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 452.000,
+            "end": 453.000,
+            "duration": 1.000,
+            "text": "[Unclear]",
+            "reviewed": true
+        },
+        {
+            "index": 174,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 453.000,
+            "end": 455.000,
+            "duration": 2.000,
+            "text": "Incrível que me xingou inteiro.",
+            "reviewed": true
+        },
+        {
+            "index": 175,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 460.000,
+            "end": 463.000,
+            "duration": 3.000,
+            "text": "Obrigado.",
+            "reviewed": true
+        },
+        {
+            "index": 176,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 461.000,
+            "end": 462.000,
+            "duration": 1.000,
+            "text": "Obrigado.",
+            "reviewed": true
+        },
+        {
+            "index": 177,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 462.000,
+            "end": 464.000,
+            "duration": 2.000,
+            "text": "Muito obrigada.",
+            "reviewed": true
+        },
+        {
+            "index": 178,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 466.000,
+            "end": 468.000,
+            "duration": 2.000,
+            "text": "É a educação que...",
+            "reviewed": true
+        },
+        {
+            "index": 179,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 468.000,
+            "end": 469.000,
+            "duration": 1.000,
+            "text": "Olha!",
+            "reviewed": true
+        },
+        {
+            "index": 180,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 470.000,
+            "end": 474.000,
+            "duration": 4.000,
+            "text": "Depois que a pessoa já perdeu um voo,",
+            "reviewed": true
+        },
+        {
+            "index": 181,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 474.000,
+            "end": 478.000,
+            "duration": 4.000,
+            "text": "Por culpa da airline, por culpa deles,",
+            "reviewed": true
+        },
+        {
+            "index": 182,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 478.000,
+            "end": 478.000,
+            "duration": 0.000,
+            "text": "Uhum.",
+            "reviewed": true
+        },
+        {
+            "index": 183,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 479.000,
+            "end": 486.000,
+            "duration": 7.000,
+            "text": "Eu cheguei, não quiseram colocar, fazer o check-in da minha mala. Mandaram eu ir direto com a mala. Na minha mala tinha uma faca.",
+            "reviewed": true
+        },
+        {
+            "index": 184,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 487.000,
+            "end": 491.000,
+            "duration": 4.000,
+            "text": "Na hora que fui passar no raio-x, a polícia me tomou a faca.",
+            "reviewed": true
+        },
+        {
+            "index": 185,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 492.000,
+            "end": 494.000,
+            "duration": 2.000,
+            "text": "Falando que era bagagem de mão, eu falei que não era bagagem de mão.",
+            "reviewed": true
+        },
+        {
+            "index": 186,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 495.000,
+            "end": 504.000,
+            "duration": 9.000,
+            "text": "Não me tomaram a faca, e eu saí correndo para ir pegar o voo. Cheguei lá, o voo saía às 23h05, eu cheguei lá no portão às 23h.",
+            "reviewed": true
+        },
+        {
+            "index": 187,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 504.000,
+            "end": 506.000,
+            "duration": 2.000,
+            "text": "E o avião já estava fechado.",
+            "reviewed": true
+        },
+        {
+            "index": 188,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 508.000,
+            "end": 514.000,
+            "duration": 6.000,
+            "text": "Vai juntando tudo isso, chega e olha o que eu faço, olha, você vai ter que ir numa fila ali agora.",
+            "reviewed": true
+        },
+        {
+            "index": 189,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 514.000,
+            "end": 517.000,
+            "duration": 3.000,
+            "text": "Essa fila demorou três horas e meia.",
+            "reviewed": true
+        },
+        {
+            "index": 190,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 519.000,
+            "end": 524.000,
+            "duration": 5.000,
+            "text": "E queriam me dar, às duas e pouco da manhã, quase três da manhã, queriam me dar um hotel fora de Guarulhos.",
+            "reviewed": true
+        },
+        {
+            "index": 191,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 526.000,
+            "end": 528.000,
+            "duration": 2.000,
+            "text": "É tudo muito...",
+            "reviewed": true
+        },
+        {
+            "index": 192,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 528.000,
+            "end": 530.000,
+            "duration": 2.000,
+            "text": "Ilógico. É tudo muito ilógico.",
+            "reviewed": true
+        },
+        {
+            "index": 193,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 531.000,
+            "end": 535.000,
+            "duration": 4.000,
+            "text": "É tudo muito ilógico, como se a gente estivesse fazendo um favor, mas na verdade está sendo pago.",
+            "reviewed": true
+        },
+        {
+            "index": 194,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 536.000,
+            "end": 539.000,
+            "duration": 3.000,
+            "text": "E eu tenho uma gata que já está em estresse.",
+            "reviewed": true
+        },
+        {
+            "index": 195,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 540.000,
+            "end": 541.000,
+            "duration": 1.000,
+            "text": "E agora?",
+            "reviewed": true
+        },
+        {
+            "index": 196,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 542.000,
+            "end": 543.000,
+            "duration": 1.000,
+            "text": "Mais tempo ainda.",
+            "reviewed": true
+        },
+        {
+            "index": 197,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 544.000,
+            "end": 545.000,
+            "duration": 1.000,
+            "text": "Eu sem dormir.",
+            "reviewed": true
+        },
+        {
+            "index": 198,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 546.000,
+            "end": 553.000,
+            "duration": 7.000,
+            "text": "Tudo bacana, é tudo bacana, e mais ainda, a LATAM cagou lá em Santiago também.",
+            "reviewed": true
+        },
+        {
+            "index": 199,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 554.000,
+            "end": 557.000,
+            "duration": 3.000,
+            "text": "Porque lá em Santiago eu tinha feito o booking,",
+            "reviewed": true
+        },
+        {
+            "index": 200,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 557.000,
+            "end": 562.000,
+            "duration": 5.000,
+            "text": "Eu fiz o booking do serviço adicional que era para levar o meu gato, que é um pouco maior.",
+            "reviewed": true
+        },
+        {
+            "index": 201,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 563.000,
+            "end": 564.000,
+            "duration": 1.000,
+            "text": "No porão,",
+            "reviewed": true
+        },
+        {
+            "index": 202,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 565.000,
+            "end": 569.000,
+            "duration": 4.000,
+            "text": "Eu passei as dimensões, eu passei o peso, eu paguei.",
+            "reviewed": true
+        },
+        {
+            "index": 203,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 570.000,
+            "end": 573.000,
+            "duration": 3.000,
+            "text": "Eu cheguei no aeroporto.",
+            "reviewed": true
+        },
+        {
+            "index": 204,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 573.000,
+            "end": 576.000,
+            "duration": 3.000,
+            "text": "Porque a minha caixa era de madeira,",
+            "reviewed": true
+        },
+        {
+            "index": 205,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 577.000,
+            "end": 580.000,
+            "duration": 3.000,
+            "text": "Não deixaram, porque ela deveria ser de plástico.",
+            "reviewed": true
+        },
+        {
+            "index": 206,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 581.000,
+            "end": 589.000,
+            "duration": 8.000,
+            "text": "E essa caixa foi feita pra British Airways, e esses gatos voaram nessa caixa por 14 horas de Londres a Santiago.",
+            "reviewed": true
+        },
+        {
+            "index": 207,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 591.000,
+            "end": 600.000,
+            "duration": 9.000,
+            "text": "Então assim, vai juntando tudo isso, fica bacana, fica bacana, fica bacana, que eu vou enfiar a mão na LATAM.",
+            "reviewed": true
+        },
+        {
+            "index": 208,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 594.000,
+            "end": 595.000,
+            "duration": 1.000,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 209,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 595.000,
+            "end": 595.000,
+            "duration": 0.000,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 210,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 603.000,
+            "end": 604.000,
+            "duration": 1.000,
+            "text": "Que raiva!",
+            "reviewed": true
+        },
+        {
+            "index": 211,
+            "speaker": "Passenger (Leandro Disconzi)",
+            "start": 604.000,
+            "end": 607.000,
+            "duration": 3.000,
+            "text": "Que falta de consideração com as pessoas.",
+            "reviewed": true
+        },
+        {
+            "index": 212,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 608.000,
+            "end": 608.000,
+            "duration": 0.000,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        },
+        {
+            "index": 213,
+            "speaker": "LATAM Customer Service (Female)",
+            "start": 608.000,
+            "end": 608.000,
+            "duration": 0.000,
+            "text": "[Silence/Artifact]",
+            "reviewed": true
+        }
+    ]
+}

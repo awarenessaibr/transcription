@@ -1,0 +1,122 @@
+{
+  "transcript_id": "I-002_05B_NAR-11_STG_11_waiting_area",
+  "source_file": "Aeropuerto Arturo Merino Benítez 11.m4a",
+  "source_path": "transcription/data/audio/Aeropuerto Arturo Merino Benítez 11.m4a",
+  "language": "pt",
+  "timestamp": "2024-07-05T15:44:20-04:00",
+  "provider": "local",
+  "original_transcript_id": null,
+  "metadata": {
+    "audio_properties": {
+      "duration": "00:00:25.088",
+      "preferred_volume": "1",
+      "sample_rate": 48000,
+      "channels": 1
+    },
+    "file_info": {
+      "file_name": "Aeropuerto Arturo Merino Benítez 11.m4a",
+      "file_size": 217097,
+      "file_size_kb": 212.01,
+      "content_type": "audio/mp4",
+      "major_brand": "M4A",
+      "compatible_brands": [
+        "M4A",
+        "isom",
+        "mp42"
+      ],
+      "encoder": "com.apple.VoiceMemos (iPhone Version 18.5 (Build 22F76))",
+      "voice_memo_uuid": "EF49D012-E4E5-4546-B97C-0846CE3AD1C5"
+    },
+    "ontology_node_id": "",
+    "ontology_schema_version": "2.5",
+    "processed_audio_file": "Aeropuerto Arturo Merino Benítez 11.m4a",
+    "saved_audio_file": "Aeropuerto Arturo Merino Benítez 11.m4a",
+    "timestamps": {
+      "QuickTime_Movie_Header_Created_verified": "2024-07-05T19:44:20.000000Z"
+    }
+  },
+  "title": "5th July 2024 @ 3:44pm - Waiting Area / Information Request",
+  "subtitle": "Waiting Area — Passenger Remains in Terminal",
+  "recording_datetime": "2024-07-05T15:44:20-04:00",
+  "location": "Arturo Merino Benítez International Airport (SCL), Santiago, Chile",
+  "audio_id": "aeropuerto_STG_11",
+  "case_id": "I-002",
+  "narrative_id": "NAR-11_STG_11_waiting_area",
+  "chronological_order": 6,
+  "prior_stage": "I-002_05_NAR-07_STG_7_post_removal_investigation",
+  "next_stage": "I-002_06_NAR-STG_8_pdi_identity_control",
+  "classification": "Attorney Work Product — Privileged and Confidential",
+  "participants": [
+    {
+      "canonical_name": "Leandro Disconzi",
+      "role": "Passenger",
+      "speaker_label": "Passenger (Leandro Disconzi)",
+      "speaker_id": "SPK-passenger-leandro",
+      "segment_labels": [
+        "passenger"
+      ]
+    }
+  ],
+  "violations_cited": [],
+  "tags": [
+    "transcript",
+    "narrative",
+    "evidence",
+    "waiting-area",
+    "information-request"
+  ],
+  "forensic_clusters": {},
+  "key_evidentiary_findings": [],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 0,
+      "speaker": "passenger",
+      "start": 0.87471875,
+      "end": 1.81971875,
+      "duration": 0.945,
+      "text": " Bom, já são 15 para as 4.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "2024-07-05T15:40:00.874"
+    },
+    {
+      "index": 1,
+      "speaker": "passenger",
+      "start": 3.0178437500000004,
+      "end": 4.6040937500000005,
+      "duration": 1.586,
+      "text": " Eu tô sentado esperando pra S..",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "2024-07-05T15:40:03.017"
+    },
+    {
+      "index": 2,
+      "speaker": "passenger",
+      "start": 9.008468750000002,
+      "end": 11.067218750000002,
+      "duration": 2.059,
+      "text": " Peço informação pra alguém e ninguém sabe.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "2024-07-05T15:40:09.008"
+    },
+    {
+      "index": 3,
+      "speaker": "background_audio",
+      "start": 13.480343750000003,
+      "end": 17.51346875,
+      "duration": 4.033,
+      "text": "sirens",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "2024-07-05T15:40:13.480"
+    }
+  ],
+  "reviewed": false
+}

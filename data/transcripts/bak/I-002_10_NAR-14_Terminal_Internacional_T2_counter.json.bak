@@ -1,0 +1,2305 @@
+{
+  "transcript_id": "I-002_10_NAR-14_Terminal_Internacional_T2_counter",
+  "source_file": "Terminal_Internacional_T2.m4a",
+  "language": "es",
+  "timestamp": "2024-07-05T17:46:00",
+  "provider": "unknown",
+  "original_transcript_id": "I-002_10_NAR-14_Terminal_Internacional_T2_counter",
+  "metadata": {
+    "timestamps": {
+      "QuickTime_Movie_Header_Created": "",
+      "QuickTime_Movie_Header_Preview_Time": "0",
+      "QuickTime_Movie_Header_Poster_Time": "0",
+      "QuickTime_Movie_Header_Selection_Time": "0",
+      "QuickTime_Movie_Header_Current_Time": "0"
+    },
+    "audio_properties": {
+      "duration": "00:42:44.000",
+      "track_id": "",
+      "preferred_volume": "1"
+    },
+    "file_info": {
+      "file_size": "28882488 bytes",
+      "file_size_kb": "28205.55 KB",
+      "major_brand": "M4A",
+      "content_type": "audio/mp4",
+      "file_name": "Terminal_Internacional_T2.m4a"
+    }
+  },
+  "title": "Terminal Internacional T2 — FINAL v2",
+  "subtitle": "LATAM Counter — Systemic Denial & 'Passa Diario' Admission",
+  "recording_datetime": "2024-07-05T17:46:00",
+  "location": "Arturo Merino Benítez International Airport (SCL) — Terminal 2 (T2), LATAM Check-In Counter, airside",
+  "audio_id": "Terminal_Internacional_T2",
+  "case_id": "I-002",
+  "narrative_id": "NAR-14_Terminal_Internacional_T2_counter",
+  "chronological_order": 12,
+  "prior_stage": "I-002_10A_NAR-19_STG_19_counter_escalation",
+  "next_stage": "I-002_10B_NAR-18_STG_18_counter_fragment",
+  "classification": "Attorney Work Product — Privileged and Confidential",
+  "participants": [
+    {
+      "canonical_name": "Leandro Disconzi",
+      "role": "Passenger",
+      "speaker_label": "Passenger (Leandro Disconzi)",
+      "speaker_id": "SPK-passenger-leandro"
+    },
+    {
+      "canonical_name": "DGAC - Don Nicolas (NAR-14_Terminal_Internacional_T2_counter)",
+      "role": "DGAC Official",
+      "speaker_label": "DGAC - Don Nicolas",
+      "speaker_id": "SPK-dgac-don-nicolas-nar-14-terminal-internacional-t2-counter"
+    },
+    {
+      "canonical_name": "Latam Staff Counter (NAR-14_Terminal_Internacional_T2_counter)",
+      "role": "LATAM Counter Staff (Male 1)",
+      "speaker_label": "Latam Staff Counter",
+      "speaker_id": "SPK-latam-staff-counter-nar-14-terminal-internacional-t2-counter"
+    },
+    {
+      "canonical_name": "Latam Staff Counter 2 (NAR-14_Terminal_Internacional_T2_counter)",
+      "role": "LATAM Counter Staff (Male 2)",
+      "speaker_label": "Latam Staff Counter 2",
+      "speaker_id": "SPK-latam-staff-counter-2-nar-14-terminal-internacional-t2-counter"
+    },
+    {
+      "canonical_name": "Latam Staff Counter Female (NAR-14_Terminal_Internacional_T2_counter)",
+      "role": "LATAM Counter Staff (Female)",
+      "speaker_label": "Latam Staff Counter Female",
+      "speaker_id": "SPK-latam-staff-counter-female-nar-14-terminal-internacional-t2-counter"
+    }
+  ],
+  "violations_cited": [
+    "CL-038",
+    "CL-018",
+    "CL-037",
+    "CL-011",
+    "CL-007",
+    "CL-001",
+    "CL-035",
+    "CL-016",
+    "PATTERN-OF-FAILURE",
+    "WRONGFUL-USE-OF-INTERNAL-CHANNEL",
+    "EVIDENCE-PRESERVATION-DUTY",
+    "TOTAL-SERVICE-BLOCK"
+  ],
+  "tags": [
+    "transcript",
+    "narrative",
+    "evidence",
+    "counter",
+    "systemic-denial",
+    "passa-diario",
+    "disruptivo-label",
+    "no-existe",
+    "DGAC"
+  ],
+  "forensic_clusters": {
+    "cluster_A_dgac_validation": {
+      "segments": [
+        "0-22"
+      ],
+      "summary": "DGAC official Nicolás validates passenger's rights: the airline must solve the problem, rebook at no cost, and the passenger has sufficient evidence for a complaint. Nicolás acknowledges the passenger's account ('yo te entiendo completamente') but explains DGAC cannot provide written documentation, setting the stage for LATAM's refusal.",
+      "reasoning": "Nicolás, a DGAC official, independently confirms key points: 'ellos te tienen que solucionar el problema', 'ellos te lo tienen que reprogramar', and 'tú tienes todos los antecedentes que necesitas como para hacer un reclamo.' He explicitly states he does not dispute the passenger's version ('Si! yo no le pongo en discussion'). However, he disclaims DGAC's ability to issue documentation: 'nosotros no te lo vamos a poder dar porque no es como materia competente de nosotros.' This establishes the documentary vacuum — no institution at the airport will provide written documentation. Nicolás gives his name, making him a potential witness.",
+      "provisions_engaged": [
+        "CACH Art. 133 (carrier obligations)",
+        "LPDC Art. 23 bis (written notice — foreshadowing violation)"
+      ],
+      "violation_linkage": "Establishes baseline: DGAC validates passenger's rights but cannot enforce documentation, creating the vacuum later exploited by LATAM."
+    },
+    "cluster_B_disruptivo_label_first_refusal": {
+      "segments": [
+        "49-74"
+      ],
+      "summary": "LATAM counter staff inform passenger he has been classified as 'pasajero disruptivo' in the system, a label applied despite PDI camera disproof. The label forecloses all normal counter services and triggers the first security threat when the passenger persists.",
+      "reasoning": "Staff state: 'La compania ya te categorizo como pasagero disruptivo, no va a poder a embarcar com nosotro.' This label is self-executing: once applied, no verification of underlying facts occurs. The passenger had just presented evidence that both accusations were disproven by cameras, yet the label remains. When the passenger presses for written documentation, the staff respond with 'llamo la seguridad para que usted hable con ellos,' initiating a pattern of security threats used to deter rights assertion.",
+      "provisions_engaged": [
+        "CONST Art. 19 N°4 (honor damaged by false label)",
+        "Ley 20.609 (arbitrary discrimination)",
+        "LPDC Art. 3(1)(b) (no arbitrary discrimination)",
+        "CACH Art. 133 (carrier obligations undermined by classification)"
+      ],
+      "violation_linkage": "F-T2-011 (disruptivo classification without verification), CL-001 (false accusation), CL-035 (discrimination), pattern of security threats."
+    },
+    "cluster_C_no_existe_documentary_denial": {
+      "segments": [
+        "75-86"
+      ],
+      "summary": "CRITICAL: LATAM staff categorically state that written documentation does not exist at the airport: 'QUE ALGO POR ESCRITO NO EXISTE… ACA EN EL AEROPUERTO NO SE ENTREGA.' The only path offered is to demand through the airline's lawyers.",
+      "reasoning": "This is the core documentary admission. Staff explicitly declare: 'QUE ALGO POR ESCRITO NO EXISTE… NO EXISTE.. ACA EN EL AEROPUERTO NO SE ENTREGA.' When the passenger asks how to obtain it, the response is 'LO TIENE QUE PEDIR A LOS ABOGADOS DE LA EMPRESA' — an impossible circular requirement. This is a categorical institutional policy: no passenger removed from a flight will ever receive written documentation at SCL airport, directly violating mandatory written notice requirements under LPDC Art. 23 bis. The 'NO EXISTE' assertion is later contradicted (see cluster H) when staff admit the security chief can produce a 'comprobante,' confirming documentation exists but is systematically withheld.",
+      "provisions_engaged": [
+        "LPDC Art. 23 bis (mandatory written notice — direct breach)",
+        "LPDC Art. 3(1)(d) (right to truthful and timely information)",
+        "LPDC Art. 12 (professionalism — categorical refusal)",
+        "CACH Art. 133(1) (documentation presupposed by statutory scheme)",
+        "CONST Art. 19 N°3 (due process negated by documentary vacuum)"
+      ],
+      "violation_linkage": "F-T2-001 (systemic admission of 'NO EXISTE' as corporate policy), CL-038 (LPDC Art. 23 bis breach), CL-018 (institutionalized evasion), CL-037 (professionalism), CL-011 (due process)."
+    },
+    "cluster_D_total_blockade_security_threats": {
+      "segments": [
+        "87-116",
+        "144-155"
+      ],
+      "summary": "LATAM staff impose a total service blockade, declaring that no employee will assist the passenger and that he can only speak with security ('solamente puede hablar CON SEGURIDAD'). Three security threats are issued when the passenger persists in requesting documentation.",
+      "reasoning": "After the 'NO EXISTE' denial, the staff systematically block all channels: 'acá no te puedo ayudar,' 'lo que tú estás pidiendo no corresponde — no se emite de ninguna manera.' When the passenger continues, the staff escalate to a full blockade: 'ya nadie va a poder hacer una gestión contigo, solamente puede hablar CON SEGURIDAD.' The pattern of security threats (segs 72, 87, 109) demonstrates that the institutional response to rights assertion is intimidation, not service. The passenger is effectively excluded from all normal commercial channels.",
+      "provisions_engaged": [
+        "LPDC Art. 3(1)(b) (no arbitrary discrimination — exclusion from service)",
+        "Ley 20.609 (exclusion from public accommodation)",
+        "CONST Art. 19 N°3 (exclusion without due process)",
+        "CACH Art. 133 (carrier duties converted to exclusion)"
+      ],
+      "violation_linkage": "F-T2-005 (total service block), F-T2-010 (security threat pattern), CL-035, CL-018, CL-011, TOTAL-SERVICE-BLOCK."
+    },
+    "cluster_E_facts_irrelevant_no_se_va_discutir": {
+      "segments": [
+        "122-143"
+      ],
+      "summary": "LATAM staff declare that whether the accusations were true or false is irrelevant and will not be discussed ('No se va discutir si tu fuiste o no'). Staff admit the company has no solutions for passengers labeled 'disruptivo' ('La empresa no tiene ninguna solución para casos cuando el pasajero queda como disruptivo'). Staff also exhibit the personal/institutional split: 'Como persona yo te entiendo... pero.'",
+      "reasoning": "This cluster reveals the procedural DNA of the system. The staff explicitly state: 'No se va discutir si tu fuiste o no lo hicieste' — the truth is excluded from the procedural framework. The passenger's protest that both accusations were disproven by PDI cameras is met with 'no se va a estar discutiendo.' Additionally, staff admit 'La empresa no tiene ninguna solución para casos cuando el pasajero queda como disruptivo' — there is zero corrective mechanism by design. The statement 'Como persona yo te entiendo... pero' encapsulates the bureaucratic alienation: personal empathy exists but cannot be translated into institutional action.",
+      "provisions_engaged": [
+        "CONST Art. 19 N°3 (due process — right to be heard)",
+        "CONST Art. 19 N°14 (right to petition)",
+        "ACHR Art. 8 (right to be heard)",
+        "ACHR Art. 25 (simple and prompt recourse)",
+        "CACH Art. 133 (lawful process requires factual determination)",
+        "LPDC Art. 12 (professionalism negated by 'no se va discutir')"
+      ],
+      "violation_linkage": "F-T2-002 (facts irrelevant), F-T2-004 (no solutions admission), CL-011, CL-007, CL-018, PATTERN-OF-FAILURE."
+    },
+    "cluster_F_passa_diario_daily_pattern": {
+      "segments": [
+        "170-179"
+      ],
+      "summary": "LATAM staff reveal the systemic scale: 'Passa diario, y siempre la línea aérea va a tener... de ganar aca con la policia' — this happens daily and the airline always wins with the police. Staff then contradict earlier denials by admitting the security chief can produce a 'comprobante.'",
+      "reasoning": "This is the climactic admission. 'Passa diario' transforms the case from an isolated incident into a daily industrial process. 'Siempre la línea aérea va a tener... de ganar aca con la policia' indicates a structural alliance between the airline and airport police that guarantees outcomes favorable to the airline. The passenger notes that his case is an exception: 'la policía ya sabe de mi caso, la policía ya está de acuerdo.' Finally, the staff's admission that 'el jefe de seguridad te lo puede conseguir' (the security chief can provide a 'comprobante') directly contradicts the earlier 'NO EXISTE' claim, revealing that documentation does exist but is funneled through security channels inaccessible to passengers.",
+      "provisions_engaged": [
+        "CONST Art. 19 N°2 (equality before the law — structural imbalance)",
+        "CONST Art. 19 N°3 (systematic due process denial)",
+        "ACHR Art. 8, 25 (systematic denial of judicial protection)",
+        "LPDC Art. 23 bis (daily statutory violations)",
+        "CACH Art. 133 (systematic aviation law violations)",
+        "MC99 (systematic circumvention of carrier liability)"
+      ],
+      "violation_linkage": "F-T2-003 (passa diario admission), F-T2-009 (security documentation channel), CL-018, PATTERN-OF-FAILURE, CL-038, CL-011, CL-016."
+    },
+    "cluster_G_female_aggression": {
+      "segments": [
+        "113-121"
+      ],
+      "summary": "A female LATAM counter staff member interjects with aggressive dismissal: 'Oii!!', 'ACA NOS DAMOS PAPELES!' — embodying institutional contempt and confirming the policy of zero written documentation.",
+      "reasoning": "The female staff member's intervention is qualitatively different from the male staff's bureaucratic demeanor. She shouts 'Oii!!' as a dismissive exclamation and aggressively declares 'ACA NOS DAMOS PAPELES!' — 'WE DON'T GIVE PAPERS HERE!' This is not a jurisdictional limitation but an aggressive assertion of institutional policy. The passenger's response — '¿Cómo no? Es una empresa seria' — highlights the contradiction: a serious company would provide documentation.",
+      "provisions_engaged": [
+        "LPDC Art. 12 (professionalism — aggressive treatment)",
+        "Ley 20.609 (discriminatory contempt)",
+        "CONST Art. 19 N°4 (damage to dignity)"
+      ],
+      "violation_linkage": "F-T2-007 (female aggression), CL-037, CL-035."
+    },
+    "cluster_H_chain_of_command_security_channel": {
+      "segments": [
+        "156-170",
+        "178-179"
+      ],
+      "summary": "Staff reveal they 'siguen instrucciones' (follow instructions) from above, diffusing individual responsibility. They advise the passenger that pursuing the matter at the airport will go badly ('acá te va a ir mal') and finally admit that the security chief can provide a document, confirming that documentation exists but is withheld from passengers.",
+      "reasoning": "Staff state 'Nosotros seguimos instrucciones' — indicating the blockade is corporate policy, not individual discretion. The advice 'acá te va a ir mal' is both a threat and a confession that the system is rigged. The final admission that 'el jefe de seguridad te lo puede conseguir' reveals a two-tier documentation system: security can access documents that passengers cannot. This is the same irregular channel used later by supervisor Diego to fabricate the 'carta de desembarque' via Ventas (STG_29).",
+      "provisions_engaged": [
+        "CONST Art. 19 N°3 (chain of command negates individual accountability)",
+        "CACH Art. 133 (individualized assessment required)",
+        "LPDC Art. 12 (professionalism negated by 'instrucciones')",
+        "MC99 (liability circumvention via institutional design)"
+      ],
+      "violation_linkage": "F-T2-009 (chain of command and security channel), CL-018, CL-016, INSTRUCTION-FOLLOWING, WRONGFUL-USE-OF-INTERNAL-CHANNEL."
+    }
+  },
+  "key_evidentiary_findings": [
+    {
+      "id": "T2-1",
+      "finding": "LATAM staff admit no written documentation exists: 'ALGO POR ESCRITO NO EXISTE… ACA EN EL AEROPUERTO.' Systematic absence of written records for removal decisions.",
+      "strength": "Critical",
+      "cross_reference": "F-T2-001, STG_13 ('No hai nada por escrito'), STG_16 ('No existe ese documento')"
+    },
+    {
+      "id": "T2-2",
+      "finding": "LATAM staff label passenger 'disruptivo' to foreclose all remedies/counter services. Label applied despite PDI disproof.",
+      "strength": "Critical",
+      "cross_reference": "F-T2-011, STG_7 seg 57-61 (PDI discussed 'pasajero disruptivo' classification)"
+    },
+    {
+      "id": "T2-3",
+      "finding": "LATAM staff admit this happens daily: 'passa diario' — this is routine, not exceptional, and 'siempre la línea aérea va a tener … de ganar aca con la policia.'",
+      "strength": "Critical",
+      "cross_reference": "F-T2-003"
+    },
+    {
+      "id": "T2-4",
+      "finding": "DGAC agent Don Nicolas intervenes, providing regulatory context: validates passenger's rights, confirms LATAM must rebook at no cost, acknowledges passenger has evidence.",
+      "strength": "High",
+      "cross_reference": "F-T2-006"
+    },
+    {
+      "id": "T2-5",
+      "finding": "'PUEDE QUE SEA FALSA PERO' — LATAM staff acknowledge the accusation might be false yet enforce the ban regardless.",
+      "strength": "Critical",
+      "cross_reference": "F-003, STG_7 (camera disproof)"
+    },
+    {
+      "id": "T2-6",
+      "finding": "'No se va discutir si tu fuiste o no' — Facts are declared irrelevant; the truth of the accusation will not be discussed.",
+      "strength": "Critical",
+      "cross_reference": "F-T2-002"
+    },
+    {
+      "id": "T2-7",
+      "finding": "'La empresa no tiene ninguna solución para casos cuando el pasajero queda como disruptivo' — the system has zero remedies by design.",
+      "strength": "Critical",
+      "cross_reference": "F-T2-004"
+    },
+    {
+      "id": "T2-8",
+      "finding": "Total service block imposed: 'solamente puede hablar CON SEGURIDAD.' Passenger excluded from all normal channels.",
+      "strength": "High",
+      "cross_reference": "F-T2-005"
+    },
+    {
+      "id": "T2-9",
+      "finding": "Security threats used as routine intimidation: three threats when passenger asserts rights (segs 72, 87, 109).",
+      "strength": "High",
+      "cross_reference": "F-T2-010"
+    },
+    {
+      "id": "T2-10",
+      "finding": "Female staff aggression: 'Oii!!', 'ACA NOS DAMOS PAPELES!' — overt institutional contempt.",
+      "strength": "High",
+      "cross_reference": "F-T2-007"
+    },
+    {
+      "id": "T2-11",
+      "finding": "Staff reveal 'seguimos instrucciones' — chain of command diffusing individual accountability.",
+      "strength": "High",
+      "cross_reference": "F-T2-009"
+    },
+    {
+      "id": "T2-12",
+      "finding": "Contradiction: after insisting 'NO EXISTE,' staff admit 'el jefe de seguridad te lo puede conseguir' — documentation exists but is channeled through security, not passengers.",
+      "strength": "Critical",
+      "cross_reference": "F-T2-009, STG_29 Diego (same irregular channel)"
+    }
+  ],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 0,
+      "speaker": "dgac_official",
+      "start": 0.03,
+      "end": 3.4,
+      "duration": 3.37,
+      "text": "Lan Latam, y eso lo tienes que hacer allá con ellos.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 1,
+      "speaker": "dgac_official",
+      "start": 3.6,
+      "end": 7.0,
+      "duration": 3.4,
+      "text": "o después por correo electrónico pero ellos te tienen que solucionar el problema",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 2,
+      "speaker": "passenger",
+      "start": 7.0,
+      "end": 14.5,
+      "duration": 7.5,
+      "text": "Ya. Pero lo que voy es que es una obrigacion, es un derecho del pasajero que sea le dado una explicacion.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 3,
+      "speaker": "dgac_official",
+      "start": 14.5,
+      "end": 15.1,
+      "duration": 0.6,
+      "text": "Claro!",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 4,
+      "speaker": "passenger",
+      "start": 15.1,
+      "end": 19.0,
+      "duration": 3.9,
+      "text": "De la misma forma que fue dada una carta de desembarque a ustedes. entiende?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 5,
+      "speaker": "dgac_official",
+      "start": 19.0,
+      "end": 24.5,
+      "duration": 5.5,
+      "text": "Eso, eso, nosotros no te lo vamos a poder dar porque no es como materia competente de nosotros.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 6,
+      "speaker": "passenger",
+      "start": 24.5,
+      "end": 27.7,
+      "duration": 3.2,
+      "text": " Entiendo, entiendo, pero yo estoy pidiendo información.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 7,
+      "speaker": "dgac_official",
+      "start": 27.7,
+      "end": 29.7,
+      "duration": 2.0,
+      "text": " Yo te estoy tratando de escuchar y de entender.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 8,
+      "speaker": "passenger",
+      "start": 29.7,
+      "end": 33.0,
+      "duration": 3.3,
+      "text": " Gracias. Ya entonces, lo que tengo que hacer ahora?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 9,
+      "speaker": "dgac_official",
+      "start": 33.0,
+      "end": 35.0,
+      "duration": 2.0,
+      "text": "Yo le voy a decir lo que tienes que hacer:",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 10,
+      "speaker": "dgac_official",
+      "start": 35.0,
+      "end": 42.5,
+      "duration": 7.5,
+      "text": " Tú lo que quieres ahora es viajar, ¿cierto? Porque tú tienes un vuelo programado, tenías un vuelo que lo perdiste, pero lo perdiste por ellos...",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 11,
+      "speaker": "passenger",
+      "start": 42.5,
+      "end": 44.2,
+      "duration": 1.7,
+      "text": "¿Pero ahora yo tengo que pagar otro vuelo?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 12,
+      "speaker": "dgac_official",
+      "start": 44.2,
+      "end": 47.0,
+      "duration": 2.8,
+      "text": "No, ellos te lo tienen que reprogramar.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 13,
+      "speaker": "passenger",
+      "start": 47.0,
+      "end": 50.0,
+      "duration": 3.0,
+      "text": "Ellos estan me diciendo que yo perdi y tengo eso todo eso tambien por aca...\n",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 14,
+      "speaker": "passenger",
+      "start": 50.0,
+      "end": 74.8,
+      "duration": 24.8,
+      "text": "Tú tienes todos los antecedentes que necesitas como para hacer un reclamo. Y eso después, como tú vives acá, va a abrir un proceso judicial, te lo acabo de comentar, porque tú ya pasaste por el tema de la PDI y hay conocimiento de lo que te pasó. Entonces ahora tú tienes que ir directamente allá, hacer el reclamo y ver. Oye, yo estaba bien. Primero que todo, yo estaba bien. Yo tengo todos los antecedentes, necesito hacer un reclamo y que me reprogramen. \n",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 15,
+      "speaker": "passenger",
+      "start": 74.8,
+      "end": 75.7,
+      "duration": 0.9,
+      "text": "Por que ellos estan...",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 16,
+      "speaker": "dgac_official",
+      "start": 75.7,
+      "end": 77.0,
+      "duration": 1.3,
+      "text": " Eso es lo que me acaban de decir.",
+      "reviewed": true,
+      "correction_note": "Who told what? when?",
+      "backchannel_events": ""
+    },
+    {
+      "index": 17,
+      "speaker": "passenger",
+      "start": 77.0,
+      "end": 86.7,
+      "duration": 9.7,
+      "text": "Lo que está diciendo esa persona es que...\npasó, que yo pasé sin, pero a ver, mira la cámara. .. pero miramos",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 18,
+      "speaker": "dgac_official",
+      "start": 86.7,
+      "end": 88.7,
+      "duration": 2.0,
+      "text": "Si! yo no le pongo en discussion",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 19,
+      "speaker": "passenger",
+      "start": 88.7,
+      "end": 96.0,
+      "duration": 7.3,
+      "text": "Pero dai, es como no podemos mostrar las cámaras. Claramente se tu estas me acusando de algo tu tiene que provar",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 20,
+      "speaker": "dgac_official",
+      "start": 96.38,
+      "end": 97.92,
+      "duration": 1.54,
+      "text": "Yo te entiendo completamente",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 21,
+      "speaker": "passenger",
+      "start": 97.92,
+      "end": 106.3,
+      "duration": 8.38,
+      "text": "Es como, lo que me carga es la capacidad de pensar que lo otro es estupido, entende? por que mucha gente, mucha gente mas humilde",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 22,
+      "speaker": "dgac_official",
+      "start": 106.3,
+      "end": 108.0,
+      "duration": 1.7,
+      "text": "Concuerdo contigo!",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 23,
+      "speaker": "passenger",
+      "start": 107.78,
+      "end": 114.0,
+      "duration": 6.22,
+      "text": "mucha gente mas humilde simples (lo acepta) entiende?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 24,
+      "speaker": "dgac_official",
+      "start": 114.0,
+      "end": 116.7,
+      "duration": 2.7,
+      "text": "Eso es lo que posso te oferecer amigo.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 25,
+      "speaker": "passenger",
+      "start": 116.7,
+      "end": 117.7,
+      "duration": 1.0,
+      "text": "Como es tu nombre?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 26,
+      "speaker": "dgac_official",
+      "start": 117.5,
+      "end": 121.25,
+      "duration": 3.75,
+      "text": "Nicolas.... Amigo, que te vaya bien. Espero haver ter ayudado",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 27,
+      "speaker": "passenger",
+      "start": 119.0,
+      "end": 125.0,
+      "duration": 6.0,
+      "text": "Muchas Gracias. Mira, Mucho! muchas gracias",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 28,
+      "speaker": "passenger",
+      "start": 230.0,
+      "end": 300.0,
+      "duration": 70.0,
+      "text": "[silencio]",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 29,
+      "speaker": "passenger",
+      "start": 232.0,
+      "end": 234.52,
+      "duration": 2.52,
+      "text": "Yo tenia el vuelo de las...",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 30,
+      "speaker": "passenger",
+      "start": 235.52,
+      "end": 238.96,
+      "duration": 3.44,
+      "text": "de la 1.45 de la tarde",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 31,
+      "speaker": "passenger",
+      "start": 238.96,
+      "end": 241.61,
+      "duration": 2.65,
+      "text": "de acá a Brasilia.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 32,
+      "speaker": "passenger",
+      "start": 241.61,
+      "end": 246.67,
+      "duration": 5.06,
+      "text": "Yo fui retirado del vuelo.  a fuerza",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 33,
+      "speaker": "passenger",
+      "start": 246.67,
+      "end": 254.7,
+      "duration": 8.03,
+      "text": "por dos alegaciones distintas, primero de agresión.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 34,
+      "speaker": "passenger",
+      "start": 254.6,
+      "end": 264.79,
+      "duration": 10.19,
+      "text": "a un funcionario y después de que yo pasé sin mostrar mi boarding pass.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 35,
+      "speaker": "passenger",
+      "start": 264.79,
+      "end": 270.54,
+      "duration": 5.75,
+      "text": "Eso está desde la una de la tarde con eso, ya. Entonces eso pasó por PDI, por todo.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 36,
+      "speaker": "passenger",
+      "start": 270.54,
+      "end": 275.93,
+      "duration": 5.39,
+      "text": "Ya?! Y comprobaron que las dos acusaciones fueron falsas.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 37,
+      "speaker": "airline_staff",
+      "start": 275.93,
+      "end": 278.19,
+      "duration": 2.26,
+      "text": "Ya??",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 38,
+      "speaker": "passenger",
+      "start": 278.19,
+      "end": 281.2,
+      "duration": 3.01,
+      "text": "Ya, ¿no me dieron un...?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 39,
+      "speaker": "airline_staff",
+      "start": 280.9,
+      "end": 282.0,
+      "duration": 1.1,
+      "text": "Ta ......tu reserva.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 40,
+      "speaker": "passenger",
+      "start": 282.0,
+      "end": 287.3,
+      "duration": 5.3,
+      "text": "Ya, no me dieron. no me dieron una explicación.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 41,
+      "speaker": "passenger",
+      "start": 287.3,
+      "end": 294.96,
+      "duration": 7.66,
+      "text": "por escrito de lo que pasó, por qué me sacaron del vuelo, por qué perdí mi vuelo, por qué me sacaron a fuerza del vuelo.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 42,
+      "speaker": "passenger",
+      "start": 294.96,
+      "end": 302.23,
+      "duration": 7.27,
+      "text": "Yo quiero saber lo que yo hago ahora. Porque uno, yo tengo que ir a donde yo iba para empezar.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 43,
+      "speaker": "passenger",
+      "start": 302.23,
+      "end": 308.28,
+      "duration": 6.05,
+      "text": "Otro, yo quiero una explicación por escrito, ¿por qué me sacaron del vuelo así?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 44,
+      "speaker": "airline_staff",
+      "start": 308.28,
+      "end": 315.33,
+      "duration": 7.05,
+      "text": "Ahora .. Si quieres puedo llamar a personal de seguridad, que es lo que quedo de la compañía.",
+      "reviewed": true,
+      "correction_note": "what he means by \"es lo que se quedo de la compania?\"",
+      "backchannel_events": ""
+    },
+    {
+      "index": 45,
+      "speaker": "airline_staff",
+      "start": 315.33,
+      "end": 318.2,
+      "duration": 2.87,
+      "text": "Ellos pueden hablar contigo para explicar te la situacion",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 46,
+      "speaker": "passenger",
+      "start": 318.43,
+      "end": 329.79,
+      "duration": 11.36,
+      "text": "Ya me explicaron, pero yo quiero por escrito, porque lo que me explican ya fue comprobado de ser mentira por la PDI, ¿entiendes? La persona, Joaquín Barraza...",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 47,
+      "speaker": "passenger",
+      "start": 329.79,
+      "end": 347.67,
+      "duration": 17.88,
+      "text": "Joaquín Barraza, la persona de la Latam de la Seguridad, que fue aquí, eso, eso, está me diciendo, como a 10 minutos atrás, nosotros no tenemos que te dar nada. Nosotros no tenemos que te dar nada. Tú puedes esperar a cada lo tiempo que quieras, pero no es así.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 48,
+      "speaker": "passenger",
+      "start": 347.67,
+      "end": 350.95,
+      "duration": 3.28,
+      "text": "Si sacas a una persona del vuelo...",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 49,
+      "speaker": "passenger",
+      "start": 350.95,
+      "end": 355.66,
+      "duration": 4.71,
+      "text": "lo pierde el vuelo, el trastorno, la vergüenza.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 50,
+      "speaker": "passenger",
+      "start": 355.66,
+      "end": 359.28,
+      "duration": 3.62,
+      "text": "al menos alguna explicación tiene que tener.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 51,
+      "speaker": "airline_staff",
+      "start": 359.28,
+      "end": 362.0,
+      "duration": 2.72,
+      "text": "Ya? Concordas?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 52,
+      "speaker": "airline_staff",
+      "start": 361.8,
+      "end": 363.53,
+      "duration": 1.73,
+      "text": "Claro.  es que..",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 53,
+      "speaker": "airline_staff",
+      "start": 363.53,
+      "end": 369.9,
+      "duration": 6.37,
+      "text": "La informacion que llego aca, que  hubo un desembarque por agresión al personal del enbarque.",
+      "reviewed": true,
+      "correction_note": "what information? from whom? what time?",
+      "backchannel_events": ""
+    },
+    {
+      "index": 54,
+      "speaker": "passenger",
+      "start": 369.9,
+      "end": 375.49,
+      "duration": 5.59,
+      "text": "Ya, y esa informacion tu puede. ya confirmaran con la PDI, por que la PDI ya vio las gravaciones. filmage.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 55,
+      "speaker": "airline_staff",
+      "start": 374.7,
+      "end": 375.77,
+      "duration": 1.07,
+      "text": "Claro",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 56,
+      "speaker": "passenger",
+      "start": 375.77,
+      "end": 377.0,
+      "duration": 1.23,
+      "text": "Y fue comprobada que NO",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 57,
+      "speaker": "passenger",
+      "start": 377.0,
+      "end": 378.3,
+      "duration": 1.3,
+      "text": "Y dae despues",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 58,
+      "speaker": "airline_staff",
+      "start": 378.0,
+      "end": 382.73,
+      "duration": 4.73,
+      "text": "La compania ya te categorizo como pasagero disruptivo, no va a poder a embarcar com nosotro.",
+      "reviewed": true,
+      "correction_note": "who categorized me?",
+      "backchannel_events": ""
+    },
+    {
+      "index": 59,
+      "speaker": "passenger",
+      "start": 382.3,
+      "end": 383.69,
+      "duration": 1.39,
+      "text": "Mira! no importa!",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 60,
+      "speaker": "airline_staff",
+      "start": 383.69,
+      "end": 386.78,
+      "duration": 3.09,
+      "text": "La compania no esta obrigada a transportarte",
+      "reviewed": true,
+      "correction_note": "att",
+      "backchannel_events": ""
+    },
+    {
+      "index": 61,
+      "speaker": "passenger",
+      "start": 386.5,
+      "end": 389.97,
+      "duration": 3.47,
+      "text": "mismo, mismo, siendo una acusación falsa.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 62,
+      "speaker": "airline_staff",
+      "start": 389.97,
+      "end": 391.91,
+      "duration": 1.94,
+      "text": "PUEDE QUE SEA FALSA PERO..",
+      "reviewed": true,
+      "correction_note": "att here",
+      "backchannel_events": ""
+    },
+    {
+      "index": 63,
+      "speaker": "passenger",
+      "start": 391.0,
+      "end": 394.1,
+      "duration": 3.1,
+      "text": "NO, no no no no, no \"que puedes ser\"!",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 64,
+      "speaker": "passenger",
+      "start": 394.1,
+      "end": 395.0,
+      "duration": 0.9,
+      "text": "La policía",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 65,
+      "speaker": "airline_staff",
+      "start": 395.0,
+      "end": 398.0,
+      "duration": 3.0,
+      "text": "Todo eso se resuelve en tribunales, pero ahora ya no puedes mas viajar con Latam.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 66,
+      "speaker": "passenger",
+      "start": 399.6,
+      "end": 406.75,
+      "duration": 7.15,
+      "text": "La policía de abajo ya comprobó. Entonces, ¿usted puede me dar algo por escrito explicando por qué me sacaron del vuelo? No pueden.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 67,
+      "speaker": "airline_staff",
+      "start": 407.0,
+      "end": 412.67,
+      "duration": 5.67,
+      "text": "Tiene que hacer tu reclamo o demandar la empresa y ellos te van contactar los abogados de la empresa.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 68,
+      "speaker": "airline_staff",
+      "start": 412.67,
+      "end": 414.26,
+      "duration": 1.59,
+      "text": "Ahora no puede embarcar con Latam!",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 69,
+      "speaker": "passenger",
+      "start": 414.26,
+      "end": 421.4,
+      "duration": 7.14,
+      "text": "No, no, yo no quiero embarcar con latan. Lo que estoy preguntando es que me dé una explicación por escrito por qué me sacaron la fuerza del vuelo.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 70,
+      "speaker": "airline_staff",
+      "start": 418.7,
+      "end": 419.0,
+      "duration": 0.3,
+      "text": "exacto",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 71,
+      "speaker": "airline_staff",
+      "start": 421.28,
+      "end": 423.39,
+      "duration": 2.11,
+      "text": "tiene que pedir a la area legal de Latam",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 72,
+      "speaker": "passenger",
+      "start": 423.39,
+      "end": 426.09,
+      "duration": 2.7,
+      "text": "Mira. Yo estoy aca hablando con ustedes",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 73,
+      "speaker": "passenger",
+      "start": 426.09,
+      "end": 431.5,
+      "duration": 5.41,
+      "text": "La carta de desembarque, la carta de desembarque que fue pasada de la latam..",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 74,
+      "speaker": "passenger",
+      "start": 431.5,
+      "end": 433.27,
+      "duration": 1.77,
+      "text": "un segundo, un segundo.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 75,
+      "speaker": "airline_staff",
+      "start": 433.27,
+      "end": 434.94,
+      "duration": 1.67,
+      "text": "Pero calme se ya",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 76,
+      "speaker": "passenger",
+      "start": 434.94,
+      "end": 439.22,
+      "duration": 4.28,
+      "text": "Mira, cálmese, cálmese, yo fui sacado del vuelo.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 77,
+      "speaker": "airline_staff",
+      "start": 438.7,
+      "end": 440.73,
+      "duration": 2.03,
+      "text": "llamo la seguridad para que usted hable con ellos",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 78,
+      "speaker": "airline_staff",
+      "start": 440.73,
+      "end": 441.76,
+      "duration": 1.03,
+      "text": "por que ya hablaran con usted",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 79,
+      "speaker": "passenger",
+      "start": 441.76,
+      "end": 446.37,
+      "duration": 4.61,
+      "text": "Hablar otra vez, ya, traga, traga la PDI y yo al mismo tiempo.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 80,
+      "speaker": "airline_staff",
+      "start": 446.0,
+      "end": 450.51,
+      "duration": 4.51,
+      "text": "El scenario es ese y yo no quiero pelear con usted, la idea no es pelear, pero yo le explico QUE",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 81,
+      "speaker": "airline_staff",
+      "start": 450.51,
+      "end": 452.26,
+      "duration": 1.75,
+      "text": "QUE ALGO POR ESCRITO NO EXISTE...",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 82,
+      "speaker": "passenger",
+      "start": 453.0,
+      "end": 453.91,
+      "duration": 0.91,
+      "text": "COMO NO EXISTE????",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 83,
+      "speaker": "airline_staff",
+      "start": 452.43,
+      "end": 453.0,
+      "duration": 0.57,
+      "text": "LO TIENE QUE VER..",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 84,
+      "speaker": "airline_staff",
+      "start": 453.82,
+      "end": 458.11,
+      "duration": 4.29,
+      "text": "NO EXISTE.. ACA EN EL AEROPUERTO NO SE ENTREGA. LO TIENE QUE PEDIR A LOS ABOGADOS DE LA EMPRESA",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 85,
+      "speaker": "passenger",
+      "start": 458.11,
+      "end": 462.8,
+      "duration": 4.69,
+      "text": "Y AHORA DEJA ME HACER TE UNA PREGUNTA:",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 86,
+      "speaker": "airline_staff",
+      "start": 462.0,
+      "end": 466.9,
+      "duration": 4.9,
+      "text": "USTED TIENE QUE DEMANDAR, Y VIA, POR LA ACIONES LEGALES, VA CONSEGUIR UNA RESPUESTA",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 87,
+      "speaker": "passenger",
+      "start": 466.6,
+      "end": 468.0,
+      "duration": 1.4,
+      "text": "???",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 88,
+      "speaker": "airline_staff",
+      "start": 467.7,
+      "end": 469.0,
+      "duration": 1.3,
+      "text": "Eso es lo que corresponde hoy!",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 89,
+      "speaker": "passenger",
+      "start": 469.87,
+      "end": 476.84,
+      "duration": 6.97,
+      "text": "me sacaron del vuelo a fuerza.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 90,
+      "speaker": "passenger",
+      "start": 476.84,
+      "end": 490.94,
+      "duration": 14.1,
+      "text": "por dos acusaciones falsas que fueron comprobadas por la policía de acá. La policía pidió una carta de desembarque donde la latan explica el motivo del desembarque.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 91,
+      "speaker": "passenger",
+      "start": 490.94,
+      "end": 500.0,
+      "duration": 9.06,
+      "text": "Yo me gustaría esa información. Yo acabo de venir de la PDI. La PDI me informó que ustedes tienen que me pasar esa información.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 92,
+      "speaker": "airline_staff",
+      "start": 500.0,
+      "end": 502.75,
+      "duration": 2.75,
+      "text": "Claro! pero eso se entrega al servizio al cliente",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 93,
+      "speaker": "passenger",
+      "start": 502.75,
+      "end": 504.22,
+      "duration": 1.47,
+      "text": "yo quiero eso aqui ahora",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 94,
+      "speaker": "airline_staff",
+      "start": 504.0,
+      "end": 506.39,
+      "duration": 2.39,
+      "text": "es que no es lo que tu quiera! es lo que ..",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 95,
+      "speaker": "passenger",
+      "start": 504.0,
+      "end": 509.91,
+      "duration": 5.91,
+      "text": "No, claramente es lo que ustedes quieren, porque ustedes me sacaron la fuerza, me machucaron por una información falsa.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 96,
+      "speaker": "airline_staff",
+      "start": 509.5,
+      "end": 513.62,
+      "duration": 4.12,
+      "text": "El personal de la empresa ahora, solamente que hable con la seguridad.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 97,
+      "speaker": "airline_staff",
+      "start": 513.62,
+      "end": 527.68,
+      "duration": 14.06,
+      "text": "Ya más servicios de la empresa no se le van a seguir entregando, ni en counter, ni en vendas. Usted tiene que comunicarse con seguridad de la empresa o con servicios del cliente. Pero acá ya no se les va a entregar más servicios. Cuando hay agresiones de parte de los pasajeros...",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 98,
+      "speaker": "passenger",
+      "start": 527.0,
+      "end": 532.25,
+      "duration": 5.25,
+      "text": "Pero la agresión no existió, la agresión está siendo contra mí.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 99,
+      "speaker": "passenger",
+      "start": 532.25,
+      "end": 534.0,
+      "duration": 1.75,
+      "text": "¡Atención!",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 100,
+      "speaker": "airline_staff",
+      "start": 534.0,
+      "end": 535.5,
+      "duration": 1.5,
+      "text": "Si pero, neste momento",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 101,
+      "speaker": "airline_staff 2",
+      "start": 535.4,
+      "end": 536.5,
+      "duration": 1.1,
+      "text": "y se llamamos seguridad?",
+      "reviewed": true,
+      "correction_note": "staff 2 seems confused on when security should be called?",
+      "backchannel_events": ""
+    },
+    {
+      "index": 102,
+      "speaker": "passenger",
+      "start": 536.5,
+      "end": 541.74,
+      "duration": 5.24,
+      "text": "Llama a seguridad, sí, mejor. Sí, por favor, llama a seguridad. Dale, por favor, por favor.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 103,
+      "speaker": "passenger",
+      "start": 541.74,
+      "end": 544.93,
+      "duration": 3.19,
+      "text": "Leandro Disconzi. Llama a la seguridad.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 104,
+      "speaker": "airline_staff",
+      "start": 544.93,
+      "end": 548.37,
+      "duration": 3.44,
+      "text": "Yo no estoy obrigado a escuchar grito de los pasageros",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 105,
+      "speaker": "passenger",
+      "start": 548.37,
+      "end": 554.0,
+      "duration": 5.63,
+      "text": "Claro, yo también no soy obrigado a que me saquen la fuerza del vuelo y que me arrastren por el vuelo.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 106,
+      "speaker": "airline_staff",
+      "start": 554.0,
+      "end": 556.01,
+      "duration": 2.01,
+      "text": "Puedes hacer lo escandalo que quiera",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 107,
+      "speaker": "passenger",
+      "start": 557.01,
+      "end": 561.39,
+      "duration": 4.38,
+      "text": "Yo no estoy haciendo un escándalo, yo estoy extremadamente enojado con todo lo que está pasando.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 108,
+      "speaker": "airline_staff",
+      "start": 560.7,
+      "end": 565.54,
+      "duration": 4.84,
+      "text": "TENGA MAS PROBLEMA CON LA EMPRESA, TIENE QUE TOMAR LAS COSAS CON CALMA. OK?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 109,
+      "speaker": "passenger",
+      "start": 567.54,
+      "end": 569.54,
+      "duration": 2.0,
+      "text": "Es como un chiste.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 110,
+      "speaker": "airline_staff",
+      "start": 569.0,
+      "end": 572.41,
+      "duration": 3.41,
+      "text": "NO CON GRITO, POR QUE....",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 111,
+      "speaker": "passenger",
+      "start": 572.41,
+      "end": 574.19,
+      "duration": 1.78,
+      "text": "Tu vas a llamar a la seguiridad? llama la seguridad?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 112,
+      "speaker": "airline_staff",
+      "start": 574.19,
+      "end": 576.95,
+      "duration": 2.76,
+      "text": "O sea, se usted quiere conversar con ellos yo lo puedo llamar, pero..",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 113,
+      "speaker": "passenger",
+      "start": 576.95,
+      "end": 579.49,
+      "duration": 2.54,
+      "text": "Mira, yo quiero resolver mi problema",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 114,
+      "speaker": "airline_staff",
+      "start": 578.9,
+      "end": 581.64,
+      "duration": 2.74,
+      "text": "EL SEGUINTE NO HAY, Y LO TIENE QUE ENTIENDER",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 115,
+      "speaker": "passenger",
+      "start": 581.64,
+      "end": 583.58,
+      "duration": 1.94,
+      "text": "YO TENGO QUE ENTENDER??",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 116,
+      "speaker": "passenger",
+      "start": 583.1,
+      "end": 583.7,
+      "duration": 0.6,
+      "text": "Yo tengo que entender.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 117,
+      "speaker": "passenger",
+      "start": 583.7,
+      "end": 585.61,
+      "duration": 1.91,
+      "text": "Ya, qué bueno. LLAMA LA SEGURIDAD!",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 118,
+      "speaker": "airline_staff",
+      "start": 585.61,
+      "end": 591.31,
+      "duration": 5.7,
+      "text": "Ya le dieron todas las indicaciones, mi compañero ya le dijo todo lo que sucedía.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 119,
+      "speaker": "passenger",
+      "start": 591.31,
+      "end": 593.3,
+      "duration": 1.99,
+      "text": "me da por escrito entonces!",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 120,
+      "speaker": "airline_staff",
+      "start": 593.3,
+      "end": 599.33,
+      "duration": 6.03,
+      "text": "No damos papales por escrito! Si usted quieres un papel por escrito, tiene que contactar con servicio del cliente.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 121,
+      "speaker": "airline_staff",
+      "start": 599.33,
+      "end": 600.36,
+      "duration": 1.03,
+      "text": "ACA NOS DAMOS PAPELES!",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 122,
+      "speaker": "passenger",
+      "start": 600.36,
+      "end": 602.14,
+      "duration": 1.78,
+      "text": "TU, TU ENTIENDE LO QUE ESTA PASANDO?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 123,
+      "speaker": "airline_staff",
+      "start": 602.14,
+      "end": 609.41,
+      "duration": 7.27,
+      "text": "SI ENTIENDO POR QUE YA NOS INFORMARAN DE SU CASO, YA NOS INDICARAN DE QUE USTED ERA UN PASAGERO DISRUPTIVO!",
+      "reviewed": true,
+      "correction_note": "Who told what? when?",
+      "backchannel_events": ""
+    },
+    {
+      "index": 124,
+      "speaker": "airline_staff",
+      "start": 609.41,
+      "end": 616.0,
+      "duration": 6.59,
+      "text": "Y LE INFORMARAN QUE FUE MENTIRA LAS DOS ACUSACIONES. YO ESTOY SENDO ACUSADO",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 125,
+      "speaker": "airline_staff",
+      "start": 614.0,
+      "end": 615.39,
+      "duration": 1.39,
+      "text": "Y HAY CAMARAS ..??",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 126,
+      "speaker": "passenger",
+      "start": 615.39,
+      "end": 621.53,
+      "duration": 6.14,
+      "text": "SI. ESO ES DEFAMACION! ENTIENDE LO QUE ESTA PASANDO?!",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 127,
+      "speaker": "passenger",
+      "start": 621.53,
+      "end": 645.82,
+      "duration": 24.29,
+      "text": "DIFAMACION. USTEDES ESTAN HACIENDO UNA PERSONA QUE NO HICE NADA, SACAR LA DEL VUELO, PERDER SU VUELO, PERDER LO VUELO QUE TENIA DESPUES, SER AGREDIDO FISICAMENTE Y AHORA SER COMO, TRATADO COMO LOCO.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 128,
+      "speaker": "passenger",
+      "start": 642.0,
+      "end": 644.3,
+      "duration": 2.3,
+      "text": "Mira, está muy... Está cómico.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 129,
+      "speaker": "airline_staff",
+      "start": 644.0,
+      "end": 645.23,
+      "duration": 1.23,
+      "text": "YO LO ENTIENDO AL SENOR, PERO..",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 130,
+      "speaker": "passenger",
+      "start": 645.23,
+      "end": 652.47,
+      "duration": 7.24,
+      "text": "No entiendes, no entiendes, no creo que te entiendas, porque si te entendías yo te estaba intentando arreglar de una forma un poco distinta, intentando ayudar.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 131,
+      "speaker": "airline_staff",
+      "start": 652.0,
+      "end": 655.24,
+      "duration": 3.24,
+      "text": "No te puedo decir.. no te puedo entregar nada por que la empresa no lo permite",
+      "reviewed": true,
+      "correction_note": "company does not permit to give anything in writing",
+      "backchannel_events": ""
+    },
+    {
+      "index": 132,
+      "speaker": "airline_staff",
+      "start": 655.24,
+      "end": 673.84,
+      "duration": 18.6,
+      "text": "Si tú necesitas algo escrito, tienes que escribir a servicio al cliente. Si tú quieres demandar, lo puedes hacer, está en tus derechos. Pero hoy, en el aeropuerto, no te vamos a entregar nada por escrito porque no corresponde. La empresa no tiene ninguna solución para casos cuando el pasajero queda como disruptivo. Si a ti te desembarcaron de un avión por problemas de agresiones...",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 133,
+      "speaker": "airline_staff",
+      "start": 658.53,
+      "end": 674.36,
+      "duration": 15.83,
+      "text": "Puedo decir que no te puedo entregar nada porque la empresa no lo permite. Si tú necesitas algo escrito, tienes que escribir a servicio al cliente. Si tú quieres demandar, lo puedes hacer, está en tus derechos. Pero hoy, en el aeropuerto, no te vamos a entregar nada por escrito porque no corresponde. La empresa no tiene ninguna solución para casos cuando el pasajero queda como disruptivo. Si a ti te desembarcaron de un avión por problemas de agresiones...",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 134,
+      "speaker": "airline_staff",
+      "start": 673.8,
+      "end": 676.0,
+      "duration": 2.2,
+      "text": "Tiene que seguir la conducta  de???????????",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 135,
+      "speaker": "airline_staff",
+      "start": 676.0,
+      "end": 677.14,
+      "duration": 1.14,
+      "text": "Gracias! listo!",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 136,
+      "speaker": "passenger",
+      "start": 676.9,
+      "end": 679.12,
+      "duration": 2.22,
+      "text": "Y entiende mi problema con usted ahora, es que eso...",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 137,
+      "speaker": "airline_staff",
+      "start": 677.4,
+      "end": 682.36,
+      "duration": 4.96,
+      "text": "Como persona yo te entiendo por que tambien estaria como tu..",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 138,
+      "speaker": "passenger",
+      "start": 682.36,
+      "end": 698.0,
+      "duration": 15.64,
+      "text": "Esa agresión, esa agresión que me fue acusada, esa agresión fue desprobada. Y después entraron con otra historia, y esa también fue desprobada, ¿entiendes? Entonces, me complica mi cabeza para entender",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 139,
+      "speaker": "passenger",
+      "start": 699.3,
+      "end": 704.2,
+      "duration": 4.9,
+      "text": "por qué ustedes están batiendo en la misma tecla, que yo fui agresivo, porque, en realidad, no fui el contrario.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 140,
+      "speaker": "airline_staff",
+      "start": 704.2,
+      "end": 709.19,
+      "duration": 4.99,
+      "text": "Pero. no. ya no se va discutir si tu fiste o no lo hicieste",
+      "reviewed": true,
+      "correction_note": "The accusation that the passenger was aggressive being true is not being discussed anymore",
+      "backchannel_events": ""
+    },
+    {
+      "index": 141,
+      "speaker": "passenger",
+      "start": 708.7,
+      "end": 714.65,
+      "duration": 5.95,
+      "text": "Claramente, porque eso es la parte más importante que tiene, porque yo no hice nada para ter sufrido lo que estoy sufriendo ahora.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 142,
+      "speaker": "airline_staff",
+      "start": 713.0,
+      "end": 717.82,
+      "duration": 4.82,
+      "text": "la empresa ya te declaro como pasagero .. sin possibilidad de embarcar",
+      "reviewed": true,
+      "correction_note": "hesitating to define the passenger status",
+      "backchannel_events": ""
+    },
+    {
+      "index": 143,
+      "speaker": "passenger",
+      "start": 717.4,
+      "end": 720.94,
+      "duration": 3.54,
+      "text": "yo no quiero embarcar. yo quiero una explicacion por que que me sacaran del vuelo",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 144,
+      "speaker": "airline_staff",
+      "start": 720.94,
+      "end": 722.43,
+      "duration": 1.49,
+      "text": "Pero no es el lugar ahora",
+      "reviewed": true,
+      "correction_note": "at the airport, where the incident happened, at the airline counter isnt the place?",
+      "backchannel_events": ""
+    },
+    {
+      "index": 145,
+      "speaker": "passenger",
+      "start": 722.43,
+      "end": 725.0,
+      "duration": 2.57,
+      "text": "Mira! que no es el lugar ahora?!",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 146,
+      "speaker": "airline_staff",
+      "start": 725.0,
+      "end": 727.51,
+      "duration": 2.51,
+      "text": "Este este lugar esta para atender la ..???",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 147,
+      "speaker": "passenger",
+      "start": 727.0,
+      "end": 729.6,
+      "duration": 2.6,
+      "text": "Ya, Tiene como hablar con una persona arriba?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 148,
+      "speaker": "airline_staff 2",
+      "start": 729.6,
+      "end": 729.98,
+      "duration": 0.38,
+      "text": "Oii!! (how rude)",
+      "reviewed": true,
+      "correction_note": "att here",
+      "backchannel_events": ""
+    },
+    {
+      "index": 149,
+      "speaker": "airline_staff",
+      "start": 730.7,
+      "end": 732.0,
+      "duration": 1.3,
+      "text": "Tiene que llamar al.. yo posso llamar la seguridad..",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 150,
+      "speaker": "airline_staff",
+      "start": 732.0,
+      "end": 735.69,
+      "duration": 3.69,
+      "text": "No, yo quiero hablar con alguien acá, acá personalmente.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 151,
+      "speaker": "airline_staff",
+      "start": 735.69,
+      "end": 740.29,
+      "duration": 4.6,
+      "text": "ya nadie va a poder hacer una gestión contigo, solamente puede hablar CON SEGURIDAD",
+      "reviewed": true,
+      "correction_note": "passenger being restricted to only talk to security, not airline staff",
+      "backchannel_events": ""
+    },
+    {
+      "index": 152,
+      "speaker": "passenger",
+      "start": 740.29,
+      "end": 742.71,
+      "duration": 2.42,
+      "text": "ya, llama a la seguridad entonces.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 153,
+      "speaker": "airline_staff",
+      "start": 741.71,
+      "end": 744.0,
+      "duration": 2.29,
+      "text": "aca ellos pueden pedirles lo que necessita..",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 154,
+      "speaker": "passenger",
+      "start": 744.0,
+      "end": 745.0,
+      "duration": 1.0,
+      "text": "Dale ya, llama a la seguridad entonces.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 155,
+      "speaker": "airline_staff",
+      "start": 745.0,
+      "end": 755.5,
+      "duration": 10.5,
+      "text": "Pero no es para hacerte un problema a ti, es que ellos tienen que conversar contigo. ...... Quizá ellos te pueden conseguir algo. .., ... Pero pídenselo a ellos.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 156,
+      "speaker": "passenger",
+      "start": 755.5,
+      "end": 761.34,
+      "duration": 5.84,
+      "text": "Sí, ya lo pedí, ¿entiendes? Pero... ¡Dale! YO ESPERO",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 157,
+      "speaker": "airline_staff",
+      "start": 772.0,
+      "end": 775.0,
+      "duration": 3.0,
+      "text": "Atento para ventas",
+      "reviewed": true,
+      "correction_note": "att here: staff phoned to call sales?",
+      "backchannel_events": ""
+    },
+    {
+      "index": 158,
+      "speaker": "airline_staff",
+      "start": 790.0,
+      "end": 796.0,
+      "duration": 6.0,
+      "text": "Hola, Como esta como esta buenas tarde.estamos con un pasajero aca, don Leandro",
+      "reviewed": true,
+      "correction_note": "who is the staff talking to? sales? security? or another airline staff?",
+      "backchannel_events": ""
+    },
+    {
+      "index": 159,
+      "speaker": "airline_staff",
+      "start": 797.0,
+      "end": 809.0,
+      "duration": 12.0,
+      "text": "No se puede decir nada, pero insisto en conversar con ellos.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 160,
+      "speaker": "airline_staff",
+      "start": 816.0,
+      "end": 824.0,
+      "duration": 8.0,
+      "text": "",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 161,
+      "speaker": "airline_staff",
+      "start": 824.0,
+      "end": 836.0,
+      "duration": 12.0,
+      "text": "Ya porfa, para que puedan verlo por que si no..... demandas mucho \n\nY van a venir a conversar con ustedes. Espero pueda conseguir algo con ellos por que..\n\n",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 162,
+      "speaker": "passenger",
+      "start": 836.0,
+      "end": 845.3,
+      "duration": 9.3,
+      "text": "Lo único que quiero es una explicación de por qué hicieron eso conmigo. Porque las dos explicaciones que dieron, las dos acusaciones fueron disprobadas. entiende?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 163,
+      "speaker": "airline_staff",
+      "start": 845.3,
+      "end": 848.26,
+      "duration": 2.96,
+      "text": "Nosotros no podemos hacer nada senor, nosotros seguimos instruciones",
+      "reviewed": true,
+      "correction_note": "whose instructions? airline staff or security? what instructions? what is the passenger being accused of?",
+      "backchannel_events": ""
+    },
+    {
+      "index": 164,
+      "speaker": "passenger",
+      "start": 849.26,
+      "end": 850.75,
+      "duration": 1.49,
+      "text": "yo se que si. yo se que si.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 165,
+      "speaker": "airline_staff",
+      "start": 850.75,
+      "end": 853.66,
+      "duration": 2.91,
+      "text": "SI AL PASAGERO NO SE LE PUEDE ENTREGAR NADA, NOSOTROS NO PODEMOS HACER NADA",
+      "reviewed": true,
+      "correction_note": "is it a rule that the airline staff cannot give anything to the passenger? what are the instructions?",
+      "backchannel_events": ""
+    },
+    {
+      "index": 166,
+      "speaker": "passenger",
+      "start": 853.0,
+      "end": 860.04,
+      "duration": 7.04,
+      "text": "Mira, yo sé que tú estás haciendo tu trabajo, yo entiendo, claramente que yo entiendo, pero las actitudes que tomaron...",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 167,
+      "speaker": "passenger",
+      "start": 859.04,
+      "end": 866.21,
+      "duration": 7.17,
+      "text": "Fueron muy drásticas.\nfueron mentiras. Eso es lo peor, que eso fue difamación, ¿entiendes?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 168,
+      "speaker": "airline_staff",
+      "start": 860.8,
+      "end": 861.67,
+      "duration": 0.87,
+      "text": "",
+      "reviewed": false,
+      "correction_note": "needs review",
+      "backchannel_events": ""
+    },
+    {
+      "index": 169,
+      "speaker": "airline_staff",
+      "start": 866.67,
+      "end": 868.0,
+      "duration": 1.33,
+      "text": "PERO..",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 170,
+      "speaker": "passenger",
+      "start": 868.2,
+      "end": 874.12,
+      "duration": 5.92,
+      "text": "E  ¿La policía cuestionó a la persona?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 171,
+      "speaker": "passenger",
+      "start": 874.12,
+      "end": 878.0,
+      "duration": 3.88,
+      "text": "La policía miró las cámaras, ¿entiendes?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 172,
+      "speaker": "airline_staff",
+      "start": 878.0,
+      "end": 887.17,
+      "duration": 9.17,
+      "text": "PERO. Como RECOMENDACION COMO persona, yo te recomiendo que termines de verlo con Servicio al Cliente, porque acá te va a cargar mas problema.",
+      "reviewed": true,
+      "correction_note": "person level recommendation and intimidation that the passenger will have more problems if he continues to pursue the issue at the airport",
+      "backchannel_events": ""
+    },
+    {
+      "index": 173,
+      "speaker": "airline_staff",
+      "start": 887.17,
+      "end": 894.74,
+      "duration": 7.57,
+      "text": "Passa diario, y siempre la línea aérea va a tener... se.. de ganar aca con la policia.",
+      "reviewed": true,
+      "correction_note": "att. here. hesitation before serious information - the airline will always have the police on their side",
+      "backchannel_events": ""
+    },
+    {
+      "index": 174,
+      "speaker": "passenger",
+      "start": 894.74,
+      "end": 899.09,
+      "duration": 4.35,
+      "text": "Mira, la policía ya sabe de mi caso, la policía ya está de acuerdo.",
+      "reviewed": true,
+      "correction_note": "passenger still believe police could be trusted",
+      "backchannel_events": ""
+    },
+    {
+      "index": 175,
+      "speaker": "passenger",
+      "start": 899.09,
+      "end": 907.67,
+      "duration": 8.58,
+      "text": "La policía ya está como impresionada que esto esté pasando tan bien, porque fue un desperdicio de su mano de obra.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 176,
+      "speaker": "passenger",
+      "start": 907.67,
+      "end": 911.42,
+      "duration": 3.75,
+      "text": "de las personas para todo este circo.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 177,
+      "speaker": "passenger",
+      "start": 911.42,
+      "end": 917.4,
+      "duration": 5.98,
+      "text": "Casi un vuelo todo tuve que cambiar.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 178,
+      "speaker": "passenger",
+      "start": 917.4,
+      "end": 922.31,
+      "duration": 4.91,
+      "text": "por una mentira, dos mentiras de un funcionario de la Latam.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 179,
+      "speaker": "passenger",
+      "start": 922.31,
+      "end": 934.13,
+      "duration": 11.82,
+      "text": "Entonces, no está bonito, no está simple eso, está quedando cada vez más complejo. Y claramente que yo voy a colocar un proceso muy, muy pesado arriba, pero ahora tengo que resolver.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 180,
+      "speaker": "airline_staff",
+      "start": 934.7,
+      "end": 940.0,
+      "duration": 5.3,
+      "text": "Si necesitas un comprobante, el jefe de seguridad te lo puede conseguir.  El lo puede hacer.",
+      "reviewed": true,
+      "correction_note": "so the instructions to not provide documentation was flexible? the security chief can provide documentation if requested?",
+      "backchannel_events": ""
+    },
+    {
+      "index": 181,
+      "speaker": "passenger",
+      "start": 940.0,
+      "end": 959.0,
+      "duration": 19.0,
+      "text": "¿Dónde? ¿Quién? Ahí ya viene. Ya viene, ya. Bacana. ¿quieres que te doy espacio para  atender a la otra persona? Ya, gracias.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 182,
+      "speaker": "passenger",
+      "start": 940.0,
+      "end": 959.0,
+      "duration": 19.0,
+      "text": "¿Dónde? ¿Quién? Ahí ya viene. Ya viene, ya. Bacana. ¿quieres que te doy espacio para  atender a la otra persona? Ya, gracias.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    }
+  ]
+}

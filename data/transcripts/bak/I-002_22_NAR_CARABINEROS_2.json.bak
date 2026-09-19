@@ -1,0 +1,2485 @@
+{
+  "transcript_id": "I-002_22_NAR_CARABINEROS_2",
+  "source_file": "",
+  "language": "es",
+  "timestamp": "2024-07-06T07:05:00Z",
+  "provider": "",
+  "original_transcript_id": "I-002_22_NAR_CARABINEROS_2",
+  "metadata": {},
+  "title": "Carabineros PPD Artnel 2 — FINAL v2",
+  "subtitle": "Systemic Pattern Confirmed — Carabinero Officer: 'casi todos los días se ve en alguien detenido por agresión'",
+  "recording_datetime": "2024-07-06T07:05:00Z",
+  "location": "Carabineros Dartnell sub‑station, Arturo Merino Benítez International Airport, Santiago, Chile",
+  "audio_id": "carabineros_ppdartnel_2",
+  "case_id": "I-002",
+  "narrative_id": "NAR_CARABINEROS_2",
+  "chronological_order": 25,
+  "prior_stage": "I-002_21_NAR_CARABINEROS_1",
+  "next_stage": "I-002_23_NAR_CARABINEROS_3",
+  "classification": "Attorney Work Product — Privileged and Confidential",
+  "participants": [
+    {
+      "canonical_name": "Leandro Disconzi",
+      "role": "Passenger / victim",
+      "speaker_label": "Passenger (Leandro Disconzi)",
+      "speaker_id": "SPK-passenger-leandro"
+    },
+    {
+      "canonical_name": "Female Carabinero #2 (NAR_CARABINEROS_2)",
+      "role": "Carabinero Officer — primary institutional speaker, makes pattern admissions",
+      "speaker_label": "Female Carabinero #2",
+      "speaker_id": "SPK-female-carabinero-2-nar-carabineros-2"
+    },
+    {
+      "canonical_name": "Computer Officer (NAR_CARABINEROS_2)",
+      "role": "Carabinero Officer — computer terminal operator",
+      "speaker_label": "Computer Officer",
+      "speaker_id": "SPK-computer-officer-nar-carabineros-2"
+    }
+  ],
+  "violations_cited": [
+    "LPDC Art. 23 bis — failure to provide lawful written reasons",
+    "CPCL Art. 197 — falsification of private document (unsigned carta)",
+    "CHIPENCOD Art. 211 — calumnia (false aggression accusation)",
+    "Systemic institutional practice of false detentions — 'casi todos los días'",
+    "Abuso de autoridad — forcible removal without valid cause",
+    "Concealment of official document by LATAM, PDI, DGAC",
+    "Violation of passenger rights under CACH Art. 131, 133",
+    "Pattern evidence for class‑wide liability and consumer fraud"
+  ],
+  "tags": [
+    "transcript",
+    "narrative",
+    "evidence",
+    "carabineros",
+    "PPD",
+    "police",
+    "systemic-pattern",
+    "false-detention",
+    "abuse-of-authority",
+    "pattern-evidence"
+  ],
+  "forensic_clusters": {},
+  "key_evidentiary_findings": [
+    {
+      "id": "CB2-1",
+      "finding": "A different Carabinero previously told passenger that this pattern 'pasa con mucha frecuencia' — distributed institutional knowledge.",
+      "strength": "High"
+    },
+    {
+      "id": "CB2-2",
+      "finding": "Female Carabinero #2 begins with alcohol/alteration assumption; passenger corrects and officer backpedals — documenting institutional presumption of passenger guilt.",
+      "strength": "Medium"
+    },
+    {
+      "id": "CB2-3",
+      "finding": "Passenger quantifies damages: 48+ hours stranded, no food, no support — all caused by false accusation.",
+      "strength": "High"
+    },
+    {
+      "id": "CB2-4",
+      "finding": "Officer acknowledges LATAM gives nothing to accused passengers: 'Cuando al frente no dan de nada.'",
+      "strength": "High"
+    },
+    {
+      "id": "CB2-5",
+      "finding": "Joaquín Barraza identified as LATAM security chief; PDI chief also named Barraza — investigative lead regarding possible relationship.",
+      "strength": "Medium"
+    },
+    {
+      "id": "CB2-6",
+      "finding": "Carabineros computer system runs Internet Explorer and crashes; passenger provides tech support — reveals institutional infrastructure failures.",
+      "strength": "Low"
+    },
+    {
+      "id": "CB2-7",
+      "finding": "★ CRITICAL ★ Female Carabinero #2 states: 'Es de siempre, casi todos los días, que se ve en alguien detenido por agresión' — systemic daily pattern confirmed.",
+      "strength": "★★★★★★"
+    },
+    {
+      "id": "CB2-8",
+      "finding": "Officer recommends: 'hágale una denuncia a ellos porque ya es' — direct instruction from law enforcement to file complaint against LATAM.",
+      "strength": "★★★★★"
+    },
+    {
+      "id": "CB2-9",
+      "finding": "Passenger's account of shifting narratives (aggression → boarding pass) is perfectly consistent with all prior recordings.",
+      "strength": "High"
+    },
+    {
+      "id": "CB2-10",
+      "finding": "Officer confirms: 'Es que ellos siempre hacen eso' — LATAM's conduct is characteristic, not incidental.",
+      "strength": "★★★★★★"
+    },
+    {
+      "id": "CB2-11",
+      "finding": "Officer previously told another detained passenger to file complaint — multiple victims, consistent advice.",
+      "strength": "★★★★★"
+    },
+    {
+      "id": "CB2-12",
+      "finding": "Third-party passengers independently contacted Leandro with video evidence of forcible removal.",
+      "strength": "High"
+    }
+  ],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 0,
+      "speaker": "carabinero_official",
+      "start": 0.005,
+      "end": 1.525,
+      "duration": 1.52,
+      "text": "¿Qué es? ¿Qué es eso?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:05:00.005+00:00"
+    },
+    {
+      "index": 1,
+      "speaker": "carabinero_official",
+      "start": 2.085,
+      "end": 3.585,
+      "duration": 1.5,
+      "text": "¿Qué se guarda?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:05:02.085+00:00"
+    },
+    {
+      "index": 2,
+      "speaker": "passenger",
+      "start": 6.285,
+      "end": 10.745,
+      "duration": 4.46,
+      "text": "Un otro carabinero me contó que eso pasa con mucha frecuencia.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:05:06.285+00:00"
+    },
+    {
+      "index": 3,
+      "speaker": "carabinero_official",
+      "start": 10.885,
+      "end": 16.945,
+      "duration": 6.06,
+      "text": "Sí, sí, la TAN, no solamente la TAN. ¿Qué es eso? Habla de mí, cuando son todas las personas, cuando al repente van así con",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:05:10.885+00:00"
+    },
+    {
+      "index": 4,
+      "speaker": "carabinero_official",
+      "start": 17.265,
+      "end": 18.105,
+      "duration": 0.84,
+      "text": "alcohol,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:05:17.265+00:00"
+    },
+    {
+      "index": 5,
+      "speaker": "passenger",
+      "start": 18.105,
+      "end": 19.305,
+      "duration": 1.2,
+      "text": "Yo no estaba con nada.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:05:18.105+00:00"
+    },
+    {
+      "index": 6,
+      "speaker": "carabinero_official",
+      "start": 19.305,
+      "end": 21.125,
+      "duration": 1.82,
+      "text": "no es negocio usted.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:05:19.305+00:00"
+    },
+    {
+      "index": 7,
+      "speaker": "passenger",
+      "start": 21.125,
+      "end": 21.465,
+      "duration": 0.34,
+      "text": "Sí,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:05:21.125+00:00"
+    },
+    {
+      "index": 8,
+      "speaker": "carabinero_official",
+      "start": 21.465,
+      "end": 25.505,
+      "duration": 4.04,
+      "text": "Sí, claro. Personas que van con alcohol o personas que son demasiado alteradas, bajan del color.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:05:21.465+00:00"
+    },
+    {
+      "index": 9,
+      "speaker": "passenger",
+      "start": 26.585,
+      "end": 29.305,
+      "duration": 2.72,
+      "text": "yo creo que sí tiene alguna razón bacana.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:05:26.585+00:00"
+    },
+    {
+      "index": 10,
+      "speaker": "passenger",
+      "start": 29.985,
+      "end": 35.005,
+      "duration": 5.02,
+      "text": "Pero si es simplemente por algo personal, algo... Porque eso se",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:05:29.985+00:00"
+    },
+    {
+      "index": 11,
+      "speaker": "passenger",
+      "start": 35.225,
+      "end": 37.145,
+      "duration": 1.92,
+      "text": "queda muy complejo. Porque",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:05:35.225+00:00"
+    },
+    {
+      "index": 12,
+      "speaker": "carabinero_official",
+      "start": 37.145,
+      "end": 47.465,
+      "duration": 10.32,
+      "text": "No, no, no,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:05:37.145+00:00"
+    },
+    {
+      "index": 13,
+      "speaker": "carabinero_official",
+      "start": 50.185,
+      "end": 51.405,
+      "duration": 1.22,
+      "text": "no,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:05:50.185+00:00"
+    },
+    {
+      "index": 14,
+      "speaker": "carabinero_official",
+      "start": 57.245,
+      "end": 58.305,
+      "duration": 1.06,
+      "text": "guarde el pasaporte de",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:05:57.245+00:00"
+    },
+    {
+      "index": 15,
+      "speaker": "passenger",
+      "start": 77.105,
+      "end": 78.385,
+      "duration": 1.28,
+      "text": "por un",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:06:17.105+00:00"
+    },
+    {
+      "index": 16,
+      "speaker": "passenger",
+      "start": 78.945,
+      "end": 81.405,
+      "duration": 2.46,
+      "text": "capricho, por una",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:06:18.945+00:00"
+    },
+    {
+      "index": 17,
+      "speaker": "passenger",
+      "start": 82.205,
+      "end": 83.245,
+      "duration": 1.04,
+      "text": "maldad",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:06:22.205+00:00"
+    },
+    {
+      "index": 18,
+      "speaker": "passenger",
+      "start": 83.725,
+      "end": 86.105,
+      "duration": 2.38,
+      "text": "o un castigo, digamos así,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:06:23.725+00:00"
+    },
+    {
+      "index": 19,
+      "speaker": "passenger",
+      "start": 87.245,
+      "end": 89.765,
+      "duration": 2.52,
+      "text": "yo me voy a quedar más de 48 horas para",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:06:27.245+00:00"
+    },
+    {
+      "index": 20,
+      "speaker": "passenger",
+      "start": 91.725,
+      "end": 94.085,
+      "duration": 2.36,
+      "text": "conseguir un otro vuelo que no sea con la Latam.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:06:31.725+00:00"
+    },
+    {
+      "index": 21,
+      "speaker": "passenger",
+      "start": 95.905,
+      "end": 97.485,
+      "duration": 1.58,
+      "text": "Pasando frío, pasando hambre.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:06:35.905+00:00"
+    },
+    {
+      "index": 22,
+      "speaker": "passenger",
+      "start": 98.045,
+      "end": 100.605,
+      "duration": 2.56,
+      "text": "Porque no me dieron ningún tipo de soporte de apoyo o nada.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:06:38.045+00:00"
+    },
+    {
+      "index": 23,
+      "speaker": "carabinero_official",
+      "start": 100.825,
+      "end": 103.525,
+      "duration": 2.7,
+      "text": "Cuando al frente no dan de nada.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:06:40.825+00:00"
+    },
+    {
+      "index": 24,
+      "speaker": "passenger",
+      "start": 103.645,
+      "end": 105.765,
+      "duration": 2.12,
+      "text": "Sí, pero el detalle es que está incorrecto.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:06:43.645+00:00"
+    },
+    {
+      "index": 25,
+      "speaker": "passenger",
+      "start": 107.205,
+      "end": 109.145,
+      "duration": 1.94,
+      "text": "¿Entiendes? Las pruebas,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:06:47.205+00:00"
+    },
+    {
+      "index": 26,
+      "speaker": "passenger",
+      "start": 109.445,
+      "end": 111.325,
+      "duration": 1.88,
+      "text": "las acusaciones que están haciendo,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:06:49.445+00:00"
+    },
+    {
+      "index": 27,
+      "speaker": "passenger",
+      "start": 111.545,
+      "end": 113.665,
+      "duration": 2.12,
+      "text": "fueron desprobadas por la PDI.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:06:51.545+00:00"
+    },
+    {
+      "index": 28,
+      "speaker": "passenger",
+      "start": 113.965,
+      "end": 114.965,
+      "duration": 1.0,
+      "text": "Entonces,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:06:53.965+00:00"
+    },
+    {
+      "index": 29,
+      "speaker": "passenger",
+      "start": 115.425,
+      "end": 116.585,
+      "duration": 1.16,
+      "text": "mira, ¿dónde está la ley?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:06:55.425+00:00"
+    },
+    {
+      "index": 30,
+      "speaker": "passenger",
+      "start": 120.525,
+      "end": 121.125,
+      "duration": 0.6,
+      "text": "No, no, no.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:07:00.525+00:00"
+    },
+    {
+      "index": 31,
+      "speaker": "passenger",
+      "start": 127.145,
+      "end": 131.545,
+      "duration": 4.4,
+      "text": "Lo que parece es que la Latam se siente que está arriba. Que la Latam puede hacer lo que quiera.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:07:07.145+00:00"
+    },
+    {
+      "index": 32,
+      "speaker": "passenger",
+      "start": 147.365,
+      "end": 148.065,
+      "duration": 0.7,
+      "text": "Por favor, ah.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:07:27.365+00:00"
+    },
+    {
+      "index": 33,
+      "speaker": "passenger",
+      "start": 148.645,
+      "end": 153.025,
+      "duration": 4.38,
+      "text": "¿Puede colocar el nombre del jefe de la seguridad de Latam, por favor, acá?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:07:28.645+00:00"
+    },
+    {
+      "index": 34,
+      "speaker": "carabinero_official",
+      "start": 153.805,
+      "end": 154.705,
+      "duration": 0.9,
+      "text": "¿Qué se hizo para el programa?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:07:33.805+00:00"
+    },
+    {
+      "index": 35,
+      "speaker": "passenger",
+      "start": 154.905,
+      "end": 156.625,
+      "duration": 1.72,
+      "text": "Es importante, es importante.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:07:34.905+00:00"
+    },
+    {
+      "index": 36,
+      "speaker": "carabinero_official",
+      "start": 156.665,
+      "end": 157.745,
+      "duration": 1.08,
+      "text": "no,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:07:36.665+00:00"
+    },
+    {
+      "index": 37,
+      "speaker": "carabinero_official",
+      "start": 158.305,
+      "end": 161.365,
+      "duration": 3.06,
+      "text": "no.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:07:38.305+00:00"
+    },
+    {
+      "index": 38,
+      "speaker": "passenger",
+      "start": 162.205,
+      "end": 164.065,
+      "duration": 1.86,
+      "text": "Porque fue como la persona que",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:07:42.205+00:00"
+    },
+    {
+      "index": 39,
+      "speaker": "passenger",
+      "start": 164.925,
+      "end": 166.025,
+      "duration": 1.1,
+      "text": "quería mucho",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:07:44.925+00:00"
+    },
+    {
+      "index": 40,
+      "speaker": "passenger",
+      "start": 166.265,
+      "end": 166.945,
+      "duration": 0.68,
+      "text": "hacer eso.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:07:46.265+00:00"
+    },
+    {
+      "index": 41,
+      "speaker": "passenger",
+      "start": 169.385,
+      "end": 170.245,
+      "duration": 0.86,
+      "text": "Ya, gracias.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:07:49.385+00:00"
+    },
+    {
+      "index": 42,
+      "speaker": "carabinero_official",
+      "start": 177.545,
+      "end": 177.985,
+      "duration": 0.44,
+      "text": "Cambridge",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:07:57.545+00:00"
+    },
+    {
+      "index": 43,
+      "speaker": "passenger",
+      "start": 178.585,
+      "end": 180.905,
+      "duration": 2.32,
+      "text": "El jefe de la seguridad de la Latam.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:07:58.585+00:00"
+    },
+    {
+      "index": 44,
+      "speaker": "passenger",
+      "start": 181.685,
+      "end": 182.785,
+      "duration": 1.1,
+      "text": "Al menos yo que me informo.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:08:01.685+00:00"
+    },
+    {
+      "index": 45,
+      "speaker": "passenger",
+      "start": 184.005,
+      "end": 184.965,
+      "duration": 0.96,
+      "text": "Pero el nombre es correcto.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:08:04.005+00:00"
+    },
+    {
+      "index": 46,
+      "speaker": "passenger",
+      "start": 186.065,
+      "end": 188.125,
+      "duration": 2.06,
+      "text": "El nombre es Joaquín Barraza.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:08:06.065+00:00"
+    },
+    {
+      "index": 47,
+      "speaker": "carabinero_official",
+      "start": 188.425,
+      "end": 193.585,
+      "duration": 5.16,
+      "text": "juega al pin la",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:08:08.425+00:00"
+    },
+    {
+      "index": 48,
+      "speaker": "passenger",
+      "start": 193.845,
+      "end": 197.745,
+      "duration": 3.9,
+      "text": "Joaquín, yo creo, como de usted. Barraza.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:08:13.845+00:00"
+    },
+    {
+      "index": 49,
+      "speaker": "carabinero_official",
+      "start": 198.185,
+      "end": 198.745,
+      "duration": 0.56,
+      "text": "base",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:08:18.185+00:00"
+    },
+    {
+      "index": 50,
+      "speaker": "passenger",
+      "start": 198.865,
+      "end": 199.845,
+      "duration": 0.98,
+      "text": "Barraza.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:08:18.865+00:00"
+    },
+    {
+      "index": 51,
+      "speaker": "carabinero_official",
+      "start": 199.845,
+      "end": 200.405,
+      "duration": 0.56,
+      "text": "no",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:08:19.845+00:00"
+    },
+    {
+      "index": 52,
+      "speaker": "passenger",
+      "start": 200.405,
+      "end": 200.905,
+      "duration": 0.5,
+      "text": "Barraza.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:08:20.405+00:00"
+    },
+    {
+      "index": 53,
+      "speaker": "passenger",
+      "start": 202.985,
+      "end": 205.925,
+      "duration": 2.94,
+      "text": "Yo quiero escuchar que el jefe de la PDI también es Barraza.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:08:22.985+00:00"
+    },
+    {
+      "index": 54,
+      "speaker": "carabinero_official",
+      "start": 206.565,
+      "end": 206.965,
+      "duration": 0.4,
+      "text": "se",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:08:26.565+00:00"
+    },
+    {
+      "index": 55,
+      "speaker": "passenger",
+      "start": 207.005,
+      "end": 207.485,
+      "duration": 0.48,
+      "text": "No.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:08:27.005+00:00"
+    },
+    {
+      "index": 56,
+      "speaker": "passenger",
+      "start": 207.805,
+      "end": 210.825,
+      "duration": 3.02,
+      "text": "Yo me quedo me preguntando si tienen relación.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:08:27.805+00:00"
+    },
+    {
+      "index": 57,
+      "speaker": "carabinero_official",
+      "start": 211.945,
+      "end": 213.605,
+      "duration": 1.66,
+      "text": "No sé, que yo no lo conozco.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:08:31.945+00:00"
+    },
+    {
+      "index": 58,
+      "speaker": "passenger",
+      "start": 213.625,
+      "end": 218.545,
+      "duration": 4.92,
+      "text": "Porque si ese caso tiene relación ahí, es una buena explicación por qué que esa información no sale.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:08:33.625+00:00"
+    },
+    {
+      "index": 59,
+      "speaker": "carabinero_official",
+      "start": 219.545,
+      "end": 219.985,
+      "duration": 0.44,
+      "text": "No",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:08:39.545+00:00"
+    },
+    {
+      "index": 60,
+      "speaker": "passenger",
+      "start": 219.985,
+      "end": 220.225,
+      "duration": 0.24,
+      "text": "No.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:08:39.985+00:00"
+    },
+    {
+      "index": 61,
+      "speaker": "carabinero_official",
+      "start": 220.225,
+      "end": 220.545,
+      "duration": 0.32,
+      "text": "lo conozco.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:08:40.225+00:00"
+    },
+    {
+      "index": 62,
+      "speaker": "carabinero_official",
+      "start": 222.765,
+      "end": 223.825,
+      "duration": 1.06,
+      "text": "No lo conozco.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:08:42.765+00:00"
+    },
+    {
+      "index": 63,
+      "speaker": "passenger",
+      "start": 244.165,
+      "end": 245.905,
+      "duration": 1.74,
+      "text": "Que ahora yo volviendo y yo voy a PDI.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:09:04.165+00:00"
+    },
+    {
+      "index": 64,
+      "speaker": "passenger",
+      "start": 246.285,
+      "end": 247.925,
+      "duration": 1.64,
+      "text": "Para confirmar esa información, si ellos",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:09:06.285+00:00"
+    },
+    {
+      "index": 65,
+      "speaker": "passenger",
+      "start": 248.805,
+      "end": 251.305,
+      "duration": 2.5,
+      "text": "la hicieron o no. Pero yo tengo certeza que van a dar",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:09:08.805+00:00"
+    },
+    {
+      "index": 66,
+      "speaker": "passenger",
+      "start": 251.545,
+      "end": 251.985,
+      "duration": 0.44,
+      "text": "trabajo.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:09:11.545+00:00"
+    },
+    {
+      "index": 67,
+      "speaker": "carabinero_official",
+      "start": 253.605,
+      "end": 254.485,
+      "duration": 0.88,
+      "text": "No, no, no.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:09:13.605+00:00"
+    },
+    {
+      "index": 68,
+      "speaker": "carabinero_official",
+      "start": 278.345,
+      "end": 279.145,
+      "duration": 0.8,
+      "text": "¿Usted es italiano? Ah,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:09:38.345+00:00"
+    },
+    {
+      "index": 69,
+      "speaker": "passenger",
+      "start": 279.925,
+      "end": 281.785,
+      "duration": 1.86,
+      "text": "¿Yo soy brasileño de nacimiento?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:09:39.925+00:00"
+    },
+    {
+      "index": 70,
+      "speaker": "carabinero_official",
+      "start": 281.785,
+      "end": 283.325,
+      "duration": 1.54,
+      "text": "¿qué es eso? ¿Tiene todo brasileño?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:09:41.785+00:00"
+    },
+    {
+      "index": 71,
+      "speaker": "passenger",
+      "start": 283.825,
+      "end": 284.105,
+      "duration": 0.28,
+      "text": "¿Ah?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:09:43.825+00:00"
+    },
+    {
+      "index": 72,
+      "speaker": "carabinero_official",
+      "start": 284.225,
+      "end": 285.445,
+      "duration": 1.22,
+      "text": "¿Tiene como el tono brasileño?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:09:44.225+00:00"
+    },
+    {
+      "index": 73,
+      "speaker": "passenger",
+      "start": 285.805,
+      "end": 286.125,
+      "duration": 0.32,
+      "text": "Sí.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:09:45.805+00:00"
+    },
+    {
+      "index": 74,
+      "speaker": "passenger",
+      "start": 286.305,
+      "end": 288.805,
+      "duration": 2.5,
+      "text": "Hace unos años que no vivo allá, pero soy",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:09:46.305+00:00"
+    },
+    {
+      "index": 75,
+      "speaker": "passenger",
+      "start": 289.545,
+      "end": 290.325,
+      "duration": 0.78,
+      "text": "brasileño, sí.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:09:49.545+00:00"
+    },
+    {
+      "index": 76,
+      "speaker": "carabinero_official",
+      "start": 292.925,
+      "end": 295.265,
+      "duration": 2.34,
+      "text": "Tengo que grabar todo, que se le da nuevo.",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:09:52.925+00:00"
+    },
+    {
+      "index": 77,
+      "speaker": "carabinero_official",
+      "start": 295.845,
+      "end": 297.765,
+      "duration": 1.92,
+      "text": "¿Tiene ingresos? No sé, tengo aportes.",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:09:55.845+00:00"
+    },
+    {
+      "index": 78,
+      "speaker": "carabinero_official",
+      "start": 298.405,
+      "end": 301.805,
+      "duration": 3.4,
+      "text": "Copila, copila. Si está copiado, no se está copiado.",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:09:58.405+00:00"
+    },
+    {
+      "index": 79,
+      "speaker": "carabinero_official",
+      "start": 303.305,
+      "end": 305.185,
+      "duration": 1.88,
+      "text": "¿Se presenta el sistema? Sí.",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:10:03.305+00:00"
+    },
+    {
+      "index": 80,
+      "speaker": "carabinero_official",
+      "start": 305.385,
+      "end": 305.725,
+      "duration": 0.34,
+      "text": "¿Ya?",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:10:05.385+00:00"
+    },
+    {
+      "index": 81,
+      "speaker": "carabinero_official",
+      "start": 306.225,
+      "end": 306.865,
+      "duration": 0.64,
+      "text": "¿Qué es este?",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:10:06.225+00:00"
+    },
+    {
+      "index": 82,
+      "speaker": "carabinero_official",
+      "start": 307.265,
+      "end": 308.685,
+      "duration": 1.42,
+      "text": "Ahí, el último que le presenta.",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:10:07.265+00:00"
+    },
+    {
+      "index": 83,
+      "speaker": "carabinero_official",
+      "start": 309.925,
+      "end": 311.505,
+      "duration": 1.58,
+      "text": "como",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:10:09.925+00:00"
+    },
+    {
+      "index": 84,
+      "speaker": "carabinero_official",
+      "start": 314.245,
+      "end": 314.625,
+      "duration": 0.38,
+      "text": "¿Buenos?",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:10:14.245+00:00"
+    },
+    {
+      "index": 85,
+      "speaker": "carabinero_official",
+      "start": 314.865,
+      "end": 315.645,
+      "duration": 0.78,
+      "text": "esta la institución",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:10:14.865+00:00"
+    },
+    {
+      "index": 86,
+      "speaker": "carabinero_official",
+      "start": 315.645,
+      "end": 316.285,
+      "duration": 0.64,
+      "text": "¿Tení un puente?",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:10:15.645+00:00"
+    },
+    {
+      "index": 87,
+      "speaker": "carabinero_official",
+      "start": 316.785,
+      "end": 317.205,
+      "duration": 0.42,
+      "text": "si",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:10:16.785+00:00"
+    },
+    {
+      "index": 88,
+      "speaker": "carabinero_official",
+      "start": 317.425,
+      "end": 317.805,
+      "duration": 0.38,
+      "text": "¿Buenos?",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:10:17.425+00:00"
+    },
+    {
+      "index": 89,
+      "speaker": "carabinero_official",
+      "start": 318.845,
+      "end": 319.465,
+      "duration": 0.62,
+      "text": "¿Buenos?",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:10:18.845+00:00"
+    },
+    {
+      "index": 90,
+      "speaker": "carabinero_official",
+      "start": 319.965,
+      "end": 320.445,
+      "duration": 0.48,
+      "text": "¿Buenos?",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:10:19.965+00:00"
+    },
+    {
+      "index": 91,
+      "speaker": "carabinero_official",
+      "start": 320.585,
+      "end": 321.845,
+      "duration": 1.26,
+      "text": "lo deje a hijo",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:10:20.585+00:00"
+    },
+    {
+      "index": 92,
+      "speaker": "carabinero_official",
+      "start": 321.965,
+      "end": 322.385,
+      "duration": 0.42,
+      "text": "¿Buenos? ¿Buenos? ¿Buenos?",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:10:21.965+00:00"
+    },
+    {
+      "index": 93,
+      "speaker": "carabinero_official",
+      "start": 323.285,
+      "end": 323.765,
+      "duration": 0.48,
+      "text": "¡Buenos, gracias!",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:10:23.285+00:00"
+    },
+    {
+      "index": 94,
+      "speaker": "carabinero_official",
+      "start": 325.745,
+      "end": 326.625,
+      "duration": 0.88,
+      "text": "¡Buenos, gracias!",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:10:25.745+00:00"
+    },
+    {
+      "index": 95,
+      "speaker": "carabinero_official",
+      "start": 328.385,
+      "end": 328.945,
+      "duration": 0.56,
+      "text": "¡Buenos, gracias!",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:10:28.385+00:00"
+    },
+    {
+      "index": 96,
+      "speaker": "carabinero_official",
+      "start": 331.365,
+      "end": 331.985,
+      "duration": 0.62,
+      "text": "¡Buenos, gracias!",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:10:31.365+00:00"
+    },
+    {
+      "index": 97,
+      "speaker": "carabinero_official",
+      "start": 340.865,
+      "end": 344.685,
+      "duration": 3.82,
+      "text": "¡Buenos, gracias!",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:10:40.865+00:00"
+    },
+    {
+      "index": 98,
+      "speaker": "passenger",
+      "start": 345.425,
+      "end": 346.325,
+      "duration": 0.9,
+      "text": "Hola, buenos días.",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:10:45.425+00:00"
+    },
+    {
+      "index": 99,
+      "speaker": "carabinero_official",
+      "start": 357.205,
+      "end": 360.245,
+      "duration": 3.04,
+      "text": "Oiga, el sistema derrapante como que nos ayuda mucho.",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:10:57.205+00:00"
+    },
+    {
+      "index": 100,
+      "speaker": "passenger",
+      "start": 362.245,
+      "end": 363.425,
+      "duration": 1.18,
+      "text": "Pasa.",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:11:02.245+00:00"
+    },
+    {
+      "index": 101,
+      "speaker": "carabinero_official",
+      "start": 436.985,
+      "end": 437.885,
+      "duration": 0.9,
+      "text": "no la guarda",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:12:16.985+00:00"
+    },
+    {
+      "index": 102,
+      "speaker": "carabinero_official",
+      "start": 440.745,
+      "end": 441.985,
+      "duration": 1.24,
+      "text": "lo hice de nuevo pero no la guarda",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:12:20.745+00:00"
+    },
+    {
+      "index": 103,
+      "speaker": "passenger",
+      "start": 446.925,
+      "end": 448.405,
+      "duration": 1.48,
+      "text": "¿Puedo dar una",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:12:26.925+00:00"
+    },
+    {
+      "index": 104,
+      "speaker": "passenger",
+      "start": 449.185,
+      "end": 450.125,
+      "duration": 0.94,
+      "text": "sugerencia?",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:12:29.185+00:00"
+    },
+    {
+      "index": 105,
+      "speaker": "passenger",
+      "start": 451.025,
+      "end": 454.105,
+      "duration": 3.08,
+      "text": "Yo trabajo con el computador. La sugerencia, mejor.",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:12:31.025+00:00"
+    },
+    {
+      "index": 106,
+      "speaker": "passenger",
+      "start": 454.505,
+      "end": 455.385,
+      "duration": 0.88,
+      "text": "Lo receta,",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:12:34.505+00:00"
+    },
+    {
+      "index": 107,
+      "speaker": "passenger",
+      "start": 455.805,
+      "end": 457.425,
+      "duration": 1.62,
+      "text": "lo desligue, lo leí de nuevo.",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:12:35.805+00:00"
+    },
+    {
+      "index": 108,
+      "speaker": "passenger",
+      "start": 458.085,
+      "end": 459.205,
+      "duration": 1.12,
+      "text": "Probablemente funcione.",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:12:38.085+00:00"
+    },
+    {
+      "index": 109,
+      "speaker": "carabinero_official",
+      "start": 459.925,
+      "end": 462.065,
+      "duration": 2.14,
+      "text": "no es que es la pagina es la pagina de la",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:12:39.925+00:00"
+    },
+    {
+      "index": 110,
+      "speaker": "carabinero_official",
+      "start": 462.445,
+      "end": 463.305,
+      "duration": 0.86,
+      "text": "institución es",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:12:42.445+00:00"
+    },
+    {
+      "index": 111,
+      "speaker": "passenger",
+      "start": 463.425,
+      "end": 465.685,
+      "duration": 2.26,
+      "text": "Ah, ya. Casi estamos con ligados.",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:12:43.425+00:00"
+    },
+    {
+      "index": 112,
+      "speaker": "carabinero_official",
+      "start": 466.985,
+      "end": 467.265,
+      "duration": 0.28,
+      "text": "el",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:12:46.985+00:00"
+    },
+    {
+      "index": 113,
+      "speaker": "passenger",
+      "start": 472.345,
+      "end": 472.925,
+      "duration": 0.58,
+      "text": "No entiendo.",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:12:52.345+00:00"
+    },
+    {
+      "index": 114,
+      "speaker": "passenger",
+      "start": 479.185,
+      "end": 483.545,
+      "duration": 4.36,
+      "text": "Si es por un browser, entonces, debería ser al browser.",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:12:59.185+00:00"
+    },
+    {
+      "index": 115,
+      "speaker": "passenger",
+      "start": 483.845,
+      "end": 484.445,
+      "duration": 0.6,
+      "text": "Será...",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:13:03.845+00:00"
+    },
+    {
+      "index": 116,
+      "speaker": "carabinero_official",
+      "start": 484.445,
+      "end": 487.225,
+      "duration": 2.78,
+      "text": "que ocupa internet explorer no ocupa el otro",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:13:04.445+00:00"
+    },
+    {
+      "index": 117,
+      "speaker": "carabinero_official",
+      "start": 488.665,
+      "end": 489.565,
+      "duration": 0.9,
+      "text": "es el antiguo",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:13:08.665+00:00"
+    },
+    {
+      "index": 118,
+      "speaker": "passenger",
+      "start": 489.785,
+      "end": 490.405,
+      "duration": 0.62,
+      "text": "Internet.",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:13:09.785+00:00"
+    },
+    {
+      "index": 119,
+      "speaker": "carabinero_official",
+      "start": 490.485,
+      "end": 491.125,
+      "duration": 0.64,
+      "text": "internet",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:13:10.485+00:00"
+    },
+    {
+      "index": 120,
+      "speaker": "carabinero_official",
+      "start": 492.245,
+      "end": 492.885,
+      "duration": 0.64,
+      "text": "es de",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:13:12.245+00:00"
+    },
+    {
+      "index": 121,
+      "speaker": "passenger",
+      "start": 493.045,
+      "end": 493.745,
+      "duration": 0.7,
+      "text": "Ah, ya.",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:13:13.045+00:00"
+    },
+    {
+      "index": 122,
+      "speaker": "carabinero_official",
+      "start": 493.745,
+      "end": 495.045,
+      "duration": 1.3,
+      "text": "las instituciones el",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:13:13.745+00:00"
+    },
+    {
+      "index": 123,
+      "speaker": "passenger",
+      "start": 495.185,
+      "end": 499.245,
+      "duration": 4.06,
+      "text": "Entendí. Está... Está no actualizado.",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:13:15.185+00:00"
+    },
+    {
+      "index": 124,
+      "speaker": "carabinero_official",
+      "start": 500.245,
+      "end": 501.345,
+      "duration": 1.1,
+      "text": "sistema antiguo",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:13:20.245+00:00"
+    },
+    {
+      "index": 125,
+      "speaker": "passenger",
+      "start": 501.685,
+      "end": 502.705,
+      "duration": 1.02,
+      "text": "No entiendo.",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:13:21.685+00:00"
+    },
+    {
+      "index": 126,
+      "speaker": "carabinero_official",
+      "start": 543.325,
+      "end": 544.605,
+      "duration": 1.28,
+      "text": "No,",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:14:03.325+00:00"
+    },
+    {
+      "index": 127,
+      "speaker": "carabinero_official",
+      "start": 544.845,
+      "end": 557.125,
+      "duration": 12.28,
+      "text": "no, no, no.",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:14:04.845+00:00"
+    },
+    {
+      "index": 128,
+      "speaker": "passenger",
+      "start": 557.745,
+      "end": 561.185,
+      "duration": 3.44,
+      "text": "Buenos días, buen servicio. Pero permíteme chupar la siguiente decisión por vosotros.",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:14:17.745+00:00"
+    },
+    {
+      "index": 129,
+      "speaker": "carabinero_official",
+      "start": 561.185,
+      "end": 561.685,
+      "duration": 0.5,
+      "text": "No,",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:14:21.185+00:00"
+    },
+    {
+      "index": 130,
+      "speaker": "carabinero_official",
+      "start": 563.785,
+      "end": 565.025,
+      "duration": 1.24,
+      "text": "no,",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:14:23.785+00:00"
+    },
+    {
+      "index": 131,
+      "speaker": "carabinero_official",
+      "start": 567.225,
+      "end": 569.305,
+      "duration": 2.08,
+      "text": "no,",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:14:27.225+00:00"
+    },
+    {
+      "index": 132,
+      "speaker": "carabinero_official",
+      "start": 578.985,
+      "end": 582.305,
+      "duration": 3.32,
+      "text": "no, no,",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:14:38.985+00:00"
+    },
+    {
+      "index": 133,
+      "speaker": "carabinero_official",
+      "start": 584.385,
+      "end": 586.825,
+      "duration": 2.44,
+      "text": "¿Buenos,",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:14:44.385+00:00"
+    },
+    {
+      "index": 134,
+      "speaker": "carabinero_official",
+      "start": 597.145,
+      "end": 597.785,
+      "duration": 0.64,
+      "text": "No,",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:14:57.145+00:00"
+    },
+    {
+      "index": 135,
+      "speaker": "carabinero_official",
+      "start": 599.165,
+      "end": 600.805,
+      "duration": 1.64,
+      "text": "no,",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:14:59.165+00:00"
+    },
+    {
+      "index": 136,
+      "speaker": "carabinero_official",
+      "start": 603.585,
+      "end": 604.525,
+      "duration": 0.94,
+      "text": "gracias!",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:15:03.585+00:00"
+    },
+    {
+      "index": 137,
+      "speaker": "carabinero_official",
+      "start": 611.285,
+      "end": 613.745,
+      "duration": 2.46,
+      "text": "no.",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:15:11.285+00:00"
+    },
+    {
+      "index": 138,
+      "speaker": "carabinero_official",
+      "start": 614.285,
+      "end": 615.265,
+      "duration": 0.98,
+      "text": "No, no, no, no,",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:15:14.285+00:00"
+    },
+    {
+      "index": 139,
+      "speaker": "carabinero_official",
+      "start": 620.405,
+      "end": 621.005,
+      "duration": 0.6,
+      "text": "hay en arabo",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:15:20.405+00:00"
+    },
+    {
+      "index": 140,
+      "speaker": "carabinero_official",
+      "start": 624.245,
+      "end": 625.405,
+      "duration": 1.16,
+      "text": "438",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:15:24.245+00:00"
+    },
+    {
+      "index": 141,
+      "speaker": "carabinero_official",
+      "start": 625.645,
+      "end": 627.585,
+      "duration": 1.94,
+      "text": "no.",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:15:25.645+00:00"
+    },
+    {
+      "index": 142,
+      "speaker": "carabinero_official",
+      "start": 639.905,
+      "end": 640.705,
+      "duration": 0.8,
+      "text": "eso",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:15:39.905+00:00"
+    },
+    {
+      "index": 143,
+      "speaker": "carabinero_official",
+      "start": 641.005,
+      "end": 641.365,
+      "duration": 0.36,
+      "text": "ah",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:15:41.005+00:00"
+    },
+    {
+      "index": 144,
+      "speaker": "carabinero_official",
+      "start": 641.365,
+      "end": 642.365,
+      "duration": 1.0,
+      "text": "no, el dedo.",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:15:41.365+00:00"
+    },
+    {
+      "index": 145,
+      "speaker": "carabinero_official",
+      "start": 642.465,
+      "end": 643.805,
+      "duration": 1.34,
+      "text": "el libro de Barga es",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:15:42.465+00:00"
+    },
+    {
+      "index": 146,
+      "speaker": "carabinero_official",
+      "start": 644.005,
+      "end": 644.605,
+      "duration": 0.6,
+      "text": "¿Se metió?",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:15:44.005+00:00"
+    },
+    {
+      "index": 147,
+      "speaker": "carabinero_official",
+      "start": 644.965,
+      "end": 646.185,
+      "duration": 1.22,
+      "text": "un carto de ostancia",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:15:44.965+00:00"
+    },
+    {
+      "index": 148,
+      "speaker": "carabinero_official",
+      "start": 646.745,
+      "end": 647.745,
+      "duration": 1.0,
+      "text": "si uno y",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:15:46.745+00:00"
+    },
+    {
+      "index": 149,
+      "speaker": "carabinero_official",
+      "start": 647.745,
+      "end": 648.445,
+      "duration": 0.7,
+      "text": "Gracias.",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:15:47.745+00:00"
+    },
+    {
+      "index": 150,
+      "speaker": "carabinero_official",
+      "start": 649.065,
+      "end": 650.165,
+      "duration": 1.1,
+      "text": "no se ocupa otro hay",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:15:49.065+00:00"
+    },
+    {
+      "index": 151,
+      "speaker": "carabinero_official",
+      "start": 650.585,
+      "end": 651.605,
+      "duration": 1.02,
+      "text": "un guapo en el antiguo",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:15:50.585+00:00"
+    },
+    {
+      "index": 152,
+      "speaker": "carabinero_official",
+      "start": 652.545,
+      "end": 653.125,
+      "duration": 0.58,
+      "text": "¿De verdad?",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:15:52.545+00:00"
+    },
+    {
+      "index": 153,
+      "speaker": "carabinero_official",
+      "start": 653.165,
+      "end": 653.885,
+      "duration": 0.72,
+      "text": "el antiguo",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:15:53.165+00:00"
+    },
+    {
+      "index": 154,
+      "speaker": "carabinero_official",
+      "start": 654.185,
+      "end": 655.145,
+      "duration": 0.96,
+      "text": "el negro",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:15:54.185+00:00"
+    },
+    {
+      "index": 155,
+      "speaker": "carabinero_official",
+      "start": 661.765,
+      "end": 665.645,
+      "duration": 3.88,
+      "text": "Yo no me voy a recibir de esa cadena. ¿De verdad? ¿De verdad?",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:16:01.765+00:00"
+    },
+    {
+      "index": 156,
+      "speaker": "carabinero_official",
+      "start": 667.005,
+      "end": 668.685,
+      "duration": 1.68,
+      "text": "¿De verdad?",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:16:07.005+00:00"
+    },
+    {
+      "index": 157,
+      "speaker": "carabinero_official",
+      "start": 670.625,
+      "end": 671.525,
+      "duration": 0.9,
+      "text": "¿De verdad?",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:16:10.625+00:00"
+    },
+    {
+      "index": 158,
+      "speaker": "carabinero_official",
+      "start": 676.105,
+      "end": 678.565,
+      "duration": 2.46,
+      "text": "¿De verdad? Ahí está. Ah, no.",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:16:16.105+00:00"
+    },
+    {
+      "index": 159,
+      "speaker": "carabinero_official",
+      "start": 679.245,
+      "end": 680.685,
+      "duration": 1.44,
+      "text": "Ah, no, espera, no.",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:16:19.245+00:00"
+    },
+    {
+      "index": 160,
+      "speaker": "carabinero_official",
+      "start": 680.685,
+      "end": 681.785,
+      "duration": 1.1,
+      "text": "¡Buenos, gracias!",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:16:20.685+00:00"
+    },
+    {
+      "index": 161,
+      "speaker": "carabinero_official",
+      "start": 682.245,
+      "end": 683.505,
+      "duration": 1.26,
+      "text": "No, no.",
+      "reviewed": true,
+      "backchannel_events": "background not relevant for case",
+      "segment_datetime": "2024-07-06T07:16:22.245+00:00"
+    },
+    {
+      "index": 162,
+      "speaker": "passenger",
+      "start": 686.065,
+      "end": 687.425,
+      "duration": 1.36,
+      "text": "No hay que toque un apuro.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:16:26.065+00:00"
+    },
+    {
+      "index": 163,
+      "speaker": "carabinero_official",
+      "start": 689.125,
+      "end": 690.245,
+      "duration": 1.12,
+      "text": "¿A que horas tiene su vuelo?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:16:29.125+00:00"
+    },
+    {
+      "index": 164,
+      "speaker": "passenger",
+      "start": 690.265,
+      "end": 691.425,
+      "duration": 1.16,
+      "text": "Mañana,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:16:30.265+00:00"
+    },
+    {
+      "index": 165,
+      "speaker": "carabinero_official",
+      "start": 691.425,
+      "end": 693.385,
+      "duration": 1.96,
+      "text": "Ah, mañana. ¿La perdió?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:16:31.425+00:00"
+    },
+    {
+      "index": 166,
+      "speaker": "passenger",
+      "start": 693.785,
+      "end": 696.085,
+      "duration": 2.3,
+      "text": "no perdí, me sacaron de adentro del vuelo.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:16:33.785+00:00"
+    },
+    {
+      "index": 167,
+      "speaker": "carabinero_official",
+      "start": 696.205,
+      "end": 697.745,
+      "duration": 1.54,
+      "text": "No le puedo creer por qué.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:16:36.205+00:00"
+    },
+    {
+      "index": 168,
+      "speaker": "passenger",
+      "start": 698.065,
+      "end": 701.945,
+      "duration": 3.88,
+      "text": "Porque me alegaron de agresión, que la PDI confirmó que no pasó.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:16:38.065+00:00"
+    },
+    {
+      "index": 169,
+      "speaker": "passenger",
+      "start": 702.125,
+      "end": 702.925,
+      "duration": 0.8,
+      "text": "Y me alegaron",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:16:42.125+00:00"
+    },
+    {
+      "index": 170,
+      "speaker": "carabinero_official",
+      "start": 702.925,
+      "end": 704.005,
+      "duration": 1.08,
+      "text": "¿Qué línea de área es?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:16:42.925+00:00"
+    },
+    {
+      "index": 171,
+      "speaker": "passenger",
+      "start": 704.045,
+      "end": 704.585,
+      "duration": 0.54,
+      "text": "latente.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:16:44.045+00:00"
+    },
+    {
+      "index": 172,
+      "speaker": "passenger",
+      "start": 704.965,
+      "end": 705.545,
+      "duration": 0.58,
+      "text": "Simplemente,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:16:44.965+00:00"
+    },
+    {
+      "index": 173,
+      "speaker": "carabinero_official",
+      "start": 705.545,
+      "end": 709.185,
+      "duration": 3.64,
+      "text": "Ahí que, ayer estábamos hablando lo mismo. Ellos no, no sé. Son,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:16:45.545+00:00"
+    },
+    {
+      "index": 174,
+      "speaker": "passenger",
+      "start": 709.185,
+      "end": 711.665,
+      "duration": 2.48,
+      "text": "¿sabes qué? Cree que pueden hacer lo que quieran.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:16:49.185+00:00"
+    },
+    {
+      "index": 175,
+      "speaker": "carabinero_official",
+      "start": 711.665,
+      "end": 712.005,
+      "duration": 0.34,
+      "text": "no sé.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:16:51.665+00:00"
+    },
+    {
+      "index": 176,
+      "speaker": "passenger",
+      "start": 712.065,
+      "end": 714.165,
+      "duration": 2.1,
+      "text": "Pero están... Están incorrectos en eso.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:16:52.065+00:00"
+    },
+    {
+      "index": 177,
+      "speaker": "passenger",
+      "start": 714.505,
+      "end": 716.845,
+      "duration": 2.34,
+      "text": "Están muy incorrectos en eso. Porque yo no lo voy a dejar así.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:16:54.505+00:00"
+    },
+    {
+      "index": 178,
+      "speaker": "carabinero_official",
+      "start": 718.305,
+      "end": 721.065,
+      "duration": 2.76,
+      "text": "¿Está bien? Pues hágale una denuncia a ellos porque ya es.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:16:58.305+00:00"
+    },
+    {
+      "index": 179,
+      "speaker": "carabinero_official",
+      "start": 721.685,
+      "end": 726.425,
+      "duration": 4.74,
+      "text": "Es de siempre, casi todos los días, que se ve en alguien detenido por agresión.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:17:01.685+00:00"
+    },
+    {
+      "index": 180,
+      "speaker": "carabinero_official",
+      "start": 727.065,
+      "end": 730.205,
+      "duration": 3.14,
+      "text": "Que por agresiones, que dijo goma, que no sé.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:17:07.065+00:00"
+    },
+    {
+      "index": 181,
+      "speaker": "passenger",
+      "start": 730.205,
+      "end": 733.325,
+      "duration": 3.12,
+      "text": "Yo no hice nada. No tenía un testigo.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:17:10.205+00:00"
+    },
+    {
+      "index": 182,
+      "speaker": "passenger",
+      "start": 734.285,
+      "end": 737.065,
+      "duration": 2.78,
+      "text": "No tenía... Y yo ya estaba dentro del vuelo.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:17:14.285+00:00"
+    },
+    {
+      "index": 183,
+      "speaker": "passenger",
+      "start": 737.885,
+      "end": 740.465,
+      "duration": 2.58,
+      "text": "Entonces llegaron diciendo que te he agredido. Y decían, mira.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:17:17.885+00:00"
+    },
+    {
+      "index": 184,
+      "speaker": "passenger",
+      "start": 741.205,
+      "end": 741.985,
+      "duration": 0.78,
+      "text": "Mira la cámara.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:17:21.205+00:00"
+    },
+    {
+      "index": 185,
+      "speaker": "passenger",
+      "start": 742.805,
+      "end": 743.545,
+      "duration": 0.74,
+      "text": "Mira la cámara.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:17:22.805+00:00"
+    },
+    {
+      "index": 186,
+      "speaker": "passenger",
+      "start": 744.005,
+      "end": 744.445,
+      "duration": 0.44,
+      "text": "Si",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:17:24.005+00:00"
+    },
+    {
+      "index": 187,
+      "speaker": "passenger",
+      "start": 745.385,
+      "end": 748.745,
+      "duration": 3.36,
+      "text": "comprovas que yo agredí a alguien, yo salgo. Yo me levanto y yo salgo.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:17:25.385+00:00"
+    },
+    {
+      "index": 188,
+      "speaker": "passenger",
+      "start": 749.705,
+      "end": 750.965,
+      "duration": 1.26,
+      "text": "Y ya nada.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:17:29.705+00:00"
+    },
+    {
+      "index": 189,
+      "speaker": "passenger",
+      "start": 751.265,
+      "end": 752.845,
+      "duration": 1.58,
+      "text": "Volveron un poco después.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:17:31.265+00:00"
+    },
+    {
+      "index": 190,
+      "speaker": "passenger",
+      "start": 754.345,
+      "end": 754.665,
+      "duration": 0.32,
+      "text": "Sí.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:17:34.345+00:00"
+    },
+    {
+      "index": 191,
+      "speaker": "passenger",
+      "start": 755.265,
+      "end": 757.105,
+      "duration": 1.84,
+      "text": "Tenemos que te sacar porque tú",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:17:35.265+00:00"
+    },
+    {
+      "index": 192,
+      "speaker": "passenger",
+      "start": 757.865,
+      "end": 759.525,
+      "duration": 1.66,
+      "text": "entró en el gate",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:17:37.865+00:00"
+    },
+    {
+      "index": 193,
+      "speaker": "passenger",
+      "start": 760.165,
+      "end": 760.785,
+      "duration": 0.62,
+      "text": "solo.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:17:40.165+00:00"
+    },
+    {
+      "index": 194,
+      "speaker": "passenger",
+      "start": 761.485,
+      "end": 765.065,
+      "duration": 3.58,
+      "text": "Nadie vio tú... Tú... Tú hiciste un procedimiento que no debería.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:17:41.485+00:00"
+    },
+    {
+      "index": 195,
+      "speaker": "passenger",
+      "start": 765.445,
+      "end": 765.865,
+      "duration": 0.42,
+      "text": "Fue...",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:17:45.445+00:00"
+    },
+    {
+      "index": 196,
+      "speaker": "passenger",
+      "start": 766.545,
+      "end": 768.325,
+      "duration": 1.78,
+      "text": "¿Qué historia que están intentando?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:17:46.545+00:00"
+    },
+    {
+      "index": 197,
+      "speaker": "passenger",
+      "start": 768.885,
+      "end": 772.745,
+      "duration": 3.86,
+      "text": "Y las personas también estaban... Yo tengo grabación de audio de eso todo.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:17:48.885+00:00"
+    },
+    {
+      "index": 198,
+      "speaker": "passenger",
+      "start": 773.205,
+      "end": 774.705,
+      "duration": 1.5,
+      "text": "Las personas también... Pero ¿cómo?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:17:53.205+00:00"
+    },
+    {
+      "index": 199,
+      "speaker": "passenger",
+      "start": 774.985,
+      "end": 776.185,
+      "duration": 1.2,
+      "text": "Nadie lo vio nada.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:17:54.985+00:00"
+    },
+    {
+      "index": 200,
+      "speaker": "passenger",
+      "start": 776.685,
+      "end": 777.885,
+      "duration": 1.2,
+      "text": "Estaban todos juntos.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:17:56.685+00:00"
+    },
+    {
+      "index": 201,
+      "speaker": "passenger",
+      "start": 779.725,
+      "end": 783.505,
+      "duration": 3.78,
+      "text": "Está contra él. Es una persecución personal eso.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:17:59.725+00:00"
+    },
+    {
+      "index": 202,
+      "speaker": "carabinero_official",
+      "start": 783.765,
+      "end": 785.305,
+      "duration": 1.54,
+      "text": "Es que ellos siempre hacen eso.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:18:03.765+00:00"
+    },
+    {
+      "index": 203,
+      "speaker": "passenger",
+      "start": 785.305,
+      "end": 786.065,
+      "duration": 0.76,
+      "text": "Sí, pero...",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:18:05.305+00:00"
+    },
+    {
+      "index": 204,
+      "speaker": "carabinero_official",
+      "start": 786.065,
+      "end": 787.165,
+      "duration": 1.1,
+      "text": "Se lo digo porque",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:18:06.065+00:00"
+    },
+    {
+      "index": 205,
+      "speaker": "passenger",
+      "start": 787.165,
+      "end": 788.325,
+      "duration": 1.16,
+      "text": "Pero no puede.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:18:07.165+00:00"
+    },
+    {
+      "index": 206,
+      "speaker": "carabinero_official",
+      "start": 788.325,
+      "end": 788.585,
+      "duration": 0.26,
+      "text": "yo",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:18:08.325+00:00"
+    },
+    {
+      "index": 207,
+      "speaker": "passenger",
+      "start": 788.585,
+      "end": 789.485,
+      "duration": 0.9,
+      "text": "No puede.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:18:08.585+00:00"
+    },
+    {
+      "index": 208,
+      "speaker": "carabinero_official",
+      "start": 789.485,
+      "end": 793.665,
+      "duration": 4.18,
+      "text": "le dije a una persona que pasó detenida la otra vez acá, le dije haga una denuncia.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:18:09.485+00:00"
+    },
+    {
+      "index": 209,
+      "speaker": "passenger",
+      "start": 793.805,
+      "end": 797.665,
+      "duration": 3.86,
+      "text": "Sí, no. Tiene que hacer. Porque si cuanto más personas hicieran,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:18:13.805+00:00"
+    },
+    {
+      "index": 210,
+      "speaker": "carabinero_official",
+      "start": 797.705,
+      "end": 798.145,
+      "duration": 0.44,
+      "text": "Sí.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:18:17.705+00:00"
+    },
+    {
+      "index": 211,
+      "speaker": "passenger",
+      "start": 798.245,
+      "end": 800.265,
+      "duration": 2.02,
+      "text": "va a comenzar a reducir eso. Y",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:18:18.245+00:00"
+    },
+    {
+      "index": 212,
+      "speaker": "carabinero_official",
+      "start": 800.745,
+      "end": 805.225,
+      "duration": 4.48,
+      "text": "No, tiene que seleccionar. No, está bien ahí. Seleccione y todo, a ver.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:18:20.745+00:00"
+    },
+    {
+      "index": 213,
+      "speaker": "passenger",
+      "start": 807.565,
+      "end": 809.285,
+      "duration": 1.72,
+      "text": "me acusaron de agresión, pero",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:18:27.565+00:00"
+    },
+    {
+      "index": 214,
+      "speaker": "passenger",
+      "start": 810.005,
+      "end": 812.165,
+      "duration": 2.16,
+      "text": "agredieron a mí. Porque yo dije... Mira,",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:18:30.005+00:00"
+    },
+    {
+      "index": 215,
+      "speaker": "passenger",
+      "start": 812.405,
+      "end": 816.165,
+      "duration": 3.76,
+      "text": "yo no tengo nada que salir de acá porque me proveen algo y yo salgo.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:18:32.405+00:00"
+    },
+    {
+      "index": 216,
+      "speaker": "carabinero_official",
+      "start": 816.345,
+      "end": 817.225,
+      "duration": 0.88,
+      "text": "¡Buenos, gracias! ¡Buenos, gracias!",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:18:36.345+00:00"
+    },
+    {
+      "index": 217,
+      "speaker": "passenger",
+      "start": 817.225,
+      "end": 821.345,
+      "duration": 4.12,
+      "text": "Mira, yo no voy a forzar a me quedar acá. Yo simplemente estoy sentado.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:18:37.225+00:00"
+    },
+    {
+      "index": 218,
+      "speaker": "passenger",
+      "start": 821.585,
+      "end": 822.425,
+      "duration": 0.84,
+      "text": "Me saquen de aquí.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:18:41.585+00:00"
+    },
+    {
+      "index": 219,
+      "speaker": "passenger",
+      "start": 822.705,
+      "end": 824.785,
+      "duration": 2.08,
+      "text": "Yo no voy a intentar me quedar aquí, no.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:18:42.705+00:00"
+    },
+    {
+      "index": 220,
+      "speaker": "passenger",
+      "start": 825.125,
+      "end": 827.865,
+      "duration": 2.74,
+      "text": "Simplemente me saquen de aquí. Pero me sacaron arrastado.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:18:45.125+00:00"
+    },
+    {
+      "index": 221,
+      "speaker": "passenger",
+      "start": 828.825,
+      "end": 837.085,
+      "duration": 8.26,
+      "text": "Eso tiene filmado otros... Los otros pasajeros filmaron. Los otros pasajeros ya entraron en contacto conmigo. Que nunca los vi en la vida.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:18:48.825+00:00"
+    },
+    {
+      "index": 222,
+      "speaker": "passenger",
+      "start": 837.405,
+      "end": 840.125,
+      "duration": 2.72,
+      "text": "Ya entraron en contacto conmigo me mandando videos.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:18:57.405+00:00"
+    },
+    {
+      "index": 223,
+      "speaker": "carabinero_official",
+      "start": 840.125,
+      "end": 840.525,
+      "duration": 0.4,
+      "text": "Muy bien.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:19:00.125+00:00"
+    },
+    {
+      "index": 224,
+      "speaker": "passenger",
+      "start": 840.665,
+      "end": 841.345,
+      "duration": 0.68,
+      "text": "¿Quiere ver un video?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:19:00.665+00:00"
+    },
+    {
+      "index": 225,
+      "speaker": "carabinero_official",
+      "start": 842.205,
+      "end": 842.585,
+      "duration": 0.38,
+      "text": "A ver.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:19:02.205+00:00"
+    },
+    {
+      "index": 226,
+      "speaker": "passenger",
+      "start": 842.645,
+      "end": 843.285,
+      "duration": 0.64,
+      "text": "¿Quiere ver uno?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-06T07:19:02.645+00:00"
+    }
+  ],
+  "reviewed": true
+}

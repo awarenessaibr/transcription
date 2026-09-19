@@ -1,0 +1,107 @@
+{
+  "title": "aeropuerto_STG_20",
+  "audio_id": "aeropuerto_STG_20",
+  "filename": "aeropuerto_STG_20",
+  "recordingdatetime": "2024-07-05T17:46:00",
+  "location": "Arturo Merino Benítez International Airport, Santiago, Chile",
+  "content": [
+    {
+      "speaker": "Joaquin Barraza (Latam Chief Security?)",
+      "start": 0.03,
+      "end": 0.44,
+      "text": " Sí.",
+      "id": "0"
+    },
+    {
+      "speaker": "Joaquin Barraza (Latam Chief Security?)",
+      "start": 2.97,
+      "end": 3.5,
+      "text": " ¿Alguna pregunta?",
+      "id": "1"
+    },
+    {
+      "speaker": "Leandro Disconzi (passenger)",
+      "start": 3.5,
+      "end": 7.4,
+      "text": "Sí, yo estoy esperando una documentación, porque yo tengo derecho.",
+      "id": "2"
+    },
+    {
+      "speaker": "Joaquin Barraza (Latam Chief Security?)",
+      "start": 7.4,
+      "end": 8.94,
+      "text": "No. Siga esperando pero no le va a llegar nada",
+      "id": "3"
+    },
+    {
+      "speaker": "Leandro Disconzi (passenger)",
+      "start": 25.24,
+      "end": 27.5,
+      "text": " Fue tu decisión de sacarme el vuelo a fuerza.",
+      "id": "4"
+    },
+    {
+      "speaker": "Joaquin Barraza (Latam Chief Security?)",
+      "start": 27.5,
+      "end": 34,
+      "text": "No, eso no fue mi decisión. Tú no colaboraste, pasamos 40 minutos explicándome. Casi cancelas el vuelo porque tú no querías colaborar.",
+      "id": "5"
+    },
+    {
+      "speaker": "Leandro Disconzi (passenger)",
+      "start": 34,
+      "end": 37,
+      "text": " Las dos acusaciones fueron falsas.",
+      "id": "6"
+    },
+    {
+      "speaker": "Joaquin Barraza (Latam Chief Security?)",
+      "start": 37,
+      "end": 38,
+      "text": " ¿Qué acusación? ¿Qué acusación?",
+      "id": "7"
+    },
+    {
+      "speaker": "Leandro Disconzi (passenger)",
+      "start": 38,
+      "end": 39.4,
+      "text": "Una de agresión.  ",
+      "id": "8"
+    },
+    {
+      "speaker": "Joaquin Barraza (Latam Chief Security?)",
+      "start": 39.4,
+      "end": 40,
+      "text": "¿Nadie te ",
+      "id": "9"
+    },
+    {
+      "speaker": "Joaquin Barraza (Latam Chief Security?)",
+      "start": 41.75,
+      "end": 42.86,
+      "text": "acusó por agressión?",
+      "id": "7"
+    },
+    {
+      "speaker": "Joaquin Barraza (Latam Chief Security?)",
+      "start": 52.97,
+      "end": 56.3,
+      "text": " Ellas no tienen nada que ver Ellas no tienen nada que ver. VEN PARA CA!",
+      "id": "11"
+    },
+    {
+      "speaker": "Leandro Disconzi (passenger)",
+      "start": 56.3,
+      "end": 61.27,
+      "text": " Hablan bien conmigo Tu estabas hablando como si estuvieras haciendo algo malo Quien hizo algo malo fue tu",
+      "id": "12"
+    },
+    {
+      "speaker": "Joaquin Barraza (Latam Chief Security?)",
+      "start": 62.43,
+      "end": 63.65,
+      "text": " Sí, es el que nos colaboró.",
+      "id": "9"
+    }
+  ]
+}

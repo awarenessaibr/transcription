@@ -1,0 +1,517 @@
+{
+  "transcript_id": "I-002_03_NAR-05_STG_5_aircraft_removal",
+  "source_file": "",
+  "language": "es",
+  "timestamp": "2024-07-05T13:33:02",
+  "provider": "",
+  "original_transcript_id": "I-002_03_NAR-05_STG_5_aircraft_removal",
+  "metadata": {
+    "timestamps": {
+      "QuickTime_Movie_Header_Created": "2024-07-05T20:30:02.000Z",
+      "File_Modified_Date": "2025-07-06T15:53:46.000Z"
+    },
+    "audio_properties": {
+      "duration": "00:03:05.899",
+      "track_id": "48000",
+      "preferred_volume": "1"
+    },
+    "file_info": {
+      "file_size": "1597387 bytes",
+      "file_size_kb": "1559.95 KB",
+      "major_brand": "M4A",
+      "content_type": "audio/mp4",
+      "file_name": "aeropuerto_STG_5.m4a"
+    },
+    "ontology_node_id": "TRNS_7962d91d",
+    "ontology_schema_version": "2.3.1"
+  },
+  "title": "Aeropuerto Arturo Merino Benítez 5 — FINAL v2",
+  "subtitle": "Aircraft Removal",
+  "recording_datetime": "2024-07-05T13:33:00",
+  "location": "Arturo Merino Benítez International Airport (SCL), Santiago, Chile — Aboard Aircraft (prior to pushback)",
+  "audio_id": "aeropuerto_STG_5",
+  "case_id": "I-002",
+  "narrative_id": "NAR-05_STG_5_aircraft_removal",
+  "chronological_order": 3,
+  "prior_stage": "I-002_02_NAR-02_STG_2_boarding_gate",
+  "next_stage": "I-002_04_NAR-06_STG_6_jetbridge_standoff",
+  "classification": "Attorney Work Product — Privileged and Confidential",
+  "participants": [
+    {
+      "canonical_name": "Leandro Disconzi",
+      "role": "Passenger",
+      "speaker_label": "Passenger (Leandro Disconzi)",
+      "speaker_id": "SPK-passenger-leandro"
+    },
+    {
+      "canonical_name": "Unknown",
+      "role": "Latam Stewardess — flight attendant demanding removal",
+      "speaker_label": "Latam Stewardess",
+      "speaker_id": "SPK-stewardess-accuser"
+    }
+  ],
+  "violations_cited": [
+    "CL-008"
+  ],
+  "tags": [
+    "transcript",
+    "narrative",
+    "evidence",
+    "aircraft-removal",
+    "forced-removal",
+    "false-aggression-allegation",
+    "security-activated"
+  ],
+  "forensic_clusters": {
+    "cluster_A_removal_demand_no_explanation": {
+      "segments": [
+        "0-4"
+      ],
+      "summary": "Stewardess opens with blunt removal order: 'Tiene que salir del avión, tiene que bajar'. No explanation offered. Passenger asks '¿Por qué?' three times. Stewardess remains silent through all three demands for an explanation — the delay (from second 2.87 to 12.8) is approximately 10 seconds of silence/refusal to answer."
+    },
+    "cluster_B_aggression_allegation_no_proof": {
+      "segments": [
+        "5-8"
+      ],
+      "summary": "Stewardess finally answers: 'Por qué fue agresivo'. First articulation of the aggression allegation. Passenger immediately demands proof: '¿dónde está la prueba?'. Stewardess ignores the demand and repeats the removal order. The allegation is stated as fact without evidence."
+    },
+    "cluster_C_passenger_refusal_and_conditional_compliance": {
+      "segments": [
+        "9-12"
+      ],
+      "summary": "Passenger refuses removal: 'Yo no voy a salir, simple, porque yo no tengo motivo.' Offers conditional compliance: will leave if shown proof. Stewardess radios for backup: 'el pasajero no se quiere mover'. Passenger informs he is recording. Security activated."
+    },
+    "cluster_D_touching_allegation_introduced": {
+      "segments": [
+        "13-20"
+      ],
+      "summary": "Stewardess shifts justification: references boarding-gate questions ('Usted empezó desde un comienzo a decir que el vuelo estaba tarde'). Passenger corrects: he asked questions, didn't make statements. Stewardess introduces second allegation: 'no tiene el derecho de tocar a mi compañero'. Passenger admits incidental touch, offers cultural explanation. Stewardess contradicts without detail: 'No fue así.' Passenger invokes cameras again."
+    },
+    "cluster_E_camera_agreement_and_immediate_reversal": {
+      "segments": [
+        "21-24"
+      ],
+      "summary": "Stewardess momentarily engages: 'Podemos pedir las cámaras del aeropuerto.' Passenger accepts conditionally: 'después de eso sí.' Stewardess immediately reverts to Portuguese: 'Vai ter que bajar.' The camera agreement — the only cooperative moment — is abandoned within 2 seconds. Passenger draws hard line: 'No, no voy, punto' and warns forced removal will strengthen the legal case."
+    },
+    "cluster_F_security_escalation": {
+      "segments": [
+        "25"
+      ],
+      "summary": "Stewardess calls for security: 'Llamen a la ventas. No hay caso.' Recording ends. The removal process moves from verbal demand to physical enforcement."
+    }
+  },
+  "key_evidentiary_findings": [
+    {
+      "id": "S5-1",
+      "finding": "Aggression allegation stated as fact ('Por qué fue agresivo') with no evidence provided, despite passenger demanding proof three times",
+      "segments": [
+        "5",
+        "6",
+        "7"
+      ],
+      "strength": "High",
+      "cross_reference": "F-003 (manufactured pretext); STG_15 seg 3-6 (same allegation repeated at luggage counter)"
+    },
+    {
+      "id": "S5-2",
+      "finding": "Touching allegation introduced only after aggression allegation failed to secure compliance — possible escalation of manufactured pretext",
+      "segments": [
+        "17",
+        "18"
+      ],
+      "strength": "High",
+      "cross_reference": "F-003; STG_15 seg 3 (passenger states initial allegation was 'una mentira')"
+    },
+    {
+      "id": "S5-3",
+      "finding": "Passenger offered conditional compliance: would leave if shown proof. Stewardess never engaged with the offer.",
+      "segments": [
+        "9",
+        "12"
+      ],
+      "strength": "High",
+      "cross_reference": "Demonstrates passenger was not categorically refusing — was seeking due process"
+    },
+    {
+      "id": "S5-4",
+      "finding": "Stewardess agreed to request cameras ('Podemos pedir las cámaras del aeropuerto') but immediately reverted to removal demand — agreement lasted approximately 2 seconds",
+      "segments": [
+        "23",
+        "24"
+      ],
+      "strength": "High",
+      "cross_reference": "Camera evidence was never pursued. Pattern: staff invoke cameras as placation, never follow through."
+    },
+    {
+      "id": "S5-5",
+      "finding": "Passenger explicitly warned forced removal would strengthen legal case: 'me saquen de acá a la fuerza y de ahí tenemos más algo para el proceso contra Latam'",
+      "segments": [
+        "24"
+      ],
+      "strength": "High",
+      "cross_reference": "Passenger's warning was recorded; subsequent forced removal proceeded despite this warning"
+    },
+    {
+      "id": "S5-6",
+      "finding": "Stewardess reverted to Portuguese ('Vai ter que bajar') at peak tension — possible indicator of stress or loss of scripted composure",
+      "segments": [
+        "24"
+      ],
+      "strength": "Medium",
+      "cross_reference": "Pattern of Portuguese use by LATAM staff under pressure; see also STG_15 seg 82 ('No senhor!')"
+    },
+    {
+      "id": "S5-7",
+      "finding": "Passenger recorded the interaction and informed the stewardess: 'yo estoy grabando también'. Stewardess did not object to recording.",
+      "segments": [
+        "10"
+      ],
+      "strength": "Medium",
+      "cross_reference": "Recording acknowledged by both parties; stewardess's failure to object may constitute implied consent"
+    }
+  ],
+  "corrections_applied": [
+    {
+      "segment": "5",
+      "original": "Por qué fue agressivo",
+      "corrected": "Por qué fue agresivo",
+      "reason": "Spelling: 'agressivo' → 'agresivo'"
+    },
+    {
+      "segment": "8",
+      "original": "Tava mi companero ali igual afuera",
+      "corrected": "Estaba mi compañero allí igual afuera",
+      "reason": "Portuguese interference: 'Tava' = 'Estava/Estaba', 'companero' → 'compañero', 'ali' → 'allí'"
+    },
+    {
+      "segment": "10",
+      "original": "el pasagero no se quiere mover, no quiere bajar y no se lo que va pasar",
+      "corrected": "el pasajero no se quiere mover, no quiere bajar y no sé lo que va a pasar",
+      "reason": "'pasagero'→'pasajero', 'se'→'sé' (first person), added 'a' before 'pasar'"
+    },
+    {
+      "segment": "12",
+      "original": "se tengo una prueba",
+      "corrected": "si tengo una prueba",
+      "reason": "Portuguese interference: 'se' (Portuguese 'if') → 'si' (Spanish 'if')"
+    },
+    {
+      "segment": "13",
+      "original": "Usted empiezo ha un comienzo a decir que el vuelo estava tarde",
+      "corrected": "Usted empezó desde un comienzo a decir que el vuelo estaba tarde",
+      "reason": "Multiple errors: 'empiezo'→'empezó', 'ha un comienzo'→'desde un comienzo', 'estava'→'estaba'"
+    },
+    {
+      "segment": "16",
+      "original": "Lo embarque duró, lo embarque duró 15 minutos",
+      "corrected": "Lo embarque duró, lo embarque duró 15 minutos",
+      "reason": "'lo embarque' = Portuguese interference for 'el embarque'. Preserved in text as it reflects passenger's natural speech pattern; documented for clarity."
+    },
+    {
+      "segment": "17",
+      "original": "Usteded no tiene el derecho de tocar en mi companero ni haver sido",
+      "corrected": "Usted no tiene el derecho de tocar a mi compañero ni haber sido",
+      "reason": "'Usteded'→'Usted', 'tocar en'→'tocar a', 'companero'→'compañero', 'haver'→'haber'"
+    },
+    {
+      "segment": "24",
+      "original": "Vai ter que bajar",
+      "corrected": "Vai ter que bajar",
+      "reason": "Portuguese: 'Vai ter que baixar'. Preserved as-is since stewardess is code-switching. Documented: this is not an ASR error but actual Portuguese speech."
+    },
+    {
+      "segment": "25",
+      "original": "Llamen a la ventas. No hay caso, el pasagero no quieres bajar , asi que avise avisen quando lleggue securidad",
+      "corrected": "Llamen a la ventas. No hay caso, el pasajero no quiere bajar, así que avise, avisen cuando llegue seguridad",
+      "reason": "'pasagero'→'pasajero', 'no quieres'→'no quiere', 'quando lleggue securidad'→'cuando llegue seguridad'"
+    },
+    {
+      "segment": "22, 24",
+      "original": "Speaker: 'Leandro'",
+      "corrected": "Speaker: 'Passenger (Leandro Disconzi)'",
+      "reason": "Source files inconsistently label the same speaker as 'Leandro' (segments 23, 27 in primary JSON) vs 'Leandro Disconzi (passenger)'. Normalized to canonical label."
+    }
+  ],
+  "segments": [
+    {
+      "index": 0,
+      "speaker": "passenger",
+      "start": 0.4,
+      "end": 1.03,
+      "duration": 0.63,
+      "text": "Sí, acá.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:33:00.400"
+    },
+    {
+      "index": 1,
+      "speaker": "airline_cabin_crew",
+      "start": 1.0,
+      "end": 4.0,
+      "duration": 3.0,
+      "text": "Tiene que salir del avión, tiene que bajar",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:33:01.000"
+    },
+    {
+      "index": 2,
+      "speaker": "passenger",
+      "start": 4.37,
+      "end": 6.0,
+      "duration": 1.63,
+      "text": "¿Por qué? Vengame a explicar el por qué",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:33:04.370"
+    },
+    {
+      "index": 3,
+      "speaker": "passenger",
+      "start": 8.5,
+      "end": 9.11,
+      "duration": 0.61,
+      "text": "¿Por qué?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:33:08.500"
+    },
+    {
+      "index": 4,
+      "speaker": "passenger",
+      "start": 11.3,
+      "end": 11.76,
+      "duration": 0.46,
+      "text": "¿Por qué?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:33:11.300"
+    },
+    {
+      "index": 5,
+      "speaker": "airline_cabin_crew",
+      "start": 12.8,
+      "end": 14.1,
+      "duration": 1.3,
+      "text": "Por qué fue agresivo y",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:33:12.800"
+    },
+    {
+      "index": 6,
+      "speaker": "passenger",
+      "start": 14.43,
+      "end": 22.73,
+      "duration": 8.3,
+      "text": "ya ¿dónde está la prueba? porque yo no fui agresivo, entonces de verdad vengan y me expliquen, me saquen de acá y me expliquen por qué",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:33:14.430"
+    },
+    {
+      "index": 7,
+      "speaker": "passenger",
+      "start": 23.52,
+      "end": 25.93,
+      "duration": 2.41,
+      "text": "Me muestran dónde fui agresivo. ¿Tiene prueba?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:33:23.520"
+    },
+    {
+      "index": 8,
+      "speaker": "airline_cabin_crew",
+      "start": 25.99,
+      "end": 30.2,
+      "duration": 4.21,
+      "text": "Tiene que salir. Estaba mi compañero allí igual afuera. Tiene que salir",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:33:25.990"
+    },
+    {
+      "index": 9,
+      "speaker": "passenger",
+      "start": 30.2,
+      "end": 41.0,
+      "duration": 10.8,
+      "text": "Yo no voy a salir, simple, porque yo no tengo motivo. Si usted tiene una prueba y yo salgo de acá, si no, no. Mira, yo estoy por acá con ustedes. Usted cree que puede hacer todo, ¿no?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:33:30.200"
+    },
+    {
+      "index": 10,
+      "speaker": "airline_cabin_crew",
+      "start": 40.0,
+      "end": 47.5,
+      "duration": 7.5,
+      "text": "Oye, el pasajero no se quiere mover, no quiere bajar y no sé lo que va a pasar",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:33:40.000"
+    },
+    {
+      "index": 11,
+      "speaker": "airline_cabin_crew",
+      "start": 50.0,
+      "end": 52.0,
+      "duration": 2.0,
+      "text": "Ya activamos seguridad. Igual va a tener que bajar",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:33:50.000"
+    },
+    {
+      "index": 12,
+      "speaker": "passenger",
+      "start": 52.0,
+      "end": 61.0,
+      "duration": 9.0,
+      "text": "Mira, yo bajo de acá si tengo una prueba o algo que demuestra que tengo que salir, porque está un absurdo todo, está un absurdo todo.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:33:52.000"
+    },
+    {
+      "index": 13,
+      "speaker": "airline_cabin_crew",
+      "start": 62.1,
+      "end": 64.6,
+      "duration": 2.5,
+      "text": "Usted empezó desde un comienzo a decir que el vuelo estaba tarde",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:34:02.100"
+    },
+    {
+      "index": 14,
+      "speaker": "passenger",
+      "start": 64.6,
+      "end": 70.1,
+      "duration": 5.5,
+      "text": "Yo pregunté, yo hice preguntas",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:34:04.600"
+    },
+    {
+      "index": 15,
+      "speaker": "airline_cabin_crew",
+      "start": 67.1,
+      "end": 67.5,
+      "duration": 0.4,
+      "text": "Pero...",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:34:07.100"
+    },
+    {
+      "index": 16,
+      "speaker": "passenger",
+      "start": 67.4,
+      "end": 75.0,
+      "duration": 7.6,
+      "text": "yo pregunté y también tengo eso grabado acá, ya. ... Lo embarque duró, lo embarque duró 15 minutos",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:34:07.400"
+    },
+    {
+      "index": 17,
+      "speaker": "airline_cabin_crew",
+      "start": 75.1,
+      "end": 79.0,
+      "duration": 3.9,
+      "text": "... Usted no tiene el derecho de tocar a mi compañero ni haber sido...",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:34:15.100"
+    },
+    {
+      "index": 18,
+      "speaker": "passenger",
+      "start": 79.05,
+      "end": 84.0,
+      "duration": 4.95,
+      "text": "Y yo toqué sin querer, yo soy de Brasil, nosotros nos tocamos, y yo dije, ya, chao, y como así.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:34:19.050"
+    },
+    {
+      "index": 19,
+      "speaker": "airline_cabin_crew",
+      "start": 84.2,
+      "end": 85.1,
+      "duration": 0.9,
+      "text": "No fue así.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:34:24.200"
+    },
+    {
+      "index": 20,
+      "speaker": "passenger",
+      "start": 85.0,
+      "end": 86.8,
+      "duration": 1.8,
+      "text": "Ya, entonces si tiene cámara...",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:34:25.000"
+    },
+    {
+      "index": 21,
+      "speaker": "airline_cabin_crew",
+      "start": 86.75,
+      "end": 87.5,
+      "duration": 0.75,
+      "text": "Tiene que bajar.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:34:26.750"
+    },
+    {
+      "index": 22,
+      "speaker": "passenger",
+      "start": 87.7,
+      "end": 89.9,
+      "duration": 2.2,
+      "text": "No voy a bajar, mira, si la policía...",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:34:27.700"
+    },
+    {
+      "index": 23,
+      "speaker": "airline_cabin_crew",
+      "start": 89.95,
+      "end": 91.5,
+      "duration": 1.55,
+      "text": "Podemos pedir las cámaras del aeropuerto.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:34:29.950"
+    },
+    {
+      "index": 24,
+      "speaker": "passenger",
+      "start": 91.6,
+      "end": 93.5,
+      "duration": 1.9,
+      "text": "muy bien, muy bien. despues deso si.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:34:31.600"
+    },
+    {
+      "index": 25,
+      "speaker": "airline_cabin_crew",
+      "start": 93.2,
+      "end": 93.7,
+      "duration": 0.5,
+      "text": "Vai ter que bajar.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:34:33.200"
+    },
+    {
+      "index": 26,
+      "speaker": "passenger",
+      "start": 93.7,
+      "end": 102.0,
+      "duration": 8.3,
+      "text": "No, no voy. punto. Mira, me saquen da ca a fuerza y dai tenemos mas algo para un processo contra a latam",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:34:33.700"
+    },
+    {
+      "index": 27,
+      "speaker": "airline_cabin_crew",
+      "start": 102.0,
+      "end": 104.8,
+      "duration": 2.8,
+      "text": "el pasajero no quiere bajar, así que avise, avisen cuando llegue seguridad",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T13:34:42.000"
+    }
+  ]
+}

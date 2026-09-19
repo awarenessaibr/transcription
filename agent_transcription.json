@@ -1,0 +1,42 @@
+{
+  "name": "transcription-dev",
+  "description": "Development and infrastructure agent for transcription — Chilean Spanish audio transcription and diarization service with Clean Architecture, AI analysis, Qdrant search, and MCP servers",
+  "project_path": "/awareness/services/transcription",
+  "language": "python",
+  "architecture": "clean_architecture",
+  "tools": ["Read", "Glob", "Grep", "Bash", "Write", "Edit"],
+  "model": "sonnet",
+  "interfaces": [
+    {"type": "fastapi_rest", "port": 8000, "endpoints": 41},
+    {"type": "runpod_serverless", "entry": "src/runpod_handler.py"},
+    {"type": "mcp_server", "tools": 30, "transport": "stdio", "servers": 3}
+  ],
+  "external_services": [
+    {"name": "HuggingFace", "purpose": "Pyannote model access", "required": true},
+    {"name": "Anthropic/DeepSeek", "purpose": "AI transcript analysis + reconciliation", "required": false},
+    {"name": "RunPod", "purpose": "Serverless GPU transcription", "required": false},
+    {"name": "Qdrant", "purpose": "Vector search for transcripts", "required": false}
+  ],
+  "known_issues": {
+    "critical": [
+      "Hardcoded API credentials (HuggingFace, RunPod, DeepSeek, Qdrant) in .env — rotate immediately",
+      "Missing .env.example — referenced by README and docker-compose.yml",
+      "MCP stdio transport broken in start.sh — nohup + tail -f /dev/null | pattern",
+      "patch_script.sh has hardcoded macOS developer path"
+    ],
+    "important": [
+      "Duplicate MCP server code — mcp/servers/ vs src/mcp/servers/ with incompatible tool naming",
+      "Dockerfile CMD defaults to RunPod handler — conflicts with docker-compose",
+      "Claude/DeepSeek adapters ~90% duplicated (~400 lines to eliminate)",
+      "improve_project.md (47KB) is stale — archive or delete"
+    ]
+  },
+  "architecture_layers": ["domain/entities", "domain/ports", "application/use_cases", "application/services", "application/dto", "infrastructure/adapters", "presentation/routers", "presentation/middleware", "mcp/servers"],
+  "key_files": [
+    {"path": "src/composition.py", "lines": 200, "role": "DI wiring root"},
+    {"path": "src/application/use_cases/transcribe_audio.py", "lines": 510, "role": "Core transcription pipeline orchestrator"},
+    {"path": "src/application/use_cases/validate_and_refine_transcript.py", "lines": 560, "role": "Multi-stage audit→patch→reconcile→escalate pipeline"},
+    {"path": "src/presentation/routers/transcripts.py", "lines": 686, "role": "Largest router — 16 endpoints"}
+  ],
+  "def_file": "agent_transcription.md"
+}

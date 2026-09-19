@@ -1,0 +1,107 @@
+{
+  "transcript_id": "I-002_10B_NAR-18_STG_18_counter_fragment",
+  "source_file": "Aeropuerto Arturo Merino Benítez 18.m4a",
+  "source_path": "transcription/data/audio/Aeropuerto Arturo Merino Benítez 18.m4a",
+  "language": "en",
+  "timestamp": "2024-07-05T16:57:15-04:00",
+  "provider": "local",
+  "original_transcript_id": null,
+  "metadata": {
+    "audio_properties": {
+      "duration": "00:00:36.160",
+      "preferred_volume": "1",
+      "sample_rate": 48000,
+      "channels": 1
+    },
+    "file_info": {
+      "file_name": "Aeropuerto Arturo Merino Benítez 18.m4a",
+      "file_size": 308420,
+      "file_size_kb": 301.19,
+      "content_type": "audio/mp4",
+      "major_brand": "M4A",
+      "compatible_brands": [
+        "M4A",
+        "isom",
+        "mp42"
+      ],
+      "encoder": "com.apple.VoiceMemos (iPhone Version 18.5 (Build 22F76))",
+      "voice_memo_uuid": "793522D6-A533-4F34-AEAF-5C5AE4C61B4B"
+    },
+    "ontology_node_id": "",
+    "ontology_schema_version": "2.5",
+    "processed_audio_file": "Aeropuerto Arturo Merino Benítez 18.m4a",
+    "saved_audio_file": "Aeropuerto Arturo Merino Benítez 18.m4a",
+    "timestamps": {
+      "QuickTime_Movie_Header_Created_verified": "2024-07-05T20:57:15.000000Z"
+    }
+  },
+  "title": "5th July 2024 @ 4:57pm - Counter Fragment",
+  "subtitle": "Counter Fragment — Airline Circular Referral",
+  "recording_datetime": "2024-07-05T16:57:15-04:00",
+  "location": "Arturo Merino Benítez International Airport (SCL), Santiago, Chile",
+  "audio_id": "aeropuerto_STG_18",
+  "case_id": "I-002",
+  "narrative_id": "NAR-18_STG_18_counter_fragment",
+  "chronological_order": 13,
+  "prior_stage": "I-002_10_NAR-14_Terminal_Internacional_T2_counter",
+  "next_stage": "I-002_11_NAR-13_STG_20_barraza_counter",
+  "classification": "Attorney Work Product — Privileged and Confidential",
+  "participants": [
+    {
+      "canonical_name": "Leandro Disconzi",
+      "role": "Passenger",
+      "speaker_label": "Passenger (Leandro Disconzi)",
+      "speaker_id": "SPK-passenger-leandro",
+      "segment_labels": [
+        "passenger"
+      ]
+    }
+  ],
+  "violations_cited": [],
+  "tags": [
+    "transcript",
+    "narrative",
+    "evidence",
+    "counter-fragment",
+    "airline-deflection"
+  ],
+  "forensic_clusters": {},
+  "key_evidentiary_findings": [],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 1,
+      "speaker": "passenger",
+      "start": 0.8072187500000001,
+      "end": 19.77471875,
+      "duration": 18.968,
+      "text": " there was someone here probably like that the supervisor or whatever it is so she was serving a client i've asked her if i could have a word with her as soon as she finished she said yes but then she left",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 2,
+      "speaker": "passenger",
+      "start": 20.972843750000003,
+      "end": 25.191593750000003,
+      "duration": 4.219,
+      "text": " It's becoming very, very ridiculous, very ridiculous.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 3,
+      "speaker": "passenger",
+      "start": 32.66721875,
+      "end": 35.19846875,
+      "duration": 2.531,
+      "text": " Let's wait a little bit more to see what will happen.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    }
+  ],
+  "reviewed": false
+}

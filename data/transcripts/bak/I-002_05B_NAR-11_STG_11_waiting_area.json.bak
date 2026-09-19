@@ -1,0 +1,116 @@
+{
+  "transcript_id": "I-002_05B_NAR-11_STG_11_waiting_area",
+  "source_file": "Aeropuerto Arturo Merino Benítez 11_1788416958.m4a.wav",
+  "language": "pt",
+  "timestamp": "2024-07-05T15:40:00",
+  "provider": "",
+  "original_transcript_id": "",
+  "metadata": {
+    "saved_audio_file": "Aeropuerto Arturo Merino Benítez 11_1788416958.m4a.wav",
+    "processed_audio_file": "Aeropuerto Arturo Merino Benítez 11_1788416958.m4a_processed.wav"
+  },
+  "title": "Aeropuerto Arturo Merino Benítez 11 — Waiting Area / Information Request",
+  "subtitle": "Passenger remains in the terminal waiting for an explanation; repeated requests for information",
+  "recording_datetime": "2024-07-05T15:40:00",
+  "location": "Arturo Merino Benítez International Airport, Santiago, Chile",
+  "audio_id": "aeropuerto_STG_11",
+  "case_id": "I-002",
+  "narrative_id": "NAR-11_STG_11_waiting_area",
+  "chronological_order": 6,
+  "prior_stage": "I-002_05_NAR-07_STG_7_post_removal_investigation",
+  "next_stage": "I-002_06_NAR-STG_8_pdi_identity_control",
+  "classification": "Attorney Work Product — Privileged and Confidential",
+  "participants": [
+    {
+      "canonical_name": "Leandro Disconzi",
+      "role": "Passenger",
+      "speaker_label": "Passenger (Leandro Disconzi)",
+      "speaker_id": "SPK-passenger-leandro"
+    }
+  ],
+  "violations_cited": [],
+  "tags": [
+    "transcript",
+    "narrative",
+    "evidence",
+    "waiting-area",
+    "information-request"
+  ],
+  "forensic_clusters": {},
+  "key_evidentiary_findings": [],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 0,
+      "speaker": "passenger",
+      "start": 0.87471875,
+      "end": 1.81971875,
+      "duration": 0.945,
+      "text": " Boa rejeição.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "2024-07-05T15:40:00.874"
+    },
+    {
+      "index": 1,
+      "speaker": "passenger",
+      "start": 3.0178437500000004,
+      "end": 4.6040937500000005,
+      "duration": 1.586,
+      "text": " Eu tô sentado esperando pra S..",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "2024-07-05T15:40:03.017"
+    },
+    {
+      "index": 2,
+      "speaker": "passenger",
+      "start": 6.966593750000001,
+      "end": 8.92409375,
+      "duration": 1.957,
+      "text": " Eu tô sentado esperando pra SPR.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "2024-07-05T15:40:06.966"
+    },
+    {
+      "index": 3,
+      "speaker": "passenger",
+      "start": 9.008468750000002,
+      "end": 11.067218750000002,
+      "duration": 2.059,
+      "text": " Peço informação pra alguém e ninguém sabe.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "2024-07-05T15:40:09.008"
+    },
+    {
+      "index": 4,
+      "speaker": "background_audio",
+      "start": 13.480343750000003,
+      "end": 17.51346875,
+      "duration": 4.033,
+      "text": "sirens",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "2024-07-05T15:40:13.480"
+    },
+    {
+      "index": 5,
+      "speaker": "unresolved_speaker",
+      "start": 24.95534375,
+      "end": 25.10721875,
+      "duration": 0.152,
+      "text": " Obrigada.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "2024-07-05T15:40:24.955"
+    }
+  ]
+}

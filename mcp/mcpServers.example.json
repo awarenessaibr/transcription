@@ -1,0 +1,43 @@
+{
+  "mcpServers": {
+    "transcription-transcription": {
+      "command": ".venv/bin/python3",
+      "args": [
+        "-m", "src.mcp.servers.transcription_server"
+      ],
+      "env": {
+        "PYANNOTE_AUTH_TOKEN": "<your_token>",
+        "HF_TOKEN": "<your_token>",
+        "ORIGINALS_DIR": "data/originals",
+        "TRANSCRIPT_DIR": "data/transcripts",
+        "REFERENCE_DIR": "data/transcripts_by_audio",
+        "NARRATIVE_DIR": "data/transcripts_narrative",
+        "PROJECTS_DIR": "data/projects"
+      }
+    },
+    "transcription-transcripts": {
+      "command": ".venv/bin/python3",
+      "args": [
+        "-m", "src.mcp.servers.transcripts_server"
+      ],
+      "env": {
+        "TRANSCRIPT_DIR": "data/transcripts",
+        "QDRANT_URL": "http://localhost:6333",
+        "ANTHROPIC_API_KEY": "<optional>",
+        "ANTHROPIC_BASE_URL": "https://api.deepseek.com/anthropic",
+        "DEEPSEEK_API_KEY": "<optional>"
+      }
+    },
+    "transcription-meta": {
+      "command": ".venv/bin/python3",
+      "args": [
+        "-m", "src.mcp.servers.meta_server"
+      ],
+      "env": {
+        "REFERENCE_DIR": "data/transcripts_by_audio",
+        "NARRATIVE_DIR": "data/transcripts_narrative",
+        "PROJECTS_DIR": "data/projects"
+      }
+    }
+  }
+}

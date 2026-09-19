@@ -1,0 +1,87 @@
+{
+  "transcript_id": "I-002_15_NAR-19_STG_27_self_narration",
+  "source_file": "",
+  "language": "es",
+  "timestamp": "2024-07-05T19:15:00",
+  "provider": "",
+  "original_transcript_id": "I-002_15_NAR-19_STG_27_self_narration",
+  "metadata": {},
+  "title": "Aeropuerto Arturo Merino Benítez 27 — FINAL v2",
+  "subtitle": "Post-Incident — Continued Self-Documentation",
+  "recording_datetime": "2024-07-05T19:15:00",
+  "location": "Arturo Merino Benítez International Airport (SCL)",
+  "audio_id": "aeropuerto_STG_27",
+  "case_id": "I-002",
+  "narrative_id": "NAR-19_STG_27_self_narration",
+  "chronological_order": 18,
+  "prior_stage": "I-002_14_NAR-16_STG_23_DGAC_don_nicolas",
+  "next_stage": "I-002_16_NAR-20_STG_28",
+  "classification": "Attorney Work Product — Privileged and Confidential",
+  "participants": [
+    {
+      "canonical_name": "Leandro Disconzi",
+      "role": "Passenger",
+      "speaker_label": "Passenger (Leandro Disconzi)",
+      "speaker_id": "SPK-passenger-leandro"
+    }
+  ],
+  "violations_cited": [],
+  "tags": [
+    "transcript",
+    "narrative",
+    "evidence",
+    "self-documentation"
+  ],
+  "forensic_clusters": {},
+  "key_evidentiary_findings": [
+    {
+      "id": "S27-1",
+      "finding": "Passenger continues self-documentation of the incident timeline.",
+      "strength": "Medium"
+    }
+  ],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 0,
+      "speaker": "airline_supervisor",
+      "start": 2.640067911714771,
+      "end": 4.490662139219015,
+      "duration": 1.851,
+      "text": "esta ... un documento de que queria ustedes",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T19:15:02.640"
+    },
+    {
+      "index": 1,
+      "speaker": "passenger",
+      "start": 4.490662139219015,
+      "end": 15.577249575551784,
+      "duration": 11.087,
+      "text": "están viendo el documento? Perfecto, perfecto. Todo lo que quiero. Que le pongan por escrito el por qué hicieron eso conmigo.  Muchas gracias.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T19:15:04.490"
+    },
+    {
+      "index": 2,
+      "speaker": "airline_supervisor",
+      "start": 15.577249575551784,
+      "end": 16.815573770491802,
+      "duration": 1.238,
+      "text": "Ya.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T19:15:15.577"
+    },
+    {
+      "index": 3,
+      "speaker": "passenger",
+      "start": 16.815573770491802,
+      "end": 20.876061120543294,
+      "duration": 4.06,
+      "text": "Espero acá. Muchas gracias.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T19:15:16.815"
+    }
+  ],
+  "reviewed": true
+}

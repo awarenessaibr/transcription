@@ -1,0 +1,441 @@
+{
+  "transcript_id": "I-002_18_NAR_LATAM_STG_2",
+  "source_file": "",
+  "language": "es",
+  "timestamp": "2024-07-05T22:59:00",
+  "provider": "",
+  "original_transcript_id": "I-002_18_NAR_LATAM_STG_2",
+  "metadata": {},
+  "title": "LATAM STG 2 — FINAL v2",
+  "subtitle": "Document Delivery — Supervisora Antonela delivers the falsified 'carta de desembarque' at 22:59",
+  "recording_datetime": "2024-07-05T22:59:00",
+  "location": "Arturo Merino Benítez International Airport, Santiago, Chile",
+  "audio_id": "latam_STG_2",
+  "case_id": "I-002",
+  "narrative_id": "NAR_LATAM_STG_2",
+  "chronological_order": 21,
+  "prior_stage": "I-002_17_NAR-21_STG_29",
+  "next_stage": "I-002_19_NAR_LATAM_STG_3",
+  "classification": "Attorney Work Product — Privileged and Confidential",
+  "participants": [
+    {
+      "canonical_name": "Leandro Disconzi",
+      "role": "Passenger",
+      "speaker_label": "Passenger (Leandro Disconzi)",
+      "speaker_id": "SPK-passenger-leandro"
+    },
+    {
+      "canonical_name": "Antonela",
+      "role": "LATAM Supervisora",
+      "speaker_label": "Supervisora Antonela",
+      "speaker_id": "SPK-antonela-latam-agent"
+    }
+  ],
+  "violations_cited": [
+    "CPCL Art. 197 — Falsificación en instrumento privado",
+    "CHIPENCOD Art. 211 — Calumnia (false imputation of crime: aggression)",
+    "LPDC Art. 3(b) — Right to truthful and timely information",
+    "LPDC Art. 23 bis — Mandatory written notice of denied boarding reasons (truthfulness)",
+    "CACH Art. 131 — Duty to inform passenger of rights",
+    "LPDC Art. 3(e) — Right to compensation for denied boarding"
+  ],
+  "tags": [
+    "transcript",
+    "narrative",
+    "evidence",
+    "latam",
+    "document-delivery",
+    "falsified-document",
+    "criminal-evidence",
+    "gate-area"
+  ],
+  "forensic_clusters": {},
+  "key_evidentiary_findings": [
+    {
+      "id": "LS2-1",
+      "finding": "Supervisora Antonela delivers the 'carta de desembarque' containing three written allegations, all disproven hours earlier by PDI CCTV review (STG‑7).",
+      "strength": "Critical"
+    },
+    {
+      "id": "LS2-2",
+      "finding": "Antonela refuses to acknowledge the PDI finding and claims 'no podemos cambiar la información que tenemos' – directly contradicting Diego’s instruction to 'ajustar' the letter (STG‑29).",
+      "strength": "Critical"
+    },
+    {
+      "id": "LS2-3",
+      "finding": "The document’s allegation of 'agresiona al personal de la latam' constitutes a false imputation of a crime (calumnia) after PDI confirmed no aggression occurred.",
+      "strength": "Critical"
+    },
+    {
+      "id": "LS2-4",
+      "finding": "Delivery of the falsified document completes the fabrication pipeline orchestrated by Diego in STG‑29, establishing the full evidentiary chain for CPCL Art. 197.",
+      "strength": "Critical"
+    }
+  ],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 0,
+      "speaker": "airline_supervisor",
+      "start": 8.845,
+      "end": 11.325,
+      "duration": 2.48,
+      "text": "Ta listo su carta don Leandro.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 1,
+      "speaker": "passenger",
+      "start": 11.465,
+      "end": 12.325,
+      "duration": 0.86,
+      "text": "Hay mi carta?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 2,
+      "speaker": "airline_supervisor",
+      "start": 12.325,
+      "end": 12.665,
+      "duration": 0.34,
+      "text": "Sí,",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 3,
+      "speaker": "passenger",
+      "start": 12.765,
+      "end": 13.505,
+      "duration": 0.74,
+      "text": "Déjame leer.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 4,
+      "speaker": "passenger",
+      "start": 16.925,
+      "end": 21.845,
+      "duration": 4.92,
+      "text": "LATAM declara que el día del vuelo operado hasta allá",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 5,
+      "speaker": "passenger",
+      "start": 22.485,
+      "end": 28.245,
+      "duration": 5.76,
+      "text": "ocurrió un desvío a lo planificado. El motivo del desvío fue denegación de embarque.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 6,
+      "speaker": "passenger",
+      "start": 29.845,
+      "end": 34.545,
+      "duration": 4.7,
+      "text": "Se le niega embarque por la seguinte razon. Agresion al personal de LATAM.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 7,
+      "speaker": "passenger",
+      "start": 34.885,
+      "end": 38.705,
+      "duration": 3.82,
+      "text": "Ingresa a la aeronave sin autorización. No respeta las instruciones.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 8,
+      "speaker": "passenger",
+      "start": 39.165,
+      "end": 42.385,
+      "duration": 3.22,
+      "text": "Tu sabes que eso fue comprobado por la PDI que eso no pasó?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 9,
+      "speaker": "airline_supervisor",
+      "start": 43.265,
+      "end": 44.565,
+      "duration": 1.3,
+      "text": "esa es la carta que usted pedio.",
+      "reviewed": true,
+      "correction_note": "Not a legal document which is regulated. but a letter the passenger wants. the language, the reframing should be trained somehow.",
+      "backchannel_events": ""
+    },
+    {
+      "index": 10,
+      "speaker": "airline_supervisor",
+      "start": 45.085,
+      "end": 46.265,
+      "duration": 1.18,
+      "text": "Y por lo cual se le...(att she can't finish the sentence)",
+      "reviewed": true,
+      "correction_note": "hesitation as cant finish the reasoning. otherwise would be that due to the request of the passenger..the letter was fabricated?altered?",
+      "backchannel_events": ""
+    },
+    {
+      "index": 11,
+      "speaker": "passenger",
+      "start": 46.265,
+      "end": 48.585,
+      "duration": 2.32,
+      "text": "La carta yo pedí lo que pasó.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 12,
+      "speaker": "passenger",
+      "start": 49.085,
+      "end": 52.305,
+      "duration": 3.22,
+      "text": "Esas son las acusaciones que fueron desprovadas.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 13,
+      "speaker": "airline_supervisor",
+      "start": 52.305,
+      "end": 58.705,
+      "duration": 6.4,
+      "text": "Señor, esa es la información que nosotros tenemos De lo sucedido, no podemos cambiar La información que tenemos...",
+      "reviewed": true,
+      "correction_note": "att here also. telling exactly as it is. denying exactly what they are doing.",
+      "backchannel_events": ""
+    },
+    {
+      "index": 14,
+      "speaker": "airline_supervisor",
+      "start": 57.105,
+      "end": 57.945,
+      "duration": 0.84,
+      "text": "",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 15,
+      "speaker": "passenger",
+      "start": 57.945,
+      "end": 59.965,
+      "duration": 2.02,
+      "text": "Perfecto. ¿Tiene pruebas para eso?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 16,
+      "speaker": "airline_supervisor",
+      "start": 59.965,
+      "end": 61.145,
+      "duration": 1.18,
+      "text": "Señor, esa es la información,",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 17,
+      "speaker": "passenger",
+      "start": 61.145,
+      "end": 63.065,
+      "duration": 1.92,
+      "text": "Yo estoy preguntando si tiene pruebas para eso.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 18,
+      "speaker": "airline_supervisor",
+      "start": 63.065,
+      "end": 64.565,
+      "duration": 1.5,
+      "text": "no me grite porque yo no lo estoy",
+      "reviewed": true,
+      "correction_note": "victimization",
+      "backchannel_events": ""
+    },
+    {
+      "index": 19,
+      "speaker": "passenger",
+      "start": 64.565,
+      "end": 65.5,
+      "duration": 0.935,
+      "text": "No estoy de gritar.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 20,
+      "speaker": "airline_supervisor",
+      "start": 65.305,
+      "end": 66.5,
+      "duration": 1.195,
+      "text": "Ta subiendo la voz...",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 21,
+      "speaker": "airline_supervisor",
+      "start": 66.585,
+      "end": 68.145,
+      "duration": 1.56,
+      "text": "Le voy a pedir que no lo haga",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 22,
+      "speaker": "passenger",
+      "start": 68.805,
+      "end": 74.565,
+      "duration": 5.76,
+      "text": "Pero yo estoy preguntando si la agresion",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 23,
+      "speaker": "passenger",
+      "start": 75.645,
+      "end": 81.545,
+      "duration": 5.9,
+      "text": "y la entrada, ingresar a la aeronave sin autorización si tiene alguna prueba para eso.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 24,
+      "speaker": "airline_supervisor",
+      "start": 81.545,
+      "end": 84.865,
+      "duration": 3.32,
+      "text": "Eso lo tiene que ver después con el área legal Cuando lo contactan",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 25,
+      "speaker": "airline_supervisor",
+      "start": 85.225,
+      "end": 87.465,
+      "duration": 2.24,
+      "text": "Eso no lo vemos nosotros, no lo vemos el área legal",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 26,
+      "speaker": "passenger",
+      "start": 87.465,
+      "end": 90.345,
+      "duration": 2.88,
+      "text": "Ah, entonces ¿quién llegó a esa conclusión entonces?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 27,
+      "speaker": "airline_supervisor",
+      "start": 90.465,
+      "end": 95.0,
+      "duration": 4.535,
+      "text": "Eso lo vas a ver la área legal Ellos tienen en este momento las imágenes las cameras de agresion.",
+      "reviewed": true,
+      "correction_note": "affirmation Latam Legal Area has the CCTV footage and agresion evidence",
+      "backchannel_events": ""
+    },
+    {
+      "index": 28,
+      "speaker": "passenger",
+      "start": 96.285,
+      "end": 99.125,
+      "duration": 2.84,
+      "text": "Bacana. Y yo como pasajero?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 29,
+      "speaker": "passenger",
+      "start": 99.385,
+      "end": 102.245,
+      "duration": 2.86,
+      "text": "como cliente, me quedo botado",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 30,
+      "speaker": "passenger",
+      "start": 102.625,
+      "end": 105.725,
+      "duration": 3.1,
+      "text": "sin mi pasaje. Prohibido de volar con la LATAM.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 31,
+      "speaker": "airline_supervisor",
+      "start": 106.0,
+      "end": 110.845,
+      "duration": 4.845,
+      "text": "Señor, con la informaciones que nosotros tenemos No le podemos dar otra opción",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 32,
+      "speaker": "passenger",
+      "start": 111.0,
+      "end": 114.745,
+      "duration": 3.745,
+      "text": "Muchas gracias. Buenas noches.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    }
+  ]
+}

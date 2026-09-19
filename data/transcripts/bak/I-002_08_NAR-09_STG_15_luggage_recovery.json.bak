@@ -1,0 +1,1369 @@
+{
+  "transcript_id": "I-002_08_NAR-09_STG_15_luggage_recovery",
+  "source_file": "",
+  "language": "es",
+  "timestamp": "2024-07-05T16:26:00",
+  "provider": "",
+  "original_transcript_id": "I-002_08_NAR-09_STG_15_luggage_recovery",
+  "metadata": {
+    "timestamps": {
+      "QuickTime_Movie_Header_Created": "2024-07-05T23:26:32.000Z",
+      "QuickTime_Movie_Header_Preview_Time": "0",
+      "QuickTime_Movie_Header_Poster_Time": "0",
+      "QuickTime_Movie_Header_Selection_Time": "0",
+      "QuickTime_Movie_Header_Current_Time": "0"
+    },
+    "audio_properties": {
+      "duration": "00:09:57.5893333",
+      "track_id": "48000",
+      "preferred_volume": "1"
+    },
+    "file_info": {
+      "file_size": "5079387 bytes",
+      "file_size_kb": "4960.34 KB",
+      "major_brand": "M4A",
+      "content_type": "audio/mp4",
+      "file_name": "Aeropuerto Arturo Merino Benítez 15.m4a"
+    }
+  },
+  "title": "Aeropuerto Arturo Merino Benítez 15 — FINAL v2",
+  "subtitle": "",
+  "recording_datetime": "2024-07-05T16:26:00",
+  "location": "Arturo Merino Benítez International Airport (SCL), Santiago, Chile — LATAM Luggage Service Counter",
+  "audio_id": "aeropuerto_STG_15",
+  "case_id": "I-002",
+  "narrative_id": "NAR-09_STG_15_luggage_recovery",
+  "chronological_order": 9,
+  "prior_stage": "I-002_06_NAR-STG_8_pdi_identity_control",
+  "next_stage": "I-002_09_NAR-10_STG_16_counter_confrontation",
+  "classification": "Attorney Work Product — Privileged and Confidential",
+  "participants": [
+    {
+      "canonical_name": "Leandro Disconzi",
+      "role": "Passenger",
+      "speaker_label": "Passenger (Leandro Disconzi)",
+      "speaker_id": "SPK-passenger-leandro"
+    },
+    {
+      "canonical_name": "Latam Luggage Supervisor (Dominika) (NAR-09_STG_15_luggage_recovery)",
+      "role": "Latam Luggage Supervisor",
+      "speaker_label": "Latam Luggage Supervisor (Dominika)",
+      "speaker_id": "SPK-latam-luggage-supervisor-dominika-nar-09-stg-15-luggage-recovery"
+    }
+  ],
+  "violations_cited": [
+    "CL-008"
+  ],
+  "tags": [
+    "transcript",
+    "narrative",
+    "evidence",
+    "luggage-recovery",
+    "documentation-denial"
+  ],
+  "forensic_clusters": {
+    "cluster_A_opening_challenge": {
+      "segments": [
+        "0-6"
+      ],
+      "summary": "Passenger opens with direct challenge: names three harms (removal, physical mistreatment, use of force), characterizes removal justification as 'una mentira', invokes camera evidence, offers to leave voluntarily if proven wrong.",
+      "reasoning": "Leandro opens by framing three harms: removal from flight, physical mistreatment ('me machucaron'), and use of force. He immediately characterizes the removal justification as 'una mentira' (a lie) — the false aggression allegation — and invokes camera evidence with an offer to leave voluntarily if the allegation is proven. This is consistent with F-002 (assertive but not aggressive, conditional resolution) and directly corroborates F-003 (the false-aggression-allegation narrative explicitly challenged on tape). Dominika's initial response defers: 'Eso se lo explicaron en el proceso'.",
+      "provisions_engaged": [
+        "LPDC Art. 3(b) (adequate information)",
+        "CACH Art. 133 (carrier obligations to inform)",
+        "CPCL Art. 28 (duty of veracity)"
+      ]
+    },
+    "cluster_B_shifting_narratives": {
+      "segments": [
+        "7-16"
+      ],
+      "summary": "Passenger exposes LATAM's shifting justifications: first narrative = aggression, after cameras disproved → second narrative = 'pasó solito su Boarding Pass'. The same person who handed him his boarding pass is the one who falsely accused him.",
+      "reasoning": "This cluster captures the shifting-narrative pattern documented in F-003 and F-004. First narrative: 'aggression' against a crew member. After cameras disproved it → second narrative: 'he passed his own boarding pass' (procedural violation). Leandro additionally identifies that the same person who handed him his boarding pass is the one who falsely accused him — a conflict-of-interest/self-serving accusation dynamic. In seg 15, Leandro reports overhearing LATAM staff say they need 'una carta comprobando exactamente por qué sacaron' because 'ellos quieren sacar su responsabilidad' — revealing LATAM's internal concern about liability and need for post-hoc justification.",
+      "provisions_engaged": [
+        "CACH Art. 133A (re-routing obligation)",
+        "CONST Art. 19 N°2 (no arbitrary discrimination)",
+        "LPDC Art. 23 bis (information duty)",
+        "CPCL Art. 25 (deceit in commerce)"
+      ],
+      "violation_linkage": "Supports F-003 (manufactured pretext — shifting narratives) and F-004 (post-hoc justification)."
+    },
+    "cluster_C_cellphone_document": {
+      "segments": [
+        "23-31"
+      ],
+      "summary": "Critical evidentiary detail: LATAM generated the removal-justification document but refused to print it. Document existed only on Joaquín Barraza's personal cellphone when shown to PDI. Demonstrates avoidance of durable written record.",
+      "reasoning": "This is a critical new evidentiary detail. Leandro identifies that the removal document ('la carta') was made by LATAM — directly contradicting later staff claims that documentation comes from PDI. Dominika confirms she spoke with Joaquín Barraza. Leandro states LATAM 'ni siquiera... quiso como imprimir' the document and instead sent Barraza to PDI with the document only on his phone. This demonstrates informality/irregularity in the documentation process, supporting the inference that LATAM avoided creating a durable written record of its own removal justification — consistent with the documentation-refusal pattern (F-005) and internal-channel capture (F-016).",
+      "provisions_engaged": [
+        "CPCL Art. 12 (written documentation obligations)",
+        "LPDC Art. 3(e) (undue delays in provision of information)",
+        "CACH Art. 133 (obligation to provide written reasons)"
+      ],
+      "violation_linkage": "Supports F-005 expanded (documentation-refusal arc) and F-016 (internal-channel capture)."
+    },
+    "cluster_D_documentation_demand": {
+      "segments": [
+        "18-19",
+        "32-42"
+      ],
+      "summary": "Passenger demands written documentation; Dominika refuses and threatens second forced removal from luggage area ('Tenemos y debemos sacarlo de este lugar'). Conditional cooperation offered only if passenger leaves.",
+      "reasoning": "Leandro articulates a clear need for written documentation to rebook travel and preserve evidence. Dominika deflects jurisdiction to PDI/Seguridad Aeroportuaria, ignoring that the document was generated by LATAM. She then escalates to a removal threat: 'Este es un espacio privado. Si yo le pido que salga usted, debe salir. Tenemos y debemos sacarlo de este lugar.' This is the second LATAM removal threat of the day (first from the aircraft, now from luggage counter), establishing a pattern of removal as the default response to documentation requests. The subsequent 'amable' advice to file a PDI complaint is offered as an alternative to LATAM providing its own documentation.",
+      "provisions_engaged": [
+        "LPDC Art. 3(b) (timely, truthful, sufficient information)",
+        "Art. 23 bis (burden of proof on provider)",
+        "Art. 50 (unfair contract terms — removal for requesting documentation)",
+        "CACH Art. 133B (right to written statement of reasons)",
+        "CONST Art. 19 N°2",
+        "CPCL Art. 28 (veracity)"
+      ],
+      "violation_linkage": "F-005 expanded — documentation refusal now includes a second removal threat. New finding candidate: second-area removal threat."
+    },
+    "cluster_E_national_origin": {
+      "segments": [
+        "48-51"
+      ],
+      "summary": "Dominika invokes passenger's country of origin ('su país de origen') in procedural justification. When directly asked about removal procedures, admits 'No lo sé, no lo sé por qué son así'.",
+      "reasoning": "Leandro asserts prior airport work experience. Dominika responds by introducing a national-origin distinction: 'los procedimientos que pueden aplicar acá pueden ser muy diferentes a los de su país de origen.' Nationality was irrelevant to the documentation question. The implication is that the passenger's expectations are foreign and inapplicable, aligning with the broader pattern (STG_13 seg 15: 'cuál es tu cultura'). While this single exchange does not independently establish discriminatory intent, it is a corroborating data point for the discrimination-on-nationality finding candidate. Additionally, Dominika's admission 'No lo sé, no lo sé por qué son así' reveals procedural opacity from a supervisor.",
+      "provisions_engaged": [
+        "CONST Art. 19 N°2 (equality, no arbitrary discrimination)",
+        "Ley 20.609 Art. 2 (anti-discrimination — nationality)",
+        "ACHR Art. 24 (equal protection)",
+        "LPDC Art. 3(e) (no arbitrary discrimination)"
+      ],
+      "violation_linkage": "Supports pending discrimination-on-nationality finding; cross-reference STG_13 seg 15."
+    },
+    "cluster_F_final_standoff": {
+      "segments": [
+        "45-46",
+        "50-55",
+        "83-90"
+      ],
+      "summary": "Passenger describes feeling like 'pelota de ping-pong', makes closing summary: at airport since 11am, should be at final destination, blocked by proven false accusation. Dominika makes assistance conditional on departure.",
+      "reasoning": "Leandro uses the 'pelota de ping-pong' metaphor for being bounced between departments, echoing the same phrase later in STG_3. Dominika cannot explain removal procedures ('No lo sé por qué son así') and makes assistance conditional on the passenger leaving the area, creating a catch-22: leaving means losing the document trail, staying means being threatened with removal. Leandro's closing summary (seg 89) articulates the full harm arc: at the airport since 11 AM, should be at final destination, blocked by a lie 'ya fue comprobada por la policía.' His distress is consistent with F-002's bearing — distress, not aggression.",
+      "provisions_engaged": [
+        "CACH Art. 133A (carrier duties to stranded passengers)",
+        "LPDC Art. 3(b) (adequate and timely information)",
+        "CONST Art. 19 N°2",
+        "Ley 20.609"
+      ],
+      "violation_linkage": "F-005 (conditional cooperation) and F-002 (consistent bearing)."
+    }
+  },
+  "key_evidentiary_findings": [
+    {
+      "id": "S15-1",
+      "finding": "Passenger explicitly names false aggression allegation as 'una mentira' and invokes camera evidence; offers to leave if proven",
+      "segments": [
+        "3-6"
+      ],
+      "strength": "High",
+      "cross_reference": "F-003 (manufactured pretext), STG_7 seg 44 (PDI camera confirmation)"
+    },
+    {
+      "id": "S15-2",
+      "finding": "Shifting-narrative sequence confirmed: aggression → cameras disprove → 'pasó solito su Boarding Pass'",
+      "segments": [
+        "8"
+      ],
+      "strength": "High",
+      "cross_reference": "F-003, F-004, STG_6 multi-version patterns"
+    },
+    {
+      "id": "S15-3",
+      "finding": "Cellphone-document irregularity: LATAM refused to print removal justification; Barraza showed it on phone to PDI",
+      "segments": [
+        "23",
+        "30"
+      ],
+      "strength": "High",
+      "cross_reference": "F-005 (documentation-refusal), F-016 (internal-channel capture)"
+    },
+    {
+      "id": "S15-4",
+      "finding": "Second removal threat: Dominika threatens forced removal from luggage area",
+      "segments": [
+        "39"
+      ],
+      "strength": "High",
+      "cross_reference": "STG_5 (aircraft removal ~13:30) → STG_15 (luggage-area threat ~16:26)"
+    },
+    {
+      "id": "S15-5",
+      "finding": "National-origin distinction: Dominika invokes 'su país de origen' in procedural justification",
+      "segments": [
+        "49"
+      ],
+      "strength": "Medium",
+      "cross_reference": "STG_13 seg 15 (Barraza: 'cuál es tu cultura')"
+    },
+    {
+      "id": "S15-6",
+      "finding": "'Pelota de ping-pong' — passenger bounced between departments",
+      "segments": [
+        "45"
+      ],
+      "strength": "Medium",
+      "cross_reference": "STG_3 (21:10: 'huevito de ping-pong')"
+    },
+    {
+      "id": "S15-7",
+      "finding": "Supervisor admits not knowing removal procedures: 'No lo sé por qué son así'",
+      "segments": [
+        "51"
+      ],
+      "strength": "Medium",
+      "cross_reference": "Institutional failure to inform"
+    },
+    {
+      "id": "S15-8",
+      "finding": "Conditional assistance: help offered only if passenger leaves area",
+      "segments": [
+        "84",
+        "90"
+      ],
+      "strength": "High",
+      "cross_reference": "F-005 expanded: documentation conditional on departure"
+    }
+  ],
+  "corrections_applied": [
+    {
+      "segment": "3",
+      "original": "una mentira que yo tenía agredido a una persona",
+      "corrected": "una mentira de que yo había agredido a una persona",
+      "reason": "Grammar: 'tenía agredido' is incorrect Spanish; corrected to 'había agredido'"
+    },
+    {
+      "segment": "4",
+      "original": "Tuve una agresión, tu agredí a una persona",
+      "corrected": "Hubo una agresión, tú agrediste a una persona",
+      "reason": "Quoted speech from LATAM staff; corrected subject-verb agreement"
+    },
+    {
+      "segment": "11",
+      "original": "la persona que me entregué el boarding para la misma persona",
+      "corrected": "la persona que me entregó el boarding es la misma persona",
+      "reason": "'me entregué' (I delivered myself) → 'me entregó' (delivered to me); 'para' → 'es'"
+    },
+    {
+      "segment": "18",
+      "original": "yo perco eso",
+      "corrected": "yo pierdo eso",
+      "reason": "Portuguese interference: 'perco' (Portuguese) → 'pierdo' (Spanish)"
+    },
+    {
+      "segment": "30",
+      "original": "ni siquiera la TAN quiso como imprimir",
+      "corrected": "ni siquiera LATAM quiso como imprimir",
+      "reason": "Transcription error: 'la TAN' mis-heard for 'LATAM'"
+    },
+    {
+      "segment": "37",
+      "original": "vamos a estatuar otra vez",
+      "corrected": "A no ser que van a sacarme me otra vez a la fuerza",
+      "reason": "Transcription error and speaker reassignment: original text unintelligible; corrected to captured speech"
+    },
+    {
+      "segment": "42",
+      "original": "Seguridad de Portuaria",
+      "corrected": "Seguridad Aeroportuaria",
+      "reason": "Wrong term: 'Portuaria' (port) → 'Aeroportuaria' (airport)"
+    },
+    {
+      "segment": "55",
+      "original": "y vino para acá",
+      "corrected": "y vine para acá",
+      "reason": "First person: passenger speaking about himself"
+    },
+    {
+      "segment": "60",
+      "original": "Speaker: Passenger (Leandro Disconzi)",
+      "corrected": "Speaker: Latam Luggage Supervisor (Dominika)",
+      "reason": "Misattribution: text ('Mi colega y yo le estamos reiterando') is clearly Dominika"
+    },
+    {
+      "segment": "71",
+      "original": "Justa puede esperar de pie. Le pido amablemente... ..... ...que se posicione de pie",
+      "corrected": "Usted puede esperar de pie. Le pido amablemente que se posicione de pie",
+      "reason": "'Justa' mis-transcribed for 'Usted'; removed filler ellipsis"
+    },
+    {
+      "segment": "10",
+      "original": "[silencio] — no speaker",
+      "corrected": "Latam Luggage Supervisor (Dominika): 'Ya'",
+      "reason": "Silence-to-speech correction: Dominika's backchannel 'Ya' captured on review"
+    },
+    {
+      "segment": "52",
+      "original": "[silencio] — no speaker",
+      "corrected": "Latam Luggage Supervisor (Dominika): 'Ahora'",
+      "reason": "Silence-to-speech correction: Dominika continues with 'Ahora'"
+    },
+    {
+      "segment": "70",
+      "original": "[silencio] — no speaker",
+      "corrected": "Passenger (Leandro Disconzi): 'Ya, muchas gracias.'",
+      "reason": "Silence-to-speech correction: Passenger's acknowledgment captured on review"
+    },
+    {
+      "segment": "80",
+      "original": "[silencio] type='silence'",
+      "corrected": "Latam Luggage Supervisor (Dominika): 'Necessito que espere afuera', type='speech'",
+      "reason": "Silence-to-speech correction and type field fix: Dominika is speaking"
+    },
+    {
+      "segment": "81",
+      "original": "[silencio] — no speaker",
+      "corrected": "Passenger (Leandro Disconzi): 'Yo no posso me sentar?'",
+      "reason": "Silence-to-speech correction: Passenger's question captured on review"
+    },
+    {
+      "segment": "35",
+      "original": "Speaker: SPEAKER_00",
+      "corrected": "Speaker: Passenger (Leandro Disconzi)",
+      "reason": "Speaker reassignment based on content and context"
+    },
+    {
+      "segment": "36",
+      "original": "Speaker: Passenger (Leandro Disconzi)",
+      "corrected": "Speaker: Latam Luggage Supervisor (Dominika)",
+      "reason": "Speaker reassignment based on content and context"
+    },
+    {
+      "segment": "58",
+      "original": "Speaker: SPEAKER_00",
+      "corrected": "Speaker: Passenger (Leandro Disconzi)",
+      "reason": "Speaker reassignment based on content and context"
+    },
+    {
+      "segment": "63",
+      "original": "Speaker: SPEAKER_01",
+      "corrected": "Speaker: Latam Luggage Supervisor (Dominika)",
+      "reason": "This is the supervisor identifying herself: 'Dominique, Supervisora'"
+    }
+  ],
+  "segments": [
+    {
+      "index": 0,
+      "speaker": "passenger",
+      "start": 4.97534375,
+      "end": 10.071593750000002,
+      "duration": 5.096,
+      "text": "de la policía sobre por qué me sacaron del vuelo, por qué me machucaron, por qué me usaron de fuerza.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 1,
+      "speaker": "airline_luggage_staff",
+      "start": 9.61596875,
+      "end": 12.535343750000003,
+      "duration": 2.919,
+      "text": "Y Eso no se lo explicaron en el proceso, entiendo.",
+      "reviewed": true,
+      "correction_note": "Att. tone of voice, gaslighting",
+      "backchannel_events": ""
+    },
+    {
+      "index": 2,
+      "speaker": "passenger",
+      "start": 12.704093750000002,
+      "end": 15.184718750000002,
+      "duration": 2.481,
+      "text": "¿Me explicaron si fueron inverdad,...?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 3,
+      "speaker": "passenger",
+      "start": 16.129718750000002,
+      "end": 19.69,
+      "duration": 3.56,
+      "text": "Primero, una mentira de que yo había agredido a una persona,",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 4,
+      "speaker": "passenger",
+      "start": 19.69,
+      "end": 23.250968750000002,
+      "duration": 3.561,
+      "text": "ya, entonces entraron en el avión con esa explicación, mira.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 5,
+      "speaker": "passenger",
+      "start": 24.01034375,
+      "end": 27.300968750000003,
+      "duration": 3.291,
+      "text": "Hubo una agresión, tú agrediste a una persona. Yo no agredí a nadie.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 6,
+      "speaker": "passenger",
+      "start": 27.891593750000002,
+      "end": 30.524093750000002,
+      "duration": 2.633,
+      "text": "Pedía a todo el mundo que estaba acerca... ¿Nadie? ¿Ya?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 7,
+      "speaker": "passenger",
+      "start": 31.16534375,
+      "end": 37.814093750000005,
+      "duration": 6.649,
+      "text": "Entonces, y fue, fue, fue. Mira, mira las cámaras. Pruébame que yo, que yo hice eso. Y yo levanto solo y salgo. ¿Ya?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 8,
+      "speaker": "passenger",
+      "start": 39.518468750000004,
+      "end": 41.45909375,
+      "duration": 1.941,
+      "text": "10, 15 minutos después de que pase",
+      "reviewed": true,
+      "correction_note": "Agreeing falsely **lo entiendo**",
+      "backchannel_events": ""
+    },
+    {
+      "index": 9,
+      "speaker": "passenger",
+      "start": 42.08346875,
+      "end": 48.17534375,
+      "duration": 6.092,
+      "text": "Otra narrativa, otra historia. Porque miraron la cámara, vieron que eso no pasó y de ahí me dijeron que yo...",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 10,
+      "speaker": "passenger",
+      "start": 48.91784375,
+      "end": 52.51221875,
+      "duration": 3.594,
+      "text": "Pasé solito mi Boarding Pass.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 11,
+      "speaker": "passenger",
+      "start": 53.45721875,
+      "end": 54.59471875,
+      "duration": 1.137,
+      "text": "Ya",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 12,
+      "speaker": "passenger",
+      "start": 54.689093750000005,
+      "end": 68.52659375,
+      "duration": 13.837,
+      "text": "pero no, la persona que me entregó el boarding es la misma persona que me acusó falsamente de agresión. Yo tuve la policía esperando harto, la policía habló con él, la policía habló conmigo, habló con él.",
+      "reviewed": true,
+      "correction_note": "**comprendo**",
+      "backchannel_events": ""
+    },
+    {
+      "index": 13,
+      "speaker": "passenger",
+      "start": 70.50909375,
+      "end": 73.28534375000001,
+      "duration": 2.776,
+      "text": "Viron las cameras y disseron: no paso nada. Y ahora",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 14,
+      "speaker": "passenger",
+      "start": 73.96034375,
+      "end": 76.40721875,
+      "duration": 2.447,
+      "text": "La policía está a la altura. ¿Y qué hago acá?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 15,
+      "speaker": "passenger",
+      "start": 77.20034375,
+      "end": 79.29284375,
+      "duration": 2.093,
+      "text": "Espera que tenemos que tener primero...",
+      "reviewed": true,
+      "correction_note": "**claro, comprendo** ",
+      "backchannel_events": ""
+    },
+    {
+      "index": 16,
+      "speaker": "passenger",
+      "start": 79.88346875,
+      "end": 92.03346875000001,
+      "duration": 12.15,
+      "text": "Y no me contaron, pero yo escuché. Y me dijeron: necesitamos una carta comprobando exactamente por qué sacaron el, porque ellos quieren sacar su responsabilidad de eso. Y yo entiendo que está pasando. Pero ahora...",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 17,
+      "speaker": "passenger",
+      "start": 95.98221875,
+      "end": 97.16346875,
+      "duration": 1.181,
+      "text": "fue comprobado que las dos cosas fueron mentiras.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 18,
+      "speaker": "passenger",
+      "start": 99.28971875,
+      "end": 100.01534375,
+      "duration": 0.726,
+      "text": "Yo quiero...",
+      "reviewed": true,
+      "correction_note": "comprendo.",
+      "backchannel_events": ""
+    },
+    {
+      "index": 19,
+      "speaker": "passenger",
+      "start": 102.12471875,
+      "end": 113.95409375000001,
+      "duration": 11.829,
+      "text": "por escrito, porque yo necesito volar, yo necesito ir donde yo estaba, entonces yo necesito de algo que me explique por qué hicieron eso conmigo, porque si yo salgo de esa puerta ahora y yo pierdo eso.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 20,
+      "speaker": "passenger",
+      "start": 115.06784375000001,
+      "end": 116.13096875000001,
+      "duration": 1.063,
+      "text": "¿Entiendes? Yo no voy a salir.",
+      "reviewed": true,
+      "correction_note": "att. to the explanation and tatics",
+      "backchannel_events": ""
+    },
+    {
+      "index": 21,
+      "speaker": "airline_luggage_staff",
+      "start": 117.26159375,
+      "end": 151.51784375,
+      "duration": 34.256,
+      "text": "O sea, mire, comprendo lo que me explica y lo que usted me menciona como tal, lamentablemente nosotros en este lugar no podemos, más allá de lo que ya hicimos, despejar su equipaje. Yo entiendo. Le pido que me escuche, porque me escuché muy atentamente todo lo que me relató. Ya. Sin embargo, todo el previo a esto fue en otra área, con otra personal y con otras entidades, que en este caso es PDI. Asumo que la persona que le puede entregar esa documentación quizás es Seguridad Aeroportuaria o PDI.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 22,
+      "speaker": "unresolved_speaker",
+      "start": 127.77471875,
+      "end": 128.65221875,
+      "duration": 0.877,
+      "text": "",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 23,
+      "speaker": "passenger",
+      "start": 129.25971875000002,
+      "end": 130.18784375,
+      "duration": 0.928,
+      "text": "",
+      "reviewed": true,
+      "correction_note": "claro, comprendo",
+      "backchannel_events": ""
+    },
+    {
+      "index": 24,
+      "speaker": "passenger",
+      "start": 150.92721875,
+      "end": 157.72784375,
+      "duration": 6.801,
+      "text": "pedía, ese documento fue hecho por LATAM, el documento fue hecho por LATAM, yo quiero de quien hizo el documento.",
+      "reviewed": true,
+      "correction_note": "deflection, not providing information even when asked",
+      "backchannel_events": ""
+    },
+    {
+      "index": 25,
+      "speaker": "airline_luggage_staff",
+      "start": 158.47034375,
+      "end": 162.17034375,
+      "duration": 3.7,
+      "text": "es que eso yo lo desconozco, mira acá nosotros como... le menciono",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 26,
+      "speaker": "passenger",
+      "start": 162.0,
+      "end": 166.33409375000002,
+      "duration": 4.334,
+      "text": "Juárez, Joaquín...",
+      "reviewed": true,
+      "correction_note": "Joaquin informed to dominika that was making a security process regarding the  incident",
+      "backchannel_events": ""
+    },
+    {
+      "index": 27,
+      "speaker": "airline_luggage_staff",
+      "start": 166.84034375000002,
+      "end": 172.52784375,
+      "duration": 5.687,
+      "text": "Yo hablé con él hace poquito. El me menciona que esta haciendo un processo de seguridad en base el sucedido.",
+      "reviewed": true,
+      "correction_note": "why?",
+      "backchannel_events": ""
+    },
+    {
+      "index": 28,
+      "speaker": "airline_luggage_staff",
+      "start": 172.41346875,
+      "end": 174.52284375,
+      "duration": 2.109,
+      "text": "L... Asumo que quizá... no le informe.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 29,
+      "speaker": "unresolved_speaker",
+      "start": 171.53159375,
+      "end": 171.73409375,
+      "duration": 0.202,
+      "text": "[silencio]",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 30,
+      "speaker": "passenger",
+      "start": 173.03346875,
+      "end": 177.12596875,
+      "duration": 4.093,
+      "text": "él tiene la carta.",
+      "reviewed": true,
+      "correction_note": "comprendo. passenger information about informatin being passed to PDI",
+      "backchannel_events": ""
+    },
+    {
+      "index": 31,
+      "speaker": "passenger",
+      "start": 176.00346875000002,
+      "end": 192.50721875000002,
+      "duration": 16.504,
+      "text": "la carta con la información en su teléfono, porque él fue, y es tan chistoso esto que ni siquiera LATAM quiso como imprimir lo que parece esa carta, lo mandaron a él con un teléfono a mostrar a la PDI.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 32,
+      "speaker": "passenger",
+      "start": 193.23284375,
+      "end": 196.33784375000002,
+      "duration": 3.105,
+      "text": "Eso es un absurdo, es un absurdo.",
+      "reviewed": true,
+      "correction_note": "comprendo",
+      "backchannel_events": ""
+    },
+    {
+      "index": 33,
+      "speaker": "passenger",
+      "start": 198.24471875,
+      "end": 218.27534375000002,
+      "duration": 20.031,
+      "text": "Lo que hago yo, porque yo no trabajo en Latam, entonces si yo estoy pasando por un problema, me hicieron un problema, porque esto va a tener un proceso bien grande, pero lo que yo quiero ahora es resolver mi vida, porque yo tengo que ir donde yo tenía que ir ya, entonces pueden llamar a quien es la persona correcta, porque yo no voy a salir de acá.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 34,
+      "speaker": "unresolved_speaker",
+      "start": 213.41534375,
+      "end": 213.97221875000002,
+      "duration": 0.557,
+      "text": "[silencio]",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 35,
+      "speaker": "airline_luggage_staff",
+      "start": 218.84909375,
+      "end": 223.03034375,
+      "duration": 4.181,
+      "text": "es que... lamentablemente.. Aca no vamos poder ayudarle neste sentido",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 36,
+      "speaker": "passenger",
+      "start": 222.54471875000002,
+      "end": 224.53596875000002,
+      "duration": 1.991,
+      "text": "vas a cerrar acá y estare acá igual.",
+      "reviewed": true,
+      "correction_note": "att in the words, the treatment to a passenger ",
+      "backchannel_events": ""
+    },
+    {
+      "index": 37,
+      "speaker": "airline_luggage_staff",
+      "start": 224.44284375,
+      "end": 229.95284375000003,
+      "duration": 5.51,
+      "text": "Lo dudo! pero vamos a seguir con el servizio",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 38,
+      "speaker": "passenger",
+      "start": 227.18534375000002,
+      "end": 230.31596875,
+      "duration": 3.131,
+      "text": "A no ser que van a sacarme me otra vez a la fuerza",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 39,
+      "speaker": "unresolved_speaker",
+      "start": 236.33159375000002,
+      "end": 237.15846875000003,
+      "duration": 0.827,
+      "text": "[silencio]",
+      "reviewed": true,
+      "correction_note": "she laughs when talking about removing the passenger",
+      "backchannel_events": ""
+    },
+    {
+      "index": 40,
+      "speaker": "airline_luggage_staff",
+      "start": 238.0,
+      "end": 262.11284375,
+      "duration": 24.113,
+      "text": "Más allá de lo que ya le hemos indicado, no podemos hacer, señor. La maleta ya cumplimos con entregársela. Este es un espacio privado. Si yo le pido que salga usted, debe salir. Tenemos y debemos sacarlo de este lugar. Más allá de eso, no le podría orientar. Porque el proceso que usted sucedió fue anexo acá.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 41,
+      "speaker": "unresolved_speaker",
+      "start": 255.60284375,
+      "end": 256.39596875,
+      "duration": 0.793,
+      "text": "[silencio]",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 42,
+      "speaker": "passenger",
+      "start": 259.29846875000004,
+      "end": 260.49659375000005,
+      "duration": 1.198,
+      "text": "Yo no salgo de acá.",
+      "reviewed": true,
+      "correction_note": "fake procedures, trying to use specific aeroportuary  language ",
+      "backchannel_events": ""
+    },
+    {
+      "index": 43,
+      "speaker": "airline_luggage_staff",
+      "start": 260.44596875,
+      "end": 278.56971875,
+      "duration": 18.124,
+      "text": "Yo invito amablemente a que pueda retirarse con su equipaje y recurrir quizás a Seguridad Aeroportuaria para que lo puedan ayudar, como pasajero puede ir inclusive a PDI a dejar una constancia de lo que sucedió para que también les den una documentación y un respaldo por cuenta suya de lo que acaba de suceder.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 44,
+      "speaker": "unresolved_speaker",
+      "start": 265.79534375000003,
+      "end": 266.20034375,
+      "duration": 0.405,
+      "text": "[silencio]",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 45,
+      "speaker": "unresolved_speaker",
+      "start": 266.95971875000004,
+      "end": 268.49534375,
+      "duration": 1.536,
+      "text": "Yo voy a informar otra vez.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 46,
+      "speaker": "passenger",
+      "start": 278.72159375,
+      "end": 281.82659375000003,
+      "duration": 3.105,
+      "text": "Y me siento como una pelota de ping-pong.",
+      "reviewed": true,
+      "correction_note": "fake procedures, trying to use specific aeroportuary  language ",
+      "backchannel_events": ""
+    },
+    {
+      "index": 47,
+      "speaker": "airline_luggage_staff",
+      "start": 281.97846875,
+      "end": 292.03596875,
+      "duration": 10.058,
+      "text": "Es que, mire, hay un tema de seguridad aeroportuaria que va más allá de lo que nosotros realizamos. Y eso usted como pasajero, inclusive nosotros como funcionarios, no debemos sobrepasar.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 48,
+      "speaker": "unresolved_speaker",
+      "start": 283.19346875,
+      "end": 283.61534375,
+      "duration": 0.422,
+      "text": "[silencio]",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 49,
+      "speaker": "passenger",
+      "start": 292.03596875,
+      "end": 294.41534375000003,
+      "duration": 2.379,
+      "text": "Yo trabajé en el aeropuerto y yo sé muy bien, muy bien.",
+      "reviewed": true,
+      "correction_note": "fake procedures, trying to use specific aeroportuary  language  - need to review this absurdity",
+      "backchannel_events": ""
+    },
+    {
+      "index": 50,
+      "speaker": "airline_luggage_staff",
+      "start": 293.84159375,
+      "end": 305.62034375,
+      "duration": 11.779,
+      "text": "Entonces maneja al revés el proceso, los procedimientos, que entenderá que van variando en base al aeropuerto en el cual está operando y en base al país. Y los procedimientos que pueden aplicar acá pueden ser muy diferentes a los de su país de origen.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 51,
+      "speaker": "passenger",
+      "start": 305.45159375000003,
+      "end": 309.0,
+      "duration": 3.548,
+      "text": "Entonces usted puede sacar a alguien de un vuelo sin.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 52,
+      "speaker": "airline_luggage_staff",
+      "start": 308.6,
+      "end": 313.96534375,
+      "duration": 5.365,
+      "text": "No lo sé, no lo sé por qué eso aplica seguridad aeroportuaria. ",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 53,
+      "speaker": "airline_luggage_staff",
+      "start": 314.0,
+      "end": 315.5,
+      "duration": 1.5,
+      "text": "Ya?! Ahora",
+      "reviewed": true,
+      "correction_note": "what are the training needed?",
+      "backchannel_events": ""
+    },
+    {
+      "index": 54,
+      "speaker": "passenger",
+      "start": 315.5,
+      "end": 321.22971875,
+      "duration": 5.73,
+      "text": "Ustedes no tienen que dar una explicacion? ¿que se sacan el pasajero del vuelo a la fuerza?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 55,
+      "speaker": "airline_luggage_staff",
+      "start": 321.97659375,
+      "end": 328.82346875,
+      "duration": 6.847,
+      "text": "De mi area, no lo se. Señor, desde acá, en el servicio de equipaje, tal como usted leyó antes de ingresar, más allá, ya cumplimos con el tránsito. No, no, no.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 56,
+      "speaker": "passenger",
+      "start": 328.46909375,
+      "end": 341.88471875000005,
+      "duration": 13.416,
+      "text": "No, no, no, perdón. Yo no es que yo no leí y sabía que era equipaje y vine para acá. La persona que me sacó del vuelo me dejó acá.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 57,
+      "speaker": "airline_luggage_staff",
+      "start": 333.97034375000004,
+      "end": 336.19784375,
+      "duration": 2.227,
+      "text": "Este es el servicio de equipaje... La persona tiene que estar...",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 58,
+      "speaker": "airline_luggage_staff",
+      "start": 342.57659375000003,
+      "end": 345.54659375,
+      "duration": 2.97,
+      "text": "para retirar su equipaje.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 59,
+      "speaker": "passenger",
+      "start": 343.87596875,
+      "end": 345.09096875,
+      "duration": 1.215,
+      "text": "No me informou eso también.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 60,
+      "speaker": "unresolved_speaker",
+      "start": 346.40721875,
+      "end": 347.67284375,
+      "duration": 1.266,
+      "text": "[silencio]",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 61,
+      "speaker": "airline_luggage_staff",
+      "start": 349.96784375000004,
+      "end": 358.94534375,
+      "duration": 8.977,
+      "text": "Claro. Y es lo que venimos a reiterar. Mi colega y yo le estamos reiterando. Nosotros estamos imposibilitados de entregarle algún documento porque hay algo que no maneja.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 62,
+      "speaker": "unresolved_speaker",
+      "start": 354.79409375,
+      "end": 354.94596875,
+      "duration": 0.152,
+      "text": "[silencio]",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 63,
+      "speaker": "passenger",
+      "start": 362.75909375000003,
+      "end": 366.53909375,
+      "duration": 3.78,
+      "text": "Yo podría entonces pedirle a un funcionario ¿Cuál es tu posición?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 64,
+      "speaker": "airline_luggage_staff",
+      "start": 366.53909375,
+      "end": 368.09159375,
+      "duration": 1.553,
+      "text": "Dominique, Supervisora.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 65,
+      "speaker": "passenger",
+      "start": 368.09159375,
+      "end": 371.02784375000005,
+      "duration": 2.936,
+      "text": "de la supervisora, yo puedo pedir a ti, supervisora",
+      "reviewed": true,
+      "correction_note": "even before finishing, she already \"has done\" , but what? she does not care, never did",
+      "backchannel_events": ""
+    },
+    {
+      "index": 66,
+      "speaker": "passenger",
+      "start": 371.77034375000005,
+      "end": 372.98534375,
+      "duration": 1.215,
+      "text": "que contacte",
+      "reviewed": true,
+      "correction_note": "even before finishing, she already \"has done\" , but what? she does not care, never did",
+      "backchannel_events": ""
+    },
+    {
+      "index": 67,
+      "speaker": "airline_luggage_staff",
+      "start": 373.25534375,
+      "end": 373.77846875,
+      "duration": 0.523,
+      "text": "ya lo hice",
+      "reviewed": true,
+      "correction_note": "is this a absurd request from a client who has been treated unfairly (to say the least)",
+      "backchannel_events": ""
+    },
+    {
+      "index": 68,
+      "speaker": "passenger",
+      "start": 373.93034375,
+      "end": 378.26721875000004,
+      "duration": 4.337,
+      "text": "la parte responsable, entonces, y que pueda venir acá.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 69,
+      "speaker": "passenger",
+      "start": 379.16159375,
+      "end": 382.53659375,
+      "duration": 3.375,
+      "text": "¿Me llevar donde tengo que ir?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 70,
+      "speaker": "airline_luggage_staff",
+      "start": 382.92471875,
+      "end": 385.89471875000004,
+      "duration": 2.97,
+      "text": "Ya lo solicité. ¿Ya? ¿Sí? ¿Ya? Ya está solicitado.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 71,
+      "speaker": "passenger",
+      "start": 385.89471875000004,
+      "end": 387.02534375000005,
+      "duration": 1.131,
+      "text": "Ya, muchas gracias.",
+      "reviewed": true,
+      "correction_note": "after all, if I wanted to wait in the lugagge area, needed to be standing. ",
+      "backchannel_events": ""
+    },
+    {
+      "index": 72,
+      "speaker": "airline_luggage_staff",
+      "start": 398.97284375000004,
+      "end": 405.45284375,
+      "duration": 6.48,
+      "text": "Te pido eso si que espere afuera ¿Por qué? Usted puede esperar de pie. Le pido amablemente que se posicione de pie, porque aquí hay más pasajeros a ser atendidos.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 73,
+      "speaker": "passenger",
+      "start": 401.95971875000004,
+      "end": 402.55034375,
+      "duration": 0.591,
+      "text": "¿Por qué?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 74,
+      "speaker": "passenger",
+      "start": 405.45284375,
+      "end": 409.03034375000004,
+      "duration": 3.578,
+      "text": "Ya, si alguien, si alguien, si alguien llegar...",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 75,
+      "speaker": "passenger",
+      "start": 409.85721875,
+      "end": 414.29534375000003,
+      "duration": 4.438,
+      "text": "Si alguien llega, yo levanto. ¿Por qué? Porque no es... Yo estoy cansado.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 76,
+      "speaker": "airline_luggage_staff",
+      "start": 415.54409375,
+      "end": 417.40034375000005,
+      "duration": 1.856,
+      "text": "Puede tomar acento afuera. No, no puede estar asi..",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 77,
+      "speaker": "passenger",
+      "start": 418.54784375,
+      "end": 422.56409375000004,
+      "duration": 4.016,
+      "text": "¿Por qué? ¡Muéstrame dónde! ¿Dónde existe una ley que explique esto?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 78,
+      "speaker": "airline_luggage_staff",
+      "start": 422.56409375000004,
+      "end": 425.23034375000003,
+      "duration": 2.666,
+      "text": "Acá.. Es una área privada, tiene que esperar afuera.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 79,
+      "speaker": "airline_luggage_staff",
+      "start": 426.63096875,
+      "end": 429.97221875,
+      "duration": 3.341,
+      "text": "Por favor, necesito que se levante, por favor. Buenas tardes. Hola.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 80,
+      "speaker": "unresolved_speaker",
+      "start": 429.97221875,
+      "end": 430.66409375,
+      "duration": 0.692,
+      "text": "[silencio]",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 81,
+      "speaker": "airline_luggage_staff",
+      "start": 431.42346875000004,
+      "end": 431.44034375,
+      "duration": 0.017,
+      "text": "Necessito que espere afuera",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 82,
+      "speaker": "passenger",
+      "start": 431.44034375,
+      "end": 433.03096875,
+      "duration": 1.591,
+      "text": "Yo no posso me sentar?",
+      "reviewed": true,
+      "correction_note": "wow. ",
+      "backchannel_events": ""
+    },
+    {
+      "index": 83,
+      "speaker": "airline_luggage_staff",
+      "start": 434.21159375,
+      "end": 443.15159375,
+      "duration": 8.94,
+      "text": "No senhor! Si fuese para sentarse haveria un assiento para su comodidad. Y esta no es una zona de espera",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 84,
+      "speaker": "passenger",
+      "start": 442.54409375,
+      "end": 450.0,
+      "duration": 7.456,
+      "text": "Entonces, después de eso todo, después de me sacar del vuelo, después de me machucar, después de me humillar en frente de mucha gente...",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 85,
+      "speaker": "airline_luggage_staff",
+      "start": 451.16721875,
+      "end": 468.0,
+      "duration": 16.833,
+      "text": "Senor! Mi obligación es entregarle el equipaje y es algo que yo ya realicé. Si usted quiere que yo le colabore averiguando quién lo puede orientar, lo voy a hacer siempre y cuando usted salga de este lugar. De esa manera es la única forma que lo voy a poder ayudar u orientar.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 86,
+      "speaker": "unresolved_speaker",
+      "start": 461.49471875,
+      "end": 461.62971875000005,
+      "duration": 0.135,
+      "text": "[silencio]",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 87,
+      "speaker": "passenger",
+      "start": 467.48534375,
+      "end": 473.03721875,
+      "duration": 5.552,
+      "text": "Ah esta me ayudando. muchas gracias por la ayuda. Muchas gracias, muchas gracias, muchas gracias.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 88,
+      "speaker": "airline_luggage_staff",
+      "start": 480.0,
+      "end": 486.68909375000004,
+      "duration": 6.689,
+      "text": "a fuera puede tomar asiento y apenas me respondan quien viene, yo salgo a informarles.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 89,
+      "speaker": "passenger",
+      "start": 486.68909375000004,
+      "end": 491.0,
+      "duration": 4.311,
+      "text": "Tú puedes me dar un tiempo de prevision de quanto tiempo va demorar eso?.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 90,
+      "speaker": "airline_luggage_staff",
+      "start": 491.1,
+      "end": 493.0,
+      "duration": 1.9,
+      "text": "Lo desconozco señor",
+      "reviewed": true,
+      "correction_note": "she is going an extra mile.",
+      "backchannel_events": ""
+    },
+    {
+      "index": 91,
+      "speaker": "passenger",
+      "start": 491.0,
+      "end": 513.68909375,
+      "duration": 22.689,
+      "text": "pero tu puede procurar esta informacion por que estoy en el aeropuerto desde las 11 de la mañana. Yo debería estar llegando a mi destino final. Yo no fui por una mentira de un funcionario, que ya fue comprobada por la policía. Eso va a dar proceso pesado, ¿ya? Por favor, ayude a terminar, a resolver eso porque yo ya estoy cansado y estresado.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 92,
+      "speaker": "airline_luggage_staff",
+      "start": 512.7,
+      "end": 521.07659375,
+      "duration": 8.377,
+      "text": "Estoy haciendo una execion en el proceso y estoy tratando de ayudarlo, sin embargo necesito que nos ayuden. y que tienes que salir de la oficina",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    }
+  ]
+}

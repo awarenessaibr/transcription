@@ -1,0 +1,200 @@
+{
+  "transcript_id": "I-002_01_NAR-01_STG_1_pre_boarding",
+  "source_file": "transcription/data/audio/Aeropuerto Arturo Merino Benítez.m4a",
+  "language": "pt",
+  "timestamp": "2024-07-05T12:56:00",
+  "provider": "local",
+  "original_transcript_id": "I-002_01_NAR-01_STG_1_pre_boarding",
+  "metadata": {
+    "timestamps": {
+      "QuickTime_Movie_Header_Created": "2024-07-05T19:57:11.000Z"
+    },
+    "audio_properties": {
+      "duration": "00:00:59.733",
+      "track_id": "48000",
+      "preferred_volume": "1"
+    },
+    "file_info": {
+      "file_size": "509547 bytes",
+      "file_size_kb": "497.60 KB",
+      "major_brand": "M4A",
+      "content_type": "audio/mp4",
+      "file_name": "aeropuerto_STG_1.m4a"
+    }
+  },
+  "title": "01 - Aeropuerto Arturo Merino Benítez",
+  "subtitle": "Pre-Boarding — Casual Conversation with Pilot Ruiz",
+  "recording_datetime": "2024-07-05T12:56:00",
+  "location": "Arturo Merino Benítez International Airport (SCL), Santiago, Chile — Boarding Gate Area",
+  "audio_id": "aeropuerto_STG_1",
+  "case_id": "I-002",
+  "narrative_id": "NAR-01_STG_1_pre_boarding",
+  "chronological_order": 1,
+  "prior_stage": "",
+  "next_stage": "I-002_02_NAR-02_STG_2_boarding_gate",
+  "classification": "Attorney Work Product — Privileged and Confidential",
+  "participants": [
+    {
+      "canonical_name": "Leandro Disconzi",
+      "role": "Passenger",
+      "speaker_label": "Passenger (Leandro Disconzi)",
+      "speaker_id": "SPK-passenger-leandro"
+    },
+    {
+      "canonical_name": "Latam Pilot Ruiz (NAR-01_STG_1_pre_boarding)",
+      "role": "LATAM Pilot / Aircraft Captain",
+      "speaker_label": "Latam Pilot Ruiz",
+      "speaker_id": "SPK-latam-pilot-ruiz-nar-01-stg-1-pre-boarding"
+    }
+  ],
+  "violations_cited": [
+    "CL-014",
+    "CL-021"
+  ],
+  "tags": [
+    "transcript",
+    "narrative",
+    "evidence",
+    "pre-boarding",
+    "casual-conversation",
+    "Portuguese",
+    "pilot-interaction",
+    "baseline-behavior"
+  ],
+  "forensic_clusters": {
+    "cluster_A_casual_inquiry": {
+      "segments": [
+        "0-4"
+      ],
+      "summary": "Passenger initiates friendly conversation in Portuguese with the pilots. He asks which flight is arriving and whether it's theirs. Pilot responds in Portuguese, confirming it's the Brasilia flight but he doesn't know where it came from. Passenger notes the flight is delayed and expresses frustration that LATAM doesn't notify passengers: 'nadie nos avisa.' Brief code-switch to Spanish in segment 4."
+    },
+    "cluster_B_reassurance_and_parting": {
+      "segments": [
+        "5-8"
+      ],
+      "summary": "Pilot reassures: 'você tem 45 minutos para decolar, vai dar mais ou menos no horário' — you have 45 minutes to take off, it'll be roughly on time. Passenger is skeptical: 'Você acha?' Pilot reaffirms: 'A gente tá no horário ainda.' Passenger closes with a weary reference to prior LATAM experiences: 'a história com a Latam já tá longa, tá cansativa já. Valeu.' — the story with LATAM is already long, already tiring."
+    }
+  },
+  "key_evidentiary_findings": [
+    {
+      "id": "S1-1",
+      "finding": "Passenger's first recorded interaction is a casual, friendly conversation in Portuguese with the pilots — no aggression, no confrontation. This establishes a behavioral baseline contradicting later claims of 'aggressive' conduct.",
+      "segments": [
+        "0-5"
+      ],
+      "strength": "High",
+      "cross_reference": "STG_5 (aggression allegation), STG_2 (boarding-gate dispute)"
+    },
+    {
+      "id": "S1-2",
+      "finding": "Passenger mentions prior negative experiences with LATAM: 'a história com a Latam já tá longa, tá cansativa já.' This suggests a pattern of issues predating this incident.",
+      "segments": [
+        "8"
+      ],
+      "strength": "Medium",
+      "cross_reference": "STG_7 seg 31 (passenger recounts prior LATAM incident in São Paulo)"
+    },
+    {
+      "id": "S1-3",
+      "finding": "Pilot Ruiz confirms the flight can still depart on time despite the delay. This contradicts any later claim that the passenger's questions caused or contributed to a delay.",
+      "segments": [
+        "5",
+        "7"
+      ],
+      "strength": "Medium"
+    }
+  ],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 0,
+      "speaker": "passenger",
+      "start": 16,
+      "end": 18.03,
+      "duration": 2.03,
+      "text": "opa, tudo bem? Espanhol certo?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T12:56:16.000"
+    },
+    {
+      "index": 1,
+      "speaker": "airline_pilot",
+      "start": 18.04,
+      "end": 19.3,
+      "duration": 1.26,
+      "text": "Portugues mesmo.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T12:56:18.040"
+    },
+    {
+      "index": 2,
+      "speaker": "passenger",
+      "start": 19.32,
+      "end": 22.67,
+      "duration": 3.35,
+      "text": "Voce sabe qual e esse vou que esta chegando ae agora?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T12:56:19.320"
+    },
+    {
+      "index": 3,
+      "speaker": "airline_pilot",
+      "start": 22.7,
+      "end": 27.3,
+      "duration": 4.6,
+      "text": "Da onde que ele chegou eu nao sei, mas e o que vamos a Brasilia.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T12:56:22.700"
+    },
+    {
+      "index": 4,
+      "speaker": "passenger",
+      "start": 27.31,
+      "end": 38.19,
+      "duration": 10.88,
+      "text": "Porque está atrasado. Y porque el vuelo de brasil también va a estar atrasado. Y nadie nos avisa.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T12:56:27.310"
+    },
+    {
+      "index": 5,
+      "speaker": "airline_pilot",
+      "start": 39.3,
+      "end": 44.7,
+      "duration": 5.4,
+      "text": "Cara, voce tem 45 minutos para decolar, vai dar mais ou menos no horario.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T12:56:39.300"
+    },
+    {
+      "index": 6,
+      "speaker": "passenger",
+      "start": 44.85,
+      "end": 46.3,
+      "duration": 1.45,
+      "text": "Voce acha?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T12:56:44.850"
+    },
+    {
+      "index": 7,
+      "speaker": "airline_pilot",
+      "start": 46.25,
+      "end": 51,
+      "duration": 4.75,
+      "text": "A gente ta no horario ainda.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T12:56:46.250"
+    },
+    {
+      "index": 8,
+      "speaker": "passenger",
+      "start": 51.1,
+      "end": 59.9,
+      "duration": 8.8,
+      "text": "E que a historia com a Latam ja ta longa, ta cansativa ja. Valeu.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T12:56:51.100"
+    }
+  ]
+}

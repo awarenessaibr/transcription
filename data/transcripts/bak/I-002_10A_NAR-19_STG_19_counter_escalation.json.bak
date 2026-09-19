@@ -1,0 +1,259 @@
+{
+  "transcript_id": "I-002_10A_NAR-19_STG_19_counter_escalation",
+  "source_file": "Aeropuerto Arturo Merino Benítez 19_1788417813.m4a.wav",
+  "language": "es",
+  "timestamp": "2024-07-05T17:03:00",
+  "provider": "",
+  "original_transcript_id": "",
+  "metadata": {
+    "saved_audio_file": "Aeropuerto Arturo Merino Benítez 19.m4a",
+    "processed_audio_file": "Aeropuerto Arturo Merino Benítez 19_1788417813.m4a_processed.wav"
+  },
+  "title": "Aeropuerto Arturo Merino Benítez 19 — Counter Escalation",
+  "subtitle": "Passenger recounts the false accusation and continued refusal to provide written grounds",
+  "recording_datetime": "2024-07-05T17:03:00",
+  "location": "Arturo Merino Benítez International Airport, Santiago, Chile",
+  "audio_id": "aeropuerto_STG_19",
+  "case_id": "I-002",
+  "narrative_id": "NAR-19_STG_19_counter_escalation",
+  "chronological_order": 11,
+  "prior_stage": "I-002_09_NAR-10_STG_16_counter_confrontation",
+  "next_stage": "I-002_10_NAR-14_Terminal_Internacional_T2_counter",
+  "classification": "Attorney Work Product — Privileged and Confidential",
+  "participants": [
+    {
+      "canonical_name": "Leandro Disconzi",
+      "role": "Passenger",
+      "speaker_label": "Passenger (Leandro Disconzi)",
+      "speaker_id": "SPK-passenger-leandro"
+    },
+    {
+      "canonical_name": "Nicolás",
+      "role": "DGAC Official",
+      "speaker_label": "DGAC - Don Nicolas",
+      "speaker_id": "SPK-dgac-nicolas"
+    }
+  ],
+  "violations_cited": [],
+  "tags": [
+    "transcript",
+    "narrative",
+    "evidence",
+    "counter-escalation",
+    "document-denial"
+  ],
+  "forensic_clusters": {},
+  "key_evidentiary_findings": [],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 0,
+      "speaker": "dgac_official",
+      "start": 0.03096875,
+      "end": 3.5072187500000003,
+      "duration": 3.476,
+      "text": " Anda nomás, no te preocupes. Sí, anda nomás.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 1,
+      "speaker": "passenger",
+      "start": 5.2115937500000005,
+      "end": 17.68221875,
+      "duration": 12.471,
+      "text": " Ya, solo para terminar. Entonces, lo que pasó, cuando probablemente vieron la cámara, y que eso de verdad no pasó, entraron con otra cosa, que yo no mostré, que yo hice mi boarding solo.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 2,
+      "speaker": "passenger",
+      "start": 19.26846875,
+      "end": 23.60534375,
+      "duration": 4.337,
+      "text": " Fue la persona que me amenazó, que me acusó falsamente.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 3,
+      "speaker": "passenger",
+      "start": 23.723468750000002,
+      "end": 29.106593750000002,
+      "duration": 5.383,
+      "text": " Yo escuché, no sé si el jefe o quien era de la PDI, sino para...",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 4,
+      "speaker": "passenger",
+      "start": 29.49471875,
+      "end": 30.827843750000003,
+      "duration": 1.333,
+      "text": " el chico de la latam",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 5,
+      "speaker": "passenger",
+      "start": 37.79721875,
+      "end": 41.32,
+      "duration": 3.523,
+      "text": " Pero eso por escrito nadie quiere me dar.\n Mira.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 6,
+      "speaker": "passenger",
+      "start": 42.16784375,
+      "end": 46.16784375,
+      "duration": 4.0,
+      "text": "Está como una película de terror y cómica.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 7,
+      "speaker": "dgac_official",
+      "start": 45.7,
+      "end": 46.8,
+      "duration": 1.1,
+      "text": "  ¿Qué es lo que necesitas? ",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 8,
+      "speaker": "passenger",
+      "start": 46.8,
+      "end": 51.8,
+      "duration": 5.0,
+      "text": "Yo necesito de algo que explique por qué yo fui sacado del vuelo.\n",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 9,
+      "speaker": "passenger",
+      "start": 51.8,
+      "end": 54.8,
+      "duration": 3.0,
+      "text": "¿Pero quién quiere que te lo entregue eso?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 10,
+      "speaker": "passenger",
+      "start": 54.8,
+      "end": 64.8,
+      "duration": 10.0,
+      "text": "Quisea, quisea, quisea.\nSimplemente algo para explicar por qué eso pasó, porque al principio soy solo yo un loco.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 11,
+      "speaker": "dgac_official",
+      "start": 58.97534375,
+      "end": 64.56096875,
+      "duration": 5.586,
+      "text": " Simplemente algo para explicar por qué eso pasó, porque al principio soy solo yo un loco.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 12,
+      "speaker": "dgac_official",
+      "start": 65.64096875,
+      "end": 68.5,
+      "duration": 2.859,
+      "text": " Pero eso lo tienes que tú solucionar por la aerolínea. ",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 13,
+      "speaker": "dgac_official",
+      "start": 68.5,
+      "end": 85.0,
+      "duration": 16.5,
+      "text": "Pero yo digo eso y ellos me dicen que tengo que solucionar con ustedes, que ellos no tienen que me dar explicación ninguna, no, no, no, no, no. Todo eso, mira, yo voy a entrar con un proceso judicial y todo, pero claramente que ahora yo simplemente quiero resolver mi vida y ir a mi destino, ¿entiendes? Pero está duro.\n",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 14,
+      "speaker": "dgac_official",
+      "start": 85.0,
+      "end": 87.0,
+      "duration": 2.0,
+      "text": "¿Y preguntaste acá qué pasó?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 15,
+      "speaker": "dgac_official",
+      "start": 87.0,
+      "end": 102.28471875,
+      "duration": 15.285,
+      "text": "Todavía no, porque pregunté a unas personas y dije, ya, yo ya vuelvo y también vuelvo. ¿Están me haciendo...? Ya, muchas gracias, muchas gracias, porque ya no sé más qué hacer. \ny cuándo",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 16,
+      "speaker": "dgac_official",
+      "start": 102.0,
+      "end": 108.57096875,
+      "duration": 6.571,
+      "text": " y cuándo",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 17,
+      "speaker": "dgac_official",
+      "start": 108.67096875,
+      "end": 110.57096875,
+      "duration": 1.9,
+      "text": "",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 18,
+      "speaker": "dgac_official",
+      "start": 107.13659375,
+      "end": 108.57096875,
+      "duration": 1.434,
+      "text": " Gracias.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": ""
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "transcript_id": "I-002_10B_NAR-18_STG_18_counter_fragment",
+  "source_file": "Aeropuerto Arturo Merino Benítez 18_1788417663.m4a.wav",
+  "language": "en",
+  "timestamp": "2024-07-05T17:58:00",
+  "provider": "",
+  "original_transcript_id": "",
+  "metadata": {
+    "saved_audio_file": "Aeropuerto Arturo Merino Benítez 18_1788417663.m4a.wav",
+    "processed_audio_file": "Aeropuerto Arturo Merino Benítez 18_1788417663.m4a_processed.wav"
+  },
+  "title": "Aeropuerto Arturo Merino Benítez 18 — Counter Fragment / Airline Deflection",
+  "subtitle": "Passenger seeks explanation; airline staff defer and evade responsibility",
+  "recording_datetime": "2024-07-05T17:58:00",
+  "location": "Arturo Merino Benítez International Airport, Santiago, Chile",
+  "audio_id": "aeropuerto_STG_18",
+  "case_id": "I-002",
+  "narrative_id": "NAR-18_STG_18_counter_fragment",
+  "chronological_order": 13,
+  "prior_stage": "I-002_10_NAR-14_Terminal_Internacional_T2_counter",
+  "next_stage": "I-002_11_NAR-13_STG_20_barraza_counter",
+  "classification": "Attorney Work Product — Privileged and Confidential",
+  "participants": [
+    {
+      "canonical_name": "Leandro Disconzi",
+      "role": "Passenger",
+      "speaker_label": "Passenger (Leandro Disconzi)",
+      "speaker_id": "SPK-passenger-leandro"
+    }
+  ],
+  "violations_cited": [],
+  "tags": [
+    "transcript",
+    "narrative",
+    "evidence",
+    "counter-fragment",
+    "airline-deflection"
+  ],
+  "forensic_clusters": {},
+  "key_evidentiary_findings": [],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 1,
+      "speaker": "passenger",
+      "start": 0.8072187500000001,
+      "end": 19.77471875,
+      "duration": 18.968,
+      "text": " there was someone here probably like that the supervisor or whatever it is so she was serving a client i've asked her if i could have a word with her as soon as she finished she said yes but then she left",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 2,
+      "speaker": "passenger",
+      "start": 20.972843750000003,
+      "end": 25.191593750000003,
+      "duration": 4.219,
+      "text": " It's becoming very, very ridiculous, very ridiculous.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 3,
+      "speaker": "passenger",
+      "start": 32.66721875,
+      "end": 35.19846875,
+      "duration": 2.531,
+      "text": " Let's wait a little bit more to see what will happen.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    }
+  ]
+}

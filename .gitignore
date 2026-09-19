@@ -1,0 +1,60 @@
+# Environment & Secrets
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.venv-py312/
+.openclaude
+
+# Secrets / pod setup notes
+POD.MD
+
+# LLM provider API keys entered from the UI (never commit)
+src/llm/llm_credentials.json
+src/llm/llm_credentials.json.tmp
+
+# Data (large files, user recordings)
+data/audio/
+data/originals/
+data/segment_audio/
+data/transcripts_by_audio/
+data/transcripts_narrative/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.dev-runpod/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Runtime artifacts
+.logs/
+.run/
+
+# Docker
+*.log
+.flash/
+
+
+.logs/
+.github/
+.run/
+.venv/
+.venv-mcp/

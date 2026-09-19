@@ -1,0 +1,2106 @@
+{
+  "transcript_id": "I-002_14_NAR-16_STG_23_DGAC_don_nicolas",
+  "source_file": "aeropuerto_STG_23.json",
+  "language": "es",
+  "timestamp": "2024-07-05T19:11:00",
+  "provider": "unknown",
+  "original_transcript_id": "I-002_14_NAR-16_STG_23_DGAC_don_nicolas",
+  "metadata": {
+    "timestamps": {
+      "QuickTime_Movie_Header_Created": "",
+      "QuickTime_Movie_Header_Preview_Time": "0",
+      "QuickTime_Movie_Header_Poster_Time": "0",
+      "QuickTime_Movie_Header_Selection_Time": "0",
+      "QuickTime_Movie_Header_Current_Time": "0"
+    },
+    "audio_properties": {
+      "duration": "00:42:43.989",
+      "track_id": "",
+      "preferred_volume": "1"
+    },
+    "file_info": {
+      "file_size": "21699915 bytes",
+      "file_size_kb": "21192.87 KB",
+      "major_brand": "M4A",
+      "content_type": "audio/mp4",
+      "file_name": "aeropuerto_STG_23.m4a"
+    }
+  },
+  "title": "Aeropuerto Arturo Merino Benítez 23 — FINAL v2",
+  "subtitle": "DGAC Don Nicolas — Legal Framework & 'Atados de Mano' Admission",
+  "recording_datetime": "2024-07-05T19:11:00",
+  "location": "Arturo Merino Benítez International Airport (SCL), Santiago, Chile — DGAC Office",
+  "audio_id": "aeropuerto_STG_23",
+  "case_id": "I-002",
+  "narrative_id": "NAR-16_STG_23_DGAC_don_nicolas",
+  "chronological_order": 17,
+  "prior_stage": "I-002_13_NAR-18_STG_26_self_narration",
+  "next_stage": "I-002_15_NAR-19_STG_27_self_narration",
+  "classification": "Attorney Work Product — Privileged and Confidential",
+  "participants": [
+    {
+      "canonical_name": "Leandro Disconzi",
+      "role": "Passenger",
+      "speaker_label": "Leandro Disconzi (passenger)",
+      "speaker_id": "SPK-passenger-leandro"
+    },
+    {
+      "canonical_name": "Don Nicolas",
+      "role": "DGAC Official",
+      "speaker_label": "DGAC - Don Nicolas"
+    },
+    {
+      "canonical_name": "Edgardo Ortiz",
+      "role": "DGAC Official",
+      "speaker_label": "DGAC - EDGARDO ORTIZ?"
+    },
+    {
+      "canonical_name": "Unknown DGAC Staff",
+      "role": "DGAC Staff",
+      "speaker_label": "SPEAKER_00"
+    }
+  ],
+  "violations_cited": [],
+  "tags": [
+    "transcript",
+    "narrative",
+    "evidence",
+    "DGAC-office",
+    "legal-framework",
+    "atados-de-mano",
+    "structural-vulnerability",
+    "law-reform-advocacy"
+  ],
+  "forensic_clusters": {
+    "cluster_A_captain_authority": {
+      "segments": [
+        "12-29"
+      ],
+      "summary": "Don Nicolas explains the Código Aeronáutico: the captain has absolute authority, the airline decides who flies, and DGAC merely assists. The remedy for wrongful removal is exclusively post-hoc civil litigation.",
+      "reasoning": "The framework is procedurally correct but provides no real-time protection. The passenger loses his status and must disembark regardless of the truth of the accusation.",
+      "provisions_engaged": [
+        "Código Aeronáutico Chileno",
+        "CACH Art. 133",
+        "CONST Art. 19 N°3"
+      ]
+    },
+    "cluster_B_pasajero_disruptivo": {
+      "segments": [
+        "24-29"
+      ],
+      "summary": "Don Nicolas explains that refusing to disembark converts the passenger into a 'pasajero insubordinado o disruptivo' — a statutory classification triggered by non-compliance, regardless of the validity of the underlying accusation. He states: 'No importa para este efecto el motivo.'",
+      "reasoning": "This motive-blind mechanism converts a false accusation into a self-fulfilling prophecy: protest → insubordinación → disruptivo label, all without verifying the original accusation.",
+      "provisions_engaged": [
+        "Código Aeronáutico Chileno",
+        "CONST Art. 19 N°2",
+        "ACHR Art. 25",
+        "Ley 20.609"
+      ],
+      "violation_linkage": "F-019 (disruptivo label), F-014 (causal inversion)"
+    },
+    "cluster_C_discrimination_question": {
+      "segments": [
+        "65-67"
+      ],
+      "summary": "Leandro asks directly: 'Esto puede ser simplesmente descriminacion?!' Don Nicolas does not deny the possibility, redirecting to the post-hoc remedy of filing a complaint against the airline.",
+      "reasoning": "The first time 'discriminación' is spoken on tape. Don Nicolas's response effectively acknowledges that the system cannot prevent discrimination in real time.",
+      "provisions_engaged": [
+        "Ley 20.609",
+        "CONST Art. 19 N°2",
+        "LPDC Art. 3(e)"
+      ],
+      "violation_linkage": "pending F-006 (discrimination-on-nationality)"
+    },
+    "cluster_D_atados_de_mano": {
+      "segments": [
+        "86",
+        "100",
+        "104-105"
+      ],
+      "summary": "CRITICAL: Don Nicolas admits DGAC is 'atados de mano' — hands tied. They cannot ask why the airline wants a passenger removed, must comply when the airline invokes the law, and the only check on bad-faith invocations is the court system.",
+      "reasoning": "The operational gap is stark: no real-time verification. The passenger asks who ensures the airline isn't using the law in bad faith; Don Nicolas answers: 'Para eso existen los tribunales' — only the courts, post-hoc.",
+      "provisions_engaged": [
+        "Código Aeronáutico Chileno",
+        "CONST Art. 19 N°2",
+        "ACHR Art. 25"
+      ],
+      "violation_linkage": "Structural evidence confirming the legal architecture permits what occurred."
+    },
+    "cluster_E_law_reform_advocacy": {
+      "segments": [
+        "96-97"
+      ],
+      "summary": "REMARKABLE: Don Nicolas reveals internal discussion about the case and advocates for changing the law to require airlines to show some basis for removal.",
+      "reasoning": "A senior DGAC official, on tape, expresses the view that the current legal framework is inadequate — a powerful contextual admission.",
+      "provisions_engaged": [],
+      "violation_linkage": "Structural evidence"
+    },
+    "cluster_F_damages_summary": {
+      "segments": [
+        "33-34",
+        "109"
+      ],
+      "summary": "Leandro articulates the full scope of damages: lost flight, humiliation, financial loss, and replacement flight 3x more expensive with 38hr travel instead of 4hr.",
+      "reasoning": "Quantifies the concrete harm flowing from the false accusation.",
+      "provisions_engaged": [
+        "CACH Art. 133A"
+      ]
+    }
+  },
+  "key_evidentiary_findings": [
+    {
+      "id": "S23-1",
+      "finding": "Captain's absolute authority under Código Aeronáutico explained by DGAC.",
+      "strength": "High",
+      "cross_reference": "T2, STG_22"
+    },
+    {
+      "id": "S23-2",
+      "finding": "'No importa para este efecto el motivo' — disruption classification is motive-blind.",
+      "strength": "Critical",
+      "cross_reference": "F-019, F-014"
+    },
+    {
+      "id": "S23-3",
+      "finding": "'Esto puede ser simplesmente descriminacion?!' — discrimination question raised directly.",
+      "strength": "High",
+      "cross_reference": "pending F-006, Ley 20.609"
+    },
+    {
+      "id": "S23-4",
+      "finding": "'Atados de mano' — DGAC cannot question airline's removal decision.",
+      "strength": "Critical",
+      "cross_reference": "T2, STG_22"
+    },
+    {
+      "id": "S23-5",
+      "finding": "'No le podemos preguntar por qué' — DGAC cannot ask the reason.",
+      "strength": "Critical",
+      "cross_reference": "T2 seg 2"
+    },
+    {
+      "id": "S23-6",
+      "finding": "'Para eso existen los tribunales' — only courts can check bad-faith invocations.",
+      "strength": "High",
+      "cross_reference": "ACHR Art. 25"
+    },
+    {
+      "id": "S23-7",
+      "finding": "Don Nicolas advocates for law reform — 'se cambie esa parte de la normativa'.",
+      "strength": "Remarkable",
+      "cross_reference": "Structural evidence"
+    },
+    {
+      "id": "S23-8",
+      "finding": "Leandro quantifies damages: replacement flight 3x cost, 38hr vs 4hr.",
+      "strength": "Medium",
+      "cross_reference": "Damages evidence"
+    }
+  ],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 0,
+      "speaker": "dgac_edgardo_ortiz",
+      "start": 0.010969,
+      "end": 0.85,
+      "duration": 0.839,
+      "text": " ¿Qui yo hable con usted?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 1,
+      "speaker": "passenger",
+      "start": 0.9,
+      "end": 1.5,
+      "duration": 0.6,
+      "text": " Ya. bacana.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 2,
+      "speaker": "dgac_edgardo_ortiz",
+      "start": 1.5,
+      "end": 4.2,
+      "duration": 2.7,
+      "text": "Ehh Como le digo. ¿Tiene alguna otra duda o algo más que pueda clarificar?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 3,
+      "speaker": "passenger",
+      "start": 4.2,
+      "end": 9.5,
+      "duration": 5.3,
+      "text": " Mira, mi duda es muy simple, me estoy haciendo de loco, mi duda es muy simple, yo quiero saber por qué...",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 4,
+      "speaker": "passenger",
+      "start": 9.5,
+      "end": 15.0,
+      "duration": 5.5,
+      "text": "¡Ah, ya pero, ya te impliqué! No, yo quiero por escrito.\n¿Por qué hicieron lo que me hicieron?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 5,
+      "speaker": "dgac_edgardo_ortiz",
+      "start": 15.0,
+      "end": 18.0,
+      "duration": 3.0,
+      "text": "..............., porque ya le expliqué...",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 6,
+      "speaker": "passenger",
+      "start": 18.0,
+      "end": 23.5,
+      "duration": 5.5,
+      "text": " Ya mira, tú ya me explicó, pero tú me explicó una cosa. Y de la Latam tambien me explico, otra cosa. entiende?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 7,
+      "speaker": "passenger",
+      "start": 23.5,
+      "end": 32.0,
+      "duration": 8.5,
+      "text": " El de la Latam todavía está diciendo que...me sacaron porque yo hice algo incorrecto pero eso ya fue comprobado por la PDI que no, ¿entiendes?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 8,
+      "speaker": "passenger",
+      "start": 32.0,
+      "end": 40.0,
+      "duration": 8.0,
+      "text": " Está, está, está...Ya, ya está. Muchas gracias.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 9,
+      "speaker": "dgac_edgardo_ortiz",
+      "start": 36.0,
+      "end": 37.0,
+      "duration": 1.0,
+      "text": " y entiendo",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 10,
+      "speaker": "dgac_edgardo_ortiz",
+      "start": 40.0,
+      "end": 43.0,
+      "duration": 3.0,
+      "text": " ¿Y encontró lo que estaba buscando en la ley? ",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 11,
+      "speaker": "passenger",
+      "start": 43.0,
+      "end": 45.0,
+      "duration": 2.0,
+      "text": "No, porque estoy hablando contigo, ¿cierto?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 12,
+      "speaker": "dgac_edgardo_ortiz",
+      "start": 45.0,
+      "end": 46.6,
+      "duration": 1.6,
+      "text": "Ah, ok. Si lo encuentras me...\n",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 13,
+      "speaker": "passenger",
+      "start": 46.6,
+      "end": 49.6,
+      "duration": 3.0,
+      "text": " Sí, claramente, claramente, claramente, no te preocupes.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 14,
+      "speaker": "passenger",
+      "start": 85.0,
+      "end": 97.0,
+      "duration": 12.0,
+      "text": " Agrega en el artículo 127 el siguiente inciso tercero, sin perjuicio del anterior el transportador",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 15,
+      "speaker": "passenger",
+      "start": 97.0,
+      "end": 110.0,
+      "duration": 13.0,
+      "text": " Deberá informar a cada pasajero los derechos que le asisten en los casos de cancelación, retraso del vuelo o denegación de embarque.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 16,
+      "speaker": "passenger",
+      "start": 110.0,
+      "end": 115.0,
+      "duration": 5.0,
+      "text": " de acuerdo a las condiciones previstas en el presente capítulo.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 17,
+      "speaker": "dgac_edgardo_ortiz",
+      "start": 115.0,
+      "end": 117.0,
+      "duration": 2.0,
+      "text": " ¿Y quién es el transportador?",
+      "reviewed": true,
+      "correction_note": "deflection, knowingly trying to steer the blame",
+      "backchannel_events": ""
+    },
+    {
+      "index": 18,
+      "speaker": "passenger",
+      "start": 117.0,
+      "end": 118.2,
+      "duration": 1.2,
+      "text": "La Latam.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 19,
+      "speaker": "dgac_edgardo_ortiz",
+      "start": 118.2,
+      "end": 119.2,
+      "duration": 1.0,
+      "text": " ¡Correcto!",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 20,
+      "speaker": "passenger",
+      "start": 119.2,
+      "end": 125.6,
+      "duration": 6.4,
+      "text": "Y Quien tiene que garantir que ellos estan dentro de la Ley? ...",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 21,
+      "speaker": "dgac_edgardo_ortiz",
+      "start": 125.6,
+      "end": 126.4,
+      "duration": 0.8,
+      "text": "Bien. Bien.",
+      "reviewed": true,
+      "correction_note": "Even with sarcasm when the law is read to them",
+      "backchannel_events": ""
+    },
+    {
+      "index": 22,
+      "speaker": "dgac_edgardo_ortiz",
+      "start": 128.0,
+      "end": 135.0,
+      "duration": 7.0,
+      "text": " Pero Entienda bien, Latam es que es el transportador que nos dé a usted facilitarle esa información y si por ejemplo la aerolínea puede ",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 23,
+      "speaker": "passenger",
+      "start": 133.0,
+      "end": 135.0,
+      "duration": 2.0,
+      "text": "Ellos tienen que dar la informacion.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 24,
+      "speaker": "dgac_edgardo_ortiz",
+      "start": 135.0,
+      "end": 138.8,
+      "duration": 3.8,
+      "text": "Usted no deja terminar lo que uno habla porque usted sabe que le estoy explicando lo que quiere y no quiere escuchar lo que uno está explicando. ",
+      "reviewed": true,
+      "correction_note": "att here. The reverse tactic, when they accuse you of doing exactly what they are doing.",
+      "backchannel_events": ""
+    },
+    {
+      "index": 25,
+      "speaker": "passenger",
+      "start": 138.8,
+      "end": 145.5,
+      "duration": 6.7,
+      "text": "No, por nada. por nada.\nYo stoy cansado de explicaciones ridículas, hidrúxulas que están siendo usadas contra...",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 26,
+      "speaker": "dgac_edgardo_ortiz",
+      "start": 145.5,
+      "end": 150.0,
+      "duration": 4.5,
+      "text": "Es porque son procedimientos no es como esto no es por ejemplo es sasa sasa no es así.",
+      "reviewed": true,
+      "correction_note": "att here, the level of explanations are just sad",
+      "backchannel_events": ""
+    },
+    {
+      "index": 27,
+      "speaker": "dgac_edgardo_ortiz",
+      "start": 149.5,
+      "end": 156.0,
+      "duration": 6.5,
+      "text": "tenemos un procedimiento la línea que se sigue usted acaba de leer lo que le estamos explicando Latam es el transportador Latam tiene que ver",
+      "reviewed": true,
+      "correction_note": "also here. trying to use something the passenger read to then imply that the passenger did not understand (again)",
+      "backchannel_events": ""
+    },
+    {
+      "index": 28,
+      "speaker": "passenger",
+      "start": 156.0,
+      "end": 158.5,
+      "duration": 2.5,
+      "text": " y cuál es el papel de la DGAC?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 29,
+      "speaker": "dgac_edgardo_ortiz",
+      "start": 158.2,
+      "end": 161.0,
+      "duration": 2.8,
+      "text": "La DGAC fiscaliza obviamente que las líneas cumplan con esto ",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 30,
+      "speaker": "dgac_edgardo_ortiz",
+      "start": 162.5,
+      "end": 167.0,
+      "duration": 4.5,
+      "text": "y ahora y ahora veamos ¿cómo fiscalizamos cuando no cumplen? ¿qué tiene que pasar para que no cumplen?",
+      "reviewed": true,
+      "correction_note": "att here, needs to be analysed what DGAC official tried to do. ",
+      "backchannel_events": ""
+    },
+    {
+      "index": 31,
+      "speaker": "dgac_edgardo_ortiz",
+      "start": 167.0,
+      "end": 170.0,
+      "duration": 3.0,
+      "text": " ¿Cómo fiscalizamos que no cumpla?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 32,
+      "speaker": "passenger",
+      "start": 170.0,
+      "end": 175.0,
+      "duration": 5.0,
+      "text": " Tú me diga, yo no sé, tú me diga a mí, yo no sé, no trabajo acá, tú trabaja acá.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 33,
+      "speaker": "SPEAKER_01",
+      "start": 175.0,
+      "end": 185.0,
+      "duration": 10.0,
+      "text": "",
+      "reviewed": false,
+      "correction_note": "DPR",
+      "backchannel_events": ""
+    },
+    {
+      "index": 34,
+      "speaker": "SPEAKER_01",
+      "start": 185.0,
+      "end": 190.0,
+      "duration": 5.0,
+      "text": "",
+      "reviewed": false,
+      "correction_note": "DPR",
+      "backchannel_events": ""
+    },
+    {
+      "index": 35,
+      "speaker": "passenger",
+      "start": 190.0,
+      "end": 193.0,
+      "duration": 3.0,
+      "text": " Yo no sé lo que tiene que hacer.",
+      "reviewed": true,
+      "correction_note": "answering DGAC question:   ¿Cómo fiscalizamos que no cumpla?",
+      "backchannel_events": ""
+    },
+    {
+      "index": 36,
+      "speaker": "passenger",
+      "start": 193.0,
+      "end": 195.5,
+      "duration": 2.5,
+      "text": " Yo no sé cuál es el procedimiento , tu .",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 37,
+      "speaker": "dgac_edgardo_ortiz",
+      "start": 195.5,
+      "end": 200.0,
+      "duration": 4.5,
+      "text": " Y lo estaba explicando todo el rato que no me había querido escuchar. Es todo lo que le he explicado, le he explicado todo.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 38,
+      "speaker": "passenger",
+      "start": 200.0,
+      "end": 214.5,
+      "duration": 14.5,
+      "text": " Tu forma de decir eso, como dentro del avión, es muy condescendente. Tú hablas de una forma como si yo fuese estúpido. Entonces, como tú también repitiendo la misma cosa mucho tiempo, yo soy estúpido y no lo quiero escuchar. ",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 39,
+      "speaker": "passenger",
+      "start": 214.5,
+      "end": 220.0,
+      "duration": 5.5,
+      "text": "Pero, mira. Tu sabes muy bien lo que está pasando tú sabes muy bien lo que está pasando",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 40,
+      "speaker": "dgac_edgardo_ortiz",
+      "start": 219.5,
+      "end": 227.3,
+      "duration": 7.8,
+      "text": " Yo no creo que usted es estúpido, pero le estoy explicando el procedimiento porque no puedo darle mi opinión en el medio, solamente puedo seguir lo que dice el procedimiento de la norma y explicarle cómo es. ",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 41,
+      "speaker": "dgac_edgardo_ortiz",
+      "start": 227.3,
+      "end": 231.3,
+      "duration": 4.0,
+      "text": "No Puedo decirle  yo creo o debería porque no puedo meter mi opinión ",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 42,
+      "speaker": "passenger",
+      "start": 231.3,
+      "end": 235.0,
+      "duration": 3.7,
+      "text": "No pero, lo que está escrito en la carta de desembarque?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 43,
+      "speaker": "dgac_edgardo_ortiz",
+      "start": 235.0,
+      "end": 237.0,
+      "duration": 2.0,
+      "text": " Pero si eso, ya le explique.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 44,
+      "speaker": "dgac_edgardo_ortiz",
+      "start": 237.0,
+      "end": 240.8,
+      "duration": 3.8,
+      "text": " Nadie le está negando que... Es imposible que usted acceda a la información.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 45,
+      "speaker": "passenger",
+      "start": 240.8,
+      "end": 243.5,
+      "duration": 2.7,
+      "text": " Sí, no, pero hasta ahora yo estoy intentando, pero hasta ahora todos...",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 46,
+      "speaker": "dgac_edgardo_ortiz",
+      "start": 243.2,
+      "end": 246.5,
+      "duration": 3.3,
+      "text": " Nunca le dije que es imposible, le dije que tiene que seguir una secuencia un procedimiento",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 47,
+      "speaker": "DGAC_higher_official_Nicolas",
+      "start": 246.5,
+      "end": 248.2,
+      "duration": 1.7,
+      "text": " Espera me, que voy a conversar con usted.",
+      "reviewed": true,
+      "correction_note": "A higher DGAC saves EDGARDO",
+      "backchannel_events": ""
+    },
+    {
+      "index": 48,
+      "speaker": "passenger",
+      "start": 248.2,
+      "end": 250.0,
+      "duration": 1.8,
+      "text": " Gracias.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 49,
+      "speaker": "DGAC_higher_official_Nicolas",
+      "start": 275.0,
+      "end": 280.0,
+      "duration": 5.0,
+      "text": " Ya, ok, listo. Voy a enviar algo. Gracias.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 50,
+      "speaker": "DGAC_higher_official_Nicolas",
+      "start": 282.185,
+      "end": 291.105,
+      "duration": 8.92,
+      "text": "Porta Llamas, Salón Central, en la puerta 27 de la R1, en el lugar de carga celular, dejando el bolsito listo.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 51,
+      "speaker": "DGAC_higher_official_Nicolas",
+      "start": 294.005,
+      "end": 296.785,
+      "duration": 2.78,
+      "text": " ¿Cómo estás? Buenas tardes.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 52,
+      "speaker": "passenger",
+      "start": 298.545,
+      "end": 301.785,
+      "duration": 3.24,
+      "text": "Yo te explico, ya te explicaron que está pasando.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 53,
+      "speaker": "DGAC_higher_official_Nicolas",
+      "start": 301.6,
+      "end": 302.5,
+      "duration": 0.9,
+      "text": "¿Cuál es su consulta? ",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 54,
+      "speaker": "passenger",
+      "start": 302.5,
+      "end": 318.765,
+      "duration": 16.265,
+      "text": " ¿Mi consulta? Mi consults es que mi gustaria de saber por escrito el porqué, uno, me sacaron del vuelo a una de la tarde, usaron fuerza para me sacar de allá, ...",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 55,
+      "speaker": "passenger",
+      "start": 318.765,
+      "end": 327.145,
+      "duration": 8.38,
+      "text": "...Y las dos acusaciones de por qué me sacarían del vuelo.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 56,
+      "speaker": "passenger",
+      "start": 327.145,
+      "end": 331.845,
+      "duration": 4.7,
+      "text": "fueron desprobadas como difamaciones, mentiras.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 57,
+      "speaker": "passenger",
+      "start": 331.845,
+      "end": 333.205,
+      "duration": 1.36,
+      "text": "En la PDI.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 58,
+      "speaker": "passenger",
+      "start": 333.385,
+      "end": 350.0,
+      "duration": 16.615,
+      "text": "¿Ya? Vieron las cámaras, pero empezó con una agresión. Dicieron que yo lo agredí, pero de ahí chequearon y yo creo las cámaras y de ahí vieron con que yo pasé sin mostrar mi boarding pass. Pero era la misma persona.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 59,
+      "speaker": "DGAC_higher_official_Nicolas",
+      "start": 350.0,
+      "end": 351.5,
+      "duration": 1.5,
+      "text": "Claro. Lo entiendo.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 60,
+      "speaker": "passenger",
+      "start": 351.5,
+      "end": 354.0,
+      "duration": 2.5,
+      "text": "Y la policía, la PDI, lo probó.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 61,
+      "speaker": "dgac_official",
+      "start": 354.165,
+      "end": 356.0,
+      "duration": 1.835,
+      "text": "No, ahora deje me a mi voy a explicarlo un poquitito. ",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 62,
+      "speaker": "passenger",
+      "start": 355.765,
+      "end": 356.425,
+      "duration": 0.66,
+      "text": "Sí, por favor.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 63,
+      "speaker": "dgac_official",
+      "start": 356.845,
+      "end": 362.065,
+      "duration": 5.22,
+      "text": "Lo que pasa es que en un principio, a lo mejor lo que ustedes le dijeron, era una...",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 64,
+      "speaker": "dgac_official",
+      "start": 362.625,
+      "end": 370.825,
+      "duration": 8.2,
+      "text": "una situación que le planteó la persona de la compañía, pero la verdad de las cosas es que la situación por la que nosotros actuamos fue totalmente distinto. No lo que el dijo...",
+      "reviewed": true,
+      "correction_note": "SO the reason was different? what was the reason? would the reason exist if the first false accusation didn't exist? what is documented as the reason?",
+      "backchannel_events": ""
+    },
+    {
+      "index": 65,
+      "speaker": "DGAC_higher_official_Nicolas",
+      "start": 371.365,
+      "end": 380.0,
+      "duration": 8.635,
+      "text": "Le cuento, el Derecho Aeronáutico y específicamente el Código Aeronáutico Chileno especifica que la única y máxima autoridad a bordo de la aeronave es el comandante de la aeronave.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 66,
+      "speaker": "passenger",
+      "start": 379.0,
+      "end": 379.4,
+      "duration": 0.4,
+      "text": " Ya!?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 67,
+      "speaker": "DGAC_higher_official_Nicolas",
+      "start": 379.4,
+      "end": 384.845,
+      "duration": 5.445,
+      "text": " Él decide quién se queda arriba y quién no. Ok. Quién es pasajero y quién no viaja. ... ",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 68,
+      "speaker": "passenger",
+      "start": 383.0,
+      "end": 384.4,
+      "duration": 1.4,
+      "text": "Pero no existe alguna..?\n",
+      "reviewed": true,
+      "correction_note": "official didnt even listen to what? the answer al aready defined NO , no matter what",
+      "backchannel_events": ""
+    },
+    {
+      "index": 69,
+      "speaker": "DGAC_higher_official_Nicolas",
+      "start": 384.4,
+      "end": 388.5,
+      "duration": 4.1,
+      "text": "... No. Él tiene toda la autoridad, lo dice el Código Aeronáutico. ",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 70,
+      "speaker": "passenger",
+      "start": 388.4,
+      "end": 393.0,
+      "duration": 4.6,
+      "text": "Entonces, vay esta, vas a estar eso escrito en algun documento que fue decision total del piloto?\n\n",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 71,
+      "speaker": "DGAC_higher_official_Nicolas",
+      "start": 393.0,
+      "end": 397.0,
+      "duration": 4.0,
+      "text": " Esta, esta... está en la ley. Código Aeronáutico.",
+      "reviewed": true,
+      "correction_note": "deflection. passenger asked if the decision had to be written, documented",
+      "backchannel_events": ""
+    },
+    {
+      "index": 72,
+      "speaker": "passenger",
+      "start": 397.0,
+      "end": 401.045,
+      "duration": 4.045,
+      "text": "Y también está en la ley que yo debo ser informado sobre por que?.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 73,
+      "speaker": "DGAC_higher_official_Nicolas",
+      "start": 400.045,
+      "end": 403.865,
+      "duration": 3.82,
+      "text": "Le estoy hablando, escúcheme primero y después voy a hacer las preguntas.",
+      "reviewed": true,
+      "correction_note": "escuchame - no documentation to support anything provided by any officials",
+      "backchannel_events": ""
+    },
+    {
+      "index": 74,
+      "speaker": "NEW_SPEAKER",
+      "start": 403.96500000000003,
+      "end": 405.865,
+      "duration": 1.9,
+      "text": "",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 75,
+      "speaker": "DGAC_higher_official_Nicolas",
+      "start": 404.265,
+      "end": 431.885,
+      "duration": 27.62,
+      "text": "El Código Aeronáutico menciona que el piloto es la única y máxima autoridad a bordo de la aeronave por lo tanto él decide quién viaja y quién no. Asimismo, la compañía aérea decide a quién lleva y a quién no lleva a bordo de la aeronave y en su minuto ellos decidieron, por las razones que fueran en este caso o que consideraron pertinentes, ellos a nosotros nos solicitan la colaboración porque a usted le quitan la condición de pasajero y usted pasa a ser una persona, un ciudadano normal y tendría que, por lo tanto, abandonar la aeronave y salir.",
+      "reviewed": true,
+      "correction_note": "see detailed analysis",
+      "backchannel_events": ""
+    },
+    {
+      "index": 76,
+      "speaker": "DGAC_higher_official_Nicolas",
+      "start": 431.88,
+      "end": 456.925,
+      "duration": 25.045,
+      "text": "Si eso es algo, una conducta o que usted considere arbitraria que no corresponda a lo mejor a lo que le están imputando en el momento, por el motivo que sea, usted tiene todo el derecho después de hacer los reclamos a través de una demanda civil, con un abogado, en fin, todo lo que usted quiera, contra la compañía aérea, pero cuando la compañía aérea pide ya la colaboración.",
+      "reviewed": true,
+      "correction_note": "is the passenger role to consider arbritary? couldn't the DGAC official clarify it? does he thinks its arbritrary?",
+      "backchannel_events": ""
+    },
+    {
+      "index": 77,
+      "speaker": "DGAC_higher_official_Nicolas",
+      "start": 456.925,
+      "end": 474.925,
+      "duration": 18.0,
+      "text": "de la Dirección Aeronáutica como para poder prestarle colaboración en el sentido de que una persona que dejó de ser pasajero no quiere desembarcar de la aeronave, ese pasajero toma la condición que legalmente se le llama pasajero insubordinado o pasajero disruptivo, que es un pasajero que está causando ",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 78,
+      "speaker": "DGAC_higher_official_Nicolas",
+      "start": 474.925,
+      "end": 480.885,
+      "duration": 5.96,
+      "text": "eh.. más que un desorden está causando un problema la seguridad del aeronave y  la seguridad en ese caso claro ",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 79,
+      "speaker": "passenger",
+      "start": 480.985,
+      "end": 483.885,
+      "duration": 2.9,
+      "text": "Yo estaba haciendo eso? de que forma?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 80,
+      "speaker": "dgac_official",
+      "start": 483.5,
+      "end": 485.0,
+      "duration": 1.5,
+      "text": "cuando usted no obedece las instruciones",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 81,
+      "speaker": "passenger",
+      "start": 485.0,
+      "end": 489.485,
+      "duration": 4.485,
+      "text": "Pero la instrucción estaba siendo porque estaban me acusando de algo que no era verdad.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 82,
+      "speaker": "NEW_SPEAKER",
+      "start": 489.58500000000004,
+      "end": 491.485,
+      "duration": 1.9,
+      "text": "",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 83,
+      "speaker": "dgac_official",
+      "start": 489.485,
+      "end": 492.225,
+      "duration": 2.74,
+      "text": "no, no....no.. Le cuento. No, no le cuento. escuchame.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 84,
+      "speaker": "dgac_official",
+      "start": 492.805,
+      "end": 499.745,
+      "duration": 6.94,
+      "text": "No importa para este efecto el motivo, lo que importa es que a usted el comandante dijo a él no lo voy a llevar.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 85,
+      "speaker": "dgac_official",
+      "start": 500.385,
+      "end": 522.5,
+      "duration": 22.115,
+      "text": "¿Qué tenemos que hacer? Salir de la aeronave, ver, solucionar el problema con la compañía aérea y si usted tiene reclamos que hacer, los puede hacer. Puede hacer los reclamos contra la compañía, contra la persona que lo abusó injustamente, contra quien lo hizo bajar, que no correspondía. Pero nosotros como autoridad tenemos que hacer lo que nos pide la compañía, que es cuando usted pierde su condición de pasajero, salir. ",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 86,
+      "speaker": "NEW_SPEAKER",
+      "start": 522.5,
+      "end": 525.0,
+      "duration": 2.5,
+      "text": "",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 87,
+      "speaker": "passenger",
+      "start": 522.485,
+      "end": 527.685,
+      "duration": 5.2,
+      "text": "¿Puedo decirlo ahora? Entiendo. Entiendo. Ya. Entendí totalmente lo que está diciendo. Bacán.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 88,
+      "speaker": "passenger",
+      "start": 530.705,
+      "end": 534.605,
+      "duration": 3.9,
+      "text": "se fue una defamación dos veces",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 89,
+      "speaker": "NEW_SPEAKER",
+      "start": 534.705,
+      "end": 536.605,
+      "duration": 1.9,
+      "text": "",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 90,
+      "speaker": "passenger",
+      "start": 535.245,
+      "end": 536.765,
+      "duration": 1.52,
+      "text": "Fue una mentira.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 91,
+      "speaker": "passenger",
+      "start": 537.545,
+      "end": 546.905,
+      "duration": 9.36,
+      "text": "contra mi persona, dos veces, y eso ocasionó yo perder mi vuelo, ocasionó vergüenza, porque yo...",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 92,
+      "speaker": "NEW_SPEAKER",
+      "start": 547.005,
+      "end": 548.905,
+      "duration": 1.9,
+      "text": "",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 93,
+      "speaker": "passenger",
+      "start": 547.385,
+      "end": 558.025,
+      "duration": 10.64,
+      "text": "a causa de toda otra persona, a causa de una pérdida de plata, a causa de una... Entonces, es por mentira. Y el problema es que esa mentira ya fue comprobada abajo con la PDI.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 94,
+      "speaker": "dgac_official",
+      "start": 558.025,
+      "end": 559.405,
+      "duration": 1.38,
+      "text": "Entonces haga una demanda",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 95,
+      "speaker": "NEW_SPEAKER",
+      "start": 559.505,
+      "end": 561.405,
+      "duration": 1.9,
+      "text": "",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 96,
+      "speaker": "passenger",
+      "start": 560.825,
+      "end": 561.345,
+      "duration": 0.52,
+      "text": "yo.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 97,
+      "speaker": "passenger",
+      "start": 562.125,
+      "end": 568.685,
+      "duration": 6.56,
+      "text": "Tengo derecho de ter una explicacion por escrito. La carta de desembarque",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 98,
+      "speaker": "dgac_official",
+      "start": 568.785,
+      "end": 570.685,
+      "duration": 1.9,
+      "text": "Haver, espera un segundo.um segundo...nnonono..no no no. nono, espera",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 99,
+      "speaker": "passenger",
+      "start": 569.685,
+      "end": 576.545,
+      "duration": 6.86,
+      "text": "¿Dónde está la carta de desembarque? ¿Usted acá? No, yo te dejé hablar. Lo poso yo?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 100,
+      "speaker": "dgac_official",
+      "start": 576.2,
+      "end": 581.0,
+      "duration": 4.8,
+      "text": "Pero le estoy dando explicaciones, yo entiendo su punto. Pero la verdad es que venir acá, esto no corresponde.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 101,
+      "speaker": "passenger",
+      "start": 581.0,
+      "end": 586.0,
+      "duration": 5.0,
+      "text": "Mira, me contaron de la información del aeropuerto, me mandaron ver acá. ",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 102,
+      "speaker": "passenger",
+      "start": 586.0,
+      "end": 589.0,
+      "duration": 3.0,
+      "text": "Mira, estan me haciendo un jueguito de ping-pong, para allá, para acá. ",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 103,
+      "speaker": "dgac_official",
+      "start": 588.5,
+      "end": 592.285,
+      "duration": 3.785,
+      "text": "La información está mal, porque... Vaya, pero yo no soy yo quien...",
+      "reviewed": true,
+      "correction_note": "the information given by airport is incorrect. what is the correct information? ",
+      "backchannel_events": ""
+    },
+    {
+      "index": 104,
+      "speaker": "dgac_official",
+      "start": 591.765,
+      "end": 608.685,
+      "duration": 16.92,
+      "text": "Por eso, yo le estoy dando la información exacta, la información exacta es que si usted quiere una respuesta formal, tiene que hacer una pregunta formal, no informal como lo está haciendo ahora, porque ahora usted se está acercando y está preguntando de manera informal.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 105,
+      "speaker": "dgac_official",
+      "start": 610.805,
+      "end": 616.985,
+      "duration": 6.18,
+      "text": "No es mi punto de tomar. YO estoy en el aeropuerto!",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 106,
+      "speaker": "dgac_official",
+      "start": 618.465,
+      "end": 636.665,
+      "duration": 18.2,
+      "text": "Formalmente es a través de la página de la direcion aeronautica.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 107,
+      "speaker": "passenger",
+      "start": 610.805,
+      "end": 616.985,
+      "duration": 6.18,
+      "text": "Pero yo quiero un documento que demuestre por qué se...",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 108,
+      "speaker": "dgac_official",
+      "start": 618.465,
+      "end": 636.665,
+      "duration": 18.2,
+      "text": "Escuchen, a través de la página de la dirección de aeronautica...",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 109,
+      "speaker": "dgac_official",
+      "start": 618.465,
+      "end": 642.185,
+      "duration": 23.72,
+      "text": "las preguntas que necesite y la dirección de redondos de manera formal le va a responder y le va a entregar lo que pueda entregarle de lo que usted está solicitando, eso es la evidencia. Dejeac.cl, esa es la página de la dirección, le recomiendo que entre ahí y haga la respuesta correcta. ¿Cuál es? Esto es informe, acá yo no le puedo entregar nada de lo que usted está pidiendo.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 110,
+      "speaker": "dgac_official",
+      "start": 642.185,
+      "end": 652.185,
+      "duration": 10.0,
+      "text": "Yo estoy ACA! ....... ¿Cuál es? .. ahora yo posso..",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 111,
+      "speaker": "passenger",
+      "start": 642.185,
+      "end": 652.185,
+      "duration": 10.0,
+      "text": "¿Puedo hacerle una pregunta? Sí ¿Cuál es el motivo, la responsabilidad de la DGAC?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 112,
+      "speaker": "passenger",
+      "start": 653.085,
+      "end": 654.325,
+      "duration": 1.24,
+      "text": "lo que hace la DGAC.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 113,
+      "speaker": "dgac_official",
+      "start": 376.02,
+      "end": 376.51,
+      "duration": 0.49,
+      "text": "[silencio]",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 114,
+      "speaker": "dgac_official",
+      "start": 655.545,
+      "end": 659.565,
+      "duration": 4.02,
+      "text": "la seguridad del aeropuerto, de las instalaciones aéreas, de la seguridad de la aviacion.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 115,
+      "speaker": "passenger",
+      "start": 659.665,
+      "end": 669.085,
+      "duration": 9.42,
+      "text": "de la seguridad? No tiene tambien QUE LAS AEROLINEAS",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 116,
+      "speaker": "passenger",
+      "start": 659.665,
+      "end": 669.085,
+      "duration": 9.42,
+      "text": "sigan la ley, que ustedes también tengan la responsabilidad de asegurar que ellos..",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 117,
+      "speaker": "dgac_official",
+      "start": 669.085,
+      "end": 683.365,
+      "duration": 14.28,
+      "text": "No somos un organismo rector, eso es la JAC, la Junta Aeronautica Central. Si usted a través entra también a la página jac.cl",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 118,
+      "speaker": "passenger",
+      "start": 683.365,
+      "end": 687.645,
+      "duration": 4.28,
+      "text": "Yo voy a ser un reclamo también en general, pero en general.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 119,
+      "speaker": "dgac_official",
+      "start": 685.745,
+      "end": 690.625,
+      "duration": 4.88,
+      "text": "Claro. Ellos son el organismo rector de la compañía aerea.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 120,
+      "speaker": "passenger",
+      "start": 691.725,
+      "end": 695.085,
+      "duration": 3.36,
+      "text": "lo que me impresiona es que...",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 121,
+      "speaker": "passenger",
+      "start": 696.025,
+      "end": 705.585,
+      "duration": 9.56,
+      "text": "Ese documento, la carta de desembarque, fue pasada a la PDI. Tenía el personal que tiene en su teléfono.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 122,
+      "speaker": "dgac_official",
+      "start": 706.545,
+      "end": 707.565,
+      "duration": 1.02,
+      "text": "Pa que no pense que nosotros .. (lies again, exposing what have not been asked) guilt tripping",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 123,
+      "speaker": "passenger",
+      "start": 706.545,
+      "end": 707.565,
+      "duration": 1.02,
+      "text": "Yo...",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 124,
+      "speaker": "passenger",
+      "start": 706.545,
+      "end": 707.565,
+      "duration": 1.02,
+      "text": "deveria",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 125,
+      "speaker": "passenger",
+      "start": 708.085,
+      "end": 709.825,
+      "duration": 1.74,
+      "text": "Saber, por que estan haciendo eso",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 126,
+      "speaker": "dgac_official",
+      "start": 715.585,
+      "end": 727.805,
+      "duration": 12.22,
+      "text": "La solicitud es una acusación de cargo en contra su día. El comandante aeronave, a través de un documento interno, nosotros lo solicita, necesito que se baje este pasajero. Ellos no hacen nada. Él no hace esa solicitud.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 127,
+      "speaker": "passenger",
+      "start": 727.805,
+      "end": 730.005,
+      "duration": 2.2,
+      "text": "Y sin ni un motivo?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 128,
+      "speaker": "passenger",
+      "start": 730.485,
+      "end": 732.785,
+      "duration": 2.3,
+      "text": "Esto puede ser simplesmente descriminacion?!",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 129,
+      "speaker": "dgac_official",
+      "start": 732.785,
+      "end": 738.065,
+      "duration": 5.28,
+      "text": "E nel, Es que .. Para eso usted reclame contra la compania aerea.. si lo estai diciendo de tu principio",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 130,
+      "speaker": "dgac_official",
+      "start": 738.645,
+      "end": 742.965,
+      "duration": 4.32,
+      "text": "Yo pense que ustedes tenian como otra función.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 131,
+      "speaker": "dgac_official",
+      "start": 742.965,
+      "end": 747.025,
+      "duration": 4.06,
+      "text": "No.. No, no, no es esa la función. No, nosotros no regimos la compañía aérea.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 132,
+      "speaker": "passenger",
+      "start": 748.585,
+      "end": 754.905,
+      "duration": 6.32,
+      "text": "No es regir, es controlar que ellos sigan las leyes de aviación, ¿o estoy incorrecto? ..Ya",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 133,
+      "speaker": "dgac_official",
+      "start": 754.905,
+      "end": 756.165,
+      "duration": 1.26,
+      "text": "No somos un organismo reitor.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 134,
+      "speaker": "dgac_official",
+      "start": 754.905,
+      "end": 756.165,
+      "duration": 1.26,
+      "text": "La JAC - Junta aeronautica central",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 135,
+      "speaker": "passenger",
+      "start": 760.765,
+      "end": 767.365,
+      "duration": 6.6,
+      "text": "Entonces, explicame lo que tengo yo que hacer, ahora, porque ahora yo no tengo vuelo y no tengo mi... ¿Dónde he quedado? Lo que hago yo.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 136,
+      "speaker": "dgac_official",
+      "start": 479.97,
+      "end": 480.02,
+      "duration": 0.05,
+      "text": "[silencio]",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 137,
+      "speaker": "dgac_official",
+      "start": 767.365,
+      "end": 771.505,
+      "duration": 4.14,
+      "text": "¿Cuál es el problema medicinal que le están ofreciendo a la compañía?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 138,
+      "speaker": "passenger",
+      "start": 771.505,
+      "end": 772.605,
+      "duration": 1.1,
+      "text": "No ofreceron nada",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 139,
+      "speaker": "unresolved_speaker",
+      "start": 772.605,
+      "end": 780.085,
+      "duration": 7.48,
+      "text": "Quedó vetado por 24 horas y no le han ofrecido nada por lo que sucedió. Por eso el motivo de que no puede volver a viajar y tiene que esperar. Le consulté a la inseración y quería saber bien y me dijeron que eso que estaba vetado por 24 horas por eso en la tampa Exacto, se reservaba el derecho de embarcarlo hasta después de 24 horas. Que el aplauso y viento vinieron.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 140,
+      "speaker": "passenger",
+      "start": 496.73,
+      "end": 497.4,
+      "duration": 0.67,
+      "text": "[silencio]",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 141,
+      "speaker": "dgac_official",
+      "start": 791.705,
+      "end": 805.025,
+      "duration": 13.32,
+      "text": "Exato, se reverva el derecho de bancar lo hasta despues de 24 horas",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 142,
+      "speaker": "dgac_official",
+      "start": 791.705,
+      "end": 805.025,
+      "duration": 13.32,
+      "text": "Y ahora, bueno, en realidad Latam tiene, como les menciono, por ley, por código aeronáutico, ellos tienen la facultad de reservarse el derecho de ver a los pasajeros o a las personas que ellos van a transportar. Es un tema de ellos",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 143,
+      "speaker": "passenger",
+      "start": 805.025,
+      "end": 810.065,
+      "duration": 5.04,
+      "text": "Entonces antes de que yo compre mi pasaje, porque mi problema es que...",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 144,
+      "speaker": "passenger",
+      "start": 811.905,
+      "end": 819.405,
+      "duration": 7.5,
+      "text": "La razón por la que lo hicieron fue desprobada. En verdad, eso se torna...",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 145,
+      "speaker": "passenger",
+      "start": 820.785,
+      "end": 825.425,
+      "duration": 4.64,
+      "text": "contra ellos, porque en vez de ir, hicieron una cagada fea.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 146,
+      "speaker": "passenger",
+      "start": 548.38,
+      "end": 548.54,
+      "duration": 0.16,
+      "text": "[silencio]",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 147,
+      "speaker": "dgac_official",
+      "start": 825.845,
+      "end": 850.705,
+      "duration": 24.86,
+      "text": "Yo hasta le entiendo a usted, de verdad, si lo conversamos.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 148,
+      "speaker": "dgac_official",
+      "start": 825.845,
+      "end": 850.705,
+      "duration": 24.86,
+      "text": "de mano, porque la Dirección Tecnológica invoca la ley y nos dice, necesito que me apoyen. Y nosotros quedamos así. Nosotros no podemos objetar. Yo no puedo poner en tela de juicio, a ver, pero dígame, ¿por qué quiere que lo baje? No, es la verdad que ellos dicen, necesito que lo baje.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 149,
+      "speaker": "passenger",
+      "start": 850.705,
+      "end": 852.765,
+      "duration": 2.06,
+      "text": "Yo estaba hablando con un carabinero afuera.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 150,
+      "speaker": "passenger",
+      "start": 584.19,
+      "end": 584.55,
+      "duration": 0.36,
+      "text": "¿Por qué?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 151,
+      "speaker": "passenger",
+      "start": 863.985,
+      "end": 871.585,
+      "duration": 7.6,
+      "text": "Yo voy a hacer una demanda contra la persona también, personalmente, contra latam, pero ahora...",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 152,
+      "speaker": "passenger",
+      "start": 871.925,
+      "end": 875.545,
+      "duration": 3.62,
+      "text": "simplemente se sentió en el derecho",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 153,
+      "speaker": "passenger",
+      "start": 877.105,
+      "end": 880.305,
+      "duration": 3.2,
+      "text": "de me hacer mal, de mi hacer mal.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 154,
+      "speaker": "dgac_official",
+      "start": 601.23,
+      "end": 602.17,
+      "duration": 0.94,
+      "text": "EXACTO!",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 155,
+      "speaker": "passenger",
+      "start": 880.765,
+      "end": 883.025,
+      "duration": 2.26,
+      "text": "mal físicamente, mentalmente.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 156,
+      "speaker": "passenger",
+      "start": 883.105,
+      "end": 887.545,
+      "duration": 4.44,
+      "text": "Financeramente, simplemente, ¿qué va a pasar con esa persona?",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 157,
+      "speaker": "dgac_official",
+      "start": 607.29,
+      "end": 610.3,
+      "duration": 3.01,
+      "text": "Per supuesto... per supuesto..y sabe lo que mas",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 158,
+      "speaker": "dgac_official",
+      "start": 888.425,
+      "end": 897.145,
+      "duration": 8.72,
+      "text": "Conversamos mucho rato más en el caso suyo. De hecho, Felipe me llamó y me conversó la situación.",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 159,
+      "speaker": "dgac_official",
+      "start": 897.685,
+      "end": 913.285,
+      "duration": 15.6,
+      "text": "en solicitar que se cambie esa parte de la normativa donde la compañía aérea esté obligada, por lo menos, a mostrar un poco de bases como para poder..",
+      "reviewed": true,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 160,
+      "speaker": "passenger",
+      "start": 913.285,
+      "end": 914.705,
+      "duration": 1.42,
+      "text": "Claro, Pero esto no esta sendo pasado",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 161,
+      "speaker": "dgac_official",
+      "start": 914.705,
+      "end": 926.185,
+      "duration": 11.48,
+      "text": "el problema que, como le digo..",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 162,
+      "speaker": "dgac_official",
+      "start": 914.705,
+      "end": 939.025,
+      "duration": 24.32,
+      "text": "Legalmente, nosotros hoy día estamos atados de mano porque ellos solamente invocan la ley y nos dicen necesito que me apoyen ustedes porque yo me reservo el derecho de llevar a esta persona, así que yo no lo voy a llevar. Nosotros quedamos así, no le podemos preguntar por qué no lo quiere llevar. Ya, bueno, señor, tenemos que bajar. No, es que no quiero, señor, es que tiene que bajar, sabemos que la compañía ya nos pidió que usted tiene que bajar. Es que no, es que no quiero, me tiene que bajar a la fuerza.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 163,
+      "speaker": "passenger",
+      "start": 939.605,
+      "end": 943.345,
+      "duration": 3.74,
+      "text": "no tiene algo que...",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 164,
+      "speaker": "passenger",
+      "start": 943.625,
+      "end": 947.385,
+      "duration": 3.76,
+      "text": "Quien controlas que ellos estan seguindo la ley??????????????",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 165,
+      "speaker": "dgac_official",
+      "start": 947.385,
+      "end": 949.945,
+      "duration": 2.56,
+      "text": "E Ley. E una ley que esta.?",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 166,
+      "speaker": "passenger",
+      "start": 951.845,
+      "end": 957.525,
+      "duration": 5.68,
+      "text": "Si, pero quien controlas que ellos no estan utilizando la ley de ma fe? O no estan usando la ley de forma incorrecta?",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 167,
+      "speaker": "dgac_official",
+      "start": 957.525,
+      "end": 960.605,
+      "duration": 3.08,
+      "text": "Para eso existen los tribunales",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 168,
+      "speaker": "dgac_official",
+      "start": 980.105,
+      "end": 983.965,
+      "duration": 3.86,
+      "text": "No, ahora lo que te queda es esperar el tiempo que la compañía... ¡Voy a estar en otra compañía!",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 169,
+      "speaker": "unresolved_speaker",
+      "start": 985.245,
+      "end": 987.045,
+      "duration": 1.8,
+      "text": "que la realidad se reserva el derecho por lo que pasó, por dónde...",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 170,
+      "speaker": "passenger",
+      "start": 987.625,
+      "end": 991.365,
+      "duration": 3.74,
+      "text": "Pero mira, yo no quiero volar con la lata, mira, yo quiero que...",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 171,
+      "speaker": "passenger",
+      "start": 1000.025,
+      "end": 1009.885,
+      "duration": 9.86,
+      "text": "como tres veces más caro, me salió un vuelo como de 38 horas en vez de 4 horas.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": ""
+    },
+    {
+      "index": 172,
+      "speaker": "passenger",
+      "start": 732.83,
+      "end": 733.71,
+      "duration": 0.88,
+      "text": "[silencio]",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": ""
+    }
+  ]
+}

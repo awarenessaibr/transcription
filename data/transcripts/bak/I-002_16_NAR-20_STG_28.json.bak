@@ -1,0 +1,296 @@
+{
+  "transcript_id": "I-002_16_NAR-20_STG_28",
+  "source_file": "",
+  "language": "es",
+  "timestamp": "2024-07-05T19:30:00",
+  "provider": "",
+  "original_transcript_id": "I-002_16_NAR-20_STG_28",
+  "metadata": {},
+  "title": "Aeropuerto Arturo Merino Benítez 28 — FINAL v2",
+  "subtitle": "Post-Incident — Encounter / Interaction",
+  "recording_datetime": "2024-07-05T19:30:00",
+  "location": "Arturo Merino Benítez International Airport (SCL)",
+  "audio_id": "aeropuerto_STG_28",
+  "case_id": "I-002",
+  "narrative_id": "NAR-20_STG_28",
+  "chronological_order": 19,
+  "prior_stage": "I-002_15_NAR-19_STG_27_self_narration",
+  "next_stage": "I-002_17_NAR-21_STG_29",
+  "classification": "Attorney Work Product — Privileged and Confidential",
+  "participants": [
+    {
+      "canonical_name": "Leandro Disconzi",
+      "role": "Passenger",
+      "speaker_label": "Passenger (Leandro Disconzi)",
+      "speaker_id": "SPK-passenger-leandro"
+    }
+  ],
+  "violations_cited": [],
+  "tags": [
+    "transcript",
+    "narrative",
+    "evidence"
+  ],
+  "forensic_clusters": {},
+  "key_evidentiary_findings": [
+    {
+      "id": "S28-1",
+      "finding": "Post-incident interaction — context to be determined by manual review.",
+      "strength": "Medium"
+    }
+  ],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 0,
+      "speaker": "airline_supervisor",
+      "start": 7.02037351443124,
+      "end": 10.891341256366724,
+      "duration": 3.871,
+      "text": "ahí dice donde seguridad que iba venir.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T19:30:07.020"
+    },
+    {
+      "index": 1,
+      "speaker": "airline_supervisor",
+      "start": 10.942275042444823,
+      "end": 19.006791171477083,
+      "duration": 8.065,
+      "text": "pero en realidad el correo electrónico que se envía es como por tema de internos de latam.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T19:30:10.942"
+    },
+    {
+      "index": 2,
+      "speaker": "passenger",
+      "start": 16.83361629881155,
+      "end": 18.531409168081495,
+      "duration": 1.698,
+      "text": "yo necesito el impreso.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T19:30:16.833"
+    },
+    {
+      "index": 3,
+      "speaker": "airline_supervisor",
+      "start": 19.006791171477083,
+      "end": 39.99151103565365,
+      "duration": 20.985,
+      "text": "nada. Mira",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T19:30:19.006"
+    },
+    {
+      "index": 4,
+      "speaker": "passenger",
+      "start": 28.99151103565365,
+      "end": 40.00848896434635,
+      "duration": 11.017,
+      "text": "¿por qué que no van a entregar nada si me sacaron del vuelo a fuerza y no me dan una explicación de por qué pasó, amigo? Es que está muy incorrecto eso.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T19:30:28.991"
+    },
+    {
+      "index": 5,
+      "speaker": "airline_supervisor",
+      "start": 38.75212224108659,
+      "end": 40.04244482173175,
+      "duration": 1.29,
+      "text": "Por eso va a venir seguridad a hablar con usted, ¿ya?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T19:30:38.752"
+    },
+    {
+      "index": 6,
+      "speaker": "passenger",
+      "start": 40.00848896434635,
+      "end": 43.99830220713073,
+      "duration": 3.99,
+      "text": "sí, como ya vino a hablar desde la una, va a decir lo mismo.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T19:30:40.008"
+    },
+    {
+      "index": 7,
+      "speaker": "passenger",
+      "start": 45.0,
+      "end": 47.173174872665534,
+      "duration": 2.173,
+      "text": "pero yo quiero algo por escrito.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T19:30:45.000"
+    },
+    {
+      "index": 8,
+      "speaker": "airline_supervisor",
+      "start": 47.78438030560272,
+      "end": 49.99151103565365,
+      "duration": 2.207,
+      "text": "yo no tengo aquí...",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T19:30:47.784"
+    },
+    {
+      "index": 9,
+      "speaker": "passenger",
+      "start": 49.29541595925297,
+      "end": 50.38200339558574,
+      "duration": 1.087,
+      "text": "tú no tienes, pero la seguridad si",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T19:30:49.295"
+    },
+    {
+      "index": 10,
+      "speaker": "airline_supervisor",
+      "start": 50.26315789473684,
+      "end": 51.536502546689306,
+      "duration": 1.273,
+      "text": "por eso, pero...",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T19:30:50.263"
+    },
+    {
+      "index": 11,
+      "speaker": "airline_supervisor",
+      "start": 51.09507640067912,
+      "end": 51.553480475382,
+      "duration": 0.458,
+      "text": "pero la...",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T19:30:51.095"
+    },
+    {
+      "index": 12,
+      "speaker": "passenger",
+      "start": 52.99660441426146,
+      "end": 54.64346349745331,
+      "duration": 1.647,
+      "text": "la carta de desembarque.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T19:30:52.996"
+    },
+    {
+      "index": 13,
+      "speaker": "unresolved_speaker",
+      "start": 74.25297113752123,
+      "end": 74.8641765704584,
+      "duration": 0.611,
+      "text": "[silencio]",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T19:31:14.252"
+    },
+    {
+      "index": 14,
+      "speaker": "unresolved_speaker",
+      "start": 74.8641765704584,
+      "end": 74.89813242784379,
+      "duration": 0.034,
+      "text": "[silencio]",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T19:31:14.864"
+    },
+    {
+      "index": 15,
+      "speaker": "passenger",
+      "start": 82.33446519524617,
+      "end": 84.28692699490662,
+      "duration": 1.952,
+      "text": "van a explicar lo que está pasando?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T19:31:22.334"
+    },
+    {
+      "index": 16,
+      "speaker": "airline_supervisor",
+      "start": 84.43972835314091,
+      "end": 85.98471986417658,
+      "duration": 1.545,
+      "text": "yo ya hablé con usted, ¿está venindo la seguridad",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T19:31:24.439"
+    },
+    {
+      "index": 17,
+      "speaker": "passenger",
+      "start": 87.49575551782684,
+      "end": 89.44821731748726,
+      "duration": 1.952,
+      "text": "pero tú sabes el porqué que me hicieran eso?",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T19:31:27.495"
+    },
+    {
+      "index": 18,
+      "speaker": "airline_supervisor",
+      "start": 89.29541595925298,
+      "end": 91.21392190152801,
+      "duration": 1.919,
+      "text": "tu sabrás el por qué",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T19:31:29.295"
+    },
+    {
+      "index": 19,
+      "speaker": "passenger",
+      "start": 91.57045840407471,
+      "end": 93.43803056027164,
+      "duration": 1.868,
+      "text": "y tú vas a me ignorar, simplemente.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T19:31:31.570"
+    },
+    {
+      "index": 20,
+      "speaker": "airline_supervisor",
+      "start": 93.43803056027164,
+      "end": 94.49066213921901,
+      "duration": 1.053,
+      "text": "Ya hable con ustede",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T19:31:33.438"
+    },
+    {
+      "index": 21,
+      "speaker": "passenger",
+      "start": 94.93208828522921,
+      "end": 98.446519524618,
+      "duration": 3.514,
+      "text": "pero tú no me dio ninguna respuesta. Y tú eres el supervisor.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T19:31:34.932"
+    },
+    {
+      "index": 22,
+      "speaker": "passenger",
+      "start": 104.06621392190152,
+      "end": 111.1629881154499,
+      "duration": 7.097,
+      "text": "mira, está difícil aquí, ¿ves? Cuidado con este pueblo aquí. Me tiraron del vuelo. ¿por qué? A las una de la tarde.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T19:31:44.066"
+    },
+    {
+      "index": 23,
+      "speaker": "other_passenger",
+      "start": 110.94227504244483,
+      "end": 111.723259762309,
+      "duration": 0.781,
+      "text": "por que?.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T19:31:50.942"
+    },
+    {
+      "index": 24,
+      "speaker": "passenger",
+      "start": 111.723259762309,
+      "end": 112.60611205432937,
+      "duration": 0.883,
+      "text": "no sé.",
+      "reviewed": true,
+      "segment_datetime": "2024-07-05T19:31:51.723"
+    }
+  ],
+  "reviewed": true
+}
