@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "CL.DSO.Art.1.2",
+  "original_id": "CL.DSO.Art.1.2",
+  "article_number": "1.2",
+  "framework_code": "DSO",
+  "jurisdiction": "CL",
+  "title": "Art. 1.2 — DSO, Artículo 1.2 – Denominación del Cargo",
+  "theme": "Denominación del Cargo",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: regulatory"
+  ],
+  "content": "La persona a cargo del Departamento \"Seguridad Operacional\" se denominará \"Director (a) de Seguridad Operacional\".",
+  "text": "La persona a cargo del Departamento \"Seguridad Operacional\" se denominará \"Director (a) de Seguridad Operacional\".",
+  "source_file": "DGAC_DSO.md",
+  "source_path": "CL/DGAC_DSO.md",
+  "source_sha256": "29335380cef8bcab729bcfae42556726d10e42827dd5ca46e65f7554b67345c7",
+  "language": "unknown",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

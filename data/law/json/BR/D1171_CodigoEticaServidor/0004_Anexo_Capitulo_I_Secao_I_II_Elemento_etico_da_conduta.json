@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.D1171.Anexo.C1.S1.II",
+  "original_id": "BR.D1171.Anexo.C1.S1.II",
+  "article_number": "Anexo, Capítulo I, Seção I, II — Elemento ético da conduta",
+  "framework_code": "D1171",
+  "jurisdiction": "BR",
+  "title": "Anexo, Capítulo I, Seção I, II — Elemento ético da conduta",
+  "theme": "ethics",
+  "norm_type": [
+    "constitutional_principle"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: constitutional_principle",
+    "scope: administrative"
+  ],
+  "content": "O servidor público não poderá jamais desprezar o elemento ético de sua conduta. Assim, não terá que decidir somente entre o legal e o ilegal, o justo e o injusto, o conveniente e o inconveniente, o oportuno e o inoportuno, mas principalmente entre o honesto e o desonesto, consoante as regras contidas no art. 37, caput, e § 4°, da Constituição Federal.",
+  "text": "O servidor público não poderá jamais desprezar o elemento ético de sua conduta. Assim, não terá que decidir somente entre o legal e o ilegal, o justo e o injusto, o conveniente e o inconveniente, o oportuno e o inoportuno, mas principalmente entre o honesto e o desonesto, consoante as regras contidas no art. 37, caput, e § 4°, da Constituição Federal.",
+  "source_file": "D1171_CodigoEticaServidor.md",
+  "source_path": "BR/D1171_CodigoEticaServidor.md",
+  "source_sha256": "2e0105ed0fe99532240b0fe952e403e4bc1a9ed0097f9aa5b07454b29ea0000a",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

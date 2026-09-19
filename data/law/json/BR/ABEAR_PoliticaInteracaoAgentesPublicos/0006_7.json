@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.ABEAR_PIAP.Art.7",
+  "original_id": "BR.ABEAR_PIAP.Art.7",
+  "article_number": "7",
+  "framework_code": "ABEAR_PIAP",
+  "jurisdiction": "BR",
+  "title": "Art. 7 — Acompanhamento de Fiscalizações",
+  "theme": "duty",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "state"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: state"
+  ],
+  "content": "No acompanhamento de fiscalizações ou de outras apurações de Órgãos Públicos relacionadas à ABEAR, é vedada qualquer ocultação ou distorção de informações ou documentos que dificulte ou possa dificultar essas atividades.",
+  "text": "No acompanhamento de fiscalizações ou de outras apurações de Órgãos Públicos relacionadas à ABEAR, é vedada qualquer ocultação ou distorção de informações ou documentos que dificulte ou possa dificultar essas atividades.",
+  "source_file": "ABEAR_PoliticaInteracaoAgentesPublicos.md",
+  "source_path": "BR/ABEAR_PoliticaInteracaoAgentesPublicos.md",
+  "source_sha256": "075b0de4337463c7b8a05d20bbed25de011502c04541def1828f3d4c244af4b6",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

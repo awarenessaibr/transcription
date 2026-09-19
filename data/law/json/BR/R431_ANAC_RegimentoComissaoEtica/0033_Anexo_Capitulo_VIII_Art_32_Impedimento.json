@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.R431.Anexo.C8.Art.32",
+  "original_id": "BR.R431.Anexo.C8.Art.32",
+  "article_number": "Anexo, Capítulo VIII, Art. 32 — Impedimento",
+  "framework_code": "R431",
+  "jurisdiction": "BR",
+  "title": "Anexo, Capítulo VIII, Art. 32 — Impedimento",
+  "theme": "procedural",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: administrative"
+  ],
+  "content": "Dá-se o impedimento do membro da Comissão de Ética da ANAC quando:\n\nI - tenha interesse direto ou indireto no feito;\nII - tenha participado ou venha a participar, em outro processo administrativo ou judicial, como perito, testemunha ou representante legal do denunciante, denunciado ou investigado, ou de seus respectivos cônjuges, companheiros ou parentes até o terceiro grau;\nIII - esteja litigando judicial ou administrativamente com o denunciante, denunciado ou investigado, ou com os respectivos cônjuges, companheiros ou parentes até o terceiro grau; ou\nIV - for seu cônjuge, companheiro ou parente até o terceiro grau o denunciante, denunciado ou investigado.",
+  "text": "Dá-se o impedimento do membro da Comissão de Ética da ANAC quando:\n\nI - tenha interesse direto ou indireto no feito;\nII - tenha participado ou venha a participar, em outro processo administrativo ou judicial, como perito, testemunha ou representante legal do denunciante, denunciado ou investigado, ou de seus respectivos cônjuges, companheiros ou parentes até o terceiro grau;\nIII - esteja litigando judicial ou administrativamente com o denunciante, denunciado ou investigado, ou com os respectivos cônjuges, companheiros ou parentes até o terceiro grau; ou\nIV - for seu cônjuge, companheiro ou parente até o terceiro grau o denunciante, denunciado ou investigado.",
+  "source_file": "R431_ANAC_RegimentoComissaoEtica.md",
+  "source_path": "BR/R431_ANAC_RegimentoComissaoEtica.md",
+  "source_sha256": "b0f6744091b2a507cb9233fa32250e41113bbad0666586bb6ae0d29bf0365d01",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

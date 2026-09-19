@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.D6029.Art.10",
+  "original_id": "BR.D6029.Art.10",
+  "article_number": "10",
+  "framework_code": "D6029",
+  "jurisdiction": "BR",
+  "title": "Art. 10 — Princípios dos trabalhos das Comissões",
+  "theme": "duty",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: administrative"
+  ],
+  "content": "Os trabalhos da CEP e das demais Comissões de Ética devem ser desenvolvidos com celeridade e observância dos seguintes princípios:\n\nI - proteção à honra e à imagem da pessoa investigada;\nII - proteção à identidade do denunciante, que deverá ser mantida sob reserva, se este assim o desejar; e\nIII - independência e imparcialidade dos seus membros na apuração dos fatos, com as garantias asseguradas neste Decreto.",
+  "text": "Os trabalhos da CEP e das demais Comissões de Ética devem ser desenvolvidos com celeridade e observância dos seguintes princípios:\n\nI - proteção à honra e à imagem da pessoa investigada;\nII - proteção à identidade do denunciante, que deverá ser mantida sob reserva, se este assim o desejar; e\nIII - independência e imparcialidade dos seus membros na apuração dos fatos, com as garantias asseguradas neste Decreto.",
+  "source_file": "D6029_SistemaGestaoEtica.md",
+  "source_path": "BR/D6029_SistemaGestaoEtica.md",
+  "source_sha256": "f62beeb0752517bf76c5bd14032e02fbe351a37bb1cc1c9746a9324924b46141",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

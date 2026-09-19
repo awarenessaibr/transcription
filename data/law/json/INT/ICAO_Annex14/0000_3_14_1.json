@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.AN14.T1.C3.S14.P1.Art.3.14.1",
+  "original_id": "INT.AN14.T1.C3.S14.P1.Art.3.14.1",
+  "article_number": "3.14.1",
+  "framework_code": "AN14",
+  "jurisdiction": "INT",
+  "title": "Art. 3.14.1 — Annex 14 - Aerodromes, Volume I - Aerodrome Design and Operations, Chapter 3 - Physical Characteristics, 3.14 Isolated aircraft parking position, 3.14.1",
+  "theme": "Annex 14",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: regulatory"
+  ],
+  "content": "An isolated aircraft parking position shall be designated or the aerodrome control tower shall be advised of an area or areas suitable for the parking of an aircraft which is known or believed to be the subject of unlawful interference, or which for other reasons needs isolation from normal aerodrome activities.",
+  "text": "An isolated aircraft parking position shall be designated or the aerodrome control tower shall be advised of an area or areas suitable for the parking of an aircraft which is known or believed to be the subject of unlawful interference, or which for other reasons needs isolation from normal aerodrome activities.",
+  "source_file": "ICAO_Annex14.md",
+  "source_path": "INT/EN/ICAO_Annex14.md",
+  "source_sha256": "0bb620202b5c26cde3581f9897fa13876ba230091d9d3b63fa78ccba987a5472",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

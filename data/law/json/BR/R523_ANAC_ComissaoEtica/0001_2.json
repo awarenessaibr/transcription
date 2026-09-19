@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.R523.Art.2",
+  "original_id": "BR.R523.Art.2",
+  "article_number": "2",
+  "framework_code": "R523",
+  "jurisdiction": "BR",
+  "title": "Art. 2 — Aprovação do Regimento Interno",
+  "theme": "procedural",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: administrative"
+  ],
+  "content": "Aprovar, nos termos do Anexo desta Resolução, o Regimento Interno da Comissão de Ética da ANAC, delimitando sua composição, competências, normas de funcionamento e rito processual.",
+  "text": "Aprovar, nos termos do Anexo desta Resolução, o Regimento Interno da Comissão de Ética da ANAC, delimitando sua composição, competências, normas de funcionamento e rito processual.",
+  "source_file": "R523_ANAC_ComissaoEtica.md",
+  "source_path": "BR/R523_ANAC_ComissaoEtica.md",
+  "source_sha256": "15c993247f5e4416245b4a18a738c08123282afa020d2ce8105bf8378303bbb4",
+  "language": "unknown",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

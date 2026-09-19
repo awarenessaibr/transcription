@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "CL.CONST.T1.C1.Art.5",
+  "original_id": "CL.CONST.T1.C1.Art.5",
+  "article_number": "5",
+  "framework_code": "CONST",
+  "jurisdiction": "CL",
+  "title": "Art. 5 — Constitución Política de Chile, Capítulo I, Artículo 5",
+  "theme": "Constitutional Law",
+  "norm_type": [
+    "power"
+  ],
+  "scope": [
+    "constitutional"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: power",
+    "scope: constitutional"
+  ],
+  "content": "Sovereignty rests essentially with the Nation. It is exercise by the people through plebiscites and periodic elections, as well as by the authorities established by this Constitution. No sector of the people or individual may claim its exercise. The exercise of sovereignty recognized the respect towards the essential rights that emanate from human nature as a limit. It is the duty of the State’s bodies to respect and promote those rights, guaranteed by this Constitution, as well as by international treaties which have been ratified by Chile and that are in force.",
+  "text": "Sovereignty rests essentially with the Nation. It is exercise by the people through plebiscites and periodic elections, as well as by the authorities established by this Constitution. No sector of the people or individual may claim its exercise. The exercise of sovereignty recognized the respect towards the essential rights that emanate from human nature as a limit. It is the duty of the State’s bodies to respect and promote those rights, guaranteed by this Constitution, as well as by international treaties which have been ratified by Chile and that are in force.",
+  "source_file": "Constitucion.md",
+  "source_path": "CL/Constitucion.md",
+  "source_sha256": "b07956bc1e8eb3decb57048c6d3d3f08214643cd68c038e476d5f0381bb3b740",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

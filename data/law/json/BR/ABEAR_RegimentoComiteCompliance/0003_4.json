@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.ABEAR_RIC.Art.4",
+  "original_id": "BR.ABEAR_RIC.Art.4",
+  "article_number": "4",
+  "framework_code": "ABEAR_RIC",
+  "jurisdiction": "BR",
+  "title": "Art. 4 — Remuneração dos Membros do Comitê de Compliance",
+  "theme": "procedural",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: administrative"
+  ],
+  "content": "Os Membros não serão remunerados por sua participação no Comitê de Compliance. Como compensação por sua participação, nos casos em que os Membros tenham de sair de seus locais de origem para participar de uma reunião do Comitê ou a pedido da ABEAR, esta coordenará e pagará as despesas correspondentes a diárias (voos e hotéis), sempre que tais gastos sejam devidamente aprovados com antecedência e por escrito, exclusivamente pelo Conselho Deliberativo da ABEAR",
+  "text": "Os Membros não serão remunerados por sua participação no Comitê de Compliance. Como compensação por sua participação, nos casos em que os Membros tenham de sair de seus locais de origem para participar de uma reunião do Comitê ou a pedido da ABEAR, esta coordenará e pagará as despesas correspondentes a diárias (voos e hotéis), sempre que tais gastos sejam devidamente aprovados com antecedência e por escrito, exclusivamente pelo Conselho Deliberativo da ABEAR",
+  "source_file": "ABEAR_RegimentoComiteCompliance.md",
+  "source_path": "BR/ABEAR_RegimentoComiteCompliance.md",
+  "source_sha256": "8a0cb03f43029d84fcc1496edcc4de780d51d4127d11134e4e4e57d10c7d2327",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

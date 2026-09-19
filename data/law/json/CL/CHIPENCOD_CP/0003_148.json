@@ -1,0 +1,40 @@
+{
+  "id": "",
+  "eli_id": "CL.CHIPENCOD.T3.C2.Art.148",
+  "original_id": "CL.CHIPENCOD.T3.C2.Art.148",
+  "article_number": "148",
+  "framework_code": "CHIPENCOD",
+  "jurisdiction": "CL",
+  "title": "Art. 148 — Art. 148 Código Penal Chileno",
+  "theme": "arbitrary_arrest",
+  "norm_type": [
+    "penalty"
+  ],
+  "scope": [
+    "criminal"
+  ],
+  "direction": null,
+  "sanctions": [
+    "criminal_liability",
+    "suspension"
+  ],
+  "tags": [
+    "norm_type: penalty",
+    "scope: criminal",
+    "sanctions: criminal_liability",
+    "sanctions: suspension"
+  ],
+  "content": "Art. 148. Todo empleado público que ilegal y arbitrariamente desterrare, arrestare o detuviere a una persona, sufrirá la pena de reclusión menor y suspensión del empleo en sus grados mínimos a medios. Si el empleado público ejecutare las conductas descritas en el inciso anterior bajo apariencia de providencias legales, o sea, sin infracciones de disposiciones expresas, la pena será de presidio menor en cualquiera de sus grados.",
+  "text": "Art. 148. Todo empleado público que ilegal y arbitrariamente desterrare, arrestare o detuviere a una persona, sufrirá la pena de reclusión menor y suspensión del empleo en sus grados mínimos a medios. Si el empleado público ejecutare las conductas descritas en el inciso anterior bajo apariencia de providencias legales, o sea, sin infracciones de disposiciones expresas, la pena será de presidio menor en cualquiera de sus grados.",
+  "source_file": "CHIPENCOD_CP.md",
+  "source_path": "CL/CHIPENCOD_CP.md",
+  "source_sha256": "5e189a4a8d31010c3c09610bd439368e1b5d120d4b8a6cae7f13fa19d18cfb9f",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

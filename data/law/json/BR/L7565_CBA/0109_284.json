@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.CBA.T8.C9.Art.284",
+  "original_id": "BR.CBA.T8.C9.Art.284",
+  "article_number": "284",
+  "framework_code": "CBA",
+  "jurisdiction": "BR",
+  "title": "Art. 284 — CBA Title VIII, Chapter IX, Article 284 – Extension of Insurance Coverage During Flight",
+  "theme": "Liability and Exemptions",
+  "norm_type": [
+    "definition"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: definition",
+    "scope: regulatory"
+  ],
+  "content": "Art. 284. Os seguros obrigatórios, cuja expiração ocorrer após o inicio do vôo, consideram-se prorrogados até o seu término.",
+  "text": "Art. 284. Os seguros obrigatórios, cuja expiração ocorrer após o inicio do vôo, consideram-se prorrogados até o seu término.",
+  "source_file": "L7565_CBA.md",
+  "source_path": "BR/L7565_CBA.md",
+  "source_sha256": "4ed35a5b7f1951bbcaed63377ffdb3e8cb1ff9f2f9f8a735e844b46cb3ce0931",
+  "language": "unknown",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

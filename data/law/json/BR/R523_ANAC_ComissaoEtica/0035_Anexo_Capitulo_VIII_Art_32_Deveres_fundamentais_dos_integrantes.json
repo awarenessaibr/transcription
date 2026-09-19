@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.R523.Anexo.C8.Art.32",
+  "original_id": "BR.R523.Anexo.C8.Art.32",
+  "article_number": "Anexo, Capítulo VIII, Art. 32 — Deveres fundamentais dos integrantes",
+  "framework_code": "R523",
+  "jurisdiction": "BR",
+  "title": "Anexo, Capítulo VIII, Art. 32 — Deveres fundamentais dos integrantes",
+  "theme": "duty",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: administrative"
+  ],
+  "content": "São deveres fundamentais no trabalho desenvolvido pelos membros da Comissão de Ética da ANAC:\n\nI - preservar a honra e a imagem da pessoa investigada;\nII - proteger a identidade do denunciante;\nIII - atuar de forma independente e imparcial;\nIV - comparecer às reuniões da Comissão de Ética da ANAC, justificando ao presidente da Comissão, por escrito, eventuais ausências e afastamentos;\nV - em eventual ausência ou afastamento, instruir o substituto sobre os trabalhos em curso;\nVI - declarar aos demais membros, qualquer impedimento ou suspeição nos trabalhos da Comissão de Ética da ANAC; e\nVII - eximir-se de atuar em procedimento no qual tenha sido identificado seu impedimento ou suspeição.",
+  "text": "São deveres fundamentais no trabalho desenvolvido pelos membros da Comissão de Ética da ANAC:\n\nI - preservar a honra e a imagem da pessoa investigada;\nII - proteger a identidade do denunciante;\nIII - atuar de forma independente e imparcial;\nIV - comparecer às reuniões da Comissão de Ética da ANAC, justificando ao presidente da Comissão, por escrito, eventuais ausências e afastamentos;\nV - em eventual ausência ou afastamento, instruir o substituto sobre os trabalhos em curso;\nVI - declarar aos demais membros, qualquer impedimento ou suspeição nos trabalhos da Comissão de Ética da ANAC; e\nVII - eximir-se de atuar em procedimento no qual tenha sido identificado seu impedimento ou suspeição.",
+  "source_file": "R523_ANAC_ComissaoEtica.md",
+  "source_path": "BR/R523_ANAC_ComissaoEtica.md",
+  "source_sha256": "15c993247f5e4416245b4a18a738c08123282afa020d2ce8105bf8378303bbb4",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

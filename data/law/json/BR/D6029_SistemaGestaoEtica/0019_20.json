@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.D6029.Art.20",
+  "original_id": "BR.D6029.Art.20",
+  "article_number": "20",
+  "framework_code": "D6029",
+  "jurisdiction": "BR",
+  "title": "Art. 20 — Tratamento prioritário às solicitações",
+  "theme": "procedural",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: administrative"
+  ],
+  "content": "Os órgãos e entidades da Administração Pública Federal darão tratamento prioritário às solicitações de documentos necessários à instrução dos procedimentos de investigação instaurados pelas Comissões de Ética.\n\n§ 1º Na hipótese de haver inobservância do dever funcional previsto no caput, a Comissão de Ética adotará as providências previstas no inciso III do § 5º do art. 12.\n\n§ 2º As autoridades competentes não poderão alegar sigilo para deixar de prestar informação solicitada pelas Comissões de Ética.",
+  "text": "Os órgãos e entidades da Administração Pública Federal darão tratamento prioritário às solicitações de documentos necessários à instrução dos procedimentos de investigação instaurados pelas Comissões de Ética.\n\n§ 1º Na hipótese de haver inobservância do dever funcional previsto no caput, a Comissão de Ética adotará as providências previstas no inciso III do § 5º do art. 12.\n\n§ 2º As autoridades competentes não poderão alegar sigilo para deixar de prestar informação solicitada pelas Comissões de Ética.",
+  "source_file": "D6029_SistemaGestaoEtica.md",
+  "source_path": "BR/D6029_SistemaGestaoEtica.md",
+  "source_sha256": "f62beeb0752517bf76c5bd14032e02fbe351a37bb1cc1c9746a9324924b46141",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

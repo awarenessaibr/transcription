@@ -1,0 +1,38 @@
+{
+  "id": "",
+  "eli_id": "INT.MC99.C3.Art.23",
+  "original_id": "INT.MC99.C3.Art.23",
+  "article_number": "23",
+  "framework_code": "MC99",
+  "jurisdiction": "INT",
+  "title": "Art. 23 — Montreal Convention 1999, Chapter III - Liability of the Carrier and Extent of Compensation for Damage, Article 23 — Conversion of Monetary Units",
+  "theme": "Liability of the Carrier and Extent of Compensation for Damage",
+  "norm_type": [
+    "penalty"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [
+    "financial_penalty"
+  ],
+  "tags": [
+    "norm_type: penalty",
+    "scope: regulatory",
+    "sanctions: financial_penalty"
+  ],
+  "content": "1. The sums mentioned in terms of Special Drawing Right in this Convention shall be deemed to refer to the Special Drawing Right as defined by the International Monetary Fund. Conversion of the sums into national currencies shall, in case of judicial proceedings, be made according to the value of such currencies in terms of the Special Drawing Right at the date of the judgement. The value of a national currency, in terms of the Special Drawing Right, of a State Party which is a Member of the International Monetary Fund, shall be calculated in accordance with the method of valuation applied by the International Monetary Fund, in effect at the date of the judgement, for its operations and transactions. The value of a national currency, in terms of the Special Drawing Right, of a State Party which is not a Member of the International Monetary Fund, shall be calculated in a manner determined by that State. 2. Nevertheless, those States which are not Members of the International Monetary Fund and whose law does not permit the application of the provisions of paragraph 1 of this Article may, at the time of ratification or accession or at any time thereafter, declare that the limit of liability of the carrier prescribed in Article 21 is fixed at a sum of 1 500 000 monetary units per passenger in judicial proceedings in their territories; 62 500 monetary units per passenger with respect to paragraph 1 of Article 22; 15 000 monetary units per passenger with respect to paragraph 2 of Article 22; and 250 monetary units per kilogramme with respect to paragraph 3 of Article 22. This monetary unit corresponds to sixty-five and a half milligrammes of gold of millesimal fineness nine hundred. These sums may be converted into the national currency concerned in round figures. The conversion of these sums into national currency shall be made according to the law of the State concerned. 3. The calculation mentioned in the last sentence of paragraph 1 of this Article and the conversion method mentioned in paragraph 2 of this Article shall be made in such manner as to express in the national currency of the State Party as far as possible the same real value for the amounts in Articles 21 and 22 as would result from the application of the first three sentences of paragraph 1 of this Article. States Parties shall communicate to the depositary the manner of calculation pursuant to paragraph 1 of this Article, or the result of the conversion in paragraph 2 of this Article as the case may be, when depositing an instrument of ratification, acceptance, approval of or accession to this Convention and whenever there is a change in either.",
+  "text": "1. The sums mentioned in terms of Special Drawing Right in this Convention shall be deemed to refer to the Special Drawing Right as defined by the International Monetary Fund. Conversion of the sums into national currencies shall, in case of judicial proceedings, be made according to the value of such currencies in terms of the Special Drawing Right at the date of the judgement. The value of a national currency, in terms of the Special Drawing Right, of a State Party which is a Member of the International Monetary Fund, shall be calculated in accordance with the method of valuation applied by the International Monetary Fund, in effect at the date of the judgement, for its operations and transactions. The value of a national currency, in terms of the Special Drawing Right, of a State Party which is not a Member of the International Monetary Fund, shall be calculated in a manner determined by that State. 2. Nevertheless, those States which are not Members of the International Monetary Fund and whose law does not permit the application of the provisions of paragraph 1 of this Article may, at the time of ratification or accession or at any time thereafter, declare that the limit of liability of the carrier prescribed in Article 21 is fixed at a sum of 1 500 000 monetary units per passenger in judicial proceedings in their territories; 62 500 monetary units per passenger with respect to paragraph 1 of Article 22; 15 000 monetary units per passenger with respect to paragraph 2 of Article 22; and 250 monetary units per kilogramme with respect to paragraph 3 of Article 22. This monetary unit corresponds to sixty-five and a half milligrammes of gold of millesimal fineness nine hundred. These sums may be converted into the national currency concerned in round figures. The conversion of these sums into national currency shall be made according to the law of the State concerned. 3. The calculation mentioned in the last sentence of paragraph 1 of this Article and the conversion method mentioned in paragraph 2 of this Article shall be made in such manner as to express in the national currency of the State Party as far as possible the same real value for the amounts in Articles 21 and 22 as would result from the application of the first three sentences of paragraph 1 of this Article. States Parties shall communicate to the depositary the manner of calculation pursuant to paragraph 1 of this Article, or the result of the conversion in paragraph 2 of this Article as the case may be, when depositing an instrument of ratification, acceptance, approval of or accession to this Convention and whenever there is a change in either.",
+  "source_file": "MC99_1999.md",
+  "source_path": "INT/EN/MC99_1999.md",
+  "source_sha256": "bc79e373bc0936102e9860635e77c9b857ef28ccbc4f2b60c23cb5b9318b84f3",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

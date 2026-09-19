@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.R431.Anexo.C7.Art.25",
+  "original_id": "BR.R431.Anexo.C7.Art.25",
+  "article_number": "Anexo, Capítulo VII, Art. 25 — Inquirição de testemunhas",
+  "framework_code": "R431",
+  "jurisdiction": "BR",
+  "title": "Anexo, Capítulo VII, Art. 25 — Inquirição de testemunhas",
+  "theme": "procedural",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: administrative"
+  ],
+  "content": "O pedido de inquirição de testemunhas deverá ser justificado.\n\n§ 1º Será indeferido o pedido de inquirição, quando:\nI - formulado em desacordo com este artigo;\nII - o fato já estiver suficientemente provado por documento ou confissão do investigado ou quaisquer outros meios de prova compatíveis com o rito descrito neste Regimento; ou\nIII - o fato não possa ser provado por testemunha.\n\n§ 2º As testemunhas poderão ser substituídas desde que o investigado formalize pedido à Comissão de Ética da ANAC em tempo hábil e em momento anterior à audiência de inquirição.",
+  "text": "O pedido de inquirição de testemunhas deverá ser justificado.\n\n§ 1º Será indeferido o pedido de inquirição, quando:\nI - formulado em desacordo com este artigo;\nII - o fato já estiver suficientemente provado por documento ou confissão do investigado ou quaisquer outros meios de prova compatíveis com o rito descrito neste Regimento; ou\nIII - o fato não possa ser provado por testemunha.\n\n§ 2º As testemunhas poderão ser substituídas desde que o investigado formalize pedido à Comissão de Ética da ANAC em tempo hábil e em momento anterior à audiência de inquirição.",
+  "source_file": "R431_ANAC_RegimentoComissaoEtica.md",
+  "source_path": "BR/R431_ANAC_RegimentoComissaoEtica.md",
+  "source_sha256": "b0f6744091b2a507cb9233fa32250e41113bbad0666586bb6ae0d29bf0365d01",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

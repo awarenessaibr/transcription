@@ -1,0 +1,38 @@
+{
+  "id": "",
+  "eli_id": "INT.AN9.C9.S29.Art.9.29",
+  "original_id": "INT.AN9.C9.S29.Art.9.29",
+  "article_number": "9.29",
+  "framework_code": "AN9",
+  "jurisdiction": "INT",
+  "title": "Art. 9.29 — Annex 9 - Facilitation, Chapter 9 - Passenger Data Exchange Systems, D. Passenger Name Record (PNR), 9.29",
+  "theme": "Annex 9",
+  "norm_type": [
+    "penalty"
+  ],
+  "scope": [
+    "contractual"
+  ],
+  "direction": null,
+  "sanctions": [
+    "financial_penalty"
+  ],
+  "tags": [
+    "norm_type: penalty",
+    "scope: contractual",
+    "sanctions: financial_penalty"
+  ],
+  "content": "Contracting States shall designate one (or more) competent domestic authority(ies) as defined in their legal and administrative framework with the power to conduct independent oversight of the protection of PNR data and determine whether PNR data are being collected, used, processed and protected with full respect for human rights and fundamental freedoms.",
+  "text": "Contracting States shall designate one (or more) competent domestic authority(ies) as defined in their legal and administrative framework with the power to conduct independent oversight of the protection of PNR data and determine whether PNR data are being collected, used, processed and protected with full respect for human rights and fundamental freedoms.",
+  "source_file": "ICAO_Annex9.md",
+  "source_path": "INT/EN/ICAO_Annex9.md",
+  "source_sha256": "57c4f76b6dc9787cd7e0c02eba85ac7932117bbae67da26324bd413660d10af6",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

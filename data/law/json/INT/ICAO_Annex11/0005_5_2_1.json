@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.AN11.C5.S2.P1.Art.5.2.1",
+  "original_id": "INT.AN11.C5.S2.P1.Art.5.2.1",
+  "article_number": "5.2.1",
+  "framework_code": "AN11",
+  "jurisdiction": "INT",
+  "title": "Art. 5.2.1 — Annex 11 - Air Traffic Services, Chapter 5 - Alerting Service, 5.2 Notification of rescue coordination centres, 5.2.1",
+  "theme": "Annex 11",
+  "norm_type": [
+    "exemption"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: exemption",
+    "scope: regulatory"
+  ],
+  "content": "Without prejudice to any other circumstances that may render such notification advisable, air traffic services units shall, except as prescribed in 5.5.1, notify rescue coordination centres immediately an aircraft is considered to be in a state of emergency in accordance with the following:\n\nb) Alert phase when:\n\n1) following the uncertainty phase, subsequent attempts to establish communication with the aircraft or inquiries to other relevant sources have failed to reveal any news of the aircraft, or when\n2) an aircraft has been cleared to land and fails to land within five minutes of the estimated time of landing and communication has not been re- established with the aircraft, or when\n3) information has been received which indicates that the operating efficiency of the aircraft has been impaired, but not to the extent that a forced landing is likely, except when evidence exists that would allay apprehension as to the safety of the aircraft and its occupants, or when\n4) an aircraft is known or believed to be the subject of unlawful interference.",
+  "text": "Without prejudice to any other circumstances that may render such notification advisable, air traffic services units shall, except as prescribed in 5.5.1, notify rescue coordination centres immediately an aircraft is considered to be in a state of emergency in accordance with the following:\n\nb) Alert phase when:\n\n1) following the uncertainty phase, subsequent attempts to establish communication with the aircraft or inquiries to other relevant sources have failed to reveal any news of the aircraft, or when\n2) an aircraft has been cleared to land and fails to land within five minutes of the estimated time of landing and communication has not been re- established with the aircraft, or when\n3) information has been received which indicates that the operating efficiency of the aircraft has been impaired, but not to the extent that a forced landing is likely, except when evidence exists that would allay apprehension as to the safety of the aircraft and its occupants, or when\n4) an aircraft is known or believed to be the subject of unlawful interference.",
+  "source_file": "ICAO_Annex11.md",
+  "source_path": "INT/EN/ICAO_Annex11.md",
+  "source_sha256": "b244ad52167fd1b657460c23157eb06b9a864895cea71a11865de1857e88f4b0",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

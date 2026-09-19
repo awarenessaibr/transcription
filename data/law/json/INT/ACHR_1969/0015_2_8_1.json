@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.ACHR.T1.C2.S8.P1.Art.2.8.1",
+  "original_id": "INT.ACHR.T1.C2.S8.P1.Art.2.8.1",
+  "article_number": "2.8.1",
+  "framework_code": "ACHR",
+  "jurisdiction": "INT",
+  "title": "Art. 2.8.1 — American Convention on Human Rights, Part I, Chapter II, Article 8, Paragraph 1",
+  "theme": "Human Rights",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "constitutional"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: constitutional"
+  ],
+  "content": "Every person has the right to a hearing, with due guarantees and within a reasonable time, by a competent, independent, and impartial tribunal, previously established by law, in the substantiation of any accusation of a criminal nature made against him or for the determination of his rights and obligations of a civil, labor, fiscal, or any other nature.",
+  "text": "Every person has the right to a hearing, with due guarantees and within a reasonable time, by a competent, independent, and impartial tribunal, previously established by law, in the substantiation of any accusation of a criminal nature made against him or for the determination of his rights and obligations of a civil, labor, fiscal, or any other nature.",
+  "source_file": "ACHR_1969.md",
+  "source_path": "INT/EN/ACHR_1969.md",
+  "source_sha256": "0208ba5cf43eda94f0f2a9e75d128b3c2791447452fe601107160e425dbc41c1",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.AN13.C5.S11.Art.5.11",
+  "original_id": "INT.AN13.C5.S11.Art.5.11",
+  "article_number": "5.11",
+  "framework_code": "AN13",
+  "jurisdiction": "INT",
+  "title": "Art. 5.11 — Annex 13 - Aircraft Accident and Incident Investigation, Chapter 5 - Investigation, Organization and Conduct of the Investigation, Responsibility of the State Conducting the Investigation, Informing aviation security authorities, 5.11",
+  "theme": "Annex 13",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: regulatory"
+  ],
+  "content": "If, in the course of an investigation it becomes known, or it is suspected, that an act of unlawful interference was involved, the investigator- in- charge shall immediately initiate action to ensure that the aviation security authorities of the State(s) concerned are so informed.",
+  "text": "If, in the course of an investigation it becomes known, or it is suspected, that an act of unlawful interference was involved, the investigator- in- charge shall immediately initiate action to ensure that the aviation security authorities of the State(s) concerned are so informed.",
+  "source_file": "ICAO_Annex13.md",
+  "source_path": "INT/EN/ICAO_Annex13.md",
+  "source_sha256": "5473ba898105e6634921f56646e814c6bfd60c65e60f797c7b9068ea4ddcdca0",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

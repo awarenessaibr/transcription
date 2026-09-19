@@ -1,0 +1,38 @@
+{
+  "id": "",
+  "eli_id": "CL.CHIPENCOD.T3.C1.Art.141",
+  "original_id": "CL.CHIPENCOD.T3.C1.Art.141",
+  "article_number": "141",
+  "framework_code": "CHIPENCOD",
+  "jurisdiction": "CL",
+  "title": "Art. 141 — Art. 141 Código Penal Chileno",
+  "theme": "unlawful_detention",
+  "norm_type": [
+    "penalty"
+  ],
+  "scope": [
+    "criminal"
+  ],
+  "direction": null,
+  "sanctions": [
+    "criminal_liability"
+  ],
+  "tags": [
+    "norm_type: penalty",
+    "scope: criminal",
+    "sanctions: criminal_liability"
+  ],
+  "content": "Art. 141. El que sin derecho encerrare o detuviere a otro privándole de su libertad, comete el delito de secuestro y será castigado con la pena de presidio menor en su grado máximo. En la misma pena incurrirá el que proporcionare lugar para la ejecución del delito. Si se ejecutare para obtener un rescate o imponer exigencias o arrancar decisiones, la pena será de presidio mayor en su grado mínimo a medio. Si en cualesquiera de los casos anteriores, el encierro o la detención se prolongare por más de quince días o si de ello resultare un daño grave en la persona o intereses del secuestrado, la pena será presidio mayor en su grado medio.",
+  "text": "Art. 141. El que sin derecho encerrare o detuviere a otro privándole de su libertad, comete el delito de secuestro y será castigado con la pena de presidio menor en su grado máximo. En la misma pena incurrirá el que proporcionare lugar para la ejecución del delito. Si se ejecutare para obtener un rescate o imponer exigencias o arrancar decisiones, la pena será de presidio mayor en su grado mínimo a medio. Si en cualesquiera de los casos anteriores, el encierro o la detención se prolongare por más de quince días o si de ello resultare un daño grave en la persona o intereses del secuestrado, la pena será presidio mayor en su grado medio.",
+  "source_file": "CHIPENCOD_CP.md",
+  "source_path": "CL/CHIPENCOD_CP.md",
+  "source_sha256": "5e189a4a8d31010c3c09610bd439368e1b5d120d4b8a6cae7f13fa19d18cfb9f",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

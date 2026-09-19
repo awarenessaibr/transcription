@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.AN14.T1.C8.S1.P10.Art.8.1.10",
+  "original_id": "INT.AN14.T1.C8.S1.P10.Art.8.1.10",
+  "article_number": "8.1.10",
+  "framework_code": "AN14",
+  "jurisdiction": "INT",
+  "title": "Art. 8.1.10 — Annex 14 - Aerodromes, Volume I - Aerodrome Design and Operations, Chapter 8 - Electrical Systems, 8.1 Electric power supply systems for air navigation facilities, Application, 8.1.10",
+  "theme": "Annex 14",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: regulatory"
+  ],
+  "content": "Recommendation.— The following aerodrome facilities should be provided with a secondary power supply capable of supplying power when there is a failure of the primary power supply:\n\ne) essential security lighting, if provided in accordance with 9.11;",
+  "text": "Recommendation.— The following aerodrome facilities should be provided with a secondary power supply capable of supplying power when there is a failure of the primary power supply:\n\ne) essential security lighting, if provided in accordance with 9.11;",
+  "source_file": "ICAO_Annex14.md",
+  "source_path": "INT/EN/ICAO_Annex14.md",
+  "source_sha256": "0bb620202b5c26cde3581f9897fa13876ba230091d9d3b63fa78ccba987a5472",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

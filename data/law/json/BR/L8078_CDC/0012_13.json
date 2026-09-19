@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.CDC.T4.C2.Art.13",
+  "original_id": "BR.CDC.T4.C2.Art.13",
+  "article_number": "13",
+  "framework_code": "CDC",
+  "jurisdiction": "BR",
+  "title": "Art. 13 — CDC Título IV, Capítulo II, Art. 13° – Responsabilidade do Comerciante",
+  "theme": "Supplier Liability – Retailer Liability",
+  "norm_type": [
+    "right"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: right",
+    "scope: regulatory"
+  ],
+  "content": "Art. 13° O comerciante é igualmente responsável, nos termos do artigo anterior, quando: I – o fabricante, o construtor, o produtor ou o importador não puderem ser identificados; II – o produto for fornecido sem identificação clara do seu fabricante, produtor, construtor ou importador; III – não conservar adequadamente os produtos perecíveis. Parágrafo único. Aquele que efetivar o pagamento ao prejudicado poderá exercer o direito de regresso contra os demais responsáveis, segundo sua participação na causação do evento danoso.",
+  "text": "Art. 13° O comerciante é igualmente responsável, nos termos do artigo anterior, quando: I – o fabricante, o construtor, o produtor ou o importador não puderem ser identificados; II – o produto for fornecido sem identificação clara do seu fabricante, produtor, construtor ou importador; III – não conservar adequadamente os produtos perecíveis. Parágrafo único. Aquele que efetivar o pagamento ao prejudicado poderá exercer o direito de regresso contra os demais responsáveis, segundo sua participação na causação do evento danoso.",
+  "source_file": "L8078_CDC.md",
+  "source_path": "BR/L8078_CDC.md",
+  "source_sha256": "8e34dae265f917ea4eaab3245b235f9c8e8ee393f34d96f90a133baf3690eda8",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

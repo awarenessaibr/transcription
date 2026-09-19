@@ -1,0 +1,40 @@
+{
+  "id": "",
+  "eli_id": "CL.CPCL.C1.Art.228",
+  "original_id": "CL.CPCL.C1.Art.228",
+  "article_number": "228",
+  "framework_code": "CPCL",
+  "jurisdiction": "CL",
+  "title": "Art. 228 — Prevaricación – Empleado público no judicial",
+  "theme": "Criminal Law – Prevaricación",
+  "norm_type": [
+    "penalty"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [
+    "suspension",
+    "financial_penalty"
+  ],
+  "tags": [
+    "norm_type: penalty",
+    "scope: administrative",
+    "sanctions: suspension",
+    "sanctions: financial_penalty"
+  ],
+  "content": "El que, desempeñando un empleo público no perteneciente al orden judicial, dictare a sabiendas providencia o resolución manifiestamente injusta en negocio contencioso-administrativo o meramente administrativo, incurrirá en las penas de suspensión del empleo en su grado medio y multa de once a quince unidades tributarias mensuales.\n\n> **BCN amendment note:** LEY 19450 Art. 1 h) D.O. 18.03.1996  \n> **BCN amendment note:** LEY 19450 Art. 1 d) D.O. 18.03.1996\n\n**Source:** [BCN Ley Chile — Código Penal, § IV Prevaricación](https://bcn.cl/gdyHI3)",
+  "text": "El que, desempeñando un empleo público no perteneciente al orden judicial, dictare a sabiendas providencia o resolución manifiestamente injusta en negocio contencioso-administrativo o meramente administrativo, incurrirá en las penas de suspensión del empleo en su grado medio y multa de once a quince unidades tributarias mensuales.\n\n> **BCN amendment note:** LEY 19450 Art. 1 h) D.O. 18.03.1996  \n> **BCN amendment note:** LEY 19450 Art. 1 d) D.O. 18.03.1996\n\n**Source:** [BCN Ley Chile — Código Penal, § IV Prevaricación](https://bcn.cl/gdyHI3)",
+  "source_file": "CodigoPenal_Prevaricacion.md",
+  "source_path": "CL/CodigoPenal_Prevaricacion.md",
+  "source_sha256": "921c577cd53a80bf34dad970a21d9f70a3bbd4462816ebc1865734f158780557",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

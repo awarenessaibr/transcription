@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "CL.L20285.T3.Art.12",
+  "original_id": "CL.L20285.T3.Art.12",
+  "article_number": "12",
+  "framework_code": "L20285",
+  "jurisdiction": "CL",
+  "title": "Art. 12 — Ley 20.285, Título III, Artículo 12° – Denegación de acceso",
+  "theme": "Denegación de acceso",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: regulatory"
+  ],
+  "content": "El acceso a la información sólo podrá ser denegado cuando:\n\na) La información esté clasificada como reservada o secreta de acuerdo a la ley.\nb) Su publicidad afecte el debido cumplimiento de las funciones del órgano requerido.\nc) Se trate de información personal de carácter reservado.\nd) Su publicidad pueda afectar los derechos de terceros.\n\nLa denegación deberá ser fundada y notificada por escrito al solicitante.",
+  "text": "El acceso a la información sólo podrá ser denegado cuando:\n\na) La información esté clasificada como reservada o secreta de acuerdo a la ley.\nb) Su publicidad afecte el debido cumplimiento de las funciones del órgano requerido.\nc) Se trate de información personal de carácter reservado.\nd) Su publicidad pueda afectar los derechos de terceros.\n\nLa denegación deberá ser fundada y notificada por escrito al solicitante.",
+  "source_file": "L20285_Transparencia.md",
+  "source_path": "CL/L20285_Transparencia.md",
+  "source_sha256": "4e6f01dfa2c767c6cece0780bac8ca2be4f16984ce054b69643f19bb4f1236e8",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

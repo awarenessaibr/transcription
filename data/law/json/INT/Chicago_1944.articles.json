@@ -1,0 +1,121 @@
+{
+  "source_file": "Chicago_1944.md",
+  "source_path": "INT/EN/Chicago_1944.md",
+  "jurisdiction": "INT",
+  "format": "structured_heading",
+  "metadata": {
+    "Source": "https://www.icao.int/sites/default/files/2024-12/7300_cons.pdf",
+    "Fetched": "2026-04-28",
+    "Sha256": "8123f746bad4821d9d1b9b047cb7074d48067507c2057a31b722c6b58300fa79",
+    "Articles": "26, 37, 38",
+    "Notes": "✅ verified — official ICAO consolidated Chicago Convention PDF (Arts. 37 and 38 stored as the exact operative excerpts used by INT_CHICAGO_VCLT)"
+  },
+  "article_count": 3,
+  "payloads": [
+    {
+      "id": "",
+      "eli_id": "INT.CHICAGO.Art.26",
+      "original_id": "INT.CHICAGO.Art.26",
+      "article_number": "26",
+      "framework_code": "CHICAGO",
+      "jurisdiction": "INT",
+      "title": "Art. 26 — Investigation of accidents",
+      "theme": "Accident investigation duty",
+      "norm_type": [
+        "treaty_obligation"
+      ],
+      "scope": [
+        "state"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: treaty_obligation",
+        "scope: state"
+      ],
+      "content": "In the event of an accident to an aircraft of a contracting State occurring in the territory of another contracting State, and involving death or serious injury, or indicating serious technical defect in the aircraft or air navigation facilities, the State in which the accident occurs will institute an inquiry into the circumstances of the accident, in accordance, so far as its laws permit, with the procedure which may be recommended by the International Civil Aviation Organization. The State in which the aircraft is registered shall be given the opportunity to appoint observers to be present at the inquiry and the State holding the inquiry shall communicate the report and findings in the matter to that State.",
+      "text": "In the event of an accident to an aircraft of a contracting State occurring in the territory of another contracting State, and involving death or serious injury, or indicating serious technical defect in the aircraft or air navigation facilities, the State in which the accident occurs will institute an inquiry into the circumstances of the accident, in accordance, so far as its laws permit, with the procedure which may be recommended by the International Civil Aviation Organization. The State in which the aircraft is registered shall be given the opportunity to appoint observers to be present at the inquiry and the State holding the inquiry shall communicate the report and findings in the matter to that State.",
+      "source_file": "Chicago_1944.md",
+      "source_path": "INT/EN/Chicago_1944.md",
+      "source_sha256": "c70710bfa5fdea66d48af5cc372292a26997f70aaff141d01cdb21c6e132ad52",
+      "language": "en",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "INT.CHICAGO.Art.37",
+      "original_id": "INT.CHICAGO.Art.37",
+      "article_number": "37",
+      "framework_code": "CHICAGO",
+      "jurisdiction": "INT",
+      "title": "Art. 37 — Adoption of international standards and procedures (operative excerpt in scope)",
+      "theme": "Uniformity collaboration duty",
+      "norm_type": [
+        "treaty_obligation"
+      ],
+      "scope": [
+        "state"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: treaty_obligation",
+        "scope: state"
+      ],
+      "content": "Each contracting State undertakes to collaborate in securing the highest practicable degree of uniformity in regulations, standards, procedures, and organization in relation to aircraft, personnel, airways and auxiliary services in all matters in which such uniformity will facilitate and improve air navigation.",
+      "text": "Each contracting State undertakes to collaborate in securing the highest practicable degree of uniformity in regulations, standards, procedures, and organization in relation to aircraft, personnel, airways and auxiliary services in all matters in which such uniformity will facilitate and improve air navigation.",
+      "source_file": "Chicago_1944.md",
+      "source_path": "INT/EN/Chicago_1944.md",
+      "source_sha256": "c70710bfa5fdea66d48af5cc372292a26997f70aaff141d01cdb21c6e132ad52",
+      "language": "en",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "INT.CHICAGO.Art.38",
+      "original_id": "INT.CHICAGO.Art.38",
+      "article_number": "38",
+      "framework_code": "CHICAGO",
+      "jurisdiction": "INT",
+      "title": "Art. 38 — Departures from international standards and procedures (operative excerpt in scope)",
+      "theme": "Notification of differences",
+      "norm_type": [
+        "treaty_obligation"
+      ],
+      "scope": [
+        "state"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: treaty_obligation",
+        "scope: state"
+      ],
+      "content": "Any State which finds it impracticable to comply in all respects with any such international standard or procedure, or to bring its own regulations or practices into full accord with any international standard or procedure after amendment of the latter, or which deems it necessary to adopt regulations or practices differing in any particular respect from those established by an international standard, shall give immediate notification to the International Civil Aviation Organization of the differences between its own practice and that established by the international standard.",
+      "text": "Any State which finds it impracticable to comply in all respects with any such international standard or procedure, or to bring its own regulations or practices into full accord with any international standard or procedure after amendment of the latter, or which deems it necessary to adopt regulations or practices differing in any particular respect from those established by an international standard, shall give immediate notification to the International Civil Aviation Organization of the differences between its own practice and that established by the international standard.",
+      "source_file": "Chicago_1944.md",
+      "source_path": "INT/EN/Chicago_1944.md",
+      "source_sha256": "c70710bfa5fdea66d48af5cc372292a26997f70aaff141d01cdb21c6e132ad52",
+      "language": "en",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.D1171.Anexo.C1.S1.VI",
+  "original_id": "BR.D1171.Anexo.C1.S1.VI",
+  "article_number": "Anexo, Capítulo I, Seção I, VI — Vida privada e conceito funcional",
+  "framework_code": "D1171",
+  "jurisdiction": "BR",
+  "title": "Anexo, Capítulo I, Seção I, VI — Vida privada e conceito funcional",
+  "theme": "ethics",
+  "norm_type": [
+    "constitutional_principle"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: constitutional_principle",
+    "scope: administrative"
+  ],
+  "content": "A função pública deve ser tida como exercício profissional e, portanto, se integra na vida particular de cada servidor público. Assim, os fatos e atos verificados na conduta do dia-a-dia em sua vida privada poderão acrescer ou diminuir o seu bom conceito na vida funcional.",
+  "text": "A função pública deve ser tida como exercício profissional e, portanto, se integra na vida particular de cada servidor público. Assim, os fatos e atos verificados na conduta do dia-a-dia em sua vida privada poderão acrescer ou diminuir o seu bom conceito na vida funcional.",
+  "source_file": "D1171_CodigoEticaServidor.md",
+  "source_path": "BR/D1171_CodigoEticaServidor.md",
+  "source_sha256": "2e0105ed0fe99532240b0fe952e403e4bc1a9ed0097f9aa5b07454b29ea0000a",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

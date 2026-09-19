@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.CBA.T9.C1.Art.291",
+  "original_id": "BR.CBA.T9.C1.Art.291",
+  "article_number": "291",
+  "framework_code": "CBA",
+  "jurisdiction": "BR",
+  "title": "Art. 291 — CBA Title IX, Chapter I, Article 291 – Procedure for Violation Reports",
+  "theme": "Regulatory Compliance",
+  "norm_type": [
+    "power"
+  ],
+  "scope": [
+    "criminal"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: power",
+    "scope: criminal"
+  ],
+  "content": "Art. 291. Toda vez que se verifique a ocorrência de infração prevista neste Código ou na legislação complementar, a autoridade aeronáutica lavrará o respectivo auto, remetendo-o à autoridade ou ao órgão competente para a apuração, julgamento ou providência administrativa cabível. § 1° Quando a infração constituir crime, a autoridade levará, imediatamente, o fato ao conhecimento da autoridade policial ou judicial competente. § 2° Tratando-se de crime, em que se deva deter membros de tripulação de aeronave que realize serviço público de transporte aéreo, a autoridade aeronáutica, concomitantemente à providência prevista no parágrafo anterior, deverá tomar as medidas que possibilitem a continuação do vôo.",
+  "text": "Art. 291. Toda vez que se verifique a ocorrência de infração prevista neste Código ou na legislação complementar, a autoridade aeronáutica lavrará o respectivo auto, remetendo-o à autoridade ou ao órgão competente para a apuração, julgamento ou providência administrativa cabível. § 1° Quando a infração constituir crime, a autoridade levará, imediatamente, o fato ao conhecimento da autoridade policial ou judicial competente. § 2° Tratando-se de crime, em que se deva deter membros de tripulação de aeronave que realize serviço público de transporte aéreo, a autoridade aeronáutica, concomitantemente à providência prevista no parágrafo anterior, deverá tomar as medidas que possibilitem a continuação do vôo.",
+  "source_file": "L7565_CBA.md",
+  "source_path": "BR/L7565_CBA.md",
+  "source_sha256": "4ed35a5b7f1951bbcaed63377ffdb3e8cb1ff9f2f9f8a735e844b46cb3ce0931",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

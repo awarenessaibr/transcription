@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "CL.L20285.T1.C3.Art.7",
+  "original_id": "CL.L20285.T1.C3.Art.7",
+  "article_number": "7",
+  "framework_code": "L20285",
+  "jurisdiction": "CL",
+  "title": "Art. 7 — Ley 20.285, Título III, Artículo 7°",
+  "theme": "Transparency Law",
+  "norm_type": [
+    "power"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: power",
+    "scope: regulatory"
+  ],
+  "content": "Artículo 7° - Información de Disponibilidad Permanente. Los órganos de la Administración del Estado señalados en el artículo 2°, deberán mantener a disposición permanente del público, a través de sus sitios electrónicos, los siguientes antecedentes actualizados, al menos, una vez al mes: a) Estructura Orgánica; b) Facultades y Atribuciones; c) Marco Normativo; d) Personal y Remuneraciones; e) Contrataciones; f) Transferencias de Fondos Públicos; g) Actos y Resoluciones que tengan efectos sobre terceros; h) Trámites y Requisitos; i) Programas de Subsidios y Beneficios; j) Mecanismos de Participación Ciudadana; k) Presupuesto; l) Auditorías; m) Entidades con Participación. Excepción: No se incluirán en estos antecedentes los datos sensibles, esto es, los datos personales que se refieren a las características físicas o morales de las personas o a hechos o circunstancias de su vida privada o intimidad, tales como los hábitos personales, el origen social, las ideologías y opiniones políticas, las creencias o convicciones religiosas, los estados de salud físicos o psíquicos y la vida sexual. Obligación de Publicación: La información anterior deberá incorporarse en los sitios electrónicos de los respectivos órganos.",
+  "text": "Artículo 7° - Información de Disponibilidad Permanente. Los órganos de la Administración del Estado señalados en el artículo 2°, deberán mantener a disposición permanente del público, a través de sus sitios electrónicos, los siguientes antecedentes actualizados, al menos, una vez al mes: a) Estructura Orgánica; b) Facultades y Atribuciones; c) Marco Normativo; d) Personal y Remuneraciones; e) Contrataciones; f) Transferencias de Fondos Públicos; g) Actos y Resoluciones que tengan efectos sobre terceros; h) Trámites y Requisitos; i) Programas de Subsidios y Beneficios; j) Mecanismos de Participación Ciudadana; k) Presupuesto; l) Auditorías; m) Entidades con Participación. Excepción: No se incluirán en estos antecedentes los datos sensibles, esto es, los datos personales que se refieren a las características físicas o morales de las personas o a hechos o circunstancias de su vida privada o intimidad, tales como los hábitos personales, el origen social, las ideologías y opiniones políticas, las creencias o convicciones religiosas, los estados de salud físicos o psíquicos y la vida sexual. Obligación de Publicación: La información anterior deberá incorporarse en los sitios electrónicos de los respectivos órganos.",
+  "source_file": "L20285_Transparencia.md",
+  "source_path": "CL/L20285_Transparencia.md",
+  "source_sha256": "4e6f01dfa2c767c6cece0780bac8ca2be4f16984ce054b69643f19bb4f1236e8",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "",
+  "eli_id": "CL.CHIPENCOD.T4.C3.Art.193",
+  "original_id": "CL.CHIPENCOD.T4.C3.Art.193",
+  "article_number": "193",
+  "framework_code": "CHIPENCOD",
+  "jurisdiction": "CL",
+  "title": "Art. 193 — Art. 193 Código Penal Chileno",
+  "theme": "document_falsification",
+  "norm_type": [
+    "penalty"
+  ],
+  "scope": [
+    "criminal"
+  ],
+  "direction": null,
+  "sanctions": [
+    "criminal_liability"
+  ],
+  "tags": [
+    "norm_type: penalty",
+    "scope: criminal",
+    "sanctions: criminal_liability"
+  ],
+  "content": "Art. 193. Será castigado con presidio menor en su grado máximo a presidio mayor en su grado mínimo el empleado público que, abusando de su oficio, cometiere falsedad: 1.° Contrahaciendo o fingiendo letra, firma o rúbrica. 2.° Suponiendo en un acto la intervención de personas que no la han tenido. 3.° Atribuyendo a los que han intervenido en él declaraciones o manifestaciones diferentes de las que hubieren hecho. 4.° Faltando a la verdad en la narración de hechos sustanciales. 5.° Alterando las fechas verdaderas. 6.° Haciendo en documento verdadero cualquiera alteración o intercalación que varíe su sentido. 7.° Dando copia en forma fehaciente de un documento supuesto, o manifestando en ella cosa contraria o diferente de la que contenga el verdadero original. 8.° Ocultando en perjuicio del Estado o de un particular cualquier documento oficial.",
+  "text": "Art. 193. Será castigado con presidio menor en su grado máximo a presidio mayor en su grado mínimo el empleado público que, abusando de su oficio, cometiere falsedad: 1.° Contrahaciendo o fingiendo letra, firma o rúbrica. 2.° Suponiendo en un acto la intervención de personas que no la han tenido. 3.° Atribuyendo a los que han intervenido en él declaraciones o manifestaciones diferentes de las que hubieren hecho. 4.° Faltando a la verdad en la narración de hechos sustanciales. 5.° Alterando las fechas verdaderas. 6.° Haciendo en documento verdadero cualquiera alteración o intercalación que varíe su sentido. 7.° Dando copia en forma fehaciente de un documento supuesto, o manifestando en ella cosa contraria o diferente de la que contenga el verdadero original. 8.° Ocultando en perjuicio del Estado o de un particular cualquier documento oficial.",
+  "source_file": "CHIPENCOD_CP.md",
+  "source_path": "CL/CHIPENCOD_CP.md",
+  "source_sha256": "5e189a4a8d31010c3c09610bd439368e1b5d120d4b8a6cae7f13fa19d18cfb9f",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

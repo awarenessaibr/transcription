@@ -1,0 +1,38 @@
+{
+  "id": "",
+  "eli_id": "BR.D11129.T2.Art.17",
+  "original_id": "BR.D11129.T2.Art.17",
+  "article_number": "17",
+  "framework_code": "D11129",
+  "jurisdiction": "BR",
+  "title": "Art. 17 — Decreto nº 11.129/2022, Capítulo II, Seção II, Art. 17 – Competências da Controladoria-Geral da União",
+  "theme": "Competências da Controladoria-Geral da União",
+  "norm_type": [
+    "penalty"
+  ],
+  "scope": [
+    "criminal"
+  ],
+  "direction": null,
+  "sanctions": [
+    "criminal_liability"
+  ],
+  "tags": [
+    "norm_type: penalty",
+    "scope: criminal",
+    "sanctions: criminal_liability"
+  ],
+  "content": "Art. 17. A Controladoria-Geral da União possui, no âmbito do Poder Executivo federal, competência: \n    I - concorrente para instaurar e julgar PAR; e \n    II - exclusiva para avocar os processos instaurados para exame de sua regularidade ou para lhes corrigir o andamento, inclusive promovendo a aplicação da penalidade administrativa cabível.\n\n§ 1º A Controladoria-Geral da União poderá exercer, a qualquer tempo, a competência prevista no caput, se presentes quaisquer das seguintes circunstâncias: \n    I - caracterização de omissão da autoridade originariamente competente; \n    II - inexistência de condições objetivas para sua realização no órgão ou na entidade de origem; \n    III - complexidade, repercussão e relevância da matéria; \n    IV - valor dos contratos mantidos pela pessoa jurídica com o órgão ou com a entidade atingida; ou \n    V - apuração que envolva atos e fatos relacionados com mais de um órgão ou entidade da administração pública federal.\n\n§ 2º Ficam os órgãos e as entidades da administração pública obrigados a encaminhar à Controladoria-Geral da União todos os documentos e informações que lhes forem solicitados, incluídos os autos originais dos processos que eventualmente estejam em curso.",
+  "text": "Art. 17. A Controladoria-Geral da União possui, no âmbito do Poder Executivo federal, competência: \n    I - concorrente para instaurar e julgar PAR; e \n    II - exclusiva para avocar os processos instaurados para exame de sua regularidade ou para lhes corrigir o andamento, inclusive promovendo a aplicação da penalidade administrativa cabível.\n\n§ 1º A Controladoria-Geral da União poderá exercer, a qualquer tempo, a competência prevista no caput, se presentes quaisquer das seguintes circunstâncias: \n    I - caracterização de omissão da autoridade originariamente competente; \n    II - inexistência de condições objetivas para sua realização no órgão ou na entidade de origem; \n    III - complexidade, repercussão e relevância da matéria; \n    IV - valor dos contratos mantidos pela pessoa jurídica com o órgão ou com a entidade atingida; ou \n    V - apuração que envolva atos e fatos relacionados com mais de um órgão ou entidade da administração pública federal.\n\n§ 2º Ficam os órgãos e as entidades da administração pública obrigados a encaminhar à Controladoria-Geral da União todos os documentos e informações que lhes forem solicitados, incluídos os autos originais dos processos que eventualmente estejam em curso.",
+  "source_file": "D11129_PNDH3.md",
+  "source_path": "BR/D11129_PNDH3.md",
+  "source_sha256": "48b9ca22b02bc3545313ec26f0cb92326b79c3d3cbd1e6d7097acb8edd1de61d",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

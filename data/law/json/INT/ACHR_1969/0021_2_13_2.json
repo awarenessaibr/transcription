@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.ACHR.T1.C2.S13.P2.Art.2.13.2",
+  "original_id": "INT.ACHR.T1.C2.S13.P2.Art.2.13.2",
+  "article_number": "2.13.2",
+  "framework_code": "ACHR",
+  "jurisdiction": "INT",
+  "title": "Art. 2.13.2 — American Convention on Human Rights, Part I, Chapter II, Article 13, Paragraph 2",
+  "theme": "Human Rights",
+  "norm_type": [
+    "prohibition"
+  ],
+  "scope": [
+    "constitutional"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: prohibition",
+    "scope: constitutional"
+  ],
+  "content": "The exercise of the right provided for in the foregoing paragraph shall not be subject to prior censorship but shall be subject to subsequent imposition of liability, which shall be expressly established by law to the extent necessary to ensure: a. respect for the rights or reputations of others; or b. the protection of national security, public order, or public health or morals.",
+  "text": "The exercise of the right provided for in the foregoing paragraph shall not be subject to prior censorship but shall be subject to subsequent imposition of liability, which shall be expressly established by law to the extent necessary to ensure: a. respect for the rights or reputations of others; or b. the protection of national security, public order, or public health or morals.",
+  "source_file": "ACHR_1969.md",
+  "source_path": "INT/EN/ACHR_1969.md",
+  "source_sha256": "0208ba5cf43eda94f0f2a9e75d128b3c2791447452fe601107160e425dbc41c1",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

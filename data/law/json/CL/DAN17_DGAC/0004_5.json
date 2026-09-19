@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "CL.DAN17.Art.5",
+  "original_id": "CL.DAN17.Art.5",
+  "article_number": "5",
+  "framework_code": "DAN17",
+  "jurisdiction": "CL",
+  "title": "Art. 5 — DAN 17.02, Art. 5 – Plazo de Tramitación de la Autorización Solicitada",
+  "theme": "Plazo de Tramitación de la Autorización Solicitada",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: regulatory"
+  ],
+  "content": "- **Plazo de respuesta:** Veinte días hábiles\n- Este período puede variar, debido a los tiempos de recepción en registratura de la Unidad y despacho de la documentación\n\n#### Proceso de Revisión Documental\n\n- Si al momento de la revisión documental se detecte alguna documentación faltante o que no corresponda\n- El encargado del proceso tomará contacto con el usuario o empresa solicitante\n- Brindando un tiempo máximo de 5 días hábiles para dar solución al requerimiento normativo\n- Esto dará inicio a un nuevo proceso de revisión documental\n\n#### Caso de No Cumplimiento\n\n- En caso que el usuario o empresa no de solución al requerimiento solicitado por el encargado del proceso respectivo\n- Este quedará nulo\n- La documentación deberá ser retirada en un plazo no superior a 5 días",
+  "text": "- **Plazo de respuesta:** Veinte días hábiles\n- Este período puede variar, debido a los tiempos de recepción en registratura de la Unidad y despacho de la documentación\n\n#### Proceso de Revisión Documental\n\n- Si al momento de la revisión documental se detecte alguna documentación faltante o que no corresponda\n- El encargado del proceso tomará contacto con el usuario o empresa solicitante\n- Brindando un tiempo máximo de 5 días hábiles para dar solución al requerimiento normativo\n- Esto dará inicio a un nuevo proceso de revisión documental\n\n#### Caso de No Cumplimiento\n\n- En caso que el usuario o empresa no de solución al requerimiento solicitado por el encargado del proceso respectivo\n- Este quedará nulo\n- La documentación deberá ser retirada en un plazo no superior a 5 días",
+  "source_file": "DAN17_DGAC.md",
+  "source_path": "CL/DAN17_DGAC.md",
+  "source_sha256": "f8138d84ccab28eebf3b4e201feda650cd928b30ad3bca0f3124f126870ffb97",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.ABEAR_RIC.Art.9",
+  "original_id": "BR.ABEAR_RIC.Art.9",
+  "article_number": "9",
+  "framework_code": "ABEAR_RIC",
+  "jurisdiction": "BR",
+  "title": "Art. 9 — Quórum do Comitê de Compliance",
+  "theme": "procedural",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: administrative"
+  ],
+  "content": "O Comitê funcionará com a assistência de pelo menos dois terços de seus Membros. Para todos os fins, os Membros do Comitê que estiverem conectados simultaneamente, por telefone ou videoconferência, serão considerados presentes à reunião.",
+  "text": "O Comitê funcionará com a assistência de pelo menos dois terços de seus Membros. Para todos os fins, os Membros do Comitê que estiverem conectados simultaneamente, por telefone ou videoconferência, serão considerados presentes à reunião.",
+  "source_file": "ABEAR_RegimentoComiteCompliance.md",
+  "source_path": "BR/ABEAR_RegimentoComiteCompliance.md",
+  "source_sha256": "8a0cb03f43029d84fcc1496edcc4de780d51d4127d11134e4e4e57d10c7d2327",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

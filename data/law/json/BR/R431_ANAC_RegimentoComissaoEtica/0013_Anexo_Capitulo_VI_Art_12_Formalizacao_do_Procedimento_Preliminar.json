@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.R431.Anexo.C6.Art.12",
+  "original_id": "BR.R431.Anexo.C6.Art.12",
+  "article_number": "Anexo, Capítulo VI, Art. 12 — Formalização do Procedimento Preliminar",
+  "framework_code": "R431",
+  "jurisdiction": "BR",
+  "title": "Anexo, Capítulo VI, Art. 12 — Formalização do Procedimento Preliminar",
+  "theme": "procedural",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: administrative"
+  ],
+  "content": "A apuração de infração ética será formalizada por Procedimento Preliminar, que deverá observar as regras de autuação, compreendendo numeração, rubrica da paginação, juntada de documentos em ordem cronológica e demais atos de expediente administrativo.",
+  "text": "A apuração de infração ética será formalizada por Procedimento Preliminar, que deverá observar as regras de autuação, compreendendo numeração, rubrica da paginação, juntada de documentos em ordem cronológica e demais atos de expediente administrativo.",
+  "source_file": "R431_ANAC_RegimentoComissaoEtica.md",
+  "source_path": "BR/R431_ANAC_RegimentoComissaoEtica.md",
+  "source_sha256": "b0f6744091b2a507cb9233fa32250e41113bbad0666586bb6ae0d29bf0365d01",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

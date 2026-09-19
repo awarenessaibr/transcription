@@ -1,0 +1,366 @@
+{
+  "source_file": "DGAC_IVAAF.md",
+  "source_path": "CL/DGAC_IVAAF.md",
+  "jurisdiction": "CL",
+  "format": "structured_heading",
+  "metadata": {
+    "Source": "https://www.dgac.gob.cl/dpa/ivaaf/",
+    "Fetched": "2026-04-27",
+    "Sha256": "5d59df03a4feae6eca683cb4c31a903dd6b81d5ad90f90d0588e8636bc5ea61d",
+    "Articles": "1, 10, 2, 3, 4, 5, 6, 7, 8, 9",
+    "Notes": "✅ regulatory — DGAC IVAAF Víctimas de Accidentes de Aviación"
+  },
+  "article_count": 10,
+  "payloads": [
+    {
+      "id": "",
+      "eli_id": "CL.DGAC_IVAAF.C1.S1.Art.1",
+      "original_id": "CL.DGAC_IVAAF.C1.S1.Art.1",
+      "article_number": "1",
+      "framework_code": "DGAC_IVAAF",
+      "jurisdiction": "CL",
+      "title": "Art. 1 — DGAC IVAAF, Capítulo I, Sección I, Art. 1",
+      "theme": "Objetivo",
+      "norm_type": [
+        "power"
+      ],
+      "scope": [
+        "regulatory"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: power",
+        "scope: regulatory"
+      ],
+      "content": "Ante la ocurrencia de un suceso de aviación donde se registren heridos graves y/o fallecidos, la oficina de Información a Víctimas de Accidentes de Aviación y sus Familiares (IVAAF) tiene como objetivo:\n- Informar a las víctimas y familiares sobre la investigación que el Departamento de Prevención de Accidentes está realizando\n- Cumplir con el proceso legal asociado\n- Servir como canal de comunicación para que tanto las víctimas como sus familiares puedan realizar las consultas necesarias para despejar dudas durante el proceso investigativo\n\nNota importante: Brindar asistencia profesional, judicial, económica o psicológica no es del ámbito de competencia de esta DGAC.",
+      "text": "Ante la ocurrencia de un suceso de aviación donde se registren heridos graves y/o fallecidos, la oficina de Información a Víctimas de Accidentes de Aviación y sus Familiares (IVAAF) tiene como objetivo:\n- Informar a las víctimas y familiares sobre la investigación que el Departamento de Prevención de Accidentes está realizando\n- Cumplir con el proceso legal asociado\n- Servir como canal de comunicación para que tanto las víctimas como sus familiares puedan realizar las consultas necesarias para despejar dudas durante el proceso investigativo\n\nNota importante: Brindar asistencia profesional, judicial, económica o psicológica no es del ámbito de competencia de esta DGAC.",
+      "source_file": "DGAC_IVAAF.md",
+      "source_path": "CL/DGAC_IVAAF.md",
+      "source_sha256": "6b7af0c6d3884c049a449d0a7c0acd408a348f52051bd7bdb2b901de324720a0",
+      "language": "es",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "CL.DGAC_IVAAF.C1.S2.Art.2",
+      "original_id": "CL.DGAC_IVAAF.C1.S2.Art.2",
+      "article_number": "2",
+      "framework_code": "DGAC_IVAAF",
+      "jurisdiction": "CL",
+      "title": "Art. 2 — DGAC IVAAF, Capítulo I, Sección II, Art. 2",
+      "theme": "Departamento de Investigación",
+      "norm_type": [
+        "duty"
+      ],
+      "scope": [
+        "regulatory"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: duty",
+        "scope: regulatory"
+      ],
+      "content": "El Departamento de Investigación de Accidentes (DPA) es el organismo oficial encargado de:\n- Realizar la investigación de los accidentes e incidentes de aviación civil que se produzcan en territorio nacional\n- Su fin último es la prevención de futuros accidentes e incidentes, sin determinar culpas ni responsabilidades",
+      "text": "El Departamento de Investigación de Accidentes (DPA) es el organismo oficial encargado de:\n- Realizar la investigación de los accidentes e incidentes de aviación civil que se produzcan en territorio nacional\n- Su fin último es la prevención de futuros accidentes e incidentes, sin determinar culpas ni responsabilidades",
+      "source_file": "DGAC_IVAAF.md",
+      "source_path": "CL/DGAC_IVAAF.md",
+      "source_sha256": "6b7af0c6d3884c049a449d0a7c0acd408a348f52051bd7bdb2b901de324720a0",
+      "language": "pt",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "CL.DGAC_IVAAF.C1.S3.Art.3",
+      "original_id": "CL.DGAC_IVAAF.C1.S3.Art.3",
+      "article_number": "3",
+      "framework_code": "DGAC_IVAAF",
+      "jurisdiction": "CL",
+      "title": "Art. 3 — DGAC IVAAF, Capítulo I, Sección III, Art. 3",
+      "theme": "Resultados de la Investigación",
+      "norm_type": [
+        "duty"
+      ],
+      "scope": [
+        "regulatory"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: duty",
+        "scope: regulatory"
+      ],
+      "content": "Los resultados de la investigación técnica que realiza el DPA se plasman en:\n- Un informe público que analiza los hechos\n- Emite conclusiones y recomendaciones en materia de seguridad",
+      "text": "Los resultados de la investigación técnica que realiza el DPA se plasman en:\n- Un informe público que analiza los hechos\n- Emite conclusiones y recomendaciones en materia de seguridad",
+      "source_file": "DGAC_IVAAF.md",
+      "source_path": "CL/DGAC_IVAAF.md",
+      "source_sha256": "6b7af0c6d3884c049a449d0a7c0acd408a348f52051bd7bdb2b901de324720a0",
+      "language": "pt",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "CL.DGAC_IVAAF.C1.S4.Art.4",
+      "original_id": "CL.DGAC_IVAAF.C1.S4.Art.4",
+      "article_number": "4",
+      "framework_code": "DGAC_IVAAF",
+      "jurisdiction": "CL",
+      "title": "Art. 4 — DGAC IVAAF, Capítulo I, Sección IV, Art. 4",
+      "theme": "Información a Víctimas",
+      "norm_type": [
+        "duty"
+      ],
+      "scope": [
+        "regulatory"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: duty",
+        "scope: regulatory"
+      ],
+      "content": "- En las 48 horas posteriores al accidente y a lo largo de la investigación técnica\n- Las víctimas y familiares recibirán información actual sobre dicha investigación antes de hacerse pública\n- Siempre y cuando el DPA establezca que no se perjudican los objetivos de la investigación",
+      "text": "- En las 48 horas posteriores al accidente y a lo largo de la investigación técnica\n- Las víctimas y familiares recibirán información actual sobre dicha investigación antes de hacerse pública\n- Siempre y cuando el DPA establezca que no se perjudican los objetivos de la investigación",
+      "source_file": "DGAC_IVAAF.md",
+      "source_path": "CL/DGAC_IVAAF.md",
+      "source_sha256": "6b7af0c6d3884c049a449d0a7c0acd408a348f52051bd7bdb2b901de324720a0",
+      "language": "es",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "CL.DGAC_IVAAF.C1.S5.Art.5",
+      "original_id": "CL.DGAC_IVAAF.C1.S5.Art.5",
+      "article_number": "5",
+      "framework_code": "DGAC_IVAAF",
+      "jurisdiction": "CL",
+      "title": "Art. 5 — DGAC IVAAF, Capítulo I, Sección V, Art. 5",
+      "theme": "Duración",
+      "norm_type": [
+        "definition"
+      ],
+      "scope": [
+        "regulatory"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: definition",
+        "scope: regulatory"
+      ],
+      "content": "Debido a la complejidad de los hechos, información que se debe recopilar y la importancia de realizar un análisis exhaustivo para determinar la relevancia de la causa del accidente, es probable que las investigaciones de accidentes de Aviación tarden.",
+      "text": "Debido a la complejidad de los hechos, información que se debe recopilar y la importancia de realizar un análisis exhaustivo para determinar la relevancia de la causa del accidente, es probable que las investigaciones de accidentes de Aviación tarden.",
+      "source_file": "DGAC_IVAAF.md",
+      "source_path": "CL/DGAC_IVAAF.md",
+      "source_sha256": "6b7af0c6d3884c049a449d0a7c0acd408a348f52051bd7bdb2b901de324720a0",
+      "language": "es",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "CL.DGAC_IVAAF.C1.S6.Art.6",
+      "original_id": "CL.DGAC_IVAAF.C1.S6.Art.6",
+      "article_number": "6",
+      "framework_code": "DGAC_IVAAF",
+      "jurisdiction": "CL",
+      "title": "Art. 6 — DGAC IVAAF, Capítulo I, Sección VI, Art. 6",
+      "theme": "Tipos de Informes",
+      "norm_type": [
+        "power"
+      ],
+      "scope": [
+        "regulatory"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: power",
+        "scope: regulatory"
+      ],
+      "content": "#### Informe Preliminar\n- Proporciona una sinopsis de los hechos e información recopilada durante la fase in situ de la investigación\n- Suele estar disponible en unas pocas semanas después del accidente\n\n#### Expediente de Accidentes\n- Incluye información relevante recopilada durante la investigación\n- Considerada para la elaboración de informes o escritos y para determinar la causa probable\n- Algunos elementos del expediente pueden incluir:\n  - Fotografías del accidente\n  - Registros de mantenimiento\n  - Testigos y declaraciones\n  - Entre otros\n- Se publica cuando la mayoría de la información fáctica relevante se recopila para la investigación o en su conclusión\n\n#### Informe Final\n- Proporciona un resumen de los hechos relevantes, información, análisis, hallazgos, causa probable y recomendaciones de seguridad emitidas o reiteradas como resultado de la investigación\n- O un Informe de Accidente que consiste de una breve narrativa del accidente, causa probable y seguridad, recomendaciones\n- Los escritos normalmente se limitan a hechos, información pero puede contener análisis",
+      "text": "#### Informe Preliminar\n- Proporciona una sinopsis de los hechos e información recopilada durante la fase in situ de la investigación\n- Suele estar disponible en unas pocas semanas después del accidente\n\n#### Expediente de Accidentes\n- Incluye información relevante recopilada durante la investigación\n- Considerada para la elaboración de informes o escritos y para determinar la causa probable\n- Algunos elementos del expediente pueden incluir:\n  - Fotografías del accidente\n  - Registros de mantenimiento\n  - Testigos y declaraciones\n  - Entre otros\n- Se publica cuando la mayoría de la información fáctica relevante se recopila para la investigación o en su conclusión\n\n#### Informe Final\n- Proporciona un resumen de los hechos relevantes, información, análisis, hallazgos, causa probable y recomendaciones de seguridad emitidas o reiteradas como resultado de la investigación\n- O un Informe de Accidente que consiste de una breve narrativa del accidente, causa probable y seguridad, recomendaciones\n- Los escritos normalmente se limitan a hechos, información pero puede contener análisis",
+      "source_file": "DGAC_IVAAF.md",
+      "source_path": "CL/DGAC_IVAAF.md",
+      "source_sha256": "6b7af0c6d3884c049a449d0a7c0acd408a348f52051bd7bdb2b901de324720a0",
+      "language": "es",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "CL.DGAC_IVAAF.C1.S7.Art.7",
+      "original_id": "CL.DGAC_IVAAF.C1.S7.Art.7",
+      "article_number": "7",
+      "framework_code": "DGAC_IVAAF",
+      "jurisdiction": "CL",
+      "title": "Art. 7 — DGAC IVAAF, Capítulo I, Sección VII, Art. 7",
+      "theme": "Publicación",
+      "norm_type": [
+        "duty"
+      ],
+      "scope": [
+        "administrative"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: duty",
+        "scope: administrative"
+      ],
+      "content": "Durante la investigación, en el sitio web de la DGAC: www.dgac.gob.cl/Investigación de Accidentes se publican los siguientes informes:\n- Cada 12 meses se publicará un informe interino de los avances del proceso de investigación\n- El informe final reemplaza al informe preliminar y estará disponible en el portal Institucional una vez finalizada todos los actos administrativos",
+      "text": "Durante la investigación, en el sitio web de la DGAC: www.dgac.gob.cl/Investigación de Accidentes se publican los siguientes informes:\n- Cada 12 meses se publicará un informe interino de los avances del proceso de investigación\n- El informe final reemplaza al informe preliminar y estará disponible en el portal Institucional una vez finalizada todos los actos administrativos",
+      "source_file": "DGAC_IVAAF.md",
+      "source_path": "CL/DGAC_IVAAF.md",
+      "source_sha256": "6b7af0c6d3884c049a449d0a7c0acd408a348f52051bd7bdb2b901de324720a0",
+      "language": "es",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "CL.DGAC_IVAAF.C1.S8.Art.8",
+      "original_id": "CL.DGAC_IVAAF.C1.S8.Art.8",
+      "article_number": "8",
+      "framework_code": "DGAC_IVAAF",
+      "jurisdiction": "CL",
+      "title": "Art. 8 — DGAC IVAAF, Capítulo I, Sección VIII, Art. 8",
+      "theme": "Acceso",
+      "norm_type": [
+        "right"
+      ],
+      "scope": [
+        "regulatory"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: right",
+        "scope: regulatory"
+      ],
+      "content": "Las víctimas y familiares pueden acceder a la investigación desde su inicio.",
+      "text": "Las víctimas y familiares pueden acceder a la investigación desde su inicio.",
+      "source_file": "DGAC_IVAAF.md",
+      "source_path": "CL/DGAC_IVAAF.md",
+      "source_sha256": "6b7af0c6d3884c049a449d0a7c0acd408a348f52051bd7bdb2b901de324720a0",
+      "language": "unknown",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "CL.DGAC_IVAAF.C1.S9.Art.9",
+      "original_id": "CL.DGAC_IVAAF.C1.S9.Art.9",
+      "article_number": "9",
+      "framework_code": "DGAC_IVAAF",
+      "jurisdiction": "CL",
+      "title": "Art. 9 — DGAC IVAAF, Capítulo I, Sección IX, Art. 9",
+      "theme": "Contacto",
+      "norm_type": [
+        "duty"
+      ],
+      "scope": [
+        "regulatory"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: duty",
+        "scope: regulatory"
+      ],
+      "content": "IVAAF\nDepartamento de Prevención de Accidentes\n- Teléfono: 56224392766\n- Teléfono: 56224392148\n- Email: IVAAF@DGAC.GOB.CL\n\nOficina de Información a Víctimas de Accidentes de Aviación y Familiares",
+      "text": "IVAAF\nDepartamento de Prevención de Accidentes\n- Teléfono: 56224392766\n- Teléfono: 56224392148\n- Email: IVAAF@DGAC.GOB.CL\n\nOficina de Información a Víctimas de Accidentes de Aviación y Familiares",
+      "source_file": "DGAC_IVAAF.md",
+      "source_path": "CL/DGAC_IVAAF.md",
+      "source_sha256": "6b7af0c6d3884c049a449d0a7c0acd408a348f52051bd7bdb2b901de324720a0",
+      "language": "unknown",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "CL.DGAC_IVAAF.C1.S10.Art.10",
+      "original_id": "CL.DGAC_IVAAF.C1.S10.Art.10",
+      "article_number": "10",
+      "framework_code": "DGAC_IVAAF",
+      "jurisdiction": "CL",
+      "title": "Art. 10 — DGAC IVAAF, Capítulo I, Sección X, Art. 10",
+      "theme": "Bibliografía",
+      "norm_type": [
+        "duty"
+      ],
+      "scope": [
+        "regulatory"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: duty",
+        "scope: regulatory"
+      ],
+      "content": "- Manual de asistencia a las víctimas de accidentes de aviación y a sus familiares (Doc.OACI 9973)\n- Política de la OACI sobre asistencia a las víctimas de accidentes de aviación y a sus familiares (Doc. OACI 9998)\n- Anexo 9 OACI Facilitación\n- Anexo 13 OACI Investigación de accidentes e incidentes de aviación\n- DAR 13 DGAC Reglamento sobre Investigación de Accidentes e Incidentes de Aviación\n- NTSB - Family Assistance Operations: Planning and Policy",
+      "text": "- Manual de asistencia a las víctimas de accidentes de aviación y a sus familiares (Doc.OACI 9973)\n- Política de la OACI sobre asistencia a las víctimas de accidentes de aviación y a sus familiares (Doc. OACI 9998)\n- Anexo 9 OACI Facilitación\n- Anexo 13 OACI Investigación de accidentes e incidentes de aviación\n- DAR 13 DGAC Reglamento sobre Investigación de Accidentes e Incidentes de Aviación\n- NTSB - Family Assistance Operations: Planning and Policy",
+      "source_file": "DGAC_IVAAF.md",
+      "source_path": "CL/DGAC_IVAAF.md",
+      "source_sha256": "6b7af0c6d3884c049a449d0a7c0acd408a348f52051bd7bdb2b901de324720a0",
+      "language": "en",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    }
+  ]
+}

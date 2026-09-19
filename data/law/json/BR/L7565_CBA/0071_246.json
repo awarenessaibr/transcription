@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.CBA.T8.C1.Art.246",
+  "original_id": "BR.CBA.T8.C1.Art.246",
+  "article_number": "246",
+  "framework_code": "CBA",
+  "jurisdiction": "BR",
+  "title": "Art. 246 — CBA Title VIII, Chapter I, Article 246 – Carrier's Liability Limits",
+  "theme": "Liability and Exemptions",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "contractual"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: contractual"
+  ],
+  "content": "Art. 246. A responsabilidade do transportador (artigos 123, 124 e 222, Parágrafo único), por danos ocorridos durante a execução do contrato de transporte (artigos 233, 234, § 1°, 245), está sujeita aos limites estabelecidos neste Título (artigos 257, 260, 262, 269 e 277).",
+  "text": "Art. 246. A responsabilidade do transportador (artigos 123, 124 e 222, Parágrafo único), por danos ocorridos durante a execução do contrato de transporte (artigos 233, 234, § 1°, 245), está sujeita aos limites estabelecidos neste Título (artigos 257, 260, 262, 269 e 277).",
+  "source_file": "L7565_CBA.md",
+  "source_path": "BR/L7565_CBA.md",
+  "source_sha256": "4ed35a5b7f1951bbcaed63377ffdb3e8cb1ff9f2f9f8a735e844b46cb3ce0931",
+  "language": "unknown",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

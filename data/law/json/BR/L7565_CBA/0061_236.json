@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.CBA.T7.C1.Art.236",
+  "original_id": "BR.CBA.T7.C1.Art.236",
+  "article_number": "236",
+  "framework_code": "CBA",
+  "jurisdiction": "BR",
+  "title": "Art. 236 — CBA Title VII, Chapter I, Article 236 – Air Waybill Copies",
+  "theme": "Liability and Exemptions",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: regulatory"
+  ],
+  "content": "Art. 236. O conhecimento aéreo será feito em 3 (três) vias originais e entregue pelo expedidor com a carga. § 1° A 1ª via, com a indicação \"do transportador\", será assinada pelo expedidor. § 2º A 2ª via, com a indicação \"do destinatário\", será assinada pelo expedidor e pelo transportador e acompanhará a carga. § 3° A 3ª via será assinada pelo transportador e por ele entregue ao expedidor, após aceita a carga.",
+  "text": "Art. 236. O conhecimento aéreo será feito em 3 (três) vias originais e entregue pelo expedidor com a carga. § 1° A 1ª via, com a indicação \"do transportador\", será assinada pelo expedidor. § 2º A 2ª via, com a indicação \"do destinatário\", será assinada pelo expedidor e pelo transportador e acompanhará a carga. § 3° A 3ª via será assinada pelo transportador e por ele entregue ao expedidor, após aceita a carga.",
+  "source_file": "L7565_CBA.md",
+  "source_path": "BR/L7565_CBA.md",
+  "source_sha256": "4ed35a5b7f1951bbcaed63377ffdb3e8cb1ff9f2f9f8a735e844b46cb3ce0931",
+  "language": "unknown",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

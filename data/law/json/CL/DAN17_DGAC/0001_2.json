@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "CL.DAN17.Art.2",
+  "original_id": "CL.DAN17.Art.2",
+  "article_number": "2",
+  "framework_code": "DAN17",
+  "jurisdiction": "CL",
+  "title": "Art. 2 — DAN 17.02, Art. 2 – Requisitos",
+  "theme": "Requisitos",
+  "norm_type": [
+    "definition"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: definition",
+    "scope: regulatory"
+  ],
+  "content": "#### Guías de Autorización\n\n- **GUÍA DE AUTORIZACIÓN EMPRESAS RR. HH- RR.TT – RR.TT.RX Y ASESORAS**\n- **GUÍA DE AUTORIZACIÓN GUARDIA DE SEGURIDAD (GGSS)**\n- **GUÍA DE AUTORIZACIÓN AGENTE DE SEGURIDAD AEROPORTARIA (AS)**\n- **GUÍA DE AUTORIZACIÓN ASESOR**\n- **GUÍA DE AUTORIZACIÓN JEFE DE SEGURIDAD DE SEGURIDAD (JS)**\n- **GUÍA DE AUTORIZACIÓN COORDINADOR DE SEGURIDAD (CS)**\n- **GUÍA DE AUTORIZACIÓN ENCARGADO DE SEGURIDAD (ES)**\n- **GUÍA DE AUTORIZACIÓN VIGILANTE DE SEGURIDAD (VVPP)**\n- **GUÍA DE AUTORIZACIÓN OPERADOR DE CCTV (CCTV)**\n- **GUÍA DE AUTORIZACIÓN OPERADOR RAYOS X (ORX)**\n- **GUÍA DE AUTORIZACIÓN SUPERVISOR DE SEGURIDAD (SS)**\n- **GUÍA DE AUTORIZACIÓN TÉCNICO RAYOS X (TRX)**",
+  "text": "#### Guías de Autorización\n\n- **GUÍA DE AUTORIZACIÓN EMPRESAS RR. HH- RR.TT – RR.TT.RX Y ASESORAS**\n- **GUÍA DE AUTORIZACIÓN GUARDIA DE SEGURIDAD (GGSS)**\n- **GUÍA DE AUTORIZACIÓN AGENTE DE SEGURIDAD AEROPORTARIA (AS)**\n- **GUÍA DE AUTORIZACIÓN ASESOR**\n- **GUÍA DE AUTORIZACIÓN JEFE DE SEGURIDAD DE SEGURIDAD (JS)**\n- **GUÍA DE AUTORIZACIÓN COORDINADOR DE SEGURIDAD (CS)**\n- **GUÍA DE AUTORIZACIÓN ENCARGADO DE SEGURIDAD (ES)**\n- **GUÍA DE AUTORIZACIÓN VIGILANTE DE SEGURIDAD (VVPP)**\n- **GUÍA DE AUTORIZACIÓN OPERADOR DE CCTV (CCTV)**\n- **GUÍA DE AUTORIZACIÓN OPERADOR RAYOS X (ORX)**\n- **GUÍA DE AUTORIZACIÓN SUPERVISOR DE SEGURIDAD (SS)**\n- **GUÍA DE AUTORIZACIÓN TÉCNICO RAYOS X (TRX)**",
+  "source_file": "DAN17_DGAC.md",
+  "source_path": "CL/DAN17_DGAC.md",
+  "source_sha256": "f8138d84ccab28eebf3b4e201feda650cd928b30ad3bca0f3124f126870ffb97",
+  "language": "unknown",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

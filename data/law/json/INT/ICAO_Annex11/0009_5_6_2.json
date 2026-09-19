@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.AN11.C5.S6.P2.Art.5.6.2",
+  "original_id": "INT.AN11.C5.S6.P2.Art.5.6.2",
+  "article_number": "5.6.2",
+  "framework_code": "AN11",
+  "jurisdiction": "INT",
+  "title": "Art. 5.6.2 — Annex 11 - Air Traffic Services, Chapter 5 - Alerting Service, 5.6 Information to aircraft operating in the vicinity of an aircraft in a state of emergency, 5.6.2",
+  "theme": "Annex 11",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: regulatory"
+  ],
+  "content": "When an air traffic services unit knows or believes that an aircraft is being subjected to unlawful interference, no reference shall be made in ATS air- ground communications to the nature of the emergency unless it has first been referred to in communications from the aircraft involved and it is certain that such reference will not aggravate the situation.",
+  "text": "When an air traffic services unit knows or believes that an aircraft is being subjected to unlawful interference, no reference shall be made in ATS air- ground communications to the nature of the emergency unless it has first been referred to in communications from the aircraft involved and it is certain that such reference will not aggravate the situation.",
+  "source_file": "ICAO_Annex11.md",
+  "source_path": "INT/EN/ICAO_Annex11.md",
+  "source_sha256": "b244ad52167fd1b657460c23157eb06b9a864895cea71a11865de1857e88f4b0",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

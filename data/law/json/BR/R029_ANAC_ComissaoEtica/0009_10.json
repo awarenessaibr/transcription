@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.R029.Art.10",
+  "original_id": "BR.R029.Art.10",
+  "article_number": "10",
+  "framework_code": "R029",
+  "jurisdiction": "BR",
+  "title": "Art. 10 — Vigência",
+  "theme": "procedural",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: administrative"
+  ],
+  "content": "Esta Resolução entra em vigor na data de sua publicação.",
+  "text": "Esta Resolução entra em vigor na data de sua publicação.",
+  "source_file": "R029_ANAC_ComissaoEtica.md",
+  "source_path": "BR/R029_ANAC_ComissaoEtica.md",
+  "source_sha256": "c930cf4accddb17c5663bb6a154b257e680f6c1da79191f7cc005f3e41d37d2b",
+  "language": "unknown",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

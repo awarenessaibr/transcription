@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.DOC4444.C15.S1.P3.Art.15.1.3.2",
+  "original_id": "INT.DOC4444.C15.S1.P3.Art.15.1.3.2",
+  "article_number": "15.1.3.2",
+  "framework_code": "DOC4444",
+  "jurisdiction": "INT",
+  "title": "Art. 15.1.3.2 — Procedures for Air Navigation Services - Air Traffic Management (Doc 4444), Chapter 15 - Procedures Related to Emergencies, Communication Failure and Contingencies, 15.1 Emergency Procedures, 15.1.3 Unlawful interference and aircraft bomb threat, 15.1.3.2",
+  "theme": "Doc 4444",
+  "norm_type": [
+    "definition"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: definition",
+    "scope: regulatory"
+  ],
+  "content": "Whenever unlawful interference with an aircraft is suspected, and where automatic distinct display of SSR Mode A Code 7500 and Code 7700 is not provided, the controller shall attempt to verify any suspicion by setting the SSR decoder to Mode A Code 7500 and thereafter to Code 7700.\n\nNote. An aircraft equipped with an SSR transponder is expected to operate the transponder on Mode A Code 7500 to indicate specifically that it is the subject of unlawful interference. The aircraft may operate the transponder on Mode A Code 7700, to indicate that it is threatened by grave and imminent danger and requires immediate assistance. An aircraft equipped with other surveillance system transmitters, including ADS- B and ADS- C, might send the emergency and/or urgency signal by all of the available means.",
+  "text": "Whenever unlawful interference with an aircraft is suspected, and where automatic distinct display of SSR Mode A Code 7500 and Code 7700 is not provided, the controller shall attempt to verify any suspicion by setting the SSR decoder to Mode A Code 7500 and thereafter to Code 7700.\n\nNote. An aircraft equipped with an SSR transponder is expected to operate the transponder on Mode A Code 7500 to indicate specifically that it is the subject of unlawful interference. The aircraft may operate the transponder on Mode A Code 7700, to indicate that it is threatened by grave and imminent danger and requires immediate assistance. An aircraft equipped with other surveillance system transmitters, including ADS- B and ADS- C, might send the emergency and/or urgency signal by all of the available means.",
+  "source_file": "ICAO_DOC4444.md",
+  "source_path": "INT/EN/ICAO_DOC4444.md",
+  "source_sha256": "16d26bd68117dd2796b1ae8fe6e31bc8fc5c9331f768c50991606c9e040d5d63",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

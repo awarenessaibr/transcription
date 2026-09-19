@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.D6029.Art.1",
+  "original_id": "BR.D6029.Art.1",
+  "article_number": "1",
+  "framework_code": "D6029",
+  "jurisdiction": "BR",
+  "title": "Art. 1 — Instituição do Sistema de Gestão da Ética",
+  "theme": "procedural",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: administrative"
+  ],
+  "content": "Fica instituído o Sistema de Gestão da Ética do Poder Executivo Federal com a finalidade de promover atividades que dispõem sobre a conduta ética no âmbito do Executivo Federal, competindo-lhe:\n\nI - integrar os órgãos, programas e ações relacionadas com a ética pública;\nII - contribuir para a implementação de políticas públicas tendo a transparência e o acesso à informação como instrumentos fundamentais para o exercício de gestão da ética pública;\nIII - promover, com apoio dos segmentos pertinentes, a compatibilização e interação de normas, procedimentos técnicos e de gestão relativos à ética pública;\nIV - articular ações com vistas a estabelecer e efetivar procedimentos de incentivo e incremento ao desempenho institucional na gestão da ética pública do Estado brasileiro.",
+  "text": "Fica instituído o Sistema de Gestão da Ética do Poder Executivo Federal com a finalidade de promover atividades que dispõem sobre a conduta ética no âmbito do Executivo Federal, competindo-lhe:\n\nI - integrar os órgãos, programas e ações relacionadas com a ética pública;\nII - contribuir para a implementação de políticas públicas tendo a transparência e o acesso à informação como instrumentos fundamentais para o exercício de gestão da ética pública;\nIII - promover, com apoio dos segmentos pertinentes, a compatibilização e interação de normas, procedimentos técnicos e de gestão relativos à ética pública;\nIV - articular ações com vistas a estabelecer e efetivar procedimentos de incentivo e incremento ao desempenho institucional na gestão da ética pública do Estado brasileiro.",
+  "source_file": "D6029_SistemaGestaoEtica.md",
+  "source_path": "BR/D6029_SistemaGestaoEtica.md",
+  "source_sha256": "f62beeb0752517bf76c5bd14032e02fbe351a37bb1cc1c9746a9324924b46141",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

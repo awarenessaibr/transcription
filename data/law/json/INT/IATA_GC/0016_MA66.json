@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.IATA_GC.Art.MA66",
+  "original_id": "INT.IATA_GC.Art.MA66",
+  "article_number": "MA66",
+  "framework_code": "IATA_GC",
+  "jurisdiction": "INT",
+  "title": "Art. MA66 — Montreal Agreement Special Provisions",
+  "theme": "Montreal Agreement Special Provisions",
+  "norm_type": [
+    "exemption"
+  ],
+  "scope": [
+    "contractual"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: exemption",
+    "scope: contractual"
+  ],
+  "content": "For Carriers who are Parties to Montreal Agreement:\n\nSpecial Agreement applicable to carriage to, from or with an agreed stopping place in the United States of America (see applicable US tariffs).\n\nSpecial Agreement\n\nCarrier shall avail itself of the limitation of liability provided in the Convention. However, in accordance with Article 22(1) of the Convention (name of issuing Carrier) and certain other Carriers agree that as to all international carriage by such Carriers to which the Convention applies and which according to the Contract of Carriage includes a point in the United States of America as a point of origin, a point of destination or agreed stopping place: (a) the Limit of liability for each passenger for death, wounding or other bodily injury shall be the sum of US- Dollar 75,000 inclusive of legal fees and costs except that, in the case of a claim brought in a State where provision is made for separate award of legal fees and costs, the limit shall be the sum of US Dollar 58,000 exclusive of legal fees and costs; (b) such Carriers shall not, with respect to any claim arising out of the death, wounding or other bodily injury of a passenger, avail themselves of any defence under Article 20(1) of the Convention. Nothing herein shall be deemed to affect the rights and liabilities of such Carriers with regard to any claim brought by, on behalf of, or in respect of, any person who has wilfully caused damage which resulted in death, wounding, or other bodily Injury of a passenger.\n\nThe names of Carriers party to the agreement referred to in this Paragraph are available at all ticket offices of such Carriers and may be examined on request. Each of such Carriers has entered into the said agreement solely on its own behalf and with respect to carriage performed by it and has not thereby imposed any liability an any other Carrier with respect to the portion of the carriage performed by such other Carrier or assumed any liability with respect to the portion of the carriage performed by such other Carrier.\n\n(If the Carrier is a part to other special contracts pursuant to Article 22(1) of the Convention, apart from the Montreal Agreement, the limitations of liability and related conditions provided for under such special contracts should be stated here.)",
+  "text": "For Carriers who are Parties to Montreal Agreement:\n\nSpecial Agreement applicable to carriage to, from or with an agreed stopping place in the United States of America (see applicable US tariffs).\n\nSpecial Agreement\n\nCarrier shall avail itself of the limitation of liability provided in the Convention. However, in accordance with Article 22(1) of the Convention (name of issuing Carrier) and certain other Carriers agree that as to all international carriage by such Carriers to which the Convention applies and which according to the Contract of Carriage includes a point in the United States of America as a point of origin, a point of destination or agreed stopping place: (a) the Limit of liability for each passenger for death, wounding or other bodily injury shall be the sum of US- Dollar 75,000 inclusive of legal fees and costs except that, in the case of a claim brought in a State where provision is made for separate award of legal fees and costs, the limit shall be the sum of US Dollar 58,000 exclusive of legal fees and costs; (b) such Carriers shall not, with respect to any claim arising out of the death, wounding or other bodily injury of a passenger, avail themselves of any defence under Article 20(1) of the Convention. Nothing herein shall be deemed to affect the rights and liabilities of such Carriers with regard to any claim brought by, on behalf of, or in respect of, any person who has wilfully caused damage which resulted in death, wounding, or other bodily Injury of a passenger.\n\nThe names of Carriers party to the agreement referred to in this Paragraph are available at all ticket offices of such Carriers and may be examined on request. Each of such Carriers has entered into the said agreement solely on its own behalf and with respect to carriage performed by it and has not thereby imposed any liability an any other Carrier with respect to the portion of the carriage performed by such other Carrier or assumed any liability with respect to the portion of the carriage performed by such other Carrier.\n\n(If the Carrier is a part to other special contracts pursuant to Article 22(1) of the Convention, apart from the Montreal Agreement, the limitations of liability and related conditions provided for under such special contracts should be stated here.)",
+  "source_file": "IATA_GC.md",
+  "source_path": "INT/EN/IATA_GC.md",
+  "source_sha256": "7d87bebffc10b58787bca82a7250149eadb6bdf9bd5e5daf9534c08f6d4587f5",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

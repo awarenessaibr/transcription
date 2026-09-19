@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.R431.Anexo.C7.Art.24",
+  "original_id": "BR.R431.Anexo.C7.Art.24",
+  "article_number": "Anexo, Capítulo VII, Art. 24 — Defesa prévia",
+  "framework_code": "R431",
+  "jurisdiction": "BR",
+  "title": "Anexo, Capítulo VII, Art. 24 — Defesa prévia",
+  "theme": "right",
+  "norm_type": [
+    "right"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: right",
+    "scope: administrative"
+  ],
+  "content": "Instaurado o Processo de Apuração Ética, a Comissão de Ética da ANAC notificará o investigado para, no prazo de 10 (dez) dias, apresentar defesa prévia, por escrito, listando eventuais testemunhas, até o número de 4 (quatro), e apresentando ou indicando as provas que pretende produzir.\n\nParágrafo único. O prazo previsto neste artigo poderá ser prorrogado por igual período, a juízo da Comissão de Ética da ANAC, mediante requerimento justificado do investigado.",
+  "text": "Instaurado o Processo de Apuração Ética, a Comissão de Ética da ANAC notificará o investigado para, no prazo de 10 (dez) dias, apresentar defesa prévia, por escrito, listando eventuais testemunhas, até o número de 4 (quatro), e apresentando ou indicando as provas que pretende produzir.\n\nParágrafo único. O prazo previsto neste artigo poderá ser prorrogado por igual período, a juízo da Comissão de Ética da ANAC, mediante requerimento justificado do investigado.",
+  "source_file": "R431_ANAC_RegimentoComissaoEtica.md",
+  "source_path": "BR/R431_ANAC_RegimentoComissaoEtica.md",
+  "source_sha256": "b0f6744091b2a507cb9233fa32250e41113bbad0666586bb6ae0d29bf0365d01",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

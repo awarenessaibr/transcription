@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.R523.Anexo.C2.Art.3",
+  "original_id": "BR.R523.Anexo.C2.Art.3",
+  "article_number": "Anexo, Capítulo II, Art. 3 — Presidência da Comissão",
+  "framework_code": "R523",
+  "jurisdiction": "BR",
+  "title": "Anexo, Capítulo II, Art. 3 — Presidência da Comissão",
+  "theme": "procedural",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: administrative"
+  ],
+  "content": "A Comissão será presidida por um de seus 3 (três) membros titulares.\n\n§ 1º O Presidente da Comissão de Ética será escolhido por seus membros e designado por ato do Diretor-Presidente para o mesmo período que durar o seu mandato na Comissão.\n\n§ 2º O Presidente da Comissão de Ética será substituído pelo membro mais antigo na Comissão, em caso de impedimento ou vacância.",
+  "text": "A Comissão será presidida por um de seus 3 (três) membros titulares.\n\n§ 1º O Presidente da Comissão de Ética será escolhido por seus membros e designado por ato do Diretor-Presidente para o mesmo período que durar o seu mandato na Comissão.\n\n§ 2º O Presidente da Comissão de Ética será substituído pelo membro mais antigo na Comissão, em caso de impedimento ou vacância.",
+  "source_file": "R523_ANAC_ComissaoEtica.md",
+  "source_path": "BR/R523_ANAC_ComissaoEtica.md",
+  "source_sha256": "15c993247f5e4416245b4a18a738c08123282afa020d2ce8105bf8378303bbb4",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

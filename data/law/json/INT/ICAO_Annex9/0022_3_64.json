@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.AN9.C3.S64.Art.3.64",
+  "original_id": "INT.AN9.C3.S64.Art.3.64",
+  "article_number": "3.64",
+  "framework_code": "AN9",
+  "jurisdiction": "INT",
+  "title": "Art. 3.64 — Annex 9 - Facilitation, Chapter 3 - Entry and Departure of Persons and Their Baggage, M. Identification and entry of crew and other aircraft operators' personnel, 3.64",
+  "theme": "Annex 9",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: regulatory"
+  ],
+  "content": "CMCs and crew identity cards shall be issued only after a background check has been carried out by or on behalf of the relevant public authority. In addition, adequate controls such as a certification of employment status of an applicant prior to issuance, controls on blank card stock, and accountability requirements for issuing personnel, shall be placed on the issuance of CMCs and crew identity cards.",
+  "text": "CMCs and crew identity cards shall be issued only after a background check has been carried out by or on behalf of the relevant public authority. In addition, adequate controls such as a certification of employment status of an applicant prior to issuance, controls on blank card stock, and accountability requirements for issuing personnel, shall be placed on the issuance of CMCs and crew identity cards.",
+  "source_file": "ICAO_Annex9.md",
+  "source_path": "INT/EN/ICAO_Annex9.md",
+  "source_sha256": "57c4f76b6dc9787cd7e0c02eba85ac7932117bbae67da26324bd413660d10af6",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

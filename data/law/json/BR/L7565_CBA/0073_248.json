@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.CBA.T8.C1.Art.248",
+  "original_id": "BR.CBA.T8.C1.Art.248",
+  "article_number": "248",
+  "framework_code": "CBA",
+  "jurisdiction": "BR",
+  "title": "Art. 248 — CBA Title VIII, Chapter I, Article 248 – Exceptions to Liability Limits",
+  "theme": "Liability and Exemptions",
+  "norm_type": [
+    "exemption"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: exemption",
+    "scope: regulatory"
+  ],
+  "content": "Art. 248. Os limites de indenização, previstos neste Capítulo, não se aplicam se for provado que o dano resultou de dolo ou culpa grave do transportador ou de seus prepostos. § 1° Para os efeitos deste artigo, ocorre o dolo ou culpa grave quando o transportador ou seus prepostos quiseram o resultado ou assumiram o risco de produzi-lo. § 2° O demandante deverá provar, no caso de dolo ou culpa grave dos prepostos, que estes atuavam no exercício de suas funções. § 3° A sentença, no Juízo Criminal, com trânsito em julgado, que haja decidido sobre a existência do ato doloso ou culposo e sua autoria, será prova suficiente.",
+  "text": "Art. 248. Os limites de indenização, previstos neste Capítulo, não se aplicam se for provado que o dano resultou de dolo ou culpa grave do transportador ou de seus prepostos. § 1° Para os efeitos deste artigo, ocorre o dolo ou culpa grave quando o transportador ou seus prepostos quiseram o resultado ou assumiram o risco de produzi-lo. § 2° O demandante deverá provar, no caso de dolo ou culpa grave dos prepostos, que estes atuavam no exercício de suas funções. § 3° A sentença, no Juízo Criminal, com trânsito em julgado, que haja decidido sobre a existência do ato doloso ou culposo e sua autoria, será prova suficiente.",
+  "source_file": "L7565_CBA.md",
+  "source_path": "BR/L7565_CBA.md",
+  "source_sha256": "4ed35a5b7f1951bbcaed63377ffdb3e8cb1ff9f2f9f8a735e844b46cb3ce0931",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

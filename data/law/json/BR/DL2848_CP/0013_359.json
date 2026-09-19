@@ -1,0 +1,38 @@
+{
+  "id": "",
+  "eli_id": "BR.CPB.T12.C1.Art.359-J",
+  "original_id": "BR.CPB.T12.C1.Art.359-J",
+  "article_number": "359",
+  "framework_code": "CPB",
+  "jurisdiction": "BR",
+  "title": "Art. 359-J — Código Penal Brasileiro, Parte Especial, Título XII, Capítulo I, Art. 359-J (Atentado à integridade nacional)",
+  "theme": "Direito Penal",
+  "norm_type": [
+    "penalty"
+  ],
+  "scope": [
+    "criminal"
+  ],
+  "direction": null,
+  "sanctions": [
+    "criminal_liability"
+  ],
+  "tags": [
+    "norm_type: penalty",
+    "scope: criminal",
+    "sanctions: criminal_liability"
+  ],
+  "content": "Praticar violência ou grave ameaça com a finalidade de desmembrar parte do território nacional para constituir país independente: Pena - reclusão, de 2 (dois) a 6 (seis) anos, além da pena correspondente à violência.",
+  "text": "Praticar violência ou grave ameaça com a finalidade de desmembrar parte do território nacional para constituir país independente: Pena - reclusão, de 2 (dois) a 6 (seis) anos, além da pena correspondente à violência.",
+  "source_file": "DL2848_CP.md",
+  "source_path": "BR/DL2848_CP.md",
+  "source_sha256": "fda5a60ddf5ce721f40fdb1c4870ca596694d96e66d2e87d670eab30ab102121",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

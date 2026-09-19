@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.VCCR.Art.36.1.b",
+  "original_id": "INT.VCCR.Art.36.1.b",
+  "article_number": "36.1.b",
+  "framework_code": "VCCR",
+  "jurisdiction": "INT",
+  "title": "Art. 36.1.b — Consular notification and rights information without delay",
+  "theme": "Consular notification duty",
+  "norm_type": [
+    "treaty_obligation"
+  ],
+  "scope": [
+    "state"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: treaty_obligation",
+    "scope: state"
+  ],
+  "content": "If he so requests, the competent authorities of the receiving State shall, without delay, inform the consular post of the sending State if, within its consular district, a national of that State is arrested or committed to prison or to custody pending trial or is detained in any other manner. Any communication addressed to the consular post by the person arrested, in prison, custody or detention shall also be forwarded by the said authorities without delay. The said authorities shall inform the person concerned without delay of his rights under this sub-paragraph.",
+  "text": "If he so requests, the competent authorities of the receiving State shall, without delay, inform the consular post of the sending State if, within its consular district, a national of that State is arrested or committed to prison or to custody pending trial or is detained in any other manner. Any communication addressed to the consular post by the person arrested, in prison, custody or detention shall also be forwarded by the said authorities without delay. The said authorities shall inform the person concerned without delay of his rights under this sub-paragraph.",
+  "source_file": "VCCR_1963.md",
+  "source_path": "INT/EN/VCCR_1963.md",
+  "source_sha256": "5e7196e87e513635dbe34d7b44635472a1c7b5a30b4744706d7f244d3be438ac",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.CONST.T2.C1.Art.5.XXXV",
+  "original_id": "BR.CONST.T2.C1.Art.5.XXXV",
+  "article_number": "5º, XXXV — Acesso à Justiça",
+  "framework_code": "CONST",
+  "jurisdiction": "BR",
+  "title": "Art. 5º, XXXV — Acesso à Justiça",
+  "theme": "Access to justice",
+  "norm_type": [
+    "constitutional_guarantee"
+  ],
+  "scope": [
+    "state"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: constitutional_guarantee",
+    "scope: state"
+  ],
+  "content": "XXXV - a lei não excluirá da apreciação do Poder Judiciário lesão ou ameaça a direito;",
+  "text": "XXXV - a lei não excluirá da apreciação do Poder Judiciário lesão ou ameaça a direito;",
+  "source_file": "CF88.md",
+  "source_path": "BR/CF88.md",
+  "source_sha256": "b0b99bed19616128212179654f176fe78a82a0ae80bc7b8060a5409427553135",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

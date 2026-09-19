@@ -1,0 +1,31 @@
+{
+  "id": "",
+  "eli_id": "INT.AN6I.T1.Art.Attachment",
+  "original_id": "INT.AN6I.T1.Art.Attachment",
+  "article_number": "Anexo",
+  "framework_code": "AN6I",
+  "jurisdiction": "INT",
+  "title": "Art. Anexo — Anexo 6 - Operação de Aeronaves, Parte I - Transporte Aéreo Comercial Internacional - Aviões, Anexo B - Procedimentos quando ocorre interferência ilícita e a aeronave não consegue notificar a unidade ATS",
+  "theme": "Anexo 6",
+  "norm_type": [],
+  "scope": [],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "tipo_norma: processual",
+    "âmbito: regulatório"
+  ],
+  "content": "1. Gerais\n\nOs procedimentos a seguir destinam-se a servir como orientação para uso por aeronaves quando ocorre interferência ilícita e a aeronave não consegue notificar uma unidade ATS desse fato.\n\n2. Procedimentos\n\n2.1 Se o comandante não puder se dirigir a um aeródromo de acordo com as regras do Capítulo 3, 3.7.2, ele/ela deve tentar continuar voando na rota atribuída e no nível de cruzeiro atribuído, pelo menos até que possa notificar uma unidade ATS ou até que esteja dentro da cobertura de radar ou ADS-B.\n\n2.2 Quando uma aeronave sujeita a um ato de interferência ilícita precisar se desviar de sua rota atribuída ou de seu nível de cruzeiro atribuído sem poder estabelecer contato radiotelefônico com o ATS, o comandante deve, sempre que possível:\n\na) tentar transmitir avisos no canal VHF em uso ou na frequência de emergência VHF, e em outros canais apropriados, a menos que considerações a bordo da aeronave determinem o contrário. Outros equipamentos, como transponders de bordo e enlaces de dados, também devem ser usados quando for vantajoso fazê-lo e as circunstâncias permitirem; e\nb) proceder de acordo com os procedimentos especiais aplicáveis para contingências em voo, quando tais procedimentos tiverem sido estabelecidos e promulgados nos Procedimentos Suplementares Regionais (Doc 7030); ou\nc) se nenhum procedimento regional aplicável tiver sido estabelecido, proceder em um nível que difira dos níveis de cruzeiro normalmente usados para voo IFR por:\n1) (150 mathrm{m}(500 mathrm{ft})) em uma área onde é aplicado um mínimo de separação vertical de (300 mathrm{m}(1000 mathrm{ft})); ou\n2) (300 mathrm{m}(1000 mathrm{ft})) em uma área onde é aplicado um mínimo de separação vertical de (600 mathrm{m}(2000 mathrm{ft})).\n\nNota. As ações a serem tomadas por uma aeronave que é interceptada enquanto está sujeita a um ato de interferência ilícita estão prescritas em 3.8 deste Anexo.",
+  "text": "1. Gerais\n\nOs procedimentos a seguir destinam-se a servir como orientação para uso por aeronaves quando ocorre interferência ilícita e a aeronave não consegue notificar uma unidade ATS desse fato.\n\n2. Procedimentos\n\n2.1 Se o comandante não puder se dirigir a um aeródromo de acordo com as regras do Capítulo 3, 3.7.2, ele/ela deve tentar continuar voando na rota atribuída e no nível de cruzeiro atribuído, pelo menos até que possa notificar uma unidade ATS ou até que esteja dentro da cobertura de radar ou ADS-B.\n\n2.2 Quando uma aeronave sujeita a um ato de interferência ilícita precisar se desviar de sua rota atribuída ou de seu nível de cruzeiro atribuído sem poder estabelecer contato radiotelefônico com o ATS, o comandante deve, sempre que possível:\n\na) tentar transmitir avisos no canal VHF em uso ou na frequência de emergência VHF, e em outros canais apropriados, a menos que considerações a bordo da aeronave determinem o contrário. Outros equipamentos, como transponders de bordo e enlaces de dados, também devem ser usados quando for vantajoso fazê-lo e as circunstâncias permitirem; e\nb) proceder de acordo com os procedimentos especiais aplicáveis para contingências em voo, quando tais procedimentos tiverem sido estabelecidos e promulgados nos Procedimentos Suplementares Regionais (Doc 7030); ou\nc) se nenhum procedimento regional aplicável tiver sido estabelecido, proceder em um nível que difira dos níveis de cruzeiro normalmente usados para voo IFR por:\n1) (150 mathrm{m}(500 mathrm{ft})) em uma área onde é aplicado um mínimo de separação vertical de (300 mathrm{m}(1000 mathrm{ft})); ou\n2) (300 mathrm{m}(1000 mathrm{ft})) em uma área onde é aplicado um mínimo de separação vertical de (600 mathrm{m}(2000 mathrm{ft})).\n\nNota. As ações a serem tomadas por uma aeronave que é interceptada enquanto está sujeita a um ato de interferência ilícita estão prescritas em 3.8 deste Anexo.",
+  "source_file": "ICAO_Annex6.md",
+  "source_path": "INT/BR/ICAO_Annex6.md",
+  "source_sha256": "5b48dcc984fc95e2085bfe6a312c9d8b3966175bb0ef5c0309f7aead7d4e7104",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

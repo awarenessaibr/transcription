@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "CL.L20285.T1.C2.Art.5",
+  "original_id": "CL.L20285.T1.C2.Art.5",
+  "article_number": "5",
+  "framework_code": "L20285",
+  "jurisdiction": "CL",
+  "title": "Art. 5 — Ley 20.285, Título II, Artículo 5°",
+  "theme": "Transparency Law",
+  "norm_type": [
+    "exemption"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: exemption",
+    "scope: regulatory"
+  ],
+  "content": "Artículo 5° - Carácter Público de la Información. En virtud del principio de transparencia de la función pública: - Los actos y resoluciones de los órganos de la Administración del Estado - Sus fundamentos - Los documentos que les sirvan de sustento o complemento directo y esencial - Los procedimientos que se utilicen para su dictación. Son públicos, salvo las excepciones que establece esta ley y las previstas en otras leyes de quórum calificado. Información Elaborada con Presupuesto Público: Asimismo, es pública: - La información elaborada con presupuesto público - Toda otra información que obre en poder de los órganos de la Administración - Cualquiera sea su formato, soporte, fecha de creación, origen, clasificación o procesamiento - A menos que esté sujeta a las excepciones señaladas.",
+  "text": "Artículo 5° - Carácter Público de la Información. En virtud del principio de transparencia de la función pública: - Los actos y resoluciones de los órganos de la Administración del Estado - Sus fundamentos - Los documentos que les sirvan de sustento o complemento directo y esencial - Los procedimientos que se utilicen para su dictación. Son públicos, salvo las excepciones que establece esta ley y las previstas en otras leyes de quórum calificado. Información Elaborada con Presupuesto Público: Asimismo, es pública: - La información elaborada con presupuesto público - Toda otra información que obre en poder de los órganos de la Administración - Cualquiera sea su formato, soporte, fecha de creación, origen, clasificación o procesamiento - A menos que esté sujeta a las excepciones señaladas.",
+  "source_file": "L20285_Transparencia.md",
+  "source_path": "CL/L20285_Transparencia.md",
+  "source_sha256": "4e6f01dfa2c767c6cece0780bac8ca2be4f16984ce054b69643f19bb4f1236e8",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

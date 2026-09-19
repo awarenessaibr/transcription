@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.CDC.T5.C2.Art.30",
+  "original_id": "BR.CDC.T5.C2.Art.30",
+  "article_number": "30",
+  "framework_code": "CDC",
+  "jurisdiction": "BR",
+  "title": "Art. 30 — CDC Título V, Capítulo II, Art. 30° – Oferta Vinculante",
+  "theme": "Commercial Practices – Binding Offer",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "contractual"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: contractual"
+  ],
+  "content": "Art. 30° Toda informação ou publicidade, suficientemente precisa, veiculada por qualquer forma ou meio de comunicação com relação a produtos e serviços oferecidos ou apresentados, obriga o fornecedor que a fizer veicular ou dela se utilizar e integra o contrato que vier a ser celebrado.",
+  "text": "Art. 30° Toda informação ou publicidade, suficientemente precisa, veiculada por qualquer forma ou meio de comunicação com relação a produtos e serviços oferecidos ou apresentados, obriga o fornecedor que a fizer veicular ou dela se utilizar e integra o contrato que vier a ser celebrado.",
+  "source_file": "L8078_CDC.md",
+  "source_path": "BR/L8078_CDC.md",
+  "source_sha256": "8e34dae265f917ea4eaab3245b235f9c8e8ee393f34d96f90a133baf3690eda8",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

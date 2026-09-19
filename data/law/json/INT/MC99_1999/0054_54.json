@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.MC99.C7.Art.54",
+  "original_id": "INT.MC99.C7.Art.54",
+  "article_number": "54",
+  "framework_code": "MC99",
+  "jurisdiction": "INT",
+  "title": "Art. 54 — Montreal Convention 1999, Chapter VII - Final Clauses, Article 54 — Denunciation",
+  "theme": "Final Clauses",
+  "norm_type": [
+    "power"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: power",
+    "scope: regulatory"
+  ],
+  "content": "1. Any State Party may denounce this Convention by written notification to the Depositary. 2. Denunciation shall take effect one hundred and eighty days following the date on which notification is received by the Depositary.",
+  "text": "1. Any State Party may denounce this Convention by written notification to the Depositary. 2. Denunciation shall take effect one hundred and eighty days following the date on which notification is received by the Depositary.",
+  "source_file": "MC99_1999.md",
+  "source_path": "INT/EN/MC99_1999.md",
+  "source_sha256": "bc79e373bc0936102e9860635e77c9b857ef28ccbc4f2b60c23cb5b9318b84f3",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

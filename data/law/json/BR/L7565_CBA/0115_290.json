@@ -1,0 +1,38 @@
+{
+  "id": "",
+  "eli_id": "BR.CBA.T9.C1.Art.290",
+  "original_id": "BR.CBA.T9.C1.Art.290",
+  "article_number": "290",
+  "framework_code": "CBA",
+  "jurisdiction": "BR",
+  "title": "Art. 290 — CBA Title IX, Chapter I, Article 290 – Police Assistance for Enforcement",
+  "theme": "Regulatory Compliance",
+  "norm_type": [
+    "penalty"
+  ],
+  "scope": [
+    "criminal"
+  ],
+  "direction": null,
+  "sanctions": [
+    "criminal_liability"
+  ],
+  "tags": [
+    "norm_type: penalty",
+    "scope: criminal",
+    "sanctions: criminal_liability"
+  ],
+  "content": "Art. 290. A autoridade aeronáutica poderá requisitar o auxílio da força policial para obter a detenção dos presumidos infratores ou da aeronave que ponha em perigo a segurança pública, pessoas ou coisas, nos limites do que dispõe este Código.",
+  "text": "Art. 290. A autoridade aeronáutica poderá requisitar o auxílio da força policial para obter a detenção dos presumidos infratores ou da aeronave que ponha em perigo a segurança pública, pessoas ou coisas, nos limites do que dispõe este Código.",
+  "source_file": "L7565_CBA.md",
+  "source_path": "BR/L7565_CBA.md",
+  "source_sha256": "4ed35a5b7f1951bbcaed63377ffdb3e8cb1ff9f2f9f8a735e844b46cb3ce0931",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

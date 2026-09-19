@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.CBA.T7.C1.Art.237",
+  "original_id": "BR.CBA.T7.C1.Art.237",
+  "article_number": "237",
+  "framework_code": "CBA",
+  "jurisdiction": "BR",
+  "title": "Art. 237 — CBA Title VII, Chapter I, Article 237 – Air Waybill Preparation by Carrier",
+  "theme": "Liability and Exemptions",
+  "norm_type": [
+    "exemption"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: exemption",
+    "scope: regulatory"
+  ],
+  "content": "Art. 237. Se o transportador, a pedido do expedidor, fizer o conhecimento, considerar-se-á como tendo feito por conta e em nome deste, salvo prova em contrário.",
+  "text": "Art. 237. Se o transportador, a pedido do expedidor, fizer o conhecimento, considerar-se-á como tendo feito por conta e em nome deste, salvo prova em contrário.",
+  "source_file": "L7565_CBA.md",
+  "source_path": "BR/L7565_CBA.md",
+  "source_sha256": "4ed35a5b7f1951bbcaed63377ffdb3e8cb1ff9f2f9f8a735e844b46cb3ce0931",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

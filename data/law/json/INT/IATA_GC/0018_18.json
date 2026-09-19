@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.IATA_GC.Art.18",
+  "original_id": "INT.IATA_GC.Art.18",
+  "article_number": "18",
+  "framework_code": "IATA_GC",
+  "jurisdiction": "INT",
+  "title": "Art. 18 — Article 18 - Modification and Waiver",
+  "theme": "Modification and Waiver",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: regulatory"
+  ],
+  "content": "No Agent, employee or representative of Carrier has authority to alter, modify or waive any provision of these Conditions of Carriage.",
+  "text": "No Agent, employee or representative of Carrier has authority to alter, modify or waive any provision of these Conditions of Carriage.",
+  "source_file": "IATA_GC.md",
+  "source_path": "INT/EN/IATA_GC.md",
+  "source_sha256": "7d87bebffc10b58787bca82a7250149eadb6bdf9bd5e5daf9534c08f6d4587f5",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

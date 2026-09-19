@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.R431.Anexo.C7.Art.18",
+  "original_id": "BR.R431.Anexo.C7.Art.18",
+  "article_number": "Anexo, Capítulo VII, Art. 18 — Legitimidade para provocar a Comissão",
+  "framework_code": "R431",
+  "jurisdiction": "BR",
+  "title": "Anexo, Capítulo VII, Art. 18 — Legitimidade para provocar a Comissão",
+  "theme": "procedural",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: administrative"
+  ],
+  "content": "Qualquer cidadão, agente público, pessoa jurídica de direito privado, associação ou entidade de classe poderá provocar a atuação da Comissão de Ética da ANAC, visando a apuração de transgressão ética imputada ao agente público ou ocorrida em setores competentes da Agência.\n\nParágrafo único. Entende-se por agente público da ANAC todo aquele que por força de lei, contrato ou qualquer ato jurídico, preste serviços de natureza permanente, temporária, excepcional ou eventual, ainda que sem retribuição financeira, à ANAC.",
+  "text": "Qualquer cidadão, agente público, pessoa jurídica de direito privado, associação ou entidade de classe poderá provocar a atuação da Comissão de Ética da ANAC, visando a apuração de transgressão ética imputada ao agente público ou ocorrida em setores competentes da Agência.\n\nParágrafo único. Entende-se por agente público da ANAC todo aquele que por força de lei, contrato ou qualquer ato jurídico, preste serviços de natureza permanente, temporária, excepcional ou eventual, ainda que sem retribuição financeira, à ANAC.",
+  "source_file": "R431_ANAC_RegimentoComissaoEtica.md",
+  "source_path": "BR/R431_ANAC_RegimentoComissaoEtica.md",
+  "source_sha256": "b0f6744091b2a507cb9233fa32250e41113bbad0666586bb6ae0d29bf0365d01",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "CL.L20285.T6.Art.19",
+  "original_id": "CL.L20285.T6.Art.19",
+  "article_number": "19",
+  "framework_code": "L20285",
+  "jurisdiction": "CL",
+  "title": "Art. 19 — Ley 20.285, Título VI, Artículo 19° – Vigencia",
+  "theme": "Vigencia",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: regulatory"
+  ],
+  "content": "Esta ley entrará en vigencia el día 20 de abril de 2009.",
+  "text": "Esta ley entrará en vigencia el día 20 de abril de 2009.",
+  "source_file": "L20285_Transparencia.md",
+  "source_path": "CL/L20285_Transparencia.md",
+  "source_sha256": "4e6f01dfa2c767c6cece0780bac8ca2be4f16984ce054b69643f19bb4f1236e8",
+  "language": "unknown",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "",
+  "eli_id": "CL.CHIPENCOD.T6.C1.Art.296",
+  "original_id": "CL.CHIPENCOD.T6.C1.Art.296",
+  "article_number": "296",
+  "framework_code": "CHIPENCOD",
+  "jurisdiction": "CL",
+  "title": "Art. 296 — Art. 296 Código Penal Chileno",
+  "theme": "threats",
+  "norm_type": [
+    "penalty"
+  ],
+  "scope": [
+    "criminal"
+  ],
+  "direction": null,
+  "sanctions": [
+    "criminal_liability"
+  ],
+  "tags": [
+    "norm_type: penalty",
+    "scope: criminal",
+    "sanctions: criminal_liability"
+  ],
+  "content": "Art. 296. El que amenazare seriamente a otro con causar a él mismo o a su familia, en su persona, honra o propiedad, un mal que constituya delito, siempre que por los antecedentes aparezca verosímil la consumación del hecho, será castigado: 1.° Con presidio menor en su grado medio a máximo, si hiciere la amenaza exigiendo que se ponga a su disposición o a la de un tercero dinero u otra condición ilícita. 2.° Con presidio menor en su grado mínimo a medio, en los casos en que la exigencia fuere lícita. 3.° Con reclusión menor en su grado mínimo a medio, si la amenaza no fuere condicional.",
+  "text": "Art. 296. El que amenazare seriamente a otro con causar a él mismo o a su familia, en su persona, honra o propiedad, un mal que constituya delito, siempre que por los antecedentes aparezca verosímil la consumación del hecho, será castigado: 1.° Con presidio menor en su grado medio a máximo, si hiciere la amenaza exigiendo que se ponga a su disposición o a la de un tercero dinero u otra condición ilícita. 2.° Con presidio menor en su grado mínimo a medio, en los casos en que la exigencia fuere lícita. 3.° Con reclusión menor en su grado mínimo a medio, si la amenaza no fuere condicional.",
+  "source_file": "CHIPENCOD_CP.md",
+  "source_path": "CL/CHIPENCOD_CP.md",
+  "source_sha256": "5e189a4a8d31010c3c09610bd439368e1b5d120d4b8a6cae7f13fa19d18cfb9f",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

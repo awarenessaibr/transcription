@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.ABEAR_PPE.Art.1",
+  "original_id": "BR.ABEAR_PPE.Art.1",
+  "article_number": "1",
+  "framework_code": "ABEAR_PPE",
+  "jurisdiction": "BR",
+  "title": "Art. 1 — Objetivo",
+  "theme": "procedural",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: administrative"
+  ],
+  "content": "O objetivo desta Política é estabelecer as normas mínimas para regular e monitorar os gastos da Associação Brasileira das Empresas Aéreas - ABEAR com Cortesias (Presentes e Entretenimento) para Funcionários Públicos e Terceiros, notadamente Terceiros Intermediários (TPIs), Fornecedores e Clientes.",
+  "text": "O objetivo desta Política é estabelecer as normas mínimas para regular e monitorar os gastos da Associação Brasileira das Empresas Aéreas - ABEAR com Cortesias (Presentes e Entretenimento) para Funcionários Públicos e Terceiros, notadamente Terceiros Intermediários (TPIs), Fornecedores e Clientes.",
+  "source_file": "ABEAR_PoliticaPresentesEntretenimento.md",
+  "source_path": "BR/ABEAR_PoliticaPresentesEntretenimento.md",
+  "source_sha256": "5092d6c895f7cb1673c86456dbcec38daaf91249d4bac272ba354b66c15c85f6",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

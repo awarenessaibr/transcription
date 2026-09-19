@@ -1,0 +1,38 @@
+{
+  "id": "",
+  "eli_id": "INT.MC99.C3.Art.29",
+  "original_id": "INT.MC99.C3.Art.29",
+  "article_number": "29",
+  "framework_code": "MC99",
+  "jurisdiction": "INT",
+  "title": "Art. 29 — Montreal Convention 1999, Chapter III - Liability of the Carrier and Extent of Compensation for Damage, Article 29 — Basis of Claims",
+  "theme": "Liability of the Carrier and Extent of Compensation for Damage",
+  "norm_type": [
+    "prohibition"
+  ],
+  "scope": [
+    "contractual"
+  ],
+  "direction": null,
+  "sanctions": [
+    "service_remedy"
+  ],
+  "tags": [
+    "norm_type: prohibition",
+    "scope: contractual",
+    "sanctions: service_remedy"
+  ],
+  "content": "In the carriage of passengers, baggage and cargo, any action for damages, however founded, whether under this Convention or in contract or in tort or otherwise, can only be brought subject to the conditions and such limits of liability as are set out in this Convention without prejudice to the question as to who are the persons who have the right to bring suit and what are their respective rights. In any such action, punitive, exemplary or any other non-compensatory damages shall not be recoverable.",
+  "text": "In the carriage of passengers, baggage and cargo, any action for damages, however founded, whether under this Convention or in contract or in tort or otherwise, can only be brought subject to the conditions and such limits of liability as are set out in this Convention without prejudice to the question as to who are the persons who have the right to bring suit and what are their respective rights. In any such action, punitive, exemplary or any other non-compensatory damages shall not be recoverable.",
+  "source_file": "MC99_1999.md",
+  "source_path": "INT/EN/MC99_1999.md",
+  "source_sha256": "bc79e373bc0936102e9860635e77c9b857ef28ccbc4f2b60c23cb5b9318b84f3",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "",
+  "eli_id": "CL.CPCL.C1.Art.231",
+  "original_id": "CL.CPCL.C1.Art.231",
+  "article_number": "231",
+  "framework_code": "CPCL",
+  "jurisdiction": "CL",
+  "title": "Art. 231 — Prevaricación – Abogado o procurador",
+  "theme": "Criminal Law – Prevaricación",
+  "norm_type": [
+    "penalty"
+  ],
+  "scope": [
+    "professional"
+  ],
+  "direction": null,
+  "sanctions": [
+    "suspension",
+    "disqualification",
+    "financial_penalty"
+  ],
+  "tags": [
+    "norm_type: penalty",
+    "scope: professional",
+    "sanctions: suspension",
+    "sanctions: disqualification",
+    "sanctions: financial_penalty"
+  ],
+  "content": "El abogado o procurador que con abuso malicioso de su oficio, perjudicare a su cliente o descubriere sus secretos, será castigado según la gravedad del perjuicio que causare, con la pena de suspensión en su grado mínimo a inhabilitación especial perpetua para el cargo o profesión y multa de once a veinte unidades tributarias mensuales.\n\n> **BCN amendment note:** LEY 19450 Art. 1 i) D.O. 18.03.1996\n\n**Source:** [BCN Ley Chile — Código Penal, § IV Prevaricación](https://bcn.cl/gdyHI3)",
+  "text": "El abogado o procurador que con abuso malicioso de su oficio, perjudicare a su cliente o descubriere sus secretos, será castigado según la gravedad del perjuicio que causare, con la pena de suspensión en su grado mínimo a inhabilitación especial perpetua para el cargo o profesión y multa de once a veinte unidades tributarias mensuales.\n\n> **BCN amendment note:** LEY 19450 Art. 1 i) D.O. 18.03.1996\n\n**Source:** [BCN Ley Chile — Código Penal, § IV Prevaricación](https://bcn.cl/gdyHI3)",
+  "source_file": "CodigoPenal_Prevaricacion.md",
+  "source_path": "CL/CodigoPenal_Prevaricacion.md",
+  "source_sha256": "921c577cd53a80bf34dad970a21d9f70a3bbd4462816ebc1865734f158780557",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

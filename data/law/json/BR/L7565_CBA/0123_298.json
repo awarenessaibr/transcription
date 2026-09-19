@@ -1,0 +1,42 @@
+{
+  "id": "",
+  "eli_id": "BR.CBA.T9.C2.Art.298",
+  "original_id": "BR.CBA.T9.C2.Art.298",
+  "article_number": "298",
+  "framework_code": "CBA",
+  "jurisdiction": "BR",
+  "title": "Art. 298 — CBA Title IX, Chapter II, Article 298 – Sanctions for Foreign Air Transport Companies",
+  "theme": "Regulatory Compliance",
+  "norm_type": [
+    "penalty"
+  ],
+  "scope": [
+    "contractual"
+  ],
+  "direction": null,
+  "sanctions": [
+    "financial_penalty",
+    "suspension",
+    "license_revocation"
+  ],
+  "tags": [
+    "norm_type: penalty",
+    "scope: contractual",
+    "sanctions: financial_penalty",
+    "sanctions: suspension",
+    "sanctions: license_revocation"
+  ],
+  "content": "Art. 298. A empresa estrangeira de transporte aéreo que opere no País será sujeita à multa e, na hipótese de reincidência, à suspensão ou cassação da autorização de funcionamento no caso de não atender: I - aos requisitos prescritos pelas leis e regulamentos normalmente aplicados, no que se refere ao funcionamento de empresas de transporte aéreo; II - às leis e regulamentos relativos à: a) entrada e saída de aeronaves; b) sua exploração ou navegação durante a permanência no território ou espaço aéreo brasileiro; c) entrada ou saída de passageiros; d) tripulação ou carga; e) despacho; f) imigração; g) alfândega; h) higiene; i) saúde. III - às tarifas, itinerários, freqüências e horários aprovados; às condições contidas nas respectivas autorizações; à conservação e manutenção de seus equipamentos de vôo no que se relaciona com a segurança e eficiência do serviço; ou à proibição de embarcar ou desembarcar passageiro ou carga em vôo de simples trânsito; IV - à legislação interna, em seus atos e operações no Brasil, em igualdade com as congêneres nacionais.",
+  "text": "Art. 298. A empresa estrangeira de transporte aéreo que opere no País será sujeita à multa e, na hipótese de reincidência, à suspensão ou cassação da autorização de funcionamento no caso de não atender: I - aos requisitos prescritos pelas leis e regulamentos normalmente aplicados, no que se refere ao funcionamento de empresas de transporte aéreo; II - às leis e regulamentos relativos à: a) entrada e saída de aeronaves; b) sua exploração ou navegação durante a permanência no território ou espaço aéreo brasileiro; c) entrada ou saída de passageiros; d) tripulação ou carga; e) despacho; f) imigração; g) alfândega; h) higiene; i) saúde. III - às tarifas, itinerários, freqüências e horários aprovados; às condições contidas nas respectivas autorizações; à conservação e manutenção de seus equipamentos de vôo no que se relaciona com a segurança e eficiência do serviço; ou à proibição de embarcar ou desembarcar passageiro ou carga em vôo de simples trânsito; IV - à legislação interna, em seus atos e operações no Brasil, em igualdade com as congêneres nacionais.",
+  "source_file": "L7565_CBA.md",
+  "source_path": "BR/L7565_CBA.md",
+  "source_sha256": "4ed35a5b7f1951bbcaed63377ffdb3e8cb1ff9f2f9f8a735e844b46cb3ce0931",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

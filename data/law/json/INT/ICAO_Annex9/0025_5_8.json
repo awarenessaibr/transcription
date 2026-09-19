@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.AN9.C5.S8.Art.5.8",
+  "original_id": "INT.AN9.C5.S8.Art.5.8",
+  "article_number": "5.8",
+  "framework_code": "AN9",
+  "jurisdiction": "INT",
+  "title": "Art. 5.8 — Annex 9 - Facilitation, Chapter 5 - Inadmissible Persons and Deportees, B. Inadmissible persons, 5.8",
+  "theme": "Annex 9",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "contractual"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: contractual"
+  ],
+  "content": "Contracting States that have reason to believe that an inadmissible person might offer resistance to removal shall inform the aircraft operator concerned as far in advance as possible of scheduled departure so that the aircraft operator can take precautions to ensure the security of the flight.",
+  "text": "Contracting States that have reason to believe that an inadmissible person might offer resistance to removal shall inform the aircraft operator concerned as far in advance as possible of scheduled departure so that the aircraft operator can take precautions to ensure the security of the flight.",
+  "source_file": "ICAO_Annex9.md",
+  "source_path": "INT/EN/ICAO_Annex9.md",
+  "source_sha256": "57c4f76b6dc9787cd7e0c02eba85ac7932117bbae67da26324bd413660d10af6",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

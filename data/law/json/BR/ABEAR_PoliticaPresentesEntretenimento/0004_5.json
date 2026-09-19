@@ -1,0 +1,42 @@
+{
+  "id": "",
+  "eli_id": "BR.ABEAR_PPE.Art.5",
+  "original_id": "BR.ABEAR_PPE.Art.5",
+  "article_number": "5",
+  "framework_code": "ABEAR_PPE",
+  "jurisdiction": "BR",
+  "title": "Art. 5 — Diretrizes Gerais",
+  "theme": "duty",
+  "norm_type": [
+    "duty",
+    "penalty"
+  ],
+  "scope": [
+    "administrative",
+    "state"
+  ],
+  "direction": null,
+  "sanctions": [
+    "financial_penalty"
+  ],
+  "tags": [
+    "norm_type: duty",
+    "norm_type: penalty",
+    "scope: administrative",
+    "scope: state",
+    "sanctions: financial_penalty"
+  ],
+  "content": "É proibido a qualquer Empregado, Colaborador ou Terceiro Intermediário (TPI) que esteja atuando em representação ou interesse da ABEAR prometer, oferecer, dar ou aprovar uma Cortesia que:\na) seja ou pareça ser uma Vantagem Indevida com o objetivo de influenciar quem a recebe;\nb) seja de valor acima do permitido nesta Política, salvo aprovação expressa do Comitê de Compliance;\nc) seja em dinheiro ou outro meio facilmente convertível em espécie;\nd) sabidamente viole as regras a que o receptor está sujeito.\n\nNenhum Empregado, Colaborador ou Terceiro Intermediário (TPI) em representação da ABEAR poderá prometer, oferecer, dar, aprovar ou receber Cortesias envolvendo Funcionários Públicos ou seus Familiares, salvo com a autorização prévia e expressa do Comitê de Compliance.\n\nAs Cortesias para Funcionários Públicos devem ocorrer raramente (uma vez por ano), não podendo exceder o valor de R$100,00 (cem reais), e devem sempre atender às exigências legais aplicáveis e esta Política.\n\nAs Cortesias para terceiros que não sejam Funcionários Públicos devem ocorrer raramente (até duas vezes ao ano), não podendo exceder o valor total R$ 300,00 (trezentos reais) ao longo de um ano e devem sempre atender às exigências legais aplicáveis e esta Política. Os Empregados, Colaboradores ou Terceiros Intermediários (TPIs) ficam proibidos de pagar com recursos próprios qualquer tipo de Cortesias que seja ou pareça ser relativa às atividades da ABEAR.\n\nA ABEAR deverá manter livros e registros completos e precisos de todos os gastos aprovados, notadamente no que tange às Cortesias, incluindo as solicitações pertinentes, a sua finalidade comercial, os nomes e as entidades a que pertencem ou estão ligados todos os beneficiários, a aprovação correspondente e os valores desembolsados.\n\nQuaisquer despesas de Colaboradores ou Terceiros Intermediários (TPIs) relativamente a Funcionários Públicos deve ser previamente aprovado pelo Comitê de Compliance, não serão permitidos gastos que fujam ao critério da razoabilidade, como por exemplo: hospedagem de luxo ou gastos de Viagens para Familiares de tais Agentes Públicos.",
+  "text": "É proibido a qualquer Empregado, Colaborador ou Terceiro Intermediário (TPI) que esteja atuando em representação ou interesse da ABEAR prometer, oferecer, dar ou aprovar uma Cortesia que:\na) seja ou pareça ser uma Vantagem Indevida com o objetivo de influenciar quem a recebe;\nb) seja de valor acima do permitido nesta Política, salvo aprovação expressa do Comitê de Compliance;\nc) seja em dinheiro ou outro meio facilmente convertível em espécie;\nd) sabidamente viole as regras a que o receptor está sujeito.\n\nNenhum Empregado, Colaborador ou Terceiro Intermediário (TPI) em representação da ABEAR poderá prometer, oferecer, dar, aprovar ou receber Cortesias envolvendo Funcionários Públicos ou seus Familiares, salvo com a autorização prévia e expressa do Comitê de Compliance.\n\nAs Cortesias para Funcionários Públicos devem ocorrer raramente (uma vez por ano), não podendo exceder o valor de R$100,00 (cem reais), e devem sempre atender às exigências legais aplicáveis e esta Política.\n\nAs Cortesias para terceiros que não sejam Funcionários Públicos devem ocorrer raramente (até duas vezes ao ano), não podendo exceder o valor total R$ 300,00 (trezentos reais) ao longo de um ano e devem sempre atender às exigências legais aplicáveis e esta Política. Os Empregados, Colaboradores ou Terceiros Intermediários (TPIs) ficam proibidos de pagar com recursos próprios qualquer tipo de Cortesias que seja ou pareça ser relativa às atividades da ABEAR.\n\nA ABEAR deverá manter livros e registros completos e precisos de todos os gastos aprovados, notadamente no que tange às Cortesias, incluindo as solicitações pertinentes, a sua finalidade comercial, os nomes e as entidades a que pertencem ou estão ligados todos os beneficiários, a aprovação correspondente e os valores desembolsados.\n\nQuaisquer despesas de Colaboradores ou Terceiros Intermediários (TPIs) relativamente a Funcionários Públicos deve ser previamente aprovado pelo Comitê de Compliance, não serão permitidos gastos que fujam ao critério da razoabilidade, como por exemplo: hospedagem de luxo ou gastos de Viagens para Familiares de tais Agentes Públicos.",
+  "source_file": "ABEAR_PoliticaPresentesEntretenimento.md",
+  "source_path": "BR/ABEAR_PoliticaPresentesEntretenimento.md",
+  "source_sha256": "5092d6c895f7cb1673c86456dbcec38daaf91249d4bac272ba354b66c15c85f6",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

@@ -1,0 +1,436 @@
+{
+  "source_file": "DAN17_DGAC.md",
+  "source_path": "CL/DAN17_DGAC.md",
+  "jurisdiction": "CL",
+  "format": "structured_heading",
+  "metadata": {
+    "Source": "https://www.dgac.gob.cl/seguridad/dasa/dasa-aeropuertos/normativa-y-procedimientos/dan-17-02/",
+    "Fetched": "2026-04-27",
+    "Sha256": "2dbc5a7b8b984a3e52c018860c09de16d7b4507a02edfd46b025870237ebfa6c",
+    "Articles": "1, 10, 11, 12, 2, 3, 4, 5, 6, 7, 8, 9",
+    "Notes": "⏳ pending — DGAC DAN 17.02 Acreditación Seguridad Privada"
+  },
+  "article_count": 12,
+  "payloads": [
+    {
+      "id": "",
+      "eli_id": "CL.DAN17.Art.1",
+      "original_id": "CL.DAN17.Art.1",
+      "article_number": "1",
+      "framework_code": "DAN17",
+      "jurisdiction": "CL",
+      "title": "Art. 1 — DAN 17.02, Art. 1 – Descripción",
+      "theme": "Descripción",
+      "norm_type": [
+        "duty"
+      ],
+      "scope": [
+        "regulatory"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: duty",
+        "scope: regulatory"
+      ],
+      "content": "Las personas naturales o jurídicas que realicen o tengan por objeto desarrollar labores de asesoría o de prestación de servicios en materias inherentes a seguridad privada, para las entidades ubicadas en recintos aeroportuarios o espacios sometidos a control de la DGAC deberán:\n\n- Ser autorizados previamente por ésta\n- Cumplir lo establecido en la presente normativa\n- Sin perjuicio del cumplimiento de otros requisitos y autorizaciones que requiera el desarrollo de estas labores",
+      "text": "Las personas naturales o jurídicas que realicen o tengan por objeto desarrollar labores de asesoría o de prestación de servicios en materias inherentes a seguridad privada, para las entidades ubicadas en recintos aeroportuarios o espacios sometidos a control de la DGAC deberán:\n\n- Ser autorizados previamente por ésta\n- Cumplir lo establecido en la presente normativa\n- Sin perjuicio del cumplimiento de otros requisitos y autorizaciones que requiera el desarrollo de estas labores",
+      "source_file": "DAN17_DGAC.md",
+      "source_path": "CL/DAN17_DGAC.md",
+      "source_sha256": "f8138d84ccab28eebf3b4e201feda650cd928b30ad3bca0f3124f126870ffb97",
+      "language": "pt",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "CL.DAN17.Art.2",
+      "original_id": "CL.DAN17.Art.2",
+      "article_number": "2",
+      "framework_code": "DAN17",
+      "jurisdiction": "CL",
+      "title": "Art. 2 — DAN 17.02, Art. 2 – Requisitos",
+      "theme": "Requisitos",
+      "norm_type": [
+        "definition"
+      ],
+      "scope": [
+        "regulatory"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: definition",
+        "scope: regulatory"
+      ],
+      "content": "#### Guías de Autorización\n\n- **GUÍA DE AUTORIZACIÓN EMPRESAS RR. HH- RR.TT – RR.TT.RX Y ASESORAS**\n- **GUÍA DE AUTORIZACIÓN GUARDIA DE SEGURIDAD (GGSS)**\n- **GUÍA DE AUTORIZACIÓN AGENTE DE SEGURIDAD AEROPORTARIA (AS)**\n- **GUÍA DE AUTORIZACIÓN ASESOR**\n- **GUÍA DE AUTORIZACIÓN JEFE DE SEGURIDAD DE SEGURIDAD (JS)**\n- **GUÍA DE AUTORIZACIÓN COORDINADOR DE SEGURIDAD (CS)**\n- **GUÍA DE AUTORIZACIÓN ENCARGADO DE SEGURIDAD (ES)**\n- **GUÍA DE AUTORIZACIÓN VIGILANTE DE SEGURIDAD (VVPP)**\n- **GUÍA DE AUTORIZACIÓN OPERADOR DE CCTV (CCTV)**\n- **GUÍA DE AUTORIZACIÓN OPERADOR RAYOS X (ORX)**\n- **GUÍA DE AUTORIZACIÓN SUPERVISOR DE SEGURIDAD (SS)**\n- **GUÍA DE AUTORIZACIÓN TÉCNICO RAYOS X (TRX)**",
+      "text": "#### Guías de Autorización\n\n- **GUÍA DE AUTORIZACIÓN EMPRESAS RR. HH- RR.TT – RR.TT.RX Y ASESORAS**\n- **GUÍA DE AUTORIZACIÓN GUARDIA DE SEGURIDAD (GGSS)**\n- **GUÍA DE AUTORIZACIÓN AGENTE DE SEGURIDAD AEROPORTARIA (AS)**\n- **GUÍA DE AUTORIZACIÓN ASESOR**\n- **GUÍA DE AUTORIZACIÓN JEFE DE SEGURIDAD DE SEGURIDAD (JS)**\n- **GUÍA DE AUTORIZACIÓN COORDINADOR DE SEGURIDAD (CS)**\n- **GUÍA DE AUTORIZACIÓN ENCARGADO DE SEGURIDAD (ES)**\n- **GUÍA DE AUTORIZACIÓN VIGILANTE DE SEGURIDAD (VVPP)**\n- **GUÍA DE AUTORIZACIÓN OPERADOR DE CCTV (CCTV)**\n- **GUÍA DE AUTORIZACIÓN OPERADOR RAYOS X (ORX)**\n- **GUÍA DE AUTORIZACIÓN SUPERVISOR DE SEGURIDAD (SS)**\n- **GUÍA DE AUTORIZACIÓN TÉCNICO RAYOS X (TRX)**",
+      "source_file": "DAN17_DGAC.md",
+      "source_path": "CL/DAN17_DGAC.md",
+      "source_sha256": "f8138d84ccab28eebf3b4e201feda650cd928b30ad3bca0f3124f126870ffb97",
+      "language": "unknown",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "CL.DAN17.Art.3",
+      "original_id": "CL.DAN17.Art.3",
+      "article_number": "3",
+      "framework_code": "DAN17",
+      "jurisdiction": "CL",
+      "title": "Art. 3 — DAN 17.02, Art. 3 – Formularios",
+      "theme": "Formularios",
+      "norm_type": [
+        "procedural"
+      ],
+      "scope": [
+        "regulatory"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: procedural",
+        "scope: regulatory"
+      ],
+      "content": "- **ANEXO \"A\" DAN 17 02:** SOLICITUD DE AUTORIZACIÓN PARA PERSONA JURÍDICA MATERIAS INHERENTES A SEGURIDAD PRIVADA ASESORÍA / RECURSOS HUMANOS / RECURSOS TÉCNICOS\n- **ANEXO \"A\" DAN 17 03:** SOLICITUD DE TARJETA DE INGRESO CONTROLADO EN AP/AD (TICA)\n- **ANEXO \"C\" DAN 17 02:** SOLICITUD DIRECTIVA DE FUNCIONAMIENTO PRESTADORAS DE SERVICIOS EN RECURSOS HUMANOS\n- **ANEXO \"D\" DAN 17 02:** SOLICITUD DE AUTORIZACION PARA PERSONAS INTERESADAS EN DESARROLLAR ACTIVIDADES DE SEGURIDAD PRIVADA\n- **ANEXO \"D\" DAN 17 03:** ACTA DE EXTRAVÍO O DETERIORO DE CREDENCIAL AEROPORTUARIA (TICA)\n- **ANEXO \"E\" DAN 17 02:** PROGRAMA DE SEGURIDAD SERVICIOS PROPIOS\n- **ANEXO \"F\" DAN 17 02:** DECLARACION JURADA SIMPLE IDONEIDAD MORAL Y LABORAL",
+      "text": "- **ANEXO \"A\" DAN 17 02:** SOLICITUD DE AUTORIZACIÓN PARA PERSONA JURÍDICA MATERIAS INHERENTES A SEGURIDAD PRIVADA ASESORÍA / RECURSOS HUMANOS / RECURSOS TÉCNICOS\n- **ANEXO \"A\" DAN 17 03:** SOLICITUD DE TARJETA DE INGRESO CONTROLADO EN AP/AD (TICA)\n- **ANEXO \"C\" DAN 17 02:** SOLICITUD DIRECTIVA DE FUNCIONAMIENTO PRESTADORAS DE SERVICIOS EN RECURSOS HUMANOS\n- **ANEXO \"D\" DAN 17 02:** SOLICITUD DE AUTORIZACION PARA PERSONAS INTERESADAS EN DESARROLLAR ACTIVIDADES DE SEGURIDAD PRIVADA\n- **ANEXO \"D\" DAN 17 03:** ACTA DE EXTRAVÍO O DETERIORO DE CREDENCIAL AEROPORTUARIA (TICA)\n- **ANEXO \"E\" DAN 17 02:** PROGRAMA DE SEGURIDAD SERVICIOS PROPIOS\n- **ANEXO \"F\" DAN 17 02:** DECLARACION JURADA SIMPLE IDONEIDAD MORAL Y LABORAL",
+      "source_file": "DAN17_DGAC.md",
+      "source_path": "CL/DAN17_DGAC.md",
+      "source_sha256": "f8138d84ccab28eebf3b4e201feda650cd928b30ad3bca0f3124f126870ffb97",
+      "language": "pt",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "CL.DAN17.Art.4",
+      "original_id": "CL.DAN17.Art.4",
+      "article_number": "4",
+      "framework_code": "DAN17",
+      "jurisdiction": "CL",
+      "title": "Art. 4 — DAN 17.02, Art. 4 – Manuales",
+      "theme": "Manuales",
+      "norm_type": [
+        "duty"
+      ],
+      "scope": [
+        "regulatory"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: duty",
+        "scope: regulatory"
+      ],
+      "content": "El manual de instrucción de autoaprendizaje de seguridad privada sólo podrá ser solicitado por:\n\n- Entidades de capacitación certificadas por la DGAC\n- Instructores certificados por la DGAC\n- Empresas prestadoras de servicios en materias inherentes a seguridad privada en los recintos aeronáuticos\n- En los aeródromos y aeropuertos, donde prestan los servicios\n- A los contactos publicados en esta web",
+      "text": "El manual de instrucción de autoaprendizaje de seguridad privada sólo podrá ser solicitado por:\n\n- Entidades de capacitación certificadas por la DGAC\n- Instructores certificados por la DGAC\n- Empresas prestadoras de servicios en materias inherentes a seguridad privada en los recintos aeronáuticos\n- En los aeródromos y aeropuertos, donde prestan los servicios\n- A los contactos publicados en esta web",
+      "source_file": "DAN17_DGAC.md",
+      "source_path": "CL/DAN17_DGAC.md",
+      "source_sha256": "f8138d84ccab28eebf3b4e201feda650cd928b30ad3bca0f3124f126870ffb97",
+      "language": "pt",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "CL.DAN17.Art.5",
+      "original_id": "CL.DAN17.Art.5",
+      "article_number": "5",
+      "framework_code": "DAN17",
+      "jurisdiction": "CL",
+      "title": "Art. 5 — DAN 17.02, Art. 5 – Plazo de Tramitación de la Autorización Solicitada",
+      "theme": "Plazo de Tramitación de la Autorización Solicitada",
+      "norm_type": [
+        "procedural"
+      ],
+      "scope": [
+        "regulatory"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: procedural",
+        "scope: regulatory"
+      ],
+      "content": "- **Plazo de respuesta:** Veinte días hábiles\n- Este período puede variar, debido a los tiempos de recepción en registratura de la Unidad y despacho de la documentación\n\n#### Proceso de Revisión Documental\n\n- Si al momento de la revisión documental se detecte alguna documentación faltante o que no corresponda\n- El encargado del proceso tomará contacto con el usuario o empresa solicitante\n- Brindando un tiempo máximo de 5 días hábiles para dar solución al requerimiento normativo\n- Esto dará inicio a un nuevo proceso de revisión documental\n\n#### Caso de No Cumplimiento\n\n- En caso que el usuario o empresa no de solución al requerimiento solicitado por el encargado del proceso respectivo\n- Este quedará nulo\n- La documentación deberá ser retirada en un plazo no superior a 5 días",
+      "text": "- **Plazo de respuesta:** Veinte días hábiles\n- Este período puede variar, debido a los tiempos de recepción en registratura de la Unidad y despacho de la documentación\n\n#### Proceso de Revisión Documental\n\n- Si al momento de la revisión documental se detecte alguna documentación faltante o que no corresponda\n- El encargado del proceso tomará contacto con el usuario o empresa solicitante\n- Brindando un tiempo máximo de 5 días hábiles para dar solución al requerimiento normativo\n- Esto dará inicio a un nuevo proceso de revisión documental\n\n#### Caso de No Cumplimiento\n\n- En caso que el usuario o empresa no de solución al requerimiento solicitado por el encargado del proceso respectivo\n- Este quedará nulo\n- La documentación deberá ser retirada en un plazo no superior a 5 días",
+      "source_file": "DAN17_DGAC.md",
+      "source_path": "CL/DAN17_DGAC.md",
+      "source_sha256": "f8138d84ccab28eebf3b4e201feda650cd928b30ad3bca0f3124f126870ffb97",
+      "language": "es",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "CL.DAN17.Art.6",
+      "original_id": "CL.DAN17.Art.6",
+      "article_number": "6",
+      "framework_code": "DAN17",
+      "jurisdiction": "CL",
+      "title": "Art. 6 — DAN 17.02, Art. 6 – Costo",
+      "theme": "Costo",
+      "norm_type": [
+        "definition"
+      ],
+      "scope": [
+        "contractual"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: definition",
+        "scope: contractual"
+      ],
+      "content": "- **Credencial \"Tarjeta de Ingreso Controlado de Aeródromos\" (TICA):** Valor indicado en el tarifario aeronáutico bajo el nombre TICA\n- **Autorización de Empresas:** Valor indicado en el tarifario aeronáutico bajo el nombre Autorización de Empresas",
+      "text": "- **Credencial \"Tarjeta de Ingreso Controlado de Aeródromos\" (TICA):** Valor indicado en el tarifario aeronáutico bajo el nombre TICA\n- **Autorización de Empresas:** Valor indicado en el tarifario aeronáutico bajo el nombre Autorización de Empresas",
+      "source_file": "DAN17_DGAC.md",
+      "source_path": "CL/DAN17_DGAC.md",
+      "source_sha256": "f8138d84ccab28eebf3b4e201feda650cd928b30ad3bca0f3124f126870ffb97",
+      "language": "unknown",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "CL.DAN17.Art.7",
+      "original_id": "CL.DAN17.Art.7",
+      "article_number": "7",
+      "framework_code": "DAN17",
+      "jurisdiction": "CL",
+      "title": "Art. 7 — DAN 17.02, Art. 7 – Empresas Acreditadas",
+      "theme": "Empresas Acreditadas",
+      "norm_type": [
+        "definition"
+      ],
+      "scope": [
+        "regulatory"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: definition",
+        "scope: regulatory"
+      ],
+      "content": "- Listado de empresas acreditadas a la fecha",
+      "text": "- Listado de empresas acreditadas a la fecha",
+      "source_file": "DAN17_DGAC.md",
+      "source_path": "CL/DAN17_DGAC.md",
+      "source_sha256": "f8138d84ccab28eebf3b4e201feda650cd928b30ad3bca0f3124f126870ffb97",
+      "language": "unknown",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "CL.DAN17.Art.8",
+      "original_id": "CL.DAN17.Art.8",
+      "article_number": "8",
+      "framework_code": "DAN17",
+      "jurisdiction": "CL",
+      "title": "Art. 8 — DAN 17.02, Art. 8 – Empresas con Servicios Propios",
+      "theme": "Empresas con Servicios Propios",
+      "norm_type": [
+        "duty"
+      ],
+      "scope": [
+        "regulatory"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: duty",
+        "scope: regulatory"
+      ],
+      "content": "Empresas con servicios propios, deberán:\n\n- Solicitar autorización mediante el \"Anexo D\"\n- Incluir en detalle en su programa de seguridad la orgánica y funciones a cumplir por parte de personal que desarrollará las labores reguladas en la Normativa Aeronáutica\n- Presentar el \"Anexo E\"",
+      "text": "Empresas con servicios propios, deberán:\n\n- Solicitar autorización mediante el \"Anexo D\"\n- Incluir en detalle en su programa de seguridad la orgánica y funciones a cumplir por parte de personal que desarrollará las labores reguladas en la Normativa Aeronáutica\n- Presentar el \"Anexo E\"",
+      "source_file": "DAN17_DGAC.md",
+      "source_path": "CL/DAN17_DGAC.md",
+      "source_sha256": "f8138d84ccab28eebf3b4e201feda650cd928b30ad3bca0f3124f126870ffb97",
+      "language": "es",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "CL.DAN17.Art.9",
+      "original_id": "CL.DAN17.Art.9",
+      "article_number": "9",
+      "framework_code": "DAN17",
+      "jurisdiction": "CL",
+      "title": "Art. 9 — DAN 17.02, Art. 9 – Lugar y Horario de Recepción Antecedentes",
+      "theme": "Lugar y Horario de Recepción Antecedentes",
+      "norm_type": [
+        "procedural"
+      ],
+      "scope": [
+        "regulatory"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: procedural",
+        "scope: regulatory"
+      ],
+      "content": "Deberá realizar todas las gestiones tendientes a solicitar las acreditaciones que exige la DAN 17 02, en registratura de la respectiva unidad aeroportuaria en horarios más abajo indicados, debiendo presentar la documentación requerida.",
+      "text": "Deberá realizar todas las gestiones tendientes a solicitar las acreditaciones que exige la DAN 17 02, en registratura de la respectiva unidad aeroportuaria en horarios más abajo indicados, debiendo presentar la documentación requerida.",
+      "source_file": "DAN17_DGAC.md",
+      "source_path": "CL/DAN17_DGAC.md",
+      "source_sha256": "f8138d84ccab28eebf3b4e201feda650cd928b30ad3bca0f3124f126870ffb97",
+      "language": "pt",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "CL.DAN17.Art.10",
+      "original_id": "CL.DAN17.Art.10",
+      "article_number": "10",
+      "framework_code": "DAN17",
+      "jurisdiction": "CL",
+      "title": "Art. 10 — DAN 17.02, Art. 10 – Contactos Oficina Seguridad Privada",
+      "theme": "Contactos Oficina Seguridad Privada",
+      "norm_type": [
+        "duty"
+      ],
+      "scope": [
+        "regulatory"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: duty",
+        "scope: regulatory"
+      ],
+      "content": "**AVSEC-DGAC EN AEROPUERTOS Y AERODROMOS DE LA RED PRIMARIA**",
+      "text": "**AVSEC-DGAC EN AEROPUERTOS Y AERODROMOS DE LA RED PRIMARIA**",
+      "source_file": "DAN17_DGAC.md",
+      "source_path": "CL/DAN17_DGAC.md",
+      "source_sha256": "f8138d84ccab28eebf3b4e201feda650cd928b30ad3bca0f3124f126870ffb97",
+      "language": "unknown",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "CL.DAN17.Art.11",
+      "original_id": "CL.DAN17.Art.11",
+      "article_number": "11",
+      "framework_code": "DAN17",
+      "jurisdiction": "CL",
+      "title": "Art. 11 — DAN 17.02, Art. 11 – Información de Contacto DGAC",
+      "theme": "Información de Contacto DGAC",
+      "norm_type": [
+        "duty"
+      ],
+      "scope": [
+        "regulatory"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: duty",
+        "scope: regulatory"
+      ],
+      "content": "**Dirección General de Aeronáutica Civil, DGAC:**\n- Dirección: Miguel Claro 1314, Providencia, Santiago de Chile Clasificador 3, Correo 9\n- Teléfono: (56 2) 24392000\n- Horario: \n  - Lunes a jueves: 8:30 a 17:30\n  - Viernes: 8:30 a 16:30",
+      "text": "**Dirección General de Aeronáutica Civil, DGAC:**\n- Dirección: Miguel Claro 1314, Providencia, Santiago de Chile Clasificador 3, Correo 9\n- Teléfono: (56 2) 24392000\n- Horario: \n  - Lunes a jueves: 8:30 a 17:30\n  - Viernes: 8:30 a 16:30",
+      "source_file": "DAN17_DGAC.md",
+      "source_path": "CL/DAN17_DGAC.md",
+      "source_sha256": "f8138d84ccab28eebf3b4e201feda650cd928b30ad3bca0f3124f126870ffb97",
+      "language": "unknown",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "CL.DAN17.Art.12",
+      "original_id": "CL.DAN17.Art.12",
+      "article_number": "12",
+      "framework_code": "DAN17",
+      "jurisdiction": "CL",
+      "title": "Art. 12 — DAN 17.02, Art. 12 – Otros Servicios DGAC",
+      "theme": "Otros Servicios DGAC",
+      "norm_type": [
+        "duty"
+      ],
+      "scope": [
+        "regulatory"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: duty",
+        "scope: regulatory"
+      ],
+      "content": "- Aeronaves\n- Investigación de Accidentes\n- Aeropuertos Concesiones\n- Acerca de la DGAC\n- Sistema de Integridad\n- Aeropuertos\n- Frecuencias del Servicio Móvil Aeronáutico\n- Información de Vuelo\n- Medio Ambiente\n- Monitoreo Ruido Amb\n- Notificación de Choques con Fauna\n- Notificación HAZMAT\n- Plan de Emergencia Amb\n- Red Aeroportuaria\n- Seguridad Aeroportuaria\n- SMS\n- Solicitud de Arribo y Sobrevuelo sobre Territorio Chileno\n- Tasas",
+      "text": "- Aeronaves\n- Investigación de Accidentes\n- Aeropuertos Concesiones\n- Acerca de la DGAC\n- Sistema de Integridad\n- Aeropuertos\n- Frecuencias del Servicio Móvil Aeronáutico\n- Información de Vuelo\n- Medio Ambiente\n- Monitoreo Ruido Amb\n- Notificación de Choques con Fauna\n- Notificación HAZMAT\n- Plan de Emergencia Amb\n- Red Aeroportuaria\n- Seguridad Aeroportuaria\n- SMS\n- Solicitud de Arribo y Sobrevuelo sobre Territorio Chileno\n- Tasas",
+      "source_file": "DAN17_DGAC.md",
+      "source_path": "CL/DAN17_DGAC.md",
+      "source_sha256": "f8138d84ccab28eebf3b4e201feda650cd928b30ad3bca0f3124f126870ffb97",
+      "language": "es",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    }
+  ]
+}

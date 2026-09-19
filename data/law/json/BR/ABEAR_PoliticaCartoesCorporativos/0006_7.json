@@ -1,0 +1,38 @@
+{
+  "id": "",
+  "eli_id": "BR.ABEAR_PUC.Art.7",
+  "original_id": "BR.ABEAR_PUC.Art.7",
+  "article_number": "7",
+  "framework_code": "ABEAR_PUC",
+  "jurisdiction": "BR",
+  "title": "Art. 7 — Má Utilização do Cartão e/ou Fundo Fixo",
+  "theme": "penalty",
+  "norm_type": [
+    "penalty"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [
+    "suspension"
+  ],
+  "tags": [
+    "norm_type: penalty",
+    "scope: administrative",
+    "sanctions: suspension"
+  ],
+  "content": "**7.1.** Caso seja detectada uma má utilização do cartão e/ou do fundo fixo, conforme as definições estipuladas nesta Política, o Diretor Administrativo Financeiro e Compliance será informado para analisar o caso e tomar as providências necessárias.\n\n**7.2.** Casos repetidos poderão levar ao bloqueio permanente do cartão de crédito e o cancelamento do fundo fixo. Qualquer exceção aos conceitos detalhados, como despesas aceitas e não aceitas, deve ser apresentada ao Diretor Administrativo Financeiro e Compliance para revisão, anexando a aprovação, pelo Diretor/Responsável pela área dos pagamentos/despesas.",
+  "text": "**7.1.** Caso seja detectada uma má utilização do cartão e/ou do fundo fixo, conforme as definições estipuladas nesta Política, o Diretor Administrativo Financeiro e Compliance será informado para analisar o caso e tomar as providências necessárias.\n\n**7.2.** Casos repetidos poderão levar ao bloqueio permanente do cartão de crédito e o cancelamento do fundo fixo. Qualquer exceção aos conceitos detalhados, como despesas aceitas e não aceitas, deve ser apresentada ao Diretor Administrativo Financeiro e Compliance para revisão, anexando a aprovação, pelo Diretor/Responsável pela área dos pagamentos/despesas.",
+  "source_file": "ABEAR_PoliticaCartoesCorporativos.md",
+  "source_path": "BR/ABEAR_PoliticaCartoesCorporativos.md",
+  "source_sha256": "588c838386016c335896c09c8c103ff578d4d428792fb2b1251b9a68c0fc04b3",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

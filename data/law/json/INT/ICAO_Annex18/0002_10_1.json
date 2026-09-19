@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.AN18.C10.S1.Art.10.1",
+  "original_id": "INT.AN18.C10.S1.Art.10.1",
+  "article_number": "10.1",
+  "framework_code": "AN18",
+  "jurisdiction": "INT",
+  "title": "Art. 10.1 — Annex 18 - The Safe Transport of Dangerous Goods by Air, Chapter 10 - Training Programmes, 10.1 Establishment of training programmes",
+  "theme": "Annex 18",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: regulatory"
+  ],
+  "content": "Initial and recurrent dangerous goods training programmes shall be established and maintained in accordance with the Technical Instructions.",
+  "text": "Initial and recurrent dangerous goods training programmes shall be established and maintained in accordance with the Technical Instructions.",
+  "source_file": "ICAO_Annex18.md",
+  "source_path": "INT/EN/ICAO_Annex18.md",
+  "source_sha256": "62dc9e866ab96022049e549778690f7a43a735a8ae42a0d2cc0ef9176078dbed",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

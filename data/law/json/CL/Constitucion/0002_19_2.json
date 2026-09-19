@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "CL.CONST.T1.C3.P2.Art.19.2",
+  "original_id": "CL.CONST.T1.C3.P2.Art.19.2",
+  "article_number": "19.2",
+  "framework_code": "CONST",
+  "jurisdiction": "CL",
+  "title": "Art. 19.2 — Constitución Política de Chile, Capítulo III, Artículo 19, N°2",
+  "theme": "Constitutional Law",
+  "norm_type": [
+    "right"
+  ],
+  "scope": [
+    "constitutional"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: right",
+    "scope: constitutional"
+  ],
+  "content": "Equality before the law. In Chile there are neither privilege persons nor groups. In Chile there are no slaves, and anyone that sets foot on its territory will become free. Men and women are equal before the law. Neither the law nor any authority whatsoever may establish arbitrary differences;",
+  "text": "Equality before the law. In Chile there are neither privilege persons nor groups. In Chile there are no slaves, and anyone that sets foot on its territory will become free. Men and women are equal before the law. Neither the law nor any authority whatsoever may establish arbitrary differences;",
+  "source_file": "Constitucion.md",
+  "source_path": "CL/Constitucion.md",
+  "source_sha256": "b07956bc1e8eb3decb57048c6d3d3f08214643cd68c038e476d5f0381bb3b740",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

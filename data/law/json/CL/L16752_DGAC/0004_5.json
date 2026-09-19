@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "CL.L16752.T2.Art.5",
+  "original_id": "CL.L16752.T2.Art.5",
+  "article_number": "5",
+  "framework_code": "L16752",
+  "jurisdiction": "CL",
+  "title": "Art. 5 — Ley 16.752, Título II, Art. 5° – Autorización para Construcciones en Aeródromos",
+  "theme": "Aerodrome Construction – Prior Authorization Requirements",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: regulatory"
+  ],
+  "content": "Artículo 5° Las construcciones, instalaciones y plantaciones en los aeródromos públicos, en su zona de aproximación y en los terrenos circundantes a las instalaciones de ayuda y protección a la navegación aérea, requerirán autorización previa de la Dirección General de Aeronáutica Civil. Las construcciones e instalaciones en los aeródromos sólo podrán ser autorizadas previo informe de la Dirección de Aeropuertos del Ministerio de Obras Públicas.",
+  "text": "Artículo 5° Las construcciones, instalaciones y plantaciones en los aeródromos públicos, en su zona de aproximación y en los terrenos circundantes a las instalaciones de ayuda y protección a la navegación aérea, requerirán autorización previa de la Dirección General de Aeronáutica Civil. Las construcciones e instalaciones en los aeródromos sólo podrán ser autorizadas previo informe de la Dirección de Aeropuertos del Ministerio de Obras Públicas.",
+  "source_file": "L16752_DGAC.md",
+  "source_path": "CL/L16752_DGAC.md",
+  "source_sha256": "4a87dd4a006811851700a151c5d940cc1b26620848132b3965881d4c9fe860f0",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.D11129.T2.Art.8",
+  "original_id": "BR.D11129.T2.Art.8",
+  "article_number": "8",
+  "framework_code": "D11129",
+  "jurisdiction": "BR",
+  "title": "Art. 8 — Decreto nº 11.129/2022, Capítulo II, Seção II, Art. 8º – Produção de provas",
+  "theme": "Produção de provas",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: regulatory"
+  ],
+  "content": "Art. 8º Recebida a defesa escrita, a comissão avaliará a pertinência de produzir as provas eventualmente requeridas pela pessoa jurídica processada, podendo indeferir de forma motivada os pedidos de produção de provas que sejam ilícitas, impertinentes, desnecessárias, protelatórias ou intempestivas.\n\n§ 1º Caso sejam produzidas provas após a nota de indiciação, a comissão poderá: \n    I - intimar a pessoa jurídica para se manifestar, no prazo de dez dias, sobre as novas provas juntadas aos autos, caso tais provas não justifiquem a alteração da nota de indiciação; ou \n    II - lavrar nova indiciação ou indiciação complementar, caso as novas provas juntadas aos autos justifiquem alterações na nota de indiciação inicial, devendo ser observado o disposto no caput do art. 6º.\n\n§ 2º Caso a pessoa jurídica apresente em sua defesa informações e documentos referentes à existência e ao funcionamento de programa de integridade, a comissão processante deverá examiná-lo segundo os parâmetros indicados no Capítulo V, para a dosimetria das sanções a serem aplicadas.",
+  "text": "Art. 8º Recebida a defesa escrita, a comissão avaliará a pertinência de produzir as provas eventualmente requeridas pela pessoa jurídica processada, podendo indeferir de forma motivada os pedidos de produção de provas que sejam ilícitas, impertinentes, desnecessárias, protelatórias ou intempestivas.\n\n§ 1º Caso sejam produzidas provas após a nota de indiciação, a comissão poderá: \n    I - intimar a pessoa jurídica para se manifestar, no prazo de dez dias, sobre as novas provas juntadas aos autos, caso tais provas não justifiquem a alteração da nota de indiciação; ou \n    II - lavrar nova indiciação ou indiciação complementar, caso as novas provas juntadas aos autos justifiquem alterações na nota de indiciação inicial, devendo ser observado o disposto no caput do art. 6º.\n\n§ 2º Caso a pessoa jurídica apresente em sua defesa informações e documentos referentes à existência e ao funcionamento de programa de integridade, a comissão processante deverá examiná-lo segundo os parâmetros indicados no Capítulo V, para a dosimetria das sanções a serem aplicadas.",
+  "source_file": "D11129_PNDH3.md",
+  "source_path": "BR/D11129_PNDH3.md",
+  "source_sha256": "48b9ca22b02bc3545313ec26f0cb92326b79c3d3cbd1e6d7097acb8edd1de61d",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

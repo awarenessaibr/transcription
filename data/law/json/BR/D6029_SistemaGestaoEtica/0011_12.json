@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.D6029.Art.12",
+  "original_id": "BR.D6029.Art.12",
+  "article_number": "12",
+  "framework_code": "D6029",
+  "jurisdiction": "BR",
+  "title": "Art. 12 — Processo de apuração",
+  "theme": "procedural",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: administrative"
+  ],
+  "content": "O processo de apuração de prática de ato em desrespeito ao preceituado no Código de Conduta da Alta Administração Federal e no Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal será instaurado, de ofício ou em razão de denúncia fundamentada, respeitando-se, sempre, as garantias do contraditório e da ampla defesa, pela Comissão de Ética Pública ou Comissões de Ética de que tratam o incisos II e III do art. 2º, conforme o caso, que notificará o investigado para manifestar-se, por escrito, no prazo de dez dias.\n\n§ 1º O investigado poderá produzir prova documental necessária à sua defesa.\n\n§ 2º As Comissões de Ética poderão requisitar os documentos que entenderem necessários à instrução probatória e, também, promover diligências e solicitar parecer de especialista.\n\n§ 3º Na hipótese de serem juntados aos autos da investigação, após a manifestação referida no caput deste artigo, novos elementos de prova, o investigado será notificado para nova manifestação, no prazo de dez dias.\n\n§ 4º Concluída a instrução processual, as Comissões de Ética proferirão decisão conclusiva e fundamentada.\n\n§ 5º Se a conclusão for pela existência de falta ética, além das providências previstas no Código de Conduta da Alta Administração Federal e no Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal, as Comissões de Ética tomarão as seguintes providências, no que couber:\nI - encaminhamento de sugestão de exoneração de cargo ou função de confiança à autoridade hierarquicamente superior ou devolução ao órgão de origem, conforme o caso;\nII - encaminhamento, conforme o caso, para a Controladoria-Geral da União ou unidade específica do Sistema de Correição do Poder Executivo Federal de que trata o Decreto nº 5.480, de 30 de junho de 2005, para exame de eventuais transgressões disciplinares; e\nIII - recomendação de abertura de procedimento administrativo, se a gravidade da conduta assim o exigir.",
+  "text": "O processo de apuração de prática de ato em desrespeito ao preceituado no Código de Conduta da Alta Administração Federal e no Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal será instaurado, de ofício ou em razão de denúncia fundamentada, respeitando-se, sempre, as garantias do contraditório e da ampla defesa, pela Comissão de Ética Pública ou Comissões de Ética de que tratam o incisos II e III do art. 2º, conforme o caso, que notificará o investigado para manifestar-se, por escrito, no prazo de dez dias.\n\n§ 1º O investigado poderá produzir prova documental necessária à sua defesa.\n\n§ 2º As Comissões de Ética poderão requisitar os documentos que entenderem necessários à instrução probatória e, também, promover diligências e solicitar parecer de especialista.\n\n§ 3º Na hipótese de serem juntados aos autos da investigação, após a manifestação referida no caput deste artigo, novos elementos de prova, o investigado será notificado para nova manifestação, no prazo de dez dias.\n\n§ 4º Concluída a instrução processual, as Comissões de Ética proferirão decisão conclusiva e fundamentada.\n\n§ 5º Se a conclusão for pela existência de falta ética, além das providências previstas no Código de Conduta da Alta Administração Federal e no Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal, as Comissões de Ética tomarão as seguintes providências, no que couber:\nI - encaminhamento de sugestão de exoneração de cargo ou função de confiança à autoridade hierarquicamente superior ou devolução ao órgão de origem, conforme o caso;\nII - encaminhamento, conforme o caso, para a Controladoria-Geral da União ou unidade específica do Sistema de Correição do Poder Executivo Federal de que trata o Decreto nº 5.480, de 30 de junho de 2005, para exame de eventuais transgressões disciplinares; e\nIII - recomendação de abertura de procedimento administrativo, se a gravidade da conduta assim o exigir.",
+  "source_file": "D6029_SistemaGestaoEtica.md",
+  "source_path": "BR/D6029_SistemaGestaoEtica.md",
+  "source_sha256": "f62beeb0752517bf76c5bd14032e02fbe351a37bb1cc1c9746a9324924b46141",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

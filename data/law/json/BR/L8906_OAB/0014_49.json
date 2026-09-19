@@ -1,0 +1,32 @@
+{
+  "id": "",
+  "eli_id": "BR.L8906_OAB.Art.49",
+  "original_id": "BR.L8906_OAB.Art.49",
+  "article_number": "49",
+  "framework_code": "L8906_OAB",
+  "jurisdiction": "BR",
+  "title": "Art. 49 — L8906_OAB",
+  "theme": "OAB Statute",
+  "norm_type": [
+    "statute"
+  ],
+  "scope": [],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: statute"
+  ],
+  "content": "Os Presidentes dos Conselhos e das Subseções da OAB têm legitimidade para agir, judicial e extrajudicialmente, contra qualquer pessoa que infringir as disposições ou os fins desta lei.\n\nParágrafo único. As autoridades mencionadas no caput deste artigo têm, ainda, legitimidade para intervir, inclusive como assistentes, nos inquéritos e processos em que sejam indiciados, acusados ou ofendidos os inscritos na OAB.",
+  "text": "Os Presidentes dos Conselhos e das Subseções da OAB têm legitimidade para agir, judicial e extrajudicialmente, contra qualquer pessoa que infringir as disposições ou os fins desta lei.\n\nParágrafo único. As autoridades mencionadas no caput deste artigo têm, ainda, legitimidade para intervir, inclusive como assistentes, nos inquéritos e processos em que sejam indiciados, acusados ou ofendidos os inscritos na OAB.",
+  "source_file": "L8906_OAB.md",
+  "source_path": "BR/L8906_OAB.md",
+  "source_sha256": "76d070c147dbc6cc88a43babf9ebf413652f9a396c8458b496a7fe5340f93f7b",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

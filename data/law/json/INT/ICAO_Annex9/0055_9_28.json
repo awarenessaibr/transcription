@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.AN9.C9.S28.Art.9.28",
+  "original_id": "INT.AN9.C9.S28.Art.9.28",
+  "article_number": "9.28",
+  "framework_code": "AN9",
+  "jurisdiction": "INT",
+  "title": "Art. 9.28 — Annex 9 - Facilitation, Chapter 9 - Passenger Data Exchange Systems, D. Passenger Name Record (PNR), 9.28",
+  "theme": "Annex 9",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "contractual"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: contractual"
+  ],
+  "content": "Contracting States shall:\n\na) base the automated processing of PNR data on objective, precise and reliable criteria that effectively indicate the existence of a risk, without leading to unlawful differentiation; and\nb) not make decisions that produce significant adverse actions affecting the legal interests of individuals based solely on the automated processing of PNR data.",
+  "text": "Contracting States shall:\n\na) base the automated processing of PNR data on objective, precise and reliable criteria that effectively indicate the existence of a risk, without leading to unlawful differentiation; and\nb) not make decisions that produce significant adverse actions affecting the legal interests of individuals based solely on the automated processing of PNR data.",
+  "source_file": "ICAO_Annex9.md",
+  "source_path": "INT/EN/ICAO_Annex9.md",
+  "source_sha256": "57c4f76b6dc9787cd7e0c02eba85ac7932117bbae67da26324bd413660d10af6",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

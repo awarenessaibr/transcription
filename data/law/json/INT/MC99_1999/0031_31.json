@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.MC99.C3.Art.31",
+  "original_id": "INT.MC99.C3.Art.31",
+  "article_number": "31",
+  "framework_code": "MC99",
+  "jurisdiction": "INT",
+  "title": "Art. 31 — Montreal Convention 1999, Chapter III - Liability of the Carrier and Extent of Compensation for Damage, Article 31 — Timely Notice of Complaints",
+  "theme": "Liability of the Carrier and Extent of Compensation for Damage",
+  "norm_type": [
+    "definition"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: definition",
+    "scope: regulatory"
+  ],
+  "content": "1. Receipt by the person entitled to delivery of checked baggage or cargo without complaint is prima facie evidence that the same has been delivered in good condition and in accordance with the document of carriage or with the record preserved by the other means referred to in paragraph 2 of Article 3 and paragraph 2 of Article 4. 2. In the case of damage, the person entitled to delivery must complain to the carrier forthwith after the discovery of the damage, and, at the latest, within seven days from the date of receipt in the case of checked baggage and fourteen days from the date of receipt in the case of cargo. In the case of delay, the complaint must be made at the latest within twenty-one days from the date on which the baggage or cargo have been placed at his or her disposal. 3. Every complaint must be made in writing and given or dispatched within the times aforesaid. 4. If no complaint is made within the times aforesaid, no action shall lie against the carrier, save in the case of fraud on its part.",
+  "text": "1. Receipt by the person entitled to delivery of checked baggage or cargo without complaint is prima facie evidence that the same has been delivered in good condition and in accordance with the document of carriage or with the record preserved by the other means referred to in paragraph 2 of Article 3 and paragraph 2 of Article 4. 2. In the case of damage, the person entitled to delivery must complain to the carrier forthwith after the discovery of the damage, and, at the latest, within seven days from the date of receipt in the case of checked baggage and fourteen days from the date of receipt in the case of cargo. In the case of delay, the complaint must be made at the latest within twenty-one days from the date on which the baggage or cargo have been placed at his or her disposal. 3. Every complaint must be made in writing and given or dispatched within the times aforesaid. 4. If no complaint is made within the times aforesaid, no action shall lie against the carrier, save in the case of fraud on its part.",
+  "source_file": "MC99_1999.md",
+  "source_path": "INT/EN/MC99_1999.md",
+  "source_sha256": "bc79e373bc0936102e9860635e77c9b857ef28ccbc4f2b60c23cb5b9318b84f3",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

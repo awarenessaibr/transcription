@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.CDC.T4.C3.Art.18",
+  "original_id": "BR.CDC.T4.C3.Art.18",
+  "article_number": "18",
+  "framework_code": "CDC",
+  "jurisdiction": "BR",
+  "title": "Art. 18 — CDC Título IV, Capítulo III, Art. 18° – Responsabilidade por Vício do Produto",
+  "theme": "Non-Conformity – Product Defect Remedies",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: regulatory"
+  ],
+  "content": "Art. 18° Os fornecedores de produtos de consumo duráveis ou não duráveis respondem solidariamente pelos vícios de qualidade ou quantidade que os tornem impróprios ou inadequados ao consumo a que se destinam ou lhes diminuam o valor, assim como por aqueles decorrentes da disparidade, com a indicações constantes do recipiente, da embalagem, rotulagem ou mensagem publicitária, respeitadas as variações decorrentes de sua natureza, podendo o consumidor exigir a substituição das partes viciadas. § 1° Não sendo o vício sanado no prazo máximo de trinta dias, pode o consumidor exigir, alternativamente e à sua escolha: I – a substituição do produto por outro da mesma espécie, em perfeitas condições de uso; II – a restituição imediata da quantia paga, monetariamente atualizada, sem prejuízo de eventuais perdas e danos; III – o abatimento proporcional do preço.",
+  "text": "Art. 18° Os fornecedores de produtos de consumo duráveis ou não duráveis respondem solidariamente pelos vícios de qualidade ou quantidade que os tornem impróprios ou inadequados ao consumo a que se destinam ou lhes diminuam o valor, assim como por aqueles decorrentes da disparidade, com a indicações constantes do recipiente, da embalagem, rotulagem ou mensagem publicitária, respeitadas as variações decorrentes de sua natureza, podendo o consumidor exigir a substituição das partes viciadas. § 1° Não sendo o vício sanado no prazo máximo de trinta dias, pode o consumidor exigir, alternativamente e à sua escolha: I – a substituição do produto por outro da mesma espécie, em perfeitas condições de uso; II – a restituição imediata da quantia paga, monetariamente atualizada, sem prejuízo de eventuais perdas e danos; III – o abatimento proporcional do preço.",
+  "source_file": "L8078_CDC.md",
+  "source_path": "BR/L8078_CDC.md",
+  "source_sha256": "8e34dae265f917ea4eaab3245b235f9c8e8ee393f34d96f90a133baf3690eda8",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

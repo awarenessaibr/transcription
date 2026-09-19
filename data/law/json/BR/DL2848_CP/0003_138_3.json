@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.CPB.T1.C5.P3.Art.138.3",
+  "original_id": "BR.CPB.T1.C5.P3.Art.138.3",
+  "article_number": "138.3",
+  "framework_code": "CPB",
+  "jurisdiction": "BR",
+  "title": "Art. 138.3 — Código Penal Brasileiro, Parte Especial, Título I, Capítulo V, Art. 138, § 3º",
+  "theme": "Direito Penal",
+  "norm_type": [
+    "exemption"
+  ],
+  "scope": [
+    "criminal"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: exemption",
+    "scope: criminal"
+  ],
+  "content": "Admite-se a prova da verdade, salvo: I - se, constituindo o fato imputado crime de ação privada, o ofendido não foi condenado por sentença irrecorrível; II - se o fato é imputado a qualquer das pessoas indicadas no nº I do art. 141; III - se do crime imputado, embora de ação pública, o ofendido foi absolvido por sentença irrecorrível.",
+  "text": "Admite-se a prova da verdade, salvo: I - se, constituindo o fato imputado crime de ação privada, o ofendido não foi condenado por sentença irrecorrível; II - se o fato é imputado a qualquer das pessoas indicadas no nº I do art. 141; III - se do crime imputado, embora de ação pública, o ofendido foi absolvido por sentença irrecorrível.",
+  "source_file": "DL2848_CP.md",
+  "source_path": "BR/DL2848_CP.md",
+  "source_sha256": "fda5a60ddf5ce721f40fdb1c4870ca596694d96e66d2e87d670eab30ab102121",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

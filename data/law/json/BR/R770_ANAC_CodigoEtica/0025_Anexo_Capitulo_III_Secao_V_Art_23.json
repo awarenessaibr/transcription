@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.R770.Anexo.C3.S5.Art.23",
+  "original_id": "BR.R770.Anexo.C3.S5.Art.23",
+  "article_number": "Anexo, Capítulo III, Seção V, Art. 23",
+  "framework_code": "R770",
+  "jurisdiction": "BR",
+  "title": "Anexo, Capítulo III, Seção V, Art. 23",
+  "theme": "duty",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: administrative"
+  ],
+  "content": "No relacionamento com a imprensa, quando se manifestar em nome da ANAC e desde que devidamente autorizado pela Diretoria Colegiada ou pela Assessoria de Comunicação Social, o agente público deverá: I - observar as normas e a posição oficial da instituição; II - não manifestar opinião pessoal que possa atentar contra a honra ou o desempenho funcional de outro agente público; e III - adotar cautela quanto ao uso de expressões que possam prejudicar a relação institucional da ANAC com a sociedade civil.",
+  "text": "No relacionamento com a imprensa, quando se manifestar em nome da ANAC e desde que devidamente autorizado pela Diretoria Colegiada ou pela Assessoria de Comunicação Social, o agente público deverá: I - observar as normas e a posição oficial da instituição; II - não manifestar opinião pessoal que possa atentar contra a honra ou o desempenho funcional de outro agente público; e III - adotar cautela quanto ao uso de expressões que possam prejudicar a relação institucional da ANAC com a sociedade civil.",
+  "source_file": "R770_ANAC_CodigoEtica.md",
+  "source_path": "BR/R770_ANAC_CodigoEtica.md",
+  "source_sha256": "c0bdae7f3c25d78d18fbdb179eed4026891b050011b14acb7c239471e9c006d4",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

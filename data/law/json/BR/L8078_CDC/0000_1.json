@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.CDC.T1.Art.1",
+  "original_id": "BR.CDC.T1.Art.1",
+  "article_number": "1",
+  "framework_code": "CDC",
+  "jurisdiction": "BR",
+  "title": "Art. 1 — CDC Título I, Art. 1° – Norma de Ordem Pública e Interesse Social",
+  "theme": "General Provisions – Public Policy",
+  "norm_type": [
+    "definition"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: definition",
+    "scope: regulatory"
+  ],
+  "content": "Art. 1° O presente código estabelece normas de proteção e defesa do consumidor, de ordem pública e interesse social, nos termos dos arts. 5°, inciso XXXII, 170, inciso V, da Constituição Federal e art. 48 de suas Disposições Transitórias.",
+  "text": "Art. 1° O presente código estabelece normas de proteção e defesa do consumidor, de ordem pública e interesse social, nos termos dos arts. 5°, inciso XXXII, 170, inciso V, da Constituição Federal e art. 48 de suas Disposições Transitórias.",
+  "source_file": "L8078_CDC.md",
+  "source_path": "BR/L8078_CDC.md",
+  "source_sha256": "8e34dae265f917ea4eaab3245b235f9c8e8ee393f34d96f90a133baf3690eda8",
+  "language": "unknown",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

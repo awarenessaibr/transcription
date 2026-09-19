@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.AN6I.T1.C13.S2.P2.Art.13.2.2",
+  "original_id": "INT.AN6I.T1.C13.S2.P2.Art.13.2.2",
+  "article_number": "13.2.2",
+  "framework_code": "AN6I",
+  "jurisdiction": "INT",
+  "title": "Art. 13.2.2 — Annex 6 - Operation of Aircraft, Part I - International Commercial Air Transport - Aeroplanes, Chapter 13 - Security, 13.2 Security of the flight crew compartment",
+  "theme": "Annex 6",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: regulatory"
+  ],
+  "content": "All passenger- carrying aeroplanes:\n\na) of a maximum certificated take-off mass in excess of (54~500~ mathrm{kg}) or\nb) of a maximum certificated take-off mass in excess of (45~500~ mathrm{kg}) with a passenger seating capacity greater than 19; or\nc) with a passenger seating capacity greater than 60\n\nshall be equipped with an approved flight crew compartment door that is designed to resist penetration by small arms fire and grenade shrapnel, and to resist forcible intrusions by unauthorized persons. This door shall be capable of being locked and unlocked from either pilot's station.",
+  "text": "All passenger- carrying aeroplanes:\n\na) of a maximum certificated take-off mass in excess of (54~500~ mathrm{kg}) or\nb) of a maximum certificated take-off mass in excess of (45~500~ mathrm{kg}) with a passenger seating capacity greater than 19; or\nc) with a passenger seating capacity greater than 60\n\nshall be equipped with an approved flight crew compartment door that is designed to resist penetration by small arms fire and grenade shrapnel, and to resist forcible intrusions by unauthorized persons. This door shall be capable of being locked and unlocked from either pilot's station.",
+  "source_file": "ICAO_Annex6.md",
+  "source_path": "INT/EN/ICAO_Annex6.md",
+  "source_sha256": "a2e06eb192fbd095029630511ad7875dbd3b2f3105ba46e1dfebd355f7d064a1",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

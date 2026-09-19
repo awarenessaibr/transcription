@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.MC99.C5.Art.39",
+  "original_id": "INT.MC99.C5.Art.39",
+  "article_number": "39",
+  "framework_code": "MC99",
+  "jurisdiction": "INT",
+  "title": "Art. 39 — Montreal Convention 1999, Chapter V - Carriage by Air Performed by a Person other than the Contracting Carrier, Article 39 — Contracting Carrier — Actual Carrier",
+  "theme": "Carriage by Air Performed by a Person other than the Contracting Carrier",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "contractual"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: contractual"
+  ],
+  "content": "The provisions of this Chapter apply when a person (hereinafter referred to as \"the contracting carrier\") as a principal makes a contract of carriage governed by this Convention with a passenger or consignor or with a person acting on behalf of the passenger or consignor, and another person (hereinafter referred to as \"the actual carrier\") performs, by virtue of authority from the contracting carrier, the whole or part of the carriage, but is not with respect to such part a successive carrier within the meaning of this Convention. Such authority shall be presumed in the absence of proof to the contrary.",
+  "text": "The provisions of this Chapter apply when a person (hereinafter referred to as \"the contracting carrier\") as a principal makes a contract of carriage governed by this Convention with a passenger or consignor or with a person acting on behalf of the passenger or consignor, and another person (hereinafter referred to as \"the actual carrier\") performs, by virtue of authority from the contracting carrier, the whole or part of the carriage, but is not with respect to such part a successive carrier within the meaning of this Convention. Such authority shall be presumed in the absence of proof to the contrary.",
+  "source_file": "MC99_1999.md",
+  "source_path": "INT/EN/MC99_1999.md",
+  "source_sha256": "bc79e373bc0936102e9860635e77c9b857ef28ccbc4f2b60c23cb5b9318b84f3",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

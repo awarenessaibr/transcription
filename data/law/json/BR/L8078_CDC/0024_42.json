@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.CDC.T5.C5.Art.42",
+  "original_id": "BR.CDC.T5.C5.Art.42",
+  "article_number": "42",
+  "framework_code": "CDC",
+  "jurisdiction": "BR",
+  "title": "Art. 42 — CDC Título V, Capítulo V, Art. 42° – Cobrança de Dívidas",
+  "theme": "Debt Collection – Consumer Protection Against Harassment",
+  "norm_type": [
+    "exemption"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: exemption",
+    "scope: regulatory"
+  ],
+  "content": "Art. 42° Na cobrança de débitos, o consumidor inadimplente não será exposto a ridículo, nem será submetido a qualquer tipo de constrangimento ou ameaça. Parágrafo único. O consumidor cobrado em quantia indevida tem direito à repetição do indébito, por valor igual ao dobro do que pagou em excesso, acrescido de correção monetária e juros legais, salvo hipótese de engano justificável.",
+  "text": "Art. 42° Na cobrança de débitos, o consumidor inadimplente não será exposto a ridículo, nem será submetido a qualquer tipo de constrangimento ou ameaça. Parágrafo único. O consumidor cobrado em quantia indevida tem direito à repetição do indébito, por valor igual ao dobro do que pagou em excesso, acrescido de correção monetária e juros legais, salvo hipótese de engano justificável.",
+  "source_file": "L8078_CDC.md",
+  "source_path": "BR/L8078_CDC.md",
+  "source_sha256": "8e34dae265f917ea4eaab3245b235f9c8e8ee393f34d96f90a133baf3690eda8",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "",
+  "eli_id": "BR.CPB.T12.C1.Art.359-I",
+  "original_id": "BR.CPB.T12.C1.Art.359-I",
+  "article_number": "359",
+  "framework_code": "CPB",
+  "jurisdiction": "BR",
+  "title": "Art. 359-I — Código Penal Brasileiro, Parte Especial, Título XII, Capítulo I, Art. 359-I (Atentado à soberania)",
+  "theme": "Direito Penal",
+  "norm_type": [
+    "penalty"
+  ],
+  "scope": [
+    "criminal"
+  ],
+  "direction": null,
+  "sanctions": [
+    "criminal_liability"
+  ],
+  "tags": [
+    "norm_type: penalty",
+    "scope: criminal",
+    "sanctions: criminal_liability"
+  ],
+  "content": "Negociar com governo ou grupo estrangeiro, ou seus agentes, com o fim de provocar atos típicos de guerra contra o País ou invadi-lo: Pena - reclusão, de 3 (três) a 8 (oito) anos. § 1º Aumenta-se a pena de metade até o dobro, se declarada guerra em decorrência das condutas previstas no caput deste artigo. § 2º Se o agente participa de operação bélica com o fim de submeter o território nacional, ou parte dele, ao domínio ou à soberania de outro país: Pena - reclusão, de 4 (quatro) a 12 (doze) anos.",
+  "text": "Negociar com governo ou grupo estrangeiro, ou seus agentes, com o fim de provocar atos típicos de guerra contra o País ou invadi-lo: Pena - reclusão, de 3 (três) a 8 (oito) anos. § 1º Aumenta-se a pena de metade até o dobro, se declarada guerra em decorrência das condutas previstas no caput deste artigo. § 2º Se o agente participa de operação bélica com o fim de submeter o território nacional, ou parte dele, ao domínio ou à soberania de outro país: Pena - reclusão, de 4 (quatro) a 12 (doze) anos.",
+  "source_file": "DL2848_CP.md",
+  "source_path": "BR/DL2848_CP.md",
+  "source_sha256": "fda5a60ddf5ce721f40fdb1c4870ca596694d96e66d2e87d670eab30ab102121",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.R029.Art.2",
+  "original_id": "BR.R029.Art.2",
+  "article_number": "2",
+  "framework_code": "R029",
+  "jurisdiction": "BR",
+  "title": "Art. 2 — Composição e presidência da Comissão",
+  "theme": "procedural",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: administrative"
+  ],
+  "content": "A Comissão de que trata esta Resolução será presidida por um dos três servidores que a comporão, devendo os respectivos suplentes ser indicados no mesmo ato de designação dos titulares, todos eles com históricos disciplinares adequados e integrantes do quadro de pessoal da Agência Nacional de Aviação Civil.\n\n§ 1° Histórico disciplinar adequado, para fins desta Resolução, é o pertinente ao servidor que não tenha sofrido punição anterior por desvio de conduta ética ou disciplinar.\n\n§ 2° Os servidores referidos no caput, quando convocados, ficarão sob o regime de dedicação integral aos trabalhos da Comissão.",
+  "text": "A Comissão de que trata esta Resolução será presidida por um dos três servidores que a comporão, devendo os respectivos suplentes ser indicados no mesmo ato de designação dos titulares, todos eles com históricos disciplinares adequados e integrantes do quadro de pessoal da Agência Nacional de Aviação Civil.\n\n§ 1° Histórico disciplinar adequado, para fins desta Resolução, é o pertinente ao servidor que não tenha sofrido punição anterior por desvio de conduta ética ou disciplinar.\n\n§ 2° Os servidores referidos no caput, quando convocados, ficarão sob o regime de dedicação integral aos trabalhos da Comissão.",
+  "source_file": "R029_ANAC_ComissaoEtica.md",
+  "source_path": "BR/R029_ANAC_ComissaoEtica.md",
+  "source_sha256": "c930cf4accddb17c5663bb6a154b257e680f6c1da79191f7cc005f3e41d37d2b",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

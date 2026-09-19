@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.MC99.C2.Art.6",
+  "original_id": "INT.MC99.C2.Art.6",
+  "article_number": "6",
+  "framework_code": "MC99",
+  "jurisdiction": "INT",
+  "title": "Art. 6 — Montreal Convention 1999, Chapter II - Documentation and Duties of the Parties Relating to the Carriage of Passengers, Baggage and Cargo, Article 6 — Document Relating to the Nature of the Cargo",
+  "theme": "Documentation and Duties of the Parties",
+  "norm_type": [
+    "power"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: power",
+    "scope: regulatory"
+  ],
+  "content": "The consignor may be required, if necessary to meet the formalities of customs, police and similar public authorities, to deliver a document indicating the nature of the cargo. This provision creates for the carrier no duty, obligation or liability resulting therefrom.",
+  "text": "The consignor may be required, if necessary to meet the formalities of customs, police and similar public authorities, to deliver a document indicating the nature of the cargo. This provision creates for the carrier no duty, obligation or liability resulting therefrom.",
+  "source_file": "MC99_1999.md",
+  "source_path": "INT/EN/MC99_1999.md",
+  "source_sha256": "bc79e373bc0936102e9860635e77c9b857ef28ccbc4f2b60c23cb5b9318b84f3",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

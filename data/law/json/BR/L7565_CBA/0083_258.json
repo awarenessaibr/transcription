@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.CBA.T8.C2.Art.258",
+  "original_id": "BR.CBA.T8.C2.Art.258",
+  "article_number": "258",
+  "framework_code": "CBA",
+  "jurisdiction": "BR",
+  "title": "Art. 258 — CBA Title VIII, Chapter II, Article 258 – Liability in Successive Transport",
+  "theme": "Liability and Exemptions",
+  "norm_type": [
+    "exemption"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: exemption",
+    "scope: regulatory"
+  ],
+  "content": "Art. 258. No caso de transportes sucessivos, o passageiro ou seu sucessor só terá ação contra o transportador que haja efetuado o transporte no curso do qual ocorrer o acidente ou o atraso. Parágrafo único. Não se aplica o disposto neste artigo se, por estipulação expressa, o primeiro transportador assumir a responsabilidade por todo o percurso do transporte contratado.",
+  "text": "Art. 258. No caso de transportes sucessivos, o passageiro ou seu sucessor só terá ação contra o transportador que haja efetuado o transporte no curso do qual ocorrer o acidente ou o atraso. Parágrafo único. Não se aplica o disposto neste artigo se, por estipulação expressa, o primeiro transportador assumir a responsabilidade por todo o percurso do transporte contratado.",
+  "source_file": "L7565_CBA.md",
+  "source_path": "BR/L7565_CBA.md",
+  "source_sha256": "4ed35a5b7f1951bbcaed63377ffdb3e8cb1ff9f2f9f8a735e844b46cb3ce0931",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

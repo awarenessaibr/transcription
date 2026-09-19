@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "CL.DGAC_IVAAF.C1.S5.Art.5",
+  "original_id": "CL.DGAC_IVAAF.C1.S5.Art.5",
+  "article_number": "5",
+  "framework_code": "DGAC_IVAAF",
+  "jurisdiction": "CL",
+  "title": "Art. 5 — DGAC IVAAF, Capítulo I, Sección V, Art. 5",
+  "theme": "Duración",
+  "norm_type": [
+    "definition"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: definition",
+    "scope: regulatory"
+  ],
+  "content": "Debido a la complejidad de los hechos, información que se debe recopilar y la importancia de realizar un análisis exhaustivo para determinar la relevancia de la causa del accidente, es probable que las investigaciones de accidentes de Aviación tarden.",
+  "text": "Debido a la complejidad de los hechos, información que se debe recopilar y la importancia de realizar un análisis exhaustivo para determinar la relevancia de la causa del accidente, es probable que las investigaciones de accidentes de Aviación tarden.",
+  "source_file": "DGAC_IVAAF.md",
+  "source_path": "CL/DGAC_IVAAF.md",
+  "source_sha256": "6b7af0c6d3884c049a449d0a7c0acd408a348f52051bd7bdb2b901de324720a0",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

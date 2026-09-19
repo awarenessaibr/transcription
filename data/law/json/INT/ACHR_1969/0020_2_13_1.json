@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.ACHR.T1.C2.S13.P1.Art.2.13.1",
+  "original_id": "INT.ACHR.T1.C2.S13.P1.Art.2.13.1",
+  "article_number": "2.13.1",
+  "framework_code": "ACHR",
+  "jurisdiction": "INT",
+  "title": "Art. 2.13.1 — American Convention on Human Rights, Part I, Chapter II, Article 13, Paragraph 1",
+  "theme": "Human Rights",
+  "norm_type": [
+    "right"
+  ],
+  "scope": [
+    "constitutional"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: right",
+    "scope: constitutional"
+  ],
+  "content": "Everyone has the right to freedom of thought and expression. This right includes freedom to seek, receive, and impart information and ideas of all kinds, regardless of frontiers, either orally, in writing, in print, in the form of art, or through any other medium of one's choice.",
+  "text": "Everyone has the right to freedom of thought and expression. This right includes freedom to seek, receive, and impart information and ideas of all kinds, regardless of frontiers, either orally, in writing, in print, in the form of art, or through any other medium of one's choice.",
+  "source_file": "ACHR_1969.md",
+  "source_path": "INT/EN/ACHR_1969.md",
+  "source_sha256": "0208ba5cf43eda94f0f2a9e75d128b3c2791447452fe601107160e425dbc41c1",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

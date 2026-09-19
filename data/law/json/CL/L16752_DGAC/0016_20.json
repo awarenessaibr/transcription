@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "CL.L16752.T4.Art.20",
+  "original_id": "CL.L16752.T4.Art.20",
+  "article_number": "20",
+  "framework_code": "L16752",
+  "jurisdiction": "CL",
+  "title": "Art. 20 — Ley 16.752, Título IV, Art. 20° – Clasificación y Remuneraciones del Personal",
+  "theme": "DGAC Personnel – Classification and Remuneration of Staff",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: regulatory"
+  ],
+  "content": "Artículo 20° Los cargos de las Plantas a que se refiere el artículo anterior serán clasificados y remunerados de acuerdo con la escala de sueldos y sistemas de remuneraciones vigentes para el personal de las Fuerzas Armadas, sin que tengan aplicación a su respecto las limitaciones del artículo 18° del decreto con fuerza de ley 1, de 1968. El encasillamiento derivado de la aplicación de la presente ley no será considerado ascenso para ningún efecto legal.",
+  "text": "Artículo 20° Los cargos de las Plantas a que se refiere el artículo anterior serán clasificados y remunerados de acuerdo con la escala de sueldos y sistemas de remuneraciones vigentes para el personal de las Fuerzas Armadas, sin que tengan aplicación a su respecto las limitaciones del artículo 18° del decreto con fuerza de ley 1, de 1968. El encasillamiento derivado de la aplicación de la presente ley no será considerado ascenso para ningún efecto legal.",
+  "source_file": "L16752_DGAC.md",
+  "source_path": "CL/L16752_DGAC.md",
+  "source_sha256": "4a87dd4a006811851700a151c5d940cc1b26620848132b3965881d4c9fe860f0",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

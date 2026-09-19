@@ -1,0 +1,38 @@
+{
+  "id": "",
+  "eli_id": "INT.IATA_GC.Art.2",
+  "original_id": "INT.IATA_GC.Art.2",
+  "article_number": "2",
+  "framework_code": "IATA_GC",
+  "jurisdiction": "INT",
+  "title": "Art. 2 — Article 2 - Applicability",
+  "theme": "Applicability",
+  "norm_type": [
+    "exemption"
+  ],
+  "scope": [
+    "contractual"
+  ],
+  "direction": null,
+  "sanctions": [
+    "financial_penalty"
+  ],
+  "tags": [
+    "norm_type: exemption",
+    "scope: contractual",
+    "sanctions: financial_penalty"
+  ],
+  "content": "2.1 General\n\n2.1.1 Except as provided in 2.2- 2.5, these Conditions of Carriage apply to all carriage by air of passengers and baggage, performed by Carrier for reward. 2.1.2 These Conditions also apply to gratuitous and reduced fare carriage except to the extent that Carrier has provided otherwise in its Regulations or in the relevant contracts, passes or tickets.\n\n2.2 Carriage to/from USA and Canada\n\n2.2.1 Carriage to/from Canada\n\nThese Conditions apply to carriage between places in Canada or between a place in Canada and any place outside thereof, only to the extent they are incorporated in tariffs in force in Canada.\n\n2.2.2 Carriage to/from USA\n\nThese Conditions do not apply to air transportation as defined in the U.S. Federal Aviation Act of 1958.\n\n2.3 Charters\n\nIf Carriage is performed pursuant to a charter agreement, only to the extent they are incorporated by reference by the terms of the charter agreement and the charter ticket.\n\n#### 2.4 Overriding Law\n\nTo the extent that any provision contained or referred to herein is contrary to anything contained in the Convention, where applicable and any applicable laws, government regulations, orders or requirements that cannot be waived by agreement of the parties, such provision shall not apply. The invalidity of any provision shall not affect the validity of any other provision.\n\n2.5 Conditions Prevail Over Regulations\n\nExcept as provided herein, in the event of inconsistency between these Conditions and Carrier's regulations, these Conditions shall prevail, except where tariffs in force in the United States or Canada apply, in which case the tariffs shall prevail.",
+  "text": "2.1 General\n\n2.1.1 Except as provided in 2.2- 2.5, these Conditions of Carriage apply to all carriage by air of passengers and baggage, performed by Carrier for reward. 2.1.2 These Conditions also apply to gratuitous and reduced fare carriage except to the extent that Carrier has provided otherwise in its Regulations or in the relevant contracts, passes or tickets.\n\n2.2 Carriage to/from USA and Canada\n\n2.2.1 Carriage to/from Canada\n\nThese Conditions apply to carriage between places in Canada or between a place in Canada and any place outside thereof, only to the extent they are incorporated in tariffs in force in Canada.\n\n2.2.2 Carriage to/from USA\n\nThese Conditions do not apply to air transportation as defined in the U.S. Federal Aviation Act of 1958.\n\n2.3 Charters\n\nIf Carriage is performed pursuant to a charter agreement, only to the extent they are incorporated by reference by the terms of the charter agreement and the charter ticket.\n\n#### 2.4 Overriding Law\n\nTo the extent that any provision contained or referred to herein is contrary to anything contained in the Convention, where applicable and any applicable laws, government regulations, orders or requirements that cannot be waived by agreement of the parties, such provision shall not apply. The invalidity of any provision shall not affect the validity of any other provision.\n\n2.5 Conditions Prevail Over Regulations\n\nExcept as provided herein, in the event of inconsistency between these Conditions and Carrier's regulations, these Conditions shall prevail, except where tariffs in force in the United States or Canada apply, in which case the tariffs shall prevail.",
+  "source_file": "IATA_GC.md",
+  "source_path": "INT/EN/IATA_GC.md",
+  "source_sha256": "7d87bebffc10b58787bca82a7250149eadb6bdf9bd5e5daf9534c08f6d4587f5",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

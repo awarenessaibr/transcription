@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.D6029.Art.4",
+  "original_id": "BR.D6029.Art.4",
+  "article_number": "4",
+  "framework_code": "D6029",
+  "jurisdiction": "BR",
+  "title": "Art. 4 — Competências da CEP",
+  "theme": "duty",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: administrative"
+  ],
+  "content": "À CEP compete:\n\nI - atuar como instância consultiva do Presidente da República e Ministros de Estado em matéria de ética pública;\nII - administrar a aplicação do Código de Conduta da Alta Administração Federal, devendo:\na) submeter ao Presidente da República medidas para seu aprimoramento;\nb) dirimir dúvidas a respeito de interpretação de suas normas, deliberando sobre casos omissos;\nc) apurar, mediante denúncia, ou de ofício, condutas em desacordo com as normas nele previstas, quando praticadas pelas autoridades a ele submetidas;\nIII - dirimir dúvidas de interpretação sobre as normas do Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal de que trata o Decreto nº 1.171, de 1994;\nIV - coordenar, avaliar e supervisionar o Sistema de Gestão da Ética Pública do Poder Executivo Federal;\nV - aprovar o seu regimento interno; e\nVI - escolher o seu Presidente.\n\nParágrafo único. A CEP contará com uma Secretaria-Executiva, vinculada à Casa Civil da Presidência da República, à qual competirá prestar o apoio técnico e administrativo aos trabalhos da Comissão.",
+  "text": "À CEP compete:\n\nI - atuar como instância consultiva do Presidente da República e Ministros de Estado em matéria de ética pública;\nII - administrar a aplicação do Código de Conduta da Alta Administração Federal, devendo:\na) submeter ao Presidente da República medidas para seu aprimoramento;\nb) dirimir dúvidas a respeito de interpretação de suas normas, deliberando sobre casos omissos;\nc) apurar, mediante denúncia, ou de ofício, condutas em desacordo com as normas nele previstas, quando praticadas pelas autoridades a ele submetidas;\nIII - dirimir dúvidas de interpretação sobre as normas do Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal de que trata o Decreto nº 1.171, de 1994;\nIV - coordenar, avaliar e supervisionar o Sistema de Gestão da Ética Pública do Poder Executivo Federal;\nV - aprovar o seu regimento interno; e\nVI - escolher o seu Presidente.\n\nParágrafo único. A CEP contará com uma Secretaria-Executiva, vinculada à Casa Civil da Presidência da República, à qual competirá prestar o apoio técnico e administrativo aos trabalhos da Comissão.",
+  "source_file": "D6029_SistemaGestaoEtica.md",
+  "source_path": "BR/D6029_SistemaGestaoEtica.md",
+  "source_sha256": "f62beeb0752517bf76c5bd14032e02fbe351a37bb1cc1c9746a9324924b46141",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

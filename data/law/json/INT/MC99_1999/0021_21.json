@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.MC99.C3.Art.21",
+  "original_id": "INT.MC99.C3.Art.21",
+  "article_number": "21",
+  "framework_code": "MC99",
+  "jurisdiction": "INT",
+  "title": "Art. 21 — Montreal Convention 1999, Chapter III - Liability of the Carrier and Extent of Compensation for Damage, Article 21 — Compensation in Case of Death or Injury of Passengers",
+  "theme": "Liability of the Carrier and Extent of Compensation for Damage",
+  "norm_type": [
+    "prohibition"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: prohibition",
+    "scope: regulatory"
+  ],
+  "content": "1. For damages arising under paragraph 1 of Article 17 not exceeding 100 000 Special Drawing Rights for each passenger, the carrier shall not be able to exclude or limit its liability. 2. The carrier shall not be liable for damages arising under paragraph 1 of Article 17 to the extent that they exceed for each passenger 100 000 Special Drawing Rights if the carrier proves that: (a) such damage was not due to the negligence or other wrongful act or omission of the carrier or its servants or agents; or (b) such damage was solely due to the negligence or other wrongful act or omission of a third party.",
+  "text": "1. For damages arising under paragraph 1 of Article 17 not exceeding 100 000 Special Drawing Rights for each passenger, the carrier shall not be able to exclude or limit its liability. 2. The carrier shall not be liable for damages arising under paragraph 1 of Article 17 to the extent that they exceed for each passenger 100 000 Special Drawing Rights if the carrier proves that: (a) such damage was not due to the negligence or other wrongful act or omission of the carrier or its servants or agents; or (b) such damage was solely due to the negligence or other wrongful act or omission of a third party.",
+  "source_file": "MC99_1999.md",
+  "source_path": "INT/EN/MC99_1999.md",
+  "source_sha256": "bc79e373bc0936102e9860635e77c9b857ef28ccbc4f2b60c23cb5b9318b84f3",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

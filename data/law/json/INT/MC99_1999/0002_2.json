@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.MC99.C1.Art.2",
+  "original_id": "INT.MC99.C1.Art.2",
+  "article_number": "2",
+  "framework_code": "MC99",
+  "jurisdiction": "INT",
+  "title": "Art. 2 — Montreal Convention 1999, Chapter I - General Provisions, Article 2 — Carriage Performed by State and Carriage of Postal Items",
+  "theme": "General Provisions",
+  "norm_type": [
+    "exemption"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: exemption",
+    "scope: regulatory"
+  ],
+  "content": "1. This Convention applies to carriage performed by the State or by legally constituted public bodies provided it falls within the conditions laid down in Article 1. 2. In the carriage of postal items, the carrier shall be liable only to the relevant postal administration in accordance with the rules applicable to the relationship between the carriers and the postal administrations. 3. Except as provided in paragraph 2 of this Article, the provisions of this Convention shall not apply to the carriage of postal items.",
+  "text": "1. This Convention applies to carriage performed by the State or by legally constituted public bodies provided it falls within the conditions laid down in Article 1. 2. In the carriage of postal items, the carrier shall be liable only to the relevant postal administration in accordance with the rules applicable to the relationship between the carriers and the postal administrations. 3. Except as provided in paragraph 2 of this Article, the provisions of this Convention shall not apply to the carriage of postal items.",
+  "source_file": "MC99_1999.md",
+  "source_path": "INT/EN/MC99_1999.md",
+  "source_sha256": "bc79e373bc0936102e9860635e77c9b857ef28ccbc4f2b60c23cb5b9318b84f3",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

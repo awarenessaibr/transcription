@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.MC99.C6.Art.50",
+  "original_id": "INT.MC99.C6.Art.50",
+  "article_number": "50",
+  "framework_code": "MC99",
+  "jurisdiction": "INT",
+  "title": "Art. 50 — Montreal Convention 1999, Chapter VI - Other Provisions, Article 50 — Insurance",
+  "theme": "Other Provisions",
+  "norm_type": [
+    "power"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: power",
+    "scope: regulatory"
+  ],
+  "content": "States Parties shall require their carriers to maintain adequate insurance covering their liability under this Convention. A carrier may be required by the State Party into which it operates to furnish evidence that it maintains adequate insurance covering its liability under this Convention.",
+  "text": "States Parties shall require their carriers to maintain adequate insurance covering their liability under this Convention. A carrier may be required by the State Party into which it operates to furnish evidence that it maintains adequate insurance covering its liability under this Convention.",
+  "source_file": "MC99_1999.md",
+  "source_path": "INT/EN/MC99_1999.md",
+  "source_sha256": "bc79e373bc0936102e9860635e77c9b857ef28ccbc4f2b60c23cb5b9318b84f3",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

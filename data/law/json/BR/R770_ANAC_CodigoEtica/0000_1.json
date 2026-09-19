@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.R770.Art.1",
+  "original_id": "BR.R770.Art.1",
+  "article_number": "1",
+  "framework_code": "R770",
+  "jurisdiction": "BR",
+  "title": "Art. 1 — Aprovação do Código de Ética e Conduta",
+  "theme": "procedural",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: administrative"
+  ],
+  "content": "Aprovar, nos termos do Anexo, o Código de Ética e Conduta dos Agentes Públicos da ANAC.",
+  "text": "Aprovar, nos termos do Anexo, o Código de Ética e Conduta dos Agentes Públicos da ANAC.",
+  "source_file": "R770_ANAC_CodigoEtica.md",
+  "source_path": "BR/R770_ANAC_CodigoEtica.md",
+  "source_sha256": "c0bdae7f3c25d78d18fbdb179eed4026891b050011b14acb7c239471e9c006d4",
+  "language": "unknown",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

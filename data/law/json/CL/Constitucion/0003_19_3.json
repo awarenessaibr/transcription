@@ -1,0 +1,40 @@
+{
+  "id": "",
+  "eli_id": "CL.CONST.T1.C3.P3.Art.19.3",
+  "original_id": "CL.CONST.T1.C3.P3.Art.19.3",
+  "article_number": "19.3",
+  "framework_code": "CONST",
+  "jurisdiction": "CL",
+  "title": "Art. 19.3 — Constitución Política de Chile, Capítulo III, Artículo 19, N°3",
+  "theme": "Constitutional Law",
+  "norm_type": [
+    "penalty"
+  ],
+  "scope": [
+    "constitutional"
+  ],
+  "direction": null,
+  "sanctions": [
+    "financial_penalty",
+    "criminal_liability"
+  ],
+  "tags": [
+    "norm_type: penalty",
+    "scope: constitutional",
+    "sanctions: financial_penalty",
+    "sanctions: criminal_liability"
+  ],
+  "content": "Equal protection under the law in the exercise of their rights. All person has the right to legal defense in the manner indicated by the law and no authority or individual may prevent, restrict or distort the due intervention of the legal counsel should it have been sought. As regards to members of the Armed Forces and of the Public Order and Security Forces, this right shall be governed, in what regards the administrative and disciplinary matters, by the relevant norms of their respective statutes. The law shall provide means to provide legal advice and defense to those who cannot obtain it for themselves. The law shall establish the cases and the way in which natural persons who are victims of crimes will have free legal advice and defense, in order of exercising the criminal action recognized by this Constitution and the laws. Any person charged with a crime has the inalienable right to be assisted by a defense counsel provided by the State if he fails to appoint one at the opportunity provided by the law. No one may be judged by special commissions but by the Court specified by law and provided such court has been established prior to the perpetration of the act. Any ruling of a body that exercises jurisdiction must be based on a previous legally held process. The legislator must always establish the guarantees of a rational and just procedure and investigation. The law cannot presume de jure criminal liability. No crime will be punished with a different penalty from that prescribed in a law enacted prior to its perpetration, unless a new law favors the affected. No law may establish penalties for crimes which have not been expressly described therein",
+  "text": "Equal protection under the law in the exercise of their rights. All person has the right to legal defense in the manner indicated by the law and no authority or individual may prevent, restrict or distort the due intervention of the legal counsel should it have been sought. As regards to members of the Armed Forces and of the Public Order and Security Forces, this right shall be governed, in what regards the administrative and disciplinary matters, by the relevant norms of their respective statutes. The law shall provide means to provide legal advice and defense to those who cannot obtain it for themselves. The law shall establish the cases and the way in which natural persons who are victims of crimes will have free legal advice and defense, in order of exercising the criminal action recognized by this Constitution and the laws. Any person charged with a crime has the inalienable right to be assisted by a defense counsel provided by the State if he fails to appoint one at the opportunity provided by the law. No one may be judged by special commissions but by the Court specified by law and provided such court has been established prior to the perpetration of the act. Any ruling of a body that exercises jurisdiction must be based on a previous legally held process. The legislator must always establish the guarantees of a rational and just procedure and investigation. The law cannot presume de jure criminal liability. No crime will be punished with a different penalty from that prescribed in a law enacted prior to its perpetration, unless a new law favors the affected. No law may establish penalties for crimes which have not been expressly described therein",
+  "source_file": "Constitucion.md",
+  "source_path": "CL/Constitucion.md",
+  "source_sha256": "b07956bc1e8eb3decb57048c6d3d3f08214643cd68c038e476d5f0381bb3b740",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

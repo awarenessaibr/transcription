@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.DOC4444.C15.S1.P3.Art.15.1.3.10",
+  "original_id": "INT.DOC4444.C15.S1.P3.Art.15.1.3.10",
+  "article_number": "15.1.3.10",
+  "framework_code": "DOC4444",
+  "jurisdiction": "INT",
+  "title": "Art. 15.1.3.10 — Procedures for Air Navigation Services - Air Traffic Management (Doc 4444), Chapter 15 - Procedures Related to Emergencies, Communication Failure and Contingencies, 15.1 Emergency Procedures, 15.1.3 Unlawful interference and aircraft bomb threat, 15.1.3.10",
+  "theme": "Doc 4444",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: regulatory"
+  ],
+  "content": "An aircraft known or believed to be the subject of unlawful interference or which for other reasons needs isolation from normal aerodrome activities shall be cleared to the designated isolated parking position. Where such an isolated parking position has not been designated, or if the designated position is not available, the aircraft shall be cleared to a position within the area or areas selected by prior agreement with the aerodrome authority. The taxi clearance shall specify the taxi route to be followed to the parking position. This route shall be selected with a view to minimizing any security risks to the public, other aircraft and installations at the aerodrome.\n\nNote.- See Annex 14, Volume I, Chapter 3.",
+  "text": "An aircraft known or believed to be the subject of unlawful interference or which for other reasons needs isolation from normal aerodrome activities shall be cleared to the designated isolated parking position. Where such an isolated parking position has not been designated, or if the designated position is not available, the aircraft shall be cleared to a position within the area or areas selected by prior agreement with the aerodrome authority. The taxi clearance shall specify the taxi route to be followed to the parking position. This route shall be selected with a view to minimizing any security risks to the public, other aircraft and installations at the aerodrome.\n\nNote.- See Annex 14, Volume I, Chapter 3.",
+  "source_file": "ICAO_DOC4444.md",
+  "source_path": "INT/EN/ICAO_DOC4444.md",
+  "source_sha256": "16d26bd68117dd2796b1ae8fe6e31bc8fc5c9331f768c50991606c9e040d5d63",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

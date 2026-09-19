@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.D6029.Art.3",
+  "original_id": "BR.D6029.Art.3",
+  "article_number": "3",
+  "framework_code": "D6029",
+  "jurisdiction": "BR",
+  "title": "Art. 3 — Composição da CEP",
+  "theme": "procedural",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: administrative"
+  ],
+  "content": "A CEP será integrada por sete brasileiros que preencham os requisitos de idoneidade moral, reputação ilibada e notória experiência em administração pública, designados pelo Presidente da República, para mandatos de três anos, não coincidentes, permitida uma única recondução.\n\n§ 1º A atuação no âmbito da CEP não enseja qualquer remuneração para seus membros e os trabalhos nela desenvolvidos são considerados prestação de relevante serviço público.\n\n§ 2º O Presidente terá o voto de qualidade nas deliberações da Comissão.\n\n§ 3º Os mandatos dos primeiros membros serão de um, dois e três anos, estabelecidos no decreto de designação.",
+  "text": "A CEP será integrada por sete brasileiros que preencham os requisitos de idoneidade moral, reputação ilibada e notória experiência em administração pública, designados pelo Presidente da República, para mandatos de três anos, não coincidentes, permitida uma única recondução.\n\n§ 1º A atuação no âmbito da CEP não enseja qualquer remuneração para seus membros e os trabalhos nela desenvolvidos são considerados prestação de relevante serviço público.\n\n§ 2º O Presidente terá o voto de qualidade nas deliberações da Comissão.\n\n§ 3º Os mandatos dos primeiros membros serão de um, dois e três anos, estabelecidos no decreto de designação.",
+  "source_file": "D6029_SistemaGestaoEtica.md",
+  "source_path": "BR/D6029_SistemaGestaoEtica.md",
+  "source_sha256": "f62beeb0752517bf76c5bd14032e02fbe351a37bb1cc1c9746a9324924b46141",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "CL.L20285.T1.Art.3",
+  "original_id": "CL.L20285.T1.Art.3",
+  "article_number": "3",
+  "framework_code": "L20285",
+  "jurisdiction": "CL",
+  "title": "Art. 3 — Ley 20.285, Título I, Artículo 3° – Derecho de acceso a la información",
+  "theme": "Derecho de acceso",
+  "norm_type": [
+    "right"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: right",
+    "scope: regulatory"
+  ],
+  "content": "Toda persona tiene derecho a solicitar y a recibir información de cualquier órgano de la Administración del Estado, en la forma y condiciones que establece esta ley.",
+  "text": "Toda persona tiene derecho a solicitar y a recibir información de cualquier órgano de la Administración del Estado, en la forma y condiciones que establece esta ley.",
+  "source_file": "L20285_Transparencia.md",
+  "source_path": "CL/L20285_Transparencia.md",
+  "source_sha256": "4e6f01dfa2c767c6cece0780bac8ca2be4f16984ce054b69643f19bb4f1236e8",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

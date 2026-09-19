@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.MC99.C7.Art.56",
+  "original_id": "INT.MC99.C7.Art.56",
+  "article_number": "56",
+  "framework_code": "MC99",
+  "jurisdiction": "INT",
+  "title": "Art. 56 — Montreal Convention 1999, Chapter VII - Final Clauses, Article 56 — States with more than one System of Law",
+  "theme": "Final Clauses",
+  "norm_type": [
+    "power"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: power",
+    "scope: regulatory"
+  ],
+  "content": "1. If a State has two or more territorial units in which different systems of law are applicable in relation to matters dealt with in this Convention, it may at the time of signature, ratification, acceptance, approval or accession declare that this Convention shall extend to all its territorial units or only to one or more of them and may modify this declaration by submitting another declaration at any time. 2. Any such declaration shall be notified to the Depositary and shall state expressly the territorial units to which the Convention applies. 3. In relation to a State Party which has made such a declaration: (a) references in Article 23 to \"national currency\" shall be construed as referring to the currency of the relevant territorial unit of that State; and (b) the reference in Article 28 to \"national law\" shall be construed as referring to the law of the relevant territorial unit of that State.",
+  "text": "1. If a State has two or more territorial units in which different systems of law are applicable in relation to matters dealt with in this Convention, it may at the time of signature, ratification, acceptance, approval or accession declare that this Convention shall extend to all its territorial units or only to one or more of them and may modify this declaration by submitting another declaration at any time. 2. Any such declaration shall be notified to the Depositary and shall state expressly the territorial units to which the Convention applies. 3. In relation to a State Party which has made such a declaration: (a) references in Article 23 to \"national currency\" shall be construed as referring to the currency of the relevant territorial unit of that State; and (b) the reference in Article 28 to \"national law\" shall be construed as referring to the law of the relevant territorial unit of that State.",
+  "source_file": "MC99_1999.md",
+  "source_path": "INT/EN/MC99_1999.md",
+  "source_sha256": "bc79e373bc0936102e9860635e77c9b857ef28ccbc4f2b60c23cb5b9318b84f3",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

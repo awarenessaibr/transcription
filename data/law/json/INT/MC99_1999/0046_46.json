@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.MC99.C5.Art.46",
+  "original_id": "INT.MC99.C5.Art.46",
+  "article_number": "46",
+  "framework_code": "MC99",
+  "jurisdiction": "INT",
+  "title": "Art. 46 — Montreal Convention 1999, Chapter V - Carriage by Air Performed by a Person other than the Contracting Carrier, Article 46 — Additional Jurisdiction",
+  "theme": "Carriage by Air Performed by a Person other than the Contracting Carrier",
+  "norm_type": [
+    "power"
+  ],
+  "scope": [
+    "contractual"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: power",
+    "scope: contractual"
+  ],
+  "content": "Any action for damages contemplated in Article 45 must be brought, at the option of the plaintiff, in the territory of one of the States Parties, either before a court in which an action may be brought against the contracting carrier, as provided in Article 33, or before the court having jurisdiction at the place where the actual carrier has its domicile or its principal place of business.",
+  "text": "Any action for damages contemplated in Article 45 must be brought, at the option of the plaintiff, in the territory of one of the States Parties, either before a court in which an action may be brought against the contracting carrier, as provided in Article 33, or before the court having jurisdiction at the place where the actual carrier has its domicile or its principal place of business.",
+  "source_file": "MC99_1999.md",
+  "source_path": "INT/EN/MC99_1999.md",
+  "source_sha256": "bc79e373bc0936102e9860635e77c9b857ef28ccbc4f2b60c23cb5b9318b84f3",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

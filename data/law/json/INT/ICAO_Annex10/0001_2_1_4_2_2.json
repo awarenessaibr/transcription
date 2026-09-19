@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.AN10.T4.C2.S1.P4.Art.2.1.4.2.2",
+  "original_id": "INT.AN10.T4.C2.S1.P4.Art.2.1.4.2.2",
+  "article_number": "2.1.4.2.2",
+  "framework_code": "AN10",
+  "jurisdiction": "INT",
+  "title": "Art. 2.1.4.2.2 — Annex 10 - Aeronautical Telecommunications, Volume IV (Surveillance and Collision Avoidance Systems), Chapter 2 - General, 2.1 Secondary Surveillance Radar (SSR), 2.1.4 Mode A reply codes (information pulses), 2.1.4.2.2",
+  "theme": "Annex 10",
+  "norm_type": [
+    "definition"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: definition",
+    "scope: regulatory"
+  ],
+  "content": "Code 7600 to provide recognition of an aircraft with radiocommunication failure.",
+  "text": "Code 7600 to provide recognition of an aircraft with radiocommunication failure.",
+  "source_file": "ICAO_Annex10.md",
+  "source_path": "INT/EN/ICAO_Annex10.md",
+  "source_sha256": "d9793d45e1d279eea0876178c1a78bddbbe34e7e9d4ec0ea39e977c4ccb792a1",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

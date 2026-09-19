@@ -1,0 +1,32 @@
+{
+  "id": "",
+  "eli_id": "BR.CED_OAB.Art.4",
+  "original_id": "BR.CED_OAB.Art.4",
+  "article_number": "4",
+  "framework_code": "CED_OAB",
+  "jurisdiction": "BR",
+  "title": "Art. 4 — CED_OAB",
+  "theme": "OAB Ethics Code",
+  "norm_type": [
+    "ethics"
+  ],
+  "scope": [],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: ethics"
+  ],
+  "content": "(CED 1995, Art. 4º; analog in CED 2015, Cap. II) — Advogado de empresa / departamento jurídico\n\n> \"O advogado vinculado ao cliente ou constituinte, mediante relação empregatícia ou por contrato de prestação permanente de serviços, integrante de departamento jurídico, **ou órgão de assessoria jurídica, público ou privado, deve zelar pela sua liberdade e independência**.\"\n\n**Critical for in-house counsel cases**: the in-house counsel's employment relationship with employer does not waive Estatuto Art. 31 §1 (independence) or Art. 33 (CED compliance). Advocate is personally liable under Lei 8.906 Arts. 32, 34 regardless of corporate hierarchy.",
+  "text": "(CED 1995, Art. 4º; analog in CED 2015, Cap. II) — Advogado de empresa / departamento jurídico\n\n> \"O advogado vinculado ao cliente ou constituinte, mediante relação empregatícia ou por contrato de prestação permanente de serviços, integrante de departamento jurídico, **ou órgão de assessoria jurídica, público ou privado, deve zelar pela sua liberdade e independência**.\"\n\n**Critical for in-house counsel cases**: the in-house counsel's employment relationship with employer does not waive Estatuto Art. 31 §1 (independence) or Art. 33 (CED compliance). Advocate is personally liable under Lei 8.906 Arts. 32, 34 regardless of corporate hierarchy.",
+  "source_file": "CodEtica_OAB.md",
+  "source_path": "BR/CodEtica_OAB.md",
+  "source_sha256": "863dc60af540128d352debc9fea8f4dc1b947d5549a6b3385fd617696d34b09a",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

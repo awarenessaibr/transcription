@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.IATA_GC.Art.8",
+  "original_id": "INT.IATA_GC.Art.8",
+  "article_number": "8",
+  "framework_code": "IATA_GC",
+  "jurisdiction": "INT",
+  "title": "Art. 8 — Article 8 - Refusal and Limitation of Carriage",
+  "theme": "Refusal and Limitation of Carriage",
+  "norm_type": [
+    "right"
+  ],
+  "scope": [
+    "contractual"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: right",
+    "scope: contractual"
+  ],
+  "content": "8.1 Right to Refuse Carriage\n\nCarrier may refuse carriage of any passenger or passenger's baggage for reasons of safety or if, in the exercise of its reasonable discretion, Carrier determines that:\n\n8.1.1 such action is necessary in order to comply with any applicable laws, regulations, or orders of any state or country to be flown from, into or over; or 8.1.2 the conduct, age, or mental or physical state of the passenger is such as to:\n\n8.1.2.1 require special assistance of Carrier, or 8.1.2.2 cause discomfort or make himself or herself objectionable to other passengers, or\n\n8.1.2.3 involve any hazard or risk to himself or herself or to other persons or to property; or\n\n8.1.3 such action is necessary because the passenger has failed to observe the instructions of Carrier; or\n\n8.1.4 the passenger has refused to submit to a security check; or\n\n8.1.5 the applicable fare or any charges or taxes payable have not been paid, or credit arrangements agreed between Carrier and the passenger (or the person paying for the ticket) have not been complied with; or\n\n8.1.6 the passenger does not appear to be properly documented; or\n\n8.1.7 the ticket presented by the passenger:\n\n8.1.7.1 has been acquired unlawfully or has been purchased from an entity other than the issuing Carrier or its authorized Agent, or\n\n8.1.7.2 has been reported as being lost or stolen, or\n\n8.1.7.3 is a counterfeit ticket, or\n\n8.1.7.4 any flight coupon has been altered by anyone other than Carrier or its authorized Agent, or has been mutilated, and Carrier reserves the right to retain such ticket;\n\n8.1.8 the person presenting the ticket cannot prove that he or she is the person named in the \"Name of Passenger\" box, and Carrier reserves the right to retain such tickets.\n\n8.2 Limitation on Carriage\n\nAcceptance for carriage of unaccompanied children, incapacitated persons, pregnant women or persons with illness may be subject to prior arrangement with Carrier, in accordance with Carrier's Regulations.",
+  "text": "8.1 Right to Refuse Carriage\n\nCarrier may refuse carriage of any passenger or passenger's baggage for reasons of safety or if, in the exercise of its reasonable discretion, Carrier determines that:\n\n8.1.1 such action is necessary in order to comply with any applicable laws, regulations, or orders of any state or country to be flown from, into or over; or 8.1.2 the conduct, age, or mental or physical state of the passenger is such as to:\n\n8.1.2.1 require special assistance of Carrier, or 8.1.2.2 cause discomfort or make himself or herself objectionable to other passengers, or\n\n8.1.2.3 involve any hazard or risk to himself or herself or to other persons or to property; or\n\n8.1.3 such action is necessary because the passenger has failed to observe the instructions of Carrier; or\n\n8.1.4 the passenger has refused to submit to a security check; or\n\n8.1.5 the applicable fare or any charges or taxes payable have not been paid, or credit arrangements agreed between Carrier and the passenger (or the person paying for the ticket) have not been complied with; or\n\n8.1.6 the passenger does not appear to be properly documented; or\n\n8.1.7 the ticket presented by the passenger:\n\n8.1.7.1 has been acquired unlawfully or has been purchased from an entity other than the issuing Carrier or its authorized Agent, or\n\n8.1.7.2 has been reported as being lost or stolen, or\n\n8.1.7.3 is a counterfeit ticket, or\n\n8.1.7.4 any flight coupon has been altered by anyone other than Carrier or its authorized Agent, or has been mutilated, and Carrier reserves the right to retain such ticket;\n\n8.1.8 the person presenting the ticket cannot prove that he or she is the person named in the \"Name of Passenger\" box, and Carrier reserves the right to retain such tickets.\n\n8.2 Limitation on Carriage\n\nAcceptance for carriage of unaccompanied children, incapacitated persons, pregnant women or persons with illness may be subject to prior arrangement with Carrier, in accordance with Carrier's Regulations.",
+  "source_file": "IATA_GC.md",
+  "source_path": "INT/EN/IATA_GC.md",
+  "source_sha256": "7d87bebffc10b58787bca82a7250149eadb6bdf9bd5e5daf9534c08f6d4587f5",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.R523.Anexo.C3.Art.6",
+  "original_id": "BR.R523.Anexo.C3.Art.6",
+  "article_number": "Anexo, Capítulo III, Art. 6 — Reuniões ordinárias e extraordinárias",
+  "framework_code": "R523",
+  "jurisdiction": "BR",
+  "title": "Anexo, Capítulo III, Art. 6 — Reuniões ordinárias e extraordinárias",
+  "theme": "procedural",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: administrative"
+  ],
+  "content": "A Comissão de Ética da ANAC se reunirá ordinariamente na primeira quarta-feira útil do mês e, em caráter extraordinário, por iniciativa do seu Presidente, dos seus membros ou do Secretário-Executivo.",
+  "text": "A Comissão de Ética da ANAC se reunirá ordinariamente na primeira quarta-feira útil do mês e, em caráter extraordinário, por iniciativa do seu Presidente, dos seus membros ou do Secretário-Executivo.",
+  "source_file": "R523_ANAC_ComissaoEtica.md",
+  "source_path": "BR/R523_ANAC_ComissaoEtica.md",
+  "source_sha256": "15c993247f5e4416245b4a18a738c08123282afa020d2ce8105bf8378303bbb4",
+  "language": "unknown",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

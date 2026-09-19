@@ -1,0 +1,40 @@
+{
+  "id": "",
+  "eli_id": "BR.R400.C2.S1.Art.19",
+  "original_id": "BR.R400.C2.S1.Art.19",
+  "article_number": "19",
+  "framework_code": "R400",
+  "jurisdiction": "BR",
+  "title": "Art. 19 — Resolução ANAC nº 400/2016, Capítulo II, Seção I, Art. 19",
+  "theme": "Check-in e Apresentação para Embarque",
+  "norm_type": [
+    "exemption"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [
+    "financial_penalty",
+    "license_revocation"
+  ],
+  "tags": [
+    "norm_type: exemption",
+    "scope: regulatory",
+    "sanctions: financial_penalty",
+    "sanctions: license_revocation"
+  ],
+  "content": "Art. 19. Caso o passageiro não utilize o trecho inicial nas passagens do tipo ida e volta, o transportador poderá cancelar o trecho de volta. Parágrafo único. Não se aplica a regra do caput deste artigo caso o passageiro informe, até o horário originalmente contratado para o trecho de ida do voo doméstico, que deseja utilizar o trecho de volta, sendo vedada a cobrança de multa contratual para essa finalidade.",
+  "text": "Art. 19. Caso o passageiro não utilize o trecho inicial nas passagens do tipo ida e volta, o transportador poderá cancelar o trecho de volta. Parágrafo único. Não se aplica a regra do caput deste artigo caso o passageiro informe, até o horário originalmente contratado para o trecho de ida do voo doméstico, que deseja utilizar o trecho de volta, sendo vedada a cobrança de multa contratual para essa finalidade.",
+  "source_file": "R400_ANAC.md",
+  "source_path": "BR/R400_ANAC.md",
+  "source_sha256": "3a6cbfddc7296c46f06a83537b225a0b8203532e12a91e26af7313256677b947",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

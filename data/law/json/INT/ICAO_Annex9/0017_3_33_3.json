@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.AN9.C3.S33.P3.Art.3.33.3",
+  "original_id": "INT.AN9.C3.S33.P3.Art.3.33.3",
+  "article_number": "3.33.3",
+  "framework_code": "AN9",
+  "jurisdiction": "INT",
+  "title": "Art. 3.33.3 — Annex 9 - Facilitation, Chapter 3 - Entry and Departure of Persons and Their Baggage, H. Inspection of travel documents, 3.33.3",
+  "theme": "Annex 9",
+  "norm_type": [
+    "prohibition"
+  ],
+  "scope": [
+    "contractual"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: prohibition",
+    "scope: contractual"
+  ],
+  "content": "Contracting States shall not require an aircraft operator to carry a passenger from a point of departure or transit, to the intended final destination, when the travel document presented by that passenger is determined by the State to be fraudulent, falsified or counterfeit, or is held by a person other than to whom the document was legitimately issued.\n\nNote. Nothing in this provision is to be construed so as to prevent the return of inadmissible passengers whose travel document(s) are fraudulent, falsified or counterfeit or held by an imposter, and have been seized by a Contracting State, in accordance with Standard 3.33.1 and who are travelling under a covering letter issued in accordance with Standard 5.7.",
+  "text": "Contracting States shall not require an aircraft operator to carry a passenger from a point of departure or transit, to the intended final destination, when the travel document presented by that passenger is determined by the State to be fraudulent, falsified or counterfeit, or is held by a person other than to whom the document was legitimately issued.\n\nNote. Nothing in this provision is to be construed so as to prevent the return of inadmissible passengers whose travel document(s) are fraudulent, falsified or counterfeit or held by an imposter, and have been seized by a Contracting State, in accordance with Standard 3.33.1 and who are travelling under a covering letter issued in accordance with Standard 5.7.",
+  "source_file": "ICAO_Annex9.md",
+  "source_path": "INT/EN/ICAO_Annex9.md",
+  "source_sha256": "57c4f76b6dc9787cd7e0c02eba85ac7932117bbae67da26324bd413660d10af6",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

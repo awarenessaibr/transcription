@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.MC99.C2.Art.9",
+  "original_id": "INT.MC99.C2.Art.9",
+  "article_number": "9",
+  "framework_code": "MC99",
+  "jurisdiction": "INT",
+  "title": "Art. 9 — Montreal Convention 1999, Chapter II - Documentation and Duties of the Parties Relating to the Carriage of Passengers, Baggage and Cargo, Article 9 — Non-compliance with Documentary Requirements",
+  "theme": "Documentation and Duties of the Parties",
+  "norm_type": [
+    "prohibition"
+  ],
+  "scope": [
+    "contractual"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: prohibition",
+    "scope: contractual"
+  ],
+  "content": "Non-compliance with the provisions of Articles 4 to 8 shall not affect the existence or the validity of the contract of carriage, which shall, nonetheless, be subject to the rules of this Convention including those relating to limitation of liability.",
+  "text": "Non-compliance with the provisions of Articles 4 to 8 shall not affect the existence or the validity of the contract of carriage, which shall, nonetheless, be subject to the rules of this Convention including those relating to limitation of liability.",
+  "source_file": "MC99_1999.md",
+  "source_path": "INT/EN/MC99_1999.md",
+  "source_sha256": "bc79e373bc0936102e9860635e77c9b857ef28ccbc4f2b60c23cb5b9318b84f3",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

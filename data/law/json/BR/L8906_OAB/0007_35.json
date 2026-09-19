@@ -1,0 +1,32 @@
+{
+  "id": "",
+  "eli_id": "BR.L8906_OAB.Art.35",
+  "original_id": "BR.L8906_OAB.Art.35",
+  "article_number": "35",
+  "framework_code": "L8906_OAB",
+  "jurisdiction": "BR",
+  "title": "Art. 35 — L8906_OAB",
+  "theme": "OAB Statute",
+  "norm_type": [
+    "statute"
+  ],
+  "scope": [],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: statute"
+  ],
+  "content": "As sanções disciplinares consistem em:\n- I — censura;\n- II — suspensão;\n- III — exclusão;\n- IV — multa.\n\nParágrafo único. As sanções devem constar dos assentamentos do inscrito, após o trânsito em julgado da decisão, não podendo ser objeto de publicidade a de censura.",
+  "text": "As sanções disciplinares consistem em:\n- I — censura;\n- II — suspensão;\n- III — exclusão;\n- IV — multa.\n\nParágrafo único. As sanções devem constar dos assentamentos do inscrito, após o trânsito em julgado da decisão, não podendo ser objeto de publicidade a de censura.",
+  "source_file": "L8906_OAB.md",
+  "source_path": "BR/L8906_OAB.md",
+  "source_sha256": "76d070c147dbc6cc88a43babf9ebf413652f9a396c8458b496a7fe5340f93f7b",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

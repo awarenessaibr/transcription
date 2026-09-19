@@ -1,0 +1,38 @@
+{
+  "id": "",
+  "eli_id": "BR.CBA.T6.C4.Art.210",
+  "original_id": "BR.CBA.T6.C4.Art.210",
+  "article_number": "210",
+  "framework_code": "CBA",
+  "jurisdiction": "BR",
+  "title": "Art. 210 — CBA Title VI, Chapter IV, Article 210 – Revocation of Foreign Company Authorization",
+  "theme": "International Law Application",
+  "norm_type": [
+    "power"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [
+    "suspension"
+  ],
+  "tags": [
+    "norm_type: power",
+    "scope: regulatory",
+    "sanctions: suspension"
+  ],
+  "content": "Art. 210. A autorização à empresa estrangeira para funcionar no Brasil, de que trata o artigo 206, poderá ser cassada: I - em caso de falência; II - se os serviços forem suspensos, pela própria empresa, por período excedente a 6 (seis) meses; III - nos casos previstos no decreto de autorização ou no respectivo Acordo Bilateral; IV - nos casos previstos em lei (artigo 298).",
+  "text": "Art. 210. A autorização à empresa estrangeira para funcionar no Brasil, de que trata o artigo 206, poderá ser cassada: I - em caso de falência; II - se os serviços forem suspensos, pela própria empresa, por período excedente a 6 (seis) meses; III - nos casos previstos no decreto de autorização ou no respectivo Acordo Bilateral; IV - nos casos previstos em lei (artigo 298).",
+  "source_file": "L7565_CBA.md",
+  "source_path": "BR/L7565_CBA.md",
+  "source_sha256": "4ed35a5b7f1951bbcaed63377ffdb3e8cb1ff9f2f9f8a735e844b46cb3ce0931",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

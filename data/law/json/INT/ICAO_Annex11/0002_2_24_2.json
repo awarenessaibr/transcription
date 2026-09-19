@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.AN11.C2.S24.P2.Art.2.24.2",
+  "original_id": "INT.AN11.C2.S24.P2.Art.2.24.2",
+  "article_number": "2.24.2",
+  "framework_code": "AN11",
+  "jurisdiction": "INT",
+  "title": "Art. 2.24.2 — Annex 11 - Air Traffic Services, Chapter 2 - General, 2.24 Service to aircraft in the event of an emergency, 2.24.2",
+  "theme": "Annex 11",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: regulatory"
+  ],
+  "content": "When an occurrence of unlawful interference with an aircraft takes place or is suspected, ATS units shall attend promptly to requests by the aircraft. Information pertinent to the safe conduct of the flight shall continue to be transmitted and necessary action shall be taken to expedite the conduct of all phases of the flight, especially the safe landing of the aircraft.",
+  "text": "When an occurrence of unlawful interference with an aircraft takes place or is suspected, ATS units shall attend promptly to requests by the aircraft. Information pertinent to the safe conduct of the flight shall continue to be transmitted and necessary action shall be taken to expedite the conduct of all phases of the flight, especially the safe landing of the aircraft.",
+  "source_file": "ICAO_Annex11.md",
+  "source_path": "INT/EN/ICAO_Annex11.md",
+  "source_sha256": "b244ad52167fd1b657460c23157eb06b9a864895cea71a11865de1857e88f4b0",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.D6029.Art.19",
+  "original_id": "BR.D6029.Art.19",
+  "article_number": "19",
+  "framework_code": "D6029",
+  "jurisdiction": "BR",
+  "title": "Art. 19 — Prioridade dos trabalhos nas Comissões",
+  "theme": "procedural",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: administrative"
+  ],
+  "content": "Os trabalhos nas Comissões de Ética de que tratam os incisos II e III do art. 2º são considerados relevantes e têm prioridade sobre as atribuições próprias dos cargos dos seus membros, quando estes não atuarem com exclusividade na Comissão.",
+  "text": "Os trabalhos nas Comissões de Ética de que tratam os incisos II e III do art. 2º são considerados relevantes e têm prioridade sobre as atribuições próprias dos cargos dos seus membros, quando estes não atuarem com exclusividade na Comissão.",
+  "source_file": "D6029_SistemaGestaoEtica.md",
+  "source_path": "BR/D6029_SistemaGestaoEtica.md",
+  "source_sha256": "f62beeb0752517bf76c5bd14032e02fbe351a37bb1cc1c9746a9324924b46141",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

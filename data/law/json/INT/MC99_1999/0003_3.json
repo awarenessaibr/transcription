@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.MC99.C2.Art.3",
+  "original_id": "INT.MC99.C2.Art.3",
+  "article_number": "3",
+  "framework_code": "MC99",
+  "jurisdiction": "INT",
+  "title": "Art. 3 — Montreal Convention 1999, Chapter II - Documentation and Duties of the Parties Relating to the Carriage of Passengers, Baggage and Cargo, Article 3 — Passengers and Baggage",
+  "theme": "Documentation and Duties of the Parties",
+  "norm_type": [
+    "prohibition"
+  ],
+  "scope": [
+    "contractual"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: prohibition",
+    "scope: contractual"
+  ],
+  "content": "1. In respect of carriage of passengers, an individual or collective document of carriage shall be delivered containing: (a) an indication of the places of departure and destination; (b) if the places of departure and destination are within the territory of a single State Party, one or more agreed stopping places being within the territory of another State, an indication of at least one such stopping place. 2. Any other means which preserves the information indicated in paragraph 1 may be substituted for the delivery of the document referred to in that paragraph. If any such other means is used, the carrier shall offer to deliver to the passenger a written statement of the information so preserved. 3. The carrier shall deliver to the passenger a baggage identification tag for each piece of checked baggage. 4. The passenger shall be given written notice to the effect that where this Convention is applicable it governs and may limit the liability of carriers in respect of death or injury and for destruction or loss of, or damage to, baggage, and for delay. 5. Non-compliance with the provisions of the foregoing paragraphs shall not affect the existence or the validity of the contract of carriage, which shall, nonetheless, be subject to the rules of this Convention including those relating to limitation of liability.",
+  "text": "1. In respect of carriage of passengers, an individual or collective document of carriage shall be delivered containing: (a) an indication of the places of departure and destination; (b) if the places of departure and destination are within the territory of a single State Party, one or more agreed stopping places being within the territory of another State, an indication of at least one such stopping place. 2. Any other means which preserves the information indicated in paragraph 1 may be substituted for the delivery of the document referred to in that paragraph. If any such other means is used, the carrier shall offer to deliver to the passenger a written statement of the information so preserved. 3. The carrier shall deliver to the passenger a baggage identification tag for each piece of checked baggage. 4. The passenger shall be given written notice to the effect that where this Convention is applicable it governs and may limit the liability of carriers in respect of death or injury and for destruction or loss of, or damage to, baggage, and for delay. 5. Non-compliance with the provisions of the foregoing paragraphs shall not affect the existence or the validity of the contract of carriage, which shall, nonetheless, be subject to the rules of this Convention including those relating to limitation of liability.",
+  "source_file": "MC99_1999.md",
+  "source_path": "INT/EN/MC99_1999.md",
+  "source_sha256": "bc79e373bc0936102e9860635e77c9b857ef28ccbc4f2b60c23cb5b9318b84f3",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

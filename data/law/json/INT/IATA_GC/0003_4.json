@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.IATA_GC.Art.4",
+  "original_id": "INT.IATA_GC.Art.4",
+  "article_number": "4",
+  "framework_code": "IATA_GC",
+  "jurisdiction": "INT",
+  "title": "Art. 4 — Article 4 - Stopovers",
+  "theme": "Stopovers",
+  "norm_type": [
+    "power"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: power",
+    "scope: regulatory"
+  ],
+  "content": "Stopovers may be permitted at agreed stopping places subject to government requirements and Carrier's Regulations.",
+  "text": "Stopovers may be permitted at agreed stopping places subject to government requirements and Carrier's Regulations.",
+  "source_file": "IATA_GC.md",
+  "source_path": "INT/EN/IATA_GC.md",
+  "source_sha256": "7d87bebffc10b58787bca82a7250149eadb6bdf9bd5e5daf9534c08f6d4587f5",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

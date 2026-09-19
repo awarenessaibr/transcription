@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.DOC4444.C15.S1.P3.Art.15.1.3.3.1",
+  "original_id": "INT.DOC4444.C15.S1.P3.Art.15.1.3.3.1",
+  "article_number": "15.1.3.3.1",
+  "framework_code": "DOC4444",
+  "jurisdiction": "INT",
+  "title": "Art. 15.1.3.3.1 — Procedures for Air Navigation Services - Air Traffic Management (Doc 4444), Chapter 15 - Procedures Related to Emergencies, Communication Failure and Contingencies, 15.1 Emergency Procedures, 15.1.3 Unlawful interference and aircraft bomb threat, 15.1.3.3.1",
+  "theme": "Doc 4444",
+  "norm_type": [
+    "definition"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: definition",
+    "scope: regulatory"
+  ],
+  "content": "ATS units shall also:\n\na) transmit, and continue to transmit, information pertinent to the safe conduct of the flight, without expecting a reply from the aircraft;\nb) monitor and plot the progress of the flight with the means available, and coordinate transfer of control with adjacent ATS units without requiring transmissions or other responses from the aircraft, unless communication with the aircraft remains normal;\nc) inform, and continue to keep informed, appropriate ATS units, including those in adjacent FIRs, which may be concerned with the progress of the flight;\n\nNote. In applying this provision, account must be taken of all the factors which may affect the progress of the flight, including fuel endurance and the possibility of sudden changes in route and destination. The objective is to provide, as far in advance as is practicable in the circumstances, each ATS unit with appropriate information as to the expected or possible penetration of the aircraft into its area of responsibility.\n\nd) notify:\n1) the operator or its designated representative;\n2) the appropriate rescue coordination centre in accordance with appropriate alerting procedures;\n3) the appropriate authority designated by the State;\n\nNote. It is assumed that the designated security authority and/or the operator will in turn notify other parties concerned in accordance with pre-established procedures.\n\ne) relay appropriate messages, relating to the circumstances associated with the unlawful interference, between the aircraft and designated authorities.\n\nNote. These messages include, but are not limited to: initial messages declaring an incident; update messages on an existing incident; messages containing decisions made by appropriate decision makers; messages on transfer of responsibility; messages on acceptance of responsibility; messages indicating that an entity is no longer involved in an incident; and messages closing an incident.",
+  "text": "ATS units shall also:\n\na) transmit, and continue to transmit, information pertinent to the safe conduct of the flight, without expecting a reply from the aircraft;\nb) monitor and plot the progress of the flight with the means available, and coordinate transfer of control with adjacent ATS units without requiring transmissions or other responses from the aircraft, unless communication with the aircraft remains normal;\nc) inform, and continue to keep informed, appropriate ATS units, including those in adjacent FIRs, which may be concerned with the progress of the flight;\n\nNote. In applying this provision, account must be taken of all the factors which may affect the progress of the flight, including fuel endurance and the possibility of sudden changes in route and destination. The objective is to provide, as far in advance as is practicable in the circumstances, each ATS unit with appropriate information as to the expected or possible penetration of the aircraft into its area of responsibility.\n\nd) notify:\n1) the operator or its designated representative;\n2) the appropriate rescue coordination centre in accordance with appropriate alerting procedures;\n3) the appropriate authority designated by the State;\n\nNote. It is assumed that the designated security authority and/or the operator will in turn notify other parties concerned in accordance with pre-established procedures.\n\ne) relay appropriate messages, relating to the circumstances associated with the unlawful interference, between the aircraft and designated authorities.\n\nNote. These messages include, but are not limited to: initial messages declaring an incident; update messages on an existing incident; messages containing decisions made by appropriate decision makers; messages on transfer of responsibility; messages on acceptance of responsibility; messages indicating that an entity is no longer involved in an incident; and messages closing an incident.",
+  "source_file": "ICAO_DOC4444.md",
+  "source_path": "INT/EN/ICAO_DOC4444.md",
+  "source_sha256": "16d26bd68117dd2796b1ae8fe6e31bc8fc5c9331f768c50991606c9e040d5d63",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

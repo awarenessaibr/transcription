@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.ABEAR_PCD.Art.1",
+  "original_id": "BR.ABEAR_PCD.Art.1",
+  "article_number": "1",
+  "framework_code": "ABEAR_PCD",
+  "jurisdiction": "BR",
+  "title": "Art. 1 — Objetivo",
+  "theme": "duty",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: administrative"
+  ],
+  "content": "Esta Política estabelece os procedimentos para a aquisição de bens e serviços e a formalização de contratos de prestação de serviços, visando a atender às necessidades da ABEAR no desempenho de suas atividades. Toda a aquisição de materiais de consumo, bens, obras e serviços obedecerá aos princípios básicos de moralidade, economicidade e qualidade. A compra/contratação somente será autorizada após a aprovação do Diretor/Responsável da área solicitante e a formalização da Diretoria Administrativa Financeira e Compliance.\n\nEsta Política também visa a estabelecer as diretrizes e responsabilidades para a Due Diligence de Fornecedores contratados ou que venham a ser contratados pela Associação Brasileira das Empresas Aéreas – ABEAR, visando à mitigação dos riscos envolvidos em suas relações comerciais.",
+  "text": "Esta Política estabelece os procedimentos para a aquisição de bens e serviços e a formalização de contratos de prestação de serviços, visando a atender às necessidades da ABEAR no desempenho de suas atividades. Toda a aquisição de materiais de consumo, bens, obras e serviços obedecerá aos princípios básicos de moralidade, economicidade e qualidade. A compra/contratação somente será autorizada após a aprovação do Diretor/Responsável da área solicitante e a formalização da Diretoria Administrativa Financeira e Compliance.\n\nEsta Política também visa a estabelecer as diretrizes e responsabilidades para a Due Diligence de Fornecedores contratados ou que venham a ser contratados pela Associação Brasileira das Empresas Aéreas – ABEAR, visando à mitigação dos riscos envolvidos em suas relações comerciais.",
+  "source_file": "ABEAR_PoliticaComprasDueDiligence.md",
+  "source_path": "BR/ABEAR_PoliticaComprasDueDiligence.md",
+  "source_sha256": "b4d2a93059bf7053051ad083fdb5465ae42fefc31dc21a8fe2a3cb6252211914",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

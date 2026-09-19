@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.CBA.T8.C1.Art.252",
+  "original_id": "BR.CBA.T8.C1.Art.252",
+  "article_number": "252",
+  "framework_code": "CBA",
+  "jurisdiction": "BR",
+  "title": "Art. 252 — CBA Title VIII, Chapter I, Article 252 – Qualification Period for Compensation",
+  "theme": "Liability and Exemptions",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: regulatory"
+  ],
+  "content": "Art. 252. No prazo de 30 (trinta) dias, a partir das datas previstas no artigo 317, I, II, III e IV, deste Código, o interessado deverá habilitar-se ao recebimento da respectiva indenização.",
+  "text": "Art. 252. No prazo de 30 (trinta) dias, a partir das datas previstas no artigo 317, I, II, III e IV, deste Código, o interessado deverá habilitar-se ao recebimento da respectiva indenização.",
+  "source_file": "L7565_CBA.md",
+  "source_path": "BR/L7565_CBA.md",
+  "source_sha256": "4ed35a5b7f1951bbcaed63377ffdb3e8cb1ff9f2f9f8a735e844b46cb3ce0931",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

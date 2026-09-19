@@ -1,0 +1,32 @@
+{
+  "id": "",
+  "eli_id": "BR.L8906_OAB.Art.31",
+  "original_id": "BR.L8906_OAB.Art.31",
+  "article_number": "31",
+  "framework_code": "L8906_OAB",
+  "jurisdiction": "BR",
+  "title": "Art. 31 — L8906_OAB",
+  "theme": "OAB Statute",
+  "norm_type": [
+    "statute"
+  ],
+  "scope": [],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: statute"
+  ],
+  "content": "O advogado deve proceder de forma que o torne merecedor de respeito e que contribua para o prestígio da classe e da advocacia.\n\n§ 1º O advogado, no exercício da profissão, deve manter independência em qualquer circunstância.\n\n§ 2º Nenhum receio de desagradar a magistrado ou a qualquer autoridade, nem de incorrer em impopularidade, deve deter o advogado no exercício da profissão.",
+  "text": "O advogado deve proceder de forma que o torne merecedor de respeito e que contribua para o prestígio da classe e da advocacia.\n\n§ 1º O advogado, no exercício da profissão, deve manter independência em qualquer circunstância.\n\n§ 2º Nenhum receio de desagradar a magistrado ou a qualquer autoridade, nem de incorrer em impopularidade, deve deter o advogado no exercício da profissão.",
+  "source_file": "L8906_OAB.md",
+  "source_path": "BR/L8906_OAB.md",
+  "source_sha256": "76d070c147dbc6cc88a43babf9ebf413652f9a396c8458b496a7fe5340f93f7b",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

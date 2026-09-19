@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.AN9.C3.S2.Art.3.2",
+  "original_id": "INT.AN9.C3.S2.Art.3.2",
+  "article_number": "3.2",
+  "framework_code": "AN9",
+  "jurisdiction": "INT",
+  "title": "Art. 3.2 — Annex 9 - Facilitation, Chapter 3 - Entry and Departure of Persons and Their Baggage, A. General, 3.2",
+  "theme": "Annex 9",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "contractual"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: contractual"
+  ],
+  "content": "In developing procedures aimed at the efficient application of border controls on passengers and crew, Contracting States shall take into account the application of aviation security, border integrity, narcotics control and immigration control measures, where appropriate.",
+  "text": "In developing procedures aimed at the efficient application of border controls on passengers and crew, Contracting States shall take into account the application of aviation security, border integrity, narcotics control and immigration control measures, where appropriate.",
+  "source_file": "ICAO_Annex9.md",
+  "source_path": "INT/EN/ICAO_Annex9.md",
+  "source_sha256": "57c4f76b6dc9787cd7e0c02eba85ac7932117bbae67da26324bd413660d10af6",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

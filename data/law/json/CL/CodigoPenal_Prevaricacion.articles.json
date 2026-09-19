@@ -1,0 +1,412 @@
+{
+  "source_file": "CodigoPenal_Prevaricacion.md",
+  "source_path": "CL/CodigoPenal_Prevaricacion.md",
+  "jurisdiction": "CL",
+  "format": "structured_heading",
+  "metadata": {},
+  "article_count": 10,
+  "payloads": [
+    {
+      "id": "",
+      "eli_id": "CL.CPCL.C1.Art.223",
+      "original_id": "CL.CPCL.C1.Art.223",
+      "article_number": "223",
+      "framework_code": "CPCL",
+      "jurisdiction": "CL",
+      "title": "Art. 223 — Prevaricación – Jueces y fiscales judiciales",
+      "theme": "Criminal Law – Prevaricación",
+      "norm_type": [
+        "penalty"
+      ],
+      "scope": [
+        "criminal"
+      ],
+      "direction": null,
+      "sanctions": [
+        "criminal_liability",
+        "disqualification"
+      ],
+      "tags": [
+        "norm_type: penalty",
+        "scope: criminal",
+        "sanctions: criminal_liability",
+        "sanctions: disqualification"
+      ],
+      "content": "> **BCN amendment note:** LEY 19806 Art. 1 D.O. 31.05.2002\n\nLos miembros de los tribunales de justicia colegiados o unipersonales y los fiscales judiciales, sufrirán las penas de inhabilitación absoluta perpetua para cargos y oficios públicos, derechos políticos y profesiones titulares y la de presidio o reclusión menores en cualesquiera de sus grados:\n\n1º Cuando a sabiendas fallaren contra ley expresa y vigente en causa criminal o civil.  \n2º Suprimido.  \n3º Cuando ejerciendo las funciones de su empleo o valiéndose del poder que éste les da, seduzcan o soliciten a persona imputada o que litigue ante ellos.\n\n**Source:** [BCN Ley Chile — Código Penal, § IV Prevaricación](https://bcn.cl/gdyHI3)",
+      "text": "> **BCN amendment note:** LEY 19806 Art. 1 D.O. 31.05.2002\n\nLos miembros de los tribunales de justicia colegiados o unipersonales y los fiscales judiciales, sufrirán las penas de inhabilitación absoluta perpetua para cargos y oficios públicos, derechos políticos y profesiones titulares y la de presidio o reclusión menores en cualesquiera de sus grados:\n\n1º Cuando a sabiendas fallaren contra ley expresa y vigente en causa criminal o civil.  \n2º Suprimido.  \n3º Cuando ejerciendo las funciones de su empleo o valiéndose del poder que éste les da, seduzcan o soliciten a persona imputada o que litigue ante ellos.\n\n**Source:** [BCN Ley Chile — Código Penal, § IV Prevaricación](https://bcn.cl/gdyHI3)",
+      "source_file": "CodigoPenal_Prevaricacion.md",
+      "source_path": "CL/CodigoPenal_Prevaricacion.md",
+      "source_sha256": "921c577cd53a80bf34dad970a21d9f70a3bbd4462816ebc1865734f158780557",
+      "language": "pt",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "CL.CPCL.C1.Art.224",
+      "original_id": "CL.CPCL.C1.Art.224",
+      "article_number": "224",
+      "framework_code": "CPCL",
+      "jurisdiction": "CL",
+      "title": "Art. 224 — Prevaricación – Penas y causales",
+      "theme": "Criminal Law – Prevaricación",
+      "norm_type": [
+        "penalty"
+      ],
+      "scope": [
+        "criminal"
+      ],
+      "direction": null,
+      "sanctions": [
+        "criminal_liability",
+        "disqualification"
+      ],
+      "tags": [
+        "norm_type: penalty",
+        "scope: criminal",
+        "sanctions: criminal_liability",
+        "sanctions: disqualification"
+      ],
+      "content": "> **BCN amendment note:** Ley 21121 Art. 1 Nº 3 D.O. 20.11.2018  \n> **BCN amendment note:** LEY 19806 Art. 1 D.O. 31.05.2002\n\nSufrirán las penas de inhabilitación absoluta temporal para cargos y oficios públicos en cualquiera de sus grados y la de presidio o reclusión menores en sus grados mínimos a medios:\n\n1º Cuando por negligencia o ignorancia inexcusables dictaren sentencia manifiestamente injusta en causa criminal.  \n2º Cuando a sabiendas contravinieren a las leyes que reglan la sustanciación de los juicios, en términos de producir nulidad en todo o en parte sustancial.  \n3º Cuando maliciosamente nieguen o retarden la administración de justicia y el auxilio o protección que legalmente se les pida.  \n4º Cuando maliciosamente omitan decretar la prisión de alguna persona, habiendo motivo legal para ello, o no lleven a efecto la decretada, pudiendo hacerlo.  \n5º Cuando maliciosamente retuvieren en calidad de preso a un individuo que debiera ser puesto en libertad con arreglo a la ley.  \n6° Cuando revelen los secretos del juicio o den auxilio o consejo a cualquiera de las partes interesadas en él, en perjuicio de la contraria.  \n7° Cuando con manifiesta implicancia, que les sea conocida y sin haberla hecho saber previamente a las partes, fallaren en causa criminal o civil.\n\n**Source:** [BCN Ley Chile — Código Penal, § IV Prevaricación](https://bcn.cl/gdyHI3)",
+      "text": "> **BCN amendment note:** Ley 21121 Art. 1 Nº 3 D.O. 20.11.2018  \n> **BCN amendment note:** LEY 19806 Art. 1 D.O. 31.05.2002\n\nSufrirán las penas de inhabilitación absoluta temporal para cargos y oficios públicos en cualquiera de sus grados y la de presidio o reclusión menores en sus grados mínimos a medios:\n\n1º Cuando por negligencia o ignorancia inexcusables dictaren sentencia manifiestamente injusta en causa criminal.  \n2º Cuando a sabiendas contravinieren a las leyes que reglan la sustanciación de los juicios, en términos de producir nulidad en todo o en parte sustancial.  \n3º Cuando maliciosamente nieguen o retarden la administración de justicia y el auxilio o protección que legalmente se les pida.  \n4º Cuando maliciosamente omitan decretar la prisión de alguna persona, habiendo motivo legal para ello, o no lleven a efecto la decretada, pudiendo hacerlo.  \n5º Cuando maliciosamente retuvieren en calidad de preso a un individuo que debiera ser puesto en libertad con arreglo a la ley.  \n6° Cuando revelen los secretos del juicio o den auxilio o consejo a cualquiera de las partes interesadas en él, en perjuicio de la contraria.  \n7° Cuando con manifiesta implicancia, que les sea conocida y sin haberla hecho saber previamente a las partes, fallaren en causa criminal o civil.\n\n**Source:** [BCN Ley Chile — Código Penal, § IV Prevaricación](https://bcn.cl/gdyHI3)",
+      "source_file": "CodigoPenal_Prevaricacion.md",
+      "source_path": "CL/CodigoPenal_Prevaricacion.md",
+      "source_sha256": "921c577cd53a80bf34dad970a21d9f70a3bbd4462816ebc1865734f158780557",
+      "language": "es",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "CL.CPCL.C1.Art.225",
+      "original_id": "CL.CPCL.C1.Art.225",
+      "article_number": "225",
+      "framework_code": "CPCL",
+      "jurisdiction": "CL",
+      "title": "Art. 225 — Prevaricación – Negligencia o ignorancia inexcusables",
+      "theme": "Criminal Law – Prevaricación",
+      "norm_type": [
+        "penalty"
+      ],
+      "scope": [
+        "criminal"
+      ],
+      "direction": null,
+      "sanctions": [
+        "suspension",
+        "financial_penalty"
+      ],
+      "tags": [
+        "norm_type: penalty",
+        "scope: criminal",
+        "sanctions: suspension",
+        "sanctions: financial_penalty"
+      ],
+      "content": "> **BCN amendment note:** LEY 19450 Art. 1 i) D.O. 18.03.1996\n\nIncurrirán en las penas de suspensión de cargo o empleo en cualquiera de sus grados y multa de once a veinte unidades tributarias mensuales o solo en esta última, cuando por negligencia o ignorancia inexcusables:\n\n1.° Dictaren sentencia manifiestamente injusta en causa civil.  \n2° Contravinieren a las leyes que reglan la sustanciación de los juicios en términos de producir nulidad en todo o en parte sustancial.  \n3° Negaren o retardaren la administración de justicia y el auxilio o protección que legalmente se les pida.  \n4° Omitieren decretar la prisión de alguna persona, habiendo motivo legal para ello, o no llevaren a efecto la decretada, pudiendo hacerlo.  \n5° Retuvieren preso por más de cuarenta y ocho horas a un individuo que debiera ser puesto en libertad con arreglo a la ley.\n\n**Source:** [BCN Ley Chile — Código Penal, § IV Prevaricación](https://bcn.cl/gdyHI3)",
+      "text": "> **BCN amendment note:** LEY 19450 Art. 1 i) D.O. 18.03.1996\n\nIncurrirán en las penas de suspensión de cargo o empleo en cualquiera de sus grados y multa de once a veinte unidades tributarias mensuales o solo en esta última, cuando por negligencia o ignorancia inexcusables:\n\n1.° Dictaren sentencia manifiestamente injusta en causa civil.  \n2° Contravinieren a las leyes que reglan la sustanciación de los juicios en términos de producir nulidad en todo o en parte sustancial.  \n3° Negaren o retardaren la administración de justicia y el auxilio o protección que legalmente se les pida.  \n4° Omitieren decretar la prisión de alguna persona, habiendo motivo legal para ello, o no llevaren a efecto la decretada, pudiendo hacerlo.  \n5° Retuvieren preso por más de cuarenta y ocho horas a un individuo que debiera ser puesto en libertad con arreglo a la ley.\n\n**Source:** [BCN Ley Chile — Código Penal, § IV Prevaricación](https://bcn.cl/gdyHI3)",
+      "source_file": "CodigoPenal_Prevaricacion.md",
+      "source_path": "CL/CodigoPenal_Prevaricacion.md",
+      "source_sha256": "921c577cd53a80bf34dad970a21d9f70a3bbd4462816ebc1865734f158780557",
+      "language": "es",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "CL.CPCL.C1.Art.226",
+      "original_id": "CL.CPCL.C1.Art.226",
+      "article_number": "226",
+      "framework_code": "CPCL",
+      "jurisdiction": "CL",
+      "title": "Art. 226 — Prevaricación – Incumplimiento de órdenes superiores",
+      "theme": "Criminal Law – Prevaricación",
+      "norm_type": [
+        "penalty"
+      ],
+      "scope": [
+        "criminal"
+      ],
+      "direction": null,
+      "sanctions": [
+        "criminal_liability",
+        "disqualification"
+      ],
+      "tags": [
+        "norm_type: penalty",
+        "scope: criminal",
+        "sanctions: criminal_liability",
+        "sanctions: disqualification"
+      ],
+      "content": "En las mismas penas incurrirán cuando no cumplan las órdenes que legalmente se les comuniquen por las autoridades superiores competentes, a menos de ser evidentemente contrarias a las leyes, o que haya motivo fundado para dudar de su autenticidad, o que aparezca que se han obtenido por engaño o se tema con razón que de su ejecución resulten graves males que el superior no pudo prever.\n\nEn estos casos el tribunal, suspendiendo el cumplimiento de la orden, representará inmediatamente a la autoridad superior las razones de la suspensión, y si ésta insistiere, le dará cumplimiento, libertándose así de responsabilidad, que recaerá sobre el que la mandó cumplir.\n\n**Source:** [BCN Ley Chile — Código Penal, § IV Prevaricación](https://bcn.cl/gdyHI3)",
+      "text": "En las mismas penas incurrirán cuando no cumplan las órdenes que legalmente se les comuniquen por las autoridades superiores competentes, a menos de ser evidentemente contrarias a las leyes, o que haya motivo fundado para dudar de su autenticidad, o que aparezca que se han obtenido por engaño o se tema con razón que de su ejecución resulten graves males que el superior no pudo prever.\n\nEn estos casos el tribunal, suspendiendo el cumplimiento de la orden, representará inmediatamente a la autoridad superior las razones de la suspensión, y si ésta insistiere, le dará cumplimiento, libertándose así de responsabilidad, que recaerá sobre el que la mandó cumplir.\n\n**Source:** [BCN Ley Chile — Código Penal, § IV Prevaricación](https://bcn.cl/gdyHI3)",
+      "source_file": "CodigoPenal_Prevaricacion.md",
+      "source_path": "CL/CodigoPenal_Prevaricacion.md",
+      "source_sha256": "921c577cd53a80bf34dad970a21d9f70a3bbd4462816ebc1865734f158780557",
+      "language": "es",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "CL.CPCL.C1.Art.227",
+      "original_id": "CL.CPCL.C1.Art.227",
+      "article_number": "227",
+      "framework_code": "CPCL",
+      "jurisdiction": "CL",
+      "title": "Art. 227 — Prevaricación – Aplicación a otros cargos y personas",
+      "theme": "Criminal Law – Prevaricación",
+      "norm_type": [
+        "penalty"
+      ],
+      "scope": [
+        "criminal"
+      ],
+      "direction": null,
+      "sanctions": [
+        "criminal_liability",
+        "disqualification"
+      ],
+      "tags": [
+        "norm_type: penalty",
+        "scope: criminal",
+        "sanctions: criminal_liability",
+        "sanctions: disqualification"
+      ],
+      "content": "Se aplicarán respectivamente las penas determinadas en los artículos precedentes:\n\n1.° A las personas que, desempeñando por ministerio de la ley los cargos de miembros de los tribunales de justicia colegiados o unipersonales, fueren condenadas por alguno de los crímenes o simples delitos enumerados en dichos artículos.\n\n> **BCN amendment note:** LEY 19806 Art. 1 D.O. 31.05.2002\n\n3.° A los compromisarios, peritos y otras personas que, ejerciendo atribuciones análogas, derivadas de la ley, del tribunal o del nombramiento de las partes, se hallaren en idénticos casos.\n\n> **Nota de transcripción:** el PDF proporcionado enumera 1.° y luego 3.° en este artículo; se conserva la numeración visible.\n\n**Source:** [BCN Ley Chile — Código Penal, § IV Prevaricación](https://bcn.cl/gdyHI3)",
+      "text": "Se aplicarán respectivamente las penas determinadas en los artículos precedentes:\n\n1.° A las personas que, desempeñando por ministerio de la ley los cargos de miembros de los tribunales de justicia colegiados o unipersonales, fueren condenadas por alguno de los crímenes o simples delitos enumerados en dichos artículos.\n\n> **BCN amendment note:** LEY 19806 Art. 1 D.O. 31.05.2002\n\n3.° A los compromisarios, peritos y otras personas que, ejerciendo atribuciones análogas, derivadas de la ley, del tribunal o del nombramiento de las partes, se hallaren en idénticos casos.\n\n> **Nota de transcripción:** el PDF proporcionado enumera 1.° y luego 3.° en este artículo; se conserva la numeración visible.\n\n**Source:** [BCN Ley Chile — Código Penal, § IV Prevaricación](https://bcn.cl/gdyHI3)",
+      "source_file": "CodigoPenal_Prevaricacion.md",
+      "source_path": "CL/CodigoPenal_Prevaricacion.md",
+      "source_sha256": "921c577cd53a80bf34dad970a21d9f70a3bbd4462816ebc1865734f158780557",
+      "language": "es",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "CL.CPCL.C1.Art.228",
+      "original_id": "CL.CPCL.C1.Art.228",
+      "article_number": "228",
+      "framework_code": "CPCL",
+      "jurisdiction": "CL",
+      "title": "Art. 228 — Prevaricación – Empleado público no judicial",
+      "theme": "Criminal Law – Prevaricación",
+      "norm_type": [
+        "penalty"
+      ],
+      "scope": [
+        "administrative"
+      ],
+      "direction": null,
+      "sanctions": [
+        "suspension",
+        "financial_penalty"
+      ],
+      "tags": [
+        "norm_type: penalty",
+        "scope: administrative",
+        "sanctions: suspension",
+        "sanctions: financial_penalty"
+      ],
+      "content": "El que, desempeñando un empleo público no perteneciente al orden judicial, dictare a sabiendas providencia o resolución manifiestamente injusta en negocio contencioso-administrativo o meramente administrativo, incurrirá en las penas de suspensión del empleo en su grado medio y multa de once a quince unidades tributarias mensuales.\n\n> **BCN amendment note:** LEY 19450 Art. 1 h) D.O. 18.03.1996  \n> **BCN amendment note:** LEY 19450 Art. 1 d) D.O. 18.03.1996\n\n**Source:** [BCN Ley Chile — Código Penal, § IV Prevaricación](https://bcn.cl/gdyHI3)",
+      "text": "El que, desempeñando un empleo público no perteneciente al orden judicial, dictare a sabiendas providencia o resolución manifiestamente injusta en negocio contencioso-administrativo o meramente administrativo, incurrirá en las penas de suspensión del empleo en su grado medio y multa de once a quince unidades tributarias mensuales.\n\n> **BCN amendment note:** LEY 19450 Art. 1 h) D.O. 18.03.1996  \n> **BCN amendment note:** LEY 19450 Art. 1 d) D.O. 18.03.1996\n\n**Source:** [BCN Ley Chile — Código Penal, § IV Prevaricación](https://bcn.cl/gdyHI3)",
+      "source_file": "CodigoPenal_Prevaricacion.md",
+      "source_path": "CL/CodigoPenal_Prevaricacion.md",
+      "source_sha256": "921c577cd53a80bf34dad970a21d9f70a3bbd4462816ebc1865734f158780557",
+      "language": "es",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "CL.CPCL.C1.Art.229",
+      "original_id": "CL.CPCL.C1.Art.229",
+      "article_number": "229",
+      "framework_code": "CPCL",
+      "jurisdiction": "CL",
+      "title": "Art. 229 — Prevaricación – Omisión de persecución o aprehensión",
+      "theme": "Criminal Law – Prevaricación",
+      "norm_type": [
+        "penalty"
+      ],
+      "scope": [
+        "administrative"
+      ],
+      "direction": null,
+      "sanctions": [
+        "suspension",
+        "financial_penalty"
+      ],
+      "tags": [
+        "norm_type: penalty",
+        "scope: administrative",
+        "sanctions: suspension",
+        "sanctions: financial_penalty"
+      ],
+      "content": "Sufrirán las penas de suspensión de empleo en su grado medio y multa de seis a diez unidades tributarias mensuales los funcionarios a que se refiere el artículo anterior, que, por malicia o negligencia inexcusables y faltando a las obligaciones de su oficio, no procedieren a la persecución o aprehensión de los delincuentes después de requerimiento o denuncia formal hecha por escrito.\n\n> **BCN amendment note:** LEY 19450 Art. 1 d) D.O. 18.03.1996\n\n**Source:** [BCN Ley Chile — Código Penal, § IV Prevaricación](https://bcn.cl/gdyHI3)",
+      "text": "Sufrirán las penas de suspensión de empleo en su grado medio y multa de seis a diez unidades tributarias mensuales los funcionarios a que se refiere el artículo anterior, que, por malicia o negligencia inexcusables y faltando a las obligaciones de su oficio, no procedieren a la persecución o aprehensión de los delincuentes después de requerimiento o denuncia formal hecha por escrito.\n\n> **BCN amendment note:** LEY 19450 Art. 1 d) D.O. 18.03.1996\n\n**Source:** [BCN Ley Chile — Código Penal, § IV Prevaricación](https://bcn.cl/gdyHI3)",
+      "source_file": "CodigoPenal_Prevaricacion.md",
+      "source_path": "CL/CodigoPenal_Prevaricacion.md",
+      "source_sha256": "921c577cd53a80bf34dad970a21d9f70a3bbd4462816ebc1865734f158780557",
+      "language": "es",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "CL.CPCL.C1.Art.230",
+      "original_id": "CL.CPCL.C1.Art.230",
+      "article_number": "230",
+      "framework_code": "CPCL",
+      "jurisdiction": "CL",
+      "title": "Art. 230 — Prevaricación – Falta de renta del funcionario",
+      "theme": "Criminal Law – Prevaricación",
+      "norm_type": [
+        "penalty"
+      ],
+      "scope": [
+        "criminal"
+      ],
+      "direction": null,
+      "sanctions": [
+        "criminal_liability",
+        "financial_penalty"
+      ],
+      "tags": [
+        "norm_type: penalty",
+        "scope: criminal",
+        "sanctions: criminal_liability",
+        "sanctions: financial_penalty"
+      ],
+      "content": "Si no tuviere renta el funcionario que debe ser penado con suspensión o inhabilitación para cargos o empleos públicos, se le aplicará además de estas penas la de reclusión menor en cualquiera de sus grados o multa de once a veinte unidades tributarias mensuales, según los casos.\n\n> **BCN amendment note:** LEY 19450 Art. 1 i) D.O. 18.03.1996\n\n**Source:** [BCN Ley Chile — Código Penal, § IV Prevaricación](https://bcn.cl/gdyHI3)",
+      "text": "Si no tuviere renta el funcionario que debe ser penado con suspensión o inhabilitación para cargos o empleos públicos, se le aplicará además de estas penas la de reclusión menor en cualquiera de sus grados o multa de once a veinte unidades tributarias mensuales, según los casos.\n\n> **BCN amendment note:** LEY 19450 Art. 1 i) D.O. 18.03.1996\n\n**Source:** [BCN Ley Chile — Código Penal, § IV Prevaricación](https://bcn.cl/gdyHI3)",
+      "source_file": "CodigoPenal_Prevaricacion.md",
+      "source_path": "CL/CodigoPenal_Prevaricacion.md",
+      "source_sha256": "921c577cd53a80bf34dad970a21d9f70a3bbd4462816ebc1865734f158780557",
+      "language": "es",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "CL.CPCL.C1.Art.231",
+      "original_id": "CL.CPCL.C1.Art.231",
+      "article_number": "231",
+      "framework_code": "CPCL",
+      "jurisdiction": "CL",
+      "title": "Art. 231 — Prevaricación – Abogado o procurador",
+      "theme": "Criminal Law – Prevaricación",
+      "norm_type": [
+        "penalty"
+      ],
+      "scope": [
+        "professional"
+      ],
+      "direction": null,
+      "sanctions": [
+        "suspension",
+        "disqualification",
+        "financial_penalty"
+      ],
+      "tags": [
+        "norm_type: penalty",
+        "scope: professional",
+        "sanctions: suspension",
+        "sanctions: disqualification",
+        "sanctions: financial_penalty"
+      ],
+      "content": "El abogado o procurador que con abuso malicioso de su oficio, perjudicare a su cliente o descubriere sus secretos, será castigado según la gravedad del perjuicio que causare, con la pena de suspensión en su grado mínimo a inhabilitación especial perpetua para el cargo o profesión y multa de once a veinte unidades tributarias mensuales.\n\n> **BCN amendment note:** LEY 19450 Art. 1 i) D.O. 18.03.1996\n\n**Source:** [BCN Ley Chile — Código Penal, § IV Prevaricación](https://bcn.cl/gdyHI3)",
+      "text": "El abogado o procurador que con abuso malicioso de su oficio, perjudicare a su cliente o descubriere sus secretos, será castigado según la gravedad del perjuicio que causare, con la pena de suspensión en su grado mínimo a inhabilitación especial perpetua para el cargo o profesión y multa de once a veinte unidades tributarias mensuales.\n\n> **BCN amendment note:** LEY 19450 Art. 1 i) D.O. 18.03.1996\n\n**Source:** [BCN Ley Chile — Código Penal, § IV Prevaricación](https://bcn.cl/gdyHI3)",
+      "source_file": "CodigoPenal_Prevaricacion.md",
+      "source_path": "CL/CodigoPenal_Prevaricacion.md",
+      "source_sha256": "921c577cd53a80bf34dad970a21d9f70a3bbd4462816ebc1865734f158780557",
+      "language": "es",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "CL.CPCL.C1.Art.232",
+      "original_id": "CL.CPCL.C1.Art.232",
+      "article_number": "232",
+      "framework_code": "CPCL",
+      "jurisdiction": "CL",
+      "title": "Art. 232 — Prevaricación – Abogado con defensa actual y patrocinio contrario",
+      "theme": "Criminal Law – Prevaricación",
+      "norm_type": [
+        "penalty"
+      ],
+      "scope": [
+        "professional"
+      ],
+      "direction": null,
+      "sanctions": [
+        "disqualification",
+        "financial_penalty"
+      ],
+      "tags": [
+        "norm_type: penalty",
+        "scope: professional",
+        "sanctions: disqualification",
+        "sanctions: financial_penalty"
+      ],
+      "content": "El abogado que, teniendo la defensa actual de un pleito, patrocinare a la vez a la parte contraria en el mismo negocio, sufrirá las penas de inhabilitación especial perpetua para el ejercicio de la profesión y multa de once a veinte unidades tributarias mensuales.\n\n> **BCN amendment note:** LEY 19450 Art. 1 i) D.O. 18.03.1996\n\n**Source:** [BCN Ley Chile — Código Penal, § IV Prevaricación](https://bcn.cl/gdyHI3)",
+      "text": "El abogado que, teniendo la defensa actual de un pleito, patrocinare a la vez a la parte contraria en el mismo negocio, sufrirá las penas de inhabilitación especial perpetua para el ejercicio de la profesión y multa de once a veinte unidades tributarias mensuales.\n\n> **BCN amendment note:** LEY 19450 Art. 1 i) D.O. 18.03.1996\n\n**Source:** [BCN Ley Chile — Código Penal, § IV Prevaricación](https://bcn.cl/gdyHI3)",
+      "source_file": "CodigoPenal_Prevaricacion.md",
+      "source_path": "CL/CodigoPenal_Prevaricacion.md",
+      "source_sha256": "921c577cd53a80bf34dad970a21d9f70a3bbd4462816ebc1865734f158780557",
+      "language": "pt",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    }
+  ]
+}

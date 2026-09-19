@@ -1,0 +1,38 @@
+{
+  "id": "",
+  "eli_id": "BR.CBA.T8.C6.Art.271",
+  "original_id": "BR.CBA.T8.C6.Art.271",
+  "article_number": "271",
+  "framework_code": "CBA",
+  "jurisdiction": "BR",
+  "title": "Art. 271 — CBA Title VIII, Chapter VI, Article 271 – Distribution of Compensation When Limits Exceeded",
+  "theme": "Liability and Exemptions",
+  "norm_type": [
+    "penalty"
+  ],
+  "scope": [
+    "criminal"
+  ],
+  "direction": null,
+  "sanctions": [
+    "criminal_liability"
+  ],
+  "tags": [
+    "norm_type: penalty",
+    "scope: criminal",
+    "sanctions: criminal_liability"
+  ],
+  "content": "Art. 271. Quando a importância total das indenizações fixadas exceder ao limite de responsabilidade estabelecido neste Capítulo, serão aplicadas as regras seguintes: I - havendo apenas danos pessoais ou apenas danos materiais, as indenizações serão reduzidas proporcionalmente aos respectivos montantes; II - havendo danos pessoais e materiais, metade da importância correspondente ao limite máximo de indenização será destinada a cobrir cada espécie de dano; se houver saldo, será ele utilizado para complementar indenizações que não tenham podido ser pagas em seu montante integral.",
+  "text": "Art. 271. Quando a importância total das indenizações fixadas exceder ao limite de responsabilidade estabelecido neste Capítulo, serão aplicadas as regras seguintes: I - havendo apenas danos pessoais ou apenas danos materiais, as indenizações serão reduzidas proporcionalmente aos respectivos montantes; II - havendo danos pessoais e materiais, metade da importância correspondente ao limite máximo de indenização será destinada a cobrir cada espécie de dano; se houver saldo, será ele utilizado para complementar indenizações que não tenham podido ser pagas em seu montante integral.",
+  "source_file": "L7565_CBA.md",
+  "source_path": "BR/L7565_CBA.md",
+  "source_sha256": "4ed35a5b7f1951bbcaed63377ffdb3e8cb1ff9f2f9f8a735e844b46cb3ce0931",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

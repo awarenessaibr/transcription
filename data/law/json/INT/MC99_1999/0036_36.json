@@ -1,0 +1,38 @@
+{
+  "id": "",
+  "eli_id": "INT.MC99.C3.Art.36",
+  "original_id": "INT.MC99.C3.Art.36",
+  "article_number": "36",
+  "framework_code": "MC99",
+  "jurisdiction": "INT",
+  "title": "Art. 36 — Montreal Convention 1999, Chapter III - Liability of the Carrier and Extent of Compensation for Damage, Article 36 — Successive Carriage",
+  "theme": "Liability of the Carrier and Extent of Compensation for Damage",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "contractual"
+  ],
+  "direction": null,
+  "sanctions": [
+    "service_remedy"
+  ],
+  "tags": [
+    "norm_type: procedural",
+    "scope: contractual",
+    "sanctions: service_remedy"
+  ],
+  "content": "1. In the case of carriage to be performed by various successive carriers and falling within the definition set out in paragraph 3 of Article 1, each carrier which accepts passengers, baggage or cargo is subject to the rules set out in this Convention and is deemed to be one of the parties to the contract of carriage in so far as the contract deals with that part of the carriage which is performed under its supervision. 2. In the case of carriage of this nature, the passenger or any person entitled to compensation in respect of him or her can take action only against the carrier which performed the carriage during which the accident or the delay occurred, save in the case where, by express agreement, the first carrier has assumed liability for the whole journey. 3. As regards baggage or cargo, the passenger or consignor will have a right of action against the first carrier, and the passenger or consignee who is entitled to delivery will have a right of action against the last carrier, and further, each may take action against the carrier which performed the carriage during which the destruction, loss, damage or delay took place. These carriers will be jointly and severally liable to the passenger or to the consignor or consignee.",
+  "text": "1. In the case of carriage to be performed by various successive carriers and falling within the definition set out in paragraph 3 of Article 1, each carrier which accepts passengers, baggage or cargo is subject to the rules set out in this Convention and is deemed to be one of the parties to the contract of carriage in so far as the contract deals with that part of the carriage which is performed under its supervision. 2. In the case of carriage of this nature, the passenger or any person entitled to compensation in respect of him or her can take action only against the carrier which performed the carriage during which the accident or the delay occurred, save in the case where, by express agreement, the first carrier has assumed liability for the whole journey. 3. As regards baggage or cargo, the passenger or consignor will have a right of action against the first carrier, and the passenger or consignee who is entitled to delivery will have a right of action against the last carrier, and further, each may take action against the carrier which performed the carriage during which the destruction, loss, damage or delay took place. These carriers will be jointly and severally liable to the passenger or to the consignor or consignee.",
+  "source_file": "MC99_1999.md",
+  "source_path": "INT/EN/MC99_1999.md",
+  "source_sha256": "bc79e373bc0936102e9860635e77c9b857ef28ccbc4f2b60c23cb5b9318b84f3",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

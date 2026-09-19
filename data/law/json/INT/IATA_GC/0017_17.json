@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.IATA_GC.Art.17",
+  "original_id": "INT.IATA_GC.Art.17",
+  "article_number": "17",
+  "framework_code": "IATA_GC",
+  "jurisdiction": "INT",
+  "title": "Art. 17 — Article 17 - Time Limitation on Claims and Actions",
+  "theme": "Time Limitation on Claims and Actions",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: regulatory"
+  ],
+  "content": "17.1 Notice of Claims\n\nNo action shall lie in the case of damage to checked baggage unless the person entitled to delivery complains to Carrier forthwith after the discovery of the damage, and, at the latest, within seven days from the date of receipt; and in the case of delay, unless the complaint is made at the latest within twentyone (21) days horn the date on which the baggage has been placed at his disposal. Every complaint must be made in writing and dispatched within the times aforesaid.\n\n17.2 Limitation of Actions\n\nAny right to damages shall be extinguished if an action is not brought within two years reckoned from the date of arrival at the destination, or from the date on which the aircraft ought to have arrived, or horn the date on which the carriage stopped. The method of calculating the period of limitation shall be determined by the law of the court seized of the case.",
+  "text": "17.1 Notice of Claims\n\nNo action shall lie in the case of damage to checked baggage unless the person entitled to delivery complains to Carrier forthwith after the discovery of the damage, and, at the latest, within seven days from the date of receipt; and in the case of delay, unless the complaint is made at the latest within twentyone (21) days horn the date on which the baggage has been placed at his disposal. Every complaint must be made in writing and dispatched within the times aforesaid.\n\n17.2 Limitation of Actions\n\nAny right to damages shall be extinguished if an action is not brought within two years reckoned from the date of arrival at the destination, or from the date on which the aircraft ought to have arrived, or horn the date on which the carriage stopped. The method of calculating the period of limitation shall be determined by the law of the court seized of the case.",
+  "source_file": "IATA_GC.md",
+  "source_path": "INT/EN/IATA_GC.md",
+  "source_sha256": "7d87bebffc10b58787bca82a7250149eadb6bdf9bd5e5daf9534c08f6d4587f5",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

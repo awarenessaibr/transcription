@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.MC99.C2.Art.11",
+  "original_id": "INT.MC99.C2.Art.11",
+  "article_number": "11",
+  "framework_code": "MC99",
+  "jurisdiction": "INT",
+  "title": "Art. 11 — Montreal Convention 1999, Chapter II - Documentation and Duties of the Parties Relating to the Carriage of Passengers, Baggage and Cargo, Article 11 — Evidentiary Value of Documentation",
+  "theme": "Documentation and Duties of the Parties",
+  "norm_type": [
+    "exemption"
+  ],
+  "scope": [
+    "contractual"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: exemption",
+    "scope: contractual"
+  ],
+  "content": "1. The air waybill or the cargo receipt is prima facie evidence of the conclusion of the contract, of the acceptance of the cargo and of the conditions of carriage mentioned therein. 2. Any statements in the air waybill or the cargo receipt relating to the weight, dimensions and packing of the cargo, as well as those relating to the number of packages, are prima facie evidence of the facts stated; those relating to the quantity, volume and condition of the cargo do not constitute evidence against the carrier except so far as they both have been, and are stated in the air waybill or the cargo receipt to have been, checked by it in the presence of the consignor, or relate to the apparent condition of the cargo.",
+  "text": "1. The air waybill or the cargo receipt is prima facie evidence of the conclusion of the contract, of the acceptance of the cargo and of the conditions of carriage mentioned therein. 2. Any statements in the air waybill or the cargo receipt relating to the weight, dimensions and packing of the cargo, as well as those relating to the number of packages, are prima facie evidence of the facts stated; those relating to the quantity, volume and condition of the cargo do not constitute evidence against the carrier except so far as they both have been, and are stated in the air waybill or the cargo receipt to have been, checked by it in the presence of the consignor, or relate to the apparent condition of the cargo.",
+  "source_file": "MC99_1999.md",
+  "source_path": "INT/EN/MC99_1999.md",
+  "source_sha256": "bc79e373bc0936102e9860635e77c9b857ef28ccbc4f2b60c23cb5b9318b84f3",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

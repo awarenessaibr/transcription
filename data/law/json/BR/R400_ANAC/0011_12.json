@@ -1,0 +1,38 @@
+{
+  "id": "",
+  "eli_id": "BR.R400.C1.S4.Art.12",
+  "original_id": "BR.R400.C1.S4.Art.12",
+  "article_number": "12",
+  "framework_code": "R400",
+  "jurisdiction": "BR",
+  "title": "Art. 12 — Resolução ANAC nº 400/2016, Capítulo I, Seção IV, Art. 12",
+  "theme": "Alteração pelo Transportador",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [
+    "service_remedy"
+  ],
+  "tags": [
+    "norm_type: procedural",
+    "scope: regulatory",
+    "sanctions: service_remedy"
+  ],
+  "content": "Art. 12. As alterações realizadas de forma programada pelo transportador, em especial quanto ao horário e itinerário originalmente contratados, deverão ser informadas aos passageiros com antecedência mínima de 72 (setenta e duas) horas. § 1º O transportador deverá oferecer as alternativas de reacomodação e reembolso integral, devendo a escolha ser do passageiro, nos casos de: I - informação da alteração ser prestada em prazo inferior ao do caput deste artigo; e II - alteração do horário de partida ou de chegada ser superior a 30 (trinta) minutos nos voos domésticos e a 1 (uma) hora nos voos internacionais em relação ao horário originalmente contratado, se o passageiro não concordar com o horário após a alteração. § 2º Caso o passageiro compareça ao aeroporto em decorrência de falha na prestação da informação, o transportador deverá oferecer assistência material, bem como as seguintes alternativas à escolha do passageiro: I - reacomodação; II - reembolso integral; e III - execução do serviço por outra modalidade de transporte.",
+  "text": "Art. 12. As alterações realizadas de forma programada pelo transportador, em especial quanto ao horário e itinerário originalmente contratados, deverão ser informadas aos passageiros com antecedência mínima de 72 (setenta e duas) horas. § 1º O transportador deverá oferecer as alternativas de reacomodação e reembolso integral, devendo a escolha ser do passageiro, nos casos de: I - informação da alteração ser prestada em prazo inferior ao do caput deste artigo; e II - alteração do horário de partida ou de chegada ser superior a 30 (trinta) minutos nos voos domésticos e a 1 (uma) hora nos voos internacionais em relação ao horário originalmente contratado, se o passageiro não concordar com o horário após a alteração. § 2º Caso o passageiro compareça ao aeroporto em decorrência de falha na prestação da informação, o transportador deverá oferecer assistência material, bem como as seguintes alternativas à escolha do passageiro: I - reacomodação; II - reembolso integral; e III - execução do serviço por outra modalidade de transporte.",
+  "source_file": "R400_ANAC.md",
+  "source_path": "BR/R400_ANAC.md",
+  "source_sha256": "3a6cbfddc7296c46f06a83537b225a0b8203532e12a91e26af7313256677b947",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

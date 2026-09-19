@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.AN14.T1.C9.S10.P4.Art.9.10.4",
+  "original_id": "INT.AN14.T1.C9.S10.P4.Art.9.10.4",
+  "article_number": "9.10.4",
+  "framework_code": "AN14",
+  "jurisdiction": "INT",
+  "title": "Art. 9.10.4 — Annex 14 - Aerodromes, Volume I - Aerodrome Design and Operations, Chapter 9 - Aerodrome Operational Services, Equipment and Installations, 9.10 Fencing, Location, 9.10.4",
+  "theme": "Annex 14",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: regulatory"
+  ],
+  "content": "The fence or barrier shall be located so as to separate the movement area and other facilities or zones on the aerodrome vital to the safe operation of aircraft from areas open to public access.",
+  "text": "The fence or barrier shall be located so as to separate the movement area and other facilities or zones on the aerodrome vital to the safe operation of aircraft from areas open to public access.",
+  "source_file": "ICAO_Annex14.md",
+  "source_path": "INT/EN/ICAO_Annex14.md",
+  "source_sha256": "0bb620202b5c26cde3581f9897fa13876ba230091d9d3b63fa78ccba987a5472",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

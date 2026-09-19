@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.R431.Anexo.C7.Art.27",
+  "original_id": "BR.R431.Anexo.C7.Art.27",
+  "article_number": "Anexo, Capítulo VII, Art. 27 — Relatório sem outras provas",
+  "framework_code": "R431",
+  "jurisdiction": "BR",
+  "title": "Anexo, Capítulo VII, Art. 27 — Relatório sem outras provas",
+  "theme": "procedural",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: administrative"
+  ],
+  "content": "Na hipótese de o investigado não requerer a produção de outras provas, além dos documentos apresentados com a defesa prévia, a Comissão de Ética da ANAC, salvo se entender necessária a inquirição de testemunhas, a realização de diligências ou de exame pericial, elaborará o relatório.\n\nParágrafo único. Na hipótese de o investigado, comprovadamente notificado ou citado por edital público, não se apresentar, nem enviar procurador legalmente constituído para exercer o direito ao contraditório e à ampla defesa, a Comissão de Ética da ANAC designará um defensor dativo preferencialmente escolhido dentre os servidores do quadro permanente para acompanhar o processo, sendo-lhe vedada conduta contrária aos interesses do investigado.",
+  "text": "Na hipótese de o investigado não requerer a produção de outras provas, além dos documentos apresentados com a defesa prévia, a Comissão de Ética da ANAC, salvo se entender necessária a inquirição de testemunhas, a realização de diligências ou de exame pericial, elaborará o relatório.\n\nParágrafo único. Na hipótese de o investigado, comprovadamente notificado ou citado por edital público, não se apresentar, nem enviar procurador legalmente constituído para exercer o direito ao contraditório e à ampla defesa, a Comissão de Ética da ANAC designará um defensor dativo preferencialmente escolhido dentre os servidores do quadro permanente para acompanhar o processo, sendo-lhe vedada conduta contrária aos interesses do investigado.",
+  "source_file": "R431_ANAC_RegimentoComissaoEtica.md",
+  "source_path": "BR/R431_ANAC_RegimentoComissaoEtica.md",
+  "source_sha256": "b0f6744091b2a507cb9233fa32250e41113bbad0666586bb6ae0d29bf0365d01",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

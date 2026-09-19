@@ -1,0 +1,38 @@
+{
+  "id": "",
+  "eli_id": "BR.ABEAR_PIAP.Art.9",
+  "original_id": "BR.ABEAR_PIAP.Art.9",
+  "article_number": "9",
+  "framework_code": "ABEAR_PIAP",
+  "jurisdiction": "BR",
+  "title": "Art. 9 — Disposições Finais",
+  "theme": "procedural",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [
+    "suspension"
+  ],
+  "tags": [
+    "norm_type: procedural",
+    "scope: administrative",
+    "sanctions: suspension"
+  ],
+  "content": "Em caso de dúvidas sobre interações com Agentes Públicos, o Empregado, Colaborador ou o Terceiro Intermediário deverá recorrer ao Comitê de Compliance, por meio do e-mail comitedecompliance@abear.com.br.\n\nO descumprimento desta política poderá resultar na aplicação de medidas disciplinares.",
+  "text": "Em caso de dúvidas sobre interações com Agentes Públicos, o Empregado, Colaborador ou o Terceiro Intermediário deverá recorrer ao Comitê de Compliance, por meio do e-mail comitedecompliance@abear.com.br.\n\nO descumprimento desta política poderá resultar na aplicação de medidas disciplinares.",
+  "source_file": "ABEAR_PoliticaInteracaoAgentesPublicos.md",
+  "source_path": "BR/ABEAR_PoliticaInteracaoAgentesPublicos.md",
+  "source_sha256": "075b0de4337463c7b8a05d20bbed25de011502c04541def1828f3d4c244af4b6",
+  "language": "unknown",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

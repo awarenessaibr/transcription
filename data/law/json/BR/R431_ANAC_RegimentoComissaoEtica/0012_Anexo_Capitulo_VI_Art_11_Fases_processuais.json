@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.R431.Anexo.C6.Art.11",
+  "original_id": "BR.R431.Anexo.C6.Art.11",
+  "article_number": "Anexo, Capítulo VI, Art. 11 — Fases processuais",
+  "framework_code": "R431",
+  "jurisdiction": "BR",
+  "title": "Anexo, Capítulo VI, Art. 11 — Fases processuais",
+  "theme": "procedural",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: administrative"
+  ],
+  "content": "As fases processuais no âmbito das Comissões de Ética da ANAC serão as seguintes:\n\nI - Procedimento Preliminar, compreendendo:\na) Juízo de admissibilidade;\nb) Instauração;\nc) Provas documentais e, excepcionalmente, manifestação do investigado e realização de diligências urgentes e necessárias;\nd) Relatório;\ne) Proposta de Acordo de Conduta Pessoal e Profissional - ACPP;\nf) Decisão preliminar determinando o arquivamento ou a conversão em Processo de Apuração Ética;\n\nII - Processo de Apuração Ética, subdividindo-se em:\na) Instauração;\nb) Instrução complementar, compreendendo:\n1. A realização de diligências;\n2. A manifestação do investigado; e\n3. A produção de provas;\nc) Relatório; e\nd) Deliberação e decisão, que declarará improcedência, conterá sanção, recomendação a ser aplicada ou proposta de ACPP.",
+  "text": "As fases processuais no âmbito das Comissões de Ética da ANAC serão as seguintes:\n\nI - Procedimento Preliminar, compreendendo:\na) Juízo de admissibilidade;\nb) Instauração;\nc) Provas documentais e, excepcionalmente, manifestação do investigado e realização de diligências urgentes e necessárias;\nd) Relatório;\ne) Proposta de Acordo de Conduta Pessoal e Profissional - ACPP;\nf) Decisão preliminar determinando o arquivamento ou a conversão em Processo de Apuração Ética;\n\nII - Processo de Apuração Ética, subdividindo-se em:\na) Instauração;\nb) Instrução complementar, compreendendo:\n1. A realização de diligências;\n2. A manifestação do investigado; e\n3. A produção de provas;\nc) Relatório; e\nd) Deliberação e decisão, que declarará improcedência, conterá sanção, recomendação a ser aplicada ou proposta de ACPP.",
+  "source_file": "R431_ANAC_RegimentoComissaoEtica.md",
+  "source_path": "BR/R431_ANAC_RegimentoComissaoEtica.md",
+  "source_sha256": "b0f6744091b2a507cb9233fa32250e41113bbad0666586bb6ae0d29bf0365d01",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

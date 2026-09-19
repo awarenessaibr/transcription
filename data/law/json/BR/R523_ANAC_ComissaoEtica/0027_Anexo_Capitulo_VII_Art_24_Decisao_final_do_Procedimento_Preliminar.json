@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.R523.Anexo.C7.Art.24",
+  "original_id": "BR.R523.Anexo.C7.Art.24",
+  "article_number": "Anexo, Capítulo VII, Art. 24 — Decisão final do Procedimento Preliminar",
+  "framework_code": "R523",
+  "jurisdiction": "BR",
+  "title": "Anexo, Capítulo VII, Art. 24 — Decisão final do Procedimento Preliminar",
+  "theme": "procedural",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: administrative"
+  ],
+  "content": "Ao final do procedimento preliminar, será proferida decisão pela Comissão de Ética determinando o arquivamento ou a sua conversão em processo de apuração ética.",
+  "text": "Ao final do procedimento preliminar, será proferida decisão pela Comissão de Ética determinando o arquivamento ou a sua conversão em processo de apuração ética.",
+  "source_file": "R523_ANAC_ComissaoEtica.md",
+  "source_path": "BR/R523_ANAC_ComissaoEtica.md",
+  "source_sha256": "15c993247f5e4416245b4a18a738c08123282afa020d2ce8105bf8378303bbb4",
+  "language": "unknown",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

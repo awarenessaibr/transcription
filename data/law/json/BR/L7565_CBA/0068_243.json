@@ -1,0 +1,38 @@
+{
+  "id": "",
+  "eli_id": "BR.CBA.T7.C1.Art.243",
+  "original_id": "BR.CBA.T7.C1.Art.243",
+  "article_number": "243",
+  "framework_code": "CBA",
+  "jurisdiction": "BR",
+  "title": "Art. 243 — CBA Title VII, Chapter I, Article 243 – Cargo Delivery and Abandonment Procedures",
+  "theme": "Liability and Exemptions",
+  "norm_type": [
+    "exemption"
+  ],
+  "scope": [
+    "criminal"
+  ],
+  "direction": null,
+  "sanctions": [
+    "criminal_liability"
+  ],
+  "tags": [
+    "norm_type: exemption",
+    "scope: criminal",
+    "sanctions: criminal_liability"
+  ],
+  "content": "Art. 243. Ao chegar a carga ao lugar do destino, deverá o transportador avisar ao destinatário para que a retire no prazo de 15 (quinze) dias a contar do aviso, salvo se estabelecido outro prazo no conhecimento. § 1° Se o destinatário não for encontrado ou não retirar a carga no prazo constante do aviso, o transportador avisará ao expedidor para retirá-la no prazo de 15 (quinze) dias, a partir do aviso, sob pena de ser considerada abandonada. § 2° Transcorrido o prazo estipulado no último aviso, sem que a carga tenha sido retirada, o transportador a entregará ao depósito público por conta e risco do expedidor, ou, a seu critério, ao leiloeiro, para proceder à venda em leilão público e depositar o produto líquido no Banco do Brasil S/A., à disposição do proprietário, deduzidas as despesas de frete, seguro e encargos da venda. § 3° No caso de a carga estar sujeita a controle aduaneiro, o alijamento a que se refere o § 1° deste artigo será comunicado imediatamente à autoridade fazendária que jurisdicione o aeroporto do destino da carga.",
+  "text": "Art. 243. Ao chegar a carga ao lugar do destino, deverá o transportador avisar ao destinatário para que a retire no prazo de 15 (quinze) dias a contar do aviso, salvo se estabelecido outro prazo no conhecimento. § 1° Se o destinatário não for encontrado ou não retirar a carga no prazo constante do aviso, o transportador avisará ao expedidor para retirá-la no prazo de 15 (quinze) dias, a partir do aviso, sob pena de ser considerada abandonada. § 2° Transcorrido o prazo estipulado no último aviso, sem que a carga tenha sido retirada, o transportador a entregará ao depósito público por conta e risco do expedidor, ou, a seu critério, ao leiloeiro, para proceder à venda em leilão público e depositar o produto líquido no Banco do Brasil S/A., à disposição do proprietário, deduzidas as despesas de frete, seguro e encargos da venda. § 3° No caso de a carga estar sujeita a controle aduaneiro, o alijamento a que se refere o § 1° deste artigo será comunicado imediatamente à autoridade fazendária que jurisdicione o aeroporto do destino da carga.",
+  "source_file": "L7565_CBA.md",
+  "source_path": "BR/L7565_CBA.md",
+  "source_sha256": "4ed35a5b7f1951bbcaed63377ffdb3e8cb1ff9f2f9f8a735e844b46cb3ce0931",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

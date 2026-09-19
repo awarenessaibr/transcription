@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.AN14.T1.C9.S10.P2.Art.9.10.2",
+  "original_id": "INT.AN14.T1.C9.S10.P2.Art.9.10.2",
+  "article_number": "9.10.2",
+  "framework_code": "AN14",
+  "jurisdiction": "INT",
+  "title": "Art. 9.10.2 — Annex 14 - Aerodromes, Volume I - Aerodrome Design and Operations, Chapter 9 - Aerodrome Operational Services, Equipment and Installations, 9.10 Fencing, Application, 9.10.2",
+  "theme": "Annex 14",
+  "norm_type": [
+    "power"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: power",
+    "scope: regulatory"
+  ],
+  "content": "A fence or other suitable barrier shall be provided on an aerodrome to deter the inadvertent or premeditated access of an unauthorized person onto a non- public area of the aerodrome.\n\nNote 1. This is intended to include the barring of sewers, ducts, tunnels, etc., where necessary to prevent access.\nNote 2. Special measures may be required to prevent the access of an unauthorized person to runways or taxiways which overpass public roads.",
+  "text": "A fence or other suitable barrier shall be provided on an aerodrome to deter the inadvertent or premeditated access of an unauthorized person onto a non- public area of the aerodrome.\n\nNote 1. This is intended to include the barring of sewers, ducts, tunnels, etc., where necessary to prevent access.\nNote 2. Special measures may be required to prevent the access of an unauthorized person to runways or taxiways which overpass public roads.",
+  "source_file": "ICAO_Annex14.md",
+  "source_path": "INT/EN/ICAO_Annex14.md",
+  "source_sha256": "0bb620202b5c26cde3581f9897fa13876ba230091d9d3b63fa78ccba987a5472",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

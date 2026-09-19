@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.CBA.T6.C4.Art.204",
+  "original_id": "BR.CBA.T6.C4.Art.204",
+  "article_number": "204",
+  "framework_code": "CBA",
+  "jurisdiction": "BR",
+  "title": "Art. 204 — CBA Title VI, Chapter IV, Article 204 – Designation of Brazilian Companies",
+  "theme": "International Law Application",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: regulatory"
+  ],
+  "content": "Art. 204. O Governo Brasileiro designará as empresas para os serviços de transporte aéreo internacional. § 1° Cabe à empresa ou empresas designadas providenciarem a autorização de funcionamento, junto aos países onde pretendem operar. § 2° A designação de que trata este artigo far-se-á com o objetivo de assegurar o melhor rendimento econômico no mercado internacional, estimular o turismo receptivo, contribuir para o maior intercâmbio político, econômico e cultural.",
+  "text": "Art. 204. O Governo Brasileiro designará as empresas para os serviços de transporte aéreo internacional. § 1° Cabe à empresa ou empresas designadas providenciarem a autorização de funcionamento, junto aos países onde pretendem operar. § 2° A designação de que trata este artigo far-se-á com o objetivo de assegurar o melhor rendimento econômico no mercado internacional, estimular o turismo receptivo, contribuir para o maior intercâmbio político, econômico e cultural.",
+  "source_file": "L7565_CBA.md",
+  "source_path": "BR/L7565_CBA.md",
+  "source_sha256": "4ed35a5b7f1951bbcaed63377ffdb3e8cb1ff9f2f9f8a735e844b46cb3ce0931",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

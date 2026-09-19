@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.CBA.T6.C4.Art.207",
+  "original_id": "BR.CBA.T6.C4.Art.207",
+  "article_number": "207",
+  "framework_code": "CBA",
+  "jurisdiction": "BR",
+  "title": "Art. 207 — CBA Title VI, Chapter IV, Article 207 – Authorization Conditions for Foreign Companies",
+  "theme": "International Law Application",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: regulatory"
+  ],
+  "content": "Art. 207. As condições que o Governo Federal achar conveniente estabelecer em defesa dos interesses nacionais constarão de termo de aceitação assinado pela empresa requerente e integrarão o decreto de autorização. Parágrafo único. Um exemplar do órgão oficial que tiver feito a publicação do decreto e de todos os documentos que o instruem será arquivado no Registro de Comércio da localidade onde vier a ser situado o estabelecimento principal da empresa, juntamente com a prova do depósito, em dinheiro, da parte do capital destinado às operações no Brasil.",
+  "text": "Art. 207. As condições que o Governo Federal achar conveniente estabelecer em defesa dos interesses nacionais constarão de termo de aceitação assinado pela empresa requerente e integrarão o decreto de autorização. Parágrafo único. Um exemplar do órgão oficial que tiver feito a publicação do decreto e de todos os documentos que o instruem será arquivado no Registro de Comércio da localidade onde vier a ser situado o estabelecimento principal da empresa, juntamente com a prova do depósito, em dinheiro, da parte do capital destinado às operações no Brasil.",
+  "source_file": "L7565_CBA.md",
+  "source_path": "BR/L7565_CBA.md",
+  "source_sha256": "4ed35a5b7f1951bbcaed63377ffdb3e8cb1ff9f2f9f8a735e844b46cb3ce0931",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

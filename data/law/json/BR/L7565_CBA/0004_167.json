@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.CBA.T5.C1.Art.167",
+  "original_id": "BR.CBA.T5.C1.Art.167",
+  "article_number": "167",
+  "framework_code": "CBA",
+  "jurisdiction": "BR",
+  "title": "Art. 167 — CBA Title V, Chapter I, Article 167 – Commander's Authority Period",
+  "theme": "Aircraft Operations and Safety",
+  "norm_type": [
+    "power"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: power",
+    "scope: regulatory"
+  ],
+  "content": "Art. 167. O Comandante exerce autoridade inerente à função desde o momento em que se apresenta para o vôo até o momento em que entrega a aeronave, concluída a viagem. Parágrafo único. No caso de pouso forçado, a autoridade do Comandante persiste até que as autoridades competentes assumam a responsabilidade pela aeronave, pessoas e coisas transportadas.",
+  "text": "Art. 167. O Comandante exerce autoridade inerente à função desde o momento em que se apresenta para o vôo até o momento em que entrega a aeronave, concluída a viagem. Parágrafo único. No caso de pouso forçado, a autoridade do Comandante persiste até que as autoridades competentes assumam a responsabilidade pela aeronave, pessoas e coisas transportadas.",
+  "source_file": "L7565_CBA.md",
+  "source_path": "BR/L7565_CBA.md",
+  "source_sha256": "4ed35a5b7f1951bbcaed63377ffdb3e8cb1ff9f2f9f8a735e844b46cb3ce0931",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

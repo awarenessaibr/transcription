@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.D1171.Anexo.C1.S1.IX",
+  "original_id": "BR.D1171.Anexo.C1.S1.IX",
+  "article_number": "Anexo, Capítulo I, Seção I, IX — Cortesia e cuidado no atendimento",
+  "framework_code": "D1171",
+  "jurisdiction": "BR",
+  "title": "Anexo, Capítulo I, Seção I, IX — Cortesia e cuidado no atendimento",
+  "theme": "ethics",
+  "norm_type": [
+    "constitutional_principle"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: constitutional_principle",
+    "scope: administrative"
+  ],
+  "content": "A cortesia, a boa vontade, o cuidado e o tempo dedicados ao serviço público caracterizam o esforço pela disciplina. Tratar mal uma pessoa que paga seus tributos direta ou indiretamente significa causar-lhe dano moral. Da mesma forma, causar dano a qualquer bem pertencente ao patrimônio público, deteriorando-o, por descuido ou má vontade, não constitui apenas uma ofensa ao equipamento e às instalações ou ao Estado, mas a todos os homens de boa vontade que dedicaram sua inteligência, seu tempo, suas esperanças e seus esforços para construí-los.",
+  "text": "A cortesia, a boa vontade, o cuidado e o tempo dedicados ao serviço público caracterizam o esforço pela disciplina. Tratar mal uma pessoa que paga seus tributos direta ou indiretamente significa causar-lhe dano moral. Da mesma forma, causar dano a qualquer bem pertencente ao patrimônio público, deteriorando-o, por descuido ou má vontade, não constitui apenas uma ofensa ao equipamento e às instalações ou ao Estado, mas a todos os homens de boa vontade que dedicaram sua inteligência, seu tempo, suas esperanças e seus esforços para construí-los.",
+  "source_file": "D1171_CodigoEticaServidor.md",
+  "source_path": "BR/D1171_CodigoEticaServidor.md",
+  "source_sha256": "2e0105ed0fe99532240b0fe952e403e4bc1a9ed0097f9aa5b07454b29ea0000a",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

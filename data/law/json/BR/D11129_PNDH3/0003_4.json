@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.D11129.T2.Art.4",
+  "original_id": "BR.D11129.T2.Art.4",
+  "article_number": "4",
+  "framework_code": "D11129",
+  "jurisdiction": "BR",
+  "title": "Art. 4 — Decreto nº 11.129/2022, Capítulo II, Seção II, Art. 4º – Competência para instauração e julgamento",
+  "theme": "Competência para instauração e julgamento",
+  "norm_type": [
+    "power"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: power",
+    "scope: regulatory"
+  ],
+  "content": "Art. 4º A competência para a instauração e para o julgamento do PAR é da autoridade máxima da entidade em face da qual foi praticado o ato lesivo ou, em caso de órgão da administração pública federal direta, do respectivo Ministro de Estado. Parágrafo único. A competência de que trata o caput será exercida de ofício ou mediante provocação e poderá ser delegada, vedada a subdelegação.",
+  "text": "Art. 4º A competência para a instauração e para o julgamento do PAR é da autoridade máxima da entidade em face da qual foi praticado o ato lesivo ou, em caso de órgão da administração pública federal direta, do respectivo Ministro de Estado. Parágrafo único. A competência de que trata o caput será exercida de ofício ou mediante provocação e poderá ser delegada, vedada a subdelegação.",
+  "source_file": "D11129_PNDH3.md",
+  "source_path": "BR/D11129_PNDH3.md",
+  "source_sha256": "48b9ca22b02bc3545313ec26f0cb92326b79c3d3cbd1e6d7097acb8edd1de61d",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

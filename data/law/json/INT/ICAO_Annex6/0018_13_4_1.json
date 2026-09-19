@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.AN6I.T1.C13.S4.P1.Art.13.4.1",
+  "original_id": "INT.AN6I.T1.C13.S4.P1.Art.13.4.1",
+  "article_number": "13.4.1",
+  "framework_code": "AN6I",
+  "jurisdiction": "INT",
+  "title": "Art. 13.4.1 — Annex 6 - Operation of Aircraft, Part I - International Commercial Air Transport - Aeroplanes, Chapter 13 - Security, 13.4 Training programmes",
+  "theme": "Annex 6",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: regulatory"
+  ],
+  "content": "The operator shall establish and maintain an approved security training programme which ensures crew members act in the most appropriate manner to minimize the consequences of acts of unlawful interference. As a minimum, this programme shall include the following elements:\n\na) determination of the seriousness of any occurrence;\nb) crew communication and coordination;\nc) appropriate self-defence responses;\nd) use of non-lethal protective devices assigned to crew members whose use is authorized by the State of the Operator;\ne) understanding of behaviour of terrorists so as to facilitate the ability of crew members to cope with hijacker behaviour and passenger responses;\nf) live situational training exercises regarding various threat conditions;\ng) flight crew compartment procedures to protect the aeroplane; and\nh) aeroplane search procedures and guidance on least-risk bomb locations where practicable.",
+  "text": "The operator shall establish and maintain an approved security training programme which ensures crew members act in the most appropriate manner to minimize the consequences of acts of unlawful interference. As a minimum, this programme shall include the following elements:\n\na) determination of the seriousness of any occurrence;\nb) crew communication and coordination;\nc) appropriate self-defence responses;\nd) use of non-lethal protective devices assigned to crew members whose use is authorized by the State of the Operator;\ne) understanding of behaviour of terrorists so as to facilitate the ability of crew members to cope with hijacker behaviour and passenger responses;\nf) live situational training exercises regarding various threat conditions;\ng) flight crew compartment procedures to protect the aeroplane; and\nh) aeroplane search procedures and guidance on least-risk bomb locations where practicable.",
+  "source_file": "ICAO_Annex6.md",
+  "source_path": "INT/EN/ICAO_Annex6.md",
+  "source_sha256": "a2e06eb192fbd095029630511ad7875dbd3b2f3105ba46e1dfebd355f7d064a1",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.ABEAR_RIC.Art.14",
+  "original_id": "BR.ABEAR_RIC.Art.14",
+  "article_number": "14",
+  "framework_code": "ABEAR_RIC",
+  "jurisdiction": "BR",
+  "title": "Art. 14 — Conflitos de Interesse",
+  "theme": "duty",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: administrative"
+  ],
+  "content": "Os Membros do Comitê não poderão participar de reuniões para tratar de assuntos que os envolvam diretamente ou que possam ser de seu interesse pessoal.\n\nParágrafo Primeiro - Cada um dos Membros do Comitê é responsável por cumprir a legislação aplicável à Livre Concorrência.\n\nParágrafo Segundo - Da mesma forma, os Membros reconhecem que a sua participação no Comitê de Compliance não implica nenhum relacionamento com a ABEAR e que sua participação não gera para a ABEAR, bem como para os Membros e as empresas representadas, qualquer vantagem ou preferência no caso de eventual relacionamento comercial.",
+  "text": "Os Membros do Comitê não poderão participar de reuniões para tratar de assuntos que os envolvam diretamente ou que possam ser de seu interesse pessoal.\n\nParágrafo Primeiro - Cada um dos Membros do Comitê é responsável por cumprir a legislação aplicável à Livre Concorrência.\n\nParágrafo Segundo - Da mesma forma, os Membros reconhecem que a sua participação no Comitê de Compliance não implica nenhum relacionamento com a ABEAR e que sua participação não gera para a ABEAR, bem como para os Membros e as empresas representadas, qualquer vantagem ou preferência no caso de eventual relacionamento comercial.",
+  "source_file": "ABEAR_RegimentoComiteCompliance.md",
+  "source_path": "BR/ABEAR_RegimentoComiteCompliance.md",
+  "source_sha256": "8a0cb03f43029d84fcc1496edcc4de780d51d4127d11134e4e4e57d10c7d2327",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

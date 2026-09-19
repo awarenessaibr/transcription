@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.D6029.Art.6",
+  "original_id": "BR.D6029.Art.6",
+  "article_number": "6",
+  "framework_code": "D6029",
+  "jurisdiction": "BR",
+  "title": "Art. 6 — Deveres dos titulares de entidades e órgãos",
+  "theme": "duty",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: administrative"
+  ],
+  "content": "É dever do titular de entidade ou órgão da Administração Pública Federal, direta e indireta:\n\nI - assegurar as condições de trabalho para que as Comissões de Ética cumpram suas funções, inclusive para que do exercício das atribuições de seus integrantes não lhes resulte qualquer prejuízo ou dano;\nII - conduzir em seu âmbito a avaliação da gestão da ética conforme processo coordenado pela Comissão de Ética Pública.",
+  "text": "É dever do titular de entidade ou órgão da Administração Pública Federal, direta e indireta:\n\nI - assegurar as condições de trabalho para que as Comissões de Ética cumpram suas funções, inclusive para que do exercício das atribuições de seus integrantes não lhes resulte qualquer prejuízo ou dano;\nII - conduzir em seu âmbito a avaliação da gestão da ética conforme processo coordenado pela Comissão de Ética Pública.",
+  "source_file": "D6029_SistemaGestaoEtica.md",
+  "source_path": "BR/D6029_SistemaGestaoEtica.md",
+  "source_sha256": "f62beeb0752517bf76c5bd14032e02fbe351a37bb1cc1c9746a9324924b46141",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.AN11.C5.S5.P2.Art.5.5.2",
+  "original_id": "INT.AN11.C5.S5.P2.Art.5.5.2",
+  "article_number": "5.5.2",
+  "framework_code": "AN11",
+  "jurisdiction": "INT",
+  "title": "Art. 5.5.2 — Annex 11 - Air Traffic Services, Chapter 5 - Alerting Service, 5.5 Information to the operator, 5.5.2",
+  "theme": "Annex 11",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: regulatory"
+  ],
+  "content": "All information notified to the rescue coordination centre by an area control or flight information centre shall, whenever practicable, also be communicated, without delay, to the operator.",
+  "text": "All information notified to the rescue coordination centre by an area control or flight information centre shall, whenever practicable, also be communicated, without delay, to the operator.",
+  "source_file": "ICAO_Annex11.md",
+  "source_path": "INT/EN/ICAO_Annex11.md",
+  "source_sha256": "b244ad52167fd1b657460c23157eb06b9a864895cea71a11865de1857e88f4b0",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "",
+  "eli_id": "INT.IATA_GC.Art.7",
+  "original_id": "INT.IATA_GC.Art.7",
+  "article_number": "7",
+  "framework_code": "IATA_GC",
+  "jurisdiction": "INT",
+  "title": "Art. 7 — Article 7 - Check-In",
+  "theme": "Check-In",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [
+    "license_revocation"
+  ],
+  "tags": [
+    "norm_type: procedural",
+    "scope: regulatory",
+    "sanctions: license_revocation"
+  ],
+  "content": "The passenger shall arrive at Carrier's check- in location and boarding gate sufficiently in advance of flight departure to permit completion of any Government formalities and departure procedures and in any event not later than the time that may be indicated by Carrier. If the passenger fails to arrive in time at Carrier's check- in location or boarding gate or appears improperly documented and not ready to travel, Carrier may cancel the space reserved for the passenger and will not delay the flight. Carrier is not liable to the passenger for loss or expense due to the passengers failure to comply with the provisions of this Article.",
+  "text": "The passenger shall arrive at Carrier's check- in location and boarding gate sufficiently in advance of flight departure to permit completion of any Government formalities and departure procedures and in any event not later than the time that may be indicated by Carrier. If the passenger fails to arrive in time at Carrier's check- in location or boarding gate or appears improperly documented and not ready to travel, Carrier may cancel the space reserved for the passenger and will not delay the flight. Carrier is not liable to the passenger for loss or expense due to the passengers failure to comply with the provisions of this Article.",
+  "source_file": "IATA_GC.md",
+  "source_path": "INT/EN/IATA_GC.md",
+  "source_sha256": "7d87bebffc10b58787bca82a7250149eadb6bdf9bd5e5daf9534c08f6d4587f5",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

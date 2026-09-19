@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.AN9.C3.S33.P6.Art.3.33.6",
+  "original_id": "INT.AN9.C3.S33.P6.Art.3.33.6",
+  "article_number": "3.33.6",
+  "framework_code": "AN9",
+  "jurisdiction": "INT",
+  "title": "Art. 3.33.6 — Annex 9 - Facilitation, Chapter 3 - Entry and Departure of Persons and Their Baggage, H. Inspection of travel documents, 3.33.6",
+  "theme": "Annex 9",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "contractual"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: contractual"
+  ],
+  "content": "Recommended Practice. Contracting States utilizing ABC systems should ensure that gates are adequately staffed while operational to ensure a smooth passenger flow and respond rapidly to safety and integrity concerns in the event of a system malfunction.",
+  "text": "Recommended Practice. Contracting States utilizing ABC systems should ensure that gates are adequately staffed while operational to ensure a smooth passenger flow and respond rapidly to safety and integrity concerns in the event of a system malfunction.",
+  "source_file": "ICAO_Annex9.md",
+  "source_path": "INT/EN/ICAO_Annex9.md",
+  "source_sha256": "57c4f76b6dc9787cd7e0c02eba85ac7932117bbae67da26324bd413660d10af6",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

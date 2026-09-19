@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.R770.Anexo.C4.Art.37",
+  "original_id": "BR.R770.Anexo.C4.Art.37",
+  "article_number": "Anexo, Capítulo IV, Art. 37",
+  "framework_code": "R770",
+  "jurisdiction": "BR",
+  "title": "Anexo, Capítulo IV, Art. 37",
+  "theme": "procedural",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: administrative"
+  ],
+  "content": "As condutas que possam configurar violação a este Código serão apuradas pela Comissão de Ética da ANAC, nos termos\n\n§ 1º Qualquer cidadão, agente público, pessoa jurídica de direito privado, associação ou entidade de classe será parte legítima para formular denúncia à Comissão de Ética da ANAC sobre violação a dispositivo deste Código.\n\n§ 2º Os processos de apuração de violações a este Código estarão sujeitos, quanto ao acesso às informações, às normas da Lei nº 12.527, de 2011, e do Decreto nº 7.724, de 16 de maio de 2012, e observarão as formalidades exigidas pelo Decreto nº 6.029, de 1º fevereiro de 2007, e pela Lei nº 9.784, de 29 de janeiro de 1999.",
+  "text": "As condutas que possam configurar violação a este Código serão apuradas pela Comissão de Ética da ANAC, nos termos\n\n§ 1º Qualquer cidadão, agente público, pessoa jurídica de direito privado, associação ou entidade de classe será parte legítima para formular denúncia à Comissão de Ética da ANAC sobre violação a dispositivo deste Código.\n\n§ 2º Os processos de apuração de violações a este Código estarão sujeitos, quanto ao acesso às informações, às normas da Lei nº 12.527, de 2011, e do Decreto nº 7.724, de 16 de maio de 2012, e observarão as formalidades exigidas pelo Decreto nº 6.029, de 1º fevereiro de 2007, e pela Lei nº 9.784, de 29 de janeiro de 1999.",
+  "source_file": "R770_ANAC_CodigoEtica.md",
+  "source_path": "BR/R770_ANAC_CodigoEtica.md",
+  "source_sha256": "c0bdae7f3c25d78d18fbdb179eed4026891b050011b14acb7c239471e9c006d4",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

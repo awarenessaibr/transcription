@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.MC99.C7.Art.57",
+  "original_id": "INT.MC99.C7.Art.57",
+  "article_number": "57",
+  "framework_code": "MC99",
+  "jurisdiction": "INT",
+  "title": "Art. 57 — Montreal Convention 1999, Chapter VII - Final Clauses, Article 57 — Reservations",
+  "theme": "Final Clauses",
+  "norm_type": [
+    "exemption"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: exemption",
+    "scope: regulatory"
+  ],
+  "content": "No reservation may be made to this Convention except that a State Party may at any time declare by a notification addressed to the Depositary that this Convention shall not apply to: (a) international carriage by air performed and operated directly by that State Party for non-commercial purposes in respect to its functions and duties as a sovereign State; and/or (b) the carriage of persons, cargo and baggage for its military authorities on aircraft registered in or leased by that State Party, the whole capacity of which has been reserved by or on behalf of such authorities.",
+  "text": "No reservation may be made to this Convention except that a State Party may at any time declare by a notification addressed to the Depositary that this Convention shall not apply to: (a) international carriage by air performed and operated directly by that State Party for non-commercial purposes in respect to its functions and duties as a sovereign State; and/or (b) the carriage of persons, cargo and baggage for its military authorities on aircraft registered in or leased by that State Party, the whole capacity of which has been reserved by or on behalf of such authorities.",
+  "source_file": "MC99_1999.md",
+  "source_path": "INT/EN/MC99_1999.md",
+  "source_sha256": "bc79e373bc0936102e9860635e77c9b857ef28ccbc4f2b60c23cb5b9318b84f3",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

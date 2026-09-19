@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.CBA.T5.C1.Art.166",
+  "original_id": "BR.CBA.T5.C1.Art.166",
+  "article_number": "166",
+  "framework_code": "CBA",
+  "jurisdiction": "BR",
+  "title": "Art. 166 — CBA Title V, Chapter I, Article 166 – Commander's Responsibilities",
+  "theme": "Aircraft Operations and Safety",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: regulatory"
+  ],
+  "content": "Art. 166. O Comandante é responsável pela operação e segurança da aeronave. § 1° O Comandante será também responsável pela guarda de valores, mercadorias, bagagens despachadas e mala postal, desde que lhe sejam asseguradas pelo proprietário ou explorador condições de verificar a quantidade e estado das mesmas. § 2° Os demais membros da tripulação ficam subordinados, técnica e disciplinarmente, ao Comandante da aeronave. § 3° Durante a viagem, o Comandante é o responsável, no que se refere à tripulação, pelo cumprimento da regulamentação profissional no tocante a: I - limite da jornada de trabalho; II - limites de vôo; III - intervalos de repouso; IV - fornecimento de alimentos.",
+  "text": "Art. 166. O Comandante é responsável pela operação e segurança da aeronave. § 1° O Comandante será também responsável pela guarda de valores, mercadorias, bagagens despachadas e mala postal, desde que lhe sejam asseguradas pelo proprietário ou explorador condições de verificar a quantidade e estado das mesmas. § 2° Os demais membros da tripulação ficam subordinados, técnica e disciplinarmente, ao Comandante da aeronave. § 3° Durante a viagem, o Comandante é o responsável, no que se refere à tripulação, pelo cumprimento da regulamentação profissional no tocante a: I - limite da jornada de trabalho; II - limites de vôo; III - intervalos de repouso; IV - fornecimento de alimentos.",
+  "source_file": "L7565_CBA.md",
+  "source_path": "BR/L7565_CBA.md",
+  "source_sha256": "4ed35a5b7f1951bbcaed63377ffdb3e8cb1ff9f2f9f8a735e844b46cb3ce0931",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

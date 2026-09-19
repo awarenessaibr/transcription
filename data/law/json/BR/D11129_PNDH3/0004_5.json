@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.D11129.T2.Art.5",
+  "original_id": "BR.D11129.T2.Art.5",
+  "article_number": "5",
+  "framework_code": "D11129",
+  "jurisdiction": "BR",
+  "title": "Art. 5 — Decreto nº 11.129/2022, Capítulo II, Seção II, Art. 5º – Designação da comissão",
+  "theme": "Designação da comissão",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: regulatory"
+  ],
+  "content": "Art. 5º No ato de instauração do PAR, a autoridade designará comissão, composta por dois ou mais servidores estáveis.\n\n§ 1º Em entidades da administração pública federal cujos quadros funcionais não sejam formados por servidores estatutários, a comissão a que se refere o caput será composta por dois ou mais empregados permanentes, preferencialmente com, no mínimo, três anos de tempo de serviço na entidade.\n\n§ 2º A comissão a que se refere o caput exercerá suas atividades com imparcialidade e observará a legislação, os regulamentos e as orientações técnicas vigentes.\n\n§ 3º Será assegurado o sigilo do PAR, sempre que necessário à elucidação do fato ou quando exigido pelo interesse da administração pública, garantido à pessoa jurídica processada o direito à ampla defesa e ao contraditório.\n\n§ 4º O prazo para a conclusão dos trabalhos da comissão de PAR não excederá cento e oitenta dias, admitida a prorrogação, mediante solicitação justificada do presidente da comissão à autoridade instauradora, que decidirá de maneira fundamentada.",
+  "text": "Art. 5º No ato de instauração do PAR, a autoridade designará comissão, composta por dois ou mais servidores estáveis.\n\n§ 1º Em entidades da administração pública federal cujos quadros funcionais não sejam formados por servidores estatutários, a comissão a que se refere o caput será composta por dois ou mais empregados permanentes, preferencialmente com, no mínimo, três anos de tempo de serviço na entidade.\n\n§ 2º A comissão a que se refere o caput exercerá suas atividades com imparcialidade e observará a legislação, os regulamentos e as orientações técnicas vigentes.\n\n§ 3º Será assegurado o sigilo do PAR, sempre que necessário à elucidação do fato ou quando exigido pelo interesse da administração pública, garantido à pessoa jurídica processada o direito à ampla defesa e ao contraditório.\n\n§ 4º O prazo para a conclusão dos trabalhos da comissão de PAR não excederá cento e oitenta dias, admitida a prorrogação, mediante solicitação justificada do presidente da comissão à autoridade instauradora, que decidirá de maneira fundamentada.",
+  "source_file": "D11129_PNDH3.md",
+  "source_path": "BR/D11129_PNDH3.md",
+  "source_sha256": "48b9ca22b02bc3545313ec26f0cb92326b79c3d3cbd1e6d7097acb8edd1de61d",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

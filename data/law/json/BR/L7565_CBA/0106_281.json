@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.CBA.T8.C9.Art.281",
+  "original_id": "BR.CBA.T8.C9.Art.281",
+  "article_number": "281",
+  "framework_code": "CBA",
+  "jurisdiction": "BR",
+  "title": "Art. 281 — CBA Title VIII, Chapter IX, Article 281 – Mandatory Insurance Requirements",
+  "theme": "Liability and Exemptions",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: regulatory"
+  ],
+  "content": "Art. 281. Todo explorador é obrigado a contratar o seguro para garantir eventual indenização de riscos futuros em relação: I - aos danos previstos neste Título, com os limites de responsabilidade civil nele estabelecidos (artigos 257, 260, 262, 269 e 277) ou contratados (§ 1° do artigo 257 e parágrafo único do artigo 262); II - aos tripulantes e viajantes gratuitos equiparados, para este efeito, aos passageiros (artigo 256, § 2°); III - ao pessoal técnico a bordo e às pessoas e bens na superfície, nos serviços aéreos privados (artigo 178, § 2°, e artigo 267, I); IV - ao valor da aeronave. Parágrafo único. O recebimento do seguro exime o transportador da responsabilidade (artigo 250).",
+  "text": "Art. 281. Todo explorador é obrigado a contratar o seguro para garantir eventual indenização de riscos futuros em relação: I - aos danos previstos neste Título, com os limites de responsabilidade civil nele estabelecidos (artigos 257, 260, 262, 269 e 277) ou contratados (§ 1° do artigo 257 e parágrafo único do artigo 262); II - aos tripulantes e viajantes gratuitos equiparados, para este efeito, aos passageiros (artigo 256, § 2°); III - ao pessoal técnico a bordo e às pessoas e bens na superfície, nos serviços aéreos privados (artigo 178, § 2°, e artigo 267, I); IV - ao valor da aeronave. Parágrafo único. O recebimento do seguro exime o transportador da responsabilidade (artigo 250).",
+  "source_file": "L7565_CBA.md",
+  "source_path": "BR/L7565_CBA.md",
+  "source_sha256": "4ed35a5b7f1951bbcaed63377ffdb3e8cb1ff9f2f9f8a735e844b46cb3ce0931",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

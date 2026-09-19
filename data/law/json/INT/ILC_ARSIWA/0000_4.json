@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.ILC.ARSIWA.Art.4",
+  "original_id": "INT.ILC.ARSIWA.Art.4",
+  "article_number": "4",
+  "framework_code": "ILC",
+  "jurisdiction": "INT",
+  "title": "Art. 4 — Conduct of organs of a State",
+  "theme": "Attribution of conduct to the State",
+  "norm_type": [
+    "customary_international_law_restatement"
+  ],
+  "scope": [
+    "state"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: customary_international_law_restatement",
+    "scope: state"
+  ],
+  "content": "1. The conduct of any State organ shall be considered an act of that State under international law, whether the organ exercises legislative, executive, judicial or any other functions, whatever position it holds in the organization of the State, and whatever its character as an organ of the central Government or of a territorial unit of the State.\n\n2. An organ includes any person or entity which has that status in accordance with the internal law of the State.",
+  "text": "1. The conduct of any State organ shall be considered an act of that State under international law, whether the organ exercises legislative, executive, judicial or any other functions, whatever position it holds in the organization of the State, and whatever its character as an organ of the central Government or of a territorial unit of the State.\n\n2. An organ includes any person or entity which has that status in accordance with the internal law of the State.",
+  "source_file": "ILC_ARSIWA.md",
+  "source_path": "INT/EN/ILC_ARSIWA.md",
+  "source_sha256": "3cb7025618b36350ab8e59d7488db3b130f5f3af71d6cca551ca77ca359b8e5f",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

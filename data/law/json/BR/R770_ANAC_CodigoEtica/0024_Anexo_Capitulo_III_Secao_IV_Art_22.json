@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.R770.Anexo.C3.S4.Art.22",
+  "original_id": "BR.R770.Anexo.C3.S4.Art.22",
+  "article_number": "Anexo, Capítulo III, Seção IV, Art. 22",
+  "framework_code": "R770",
+  "jurisdiction": "BR",
+  "title": "Anexo, Capítulo III, Seção IV, Art. 22",
+  "theme": "procedural",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: administrative"
+  ],
+  "content": "Será vedado o acesso a sites com conteúdo imoral ou ilegal nas dependências da ANAC, ainda que com a utilização de dispositivo pessoal.",
+  "text": "Será vedado o acesso a sites com conteúdo imoral ou ilegal nas dependências da ANAC, ainda que com a utilização de dispositivo pessoal.",
+  "source_file": "R770_ANAC_CodigoEtica.md",
+  "source_path": "BR/R770_ANAC_CodigoEtica.md",
+  "source_sha256": "c0bdae7f3c25d78d18fbdb179eed4026891b050011b14acb7c239471e9c006d4",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

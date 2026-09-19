@@ -1,0 +1,40 @@
+{
+  "id": "",
+  "eli_id": "INT.IATA_GC.Art.11",
+  "original_id": "INT.IATA_GC.Art.11",
+  "article_number": "11",
+  "framework_code": "IATA_GC",
+  "jurisdiction": "INT",
+  "title": "Art. 11 — Article 11 - Refunds",
+  "theme": "Refunds",
+  "norm_type": [
+    "exemption"
+  ],
+  "scope": [
+    "contractual"
+  ],
+  "direction": null,
+  "sanctions": [
+    "license_revocation",
+    "service_remedy"
+  ],
+  "tags": [
+    "norm_type: exemption",
+    "scope: contractual",
+    "sanctions: license_revocation",
+    "sanctions: service_remedy"
+  ],
+  "content": "11.1 General\n\nOn failure by Carrier to provide carriage in accordance with the contract of carriage, or where a passenger requests a voluntary change of his or her arrangements, refund for an unused ticket or portion thereof shall be made by Carrier in accordance with this Article and with Carrier's Regulations.\n\n11.2 Person to Whom Refund will be Made\n\n11.2.1 Except as hereinafter provided in this Article, Carrier shall be entitled to make refund either to the person named in the ticket, or to the person who has paid for the ticket upon presentation of satisfactory proof.\n\n11.2.2 If a ticket has been paid for by a person other than the passenger named in the ticket, and Carrier has indicated on the ticket that there is a restriction on refund, Carrier shall make a refund only to the person paying for the ticket or to that person's order.\n\n11.2.3 Except in the case of lost tickets, refunds will only be made on surrender to Carrier of the passenger coupon or passenger receipt and surrender of all unused flight coupons.\n\n11.2.4 A refund made to anyone presenting the passenger coupon or passenger receipt and all unused flight coupons and holding himself out as a person to whom refund may be made in terms of 11.2.1 or 11.2.2 shall be deemed a proper refund and shall discharge Carrier from liability and any further claim for refund.",
+  "text": "11.1 General\n\nOn failure by Carrier to provide carriage in accordance with the contract of carriage, or where a passenger requests a voluntary change of his or her arrangements, refund for an unused ticket or portion thereof shall be made by Carrier in accordance with this Article and with Carrier's Regulations.\n\n11.2 Person to Whom Refund will be Made\n\n11.2.1 Except as hereinafter provided in this Article, Carrier shall be entitled to make refund either to the person named in the ticket, or to the person who has paid for the ticket upon presentation of satisfactory proof.\n\n11.2.2 If a ticket has been paid for by a person other than the passenger named in the ticket, and Carrier has indicated on the ticket that there is a restriction on refund, Carrier shall make a refund only to the person paying for the ticket or to that person's order.\n\n11.2.3 Except in the case of lost tickets, refunds will only be made on surrender to Carrier of the passenger coupon or passenger receipt and surrender of all unused flight coupons.\n\n11.2.4 A refund made to anyone presenting the passenger coupon or passenger receipt and all unused flight coupons and holding himself out as a person to whom refund may be made in terms of 11.2.1 or 11.2.2 shall be deemed a proper refund and shall discharge Carrier from liability and any further claim for refund.",
+  "source_file": "IATA_GC.md",
+  "source_path": "INT/EN/IATA_GC.md",
+  "source_sha256": "7d87bebffc10b58787bca82a7250149eadb6bdf9bd5e5daf9534c08f6d4587f5",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

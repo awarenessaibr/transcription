@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.AN11.C5.S6.P1.Art.5.6.1",
+  "original_id": "INT.AN11.C5.S6.P1.Art.5.6.1",
+  "article_number": "5.6.1",
+  "framework_code": "AN11",
+  "jurisdiction": "INT",
+  "title": "Art. 5.6.1 — Annex 11 - Air Traffic Services, Chapter 5 - Alerting Service, 5.6 Information to aircraft operating in the vicinity of an aircraft in a state of emergency, 5.6.1",
+  "theme": "Annex 11",
+  "norm_type": [
+    "exemption"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: exemption",
+    "scope: regulatory"
+  ],
+  "content": "When it has been established by an air traffic services unit that an aircraft is in a state of emergency, other aircraft known to be in the vicinity of the aircraft involved shall, except as provided in 5.6.2, be informed of the nature of the emergency as soon as practicable.",
+  "text": "When it has been established by an air traffic services unit that an aircraft is in a state of emergency, other aircraft known to be in the vicinity of the aircraft involved shall, except as provided in 5.6.2, be informed of the nature of the emergency as soon as practicable.",
+  "source_file": "ICAO_Annex11.md",
+  "source_path": "INT/EN/ICAO_Annex11.md",
+  "source_sha256": "b244ad52167fd1b657460c23157eb06b9a864895cea71a11865de1857e88f4b0",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

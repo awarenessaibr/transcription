@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.D6029.Art.25",
+  "original_id": "BR.D6029.Art.25",
+  "article_number": "25",
+  "framework_code": "D6029",
+  "jurisdiction": "BR",
+  "title": "Art. 25 — Revogações",
+  "theme": "procedural",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: administrative"
+  ],
+  "content": "Ficam revogados os incisos XVII, XIX, XX, XXI, XXIII e XXV do Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal, aprovado pelo Decreto nº 1.171, de 22 de junho de 1994, os arts. 2º e 3º do Decreto de 26 de maio de 1999, que cria a Comissão de Ética Pública, e os Decretos de 30 de agosto de 2000 e de 18 de maio de 2001, que dispõem sobre a Comissão de Ética Pública.",
+  "text": "Ficam revogados os incisos XVII, XIX, XX, XXI, XXIII e XXV do Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal, aprovado pelo Decreto nº 1.171, de 22 de junho de 1994, os arts. 2º e 3º do Decreto de 26 de maio de 1999, que cria a Comissão de Ética Pública, e os Decretos de 30 de agosto de 2000 e de 18 de maio de 2001, que dispõem sobre a Comissão de Ética Pública.",
+  "source_file": "D6029_SistemaGestaoEtica.md",
+  "source_path": "BR/D6029_SistemaGestaoEtica.md",
+  "source_sha256": "f62beeb0752517bf76c5bd14032e02fbe351a37bb1cc1c9746a9324924b46141",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

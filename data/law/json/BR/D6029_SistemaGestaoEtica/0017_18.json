@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.D6029.Art.18",
+  "original_id": "BR.D6029.Art.18",
+  "article_number": "18",
+  "framework_code": "D6029",
+  "jurisdiction": "BR",
+  "title": "Art. 18 — Publicação das decisões em ementa",
+  "theme": "procedural",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: administrative"
+  ],
+  "content": "As decisões das Comissões de Ética, na análise de qualquer fato ou ato submetido à sua apreciação ou por ela levantado, serão resumidas em ementa e, com a omissão dos nomes dos investigados, divulgadas no sítio do próprio órgão, bem como remetidas à Comissão de Ética Pública.",
+  "text": "As decisões das Comissões de Ética, na análise de qualquer fato ou ato submetido à sua apreciação ou por ela levantado, serão resumidas em ementa e, com a omissão dos nomes dos investigados, divulgadas no sítio do próprio órgão, bem como remetidas à Comissão de Ética Pública.",
+  "source_file": "D6029_SistemaGestaoEtica.md",
+  "source_path": "BR/D6029_SistemaGestaoEtica.md",
+  "source_sha256": "f62beeb0752517bf76c5bd14032e02fbe351a37bb1cc1c9746a9324924b46141",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

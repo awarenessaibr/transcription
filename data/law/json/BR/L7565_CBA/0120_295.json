@@ -1,0 +1,40 @@
+{
+  "id": "",
+  "eli_id": "BR.CBA.T9.C2.Art.295",
+  "original_id": "BR.CBA.T9.C2.Art.295",
+  "article_number": "295",
+  "framework_code": "CBA",
+  "jurisdiction": "BR",
+  "title": "Art. 295 — CBA Title IX, Chapter II, Article 295 – Fines and Suspensions",
+  "theme": "Regulatory Compliance",
+  "norm_type": [
+    "penalty"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [
+    "financial_penalty",
+    "suspension"
+  ],
+  "tags": [
+    "norm_type: penalty",
+    "scope: regulatory",
+    "sanctions: financial_penalty",
+    "sanctions: suspension"
+  ],
+  "content": "Art. 295. A multa será imposta de acordo com a gravidade da infração, podendo ser acrescida da suspensão de qualquer dos certificados ou da autorização ou permissão.",
+  "text": "Art. 295. A multa será imposta de acordo com a gravidade da infração, podendo ser acrescida da suspensão de qualquer dos certificados ou da autorização ou permissão.",
+  "source_file": "L7565_CBA.md",
+  "source_path": "BR/L7565_CBA.md",
+  "source_sha256": "4ed35a5b7f1951bbcaed63377ffdb3e8cb1ff9f2f9f8a735e844b46cb3ce0931",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

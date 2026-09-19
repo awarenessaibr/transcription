@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.DOC4444.C15.S1.P3.Art.15.1.3.8",
+  "original_id": "INT.DOC4444.C15.S1.P3.Art.15.1.3.8",
+  "article_number": "15.1.3.8",
+  "framework_code": "DOC4444",
+  "jurisdiction": "INT",
+  "title": "Art. 15.1.3.8 — Procedures for Air Navigation Services - Air Traffic Management (Doc 4444), Chapter 15 - Procedures Related to Emergencies, Communication Failure and Contingencies, 15.1 Emergency Procedures, 15.1.3 Unlawful interference and aircraft bomb threat, 15.1.3.8",
+  "theme": "Doc 4444",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: regulatory"
+  ],
+  "content": "An aircraft on the ground should be advised to remain as far away from other aircraft and installations as possible and, if appropriate, to vacate the runway. The aircraft should be instructed to taxi to a designated or isolated parking area in accordance with local instructions. Should the flight crew disembark passengers and crew immediately, other aircraft, vehicles and personnel should be kept at a safe distance from the threatened aircraft.",
+  "text": "An aircraft on the ground should be advised to remain as far away from other aircraft and installations as possible and, if appropriate, to vacate the runway. The aircraft should be instructed to taxi to a designated or isolated parking area in accordance with local instructions. Should the flight crew disembark passengers and crew immediately, other aircraft, vehicles and personnel should be kept at a safe distance from the threatened aircraft.",
+  "source_file": "ICAO_DOC4444.md",
+  "source_path": "INT/EN/ICAO_DOC4444.md",
+  "source_sha256": "16d26bd68117dd2796b1ae8fe6e31bc8fc5c9331f768c50991606c9e040d5d63",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.R523.Anexo.C3.Art.5",
+  "original_id": "BR.R523.Anexo.C3.Art.5",
+  "article_number": "Anexo, Capítulo III, Art. 5 — Deliberações",
+  "framework_code": "R523",
+  "jurisdiction": "BR",
+  "title": "Anexo, Capítulo III, Art. 5 — Deliberações",
+  "theme": "procedural",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: administrative"
+  ],
+  "content": "As deliberações da Comissão de Ética da ANAC serão tomadas por votos da maioria de seus membros titulares, observado o disposto no § 5º do art. 2º deste Regimento.",
+  "text": "As deliberações da Comissão de Ética da ANAC serão tomadas por votos da maioria de seus membros titulares, observado o disposto no § 5º do art. 2º deste Regimento.",
+  "source_file": "R523_ANAC_ComissaoEtica.md",
+  "source_path": "BR/R523_ANAC_ComissaoEtica.md",
+  "source_sha256": "15c993247f5e4416245b4a18a738c08123282afa020d2ce8105bf8378303bbb4",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

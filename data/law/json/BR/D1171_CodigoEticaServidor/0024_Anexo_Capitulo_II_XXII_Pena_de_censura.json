@@ -1,0 +1,38 @@
+{
+  "id": "",
+  "eli_id": "BR.D1171.Anexo.C2.XXII",
+  "original_id": "BR.D1171.Anexo.C2.XXII",
+  "article_number": "Anexo, Capítulo II, XXII — Pena de censura",
+  "framework_code": "D1171",
+  "jurisdiction": "BR",
+  "title": "Anexo, Capítulo II, XXII — Pena de censura",
+  "theme": "penalty",
+  "norm_type": [
+    "penalty"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [
+    "censura"
+  ],
+  "tags": [
+    "norm_type: penalty",
+    "scope: administrative",
+    "sanctions: censura"
+  ],
+  "content": "A pena aplicável ao servidor público pela Comissão de Ética é a de censura e sua fundamentação constará do respectivo parecer, assinado por todos os seus integrantes, com ciência do faltoso.",
+  "text": "A pena aplicável ao servidor público pela Comissão de Ética é a de censura e sua fundamentação constará do respectivo parecer, assinado por todos os seus integrantes, com ciência do faltoso.",
+  "source_file": "D1171_CodigoEticaServidor.md",
+  "source_path": "BR/D1171_CodigoEticaServidor.md",
+  "source_sha256": "2e0105ed0fe99532240b0fe952e403e4bc1a9ed0097f9aa5b07454b29ea0000a",
+  "language": "unknown",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "",
+  "eli_id": "CL.CHIPENCOD.T4.C6.Art.211",
+  "original_id": "CL.CHIPENCOD.T4.C6.Art.211",
+  "article_number": "211",
+  "framework_code": "CHIPENCOD",
+  "jurisdiction": "CL",
+  "title": "Art. 211 — Art. 211 Código Penal Chileno",
+  "theme": "false_accusation",
+  "norm_type": [
+    "exemption"
+  ],
+  "scope": [
+    "criminal"
+  ],
+  "direction": null,
+  "sanctions": [
+    "financial_penalty",
+    "criminal_liability"
+  ],
+  "tags": [
+    "norm_type: exemption",
+    "scope: criminal",
+    "sanctions: financial_penalty",
+    "sanctions: criminal_liability"
+  ],
+  "content": "Art. 211. El que imputare falsamente a alguna persona haber cometido un crimen o simple delito, siendo sabedor de la falsedad de la imputación, o el que la hiciere de malicia, incurrirá en las penas de reclusión menor en sus grados mínimo a medio y multa de once a quince unidades tributarias mensuales. Si la falsa imputación se hiciere ante la autoridad judicial o ministerio público, la pena se aumentará en un grado. La disposición del presente artículo no se aplica a los abogados ni procuradores en las acusaciones, reconvenciones o imputaciones que hicieren en el ejercicio de su ministerio, salvo cuando éstas fueren hechas con temerario desprecio de la verdad.",
+  "text": "Art. 211. El que imputare falsamente a alguna persona haber cometido un crimen o simple delito, siendo sabedor de la falsedad de la imputación, o el que la hiciere de malicia, incurrirá en las penas de reclusión menor en sus grados mínimo a medio y multa de once a quince unidades tributarias mensuales. Si la falsa imputación se hiciere ante la autoridad judicial o ministerio público, la pena se aumentará en un grado. La disposición del presente artículo no se aplica a los abogados ni procuradores en las acusaciones, reconvenciones o imputaciones que hicieren en el ejercicio de su ministerio, salvo cuando éstas fueren hechas con temerario desprecio de la verdad.",
+  "source_file": "CHIPENCOD_CP.md",
+  "source_path": "CL/CHIPENCOD_CP.md",
+  "source_sha256": "5e189a4a8d31010c3c09610bd439368e1b5d120d4b8a6cae7f13fa19d18cfb9f",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

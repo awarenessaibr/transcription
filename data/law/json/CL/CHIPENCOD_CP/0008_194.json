@@ -1,0 +1,38 @@
+{
+  "id": "",
+  "eli_id": "CL.CHIPENCOD.T4.C3.Art.194",
+  "original_id": "CL.CHIPENCOD.T4.C3.Art.194",
+  "article_number": "194",
+  "framework_code": "CHIPENCOD",
+  "jurisdiction": "CL",
+  "title": "Art. 194 — Art. 194 Código Penal Chileno",
+  "theme": "document_falsification",
+  "norm_type": [
+    "penalty"
+  ],
+  "scope": [
+    "criminal"
+  ],
+  "direction": null,
+  "sanctions": [
+    "criminal_liability"
+  ],
+  "tags": [
+    "norm_type: penalty",
+    "scope: criminal",
+    "sanctions: criminal_liability"
+  ],
+  "content": "Art. 194. El particular que cometiere en documento público o auténtico alguna de las falsedades designadas en el artículo anterior, sufrirá la pena de presidio menor en sus grados medio a máximo.",
+  "text": "Art. 194. El particular que cometiere en documento público o auténtico alguna de las falsedades designadas en el artículo anterior, sufrirá la pena de presidio menor en sus grados medio a máximo.",
+  "source_file": "CHIPENCOD_CP.md",
+  "source_path": "CL/CHIPENCOD_CP.md",
+  "source_sha256": "5e189a4a8d31010c3c09610bd439368e1b5d120d4b8a6cae7f13fa19d18cfb9f",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

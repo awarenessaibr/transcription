@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.CPB.T1.C5.P2.Art.138.2",
+  "original_id": "BR.CPB.T1.C5.P2.Art.138.2",
+  "article_number": "138.2",
+  "framework_code": "CPB",
+  "jurisdiction": "BR",
+  "title": "Art. 138.2 — Código Penal Brasileiro, Parte Especial, Título I, Capítulo V, Art. 138, § 2º",
+  "theme": "Direito Penal",
+  "norm_type": [
+    "definition"
+  ],
+  "scope": [
+    "criminal"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: definition",
+    "scope: criminal"
+  ],
+  "content": "É punível a calúnia contra os mortos.",
+  "text": "É punível a calúnia contra os mortos.",
+  "source_file": "DL2848_CP.md",
+  "source_path": "BR/DL2848_CP.md",
+  "source_sha256": "fda5a60ddf5ce721f40fdb1c4870ca596694d96e66d2e87d670eab30ab102121",
+  "language": "unknown",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

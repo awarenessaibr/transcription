@@ -1,0 +1,32 @@
+{
+  "id": "",
+  "eli_id": "BR.L8906_OAB.Art.72",
+  "original_id": "BR.L8906_OAB.Art.72",
+  "article_number": "72",
+  "framework_code": "L8906_OAB",
+  "jurisdiction": "BR",
+  "title": "Art. 72 — L8906_OAB",
+  "theme": "OAB Statute",
+  "norm_type": [
+    "statute"
+  ],
+  "scope": [],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: statute"
+  ],
+  "content": "O processo disciplinar instaura-se de ofício ou mediante representação de qualquer autoridade ou pessoa interessada.\n\n§ 1º O Código de Ética e Disciplina estabelece os critérios de admissibilidade da representação e os procedimentos disciplinares.\n\n§ 2º O processo disciplinar tramita em sigilo, até o seu término, só tendo acesso às suas informações as partes, seus defensores e a autoridade judiciária competente.",
+  "text": "O processo disciplinar instaura-se de ofício ou mediante representação de qualquer autoridade ou pessoa interessada.\n\n§ 1º O Código de Ética e Disciplina estabelece os critérios de admissibilidade da representação e os procedimentos disciplinares.\n\n§ 2º O processo disciplinar tramita em sigilo, até o seu término, só tendo acesso às suas informações as partes, seus defensores e a autoridade judiciária competente.",
+  "source_file": "L8906_OAB.md",
+  "source_path": "BR/L8906_OAB.md",
+  "source_sha256": "76d070c147dbc6cc88a43babf9ebf413652f9a396c8458b496a7fe5340f93f7b",
+  "language": "unknown",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

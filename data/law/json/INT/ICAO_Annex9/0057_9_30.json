@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.AN9.C9.S30.Art.9.30",
+  "original_id": "INT.AN9.C9.S30.Art.9.30",
+  "article_number": "9.30",
+  "framework_code": "AN9",
+  "jurisdiction": "INT",
+  "title": "Art. 9.30 — Annex 9 - Facilitation, Chapter 9 - Passenger Data Exchange Systems, D. Passenger Name Record (PNR), 9.30",
+  "theme": "Annex 9",
+  "norm_type": [
+    "exemption"
+  ],
+  "scope": [
+    "contractual"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: exemption",
+    "scope: contractual"
+  ],
+  "content": "Contracting States shall:\n\na) not require aircraft operators to collect PNR data that is not required as part of their normal business operating procedures or to filter the data prior to transmission; and\nb) not use PNR data revealing an individual's racial or ethnic origin, political opinions, religious or philosophical beliefs, trade union membership or data concerning their health, sexual life or sexual orientation, other than in exceptional and immediate circumstances to protect the vital interests of the data subject or of another natural person. In circumstances where such information is transferred, Contracting States shall delete such data as soon as practicable.",
+  "text": "Contracting States shall:\n\na) not require aircraft operators to collect PNR data that is not required as part of their normal business operating procedures or to filter the data prior to transmission; and\nb) not use PNR data revealing an individual's racial or ethnic origin, political opinions, religious or philosophical beliefs, trade union membership or data concerning their health, sexual life or sexual orientation, other than in exceptional and immediate circumstances to protect the vital interests of the data subject or of another natural person. In circumstances where such information is transferred, Contracting States shall delete such data as soon as practicable.",
+  "source_file": "ICAO_Annex9.md",
+  "source_path": "INT/EN/ICAO_Annex9.md",
+  "source_sha256": "57c4f76b6dc9787cd7e0c02eba85ac7932117bbae67da26324bd413660d10af6",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

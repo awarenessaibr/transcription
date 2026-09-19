@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.AN6I.T1.C3.S7.P1.Art.3.7.1",
+  "original_id": "INT.AN6I.T1.C3.S7.P1.Art.3.7.1",
+  "article_number": "3.7.1",
+  "framework_code": "AN6I",
+  "jurisdiction": "INT",
+  "title": "Art. 3.7.1 — Annex 6 - Operation of Aircraft, Part I - International Commercial Air Transport - Aeroplanes, Chapter 3 - General Rules, 3.7 Unlawful interference",
+  "theme": "Annex 6",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: regulatory"
+  ],
+  "content": "An aircraft which is being subjected to unlawful interference shall endeavour to notify the appropriate ATS unit of this fact, any significant circumstances associated therewith and any deviation from the current flight plan necessitated by the circumstances, in order to enable the ATS unit to give priority to the aircraft and to minimize conflict with other aircraft.\n\nNote 1. - Responsibility of ATS units in situations of unlawful interference is contained in Annex 11.\nNote 2. - Guidance material for use when unlawful interference occurs and the aircraft is unable to notify an ATS unit of this fact is contained in Attachment B to this Annex.\nNote 3. - Action to be taken by SSR- ADS- B- and ADS- C- equipped aircraft which are being subjected to unlawful interference is contained in Annex 11, the PANS- ATM (Doc 4444) and the PANS- OPS (Doc 8168).\nNote 4. - Action to be taken by CPDLC- equipped aircraft which are being subjected to unlawful interference is contained in Annex 11, the PANS- ATM (Doc 4444), and guidance material on the subject is contained in the Manual of Air Traffic Services Data Link Applications (Doc 9694).",
+  "text": "An aircraft which is being subjected to unlawful interference shall endeavour to notify the appropriate ATS unit of this fact, any significant circumstances associated therewith and any deviation from the current flight plan necessitated by the circumstances, in order to enable the ATS unit to give priority to the aircraft and to minimize conflict with other aircraft.\n\nNote 1. - Responsibility of ATS units in situations of unlawful interference is contained in Annex 11.\nNote 2. - Guidance material for use when unlawful interference occurs and the aircraft is unable to notify an ATS unit of this fact is contained in Attachment B to this Annex.\nNote 3. - Action to be taken by SSR- ADS- B- and ADS- C- equipped aircraft which are being subjected to unlawful interference is contained in Annex 11, the PANS- ATM (Doc 4444) and the PANS- OPS (Doc 8168).\nNote 4. - Action to be taken by CPDLC- equipped aircraft which are being subjected to unlawful interference is contained in Annex 11, the PANS- ATM (Doc 4444), and guidance material on the subject is contained in the Manual of Air Traffic Services Data Link Applications (Doc 9694).",
+  "source_file": "ICAO_Annex6.md",
+  "source_path": "INT/EN/ICAO_Annex6.md",
+  "source_sha256": "a2e06eb192fbd095029630511ad7875dbd3b2f3105ba46e1dfebd355f7d064a1",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

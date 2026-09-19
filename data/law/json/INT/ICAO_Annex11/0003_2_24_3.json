@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.AN11.C2.S24.P3.Art.2.24.3",
+  "original_id": "INT.AN11.C2.S24.P3.Art.2.24.3",
+  "article_number": "2.24.3",
+  "framework_code": "AN11",
+  "jurisdiction": "INT",
+  "title": "Art. 2.24.3 — Annex 11 - Air Traffic Services, Chapter 2 - General, 2.24 Service to aircraft in the event of an emergency, 2.24.3",
+  "theme": "Annex 11",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: regulatory"
+  ],
+  "content": "When an occurrence of unlawful interference with an aircraft takes place or is suspected, ATS units shall, in accordance with locally agreed procedures, immediately inform the appropriate authority designated by the State and exchange necessary information with the operator or its designated representative.\n\nNote 1. A strayed or unidentified aircraft may be suspected as being the subject of unlawful interference. See 2.25.1.3.\nNote 2. Procedures relating to the handling of strayed or unidentified aircraft are contained in 2.25.1.\nNote 3. The PANS- ATM (Doc 4444), Chapter 15, 15.1.3 contains more specific procedures related to unlawful interference.",
+  "text": "When an occurrence of unlawful interference with an aircraft takes place or is suspected, ATS units shall, in accordance with locally agreed procedures, immediately inform the appropriate authority designated by the State and exchange necessary information with the operator or its designated representative.\n\nNote 1. A strayed or unidentified aircraft may be suspected as being the subject of unlawful interference. See 2.25.1.3.\nNote 2. Procedures relating to the handling of strayed or unidentified aircraft are contained in 2.25.1.\nNote 3. The PANS- ATM (Doc 4444), Chapter 15, 15.1.3 contains more specific procedures related to unlawful interference.",
+  "source_file": "ICAO_Annex11.md",
+  "source_path": "INT/EN/ICAO_Annex11.md",
+  "source_sha256": "b244ad52167fd1b657460c23157eb06b9a864895cea71a11865de1857e88f4b0",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

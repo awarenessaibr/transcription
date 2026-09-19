@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "CL.L20285.T2.Art.5",
+  "original_id": "CL.L20285.T2.Art.5",
+  "article_number": "5",
+  "framework_code": "L20285",
+  "jurisdiction": "CL",
+  "title": "Art. 5 — Ley 20.285, Título II, Artículo 5° – Deber de transparencia activa",
+  "theme": "Transparencia activa",
+  "norm_type": [
+    "power"
+  ],
+  "scope": [
+    "contractual"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: power",
+    "scope: contractual"
+  ],
+  "content": "Los órganos de la Administración del Estado deberán mantener actualizada y a disposición del público, a través de sus sitios electrónicos, la siguiente información:\n\n- a) Su estructura orgánica, las facultades y funciones de cada unidad u órgano, la planta de personal y las remuneraciones de los funcionarios, incluyendo las asignaciones y bonificaciones.\n- b) El texto de las leyes, reglamentos, decretos y resoluciones que dicten, así como los actos y contratos que celebren.\n- c) La información sobre el presupuesto asignado, así como los informes sobre su ejecución, en los términos que establezca la ley.\n- d) Los resultados de las auditorías al ejercicio presupuestario.\n- e) Las transferencias de fondos públicos que efectúen, los subsidios y subvenciones que otorguen, y los convenios que celebren con personas naturales o jurídicas.\n- f) Las concesiones, permisos o autorizaciones que otorguen.\n- g) Las bases o condiciones de los procesos de licitación o de adquisición de bienes y servicios.\n- h) Las declaraciones de intereses y de patrimonio de las autoridades y funcionarios que determine la ley.\n- i) Los actos y resoluciones que afecten los derechos e intereses de las personas.\n- j) Los mecanismos de participación ciudadana.\n- k) La información que determine la ley como pública.",
+  "text": "Los órganos de la Administración del Estado deberán mantener actualizada y a disposición del público, a través de sus sitios electrónicos, la siguiente información:\n\n- a) Su estructura orgánica, las facultades y funciones de cada unidad u órgano, la planta de personal y las remuneraciones de los funcionarios, incluyendo las asignaciones y bonificaciones.\n- b) El texto de las leyes, reglamentos, decretos y resoluciones que dicten, así como los actos y contratos que celebren.\n- c) La información sobre el presupuesto asignado, así como los informes sobre su ejecución, en los términos que establezca la ley.\n- d) Los resultados de las auditorías al ejercicio presupuestario.\n- e) Las transferencias de fondos públicos que efectúen, los subsidios y subvenciones que otorguen, y los convenios que celebren con personas naturales o jurídicas.\n- f) Las concesiones, permisos o autorizaciones que otorguen.\n- g) Las bases o condiciones de los procesos de licitación o de adquisición de bienes y servicios.\n- h) Las declaraciones de intereses y de patrimonio de las autoridades y funcionarios que determine la ley.\n- i) Los actos y resoluciones que afecten los derechos e intereses de las personas.\n- j) Los mecanismos de participación ciudadana.\n- k) La información que determine la ley como pública.",
+  "source_file": "L20285_Transparencia.md",
+  "source_path": "CL/L20285_Transparencia.md",
+  "source_sha256": "4e6f01dfa2c767c6cece0780bac8ca2be4f16984ce054b69643f19bb4f1236e8",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

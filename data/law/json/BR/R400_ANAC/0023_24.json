@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.R400.C2.S2.Art.24",
+  "original_id": "BR.R400.C2.S2.Art.24",
+  "article_number": "24",
+  "framework_code": "R400",
+  "jurisdiction": "BR",
+  "title": "Art. 24 — Resolução ANAC nº 400/2016, Capítulo II, Seção II, Art. 24",
+  "theme": "Atraso, Cancelamento, Interrupção do Serviço e Preterição",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: regulatory"
+  ],
+  "content": "Art. 24. No caso de preterição, o transportador deverá, sem prejuízo do previsto no art. 21 desta Resolução, efetuar, imediatamente, o pagamento de compensação financeira ao passageiro, podendo ser por transferência bancária, voucher ou em espécie, no valor de: I - 250 (duzentos e cinquenta) DES, no caso de voo doméstico; e II - 500 (quinhentos) DES, no caso de voo internacional.",
+  "text": "Art. 24. No caso de preterição, o transportador deverá, sem prejuízo do previsto no art. 21 desta Resolução, efetuar, imediatamente, o pagamento de compensação financeira ao passageiro, podendo ser por transferência bancária, voucher ou em espécie, no valor de: I - 250 (duzentos e cinquenta) DES, no caso de voo doméstico; e II - 500 (quinhentos) DES, no caso de voo internacional.",
+  "source_file": "R400_ANAC.md",
+  "source_path": "BR/R400_ANAC.md",
+  "source_sha256": "3a6cbfddc7296c46f06a83537b225a0b8203532e12a91e26af7313256677b947",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.R770.Anexo.C3.S2.Art.15",
+  "original_id": "BR.R770.Anexo.C3.S2.Art.15",
+  "article_number": "Anexo, Capítulo III, Seção II, Art. 15",
+  "framework_code": "R770",
+  "jurisdiction": "BR",
+  "title": "Anexo, Capítulo III, Seção II, Art. 15",
+  "theme": "duty",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: administrative"
+  ],
+  "content": "O agente público deverá guardar sigilo sobre as informações a que teve acesso e de que teve conhecimento em função de suas atribuições, preservando o sigilo de acordo com as normas em vigor.\n\n§ 1º O agente público deverá a zelar pelas informações mantidas pela ANAC, comunicando à autoridade competente toda e qualquer forma de manipulação indevida ou desvio de uso de informação por outro agente público, assim como toda situação de vulnerabilidade ou fragilidade de que tenha conhecimento e que coloque as informações sob o risco de serem violadas ou acessadas por pessoas não autorizadas.\n\n§ 2º Será vedado aos agentes públicos da ANAC: I - disponibilizar, por qualquer meio ou atividade, informações que beneficiem particulares, em detrimento do interesse público, permitam a burla aos controles exercidos pela administração ou coloquem em risco a imagem da ANAC; II - levar assuntos internos da ANAC ao conhecimento de pessoas estranhas à repartição; III - valer-se de informações privilegiadas, para si ou para outrem, de que tenha acesso em decorrência do cargo, função ou emprego público; IV - divulgar, sem autorização superior, informações de que tenha ciência em decorrência do cargo, função ou emprego público, em especial aquelas que digam respeito a resultados de fiscalizações ou certificações realizadas pela ANAC; e V - a prestação de informações sobre assunto que constitua privilégio para quem solicita ou que se refira a interesse de terceiro.",
+  "text": "O agente público deverá guardar sigilo sobre as informações a que teve acesso e de que teve conhecimento em função de suas atribuições, preservando o sigilo de acordo com as normas em vigor.\n\n§ 1º O agente público deverá a zelar pelas informações mantidas pela ANAC, comunicando à autoridade competente toda e qualquer forma de manipulação indevida ou desvio de uso de informação por outro agente público, assim como toda situação de vulnerabilidade ou fragilidade de que tenha conhecimento e que coloque as informações sob o risco de serem violadas ou acessadas por pessoas não autorizadas.\n\n§ 2º Será vedado aos agentes públicos da ANAC: I - disponibilizar, por qualquer meio ou atividade, informações que beneficiem particulares, em detrimento do interesse público, permitam a burla aos controles exercidos pela administração ou coloquem em risco a imagem da ANAC; II - levar assuntos internos da ANAC ao conhecimento de pessoas estranhas à repartição; III - valer-se de informações privilegiadas, para si ou para outrem, de que tenha acesso em decorrência do cargo, função ou emprego público; IV - divulgar, sem autorização superior, informações de que tenha ciência em decorrência do cargo, função ou emprego público, em especial aquelas que digam respeito a resultados de fiscalizações ou certificações realizadas pela ANAC; e V - a prestação de informações sobre assunto que constitua privilégio para quem solicita ou que se refira a interesse de terceiro.",
+  "source_file": "R770_ANAC_CodigoEtica.md",
+  "source_path": "BR/R770_ANAC_CodigoEtica.md",
+  "source_sha256": "c0bdae7f3c25d78d18fbdb179eed4026891b050011b14acb7c239471e9c006d4",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

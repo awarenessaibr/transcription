@@ -1,0 +1,38 @@
+{
+  "id": "",
+  "eli_id": "CL.CONST.T1.C1.Art.6",
+  "original_id": "CL.CONST.T1.C1.Art.6",
+  "article_number": "6",
+  "framework_code": "CONST",
+  "jurisdiction": "CL",
+  "title": "Art. 6 — Constitución Política de Chile, Capítulo I, Artículo 6",
+  "theme": "Constitutional Law",
+  "norm_type": [
+    "penalty"
+  ],
+  "scope": [
+    "constitutional"
+  ],
+  "direction": null,
+  "sanctions": [
+    "criminal_liability"
+  ],
+  "tags": [
+    "norm_type: penalty",
+    "scope: constitutional",
+    "sanctions: criminal_liability"
+  ],
+  "content": "The bodies of the State bodies must subject their action to the Constitution and the norms enacted in conformity therewith as well as guarantee the institutional order of the Republic. The provisions of this Constitution are binding both for the officials or other members of the said bodies as well as for every person, institution or group. The breach of this norm will generate the responsibilities and penalties determined by the law.",
+  "text": "The bodies of the State bodies must subject their action to the Constitution and the norms enacted in conformity therewith as well as guarantee the institutional order of the Republic. The provisions of this Constitution are binding both for the officials or other members of the said bodies as well as for every person, institution or group. The breach of this norm will generate the responsibilities and penalties determined by the law.",
+  "source_file": "Constitucion.md",
+  "source_path": "CL/Constitucion.md",
+  "source_sha256": "b07956bc1e8eb3decb57048c6d3d3f08214643cd68c038e476d5f0381bb3b740",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

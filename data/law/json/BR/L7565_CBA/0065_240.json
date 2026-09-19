@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.CBA.T7.C1.Art.240",
+  "original_id": "BR.CBA.T7.C1.Art.240",
+  "article_number": "240",
+  "framework_code": "CBA",
+  "jurisdiction": "BR",
+  "title": "Art. 240 — CBA Title VII, Chapter I, Article 240 – Presumption of Contract Conclusion",
+  "theme": "Liability and Exemptions",
+  "norm_type": [
+    "definition"
+  ],
+  "scope": [
+    "contractual"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: definition",
+    "scope: contractual"
+  ],
+  "content": "Art. 240. O conhecimento faz presumir, até prova em contrário, a conclusão do contrato, o recebimento da carga e as condições do transporte.",
+  "text": "Art. 240. O conhecimento faz presumir, até prova em contrário, a conclusão do contrato, o recebimento da carga e as condições do transporte.",
+  "source_file": "L7565_CBA.md",
+  "source_path": "BR/L7565_CBA.md",
+  "source_sha256": "4ed35a5b7f1951bbcaed63377ffdb3e8cb1ff9f2f9f8a735e844b46cb3ce0931",
+  "language": "unknown",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.D6029.Art.8",
+  "original_id": "BR.D6029.Art.8",
+  "article_number": "8",
+  "framework_code": "D6029",
+  "jurisdiction": "BR",
+  "title": "Art. 8 — Competências das instâncias superiores",
+  "theme": "duty",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: administrative"
+  ],
+  "content": "Compete às instâncias superiores dos órgãos e entidades do Poder Executivo Federal, abrangendo a administração direta e indireta:\n\nI - observar e fazer observar as normas de ética e disciplina;\nII - constituir Comissão de Ética;\nIII - garantir os recursos humanos, materiais e financeiros para que a Comissão cumpra com suas atribuições; e\nIV - atender com prioridade às solicitações da CEP.",
+  "text": "Compete às instâncias superiores dos órgãos e entidades do Poder Executivo Federal, abrangendo a administração direta e indireta:\n\nI - observar e fazer observar as normas de ética e disciplina;\nII - constituir Comissão de Ética;\nIII - garantir os recursos humanos, materiais e financeiros para que a Comissão cumpra com suas atribuições; e\nIV - atender com prioridade às solicitações da CEP.",
+  "source_file": "D6029_SistemaGestaoEtica.md",
+  "source_path": "BR/D6029_SistemaGestaoEtica.md",
+  "source_sha256": "f62beeb0752517bf76c5bd14032e02fbe351a37bb1cc1c9746a9324924b46141",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

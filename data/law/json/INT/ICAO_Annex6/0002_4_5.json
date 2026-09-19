@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.AN6I.T1.C4.Art.4.5",
+  "original_id": "INT.AN6I.T1.C4.Art.4.5",
+  "article_number": "4.5",
+  "framework_code": "AN6I",
+  "jurisdiction": "INT",
+  "title": "Art. 4.5 — Annex 6 Part I - Operation of Aircraft: International Commercial Air Transport - Aeroplanes, Chapter 4, Article 4.5 - Duties of pilot-in-command, 4.5",
+  "theme": "Annex 6",
+  "norm_type": [
+    "power"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: power",
+    "scope: regulatory"
+  ],
+  "content": "4.5 Duties of pilot-in-command\n\n4.5.1 The pilot-in-command shall be responsible for the safety of all crew members, passengers and cargo on board when the doors are closed. The pilot-in-command shall also be responsible for the operation and safety of the aeroplane from the moment the aeroplane is ready to move for the purpose of taking off until the moment it finally comes to rest at the end of the flight and the engines are shut down.\n\n4.5.2 The pilot-in-command shall have the authority to give all commands and take any appropriate action for the purpose of securing the safety of the aeroplane and of persons or property carried therein.\n\n4.5.3 The pilot-in-command shall have the authority to refuse carriage of any cargo, including mail, or any person, or their baggage, which may endanger the safety of the aeroplane or of persons or property carried therein.",
+  "text": "4.5 Duties of pilot-in-command\n\n4.5.1 The pilot-in-command shall be responsible for the safety of all crew members, passengers and cargo on board when the doors are closed. The pilot-in-command shall also be responsible for the operation and safety of the aeroplane from the moment the aeroplane is ready to move for the purpose of taking off until the moment it finally comes to rest at the end of the flight and the engines are shut down.\n\n4.5.2 The pilot-in-command shall have the authority to give all commands and take any appropriate action for the purpose of securing the safety of the aeroplane and of persons or property carried therein.\n\n4.5.3 The pilot-in-command shall have the authority to refuse carriage of any cargo, including mail, or any person, or their baggage, which may endanger the safety of the aeroplane or of persons or property carried therein.",
+  "source_file": "ICAO_Annex6.md",
+  "source_path": "INT/EN/ICAO_Annex6.md",
+  "source_sha256": "a2e06eb192fbd095029630511ad7875dbd3b2f3105ba46e1dfebd355f7d064a1",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

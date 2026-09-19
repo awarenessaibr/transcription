@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.CBA.T6.C1.Art.176",
+  "original_id": "BR.CBA.T6.C1.Art.176",
+  "article_number": "176",
+  "framework_code": "CBA",
+  "jurisdiction": "BR",
+  "title": "Art. 176 — CBA Title VI, Chapter I, Article 176 – Postal Transport",
+  "theme": "Air Services Regulation",
+  "norm_type": [
+    "exemption"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: exemption",
+    "scope: regulatory"
+  ],
+  "content": "Art. 176. O transporte aéreo de mala postal poderá ser feito, com igualdade de tratamento, por todas as empresas de transporte aéreo regular, em suas linhas, atendendo às conveniências de horário, ou mediante fretamento especial. § 1° No transporte de remessas postais o transportador só é responsável perante a Administração Postal na conformidade das disposições aplicáveis às relações entre eles. § 2° Salvo o disposto no parágrafo anterior, as disposições deste Código não se aplicam ao transporte de remessas postais.",
+  "text": "Art. 176. O transporte aéreo de mala postal poderá ser feito, com igualdade de tratamento, por todas as empresas de transporte aéreo regular, em suas linhas, atendendo às conveniências de horário, ou mediante fretamento especial. § 1° No transporte de remessas postais o transportador só é responsável perante a Administração Postal na conformidade das disposições aplicáveis às relações entre eles. § 2° Salvo o disposto no parágrafo anterior, as disposições deste Código não se aplicam ao transporte de remessas postais.",
+  "source_file": "L7565_CBA.md",
+  "source_path": "BR/L7565_CBA.md",
+  "source_sha256": "4ed35a5b7f1951bbcaed63377ffdb3e8cb1ff9f2f9f8a735e844b46cb3ce0931",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

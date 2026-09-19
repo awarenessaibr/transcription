@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.AN6I.T1.C13.Art.13.1",
+  "original_id": "INT.AN6I.T1.C13.Art.13.1",
+  "article_number": "13.1",
+  "framework_code": "AN6I",
+  "jurisdiction": "INT",
+  "title": "Art. 13.1 — Annex 6 Part I - Operation of Aircraft: International Commercial Air Transport - Aeroplanes, Chapter 13, Article 13.1 - Security of domestic commercial operations, 13.1",
+  "theme": "Annex 6",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: regulatory"
+  ],
+  "content": "13.1 Domestic commercial operations\n\n13.1.1 When an operator conducts domestic commercial operations, the operator shall comply with the security provisions established by the State in which those operations are conducted.",
+  "text": "13.1 Domestic commercial operations\n\n13.1.1 When an operator conducts domestic commercial operations, the operator shall comply with the security provisions established by the State in which those operations are conducted.",
+  "source_file": "ICAO_Annex6.md",
+  "source_path": "INT/EN/ICAO_Annex6.md",
+  "source_sha256": "a2e06eb192fbd095029630511ad7875dbd3b2f3105ba46e1dfebd355f7d064a1",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

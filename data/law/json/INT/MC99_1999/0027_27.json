@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.MC99.C3.Art.27",
+  "original_id": "INT.MC99.C3.Art.27",
+  "article_number": "27",
+  "framework_code": "MC99",
+  "jurisdiction": "INT",
+  "title": "Art. 27 — Montreal Convention 1999, Chapter III - Liability of the Carrier and Extent of Compensation for Damage, Article 27 — Freedom to Contract",
+  "theme": "Liability of the Carrier and Extent of Compensation for Damage",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "contractual"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: contractual"
+  ],
+  "content": "Nothing contained in this Convention shall prevent the carrier from refusing to enter into any contract of carriage, from waiving any defences available under the Convention, or from laying down conditions which do not conflict with the provisions of this Convention.",
+  "text": "Nothing contained in this Convention shall prevent the carrier from refusing to enter into any contract of carriage, from waiving any defences available under the Convention, or from laying down conditions which do not conflict with the provisions of this Convention.",
+  "source_file": "MC99_1999.md",
+  "source_path": "INT/EN/MC99_1999.md",
+  "source_sha256": "bc79e373bc0936102e9860635e77c9b857ef28ccbc4f2b60c23cb5b9318b84f3",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

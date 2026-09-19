@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.R400.C5.Art.44",
+  "original_id": "BR.R400.C5.Art.44",
+  "article_number": "44",
+  "framework_code": "R400",
+  "jurisdiction": "BR",
+  "title": "Art. 44 — Resolução ANAC nº 400/2016, Capítulo V, Art. 44",
+  "theme": "Disposições Finais e Transitórias",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: regulatory"
+  ],
+  "content": "Art. 44. Esta Resolução entra em vigor 90 (noventa) dias após a sua publicação.",
+  "text": "Art. 44. Esta Resolução entra em vigor 90 (noventa) dias após a sua publicação.",
+  "source_file": "R400_ANAC.md",
+  "source_path": "BR/R400_ANAC.md",
+  "source_sha256": "3a6cbfddc7296c46f06a83537b225a0b8203532e12a91e26af7313256677b947",
+  "language": "unknown",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

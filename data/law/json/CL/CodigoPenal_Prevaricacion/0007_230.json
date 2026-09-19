@@ -1,0 +1,40 @@
+{
+  "id": "",
+  "eli_id": "CL.CPCL.C1.Art.230",
+  "original_id": "CL.CPCL.C1.Art.230",
+  "article_number": "230",
+  "framework_code": "CPCL",
+  "jurisdiction": "CL",
+  "title": "Art. 230 — Prevaricación – Falta de renta del funcionario",
+  "theme": "Criminal Law – Prevaricación",
+  "norm_type": [
+    "penalty"
+  ],
+  "scope": [
+    "criminal"
+  ],
+  "direction": null,
+  "sanctions": [
+    "criminal_liability",
+    "financial_penalty"
+  ],
+  "tags": [
+    "norm_type: penalty",
+    "scope: criminal",
+    "sanctions: criminal_liability",
+    "sanctions: financial_penalty"
+  ],
+  "content": "Si no tuviere renta el funcionario que debe ser penado con suspensión o inhabilitación para cargos o empleos públicos, se le aplicará además de estas penas la de reclusión menor en cualquiera de sus grados o multa de once a veinte unidades tributarias mensuales, según los casos.\n\n> **BCN amendment note:** LEY 19450 Art. 1 i) D.O. 18.03.1996\n\n**Source:** [BCN Ley Chile — Código Penal, § IV Prevaricación](https://bcn.cl/gdyHI3)",
+  "text": "Si no tuviere renta el funcionario que debe ser penado con suspensión o inhabilitación para cargos o empleos públicos, se le aplicará además de estas penas la de reclusión menor en cualquiera de sus grados o multa de once a veinte unidades tributarias mensuales, según los casos.\n\n> **BCN amendment note:** LEY 19450 Art. 1 i) D.O. 18.03.1996\n\n**Source:** [BCN Ley Chile — Código Penal, § IV Prevaricación](https://bcn.cl/gdyHI3)",
+  "source_file": "CodigoPenal_Prevaricacion.md",
+  "source_path": "CL/CodigoPenal_Prevaricacion.md",
+  "source_sha256": "921c577cd53a80bf34dad970a21d9f70a3bbd4462816ebc1865734f158780557",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

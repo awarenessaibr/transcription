@@ -1,0 +1,156 @@
+{
+  "source_file": "ICAO_Annex10.md",
+  "source_path": "INT/EN/ICAO_Annex10.md",
+  "jurisdiction": "INT",
+  "format": "structured_heading",
+  "metadata": {
+    "Source": "https://www.icao.int/safety/airnavigation/",
+    "Fetched": "2026-04-27",
+    "Sha256": "d4018e0ab8d5e809f4d4525885914e0e745aefb29a2124f7a9ee21ba37097597",
+    "Articles": "2.1.4.2.1, 2.1.4.2.2, 2.1.4.2.3, 2.1.4.3",
+    "Notes": "✅ verified — ICAO Annex 10 Aeronautical Telecommunications"
+  },
+  "article_count": 4,
+  "payloads": [
+    {
+      "id": "",
+      "eli_id": "INT.AN10.T4.C2.S1.P4.Art.2.1.4.2.1",
+      "original_id": "INT.AN10.T4.C2.S1.P4.Art.2.1.4.2.1",
+      "article_number": "2.1.4.2.1",
+      "framework_code": "AN10",
+      "jurisdiction": "INT",
+      "title": "Art. 2.1.4.2.1 — Annex 10 - Aeronautical Telecommunications, Volume IV (Surveillance and Collision Avoidance Systems), Chapter 2 - General, 2.1 Secondary Surveillance Radar (SSR), 2.1.4 Mode A reply codes (information pulses), 2.1.4.2.1",
+      "theme": "Annex 10",
+      "norm_type": [
+        "definition"
+      ],
+      "scope": [
+        "regulatory"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: definition",
+        "scope: regulatory"
+      ],
+      "content": "Code 7700 to provide recognition of an aircraft in an emergency.",
+      "text": "Code 7700 to provide recognition of an aircraft in an emergency.",
+      "source_file": "ICAO_Annex10.md",
+      "source_path": "INT/EN/ICAO_Annex10.md",
+      "source_sha256": "d9793d45e1d279eea0876178c1a78bddbbe34e7e9d4ec0ea39e977c4ccb792a1",
+      "language": "unknown",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "INT.AN10.T4.C2.S1.P4.Art.2.1.4.2.2",
+      "original_id": "INT.AN10.T4.C2.S1.P4.Art.2.1.4.2.2",
+      "article_number": "2.1.4.2.2",
+      "framework_code": "AN10",
+      "jurisdiction": "INT",
+      "title": "Art. 2.1.4.2.2 — Annex 10 - Aeronautical Telecommunications, Volume IV (Surveillance and Collision Avoidance Systems), Chapter 2 - General, 2.1 Secondary Surveillance Radar (SSR), 2.1.4 Mode A reply codes (information pulses), 2.1.4.2.2",
+      "theme": "Annex 10",
+      "norm_type": [
+        "definition"
+      ],
+      "scope": [
+        "regulatory"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: definition",
+        "scope: regulatory"
+      ],
+      "content": "Code 7600 to provide recognition of an aircraft with radiocommunication failure.",
+      "text": "Code 7600 to provide recognition of an aircraft with radiocommunication failure.",
+      "source_file": "ICAO_Annex10.md",
+      "source_path": "INT/EN/ICAO_Annex10.md",
+      "source_sha256": "d9793d45e1d279eea0876178c1a78bddbbe34e7e9d4ec0ea39e977c4ccb792a1",
+      "language": "en",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "INT.AN10.T4.C2.S1.P4.Art.2.1.4.2.3",
+      "original_id": "INT.AN10.T4.C2.S1.P4.Art.2.1.4.2.3",
+      "article_number": "2.1.4.2.3",
+      "framework_code": "AN10",
+      "jurisdiction": "INT",
+      "title": "Art. 2.1.4.2.3 — Annex 10 - Aeronautical Telecommunications, Volume IV (Surveillance and Collision Avoidance Systems), Chapter 2 - General, 2.1 Secondary Surveillance Radar (SSR), 2.1.4 Mode A reply codes (information pulses), 2.1.4.2.3",
+      "theme": "Annex 10",
+      "norm_type": [
+        "definition"
+      ],
+      "scope": [
+        "regulatory"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: definition",
+        "scope: regulatory"
+      ],
+      "content": "Code 7500 to provide recognition of an aircraft which is being subjected to unlawful interference.",
+      "text": "Code 7500 to provide recognition of an aircraft which is being subjected to unlawful interference.",
+      "source_file": "ICAO_Annex10.md",
+      "source_path": "INT/EN/ICAO_Annex10.md",
+      "source_sha256": "d9793d45e1d279eea0876178c1a78bddbbe34e7e9d4ec0ea39e977c4ccb792a1",
+      "language": "unknown",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "INT.AN10.T4.C2.S1.P4.Art.2.1.4.3",
+      "original_id": "INT.AN10.T4.C2.S1.P4.Art.2.1.4.3",
+      "article_number": "2.1.4.3",
+      "framework_code": "AN10",
+      "jurisdiction": "INT",
+      "title": "Art. 2.1.4.3 — Annex 10 - Aeronautical Telecommunications, Volume IV (Surveillance and Collision Avoidance Systems), Chapter 2 - General, 2.1 Secondary Surveillance Radar (SSR), 2.1.4 Mode A reply codes (information pulses), 2.1.4.3",
+      "theme": "Annex 10",
+      "norm_type": [
+        "duty"
+      ],
+      "scope": [
+        "regulatory"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: duty",
+        "scope: regulatory"
+      ],
+      "content": "Appropriate provisions shall be made in ground decoding equipment to ensure immediate recognition of Mode A codes 7500, 7600 and 7700.",
+      "text": "Appropriate provisions shall be made in ground decoding equipment to ensure immediate recognition of Mode A codes 7500, 7600 and 7700.",
+      "source_file": "ICAO_Annex10.md",
+      "source_path": "INT/EN/ICAO_Annex10.md",
+      "source_sha256": "d9793d45e1d279eea0876178c1a78bddbbe34e7e9d4ec0ea39e977c4ccb792a1",
+      "language": "en",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    }
+  ]
+}

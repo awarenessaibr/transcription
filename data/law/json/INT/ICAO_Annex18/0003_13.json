@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.AN18.C13.Art.13",
+  "original_id": "INT.AN18.C13.Art.13",
+  "article_number": "13",
+  "framework_code": "AN18",
+  "jurisdiction": "INT",
+  "title": "Art. 13 — Annex 18 - The Safe Transport of Dangerous Goods by Air, Chapter 13 - Dangerous Goods Security Provisions",
+  "theme": "Annex 18",
+  "norm_type": [
+    "power"
+  ],
+  "scope": [
+    "contractual"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: power",
+    "scope: contractual"
+  ],
+  "content": "Each Contracting State shall establish dangerous goods security measures, applicable to shippers, operators and other individuals engaged in the transport of dangerous goods by air, to be taken to minimize theft or misuse of dangerous goods that may endanger persons, property or the environment. These measures should be commensurate with security provisions specified in other Annexes and the Technical Instructions.",
+  "text": "Each Contracting State shall establish dangerous goods security measures, applicable to shippers, operators and other individuals engaged in the transport of dangerous goods by air, to be taken to minimize theft or misuse of dangerous goods that may endanger persons, property or the environment. These measures should be commensurate with security provisions specified in other Annexes and the Technical Instructions.",
+  "source_file": "ICAO_Annex18.md",
+  "source_path": "INT/EN/ICAO_Annex18.md",
+  "source_sha256": "62dc9e866ab96022049e549778690f7a43a735a8ae42a0d2cc0ef9176078dbed",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

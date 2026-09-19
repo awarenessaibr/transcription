@@ -1,0 +1,40 @@
+{
+  "id": "",
+  "eli_id": "BR.ABEAR_PAC.Art.8",
+  "original_id": "BR.ABEAR_PAC.Art.8",
+  "article_number": "8",
+  "framework_code": "ABEAR_PAC",
+  "jurisdiction": "BR",
+  "title": "Art. 8 — Infrações e Penalidades",
+  "theme": "penalty",
+  "norm_type": [
+    "penalty"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [
+    "suspension",
+    "financial_penalty"
+  ],
+  "tags": [
+    "norm_type: penalty",
+    "scope: administrative",
+    "sanctions: suspension",
+    "sanctions: financial_penalty"
+  ],
+  "content": "Na ocorrência de infrações relacionadas com esta Política, o Empregado, Consultor/Assessor e/ou Terceiro – especialmente, TPIs, desde que comprovada a sua conduta ou o seu envolvimento de maneira contrária aos padrões de comportamento esperados, estará sujeito às medidas disciplinares e/ou legais aplicáveis.",
+  "text": "Na ocorrência de infrações relacionadas com esta Política, o Empregado, Consultor/Assessor e/ou Terceiro – especialmente, TPIs, desde que comprovada a sua conduta ou o seu envolvimento de maneira contrária aos padrões de comportamento esperados, estará sujeito às medidas disciplinares e/ou legais aplicáveis.",
+  "source_file": "ABEAR_PoliticaAnticorrupcao.md",
+  "source_path": "BR/ABEAR_PoliticaAnticorrupcao.md",
+  "source_sha256": "bcb60543095c0b2f49d4d4065247063c365da4fa931487dff2fa848f908c53ae",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

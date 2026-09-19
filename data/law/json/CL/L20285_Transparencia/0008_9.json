@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "CL.L20285.T3.Art.9",
+  "original_id": "CL.L20285.T3.Art.9",
+  "article_number": "9",
+  "framework_code": "L20285",
+  "jurisdiction": "CL",
+  "title": "Art. 9 — Ley 20.285, Título III, Artículo 9° – Plazo para responder",
+  "theme": "Plazo para responder",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: regulatory"
+  ],
+  "content": "Los órganos de la Administración del Estado deberán responder las solicitudes de acceso a la información dentro del plazo de 20 días hábiles contados desde su recepción. Dicho plazo podrá prorrogarse por otros 10 días hábiles, mediante resolución fundada, cuando la naturaleza o complejidad de la información lo justifique.",
+  "text": "Los órganos de la Administración del Estado deberán responder las solicitudes de acceso a la información dentro del plazo de 20 días hábiles contados desde su recepción. Dicho plazo podrá prorrogarse por otros 10 días hábiles, mediante resolución fundada, cuando la naturaleza o complejidad de la información lo justifique.",
+  "source_file": "L20285_Transparencia.md",
+  "source_path": "CL/L20285_Transparencia.md",
+  "source_sha256": "4e6f01dfa2c767c6cece0780bac8ca2be4f16984ce054b69643f19bb4f1236e8",
+  "language": "unknown",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

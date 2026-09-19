@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.L7716.P2.Art.20",
+  "original_id": "BR.L7716.P2.Art.20",
+  "article_number": "20",
+  "framework_code": "L7716",
+  "jurisdiction": "BR",
+  "title": "Art. 20 — Lei nº 7.716/1989, Art. 20, §2º",
+  "theme": "Crimes por meios de comunicação",
+  "norm_type": [
+    "definition"
+  ],
+  "scope": [
+    "criminal"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: definition",
+    "scope: criminal"
+  ],
+  "content": "§ 2º - Se qualquer dos crimes previstos neste artigo for cometido por intermédio dos meios de comunicação social, de publicação em redes sociais, da rede mundial de computadores ou de publicação de qualquer natureza: (texto incompleto na fonte)",
+  "text": "§ 2º - Se qualquer dos crimes previstos neste artigo for cometido por intermédio dos meios de comunicação social, de publicação em redes sociais, da rede mundial de computadores ou de publicação de qualquer natureza: (texto incompleto na fonte)",
+  "source_file": "L7716_RacialCrime.md",
+  "source_path": "BR/L7716_RacialCrime.md",
+  "source_sha256": "59bd0e7d6d8e2d32c4d5ed7429f71fb4109da9c1944601c4d932a9166f845252",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

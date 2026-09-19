@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.AN17.C3.S1.P1.Art.3.1.1",
+  "original_id": "INT.AN17.C3.S1.P1.Art.3.1.1",
+  "article_number": "3.1.1",
+  "framework_code": "AN17",
+  "jurisdiction": "INT",
+  "title": "Art. 3.1.1 — ICAO Annex 17, Art. 3.1.1",
+  "theme": "National civil aviation security programme",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "contractual"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: contractual"
+  ],
+  "content": "Each Contracting State shall establish and implement a written national civil aviation security programme to safeguard civil aviation operations against acts of unlawful interference, through regulations, practices and procedures which take into account the safety, regularity and efficiency of flights.",
+  "text": "Each Contracting State shall establish and implement a written national civil aviation security programme to safeguard civil aviation operations against acts of unlawful interference, through regulations, practices and procedures which take into account the safety, regularity and efficiency of flights.",
+  "source_file": "ICAO_Annex17.md",
+  "source_path": "INT/EN/ICAO_Annex17.md",
+  "source_sha256": "81e5ac9c507ace3232039592e8bb2341f0e4ddd55b2c6fec328fd8185d5a173f",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

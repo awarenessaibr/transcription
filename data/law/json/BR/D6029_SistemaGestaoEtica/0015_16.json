@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.D6029.Art.16",
+  "original_id": "BR.D6029.Art.16",
+  "article_number": "16",
+  "framework_code": "D6029",
+  "jurisdiction": "BR",
+  "title": "Art. 16 — Vedação de escusa por omissão",
+  "theme": "procedural",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: administrative"
+  ],
+  "content": "As Comissões de Ética não poderão escusar-se de proferir decisão sobre matéria de sua competência alegando omissão do Código de Conduta da Alta Administração Federal, do Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal ou do Código de Ética do órgão ou entidade, que, se existente, será suprida pela analogia e invocação aos princípios da legalidade, impessoalidade, moralidade, publicidade e eficiência.\n\n§ 1º Havendo dúvida quanto à legalidade, a Comissão de Ética competente deverá ouvir previamente a área jurídica do órgão ou entidade.\n\n§ 2º Cumpre à CEP responder a consultas sobre aspectos éticos que lhe forem dirigidas pelas demais Comissões de Ética e pelos órgãos e entidades que integram o Executivo Federal, bem como pelos cidadãos e servidores que venham a ser indicados para ocupar cargo ou função abrangida pelo Código de Conduta da Alta Administração Federal.",
+  "text": "As Comissões de Ética não poderão escusar-se de proferir decisão sobre matéria de sua competência alegando omissão do Código de Conduta da Alta Administração Federal, do Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal ou do Código de Ética do órgão ou entidade, que, se existente, será suprida pela analogia e invocação aos princípios da legalidade, impessoalidade, moralidade, publicidade e eficiência.\n\n§ 1º Havendo dúvida quanto à legalidade, a Comissão de Ética competente deverá ouvir previamente a área jurídica do órgão ou entidade.\n\n§ 2º Cumpre à CEP responder a consultas sobre aspectos éticos que lhe forem dirigidas pelas demais Comissões de Ética e pelos órgãos e entidades que integram o Executivo Federal, bem como pelos cidadãos e servidores que venham a ser indicados para ocupar cargo ou função abrangida pelo Código de Conduta da Alta Administração Federal.",
+  "source_file": "D6029_SistemaGestaoEtica.md",
+  "source_path": "BR/D6029_SistemaGestaoEtica.md",
+  "source_sha256": "f62beeb0752517bf76c5bd14032e02fbe351a37bb1cc1c9746a9324924b46141",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

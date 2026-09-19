@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.CBA.T8.C4.Art.264",
+  "original_id": "BR.CBA.T8.C4.Art.264",
+  "article_number": "264",
+  "framework_code": "CBA",
+  "jurisdiction": "BR",
+  "title": "Art. 264 — CBA Title VIII, Chapter IV, Article 264 – Carrier's Exemptions from Cargo Liability",
+  "theme": "Liability and Exemptions",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: regulatory"
+  ],
+  "content": "Art. 264. O transportador não será responsável se comprovar: I - que o atraso na entrega da carga foi causado por determinação expressa de autoridade aeronáutica do vôo, ou por fato necessário, cujos efeitos não era possível prever, evitar ou impedir; II - que a perda, destruição ou avaria resultou, exclusivamente, de um ou mais dos seguintes fatos: a) natureza ou vício próprio da mercadoria; b) embalagem defeituosa da carga, feita por pessoa ou seus prepostos; c) ato de guerra ou conflito armado; d) ato de autoridade pública referente à carga.",
+  "text": "Art. 264. O transportador não será responsável se comprovar: I - que o atraso na entrega da carga foi causado por determinação expressa de autoridade aeronáutica do vôo, ou por fato necessário, cujos efeitos não era possível prever, evitar ou impedir; II - que a perda, destruição ou avaria resultou, exclusivamente, de um ou mais dos seguintes fatos: a) natureza ou vício próprio da mercadoria; b) embalagem defeituosa da carga, feita por pessoa ou seus prepostos; c) ato de guerra ou conflito armado; d) ato de autoridade pública referente à carga.",
+  "source_file": "L7565_CBA.md",
+  "source_path": "BR/L7565_CBA.md",
+  "source_sha256": "4ed35a5b7f1951bbcaed63377ffdb3e8cb1ff9f2f9f8a735e844b46cb3ce0931",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

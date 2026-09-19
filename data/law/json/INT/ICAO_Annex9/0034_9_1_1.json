@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.AN9.C9.S1.P1.Art.9.1.1",
+  "original_id": "INT.AN9.C9.S1.P1.Art.9.1.1",
+  "article_number": "9.1.1",
+  "framework_code": "AN9",
+  "jurisdiction": "INT",
+  "title": "Art. 9.1.1 — Annex 9 - Facilitation, Chapter 9 - Passenger Data Exchange Systems, A. General, 9.1.1",
+  "theme": "Annex 9",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "contractual"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: contractual"
+  ],
+  "content": "Recommended Practice. Contracting States requiring the exchange of passenger and crew data from aircraft operators should consider creating a Passenger Data Single Window facility for both data categories combined.",
+  "text": "Recommended Practice. Contracting States requiring the exchange of passenger and crew data from aircraft operators should consider creating a Passenger Data Single Window facility for both data categories combined.",
+  "source_file": "ICAO_Annex9.md",
+  "source_path": "INT/EN/ICAO_Annex9.md",
+  "source_sha256": "57c4f76b6dc9787cd7e0c02eba85ac7932117bbae67da26324bd413660d10af6",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

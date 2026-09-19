@@ -1,0 +1,38 @@
+{
+  "id": "",
+  "eli_id": "BR.R523.Anexo.C7.Art.30",
+  "original_id": "BR.R523.Anexo.C7.Art.30",
+  "article_number": "Anexo, Capítulo VII, Art. 30 — Decisão final",
+  "framework_code": "R523",
+  "jurisdiction": "BR",
+  "title": "Anexo, Capítulo VII, Art. 30 — Decisão final",
+  "theme": "penalty",
+  "norm_type": [
+    "penalty"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [
+    "suspension"
+  ],
+  "tags": [
+    "norm_type: penalty",
+    "scope: administrative",
+    "sanctions: suspension"
+  ],
+  "content": "Apresentadas ou não as alegações finais, a Comissão de Ética proferirá a sua decisão.\n\nParágrafo único. Se a conclusão for pela culpabilidade do investigado, a Comissão de Ética poderá aplicar a penalidade de censura ética prevista no Decreto nº 1.171, de 1994, e, cumulativamente, fazer recomendações, bem como lavrar o ACPP, sem prejuízo de outras medidas a seu cargo.",
+  "text": "Apresentadas ou não as alegações finais, a Comissão de Ética proferirá a sua decisão.\n\nParágrafo único. Se a conclusão for pela culpabilidade do investigado, a Comissão de Ética poderá aplicar a penalidade de censura ética prevista no Decreto nº 1.171, de 1994, e, cumulativamente, fazer recomendações, bem como lavrar o ACPP, sem prejuízo de outras medidas a seu cargo.",
+  "source_file": "R523_ANAC_ComissaoEtica.md",
+  "source_path": "BR/R523_ANAC_ComissaoEtica.md",
+  "source_sha256": "15c993247f5e4416245b4a18a738c08123282afa020d2ce8105bf8378303bbb4",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

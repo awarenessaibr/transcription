@@ -1,0 +1,38 @@
+{
+  "id": "",
+  "eli_id": "BR.ABEAR_PUC.Art.11",
+  "original_id": "BR.ABEAR_PUC.Art.11",
+  "article_number": "11",
+  "framework_code": "ABEAR_PUC",
+  "jurisdiction": "BR",
+  "title": "Art. 11 — Infrações e Penalidades",
+  "theme": "penalty",
+  "norm_type": [
+    "penalty"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [
+    "suspension"
+  ],
+  "tags": [
+    "norm_type: penalty",
+    "scope: administrative",
+    "sanctions: suspension"
+  ],
+  "content": "**11.1** Na ocorrência de infrações relacionadas a esta Política, o Empregado ou Colaborador, desde que comprovada a sua conduta ou o seu envolvimento de maneira contrária ao Código de Conduta e/ou as demais Políticas da ABEAR, estará sujeito às medidas disciplinares e/ou legais aplicáveis.",
+  "text": "**11.1** Na ocorrência de infrações relacionadas a esta Política, o Empregado ou Colaborador, desde que comprovada a sua conduta ou o seu envolvimento de maneira contrária ao Código de Conduta e/ou as demais Políticas da ABEAR, estará sujeito às medidas disciplinares e/ou legais aplicáveis.",
+  "source_file": "ABEAR_PoliticaCartoesCorporativos.md",
+  "source_path": "BR/ABEAR_PoliticaCartoesCorporativos.md",
+  "source_sha256": "588c838386016c335896c09c8c103ff578d4d428792fb2b1251b9a68c0fc04b3",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

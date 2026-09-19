@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.R523.Anexo.C6.Art.16",
+  "original_id": "BR.R523.Anexo.C6.Art.16",
+  "article_number": "Anexo, Capítulo VI, Art. 16 — Encaminhamento de indícios de ilícitos",
+  "framework_code": "R523",
+  "jurisdiction": "BR",
+  "title": "Anexo, Capítulo VI, Art. 16 — Encaminhamento de indícios de ilícitos",
+  "theme": "procedural",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: administrative"
+  ],
+  "content": "A Comissão de Ética sempre que constatar a possível ocorrência de ilícitos penais, civis, de improbidade administrativa ou de infração disciplinar, encaminhará cópia dos autos às autoridades competentes para apuração de tais fatos, sem prejuízo da adoção de demais medidas de sua competência.\n\nParágrafo único. Na hipótese prevista no caput, o denunciado deverá ser notificado sobre a remessa do expediente ao órgão competente.",
+  "text": "A Comissão de Ética sempre que constatar a possível ocorrência de ilícitos penais, civis, de improbidade administrativa ou de infração disciplinar, encaminhará cópia dos autos às autoridades competentes para apuração de tais fatos, sem prejuízo da adoção de demais medidas de sua competência.\n\nParágrafo único. Na hipótese prevista no caput, o denunciado deverá ser notificado sobre a remessa do expediente ao órgão competente.",
+  "source_file": "R523_ANAC_ComissaoEtica.md",
+  "source_path": "BR/R523_ANAC_ComissaoEtica.md",
+  "source_sha256": "15c993247f5e4416245b4a18a738c08123282afa020d2ce8105bf8378303bbb4",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

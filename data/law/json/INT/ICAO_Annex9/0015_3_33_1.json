@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.AN9.C3.S33.P1.Art.3.33.1",
+  "original_id": "INT.AN9.C3.S33.P1.Art.3.33.1",
+  "article_number": "3.33.1",
+  "framework_code": "AN9",
+  "jurisdiction": "INT",
+  "title": "Art. 3.33.1 — Annex 9 - Facilitation, Chapter 3 - Entry and Departure of Persons and Their Baggage, H. Inspection of travel documents, 3.33.1",
+  "theme": "Annex 9",
+  "norm_type": [
+    "exemption"
+  ],
+  "scope": [
+    "contractual"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: exemption",
+    "scope: contractual"
+  ],
+  "content": "The public authorities of each Contracting State shall seize fraudulent, falsified or counterfeit travel documents. The public authorities shall also seize the travel documents of a person impersonating the rightful holder of the travel document. Such documents shall be removed from circulation immediately and returned to the appropriate authorities of the State named as issuer or to the resident Diplomatic Mission of that State, except in cases where public authorities retain documents for law enforcement purposes. The appropriate authorities of the State named as issuer or the Diplomatic Mission of that State shall be notified of such retention by the public authorities that seize the travel documents in question.",
+  "text": "The public authorities of each Contracting State shall seize fraudulent, falsified or counterfeit travel documents. The public authorities shall also seize the travel documents of a person impersonating the rightful holder of the travel document. Such documents shall be removed from circulation immediately and returned to the appropriate authorities of the State named as issuer or to the resident Diplomatic Mission of that State, except in cases where public authorities retain documents for law enforcement purposes. The appropriate authorities of the State named as issuer or the Diplomatic Mission of that State shall be notified of such retention by the public authorities that seize the travel documents in question.",
+  "source_file": "ICAO_Annex9.md",
+  "source_path": "INT/EN/ICAO_Annex9.md",
+  "source_sha256": "57c4f76b6dc9787cd7e0c02eba85ac7932117bbae67da26324bd413660d10af6",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

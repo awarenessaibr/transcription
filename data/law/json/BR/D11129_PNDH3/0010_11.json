@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.D11129.T2.Art.11",
+  "original_id": "BR.D11129.T2.Art.11",
+  "article_number": "11",
+  "framework_code": "D11129",
+  "jurisdiction": "BR",
+  "title": "Art. 11 — Decreto nº 11.129/2022, Capítulo II, Seção II, Art. 11 – Relatório final da comissão",
+  "theme": "Relatório final da comissão",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: administrative"
+  ],
+  "content": "Art. 11. Concluídos os trabalhos de apuração e análise, a comissão elaborará relatório a respeito dos fatos apurados e da eventual responsabilidade administrativa da pessoa jurídica, no qual sugerirá, de forma motivada: \n    I - as sanções a serem aplicadas, com a respectiva indicação da dosimetria, ou o arquivamento do processo; \n    II - o encaminhamento do relatório final à autoridade competente para instrução de processo administrativo específico para reparação de danos, quando houver indícios de que do ato lesivo tenha resultado dano ao erário; \n    III - o encaminhamento do relatório final à Advocacia-Geral da União, para ajuizamento da ação de que trata o art. 19 da Lei nº 12.846, de 2013 , com sugestão, de acordo com o caso concreto, da aplicação das sanções previstas naquele artigo, como retribuição complementar às do PAR ou para a prevenção de novos ilícitos; \n    IV - o encaminhamento do processo ao Ministério Público, nos termos do disposto no art. 15 da Lei nº 12.846, de 2013 ; e \n    V - as condições necessárias para a concessão da reabilitação, quando cabível.",
+  "text": "Art. 11. Concluídos os trabalhos de apuração e análise, a comissão elaborará relatório a respeito dos fatos apurados e da eventual responsabilidade administrativa da pessoa jurídica, no qual sugerirá, de forma motivada: \n    I - as sanções a serem aplicadas, com a respectiva indicação da dosimetria, ou o arquivamento do processo; \n    II - o encaminhamento do relatório final à autoridade competente para instrução de processo administrativo específico para reparação de danos, quando houver indícios de que do ato lesivo tenha resultado dano ao erário; \n    III - o encaminhamento do relatório final à Advocacia-Geral da União, para ajuizamento da ação de que trata o art. 19 da Lei nº 12.846, de 2013 , com sugestão, de acordo com o caso concreto, da aplicação das sanções previstas naquele artigo, como retribuição complementar às do PAR ou para a prevenção de novos ilícitos; \n    IV - o encaminhamento do processo ao Ministério Público, nos termos do disposto no art. 15 da Lei nº 12.846, de 2013 ; e \n    V - as condições necessárias para a concessão da reabilitação, quando cabível.",
+  "source_file": "D11129_PNDH3.md",
+  "source_path": "BR/D11129_PNDH3.md",
+  "source_sha256": "48b9ca22b02bc3545313ec26f0cb92326b79c3d3cbd1e6d7097acb8edd1de61d",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

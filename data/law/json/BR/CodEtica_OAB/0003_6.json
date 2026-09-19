@@ -1,0 +1,32 @@
+{
+  "id": "",
+  "eli_id": "BR.CED_OAB.Art.6",
+  "original_id": "BR.CED_OAB.Art.6",
+  "article_number": "6",
+  "framework_code": "CED_OAB",
+  "jurisdiction": "BR",
+  "title": "Art. 6 — CED_OAB",
+  "theme": "OAB Ethics Code",
+  "norm_type": [
+    "ethics"
+  ],
+  "scope": [],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: ethics"
+  ],
+  "content": "— Defeso falsear deliberadamente a verdade em juízo. (Connects to Estatuto Art. 34 XIV.)",
+  "text": "— Defeso falsear deliberadamente a verdade em juízo. (Connects to Estatuto Art. 34 XIV.)",
+  "source_file": "CodEtica_OAB.md",
+  "source_path": "BR/CodEtica_OAB.md",
+  "source_sha256": "863dc60af540128d352debc9fea8f4dc1b947d5549a6b3385fd617696d34b09a",
+  "language": "unknown",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

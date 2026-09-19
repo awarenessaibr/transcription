@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.CBA.T5.C1.Art.165",
+  "original_id": "BR.CBA.T5.C1.Art.165",
+  "article_number": "165",
+  "framework_code": "CBA",
+  "jurisdiction": "BR",
+  "title": "Art. 165 — CBA Title V, Chapter I, Article 165 – Aircraft Commander Requirement",
+  "theme": "Aircraft Operations and Safety",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: regulatory"
+  ],
+  "content": "Art. 165. Toda aeronave terá a bordo um Comandante, membro da tripulação, designado pelo proprietário ou explorador e que será seu preposto durante a viagem. Parágrafo único. O nome do Comandante e dos demais tripulantes constarão do Diário de Bordo.",
+  "text": "Art. 165. Toda aeronave terá a bordo um Comandante, membro da tripulação, designado pelo proprietário ou explorador e que será seu preposto durante a viagem. Parágrafo único. O nome do Comandante e dos demais tripulantes constarão do Diário de Bordo.",
+  "source_file": "L7565_CBA.md",
+  "source_path": "BR/L7565_CBA.md",
+  "source_sha256": "4ed35a5b7f1951bbcaed63377ffdb3e8cb1ff9f2f9f8a735e844b46cb3ce0931",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

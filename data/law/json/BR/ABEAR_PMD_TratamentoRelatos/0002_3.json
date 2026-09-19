@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.ABEAR_PMD.Art.3",
+  "original_id": "BR.ABEAR_PMD.Art.3",
+  "article_number": "3",
+  "framework_code": "ABEAR_PMD",
+  "jurisdiction": "BR",
+  "title": "Art. 3 — Procedimentos para Denunciar",
+  "theme": "procedural",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: administrative"
+  ],
+  "content": "1. Através do Canal de Conduta ABEAR é possível, de forma anônima e segura, registrar quaisquer situações que estejam desconforme com o Código de Conduta ABEAR, Políticas e Procedimentos que integram o Programa de Compliance ABEAR e Legislação vigente;\n\n2. O Canal de Conduta da ABEAR pode ser acessado através do endereço: comitedecompliance@abear.com.br\n\n3. Os reportes serão analisados pela equipe de Compliance da ABEAR que os classificará de acordo com sua natureza:\na) Dúvidas relacionadas a procedimentos;\nb) Não conformidades relacionadas ao Código de Conduta, Programa de Compliance e Legislação vigente;",
+  "text": "1. Através do Canal de Conduta ABEAR é possível, de forma anônima e segura, registrar quaisquer situações que estejam desconforme com o Código de Conduta ABEAR, Políticas e Procedimentos que integram o Programa de Compliance ABEAR e Legislação vigente;\n\n2. O Canal de Conduta da ABEAR pode ser acessado através do endereço: comitedecompliance@abear.com.br\n\n3. Os reportes serão analisados pela equipe de Compliance da ABEAR que os classificará de acordo com sua natureza:\na) Dúvidas relacionadas a procedimentos;\nb) Não conformidades relacionadas ao Código de Conduta, Programa de Compliance e Legislação vigente;",
+  "source_file": "ABEAR_PMD_TratamentoRelatos.md",
+  "source_path": "BR/ABEAR_PMD_TratamentoRelatos.md",
+  "source_sha256": "2730ebba217dad52faa1681847ed48d3bd64cf8cba6de63a20ccc3a148bb1f83",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

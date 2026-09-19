@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.CBA.T6.C3.Art.182",
+  "original_id": "BR.CBA.T6.C3.Art.182",
+  "article_number": "182",
+  "framework_code": "CBA",
+  "jurisdiction": "BR",
+  "title": "Art. 182 — CBA Title VI, Chapter III, Article 182 – Authorization for Other Entities",
+  "theme": "Air Services Regulation",
+  "norm_type": [
+    "power"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: power",
+    "scope: regulatory"
+  ],
+  "content": "Art. 182. A autorização pode ser outorgada: I - às sociedades anônimas nas condições previstas no artigo anterior; II - às demais sociedades, com sede no País, observada a maioria de sócios, o controle e a direção de brasileiros. Parágrafo único. Em se tratando de serviços aéreos especializados de ensino, adestramento, investigação, experimentação científica e de fomento ou proteção ao solo, ao meio ambiente e similares, pode a autorização ser outorgada, também, a associações civis.",
+  "text": "Art. 182. A autorização pode ser outorgada: I - às sociedades anônimas nas condições previstas no artigo anterior; II - às demais sociedades, com sede no País, observada a maioria de sócios, o controle e a direção de brasileiros. Parágrafo único. Em se tratando de serviços aéreos especializados de ensino, adestramento, investigação, experimentação científica e de fomento ou proteção ao solo, ao meio ambiente e similares, pode a autorização ser outorgada, também, a associações civis.",
+  "source_file": "L7565_CBA.md",
+  "source_path": "BR/L7565_CBA.md",
+  "source_sha256": "4ed35a5b7f1951bbcaed63377ffdb3e8cb1ff9f2f9f8a735e844b46cb3ce0931",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

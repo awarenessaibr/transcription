@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "CL.L16752.T3.Art.10",
+  "original_id": "CL.L16752.T3.Art.10",
+  "article_number": "10",
+  "framework_code": "L16752",
+  "jurisdiction": "CL",
+  "title": "Art. 10 — Ley 16.752, Título III, Art. 10° – Responsabilidad por el Pago de Tasas de Operación Aérea",
+  "theme": "Aeronautical Fees – Operator Liability for Aircraft Operation Fees",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: regulatory"
+  ],
+  "content": "Artículo 10° El pago de las tasas correspondientes a las operaciones de aeronaves será de cargo de la persona por cuya cuenta o riesgo se opera o explota la aeronave. Responderá de dicho pago, solidariamente con el operador o explotador, la persona a cuyo nombre esté inscrita la aeronave en el Registro Nacional de Aeronaves.",
+  "text": "Artículo 10° El pago de las tasas correspondientes a las operaciones de aeronaves será de cargo de la persona por cuya cuenta o riesgo se opera o explota la aeronave. Responderá de dicho pago, solidariamente con el operador o explotador, la persona a cuyo nombre esté inscrita la aeronave en el Registro Nacional de Aeronaves.",
+  "source_file": "L16752_DGAC.md",
+  "source_path": "CL/L16752_DGAC.md",
+  "source_sha256": "4a87dd4a006811851700a151c5d940cc1b26620848132b3965881d4c9fe860f0",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

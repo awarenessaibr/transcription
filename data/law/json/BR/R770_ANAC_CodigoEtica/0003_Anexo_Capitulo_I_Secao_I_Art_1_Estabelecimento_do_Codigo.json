@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.R770.Anexo.C1.S1.Art.1",
+  "original_id": "BR.R770.Anexo.C1.S1.Art.1",
+  "article_number": "Anexo, Capítulo I, Seção I, Art. 1 — Estabelecimento do Código",
+  "framework_code": "R770",
+  "jurisdiction": "BR",
+  "title": "Anexo, Capítulo I, Seção I, Art. 1 — Estabelecimento do Código",
+  "theme": "definition",
+  "norm_type": [
+    "definition"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: definition",
+    "scope: administrative"
+  ],
+  "content": "Este Código de Ética e Conduta estabelece os princípios e normas de conduta ética aplicáveis a todos os agentes públicos que prestam serviços à ANAC, sem prejuízo da observância dos demais deveres e proibições legais e regulamentares.\n\n§ 1º Para os efeitos deste Código, agente público é todo aquele legalmente investido em cargo público atuando na ANAC, incluindo servidores dos quadros efetivos e específicos, servidores cedidos, colaboradores terceirizados e estagiários, ou que, por força de lei, contrato ou qualquer ato jurídico, preste serviços de natureza permanente, temporária, excepcional ou eventual, ainda que sem retribuição financeira, à ANAC.\n\n§ 2º Nenhum agente público da ANAC dispõe de autoridade para solicitar qualquer ação que viole este Código de Ética e Conduta, o qual não admite renúncias ou exceções de qualquer natureza.",
+  "text": "Este Código de Ética e Conduta estabelece os princípios e normas de conduta ética aplicáveis a todos os agentes públicos que prestam serviços à ANAC, sem prejuízo da observância dos demais deveres e proibições legais e regulamentares.\n\n§ 1º Para os efeitos deste Código, agente público é todo aquele legalmente investido em cargo público atuando na ANAC, incluindo servidores dos quadros efetivos e específicos, servidores cedidos, colaboradores terceirizados e estagiários, ou que, por força de lei, contrato ou qualquer ato jurídico, preste serviços de natureza permanente, temporária, excepcional ou eventual, ainda que sem retribuição financeira, à ANAC.\n\n§ 2º Nenhum agente público da ANAC dispõe de autoridade para solicitar qualquer ação que viole este Código de Ética e Conduta, o qual não admite renúncias ou exceções de qualquer natureza.",
+  "source_file": "R770_ANAC_CodigoEtica.md",
+  "source_path": "BR/R770_ANAC_CodigoEtica.md",
+  "source_sha256": "c0bdae7f3c25d78d18fbdb179eed4026891b050011b14acb7c239471e9c006d4",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

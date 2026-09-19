@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "CL.DGAC_IVAAF.C1.S8.Art.8",
+  "original_id": "CL.DGAC_IVAAF.C1.S8.Art.8",
+  "article_number": "8",
+  "framework_code": "DGAC_IVAAF",
+  "jurisdiction": "CL",
+  "title": "Art. 8 — DGAC IVAAF, Capítulo I, Sección VIII, Art. 8",
+  "theme": "Acceso",
+  "norm_type": [
+    "right"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: right",
+    "scope: regulatory"
+  ],
+  "content": "Las víctimas y familiares pueden acceder a la investigación desde su inicio.",
+  "text": "Las víctimas y familiares pueden acceder a la investigación desde su inicio.",
+  "source_file": "DGAC_IVAAF.md",
+  "source_path": "CL/DGAC_IVAAF.md",
+  "source_sha256": "6b7af0c6d3884c049a449d0a7c0acd408a348f52051bd7bdb2b901de324720a0",
+  "language": "unknown",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

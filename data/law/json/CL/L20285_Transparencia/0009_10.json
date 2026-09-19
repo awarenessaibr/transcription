@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "CL.L20285.T3.Art.10",
+  "original_id": "CL.L20285.T3.Art.10",
+  "article_number": "10",
+  "framework_code": "L20285",
+  "jurisdiction": "CL",
+  "title": "Art. 10 — Ley 20.285, Título III, Artículo 10° – Forma de entrega de la información",
+  "theme": "Forma de entrega",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: regulatory"
+  ],
+  "content": "La información deberá entregarse en la forma solicitada, siempre que ello sea posible. Si no fuere posible, se entregará en la forma que determine el órgano requerido.",
+  "text": "La información deberá entregarse en la forma solicitada, siempre que ello sea posible. Si no fuere posible, se entregará en la forma que determine el órgano requerido.",
+  "source_file": "L20285_Transparencia.md",
+  "source_path": "CL/L20285_Transparencia.md",
+  "source_sha256": "4e6f01dfa2c767c6cece0780bac8ca2be4f16984ce054b69643f19bb4f1236e8",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

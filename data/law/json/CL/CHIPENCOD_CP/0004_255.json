@@ -1,0 +1,40 @@
+{
+  "id": "",
+  "eli_id": "CL.CHIPENCOD.T5.C2.Art.255",
+  "original_id": "CL.CHIPENCOD.T5.C2.Art.255",
+  "article_number": "255",
+  "framework_code": "CHIPENCOD",
+  "jurisdiction": "CL",
+  "title": "Art. 255 — Art. 255 Código Penal Chileno",
+  "theme": "public_official_misconduct",
+  "norm_type": [
+    "penalty"
+  ],
+  "scope": [
+    "criminal"
+  ],
+  "direction": null,
+  "sanctions": [
+    "criminal_liability",
+    "suspension"
+  ],
+  "tags": [
+    "norm_type: penalty",
+    "scope: criminal",
+    "sanctions: criminal_liability",
+    "sanctions: suspension"
+  ],
+  "content": "Art. 255. El empleado público que, desempeñando un acto del servicio, cometiere cualquier vejación injusta contra las personas será castigado con la pena de suspensión del empleo en su grado mínimo a medio. Si las vejaciones consisten en torturas u otros apremios ilegítimos, se impondrán al culpable las penas respectivas. En todo caso, si de las vejaciones ejercidas resultaren lesiones al ofendido se impondrán también las penas señaladas para este delito, pudiendo el tribunal, según los casos, alterar el orden establecido en el artículo 74 para la imposición de las penas.",
+  "text": "Art. 255. El empleado público que, desempeñando un acto del servicio, cometiere cualquier vejación injusta contra las personas será castigado con la pena de suspensión del empleo en su grado mínimo a medio. Si las vejaciones consisten en torturas u otros apremios ilegítimos, se impondrán al culpable las penas respectivas. En todo caso, si de las vejaciones ejercidas resultaren lesiones al ofendido se impondrán también las penas señaladas para este delito, pudiendo el tribunal, según los casos, alterar el orden establecido en el artículo 74 para la imposición de las penas.",
+  "source_file": "CHIPENCOD_CP.md",
+  "source_path": "CL/CHIPENCOD_CP.md",
+  "source_sha256": "5e189a4a8d31010c3c09610bd439368e1b5d120d4b8a6cae7f13fa19d18cfb9f",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

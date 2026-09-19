@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.MC99.C3.Art.30",
+  "original_id": "INT.MC99.C3.Art.30",
+  "article_number": "30",
+  "framework_code": "MC99",
+  "jurisdiction": "INT",
+  "title": "Art. 30 — Montreal Convention 1999, Chapter III - Liability of the Carrier and Extent of Compensation for Damage, Article 30 — Servants, Agents — Aggregation of Claims",
+  "theme": "Liability of the Carrier and Extent of Compensation for Damage",
+  "norm_type": [
+    "prohibition"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: prohibition",
+    "scope: regulatory"
+  ],
+  "content": "1. If an action is brought against a servant or agent of the carrier arising out of damage to which the Convention relates, such servant or agent, if they prove that they acted within the scope of their employment, shall be entitled to avail themselves of the conditions and limits of liability which the carrier itself is entitled to invoke under this Convention. 2. The aggregate of the amounts recoverable from the carrier, its servants and agents, in that case, shall not exceed the said limits. 3. Save in respect of the carriage of cargo, the provisions of paragraphs 1 and 2 of this Article shall not apply if it is proved that the damage resulted from an act or omission of the servant or agent done with intent to cause damage or recklessly and with knowledge that damage would probably result.",
+  "text": "1. If an action is brought against a servant or agent of the carrier arising out of damage to which the Convention relates, such servant or agent, if they prove that they acted within the scope of their employment, shall be entitled to avail themselves of the conditions and limits of liability which the carrier itself is entitled to invoke under this Convention. 2. The aggregate of the amounts recoverable from the carrier, its servants and agents, in that case, shall not exceed the said limits. 3. Save in respect of the carriage of cargo, the provisions of paragraphs 1 and 2 of this Article shall not apply if it is proved that the damage resulted from an act or omission of the servant or agent done with intent to cause damage or recklessly and with knowledge that damage would probably result.",
+  "source_file": "MC99_1999.md",
+  "source_path": "INT/EN/MC99_1999.md",
+  "source_sha256": "bc79e373bc0936102e9860635e77c9b857ef28ccbc4f2b60c23cb5b9318b84f3",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

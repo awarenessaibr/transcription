@@ -1,0 +1,40 @@
+{
+  "id": "",
+  "eli_id": "CL.CHIPENCOD.T4.C3.Art.197",
+  "original_id": "CL.CHIPENCOD.T4.C3.Art.197",
+  "article_number": "197",
+  "framework_code": "CHIPENCOD",
+  "jurisdiction": "CL",
+  "title": "Art. 197 — Art. 197 Código Penal Chileno",
+  "theme": "document_falsification",
+  "norm_type": [
+    "penalty"
+  ],
+  "scope": [
+    "criminal"
+  ],
+  "direction": null,
+  "sanctions": [
+    "criminal_liability",
+    "financial_penalty"
+  ],
+  "tags": [
+    "norm_type: penalty",
+    "scope: criminal",
+    "sanctions: criminal_liability",
+    "sanctions: financial_penalty"
+  ],
+  "content": "Art. 197. El que, con perjuicio de tercero, cometiere en instrumento privado alguna de las falsedades designadas en el art. 193, sufrirá las penas de presidio menor en cualquiera de sus grados y multa de once a quince unidades tributarias mensuales, o sólo la primera de ellas según las circunstancias. Si tales falsedades se hubieren cometido en letras de cambio u otra clase de documentos mercantiles, se castigará a los culpables con presidio menor en su grado máximo y multa de dieciséis a veinte unidades tributarias mensuales, o sólo con la primera de estas penas atendidas las circunstancias.",
+  "text": "Art. 197. El que, con perjuicio de tercero, cometiere en instrumento privado alguna de las falsedades designadas en el art. 193, sufrirá las penas de presidio menor en cualquiera de sus grados y multa de once a quince unidades tributarias mensuales, o sólo la primera de ellas según las circunstancias. Si tales falsedades se hubieren cometido en letras de cambio u otra clase de documentos mercantiles, se castigará a los culpables con presidio menor en su grado máximo y multa de dieciséis a veinte unidades tributarias mensuales, o sólo con la primera de estas penas atendidas las circunstancias.",
+  "source_file": "CHIPENCOD_CP.md",
+  "source_path": "CL/CHIPENCOD_CP.md",
+  "source_sha256": "5e189a4a8d31010c3c09610bd439368e1b5d120d4b8a6cae7f13fa19d18cfb9f",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

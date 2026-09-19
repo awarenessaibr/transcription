@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.R770.Anexo.C5.Art.40",
+  "original_id": "BR.R770.Anexo.C5.Art.40",
+  "article_number": "Anexo, Capítulo V, Art. 40",
+  "framework_code": "R770",
+  "jurisdiction": "BR",
+  "title": "Anexo, Capítulo V, Art. 40",
+  "theme": "procedural",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: administrative"
+  ],
+  "content": "Os equipamentos de tecnologia da informação, os sistemas informatizados e os canais de comunicação institucional disponibilizados pela ANAC aos seus agentes públicos para uso em serviço poderão ser objeto de auditoria em processo administrativo de apuração de irregularidades e ilícitos, independentemente de prévia comunicação.",
+  "text": "Os equipamentos de tecnologia da informação, os sistemas informatizados e os canais de comunicação institucional disponibilizados pela ANAC aos seus agentes públicos para uso em serviço poderão ser objeto de auditoria em processo administrativo de apuração de irregularidades e ilícitos, independentemente de prévia comunicação.",
+  "source_file": "R770_ANAC_CodigoEtica.md",
+  "source_path": "BR/R770_ANAC_CodigoEtica.md",
+  "source_sha256": "c0bdae7f3c25d78d18fbdb179eed4026891b050011b14acb7c239471e9c006d4",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

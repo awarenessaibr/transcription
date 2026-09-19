@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.CDC.T4.C1.Art.11",
+  "original_id": "BR.CDC.T4.C1.Art.11",
+  "article_number": "11",
+  "framework_code": "CDC",
+  "jurisdiction": "BR",
+  "title": "Art. 11 — CDC Título IV, Capítulo I, Art. 11° – Recall Obrigatório",
+  "theme": "Consumer Health and Safety – Recall",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: regulatory"
+  ],
+  "content": "Art. 11° (Vetado).",
+  "text": "Art. 11° (Vetado).",
+  "source_file": "L8078_CDC.md",
+  "source_path": "BR/L8078_CDC.md",
+  "source_sha256": "8e34dae265f917ea4eaab3245b235f9c8e8ee393f34d96f90a133baf3690eda8",
+  "language": "unknown",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

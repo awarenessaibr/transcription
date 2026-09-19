@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.ABEAR_PCD.Art.2",
+  "original_id": "BR.ABEAR_PCD.Art.2",
+  "article_number": "2",
+  "framework_code": "ABEAR_PCD",
+  "jurisdiction": "BR",
+  "title": "Art. 2 — Aplicação",
+  "theme": "procedural",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: administrative"
+  ],
+  "content": "Esta política se aplica a todas as áreas de negócio e aos colaboradores da Associação Brasileira das Empresas Aéreas - ABEAR.",
+  "text": "Esta política se aplica a todas as áreas de negócio e aos colaboradores da Associação Brasileira das Empresas Aéreas - ABEAR.",
+  "source_file": "ABEAR_PoliticaComprasDueDiligence.md",
+  "source_path": "BR/ABEAR_PoliticaComprasDueDiligence.md",
+  "source_sha256": "b4d2a93059bf7053051ad083fdb5465ae42fefc31dc21a8fe2a3cb6252211914",
+  "language": "unknown",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

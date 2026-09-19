@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "eli_id": "BR.CBA.T9.C1.Art.289",
+  "original_id": "BR.CBA.T9.C1.Art.289",
+  "article_number": "289",
+  "framework_code": "CBA",
+  "jurisdiction": "BR",
+  "title": "Art. 289 — CBA Title IX, Chapter I, Article 289 – Administrative Measures for Violations",
+  "theme": "Regulatory Compliance",
+  "norm_type": [
+    "penalty"
+  ],
+  "scope": [
+    "criminal"
+  ],
+  "direction": null,
+  "sanctions": [
+    "financial_penalty",
+    "criminal_liability",
+    "suspension",
+    "license_revocation"
+  ],
+  "tags": [
+    "norm_type: penalty",
+    "scope: criminal",
+    "sanctions: financial_penalty",
+    "sanctions: criminal_liability",
+    "sanctions: suspension",
+    "sanctions: license_revocation"
+  ],
+  "content": "Art. 289. Na infração aos preceitos deste Código ou da legislação complementar, a autoridade aeronáutica poderá tomar as seguintes providências administrativas: I - multa; II - suspensão de certificados, licenças, concessões ou autorizações; III - cassação de certificados, licenças, concessões ou autorizações; IV - detenção, interdição ou apreensão de aeronave, ou do material transportado; V - intervenção nas empresas concessionárias ou autorizadas.",
+  "text": "Art. 289. Na infração aos preceitos deste Código ou da legislação complementar, a autoridade aeronáutica poderá tomar as seguintes providências administrativas: I - multa; II - suspensão de certificados, licenças, concessões ou autorizações; III - cassação de certificados, licenças, concessões ou autorizações; IV - detenção, interdição ou apreensão de aeronave, ou do material transportado; V - intervenção nas empresas concessionárias ou autorizadas.",
+  "source_file": "L7565_CBA.md",
+  "source_path": "BR/L7565_CBA.md",
+  "source_sha256": "4ed35a5b7f1951bbcaed63377ffdb3e8cb1ff9f2f9f8a735e844b46cb3ce0931",
+  "language": "unknown",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

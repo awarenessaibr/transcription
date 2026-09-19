@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.R770.Anexo.C3.S1.Sub2.Art.14",
+  "original_id": "BR.R770.Anexo.C3.S1.Sub2.Art.14",
+  "article_number": "Anexo, Capítulo III, Seção I, Subseção II, Art. 14",
+  "framework_code": "R770",
+  "jurisdiction": "BR",
+  "title": "Anexo, Capítulo III, Seção I, Subseção II, Art. 14",
+  "theme": "duty",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: administrative"
+  ],
+  "content": "O agente da ANAC, além de observar as obrigações previstas nas normas do Programa de Gestão por Desempenho da ANAC, também deverá seguir as seguintes condutas: I - cumprir seu plano de entregas ou seu plano de trabalho, observando as metas, os prazos, os requisitos de análise e os critérios de qualidade estabelecidos, assumindo a responsabilidade pelas tarefas designadas; II - privilegiar, sempre que possível, as ferramentas estabelecidas pela instituição para a comunicação virtual; e III - permanecer em disponibilidade para contato, por meio dos canais de comunicação e pelo período acordados com a chefia imediata, sem que isso possa significar autorização para extrapolar o horário de disponibilidade estabelecido no Termo de Ciência e Responsabilidade Institucional - TCR e a carga horária de trabalho do participante, salvo interesse público devidamente justificado.",
+  "text": "O agente da ANAC, além de observar as obrigações previstas nas normas do Programa de Gestão por Desempenho da ANAC, também deverá seguir as seguintes condutas: I - cumprir seu plano de entregas ou seu plano de trabalho, observando as metas, os prazos, os requisitos de análise e os critérios de qualidade estabelecidos, assumindo a responsabilidade pelas tarefas designadas; II - privilegiar, sempre que possível, as ferramentas estabelecidas pela instituição para a comunicação virtual; e III - permanecer em disponibilidade para contato, por meio dos canais de comunicação e pelo período acordados com a chefia imediata, sem que isso possa significar autorização para extrapolar o horário de disponibilidade estabelecido no Termo de Ciência e Responsabilidade Institucional - TCR e a carga horária de trabalho do participante, salvo interesse público devidamente justificado.",
+  "source_file": "R770_ANAC_CodigoEtica.md",
+  "source_path": "BR/R770_ANAC_CodigoEtica.md",
+  "source_sha256": "c0bdae7f3c25d78d18fbdb179eed4026891b050011b14acb7c239471e9c006d4",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

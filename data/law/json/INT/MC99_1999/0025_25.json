@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.MC99.C3.Art.25",
+  "original_id": "INT.MC99.C3.Art.25",
+  "article_number": "25",
+  "framework_code": "MC99",
+  "jurisdiction": "INT",
+  "title": "Art. 25 — Montreal Convention 1999, Chapter III - Liability of the Carrier and Extent of Compensation for Damage, Article 25 — Stipulation on Limits",
+  "theme": "Liability of the Carrier and Extent of Compensation for Damage",
+  "norm_type": [
+    "power"
+  ],
+  "scope": [
+    "contractual"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: power",
+    "scope: contractual"
+  ],
+  "content": "A carrier may stipulate that the contract of carriage shall be subject to higher limits of liability than those provided for in this Convention or to no limits of liability whatsoever.",
+  "text": "A carrier may stipulate that the contract of carriage shall be subject to higher limits of liability than those provided for in this Convention or to no limits of liability whatsoever.",
+  "source_file": "MC99_1999.md",
+  "source_path": "INT/EN/MC99_1999.md",
+  "source_sha256": "bc79e373bc0936102e9860635e77c9b857ef28ccbc4f2b60c23cb5b9318b84f3",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

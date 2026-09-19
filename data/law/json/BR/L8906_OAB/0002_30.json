@@ -1,0 +1,32 @@
+{
+  "id": "",
+  "eli_id": "BR.L8906_OAB.Art.30",
+  "original_id": "BR.L8906_OAB.Art.30",
+  "article_number": "30",
+  "framework_code": "L8906_OAB",
+  "jurisdiction": "BR",
+  "title": "Art. 30 — L8906_OAB",
+  "theme": "OAB Statute",
+  "norm_type": [
+    "statute"
+  ],
+  "scope": [],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: statute"
+  ],
+  "content": "São impedidos de exercer a advocacia:\n\n- I — os servidores da administração direta, indireta e fundacional, contra a Fazenda Pública que os remunere ou à qual seja vinculada a entidade empregadora;\n- II — os membros do Poder Legislativo, em seus diferentes níveis, contra ou a favor das pessoas jurídicas de direito público, empresas públicas, sociedades de economia mista, fundações públicas, entidades paraestatais ou empresas concessionárias ou permissionárias de serviço público.",
+  "text": "São impedidos de exercer a advocacia:\n\n- I — os servidores da administração direta, indireta e fundacional, contra a Fazenda Pública que os remunere ou à qual seja vinculada a entidade empregadora;\n- II — os membros do Poder Legislativo, em seus diferentes níveis, contra ou a favor das pessoas jurídicas de direito público, empresas públicas, sociedades de economia mista, fundações públicas, entidades paraestatais ou empresas concessionárias ou permissionárias de serviço público.",
+  "source_file": "L8906_OAB.md",
+  "source_path": "BR/L8906_OAB.md",
+  "source_sha256": "76d070c147dbc6cc88a43babf9ebf413652f9a396c8458b496a7fe5340f93f7b",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "CL.DSO.Art.1.1",
+  "original_id": "CL.DSO.Art.1.1",
+  "article_number": "1.1",
+  "framework_code": "DSO",
+  "jurisdiction": "CL",
+  "title": "Art. 1.1 — DSO, Artículo 1.1 – Función Básica",
+  "theme": "Función Básica",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: regulatory"
+  ],
+  "content": "Función Básica\n\nFiscalizar y aplicar las normas para regular las actividades que realizan:\n\n- Empresas de transporte público\n- Clubes aéreos\n- Empresas de trabajos aéreos\n- Aviación general y deportiva\n- La aeronavegabilidad de las aeronaves\n- Las condiciones sicofísicas y técnicas del personal aeronáutico\n- Los centros de mantenimiento\n- Diseño y fabricación de productos y partes aeronáuticas\n\nÁmbito de Aplicación\n\nLo anterior incluye a:\n\n- Empresas que operan en Chile (nacionales y extranjeras)\n- Aeronaves que operan en el territorio nacional\n- Aeronaves de matrícula chilena que operan en el extranjero\n- Centros de mantenimiento en el territorio nacional y en el extranjero a aquellos que le dan servicio a aeronaves de matrícula chilena\n\nFunciones Adicionales\n\nAdemás, otorgar:\n\n- Certificaciones de aeronaves y centros de mantenimiento\n- Autorizaciones\n- Licencias y habilitaciones a personal aeronáutico de vuelo y tierra",
+  "text": "Función Básica\n\nFiscalizar y aplicar las normas para regular las actividades que realizan:\n\n- Empresas de transporte público\n- Clubes aéreos\n- Empresas de trabajos aéreos\n- Aviación general y deportiva\n- La aeronavegabilidad de las aeronaves\n- Las condiciones sicofísicas y técnicas del personal aeronáutico\n- Los centros de mantenimiento\n- Diseño y fabricación de productos y partes aeronáuticas\n\nÁmbito de Aplicación\n\nLo anterior incluye a:\n\n- Empresas que operan en Chile (nacionales y extranjeras)\n- Aeronaves que operan en el territorio nacional\n- Aeronaves de matrícula chilena que operan en el extranjero\n- Centros de mantenimiento en el territorio nacional y en el extranjero a aquellos que le dan servicio a aeronaves de matrícula chilena\n\nFunciones Adicionales\n\nAdemás, otorgar:\n\n- Certificaciones de aeronaves y centros de mantenimiento\n- Autorizaciones\n- Licencias y habilitaciones a personal aeronáutico de vuelo y tierra",
+  "source_file": "DGAC_DSO.md",
+  "source_path": "CL/DGAC_DSO.md",
+  "source_sha256": "29335380cef8bcab729bcfae42556726d10e42827dd5ca46e65f7554b67345c7",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

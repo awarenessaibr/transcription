@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.R523.Anexo.C7.Art.21",
+  "original_id": "BR.R523.Anexo.C7.Art.21",
+  "article_number": "Anexo, Capítulo VII, Art. 21 — Requisitos da representação ou denúncia",
+  "framework_code": "R523",
+  "jurisdiction": "BR",
+  "title": "Anexo, Capítulo VII, Art. 21 — Requisitos da representação ou denúncia",
+  "theme": "procedural",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: administrative"
+  ],
+  "content": "A representação, a denúncia ou qualquer provocação visando a apuração de transgressão ética deverão conter os seguintes requisitos:\n\nI - descrição da conduta;\nII - indicação da autoria, caso seja possível; e\nIII - apresentação dos elementos de prova ou indicação de onde poderão ser encontrados.\n\nParágrafo único. Quando o autor da demanda não se identificar, a Comissão de Ética poderá acolher os fatos narrados para fins de instauração, de ofício, de procedimento investigatório, desde que contenha indícios suficientes da ocorrência da infração ou, em caso contrário, determinar o arquivamento sumário.",
+  "text": "A representação, a denúncia ou qualquer provocação visando a apuração de transgressão ética deverão conter os seguintes requisitos:\n\nI - descrição da conduta;\nII - indicação da autoria, caso seja possível; e\nIII - apresentação dos elementos de prova ou indicação de onde poderão ser encontrados.\n\nParágrafo único. Quando o autor da demanda não se identificar, a Comissão de Ética poderá acolher os fatos narrados para fins de instauração, de ofício, de procedimento investigatório, desde que contenha indícios suficientes da ocorrência da infração ou, em caso contrário, determinar o arquivamento sumário.",
+  "source_file": "R523_ANAC_ComissaoEtica.md",
+  "source_path": "BR/R523_ANAC_ComissaoEtica.md",
+  "source_sha256": "15c993247f5e4416245b4a18a738c08123282afa020d2ce8105bf8378303bbb4",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

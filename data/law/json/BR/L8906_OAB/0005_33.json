@@ -1,0 +1,32 @@
+{
+  "id": "",
+  "eli_id": "BR.L8906_OAB.Art.33",
+  "original_id": "BR.L8906_OAB.Art.33",
+  "article_number": "33",
+  "framework_code": "L8906_OAB",
+  "jurisdiction": "BR",
+  "title": "Art. 33 — L8906_OAB",
+  "theme": "OAB Statute",
+  "norm_type": [
+    "statute"
+  ],
+  "scope": [],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: statute"
+  ],
+  "content": "O advogado obriga-se a cumprir rigorosamente os deveres consignados no Código de Ética e Disciplina.\n\nParágrafo único. O Código de Ética e Disciplina regula os deveres do advogado para com a comunidade, o cliente, o outro profissional e, ainda, a publicidade, a recusa do patrocínio, o dever de assistência jurídica, o dever geral de urbanidade e os respectivos procedimentos disciplinares.",
+  "text": "O advogado obriga-se a cumprir rigorosamente os deveres consignados no Código de Ética e Disciplina.\n\nParágrafo único. O Código de Ética e Disciplina regula os deveres do advogado para com a comunidade, o cliente, o outro profissional e, ainda, a publicidade, a recusa do patrocínio, o dever de assistência jurídica, o dever geral de urbanidade e os respectivos procedimentos disciplinares.",
+  "source_file": "L8906_OAB.md",
+  "source_path": "BR/L8906_OAB.md",
+  "source_sha256": "76d070c147dbc6cc88a43babf9ebf413652f9a396c8458b496a7fe5340f93f7b",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

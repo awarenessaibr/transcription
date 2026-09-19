@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "CL.L16752.T3.Art.18",
+  "original_id": "CL.L16752.T3.Art.18",
+  "article_number": "18",
+  "framework_code": "L16752",
+  "jurisdiction": "CL",
+  "title": "Art. 18 — Ley 16.752, Título III, Art. 18° – Exención Tributaria de la DGAC",
+  "theme": "DGAC Tax Exemption – Import Duties and Municipal Taxes",
+  "norm_type": [
+    "exemption"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: exemption",
+    "scope: regulatory"
+  ],
+  "content": "Artículo 18° La Dirección General de Aeronáutica Civil estará exenta de derechos de internación y de toda clase de impuestos o contribuciones fiscales o municipales.",
+  "text": "Artículo 18° La Dirección General de Aeronáutica Civil estará exenta de derechos de internación y de toda clase de impuestos o contribuciones fiscales o municipales.",
+  "source_file": "L16752_DGAC.md",
+  "source_path": "CL/L16752_DGAC.md",
+  "source_sha256": "4a87dd4a006811851700a151c5d940cc1b26620848132b3965881d4c9fe860f0",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

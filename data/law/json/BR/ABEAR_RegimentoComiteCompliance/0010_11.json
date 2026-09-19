@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.ABEAR_RIC.Art.11",
+  "original_id": "BR.ABEAR_RIC.Art.11",
+  "article_number": "11",
+  "framework_code": "ABEAR_RIC",
+  "jurisdiction": "BR",
+  "title": "Art. 11 — Outros Participantes das reuniões do Comitê de Compliance",
+  "theme": "procedural",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: administrative"
+  ],
+  "content": "Outros participantes, que possam relatar assuntos de interesse do Comitê de Compliance, poderão participar das sessões, desde que tenham sido especialmente convidadas pelo Coordenador do Comitê.\n\nNão obstante, os membros do Comitê poderão sempre convocar profissionais da área jurídica da respectiva empresa aérea para participarem como membros contributivos.\n\nParágrafo Único - Nos casos de que trata o “caput”, esses participantes devem assinar o Acordo de Confidencialidade contido no Anexo A deste Regulamento antes do início da reunião de que participarão.",
+  "text": "Outros participantes, que possam relatar assuntos de interesse do Comitê de Compliance, poderão participar das sessões, desde que tenham sido especialmente convidadas pelo Coordenador do Comitê.\n\nNão obstante, os membros do Comitê poderão sempre convocar profissionais da área jurídica da respectiva empresa aérea para participarem como membros contributivos.\n\nParágrafo Único - Nos casos de que trata o “caput”, esses participantes devem assinar o Acordo de Confidencialidade contido no Anexo A deste Regulamento antes do início da reunião de que participarão.",
+  "source_file": "ABEAR_RegimentoComiteCompliance.md",
+  "source_path": "BR/ABEAR_RegimentoComiteCompliance.md",
+  "source_sha256": "8a0cb03f43029d84fcc1496edcc4de780d51d4127d11134e4e4e57d10c7d2327",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

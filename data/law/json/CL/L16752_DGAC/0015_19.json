@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "CL.L16752.T4.Art.19",
+  "original_id": "CL.L16752.T4.Art.19",
+  "article_number": "19",
+  "framework_code": "L16752",
+  "jurisdiction": "CL",
+  "title": "Art. 19 — Ley 16.752, Título IV, Art. 19° – Plantas de Personal de la DGAC",
+  "theme": "DGAC Personnel – Staffing Establishment and Presidential Mandate",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: regulatory"
+  ],
+  "content": "Artículo 19° Las Plantas del personal de la Dirección General de Aeronáutica Civil serán las que fije anualmente el Presidente de la República en conformidad al artículo 53° del Decreto con fuerza de ley 47, de 4 de diciembre de 1959.",
+  "text": "Artículo 19° Las Plantas del personal de la Dirección General de Aeronáutica Civil serán las que fije anualmente el Presidente de la República en conformidad al artículo 53° del Decreto con fuerza de ley 47, de 4 de diciembre de 1959.",
+  "source_file": "L16752_DGAC.md",
+  "source_path": "CL/L16752_DGAC.md",
+  "source_sha256": "4a87dd4a006811851700a151c5d940cc1b26620848132b3965881d4c9fe860f0",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

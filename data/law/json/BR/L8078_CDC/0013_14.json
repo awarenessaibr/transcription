@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.CDC.T4.C2.Art.14",
+  "original_id": "BR.CDC.T4.C2.Art.14",
+  "article_number": "14",
+  "framework_code": "CDC",
+  "jurisdiction": "BR",
+  "title": "Art. 14 — CDC Título IV, Capítulo II, Art. 14° – Responsabilidade pelo Fato do Serviço",
+  "theme": "Supplier Liability – Service Defect (Strict Liability)",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: regulatory"
+  ],
+  "content": "Art. 14° O fornecedor de serviços responde, independentemente da existência de culpa, pela reparação dos danos causados aos consumidores por defeitos relativos à prestação dos serviços, bem como por informações insuficientes ou inadequadas sobre sua fruição e riscos. § 1° O serviço é defeituoso quando não fornece a segurança que o consumidor dele pode esperar, levando-se em consideração as circunstâncias relevantes, entre as quais: I – o modo de seu fornecimento; II – o resultado e os riscos que razoavelmente dele se esperam; III – a época em que foi fornecido. § 2° O serviço não é considerado defeituoso pela adoção de novas técnicas. § 3° O fornecedor de serviços só não será responsabilizado quando provar: I – que, tendo prestado o serviço, o defeito inexiste; II – a culpa exclusiva do consumidor ou de terceiro. § 4° A responsabilidade pessoal dos profissionais liberais será apurada mediante a verificação de culpa.",
+  "text": "Art. 14° O fornecedor de serviços responde, independentemente da existência de culpa, pela reparação dos danos causados aos consumidores por defeitos relativos à prestação dos serviços, bem como por informações insuficientes ou inadequadas sobre sua fruição e riscos. § 1° O serviço é defeituoso quando não fornece a segurança que o consumidor dele pode esperar, levando-se em consideração as circunstâncias relevantes, entre as quais: I – o modo de seu fornecimento; II – o resultado e os riscos que razoavelmente dele se esperam; III – a época em que foi fornecido. § 2° O serviço não é considerado defeituoso pela adoção de novas técnicas. § 3° O fornecedor de serviços só não será responsabilizado quando provar: I – que, tendo prestado o serviço, o defeito inexiste; II – a culpa exclusiva do consumidor ou de terceiro. § 4° A responsabilidade pessoal dos profissionais liberais será apurada mediante a verificação de culpa.",
+  "source_file": "L8078_CDC.md",
+  "source_path": "BR/L8078_CDC.md",
+  "source_sha256": "8e34dae265f917ea4eaab3245b235f9c8e8ee393f34d96f90a133baf3690eda8",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

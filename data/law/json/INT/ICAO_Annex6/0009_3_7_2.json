@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.AN6I.T1.C3.S7.P2.Art.3.7.2",
+  "original_id": "INT.AN6I.T1.C3.S7.P2.Art.3.7.2",
+  "article_number": "3.7.2",
+  "framework_code": "AN6I",
+  "jurisdiction": "INT",
+  "title": "Art. 3.7.2 — Annex 6 - Operation of Aircraft, Part I - International Commercial Air Transport - Aeroplanes, Chapter 3 - General Rules, 3.7 Unlawful interference",
+  "theme": "Annex 6",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: regulatory"
+  ],
+  "content": "If an aircraft is subjected to unlawful interference, the pilot- in- command shall attempt to land as soon as practicable at the nearest suitable aerodrome or at a dedicated aerodrome assigned by the appropriate authority unless considerations aboard the aircraft dictate otherwise.\n\nNote 1. - Requirements for State authorities with respect to aircraft on the ground that are subject to unlawful interference are contained in Annex 17, Chapter 5, 5.2.4.\nNote 2. - See 2.4 regarding the authority of the pilot- in- command of an aircraft.",
+  "text": "If an aircraft is subjected to unlawful interference, the pilot- in- command shall attempt to land as soon as practicable at the nearest suitable aerodrome or at a dedicated aerodrome assigned by the appropriate authority unless considerations aboard the aircraft dictate otherwise.\n\nNote 1. - Requirements for State authorities with respect to aircraft on the ground that are subject to unlawful interference are contained in Annex 17, Chapter 5, 5.2.4.\nNote 2. - See 2.4 regarding the authority of the pilot- in- command of an aircraft.",
+  "source_file": "ICAO_Annex6.md",
+  "source_path": "INT/EN/ICAO_Annex6.md",
+  "source_sha256": "a2e06eb192fbd095029630511ad7875dbd3b2f3105ba46e1dfebd355f7d064a1",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

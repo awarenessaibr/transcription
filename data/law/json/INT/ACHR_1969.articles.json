@@ -1,0 +1,1069 @@
+{
+  "source_file": "ACHR_1969.md",
+  "source_path": "INT/EN/ACHR_1969.md",
+  "jurisdiction": "INT",
+  "format": "structured_heading",
+  "metadata": {
+    "Source": "https://www.oas.org/dil/treaties_B-32_American_Convention_on_Human_Rights.htm",
+    "Fetched": "2026-04-27",
+    "Sha256": "5e4270a27c96493da409f0f17274747be77a368c69c5c338c9612ba8d6cdd826",
+    "Articles": "1.1.1, 1.1.2, 2.13.1, 2.13.2, 2.13.3, 2.13.4, 2.13.5, 2.17.1, 2.17.2, 2.17.3, 2.17.4, 2.17.5, 2.5.1, 2.5.2, 2.5.3, 2.5.4, 2.5.5, 2.5.6, 2.7.1, 2.7.2, 2.7.3, 2.7.4, 2.7.5, 2.7.6, 2.7.7, 2.8.1, 2.8.2, 2.8.3, 2.8.4, 2.8.5",
+    "Notes": "✅ verified — American Convention on Human Rights 1969"
+  },
+  "article_count": 30,
+  "payloads": [
+    {
+      "id": "",
+      "eli_id": "INT.ACHR.T1.C1.S1.P1.Art.1.1.1",
+      "original_id": "INT.ACHR.T1.C1.S1.P1.Art.1.1.1",
+      "article_number": "1.1.1",
+      "framework_code": "ACHR",
+      "jurisdiction": "INT",
+      "title": "Art. 1.1.1 — American Convention on Human Rights, Part I, Chapter I, Article 1, Paragraph 1",
+      "theme": "Human Rights",
+      "norm_type": [
+        "duty"
+      ],
+      "scope": [
+        "constitutional"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: duty",
+        "scope: constitutional"
+      ],
+      "content": "The States Parties to this Convention undertake to respect the rights and freedoms recognized herein and to ensure to all persons subject to their jurisdiction the free and full exercise of those rights and freedoms, without any discrimination for reasons of race, color, sex, language, religion, political or other opinion, national or social origin, economic status, birth, or any other social condition.",
+      "text": "The States Parties to this Convention undertake to respect the rights and freedoms recognized herein and to ensure to all persons subject to their jurisdiction the free and full exercise of those rights and freedoms, without any discrimination for reasons of race, color, sex, language, religion, political or other opinion, national or social origin, economic status, birth, or any other social condition.",
+      "source_file": "ACHR_1969.md",
+      "source_path": "INT/EN/ACHR_1969.md",
+      "source_sha256": "0208ba5cf43eda94f0f2a9e75d128b3c2791447452fe601107160e425dbc41c1",
+      "language": "en",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "INT.ACHR.T1.C1.S1.P2.Art.1.1.2",
+      "original_id": "INT.ACHR.T1.C1.S1.P2.Art.1.1.2",
+      "article_number": "1.1.2",
+      "framework_code": "ACHR",
+      "jurisdiction": "INT",
+      "title": "Art. 1.1.2 — American Convention on Human Rights, Part I, Chapter I, Article 1, Paragraph 2",
+      "theme": "Human Rights",
+      "norm_type": [
+        "definition"
+      ],
+      "scope": [
+        "constitutional"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: definition",
+        "scope: constitutional"
+      ],
+      "content": "For the purposes of this Convention, \"person\" means every human being.",
+      "text": "For the purposes of this Convention, \"person\" means every human being.",
+      "source_file": "ACHR_1969.md",
+      "source_path": "INT/EN/ACHR_1969.md",
+      "source_sha256": "0208ba5cf43eda94f0f2a9e75d128b3c2791447452fe601107160e425dbc41c1",
+      "language": "en",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "INT.ACHR.T1.C2.S5.P1.Art.2.5.1",
+      "original_id": "INT.ACHR.T1.C2.S5.P1.Art.2.5.1",
+      "article_number": "2.5.1",
+      "framework_code": "ACHR",
+      "jurisdiction": "INT",
+      "title": "Art. 2.5.1 — American Convention on Human Rights, Part I, Chapter II, Article 5, Paragraph 1",
+      "theme": "Human Rights",
+      "norm_type": [
+        "right"
+      ],
+      "scope": [
+        "constitutional"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: right",
+        "scope: constitutional"
+      ],
+      "content": "Every person has the right to have his physical, mental, and moral integrity respected.",
+      "text": "Every person has the right to have his physical, mental, and moral integrity respected.",
+      "source_file": "ACHR_1969.md",
+      "source_path": "INT/EN/ACHR_1969.md",
+      "source_sha256": "0208ba5cf43eda94f0f2a9e75d128b3c2791447452fe601107160e425dbc41c1",
+      "language": "en",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "INT.ACHR.T1.C2.S5.P2.Art.2.5.2",
+      "original_id": "INT.ACHR.T1.C2.S5.P2.Art.2.5.2",
+      "article_number": "2.5.2",
+      "framework_code": "ACHR",
+      "jurisdiction": "INT",
+      "title": "Art. 2.5.2 — American Convention on Human Rights, Part I, Chapter II, Article 5, Paragraph 2",
+      "theme": "Human Rights",
+      "norm_type": [
+        "prohibition"
+      ],
+      "scope": [
+        "constitutional"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: prohibition",
+        "scope: constitutional"
+      ],
+      "content": "No one shall be subjected to torture or to cruel, inhuman, or degrading punishment or treatment. All persons deprived of their liberty shall be treated with respect for the inherent dignity of the human person.",
+      "text": "No one shall be subjected to torture or to cruel, inhuman, or degrading punishment or treatment. All persons deprived of their liberty shall be treated with respect for the inherent dignity of the human person.",
+      "source_file": "ACHR_1969.md",
+      "source_path": "INT/EN/ACHR_1969.md",
+      "source_sha256": "0208ba5cf43eda94f0f2a9e75d128b3c2791447452fe601107160e425dbc41c1",
+      "language": "en",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "INT.ACHR.T1.C2.S5.P3.Art.2.5.3",
+      "original_id": "INT.ACHR.T1.C2.S5.P3.Art.2.5.3",
+      "article_number": "2.5.3",
+      "framework_code": "ACHR",
+      "jurisdiction": "INT",
+      "title": "Art. 2.5.3 — American Convention on Human Rights, Part I, Chapter II, Article 5, Paragraph 3",
+      "theme": "Human Rights",
+      "norm_type": [
+        "prohibition"
+      ],
+      "scope": [
+        "constitutional"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: prohibition",
+        "scope: constitutional"
+      ],
+      "content": "Punishment shall not be extended to any person other than the criminal.",
+      "text": "Punishment shall not be extended to any person other than the criminal.",
+      "source_file": "ACHR_1969.md",
+      "source_path": "INT/EN/ACHR_1969.md",
+      "source_sha256": "0208ba5cf43eda94f0f2a9e75d128b3c2791447452fe601107160e425dbc41c1",
+      "language": "en",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "INT.ACHR.T1.C2.S5.P4.Art.2.5.4",
+      "original_id": "INT.ACHR.T1.C2.S5.P4.Art.2.5.4",
+      "article_number": "2.5.4",
+      "framework_code": "ACHR",
+      "jurisdiction": "INT",
+      "title": "Art. 2.5.4 — American Convention on Human Rights, Part I, Chapter II, Article 5, Paragraph 4",
+      "theme": "Human Rights",
+      "norm_type": [
+        "exemption"
+      ],
+      "scope": [
+        "constitutional"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: exemption",
+        "scope: constitutional"
+      ],
+      "content": "Accused persons shall, save in exceptional circumstances, be segregated from convicted persons, and shall be subject to separate treatment appropriate to their status as unconvicted persons.",
+      "text": "Accused persons shall, save in exceptional circumstances, be segregated from convicted persons, and shall be subject to separate treatment appropriate to their status as unconvicted persons.",
+      "source_file": "ACHR_1969.md",
+      "source_path": "INT/EN/ACHR_1969.md",
+      "source_sha256": "0208ba5cf43eda94f0f2a9e75d128b3c2791447452fe601107160e425dbc41c1",
+      "language": "en",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "INT.ACHR.T1.C2.S5.P5.Art.2.5.5",
+      "original_id": "INT.ACHR.T1.C2.S5.P5.Art.2.5.5",
+      "article_number": "2.5.5",
+      "framework_code": "ACHR",
+      "jurisdiction": "INT",
+      "title": "Art. 2.5.5 — American Convention on Human Rights, Part I, Chapter II, Article 5, Paragraph 5",
+      "theme": "Human Rights",
+      "norm_type": [
+        "power"
+      ],
+      "scope": [
+        "constitutional"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: power",
+        "scope: constitutional"
+      ],
+      "content": "Minors while subject to criminal proceedings shall be separated from adults and brought before specialized tribunals, as speedily as possible, so that they may be treated in accordance with their status as minors.",
+      "text": "Minors while subject to criminal proceedings shall be separated from adults and brought before specialized tribunals, as speedily as possible, so that they may be treated in accordance with their status as minors.",
+      "source_file": "ACHR_1969.md",
+      "source_path": "INT/EN/ACHR_1969.md",
+      "source_sha256": "0208ba5cf43eda94f0f2a9e75d128b3c2791447452fe601107160e425dbc41c1",
+      "language": "en",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "INT.ACHR.T1.C2.S5.P6.Art.2.5.6",
+      "original_id": "INT.ACHR.T1.C2.S5.P6.Art.2.5.6",
+      "article_number": "2.5.6",
+      "framework_code": "ACHR",
+      "jurisdiction": "INT",
+      "title": "Art. 2.5.6 — American Convention on Human Rights, Part I, Chapter II, Article 5, Paragraph 6",
+      "theme": "Human Rights",
+      "norm_type": [
+        "duty"
+      ],
+      "scope": [
+        "constitutional"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: duty",
+        "scope: constitutional"
+      ],
+      "content": "Punishments consisting of deprivation of liberty shall have as an essential aim the reform and social readaptation of the prisoners.",
+      "text": "Punishments consisting of deprivation of liberty shall have as an essential aim the reform and social readaptation of the prisoners.",
+      "source_file": "ACHR_1969.md",
+      "source_path": "INT/EN/ACHR_1969.md",
+      "source_sha256": "0208ba5cf43eda94f0f2a9e75d128b3c2791447452fe601107160e425dbc41c1",
+      "language": "en",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "INT.ACHR.T1.C2.S7.P1.Art.2.7.1",
+      "original_id": "INT.ACHR.T1.C2.S7.P1.Art.2.7.1",
+      "article_number": "2.7.1",
+      "framework_code": "ACHR",
+      "jurisdiction": "INT",
+      "title": "Art. 2.7.1 — American Convention on Human Rights, Part I, Chapter II, Article 7, Paragraph 1",
+      "theme": "Human Rights",
+      "norm_type": [
+        "right"
+      ],
+      "scope": [
+        "constitutional"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: right",
+        "scope: constitutional"
+      ],
+      "content": "Every person has the right to personal liberty and security.",
+      "text": "Every person has the right to personal liberty and security.",
+      "source_file": "ACHR_1969.md",
+      "source_path": "INT/EN/ACHR_1969.md",
+      "source_sha256": "0208ba5cf43eda94f0f2a9e75d128b3c2791447452fe601107160e425dbc41c1",
+      "language": "en",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "INT.ACHR.T1.C2.S7.P2.Art.2.7.2",
+      "original_id": "INT.ACHR.T1.C2.S7.P2.Art.2.7.2",
+      "article_number": "2.7.2",
+      "framework_code": "ACHR",
+      "jurisdiction": "INT",
+      "title": "Art. 2.7.2 — American Convention on Human Rights, Part I, Chapter II, Article 7, Paragraph 2",
+      "theme": "Human Rights",
+      "norm_type": [
+        "exemption"
+      ],
+      "scope": [
+        "constitutional"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: exemption",
+        "scope: constitutional"
+      ],
+      "content": "No one shall be deprived of his physical liberty except for the reasons and under the conditions established beforehand by the constitution of the State Party concerned or by a law established pursuant thereto.",
+      "text": "No one shall be deprived of his physical liberty except for the reasons and under the conditions established beforehand by the constitution of the State Party concerned or by a law established pursuant thereto.",
+      "source_file": "ACHR_1969.md",
+      "source_path": "INT/EN/ACHR_1969.md",
+      "source_sha256": "0208ba5cf43eda94f0f2a9e75d128b3c2791447452fe601107160e425dbc41c1",
+      "language": "en",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "INT.ACHR.T1.C2.S7.P3.Art.2.7.3",
+      "original_id": "INT.ACHR.T1.C2.S7.P3.Art.2.7.3",
+      "article_number": "2.7.3",
+      "framework_code": "ACHR",
+      "jurisdiction": "INT",
+      "title": "Art. 2.7.3 — American Convention on Human Rights, Part I, Chapter II, Article 7, Paragraph 3",
+      "theme": "Human Rights",
+      "norm_type": [
+        "penalty"
+      ],
+      "scope": [
+        "constitutional"
+      ],
+      "direction": null,
+      "sanctions": [
+        "criminal_liability"
+      ],
+      "tags": [
+        "norm_type: penalty",
+        "scope: constitutional",
+        "sanctions: criminal_liability"
+      ],
+      "content": "No one shall be subject to arbitrary arrest or imprisonment.",
+      "text": "No one shall be subject to arbitrary arrest or imprisonment.",
+      "source_file": "ACHR_1969.md",
+      "source_path": "INT/EN/ACHR_1969.md",
+      "source_sha256": "0208ba5cf43eda94f0f2a9e75d128b3c2791447452fe601107160e425dbc41c1",
+      "language": "es",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "INT.ACHR.T1.C2.S7.P4.Art.2.7.4",
+      "original_id": "INT.ACHR.T1.C2.S7.P4.Art.2.7.4",
+      "article_number": "2.7.4",
+      "framework_code": "ACHR",
+      "jurisdiction": "INT",
+      "title": "Art. 2.7.4 — American Convention on Human Rights, Part I, Chapter II, Article 7, Paragraph 4",
+      "theme": "Human Rights",
+      "norm_type": [
+        "duty"
+      ],
+      "scope": [
+        "constitutional"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: duty",
+        "scope: constitutional"
+      ],
+      "content": "Anyone who is detained shall be informed of the reasons for his detention and shall be promptly notified of the charge or charges against him.",
+      "text": "Anyone who is detained shall be informed of the reasons for his detention and shall be promptly notified of the charge or charges against him.",
+      "source_file": "ACHR_1969.md",
+      "source_path": "INT/EN/ACHR_1969.md",
+      "source_sha256": "0208ba5cf43eda94f0f2a9e75d128b3c2791447452fe601107160e425dbc41c1",
+      "language": "en",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "INT.ACHR.T1.C2.S7.P5.Art.2.7.5",
+      "original_id": "INT.ACHR.T1.C2.S7.P5.Art.2.7.5",
+      "article_number": "2.7.5",
+      "framework_code": "ACHR",
+      "jurisdiction": "INT",
+      "title": "Art. 2.7.5 — American Convention on Human Rights, Part I, Chapter II, Article 7, Paragraph 5",
+      "theme": "Human Rights",
+      "norm_type": [
+        "procedural"
+      ],
+      "scope": [
+        "constitutional"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: procedural",
+        "scope: constitutional"
+      ],
+      "content": "Any person detained shall be brought promptly before a judge or other officer authorized by law to exercise judicial power and shall be entitled to trial within a reasonable time or to be released without prejudice to the continuation of the proceedings. His release may be subject to guarantees to assure his appearance for trial.",
+      "text": "Any person detained shall be brought promptly before a judge or other officer authorized by law to exercise judicial power and shall be entitled to trial within a reasonable time or to be released without prejudice to the continuation of the proceedings. His release may be subject to guarantees to assure his appearance for trial.",
+      "source_file": "ACHR_1969.md",
+      "source_path": "INT/EN/ACHR_1969.md",
+      "source_sha256": "0208ba5cf43eda94f0f2a9e75d128b3c2791447452fe601107160e425dbc41c1",
+      "language": "en",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "INT.ACHR.T1.C2.S7.P6.Art.2.7.6",
+      "original_id": "INT.ACHR.T1.C2.S7.P6.Art.2.7.6",
+      "article_number": "2.7.6",
+      "framework_code": "ACHR",
+      "jurisdiction": "INT",
+      "title": "Art. 2.7.6 — American Convention on Human Rights, Part I, Chapter II, Article 7, Paragraph 6",
+      "theme": "Human Rights",
+      "norm_type": [
+        "right"
+      ],
+      "scope": [
+        "constitutional"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: right",
+        "scope: constitutional"
+      ],
+      "content": "Anyone who is deprived of his liberty shall be entitled to recourse to a competent court, in order that the court may decide without delay on the lawfulness of his arrest or detention and order his release if the arrest or detention is unlawful. In States Parties whose laws provide that anyone who believes himself to be threatened with deprivation of his liberty is entitled to recourse to a competent court in order that it may decide on the lawfulness of such threat, this remedy may not be restricted or abolished. The interested party or another person in his behalf is entitled to seek these remedies.",
+      "text": "Anyone who is deprived of his liberty shall be entitled to recourse to a competent court, in order that the court may decide without delay on the lawfulness of his arrest or detention and order his release if the arrest or detention is unlawful. In States Parties whose laws provide that anyone who believes himself to be threatened with deprivation of his liberty is entitled to recourse to a competent court in order that it may decide on the lawfulness of such threat, this remedy may not be restricted or abolished. The interested party or another person in his behalf is entitled to seek these remedies.",
+      "source_file": "ACHR_1969.md",
+      "source_path": "INT/EN/ACHR_1969.md",
+      "source_sha256": "0208ba5cf43eda94f0f2a9e75d128b3c2791447452fe601107160e425dbc41c1",
+      "language": "en",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "INT.ACHR.T1.C2.S7.P7.Art.2.7.7",
+      "original_id": "INT.ACHR.T1.C2.S7.P7.Art.2.7.7",
+      "article_number": "2.7.7",
+      "framework_code": "ACHR",
+      "jurisdiction": "INT",
+      "title": "Art. 2.7.7 — American Convention on Human Rights, Part I, Chapter II, Article 7, Paragraph 7",
+      "theme": "Human Rights",
+      "norm_type": [
+        "prohibition"
+      ],
+      "scope": [
+        "constitutional"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: prohibition",
+        "scope: constitutional"
+      ],
+      "content": "No one shall be detained for debt. This principle shall not limit the orders of a competent judicial authority issued for nonfulfillment of duties of support.",
+      "text": "No one shall be detained for debt. This principle shall not limit the orders of a competent judicial authority issued for nonfulfillment of duties of support.",
+      "source_file": "ACHR_1969.md",
+      "source_path": "INT/EN/ACHR_1969.md",
+      "source_sha256": "0208ba5cf43eda94f0f2a9e75d128b3c2791447452fe601107160e425dbc41c1",
+      "language": "en",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "INT.ACHR.T1.C2.S8.P1.Art.2.8.1",
+      "original_id": "INT.ACHR.T1.C2.S8.P1.Art.2.8.1",
+      "article_number": "2.8.1",
+      "framework_code": "ACHR",
+      "jurisdiction": "INT",
+      "title": "Art. 2.8.1 — American Convention on Human Rights, Part I, Chapter II, Article 8, Paragraph 1",
+      "theme": "Human Rights",
+      "norm_type": [
+        "procedural"
+      ],
+      "scope": [
+        "constitutional"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: procedural",
+        "scope: constitutional"
+      ],
+      "content": "Every person has the right to a hearing, with due guarantees and within a reasonable time, by a competent, independent, and impartial tribunal, previously established by law, in the substantiation of any accusation of a criminal nature made against him or for the determination of his rights and obligations of a civil, labor, fiscal, or any other nature.",
+      "text": "Every person has the right to a hearing, with due guarantees and within a reasonable time, by a competent, independent, and impartial tribunal, previously established by law, in the substantiation of any accusation of a criminal nature made against him or for the determination of his rights and obligations of a civil, labor, fiscal, or any other nature.",
+      "source_file": "ACHR_1969.md",
+      "source_path": "INT/EN/ACHR_1969.md",
+      "source_sha256": "0208ba5cf43eda94f0f2a9e75d128b3c2791447452fe601107160e425dbc41c1",
+      "language": "en",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "INT.ACHR.T1.C2.S8.P2.Art.2.8.2",
+      "original_id": "INT.ACHR.T1.C2.S8.P2.Art.2.8.2",
+      "article_number": "2.8.2",
+      "framework_code": "ACHR",
+      "jurisdiction": "INT",
+      "title": "Art. 2.8.2 — American Convention on Human Rights, Part I, Chapter II, Article 8, Paragraph 2",
+      "theme": "Human Rights",
+      "norm_type": [
+        "definition"
+      ],
+      "scope": [
+        "constitutional"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: definition",
+        "scope: constitutional"
+      ],
+      "content": "Every person accused of a criminal offense has the right to be presumed innocent so long as his guilt has not been proven according to law. During the proceedings, every person is entitled, with full equality, to the following minimum guarantees: a. the right of the accused to be assisted without charge by a translator or interpreter, if he does not understand or does not speak the language of the tribunal or court; b. prior notification in detail to the accused of the charges against him; c. adequate time and means for the preparation of his defense; d. the right of the accused to defend himself personally or to be assisted by legal counsel of his own choosing, and to communicate freely and privately with his counsel; e. the inalienable right to be assisted by counsel provided by the state, paid or not as the domestic law provides, if the accused does not defend himself personally or engage his own counsel within the time period established by law; f. the right of the defense to examine witnesses present in the court and to obtain the appearance, as witnesses, of experts or other persons who may throw light on the facts; g. the right not to be compelled to be a witness against himself or to plead guilty; and h. the right to appeal the judgment to a higher court.",
+      "text": "Every person accused of a criminal offense has the right to be presumed innocent so long as his guilt has not been proven according to law. During the proceedings, every person is entitled, with full equality, to the following minimum guarantees: a. the right of the accused to be assisted without charge by a translator or interpreter, if he does not understand or does not speak the language of the tribunal or court; b. prior notification in detail to the accused of the charges against him; c. adequate time and means for the preparation of his defense; d. the right of the accused to defend himself personally or to be assisted by legal counsel of his own choosing, and to communicate freely and privately with his counsel; e. the inalienable right to be assisted by counsel provided by the state, paid or not as the domestic law provides, if the accused does not defend himself personally or engage his own counsel within the time period established by law; f. the right of the defense to examine witnesses present in the court and to obtain the appearance, as witnesses, of experts or other persons who may throw light on the facts; g. the right not to be compelled to be a witness against himself or to plead guilty; and h. the right to appeal the judgment to a higher court.",
+      "source_file": "ACHR_1969.md",
+      "source_path": "INT/EN/ACHR_1969.md",
+      "source_sha256": "0208ba5cf43eda94f0f2a9e75d128b3c2791447452fe601107160e425dbc41c1",
+      "language": "en",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "INT.ACHR.T1.C2.S8.P3.Art.2.8.3",
+      "original_id": "INT.ACHR.T1.C2.S8.P3.Art.2.8.3",
+      "article_number": "2.8.3",
+      "framework_code": "ACHR",
+      "jurisdiction": "INT",
+      "title": "Art. 2.8.3 — American Convention on Human Rights, Part I, Chapter II, Article 8, Paragraph 3",
+      "theme": "Human Rights",
+      "norm_type": [
+        "duty"
+      ],
+      "scope": [
+        "constitutional"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: duty",
+        "scope: constitutional"
+      ],
+      "content": "A confession of guilt by the accused shall be valid only if it is made without coercion of any kind.",
+      "text": "A confession of guilt by the accused shall be valid only if it is made without coercion of any kind.",
+      "source_file": "ACHR_1969.md",
+      "source_path": "INT/EN/ACHR_1969.md",
+      "source_sha256": "0208ba5cf43eda94f0f2a9e75d128b3c2791447452fe601107160e425dbc41c1",
+      "language": "en",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "INT.ACHR.T1.C2.S8.P4.Art.2.8.4",
+      "original_id": "INT.ACHR.T1.C2.S8.P4.Art.2.8.4",
+      "article_number": "2.8.4",
+      "framework_code": "ACHR",
+      "jurisdiction": "INT",
+      "title": "Art. 2.8.4 — American Convention on Human Rights, Part I, Chapter II, Article 8, Paragraph 4",
+      "theme": "Human Rights",
+      "norm_type": [
+        "prohibition"
+      ],
+      "scope": [
+        "constitutional"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: prohibition",
+        "scope: constitutional"
+      ],
+      "content": "An accused person acquitted by a nonappealable judgment shall not be subjected to a new trial for the same cause.",
+      "text": "An accused person acquitted by a nonappealable judgment shall not be subjected to a new trial for the same cause.",
+      "source_file": "ACHR_1969.md",
+      "source_path": "INT/EN/ACHR_1969.md",
+      "source_sha256": "0208ba5cf43eda94f0f2a9e75d128b3c2791447452fe601107160e425dbc41c1",
+      "language": "en",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "INT.ACHR.T1.C2.S8.P5.Art.2.8.5",
+      "original_id": "INT.ACHR.T1.C2.S8.P5.Art.2.8.5",
+      "article_number": "2.8.5",
+      "framework_code": "ACHR",
+      "jurisdiction": "INT",
+      "title": "Art. 2.8.5 — American Convention on Human Rights, Part I, Chapter II, Article 8, Paragraph 5",
+      "theme": "Human Rights",
+      "norm_type": [
+        "exemption"
+      ],
+      "scope": [
+        "constitutional"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: exemption",
+        "scope: constitutional"
+      ],
+      "content": "Criminal proceedings shall be public, except insofar as may be necessary to protect the interests of justice.",
+      "text": "Criminal proceedings shall be public, except insofar as may be necessary to protect the interests of justice.",
+      "source_file": "ACHR_1969.md",
+      "source_path": "INT/EN/ACHR_1969.md",
+      "source_sha256": "0208ba5cf43eda94f0f2a9e75d128b3c2791447452fe601107160e425dbc41c1",
+      "language": "en",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "INT.ACHR.T1.C2.S13.P1.Art.2.13.1",
+      "original_id": "INT.ACHR.T1.C2.S13.P1.Art.2.13.1",
+      "article_number": "2.13.1",
+      "framework_code": "ACHR",
+      "jurisdiction": "INT",
+      "title": "Art. 2.13.1 — American Convention on Human Rights, Part I, Chapter II, Article 13, Paragraph 1",
+      "theme": "Human Rights",
+      "norm_type": [
+        "right"
+      ],
+      "scope": [
+        "constitutional"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: right",
+        "scope: constitutional"
+      ],
+      "content": "Everyone has the right to freedom of thought and expression. This right includes freedom to seek, receive, and impart information and ideas of all kinds, regardless of frontiers, either orally, in writing, in print, in the form of art, or through any other medium of one's choice.",
+      "text": "Everyone has the right to freedom of thought and expression. This right includes freedom to seek, receive, and impart information and ideas of all kinds, regardless of frontiers, either orally, in writing, in print, in the form of art, or through any other medium of one's choice.",
+      "source_file": "ACHR_1969.md",
+      "source_path": "INT/EN/ACHR_1969.md",
+      "source_sha256": "0208ba5cf43eda94f0f2a9e75d128b3c2791447452fe601107160e425dbc41c1",
+      "language": "en",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "INT.ACHR.T1.C2.S13.P2.Art.2.13.2",
+      "original_id": "INT.ACHR.T1.C2.S13.P2.Art.2.13.2",
+      "article_number": "2.13.2",
+      "framework_code": "ACHR",
+      "jurisdiction": "INT",
+      "title": "Art. 2.13.2 — American Convention on Human Rights, Part I, Chapter II, Article 13, Paragraph 2",
+      "theme": "Human Rights",
+      "norm_type": [
+        "prohibition"
+      ],
+      "scope": [
+        "constitutional"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: prohibition",
+        "scope: constitutional"
+      ],
+      "content": "The exercise of the right provided for in the foregoing paragraph shall not be subject to prior censorship but shall be subject to subsequent imposition of liability, which shall be expressly established by law to the extent necessary to ensure: a. respect for the rights or reputations of others; or b. the protection of national security, public order, or public health or morals.",
+      "text": "The exercise of the right provided for in the foregoing paragraph shall not be subject to prior censorship but shall be subject to subsequent imposition of liability, which shall be expressly established by law to the extent necessary to ensure: a. respect for the rights or reputations of others; or b. the protection of national security, public order, or public health or morals.",
+      "source_file": "ACHR_1969.md",
+      "source_path": "INT/EN/ACHR_1969.md",
+      "source_sha256": "0208ba5cf43eda94f0f2a9e75d128b3c2791447452fe601107160e425dbc41c1",
+      "language": "en",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "INT.ACHR.T1.C2.S13.P3.Art.2.13.3",
+      "original_id": "INT.ACHR.T1.C2.S13.P3.Art.2.13.3",
+      "article_number": "2.13.3",
+      "framework_code": "ACHR",
+      "jurisdiction": "INT",
+      "title": "Art. 2.13.3 — American Convention on Human Rights, Part I, Chapter II, Article 13, Paragraph 3",
+      "theme": "Human Rights",
+      "norm_type": [
+        "definition"
+      ],
+      "scope": [
+        "constitutional"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: definition",
+        "scope: constitutional"
+      ],
+      "content": "The right of expression may not be restricted by indirect methods or means, such as the abuse of government or private controls over newsprint, radio broadcasting frequencies, or equipment used in the dissemination of information, or by any other means tending to impede the communication and circulation of ideas and opinions.",
+      "text": "The right of expression may not be restricted by indirect methods or means, such as the abuse of government or private controls over newsprint, radio broadcasting frequencies, or equipment used in the dissemination of information, or by any other means tending to impede the communication and circulation of ideas and opinions.",
+      "source_file": "ACHR_1969.md",
+      "source_path": "INT/EN/ACHR_1969.md",
+      "source_sha256": "0208ba5cf43eda94f0f2a9e75d128b3c2791447452fe601107160e425dbc41c1",
+      "language": "en",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "INT.ACHR.T1.C2.S13.P4.Art.2.13.4",
+      "original_id": "INT.ACHR.T1.C2.S13.P4.Art.2.13.4",
+      "article_number": "2.13.4",
+      "framework_code": "ACHR",
+      "jurisdiction": "INT",
+      "title": "Art. 2.13.4 — American Convention on Human Rights, Part I, Chapter II, Article 13, Paragraph 4",
+      "theme": "Human Rights",
+      "norm_type": [
+        "power"
+      ],
+      "scope": [
+        "constitutional"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: power",
+        "scope: constitutional"
+      ],
+      "content": "Notwithstanding the provisions of paragraph 2 above, public entertainments may be subject by law to prior censorship for the sole purpose of regulating access to them for the moral protection of childhood and adolescence.",
+      "text": "Notwithstanding the provisions of paragraph 2 above, public entertainments may be subject by law to prior censorship for the sole purpose of regulating access to them for the moral protection of childhood and adolescence.",
+      "source_file": "ACHR_1969.md",
+      "source_path": "INT/EN/ACHR_1969.md",
+      "source_sha256": "0208ba5cf43eda94f0f2a9e75d128b3c2791447452fe601107160e425dbc41c1",
+      "language": "en",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "INT.ACHR.T1.C2.S13.P5.Art.2.13.5",
+      "original_id": "INT.ACHR.T1.C2.S13.P5.Art.2.13.5",
+      "article_number": "2.13.5",
+      "framework_code": "ACHR",
+      "jurisdiction": "INT",
+      "title": "Art. 2.13.5 — American Convention on Human Rights, Part I, Chapter II, Article 13, Paragraph 5",
+      "theme": "Human Rights",
+      "norm_type": [
+        "duty"
+      ],
+      "scope": [
+        "constitutional"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: duty",
+        "scope: constitutional"
+      ],
+      "content": "Any propaganda for war and any advocacy of national, racial, or religious hatred that constitute incitements to lawless violence or to any other similar action against any person or group of persons on any grounds including those of race, color, religion, language, or national origin shall be considered as offenses punishable by law.",
+      "text": "Any propaganda for war and any advocacy of national, racial, or religious hatred that constitute incitements to lawless violence or to any other similar action against any person or group of persons on any grounds including those of race, color, religion, language, or national origin shall be considered as offenses punishable by law.",
+      "source_file": "ACHR_1969.md",
+      "source_path": "INT/EN/ACHR_1969.md",
+      "source_sha256": "0208ba5cf43eda94f0f2a9e75d128b3c2791447452fe601107160e425dbc41c1",
+      "language": "en",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "INT.ACHR.T1.C2.S17.P1.Art.2.17.1",
+      "original_id": "INT.ACHR.T1.C2.S17.P1.Art.2.17.1",
+      "article_number": "2.17.1",
+      "framework_code": "ACHR",
+      "jurisdiction": "INT",
+      "title": "Art. 2.17.1 — American Convention on Human Rights, Part I, Chapter II, Article 17, Paragraph 1",
+      "theme": "Human Rights",
+      "norm_type": [
+        "right"
+      ],
+      "scope": [
+        "constitutional"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: right",
+        "scope: constitutional"
+      ],
+      "content": "The family is the natural and fundamental group unit of society and is entitled to protection by society and the state.",
+      "text": "The family is the natural and fundamental group unit of society and is entitled to protection by society and the state.",
+      "source_file": "ACHR_1969.md",
+      "source_path": "INT/EN/ACHR_1969.md",
+      "source_sha256": "0208ba5cf43eda94f0f2a9e75d128b3c2791447452fe601107160e425dbc41c1",
+      "language": "en",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "INT.ACHR.T1.C2.S17.P2.Art.2.17.2",
+      "original_id": "INT.ACHR.T1.C2.S17.P2.Art.2.17.2",
+      "article_number": "2.17.2",
+      "framework_code": "ACHR",
+      "jurisdiction": "INT",
+      "title": "Art. 2.17.2 — American Convention on Human Rights, Part I, Chapter II, Article 17, Paragraph 2",
+      "theme": "Human Rights",
+      "norm_type": [
+        "duty"
+      ],
+      "scope": [
+        "constitutional"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: duty",
+        "scope: constitutional"
+      ],
+      "content": "The right of men and women of marriageable age to marry and to raise a family shall be recognized, if they meet the conditions required by domestic laws, insofar as such conditions do not affect the principle of nondiscrimination established in this Convention.",
+      "text": "The right of men and women of marriageable age to marry and to raise a family shall be recognized, if they meet the conditions required by domestic laws, insofar as such conditions do not affect the principle of nondiscrimination established in this Convention.",
+      "source_file": "ACHR_1969.md",
+      "source_path": "INT/EN/ACHR_1969.md",
+      "source_sha256": "0208ba5cf43eda94f0f2a9e75d128b3c2791447452fe601107160e425dbc41c1",
+      "language": "en",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "INT.ACHR.T1.C2.S17.P3.Art.2.17.3",
+      "original_id": "INT.ACHR.T1.C2.S17.P3.Art.2.17.3",
+      "article_number": "2.17.3",
+      "framework_code": "ACHR",
+      "jurisdiction": "INT",
+      "title": "Art. 2.17.3 — American Convention on Human Rights, Part I, Chapter II, Article 17, Paragraph 3",
+      "theme": "Human Rights",
+      "norm_type": [
+        "duty"
+      ],
+      "scope": [
+        "constitutional"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: duty",
+        "scope: constitutional"
+      ],
+      "content": "No marriage shall be entered into without the free and full consent of the intending spouses.",
+      "text": "No marriage shall be entered into without the free and full consent of the intending spouses.",
+      "source_file": "ACHR_1969.md",
+      "source_path": "INT/EN/ACHR_1969.md",
+      "source_sha256": "0208ba5cf43eda94f0f2a9e75d128b3c2791447452fe601107160e425dbc41c1",
+      "language": "en",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "INT.ACHR.T1.C2.S17.P4.Art.2.17.4",
+      "original_id": "INT.ACHR.T1.C2.S17.P4.Art.2.17.4",
+      "article_number": "2.17.4",
+      "framework_code": "ACHR",
+      "jurisdiction": "INT",
+      "title": "Art. 2.17.4 — American Convention on Human Rights, Part I, Chapter II, Article 17, Paragraph 4",
+      "theme": "Human Rights",
+      "norm_type": [
+        "duty"
+      ],
+      "scope": [
+        "constitutional"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: duty",
+        "scope: constitutional"
+      ],
+      "content": "The States Parties shall take appropriate steps to ensure the equality of rights and the adequate balancing of responsibilities of the spouses as to marriage, during marriage, and in the event of its dissolution. In case of dissolution, provision shall be made for the necessary protection of any children solely on the basis of their own best interests.",
+      "text": "The States Parties shall take appropriate steps to ensure the equality of rights and the adequate balancing of responsibilities of the spouses as to marriage, during marriage, and in the event of its dissolution. In case of dissolution, provision shall be made for the necessary protection of any children solely on the basis of their own best interests.",
+      "source_file": "ACHR_1969.md",
+      "source_path": "INT/EN/ACHR_1969.md",
+      "source_sha256": "0208ba5cf43eda94f0f2a9e75d128b3c2791447452fe601107160e425dbc41c1",
+      "language": "en",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    },
+    {
+      "id": "",
+      "eli_id": "INT.ACHR.T1.C2.S17.P5.Art.2.17.5",
+      "original_id": "INT.ACHR.T1.C2.S17.P5.Art.2.17.5",
+      "article_number": "2.17.5",
+      "framework_code": "ACHR",
+      "jurisdiction": "INT",
+      "title": "Art. 2.17.5 — American Convention on Human Rights, Part I, Chapter II, Article 17, Paragraph 5",
+      "theme": "Human Rights",
+      "norm_type": [
+        "duty"
+      ],
+      "scope": [
+        "constitutional"
+      ],
+      "direction": null,
+      "sanctions": [],
+      "tags": [
+        "norm_type: duty",
+        "scope: constitutional"
+      ],
+      "content": "The law shall recognize equal rights for children born out of wedlock and those born in wedlock.",
+      "text": "The law shall recognize equal rights for children born out of wedlock and those born in wedlock.",
+      "source_file": "ACHR_1969.md",
+      "source_path": "INT/EN/ACHR_1969.md",
+      "source_sha256": "0208ba5cf43eda94f0f2a9e75d128b3c2791447452fe601107160e425dbc41c1",
+      "language": "en",
+      "doc_type": "unknown",
+      "record_kind": "article",
+      "reference_only": false,
+      "data_type": "law",
+      "schema_version": "1",
+      "ingested_at": "2026-09-19T05:02:01.306629Z",
+      "updated_at": "2026-09-19T05:02:01.306629Z"
+    }
+  ]
+}

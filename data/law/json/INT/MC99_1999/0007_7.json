@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.MC99.C2.Art.7",
+  "original_id": "INT.MC99.C2.Art.7",
+  "article_number": "7",
+  "framework_code": "MC99",
+  "jurisdiction": "INT",
+  "title": "Art. 7 — Montreal Convention 1999, Chapter II - Documentation and Duties of the Parties Relating to the Carriage of Passengers, Baggage and Cargo, Article 7 — Description of Air Waybill",
+  "theme": "Documentation and Duties of the Parties",
+  "norm_type": [
+    "power"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: power",
+    "scope: regulatory"
+  ],
+  "content": "1. The air waybill shall be made out by the consignor in three original parts. 2. The first part shall be marked „for the carrier“; it shall be signed by the consignor. The second part shall be marked „for the consignee“; it shall be signed by the consignor and by the carrier. The third part shall be signed by the carrier who shall hand it to the consignor after the cargo has been accepted. 3. The signature of the carrier and that of the consignor may be printed or stamped. 4. If, at the request of the consignor, the carrier makes out the air waybill, the carrier shall be deemed, subject to proof to the contrary, to have done so on behalf of the consignor.",
+  "text": "1. The air waybill shall be made out by the consignor in three original parts. 2. The first part shall be marked „for the carrier“; it shall be signed by the consignor. The second part shall be marked „for the consignee“; it shall be signed by the consignor and by the carrier. The third part shall be signed by the carrier who shall hand it to the consignor after the cargo has been accepted. 3. The signature of the carrier and that of the consignor may be printed or stamped. 4. If, at the request of the consignor, the carrier makes out the air waybill, the carrier shall be deemed, subject to proof to the contrary, to have done so on behalf of the consignor.",
+  "source_file": "MC99_1999.md",
+  "source_path": "INT/EN/MC99_1999.md",
+  "source_sha256": "bc79e373bc0936102e9860635e77c9b857ef28ccbc4f2b60c23cb5b9318b84f3",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

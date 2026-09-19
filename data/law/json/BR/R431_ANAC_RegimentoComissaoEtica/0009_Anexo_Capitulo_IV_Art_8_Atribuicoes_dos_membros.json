@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.R431.Anexo.C4.Art.8",
+  "original_id": "BR.R431.Anexo.C4.Art.8",
+  "article_number": "Anexo, Capítulo IV, Art. 8 — Atribuições dos membros",
+  "framework_code": "R431",
+  "jurisdiction": "BR",
+  "title": "Anexo, Capítulo IV, Art. 8 — Atribuições dos membros",
+  "theme": "procedural",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: administrative"
+  ],
+  "content": "Compete aos membros da Comissão de Ética:\n\nI - examinar matérias, emitindo parecer e voto;\nII - pedir vista de matéria em deliberação;\nIII - fazer relatórios; e\nIV - solicitar informações a respeito de matérias sob exame da Comissão de Ética da ANAC.",
+  "text": "Compete aos membros da Comissão de Ética:\n\nI - examinar matérias, emitindo parecer e voto;\nII - pedir vista de matéria em deliberação;\nIII - fazer relatórios; e\nIV - solicitar informações a respeito de matérias sob exame da Comissão de Ética da ANAC.",
+  "source_file": "R431_ANAC_RegimentoComissaoEtica.md",
+  "source_path": "BR/R431_ANAC_RegimentoComissaoEtica.md",
+  "source_sha256": "b0f6744091b2a507cb9233fa32250e41113bbad0666586bb6ae0d29bf0365d01",
+  "language": "unknown",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

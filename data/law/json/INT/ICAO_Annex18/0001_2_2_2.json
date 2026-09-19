@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "INT.AN18.C2.S2.P2.Art.2.2.2",
+  "original_id": "INT.AN18.C2.S2.P2.Art.2.2.2",
+  "article_number": "2.2.2",
+  "framework_code": "AN18",
+  "jurisdiction": "INT",
+  "title": "Art. 2.2.2 — Annex 18 - The Safe Transport of Dangerous Goods by Air, Chapter 2 - Applicability, 2.2 Dangerous Goods Technical Instructions, 2.2.2",
+  "theme": "Annex 18",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "contractual"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: contractual"
+  ],
+  "content": "Recommendation.- Each Contracting State should inform ICAO of difficulties encountered in the application of the Technical Instructions and of any amendments which it would be desirable to make to them.",
+  "text": "Recommendation.- Each Contracting State should inform ICAO of difficulties encountered in the application of the Technical Instructions and of any amendments which it would be desirable to make to them.",
+  "source_file": "ICAO_Annex18.md",
+  "source_path": "INT/EN/ICAO_Annex18.md",
+  "source_sha256": "62dc9e866ab96022049e549778690f7a43a735a8ae42a0d2cc0ef9176078dbed",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

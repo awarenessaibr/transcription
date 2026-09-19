@@ -1,0 +1,40 @@
+{
+  "id": "",
+  "eli_id": "CL.CHIPENCOD.T4.C6.Art.212",
+  "original_id": "CL.CHIPENCOD.T4.C6.Art.212",
+  "article_number": "212",
+  "framework_code": "CHIPENCOD",
+  "jurisdiction": "CL",
+  "title": "Art. 212 — Art. 212 Código Penal Chileno",
+  "theme": "false_accusation",
+  "norm_type": [
+    "penalty"
+  ],
+  "scope": [
+    "criminal"
+  ],
+  "direction": null,
+  "sanctions": [
+    "financial_penalty",
+    "criminal_liability"
+  ],
+  "tags": [
+    "norm_type: penalty",
+    "scope: criminal",
+    "sanctions: financial_penalty",
+    "sanctions: criminal_liability"
+  ],
+  "content": "Art. 212. El que simulare ser víctima de algún crimen o simple delito, o que en el parte o denuncia que diere a la autoridad supusiere haber intervenido personas que no han tenido participación en el hecho o que hubieren dejado rastros que puedan inducir a error sobre la perpetración de una acción delictiva, o que con igual propósito hiciere o facilitare que otro presente dichas circunstancias, sufrirá la pena de reclusión menor en su grado mínimo a medio o multa de seis a diez unidades tributarias mensuales.",
+  "text": "Art. 212. El que simulare ser víctima de algún crimen o simple delito, o que en el parte o denuncia que diere a la autoridad supusiere haber intervenido personas que no han tenido participación en el hecho o que hubieren dejado rastros que puedan inducir a error sobre la perpetración de una acción delictiva, o que con igual propósito hiciere o facilitare que otro presente dichas circunstancias, sufrirá la pena de reclusión menor en su grado mínimo a medio o multa de seis a diez unidades tributarias mensuales.",
+  "source_file": "CHIPENCOD_CP.md",
+  "source_path": "CL/CHIPENCOD_CP.md",
+  "source_sha256": "5e189a4a8d31010c3c09610bd439368e1b5d120d4b8a6cae7f13fa19d18cfb9f",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

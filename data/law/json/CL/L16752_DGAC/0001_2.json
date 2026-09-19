@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "CL.L16752.T1.Art.2",
+  "original_id": "CL.L16752.T1.Art.2",
+  "article_number": "2",
+  "framework_code": "L16752",
+  "jurisdiction": "CL",
+  "title": "Art. 2 — Ley 16.752, Título I, Art. 2° – Director General de Aeronáutica Civil",
+  "theme": "Organization – Director General Role and Legal Department",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: duty",
+    "scope: regulatory"
+  ],
+  "content": "Artículo 2° El cargo de Director General de Aeronáutica Civil será desempeñado por un Oficial General de la rama del Aire de la Fuerza Aérea de Chile, en servicio activo, que será el Jefe Superior del Servicio y el titular de las atribuciones que las leyes y reglamentos confieren a la Dirección General de Aeronáutica Civil. Habrá un Departamento Jurídico, a cargo de un Fiscal, cuyas funciones serán las siguientes, sin perjuicio de las que le encomiende el reglamento: llevar el Registro Nacional de Aeronaves y asesorar e informar sobre los asuntos jurídicos relacionados con la aeronáutica a requerimiento del Director General.",
+  "text": "Artículo 2° El cargo de Director General de Aeronáutica Civil será desempeñado por un Oficial General de la rama del Aire de la Fuerza Aérea de Chile, en servicio activo, que será el Jefe Superior del Servicio y el titular de las atribuciones que las leyes y reglamentos confieren a la Dirección General de Aeronáutica Civil. Habrá un Departamento Jurídico, a cargo de un Fiscal, cuyas funciones serán las siguientes, sin perjuicio de las que le encomiende el reglamento: llevar el Registro Nacional de Aeronaves y asesorar e informar sobre los asuntos jurídicos relacionados con la aeronáutica a requerimiento del Director General.",
+  "source_file": "L16752_DGAC.md",
+  "source_path": "CL/L16752_DGAC.md",
+  "source_sha256": "4a87dd4a006811851700a151c5d940cc1b26620848132b3965881d4c9fe860f0",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

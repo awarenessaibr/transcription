@@ -1,0 +1,38 @@
+{
+  "id": "",
+  "eli_id": "CL.L16752.T3.Art.11",
+  "original_id": "CL.L16752.T3.Art.11",
+  "article_number": "11",
+  "framework_code": "L16752",
+  "jurisdiction": "CL",
+  "title": "Art. 11 — Ley 16.752, Título III, Art. 11° – Cobro de Tasas y Derechos por la DGAC",
+  "theme": "Aeronautical Fees – DGAC Fee Collection and Late Payment Penalties",
+  "norm_type": [
+    "penalty"
+  ],
+  "scope": [
+    "criminal"
+  ],
+  "direction": null,
+  "sanctions": [
+    "criminal_liability"
+  ],
+  "tags": [
+    "norm_type: penalty",
+    "scope: criminal",
+    "sanctions: criminal_liability"
+  ],
+  "content": "Artículo 11° La Dirección General de Aeronáutica Civil cobrará y percibirá las tasas y derechos aeronáuticos en la forma, plazos y fechas que determine el reglamento. Estas tasas y derechos podrán expresarse en pesos oro, en dólares de los Estados Unidos de América, en unidades tributarias o en otra unidad reajustable y podrán pagarse y percibirse en moneda nacional o extranjera. El atraso en el pago de las tasas y derechos será sancionado con un interés penal igual al que el Fisco esté autorizado para cobrar por los impuestos atrasados. El Director General podrá condonar, total o parcialmente, los intereses penales devengados, previo acuerdo de la Junta de Aeronáutica Civil.",
+  "text": "Artículo 11° La Dirección General de Aeronáutica Civil cobrará y percibirá las tasas y derechos aeronáuticos en la forma, plazos y fechas que determine el reglamento. Estas tasas y derechos podrán expresarse en pesos oro, en dólares de los Estados Unidos de América, en unidades tributarias o en otra unidad reajustable y podrán pagarse y percibirse en moneda nacional o extranjera. El atraso en el pago de las tasas y derechos será sancionado con un interés penal igual al que el Fisco esté autorizado para cobrar por los impuestos atrasados. El Director General podrá condonar, total o parcialmente, los intereses penales devengados, previo acuerdo de la Junta de Aeronáutica Civil.",
+  "source_file": "L16752_DGAC.md",
+  "source_path": "CL/L16752_DGAC.md",
+  "source_sha256": "4a87dd4a006811851700a151c5d940cc1b26620848132b3965881d4c9fe860f0",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.CBA.T8.C6.Art.270",
+  "original_id": "BR.CBA.T8.C6.Art.270",
+  "article_number": "270",
+  "framework_code": "CBA",
+  "jurisdiction": "BR",
+  "title": "Art. 270 — CBA Title VIII, Chapter VI, Article 270 – Partial Payment to Surface Damage Claimants",
+  "theme": "Liability and Exemptions",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: regulatory"
+  ],
+  "content": "Art. 270. O explorador da aeronave pagará aos prejudicados habilitados 30% (trinta por cento) da quantia máxima, a que estará obrigado, nos termos do artigo anterior, dentro de 60 (sessenta) dias a partir da ocorrência do fato (artigos 252 e 253). § 1° Exime-se do dever de efetuar o pagamento o explorador que houver proposto ação para isentar-se de responsabilidade sob a alegação de culpa predominante ou exclusiva do prejudicado. § 2° O saldo de 70% (setenta por cento) será rateado entre todos os prejudicados habilitados, quando após o decurso de 90 (noventa) dias do fato, não pender qualquer processo de habilitação ou ação de reparação do dano (artigos 254 e 255).",
+  "text": "Art. 270. O explorador da aeronave pagará aos prejudicados habilitados 30% (trinta por cento) da quantia máxima, a que estará obrigado, nos termos do artigo anterior, dentro de 60 (sessenta) dias a partir da ocorrência do fato (artigos 252 e 253). § 1° Exime-se do dever de efetuar o pagamento o explorador que houver proposto ação para isentar-se de responsabilidade sob a alegação de culpa predominante ou exclusiva do prejudicado. § 2° O saldo de 70% (setenta por cento) será rateado entre todos os prejudicados habilitados, quando após o decurso de 90 (noventa) dias do fato, não pender qualquer processo de habilitação ou ação de reparação do dano (artigos 254 e 255).",
+  "source_file": "L7565_CBA.md",
+  "source_path": "BR/L7565_CBA.md",
+  "source_sha256": "4ed35a5b7f1951bbcaed63377ffdb3e8cb1ff9f2f9f8a735e844b46cb3ce0931",
+  "language": "pt",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "CL.DAN17.Art.7",
+  "original_id": "CL.DAN17.Art.7",
+  "article_number": "7",
+  "framework_code": "DAN17",
+  "jurisdiction": "CL",
+  "title": "Art. 7 — DAN 17.02, Art. 7 – Empresas Acreditadas",
+  "theme": "Empresas Acreditadas",
+  "norm_type": [
+    "definition"
+  ],
+  "scope": [
+    "regulatory"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: definition",
+    "scope: regulatory"
+  ],
+  "content": "- Listado de empresas acreditadas a la fecha",
+  "text": "- Listado de empresas acreditadas a la fecha",
+  "source_file": "DAN17_DGAC.md",
+  "source_path": "CL/DAN17_DGAC.md",
+  "source_sha256": "f8138d84ccab28eebf3b4e201feda650cd928b30ad3bca0f3124f126870ffb97",
+  "language": "unknown",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

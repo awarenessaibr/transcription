@@ -1,0 +1,38 @@
+{
+  "id": "",
+  "eli_id": "BR.R770.Anexo.C3.S1.Art.9",
+  "original_id": "BR.R770.Anexo.C3.S1.Art.9",
+  "article_number": "Anexo, Capítulo III, Seção I, Art. 9 — Intimidação e coação",
+  "framework_code": "R770",
+  "jurisdiction": "BR",
+  "title": "Anexo, Capítulo III, Seção I, Art. 9 — Intimidação e coação",
+  "theme": "duty",
+  "norm_type": [
+    "duty"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [
+    "criminal_liability"
+  ],
+  "tags": [
+    "norm_type: duty",
+    "scope: administrative",
+    "sanctions: criminal_liability"
+  ],
+  "content": "Será vedado ao agente público utilizar-se de meios de intimidação ou coação em suas relações profissionais com outros agentes públicos ou no tratamento com o público em geral.\n\nParágrafo único. Para efeito do caput, considera-se intimidação ou coação:\n\nI - ameaças de violência física, psicológica ou moral;\nII - contato físico desnecessário e/ou indesejado;\nIII - exigência de favores de qualquer natureza em troca de tratamento diferenciado;\nIV - comentários verbais ou gráficos ofensivos sobre qualquer aspecto físico, comportamental ou psicológico de outro;\nV - utilização de termos depreciativos sobre qualquer atributo pessoal de outrem, tais como raça, religião, etnia, filiação política, idade, gênero, orientação sexual, origem social, situação familiar ou quaisquer outros;\nVI - forma de tratamento ou emissão de comentários depreciativos, humilhantes ou que atentem contra a integridade e reputação de agente público;\nVII - utilização de posição privilegiada ou de hierarquia superior para subjugar agentes públicos ou público em geral; e\nVIII - utilização de posição privilegiada ou de hierarquia superior para constranger agente público à prática de ato estranho às suas atribuições legais ou regulamentares.",
+  "text": "Será vedado ao agente público utilizar-se de meios de intimidação ou coação em suas relações profissionais com outros agentes públicos ou no tratamento com o público em geral.\n\nParágrafo único. Para efeito do caput, considera-se intimidação ou coação:\n\nI - ameaças de violência física, psicológica ou moral;\nII - contato físico desnecessário e/ou indesejado;\nIII - exigência de favores de qualquer natureza em troca de tratamento diferenciado;\nIV - comentários verbais ou gráficos ofensivos sobre qualquer aspecto físico, comportamental ou psicológico de outro;\nV - utilização de termos depreciativos sobre qualquer atributo pessoal de outrem, tais como raça, religião, etnia, filiação política, idade, gênero, orientação sexual, origem social, situação familiar ou quaisquer outros;\nVI - forma de tratamento ou emissão de comentários depreciativos, humilhantes ou que atentem contra a integridade e reputação de agente público;\nVII - utilização de posição privilegiada ou de hierarquia superior para subjugar agentes públicos ou público em geral; e\nVIII - utilização de posição privilegiada ou de hierarquia superior para constranger agente público à prática de ato estranho às suas atribuições legais ou regulamentares.",
+  "source_file": "R770_ANAC_CodigoEtica.md",
+  "source_path": "BR/R770_ANAC_CodigoEtica.md",
+  "source_sha256": "c0bdae7f3c25d78d18fbdb179eed4026891b050011b14acb7c239471e9c006d4",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

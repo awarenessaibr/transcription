@@ -1,0 +1,40 @@
+{
+  "id": "",
+  "eli_id": "BR.L7716.Art.2-A",
+  "original_id": "BR.L7716.Art.2-A",
+  "article_number": "2",
+  "framework_code": "L7716",
+  "jurisdiction": "BR",
+  "title": "Art. 2-A — Lei nº 7.716/1989, Art. 2º-A",
+  "theme": "Injúria racial",
+  "norm_type": [
+    "penalty"
+  ],
+  "scope": [
+    "criminal"
+  ],
+  "direction": null,
+  "sanctions": [
+    "financial_penalty",
+    "criminal_liability"
+  ],
+  "tags": [
+    "norm_type: penalty",
+    "scope: criminal",
+    "sanctions: financial_penalty",
+    "sanctions: criminal_liability"
+  ],
+  "content": "Art. 2º-A - Injuriar alguém, ofendendo-lhe a dignidade ou o decoro, em razão de raça, cor, etnia ou procedência nacional: Pena: reclusão, de 2 (dois) a 5 (cinco) anos, e multa. Parágrafo único: A pena é aumentada de metade se o crime for cometido mediante concurso de 2 (duas) ou mais pessoas.",
+  "text": "Art. 2º-A - Injuriar alguém, ofendendo-lhe a dignidade ou o decoro, em razão de raça, cor, etnia ou procedência nacional: Pena: reclusão, de 2 (dois) a 5 (cinco) anos, e multa. Parágrafo único: A pena é aumentada de metade se o crime for cometido mediante concurso de 2 (duas) ou mais pessoas.",
+  "source_file": "L7716_RacialCrime.md",
+  "source_path": "BR/L7716_RacialCrime.md",
+  "source_sha256": "59bd0e7d6d8e2d32c4d5ed7429f71fb4109da9c1944601c4d932a9166f845252",
+  "language": "en",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}

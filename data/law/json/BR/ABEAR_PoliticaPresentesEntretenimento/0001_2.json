@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "eli_id": "BR.ABEAR_PPE.Art.2",
+  "original_id": "BR.ABEAR_PPE.Art.2",
+  "article_number": "2",
+  "framework_code": "ABEAR_PPE",
+  "jurisdiction": "BR",
+  "title": "Art. 2 — Alcance",
+  "theme": "procedural",
+  "norm_type": [
+    "procedural"
+  ],
+  "scope": [
+    "administrative"
+  ],
+  "direction": null,
+  "sanctions": [],
+  "tags": [
+    "norm_type: procedural",
+    "scope: administrative"
+  ],
+  "content": "Esta política se aplica a todos os empregados e colaboradores da ABEAR, bem como a quaisquer terceiros, em especial, os Terceiros Intermediários, ou seja, terceiros que atuem em nome ou no interesse da ABEAR, no âmbito de tratativas e comunicações, presenciais ou não, com Agentes Públicos.",
+  "text": "Esta política se aplica a todos os empregados e colaboradores da ABEAR, bem como a quaisquer terceiros, em especial, os Terceiros Intermediários, ou seja, terceiros que atuem em nome ou no interesse da ABEAR, no âmbito de tratativas e comunicações, presenciais ou não, com Agentes Públicos.",
+  "source_file": "ABEAR_PoliticaPresentesEntretenimento.md",
+  "source_path": "BR/ABEAR_PoliticaPresentesEntretenimento.md",
+  "source_sha256": "5092d6c895f7cb1673c86456dbcec38daaf91249d4bac272ba354b66c15c85f6",
+  "language": "es",
+  "doc_type": "unknown",
+  "record_kind": "article",
+  "reference_only": false,
+  "data_type": "law",
+  "schema_version": "1",
+  "ingested_at": "2026-09-19T05:02:01.306629Z",
+  "updated_at": "2026-09-19T05:02:01.306629Z"
+}
