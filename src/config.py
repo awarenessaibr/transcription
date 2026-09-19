@@ -67,11 +67,11 @@ class Settings:
 
     # AI-Native (Phase 2)
     ANTHROPIC_API_KEY: str = os.getenv("ANTHROPIC_API_KEY", "")
-    ANTHROPIC_MODEL: str = os.getenv("ANTHROPIC_MODEL", "deepseek-v4-pro")
+    ANTHROPIC_MODEL: str = os.getenv("ANTHROPIC_MODEL", "deepseek-flash")
     ANTHROPIC_BASE_URL: str = os.getenv("ANTHROPIC_BASE_URL", "https://api.deepseek.com/anthropic")
     DEEPSEEK_API_KEY: str = os.getenv("DEEPSEEK_API_KEY", "")
-    DEEPSEEK_ANALYZER_MODEL: str = os.getenv("DEEPSEEK_ANALYZER_MODEL", "deepseek-v4-flash")
-    DEEPSEEK_RECONCILER_MODEL: str = os.getenv("DEEPSEEK_RECONCILER_MODEL", "deepseek-v4-pro")
+    DEEPSEEK_ANALYZER_MODEL: str = os.getenv("DEEPSEEK_ANALYZER_MODEL", "deepseek-flash")
+    DEEPSEEK_RECONCILER_MODEL: str = os.getenv("DEEPSEEK_RECONCILER_MODEL", "deepseek-flash")
     QDRANT_URL: str = _normalize_qdrant_url(os.getenv("QDRANT_URL", "http://localhost:6333"))
     QDRANT_API_KEY: str = _normalize_qdrant_api_key(os.getenv("QDRANT_API_KEY", ""))
 
@@ -99,6 +99,12 @@ class Settings:
     LAW_EMBED_MODEL: str = os.getenv("LAW_EMBED_MODEL", "all-MiniLM-L6-v2")
     # Locale preferred when the same ELI exists in several languages.
     LAW_PREFERRED_LANGUAGE: str = os.getenv("LAW_PREFERRED_LANGUAGE", "en")
+
+    # LLM-assisted payload review (see src/infrastructure/llm.py). Empty means
+    # "leave it to the request / first configured provider and its first model",
+    # so a request-level choice from the registry UI always wins.
+    LAW_REVIEW_PROVIDER: str = os.getenv("LAW_REVIEW_PROVIDER", "")
+    LAW_REVIEW_MODEL: str = os.getenv("LAW_REVIEW_MODEL", "")
 
     # Hardware acceleration
     TORCH_DEVICE: str = "cuda" if torch.cuda.is_available() else "cpu"

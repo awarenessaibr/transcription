@@ -1,0 +1,37 @@
+{
+  "original_id": "BR.CBA.T7.C1.Art.224",
+  "collection": "la8159_law",
+  "title": "Art. 224 — CBA Title VII, Chapter I, Article 224 – Combined Transport",
+  "source_path": "BR/L7565_CBA.md",
+  "generated_at": "2026-09-19T06:20:46+00:00",
+  "provider": "",
+  "model": "deepseek-flash",
+  "fields_reviewed": [
+    "doc_type"
+  ],
+  "enrichment_fields": [],
+  "include_content": false,
+  "summary": "The article's doc_type is unresolved ('unknown') while the header and framework_code (CBA) identify the instrument as the Brazilian Aeronautical Code, so a single high-confidence update to 'Code' is warranted.",
+  "suggestions": [
+    {
+      "field": "doc_type",
+      "current": "unknown",
+      "suggested": "Code",
+      "rationale": "The document header and framework_code 'CBA' name the Código Brasileiro de Aeronáutica, a codified statute, which the vocabulary maps to 'Code'.",
+      "justification": "The vocabulary instructs that doc_type be read from the document header, its law number or framework_code, never from the article's subject matter. The title 'CBA Title VII, Chapter I, Article 224' and the ELI ID 'BR.CBA.T7.C1.Art.224' both derive from the Código Brasileiro de Aeronáutica, and the vocabulary expressly lists CBA as an example of a codified instrument that is 'Code'. Since the current value is the unresolved placeholder 'unknown', replacing it with the controlled token 'Code' is a low-risk, high-confidence correction.",
+      "evidence": "**ELI ID:** `BR.CBA.T7.C1.Art.224`",
+      "confidence": "high",
+      "normalized_from": [],
+      "unknown_tokens": [],
+      "vocabulary": "controlled"
+    }
+  ],
+  "dropped": 0,
+  "current": {
+    "doc_type": "unknown"
+  },
+  "decision_logic": {
+    "doc_type": "Read the instrument from the document header, law number or framework_code (here 'CBA' / ELI ID BR.CBA...), not from the article's subject matter; map a codified statute such as the Código Brasileiro de Aeronáutica to the controlled token 'Code'. Only fill the field when the header actually names the instrument and the current value is empty, null or 'unknown'; otherwise leave it untouched."
+  },
+  "applied": []
+}

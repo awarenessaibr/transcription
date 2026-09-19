@@ -116,9 +116,9 @@ def _model(
 DEFAULT_MODELS: Dict[str, List[Dict[str, Any]]] = {
     "ollama": [],
     "deepseek": [
-        _model("deepseek-chat", "DeepSeek Chat", tier="paid", context_window=131072,
+        _model("deepseek-flash", "DeepSeek Chat", tier="paid", context_window=131072,
                best_for="General chat, RAG answers, structured JSON"),
-        _model("deepseek-reasoner", "DeepSeek Reasoner", tier="paid", context_window=131072,
+        _model("deepseek-flash", "DeepSeek Reasoner", tier="paid", context_window=131072,
                supports_thinking=True, best_for="Multi-step reasoning and analysis"),
     ],
     "cerebras": [

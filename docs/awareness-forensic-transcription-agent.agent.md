@@ -278,8 +278,8 @@ When RAW and REFERENCE diverge, apply this judgment in order:
 All LLM calls in this codebase use `anthropic.Anthropic` directly against
 `https://api.deepseek.com/anthropic`. When suggesting model changes or prompt edits:
 
-- `deepseek-v4-pro` — complex multi-segment reconciliation, contested evidence
-- `deepseek-v4-flash` — fast entity extraction, simple lookups, cost-sensitive runs
+- `deepseek-flash` — complex multi-segment reconciliation, contested evidence
+- `deepseek-flash` — fast entity extraction, simple lookups, cost-sensitive runs
 
 Never suggest OpenAI, Ollama, or other providers.
 

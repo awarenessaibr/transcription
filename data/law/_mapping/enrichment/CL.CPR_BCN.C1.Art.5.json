@@ -1,0 +1,37 @@
+{
+  "original_id": "CL.CPR_BCN.C1.Art.5",
+  "collection": "la8159_law",
+  "title": "Art. 5 - Soberanía y deber estatal de respetar y promover derechos",
+  "source_path": "CL/Constitucion_BCN.md",
+  "generated_at": "2026-09-19T06:20:51+00:00",
+  "provider": "",
+  "model": "deepseek-flash",
+  "fields_reviewed": [
+    "doc_type"
+  ],
+  "enrichment_fields": [],
+  "include_content": false,
+  "summary": "The article's doc_type is unresolved ('unknown') while the snippet header clearly identifies the instrument as the Constitución Política de la República de Chile, so it should be set to 'Constitution'.",
+  "suggestions": [
+    {
+      "field": "doc_type",
+      "current": "unknown",
+      "suggested": "Constitution",
+      "rationale": "The document header names the instrument as the 'Constitución Política de la República de Chile', which maps to the controlled token 'Constitution'.",
+      "justification": "The vocabulary instructs that doc_type be read from the document header, its title, law number or framework_code, not from the article's subject matter. The snippet's top-level heading is 'Constitución Política de la República de Chile (BCN official text)', and the ELI ID 'CL.CPR_BCN.C1.Art.5' confirms the CPR_BCN framework. A 'Constitución' is expressly mapped to the token 'Constitution'.",
+      "evidence": "# Constitución Política de la República de Chile (BCN official text)",
+      "confidence": "high",
+      "normalized_from": [],
+      "unknown_tokens": [],
+      "vocabulary": "controlled"
+    }
+  ],
+  "dropped": 0,
+  "current": {
+    "doc_type": "unknown"
+  },
+  "decision_logic": {
+    "doc_type": "Read the instrument type from the document header/title or framework_code, never from the article's subject matter; map 'Constitución'/'Constituição' to the controlled token 'Constitution'; only replace 'unknown' when the header explicitly names the instrument."
+  },
+  "applied": []
+}

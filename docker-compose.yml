@@ -22,7 +22,7 @@ services:
       # AI-Native (Phase 2)
       - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY:-}
       - ANTHROPIC_BASE_URL=${ANTHROPIC_BASE_URL:-https://api.deepseek.com/anthropic}
-      - ANTHROPIC_MODEL=${ANTHROPIC_MODEL:-deepseek-v4-pro}
+      - ANTHROPIC_MODEL=${ANTHROPIC_MODEL:-deepseek-flash}
       - QDRANT_URL=${QDRANT_URL:-http://qdrant:6333}
       - QDRANT_API_KEY=${QDRANT_API_KEY:-}
     restart: unless-stopped

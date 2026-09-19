@@ -27,8 +27,8 @@ Choose ONE:
 **Option A: DeepSeek (Currently Configured)**
 ```
 DEEPSEEK_API_KEY=sk-your_key_here
-DEEPSEEK_ANALYZER_MODEL=deepseek-v4-flash
-DEEPSEEK_RECONCILER_MODEL=deepseek-v4-pro
+DEEPSEEK_ANALYZER_MODEL=deepseek-flash
+DEEPSEEK_RECONCILER_MODEL=deepseek-flash
 ```
 
 **Option B: Anthropic Claude**

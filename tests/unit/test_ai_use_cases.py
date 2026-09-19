@@ -30,7 +30,7 @@ class TestAnalyzeTranscriptUseCase:
         analyzer.analyze.return_value = {
             "summary": "Short conversation.",
             "entities": [],
-            "_meta": {"model": "deepseek-v4-pro", "tokens_in": 100, "tokens_out": 50, "cost_usd": 0.001},
+            "_meta": {"model": "deepseek-flash", "tokens_in": 100, "tokens_out": 50, "cost_usd": 0.001},
         }
         store = MagicMock()
         store.load.return_value = sample_transcript
@@ -40,7 +40,7 @@ class TestAnalyzeTranscriptUseCase:
 
         assert result.transcript_id == "t_test"
         assert result.analysis["summary"] == "Short conversation."
-        assert result.meta["model"] == "deepseek-v4-pro"
+        assert result.meta["model"] == "deepseek-flash"
         store.load.assert_called_once_with("t_test")
 
     @pytest.mark.asyncio

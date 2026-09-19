@@ -16,8 +16,12 @@ import pytest
 from qdrant_client.http import models as qm
 
 from src.infrastructure.qdrant_law_index import (
+    _DOC_TYPE_BY_CODE,
+    _DOC_TYPE_RULES,
     _TAG_KEY_ALIASES,
     CANONICAL_DENSE_DIM,
+    DOC_TYPE_UNKNOWN,
+    DOC_TYPE_VALUES,
     LOCAL_DENSE_DIM,
     LOCAL_PAYLOAD_INDEX_FIELDS,
     PAYLOAD_TARGET_LOCAL,
@@ -332,6 +336,7 @@ def test_article_number_for(eli: str, expected: str) -> None:
 @pytest.mark.parametrize(
     ("framework", "expected"),
     [
+        # -- naming-convention families ----------------------------------
         ("ABEAR_PAC", "Internal"),
         ("ABEARPIAP", "Internal"),
         ("AN14", "ICAO"),
@@ -340,14 +345,81 @@ def test_article_number_for(eli: str, expected: str) -> None:
         ("R400", "Resolution"),
         ("R123", "Resolution"),
         ("CDC", "CDC"),
-        ("L12813", "unknown"),
-        ("D7724", "unknown"),
-        ("CBA", "unknown"),
-        ("", "unknown"),
+        ("L12813", "Law"),
+        ("L8906_OAB", "Law"),
+        ("L20285", "Law"),
+        ("D7724", "Decree"),
+        ("D1171", "Decree"),
+        ("DTO2421", "Decree"),
+        ("DFL1_19653", "Decree"),
+        # -- curated overrides -------------------------------------------
+        ("CBA", "Code"),  # subject abbreviation: L7565_CBA
+        ("CPB", "Code"),
+        ("CC", "Code"),
+        ("CHIPENCOD", "Code"),
+        ("CACH", "Law"),  # subject abbreviation: L18916_CACH
+        ("LPDP", "Law"),  # subject abbreviation: L19628_LPDP
+        ("CONST", "Constitution"),
+        ("MC99", "Convention"),
+        ("ILC", "Guidelines"),
+        ("BRCL", "Declaration"),
+        ("IATA_GC", "Contract"),
+        ("JAC", "Resolution"),  # R218_JAC
+        ("DSO", "Internal"),  # DGAC_DSO
+        ("DAN17", "Internal"),  # DAN17_DGAC
+        # -- fallthrough --------------------------------------------------
+        ("SOMETHING_ELSE", DOC_TYPE_UNKNOWN),
+        ("", DOC_TYPE_UNKNOWN),
+        ("   ", DOC_TYPE_UNKNOWN),
+        (None, DOC_TYPE_UNKNOWN),
     ],
 )
 def test_doc_type_for(framework: str, expected: str) -> None:
     assert doc_type_for(framework) == expected
+
+
+@pytest.mark.parametrize("framework", ["l12813", "d7724", "cba", "jac", "Const"])
+def test_doc_type_for_is_case_insensitive(framework: str) -> None:
+    assert doc_type_for(framework) == doc_type_for(framework.upper())
+
+
+def test_doc_type_rules_stay_inside_the_declared_vocabulary() -> None:
+    """Every emitted token must be a member of :data:`DOC_TYPE_VALUES`.
+
+    The review prompt offers the model exactly this list, so a rule that emitted
+    an unlisted token would make every proposal for that article a drift the
+    reviewer can never satisfy.
+    """
+    emitted = {value for _, value in _DOC_TYPE_RULES} | set(_DOC_TYPE_BY_CODE.values())
+    assert emitted <= set(DOC_TYPE_VALUES)
+    assert DOC_TYPE_UNKNOWN not in DOC_TYPE_VALUES
+    assert len(DOC_TYPE_VALUES) == len(set(DOC_TYPE_VALUES))
+
+
+def test_curated_overrides_win_over_the_naming_rules() -> None:
+    """``CBA``/``CACH``/``JAC`` are abbreviated by subject and must not be
+    guessed by the convention rules that would catch ``L7565``-style codes."""
+    for code, expected in _DOC_TYPE_BY_CODE.items():
+        assert doc_type_for(code) == expected
+        assert doc_type_for(code.lower()) == expected
+
+
+def test_doc_type_for_resolves_the_whole_ingested_framework_inventory() -> None:
+    """Regression pin: the 47 framework codes that resolved to ``unknown``.
+
+    Measured against the 1119-article corpus before this mapping was added; the
+    codes whose instrument is named in the filename appear in
+    :data:`_DOC_TYPE_BY_CODE`, the rest follow the ``L``/``D``/``DTO``/``DFL``
+    convention.
+    """
+    previously_unknown = (
+        "CBA MC99 ACHR D1171 D6029 L20285 CPB L8906_OAB L16752 CC D11129 IATA_GC "
+        "DGAC_PREVAC CONST L13460 DAN17 D7724 CHIPENCOD L12846 D2181 DGAC_IVAAF CACH "
+        "L7716 L12527 L12813 LPDC BRCL CPCL D7203 CED_OAB UNCRC DSO JAC CPR_BCN CHICAGO "
+        "UNGCP VCCR L20405 VCLT HAGUE1980 DFL1_19653 L20880 LPDP L9784 DTO2421 ILC"
+    ).split()
+    unresolved = [code for code in previously_unknown if doc_type_for(code) == DOC_TYPE_UNKNOWN]
+    assert unresolved == []
 
 
 @pytest.mark.parametrize(
@@ -432,9 +504,11 @@ def test_to_payload_matches_production_schema() -> None:
         "original_id",
     }
     assert payload["original_data"]["id"] == article.point_id
+    # The fixture's ``L1`` code is an ordinary statute, so ``doc_type`` resolves
+    # through the ``^L\d`` rule rather than falling through to ``unknown``.
     assert payload["metadata"] == {
         "data_type": "law",
-        "doc_type": "unknown",
+        "doc_type": "Law",
         "ingestion_time": "2026-01-01T00:00:00",
     }
     assert payload["doc_type"] == payload["metadata"]["doc_type"]
@@ -489,7 +563,10 @@ def test_canonical_payload_change_is_additive_only() -> None:
     }
     assert payload["tags"] == "norm_type: duty"  # still a display string
     assert payload["metadata"]["ingestion_time"] == "t"
-    assert payload["doc_type"] == "unknown"  # NOT re-purposed as a record kind
+    # The instrument type, NOT a record kind: ``record_kind`` is a separate key
+    # precisely so that ``doc_type`` keeps its downstream meaning.
+    assert payload["doc_type"] == "Law"
+    assert payload["doc_type"] != payload["record_kind"]
 
     assert payload["eli_id"] == payload["original_id"] == "BR.L1.C1.Art.1"
     assert payload["article_number"] == "1"
@@ -530,7 +607,7 @@ def test_local_payload_is_schema_v1() -> None:
     assert payload["source_sha256"] == article.sha256_full
     assert len(payload["source_sha256"]) == 64
     assert payload["ingested_at"] == payload["updated_at"] == "t"
-    assert payload["doc_type"] == "unknown"  # unchanged by decision
+    assert payload["doc_type"] == "Law"  # the instrument type, unchanged by target
     assert payload["data_type"] == "law"
     # local drops the canonical-only duplication
     assert "original_data" not in payload

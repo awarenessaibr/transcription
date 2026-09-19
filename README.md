@@ -265,7 +265,7 @@ All settings are loaded from environment variables. See [.env.example](.env.exam
 | `LOG_LEVEL` | Logging level | `INFO` |
 | `ANTHROPIC_API_KEY` | Anthropic-compatible API key (enables AI analysis) | — |
 | `ANTHROPIC_BASE_URL` | Anthropic-compatible base URL | `https://api.deepseek.com/anthropic` |
-| `ANTHROPIC_MODEL` | Anthropic-compatible model for analysis | `deepseek-v4-pro` |
+| `ANTHROPIC_MODEL` | Anthropic-compatible model for analysis | `deepseek-flash` |
 | `QDRANT_URL` | Qdrant server URL (enables semantic search) | `http://localhost:6333` |
 | `QDRANT_API_KEY` | Qdrant API key (if secured) | — |
 | `LAW_DIR` | Law corpus root (`.md` articles) | `data/law` |

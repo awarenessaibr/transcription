@@ -19,7 +19,7 @@ class ClaudeAnalyzerAdapter(BaseAnalyzerAdapter):
     def __init__(
         self,
         api_key: str,
-        model: str = "deepseek-v4-pro",
+        model: str = "deepseek-flash",
         base_url: str = "https://api.deepseek.com/anthropic",
     ):
         self._client = anthropic.Anthropic(api_key=api_key, base_url=base_url)

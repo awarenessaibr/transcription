@@ -166,11 +166,91 @@ _DEFAULT_PREFERRED_LANGUAGE = "en"
 #: must be ignored rather than counted as a law document.
 _CORPUS_EXCLUDED_FILES: frozenset[str] = frozenset({"law_registry.json", "LAW_REGISTRY.md"})
 
+#: The closed ``doc_type`` vocabulary. :func:`doc_type_for` returns one of these
+#: or :data:`DOC_TYPE_UNKNOWN`, and the enrichment review offers the model
+#: exactly this list — so a proposal can never invent a value the ingester would
+#: not itself derive.
+#:
+#: The capitalisation is inherited from the legacy ``la8159_law`` payloads
+#: (``Internal``, ``ICAO``, ``Resolution``, ``CDC``); those four keep their
+#: historical spelling because something downstream reads the field.
+DOC_TYPE_VALUES: tuple[str, ...] = (
+    "Constitution",
+    "Code",
+    "Law",
+    "Decree",
+    "Convention",
+    "Declaration",
+    "Guidelines",
+    "Contract",
+    "Resolution",
+    "ICAO",
+    "Internal",
+    "CDC",
+)
+
+#: Fallback for a framework code no rule matches. Never invent one.
+DOC_TYPE_UNKNOWN = "unknown"
+
+#: Curated ``framework_code -> doc_type`` overrides.
+#:
+#: The corpus abbreviates several instruments by *subject* rather than by
+#: instrument type, so no naming convention can recover the answer: ``CACH`` is
+#: Ley 18.916, ``LPDP`` is Ley 19.628, ``LPDP``'s sibling ``LPDC`` is Ley 19.496,
+#: ``CBA`` is Lei 7.565 (the Aeronautical Code) and ``JAC`` is Resolución 218.
+#: The evidence for each entry is the corpus filename the code was ingested
+#: from — see ``data/law/json/<JUR>/``, where the file is named after the real
+#: instrument (``L18916_CACH``, ``R218_JAC_DerechosPasajeros``, …).
+#:
+#: Checked before :data:`_DOC_TYPE_RULES`, so an entry here always wins.
+_DOC_TYPE_BY_CODE: dict[str, str] = {
+    # -- Chilean laws the corpus names after their subject --
+    "CACH": "Law",  # L18916_CACH
+    "LPDP": "Law",  # L19628_LPDP — protección de datos personales
+    "LPDC": "Law",  # L19496_LPDC — protección de los derechos del consumidor
+    # -- codified instruments --
+    "CBA": "Code",  # L7565_CBA — Código Brasileiro de Aeronáutica
+    "CPB": "Code",  # DL2848_CP — Código Penal Brasileiro
+    "CC": "Code",  # CC_CodigoCivil / L10406_CC — Código Civil
+    "CPCL": "Code",  # Código Penal Chileno
+    "CHIPENCOD": "Code",  # CHIPENCOD_CP — Código Penal Chileno
+    "CED_OAB": "Code",  # CodEtica_OAB — Código de Ética e Disciplina
+    # -- constitutions --
+    "CONST": "Constitution",  # Constitucion_BCN
+    "CPR_BCN": "Constitution",
+    # -- international instruments --
+    "MC99": "Convention",  # MC99_1999 — Montreal Convention
+    "ACHR": "Convention",  # American Convention on Human Rights
+    "UNCRC": "Convention",  # UN Convention on the Rights of the Child
+    "CHICAGO": "Convention",  # Chicago Convention
+    "VCCR": "Convention",  # VCCR_1963 — Vienna Convention, consular relations
+    "VCLT": "Convention",  # Vienna Convention on the Law of Treaties
+    "HAGUE1980": "Convention",  # Hague Convention 1980
+    "UNGCP": "Guidelines",  # UN Guidelines for Consumer Protection
+    "ILC": "Guidelines",  # ILC_ARSIWA — Articles on State Responsibility
+    "BRCL": "Declaration",  # JOINTDECL.2024 — Brazil/Chile joint declaration
+    "IATA_GC": "Contract",  # IATA General Conditions of Carriage
+    # -- aviation-authority instruments --
+    "JAC": "Resolution",  # R218_JAC — Resolución 218 (Junta de Aeronáutica Civil)
+    "DSO": "Internal",  # DGAC_DSO
+    "DAN17": "Internal",  # DAN17_DGAC
+    "DGAC_PREVAC": "Internal",
+    "DGAC_IVAAF": "Internal",
+}
+
+#: Naming-convention rules, applied in order to the (upper-cased) framework
+#: code. Specific patterns must precede general ones.
 _DOC_TYPE_RULES: tuple[tuple[re.Pattern[str], str], ...] = (
     (re.compile(r"^ABEAR", re.IGNORECASE), "Internal"),
     (re.compile(r"^(?:AN\d|DOC\d)", re.IGNORECASE), "ICAO"),
     (re.compile(r"^R\d{3}$", re.IGNORECASE), "Resolution"),
     (re.compile(r"^CDC$", re.IGNORECASE), "CDC"),
+    # Decrees must precede the general `^D\d` rule and follow `^DOC\d`.
+    (re.compile(r"^DTO\d", re.IGNORECASE), "Decree"),  # DTO2421 — Decreto CGR
+    (re.compile(r"^DFL\d", re.IGNORECASE), "Decree"),  # DFL1_19653 — Decreto con Fuerza de Ley
+    (re.compile(r"^DL\d", re.IGNORECASE), "Decree"),  # Decreto-Lei
+    (re.compile(r"^D\d", re.IGNORECASE), "Decree"),  # D1171, D6029, D7724, …
+    (re.compile(r"^L\d", re.IGNORECASE), "Law"),  # L20285, L8906_OAB, …
 )
 
 # ---------------------------------------------------------------------------
@@ -318,11 +398,26 @@ def doc_type_for(framework_code: str) -> str:
     (e.g. ``DOC4444`` is split between ``ICAO`` and ``Internal``). This function
     replaces that with an explicit, reproducible mapping; the validator reports
     how many points would change.
+
+    Returns a token from :data:`DOC_TYPE_VALUES`, or :data:`DOC_TYPE_UNKNOWN`.
+
+    .. warning::
+       ``doc_type`` is read as ``norm_type`` by a live downstream consumer
+       (``discovery/case-server/pipeline/legal_kb.js``, ``qdrantLawPayloadToRef``),
+       so widening these rules re-types every affected article on the next
+       refresh. ``LawIndexValidator`` reports the delta as ``doc_type_drift``;
+       check it before refreshing a production collection.
     """
+    code = (framework_code or "").strip()
+    if not code:
+        return DOC_TYPE_UNKNOWN
+    curated = _DOC_TYPE_BY_CODE.get(code.upper())
+    if curated is not None:
+        return curated
     for pattern, value in _DOC_TYPE_RULES:
-        if pattern.match(framework_code or ""):
+        if pattern.match(code):
             return value
-    return "unknown"
+    return DOC_TYPE_UNKNOWN
 
 
 def split_eli(eli: str) -> tuple[str, str]:
@@ -592,9 +687,24 @@ class LawArticle:
 # Payload editing
 # ---------------------------------------------------------------------------
 
+#: Structured classification a reviewer may fill in. The corpus tag block
+#: carries it (see :func:`parse_article_tags`) but a bare ingestion often leaves
+#: it empty, so an assisted review is the only way to populate it. These keys
+#: exist **only** on the schema-v1 (local) payload: the shared canonical shape is
+#: written by the ingester alone and deliberately omits them, so a point that
+#: carries no ``schema_version`` may not receive them.
+ENRICHMENT_PAYLOAD_FIELDS: tuple[str, ...] = ("norm_type", "scope", "direction", "sanctions")
+
+#: Enrichment keys that are keyword *arrays* — a provision can be a duty *and*
+#: a penalty, so a single token cannot express it.
+ENRICHMENT_ARRAY_FIELDS: frozenset[str] = frozenset({"norm_type", "scope", "sanctions"})
+
+#: The one scalar enrichment key: the modality of the article's main verb.
+ENRICHMENT_SCALAR_FIELDS: frozenset[str] = frozenset({"direction"})
+
 #: Payload keys a human is allowed to edit from the registry UI.
 EDITABLE_PAYLOAD_FIELDS: frozenset[str] = frozenset(
-    {"title", "theme", "tags", "content", "text", "source_file", "doc_type"},
+    {"title", "theme", "tags", "content", "text", "source_file", "doc_type"} | set(ENRICHMENT_PAYLOAD_FIELDS),
 )
 
 #: Payload keys this module owns. A caller can read them but never set them
@@ -615,10 +725,6 @@ _IMMUTABLE_PAYLOAD_FIELDS: frozenset[str] = frozenset(
         "article_number",
         "record_kind",
         "reference_only",
-        "norm_type",
-        "scope",
-        "direction",
-        "sanctions",
         "data_type",
         "schema_version",
         "ingested_at",
@@ -633,6 +739,46 @@ _ORIGINAL_DATA_MIRROR: tuple[str, ...] = ("title", "theme", "tags", "content", "
 
 class PayloadEditError(ValueError):
     """Raised when a requested payload edit is rejected."""
+
+
+def _enrichment_schema_hint(key: str) -> str:
+    return (
+        f"field {key!r} is a schema-v1 enrichment field and this payload does not carry one "
+        "(the shared canonical payload is written by the ingester alone) — edit it on the "
+        "local (transcription_law) collection instead"
+    )
+
+
+def _coerce_token_list(key: str, value: Any) -> list[str]:
+    """Validate/normalise a keyword array: strings only, blank-free, de-duplicated."""
+    if not isinstance(value, list | tuple):
+        raise PayloadEditError(f"field {key!r} must be a list of strings, got {type(value).__name__}")
+    out: list[str] = []
+    seen: set[str] = set()
+    for item in value:
+        if not isinstance(item, str):
+            raise PayloadEditError(f"field {key!r} must be a list of strings, got {type(item).__name__} in it")
+        token = item.strip()
+        if not token:
+            continue
+        folded = token.lower()
+        if folded in seen:
+            continue
+        seen.add(folded)
+        out.append(token)
+    return out
+
+
+def _coerce_direction(value: Any) -> str | None:
+    """Validate the scalar modality token; ``None`` clears it."""
+    if value is None:
+        return None
+    if not isinstance(value, str):
+        raise PayloadEditError(f"field 'direction' must be a string, got {type(value).__name__}")
+    token = value.strip().lower()
+    if not token:
+        raise PayloadEditError("field 'direction' may not be emptied — pass null to clear it")
+    return re.sub(r"[\s-]+", "_", token)
 
 
 def build_payload_patch(
@@ -657,6 +803,10 @@ def build_payload_patch(
     * ``tags`` is a display ``str`` on canonical and a ``list`` on local; a list
       is only accepted for a local-schema payload so the shared canonical shape
       cannot drift;
+    * the :data:`ENRICHMENT_PAYLOAD_FIELDS` are accepted on a local-schema
+      payload only: ``norm_type``/``scope``/``sanctions`` take a list of tokens
+      and ``direction`` takes one token (or ``null`` to clear it), because those
+      keys and their keyword indexes exist on the local shape alone;
     * on canonical, ``original_data`` — the nested mirror other services read —
       is kept in step with the flat keys, and ``metadata.updated_at`` records the
       edit without clobbering ``metadata.ingestion_time``;
@@ -678,6 +828,16 @@ def build_payload_patch(
 
     patch: dict[str, Any] = {}
     for key, value in fields.items():
+        if key in ENRICHMENT_ARRAY_FIELDS:
+            if not local_schema:
+                raise PayloadEditError(_enrichment_schema_hint(key))
+            patch[key] = _coerce_token_list(key, value)
+            continue
+        if key in ENRICHMENT_SCALAR_FIELDS:
+            if not local_schema:
+                raise PayloadEditError(_enrichment_schema_hint(key))
+            patch[key] = _coerce_direction(value)
+            continue
         if key == "tags" and isinstance(value, list):
             if not local_schema:
                 raise PayloadEditError("field 'tags' must be a string on the canonical schema")
@@ -2413,7 +2573,12 @@ __all__ = [
     "CANONICAL_BM25_COLLECTION",
     "CANONICAL_COLLECTION",
     "CANONICAL_DENSE_DIM",
+    "DOC_TYPE_UNKNOWN",
+    "DOC_TYPE_VALUES",
     "EDITABLE_PAYLOAD_FIELDS",
+    "ENRICHMENT_ARRAY_FIELDS",
+    "ENRICHMENT_PAYLOAD_FIELDS",
+    "ENRICHMENT_SCALAR_FIELDS",
     "LOCAL_COLLECTION",
     "LOCAL_DENSE_DIM",
     "LOCAL_EMBED_MODEL",

@@ -570,6 +570,108 @@ details.source-doc > summary:hover { color: var(--accent); }
 .edit-note { font-size: 0.72rem; color: var(--text-muted); line-height: 1.6; }
 .dirty-count { font-family: var(--mono); font-size: 0.68rem; color: var(--status-analysis); }
 
+/* ---------- LLM payload review ---------- */
+.review-controls { display: flex; align-items: flex-end; gap: 10px; flex-wrap: wrap; margin-bottom: 12px; }
+.review-control { display: grid; gap: 4px; }
+.review-control > span {
+  font-family: var(--mono); font-size: 0.6rem; text-transform: uppercase;
+  letter-spacing: .08em; color: var(--text-muted);
+}
+.review-control select {
+  font: inherit; font-size: 0.76rem; color: var(--text-primary); background: var(--bg-card);
+  border: 1px solid var(--border); border-radius: 6px; padding: 6px 8px; max-width: 220px;
+}
+.review-control select:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-dim); }
+.review-toggle {
+  display: flex; align-items: center; gap: 6px; font-size: 0.74rem;
+  color: var(--text-secondary); padding-bottom: 7px;
+}
+.review-toggle input { accent-color: var(--accent); }
+.review-status { font-size: 0.72rem; color: var(--text-muted); padding-bottom: 9px; }
+.review-status.is-error { color: var(--status-flag); }
+
+.review-panel { display: grid; gap: 9px; }
+.review-row {
+  display: grid; grid-template-columns: auto 1fr; gap: 10px; align-items: start;
+  background: var(--bg-card); border: 1px solid var(--border); border-radius: 7px; padding: 10px 12px;
+}
+.review-row.is-selected { border-color: var(--accent); background: var(--accent-dim); }
+.review-row input[type=checkbox] { margin-top: 3px; accent-color: var(--accent); }
+.review-head { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 6px; }
+.review-field { font-family: var(--mono); font-size: 0.73rem; font-weight: 600; color: var(--text-primary); }
+.review-conf {
+  font-family: var(--mono); font-size: 0.6rem; text-transform: uppercase; letter-spacing: .06em;
+  border-radius: 4px; padding: 2px 6px; border: 1px solid var(--border-strong); color: var(--text-muted);
+}
+.review-conf.is-high { color: var(--status-note); border-color: rgba(63,107,79,.35); background: var(--status-note-dim); }
+.review-conf.is-medium { color: var(--status-analysis); border-color: rgba(138,106,44,.32); background: var(--status-analysis-dim); }
+.review-conf.is-low { color: var(--status-flag); border-color: rgba(122,55,51,.24); background: var(--status-flag-dim); }
+.review-diff { display: grid; gap: 4px; font-size: 0.76rem; line-height: 1.55; }
+.review-val { font-family: var(--mono); font-size: 0.7rem; word-break: break-word; white-space: pre-wrap; }
+.review-val.is-current { color: var(--text-muted); text-decoration: line-through; }
+.review-val.is-suggested { color: var(--status-note); }
+.review-arrow { color: var(--text-muted); font-size: 0.7rem; }
+.review-rationale { font-size: 0.74rem; color: var(--text-secondary); line-height: 1.6; margin-top: 6px; }
+.review-empty {
+  font-size: 0.76rem; color: var(--text-secondary); background: var(--bg-surface);
+  border: 1px dashed var(--border-strong); border-radius: 7px; padding: 11px 13px; line-height: 1.6;
+}
+.review-actions { display: flex; align-items: center; gap: 9px; flex-wrap: wrap; }
+
+/* ---------- Review lead / flags / reports ---------- */
+.review-lead { display: grid; gap: 8px; margin-bottom: 4px; }
+.review-lead-head { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.review-mode {
+  font-family: var(--mono); font-size: 0.62rem; text-transform: uppercase; letter-spacing: .08em;
+  color: var(--text-muted); border: 1px solid var(--border-strong); border-radius: 999px; padding: 2px 8px;
+}
+.review-note { font-size: 0.72rem; color: var(--status-analysis); line-height: 1.6; }
+.review-summary { font-size: 0.76rem; color: var(--text-secondary); line-height: 1.65; }
+.review-logic { font-size: 0.73rem; color: var(--text-secondary); }
+.review-logic summary { cursor: pointer; color: var(--text-muted); font-family: var(--mono); font-size: 0.67rem; text-transform: uppercase; letter-spacing: .07em; }
+.review-logic dl { margin: 8px 0 0; display: grid; gap: 6px; }
+.review-logic dt { font-family: var(--mono); font-size: 0.7rem; color: var(--accent-ink, var(--text-primary)); font-weight: 600; }
+.review-logic dd { margin: 0 0 4px; line-height: 1.65; }
+
+.review-flags { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 7px; }
+.review-flag {
+  font-size: 0.68rem; line-height: 1.6; border-radius: 5px; padding: 2px 7px;
+  border: 1px solid var(--border-strong); background: var(--bg-surface); color: var(--text-muted);
+}
+.review-flag code { font-size: 0.7rem; }
+.review-flag.is-normalised { color: var(--status-analysis); border-color: rgba(138,106,44,.32); background: var(--status-analysis-dim); }
+.review-flag.is-new { color: var(--status-flag); border-color: rgba(122,55,51,.24); background: var(--status-flag-dim); }
+.review-justify {
+  font-size: 0.74rem; color: var(--text-secondary); line-height: 1.65; margin-top: 7px;
+  padding-left: 9px; border-left: 2px solid var(--border-strong);
+}
+.review-evidence {
+  margin: 7px 0 0; padding: 7px 11px; border-left: 2px solid var(--accent);
+  background: var(--bg-surface); border-radius: 0 5px 5px 0;
+  font-family: var(--mono); font-size: 0.69rem; line-height: 1.7; color: var(--text-secondary); white-space: pre-wrap;
+}
+
+.report-bar { display: flex; align-items: center; gap: 9px; flex-wrap: wrap; margin-top: 4px; padding-top: 11px; border-top: 1px solid var(--border); }
+.report-bar-name { font-size: 0.72rem; color: var(--text-muted); }
+.report-list { display: grid; gap: 6px; }
+.report-item {
+  display: grid; gap: 2px; text-align: left; cursor: pointer; font: inherit;
+  background: var(--bg-surface); border: 1px solid var(--border); border-radius: 6px; padding: 8px 11px;
+}
+.report-item:hover { border-color: var(--border-strong); }
+.report-item.is-open { border-color: var(--accent); background: var(--accent-dim); }
+.report-item-id { font-family: var(--mono); font-size: 0.71rem; color: var(--text-primary); }
+.report-item-title { font-size: 0.71rem; color: var(--text-secondary); }
+.report-item-meta { font-size: 0.66rem; color: var(--text-muted); }
+.report-viewer { display: none; }
+.report-viewer.is-open { display: block; margin-top: 10px; }
+.report-viewer-head { display: flex; align-items: center; gap: 9px; flex-wrap: wrap; margin-bottom: 8px; }
+.report-view {
+  max-height: 460px; overflow: auto; margin: 0; padding: 14px;
+  background: var(--bg-card); border: 1px solid var(--border-strong); border-radius: 6px;
+  font-family: var(--mono); font-size: 0.7rem; line-height: 1.75; color: var(--text-secondary); white-space: pre-wrap;
+}
+
 /* ---------- Toasts ---------- */
 .toast-wrap { position: fixed; right: 20px; bottom: 20px; z-index: 200; display: grid; gap: 9px; max-width: 380px; }
 .toast {
@@ -771,7 +873,16 @@ const state = {
   pollTimer: null,
   payload: null,
   payloadTab: 'live',
-  payloadCollection: 'la8159_law'
+  payloadCollection: 'la8159_law',
+  // LLM review of the open payload (cleared on every fresh article load)
+  payloadSuggestions: null,
+  payloadSuggestionSel: null,
+  reviewCatalog: null,
+  reviewCatalogPending: false,
+  // Saved enrichment reports (state.reports = null means "not fetched yet")
+  reports: null,
+  reportView: null,
+  reportViewMarkdown: null
 };
 
 /* ==================================================================
@@ -1914,6 +2025,16 @@ function renderArticleModal() {
     const value = (key) => (live[key] !== undefined && live[key] !== null)
       ? String(live[key])
       : (source[key] !== undefined && source[key] !== null ? String(source[key]) : '');
+    // ``field_kinds`` is per payload shape: the enrichment keys only exist on the
+    // schema-v1 local payload, so a canonical payload omits them here rather than
+    // offering an input whose save would be rejected.
+    const kinds = article.field_kinds || {};
+    // An older/foreign backend may not report kinds at all — then every editable
+    // key is offered as a plain string rather than nothing being offered.
+    const hasKinds = Object.keys(kinds).length > 0;
+    const editableHere = editable.filter(k => k !== 'content' && (!hasKinds || kinds[k]));
+    const withheld = hasKinds ? editable.filter(k => k !== 'content' && !kinds[k]) : [];
+    const localCollection = state.status && state.status.local && state.status.local.collection;
 
     html += `<div class="modal-section">
       <div class="modal-section-label">Edit payload
@@ -1924,23 +2045,67 @@ function renderArticleModal() {
         and edits are lost if the corpus is re-ingested. <strong>Dense vectors and point IDs are never modified.</strong>
       </div>
       <div class="edit-grid">
-        ${editable.filter(k => k !== 'content').map(key => `
-          <div class="edit-field">
-            <label for="edit-${escapeHtml(key)}">${escapeHtml(key)}</label>
-            <input class="edit-input" id="edit-${escapeHtml(key)}" data-field="${escapeHtml(key)}"
-                   value="${escapeHtml(value(key))}" spellcheck="false">
-          </div>`).join('')}
+        ${editableHere.map(key => editFieldHtml(key, kinds[key], live, article)).join('')}
         ${editable.includes('content') ? `
           <div class="edit-field">
             <label for="edit-content">content <span class="req">·</span> <span class="edit-note">editing this re-derives <code>text</code> and <code>sha256_short</code></span></label>
             <textarea class="edit-textarea" id="edit-content" data-field="content" spellcheck="false">${escapeHtml(value('content'))}</textarea>
           </div>` : ''}
       </div>
+      ${withheld.length ? `<div class="edit-note" style="margin-top:10px">
+        Not offered in <code>${escapeHtml(article.collection)}</code>: ${withheld.map(k => `<code>${escapeHtml(k)}</code>`).join(', ')}
+        — those keys only exist on the schema-v1 (local) payload.
+        ${localCollection && localCollection !== article.collection
+          ? `<button class="btn btn-ghost" id="switchToLocalBtn" data-collection="${escapeHtml(localCollection)}" style="margin-left:6px">Switch to ${escapeHtml(localCollection)}</button>`
+          : 'Switch the collection selector above to edit them.'}
+      </div>` : ''}
       <div class="edit-actions">
         <button class="btn btn-accent" id="savePayloadBtn">Save payload</button>
         <button class="btn btn-ghost" id="revertPayloadBtn">Revert</button>
         <span class="dirty-count" id="dirtyCount"></span>
       </div>
+    </div>`;
+
+    // ---- LLM review -----------------------------------------------
+    // Read-only by design: it only ever proposes, and whatever the reviewer
+    // ticks goes out through the same PATCH /payload used by the editor above.
+    html += `<div class="modal-section">
+      <div class="modal-section-label">Review with LLM
+        <span class="edit-note" style="margin-left:8px">read-only — nothing is written until you apply a suggestion</span>
+      </div>
+      <div class="review-controls">
+        <label class="review-control">
+          <span>Provider</span>
+          <select id="reviewProvider">${reviewProviderOptions()}</select>
+        </label>
+        <label class="review-control">
+          <span>Model</span>
+          <select id="reviewModel"></select>
+        </label>
+        <label class="review-toggle" title="Ask the model about the full article body too — highest hallucination risk">
+          <input type="checkbox" id="reviewIncludeContent"> include content
+        </label>
+        <button class="btn btn-accent" id="reviewRunBtn">Review payload</button>
+        <span class="review-status" id="reviewStatus"></span>
+      </div>
+      <div id="reviewResult">
+        ${state.payloadSuggestions
+          ? renderSuggestions(state.payloadSuggestions)
+          : '<div class="review-empty">Ask the model to compare the stored payload with the corpus and the Markdown source, then pick the changes worth applying.</div>'}
+      </div>
+    </div>`;
+  }
+
+  // ---- Saved reports ------------------------------------------------
+  // Keyed on the article id, not the collection, so it is offered even when the
+  // payload itself cannot be loaded — the report is a local file.
+  if (state.api) {
+    html += `<div class="modal-section">
+      <div class="modal-section-label">Saved reports
+        <span class="edit-note" style="margin-left:8px">one per article, under <code>_mapping/enrichment/</code> — amended when a proposal is applied</span>
+      </div>
+      <div id="reportList" class="report-list"><div class="edit-note">Loading…</div></div>
+      <div id="reportViewer" class="report-viewer"></div>
     </div>`;
   }
 
@@ -1955,7 +2120,57 @@ function renderArticleModal() {
     collectionSelect.addEventListener('change', () => openArticle(article.original_id, collectionSelect.value));
   }
 
-  if (live) bindPayloadEditor(article);
+  const switchBtn = document.getElementById('switchToLocalBtn');
+  if (switchBtn) {
+    switchBtn.addEventListener('click', () => openArticle(article.original_id, switchBtn.dataset.collection));
+  }
+
+  if (live) {
+    bindPayloadEditor(article);
+    bindPayloadReview(article);
+  }
+  if (state.api) bindReports();
+}
+
+// The editor promises a value per field, but the API promises a *type*: the
+// enrichment arrays take a list and ``direction`` takes one token or null. Both
+// the input shape and the value it commits are therefore derived from
+// ``field_kinds``, so a token typed into a list field still arrives as a list.
+function editFieldHtml(key, kind, live, article) {
+  const corpus = article.corpus || {};
+  const id = `edit-${escapeHtml(key)}`;
+  const attrs = `class="edit-input" id="${id}" data-field="${escapeHtml(key)}" data-kind="${escapeHtml(kind || 'string')}" spellcheck="false"`;
+
+  if (kind === 'list') {
+    const list = Array.isArray(live[key]) ? live[key] : (live[key] ? [String(live[key])] : []);
+    return `<div class="edit-field">
+      <label for="${id}">${escapeHtml(key)} <span class="edit-note">list · comma separated</span></label>
+      <input ${attrs} value="${escapeHtml(list.join(', '))}" placeholder="no tokens" autocomplete="off">
+    </div>`;
+  }
+  if (kind === 'scalar_nullable') {
+    const raw = live[key];
+    return `<div class="edit-field">
+      <label for="${id}">${escapeHtml(key)} <span class="edit-note">one token · empty clears it</span></label>
+      <input ${attrs} value="${escapeHtml(raw === null || raw === undefined ? '' : String(raw))}"
+             placeholder="(unset)" autocomplete="off">
+    </div>`;
+  }
+  const display = (live[key] !== undefined && live[key] !== null)
+    ? String(live[key])
+    : (corpus[key] !== undefined && corpus[key] !== null ? String(corpus[key]) : '');
+  return `<div class="edit-field">
+    <label for="${id}">${escapeHtml(key)}</label>
+    <input ${attrs} value="${escapeHtml(display)}" autocomplete="off">
+  </div>`;
+}
+
+// Read one editor input back as the type its field declares.
+function readEditField(el) {
+  const kind = el.dataset.kind;
+  if (kind === 'list') return el.value.split(',').map(token => token.trim()).filter(Boolean);
+  if (kind === 'scalar_nullable') return el.value.trim() ? el.value.trim() : null;
+  return el.value;
 }
 
 function payloadCollectionOptions(current) {
@@ -1999,7 +2214,7 @@ function bindPayloadEditor(article) {
     const btn = document.getElementById('savePayloadBtn');
     const patch = {};
     fields.forEach(el => {
-      if (el.value !== original[el.dataset.field]) patch[el.dataset.field] = el.value;
+      if (el.value !== original[el.dataset.field]) patch[el.dataset.field] = readEditField(el);
     });
     if (!Object.keys(patch).length) { toast('No changes to save.', 'error'); return; }
 
@@ -2025,6 +2240,405 @@ function bindPayloadEditor(article) {
   });
 }
 
+/* ------------------------------------------------------------------
+   LLM PAYLOAD REVIEW
+   The model only proposes; nothing is written until the reviewer ticks a
+   suggestion and "Apply selected" goes out through PATCH /payload — the same
+   endpoint and the same field allow-list the editor above already uses.
+   ------------------------------------------------------------------ */
+
+// The provider catalog lives on the LLM router, which is NOT under /api/law.
+const LLM_API = '/v1/llm';
+
+function reviewProviderOptions() {
+  const configured = (state.reviewCatalog || []).filter(p => p.configured);
+  if (!configured.length) return '<option value="">auto-detect</option>';
+  return ['<option value="">auto-detect</option>']
+    .concat(configured.map(p => `<option value="${escapeHtml(p.id)}">${escapeHtml(p.label || p.id)}</option>`))
+    .join('');
+}
+
+function reviewModelOptions(provider) {
+  const entry = (state.reviewCatalog || []).find(p => p.id === provider);
+  const models = (entry && entry.models) || [];
+  return ['<option value="">default</option>']
+    .concat(models.map(m => `<option value="${escapeHtml(m.id)}">${escapeHtml(m.label || m.id)}</option>`))
+    .join('');
+}
+
+// Fetched once, lazily. Failure is not an error path: the select stays on
+// "auto-detect" and the backend still resolves a provider from its own store.
+async function loadReviewCatalog() {
+  if (state.reviewCatalog || state.reviewCatalogPending) return;
+  state.reviewCatalogPending = true;
+  try {
+    const res = await fetch(`${LLM_API}/providers`, { cache: 'no-store' });
+    if (!res.ok) return;
+    const data = await res.json();
+    state.reviewCatalog = data.providers || [];
+
+    // Patch the selects in place — a full re-render would discard in-progress edits.
+    const providerSel = document.getElementById('reviewProvider');
+    const modelSel = document.getElementById('reviewModel');
+    const keep = providerSel ? providerSel.value : '';
+    if (providerSel) {
+      providerSel.innerHTML = reviewProviderOptions();
+      providerSel.value = keep;
+      if (providerSel.selectedIndex < 0) providerSel.value = '';
+    }
+    if (modelSel) modelSel.innerHTML = reviewModelOptions(providerSel ? providerSel.value : '');
+  } catch (e) {
+    console.info('[law] LLM provider catalog unavailable — falling back to auto-detect.', e.message);
+  } finally {
+    state.reviewCatalogPending = false;
+  }
+}
+
+// Selection defaults to every proposal except ``content``: the body is always
+// opt-in, matching the backend's include_content default.
+function suggestionSelection(items) {
+  if (!state.payloadSuggestionSel) {
+    state.payloadSuggestionSel = new Set(items.map((s, i) => i).filter(i => items[i].field !== 'content'));
+  }
+  return state.payloadSuggestionSel;
+}
+
+function fmtSuggestionValue(value) {
+  if (value === null || value === undefined) return '<em>(absent)</em>';
+  if (Array.isArray(value)) {
+    return value.length ? escapeHtml(value.join(' · ')) : '<em>(empty list)</em>';
+  }
+  if (typeof value === 'object') return escapeHtml(JSON.stringify(value));
+  const text = String(value);
+  if (!text.length) return '<em>(empty)</em>';
+  return escapeHtml(text.length > 900 ? `${text.slice(0, 900)}…` : text);
+}
+
+function renderSuggestions(payload) {
+  const items = (payload && payload.suggestions) || [];
+  if (!items.length) {
+    return `${reviewLead(payload)}<div class="review-empty">The model proposed no change — the payload already matches the source.</div>${reportBar(payload)}`;
+  }
+  const selected = suggestionSelection(items);
+  const rows = items.map((s, i) => `
+    <label class="review-row ${selected.has(i) ? 'is-selected' : ''}">
+      <input type="checkbox" data-idx="${i}" ${selected.has(i) ? 'checked' : ''}>
+      <div>
+        <div class="review-head">
+          <span class="review-field">${escapeHtml(s.field)}</span>
+          <span class="review-conf is-${escapeHtml(s.confidence)}">${escapeHtml(s.confidence)}</span>
+        </div>
+        <div class="review-diff">
+          <div class="review-val is-current">${fmtSuggestionValue(s.current)}</div>
+          <div class="review-arrow">↓</div>
+          <div class="review-val is-suggested">${fmtSuggestionValue(s.suggested)}</div>
+        </div>
+        ${reviewFlags(s)}
+        ${s.rationale ? `<div class="review-rationale">${escapeHtml(s.rationale)}</div>` : ''}
+        ${s.justification ? `<div class="review-justify">${escapeHtml(s.justification)}</div>` : ''}
+        ${s.evidence ? `<blockquote class="review-evidence">${escapeHtml(s.evidence)}</blockquote>` : ''}
+      </div>
+    </label>`).join('');
+  return `<div class="review-panel">${reviewLead(payload)}${rows}
+    <div class="review-actions">
+      <button class="btn btn-accent" id="applySuggestBtn">Apply selected</button>
+      <button class="btn btn-ghost" id="selectAllSuggestBtn">Select all</button>
+      <button class="btn btn-ghost" id="dismissSuggestBtn">Dismiss</button>
+      <span class="dirty-count" id="suggestCount"></span>
+    </div>
+    ${reportBar(payload)}
+  </div>`;
+}
+
+// What the review as a whole concluded, before the per-field detail. The
+// ``decision_logic`` is the reusable part: the same reasoning applied to every
+// other article, which is why it is kept collapsible rather than inline.
+function reviewLead(payload) {
+  if (!payload) return '';
+  const logic = payload.decision_logic || {};
+  const rules = Object.entries(logic).filter(([, text]) => String(text || '').trim());
+  const modeLabel = payload.mode === 'enrichment' ? 'enrichment review' : 'payload review';
+  return `<div class="review-lead">
+    <div class="review-lead-head">
+      <span class="review-mode">${escapeHtml(modeLabel)}</span>
+      <span class="review-mode">${(payload.fields_reviewed || []).length} field(s) reviewed</span>
+      ${payload.notes ? `<span class="review-note">${escapeHtml(payload.notes)}</span>` : ''}
+    </div>
+    ${payload.summary ? `<div class="review-summary">${escapeHtml(payload.summary)}</div>` : ''}
+    ${rules.length ? `<details class="review-logic">
+      <summary>Baseline for other articles (${rules.length})</summary>
+      <dl>${rules.map(([field, text]) => `<dt>${escapeHtml(field)}</dt><dd>${escapeHtml(String(text))}</dd>`).join('')}</dl>
+    </details>` : ''}
+  </div>`;
+}
+
+// Vocabulary notices: a rewrite the normaliser performed, and any token the
+// controlled vocabulary does not have yet (a maintainer decision, not noise).
+function reviewFlags(s) {
+  const chips = [];
+  const renames = s.normalized_from || [];
+  if (renames.length) {
+    chips.push(`<span class="review-flag is-normalised">normalised: ${renames
+      .map(r => `<code>${escapeHtml(r.from)}</code> → <code>${escapeHtml(r.to)}</code>`).join(', ')}</span>`);
+  }
+  const unknown = s.unknown_tokens || [];
+  if (unknown.length) {
+    chips.push(`<span class="review-flag is-new">new token: ${unknown.map(t => `<code>${escapeHtml(t)}</code>`).join(', ')}</span>`);
+  }
+  return chips.length ? `<div class="review-flags">${chips.join('')}</div>` : '';
+}
+
+// The review is saved server-side; offer the copy the API already returned
+// rather than making the reader find the file under _mapping/enrichment/.
+function reportBar(payload) {
+  if (!payload.saved) return '';
+  return `<div class="report-bar">
+    <span class="report-bar-name">Report saved · <code>${escapeHtml(payload.report_name || '')}</code></span>
+    <button class="btn btn-ghost" id="viewReportBtn">View report</button>
+    <button class="btn btn-ghost" id="downloadReportBtn">Download</button>
+  </div>`;
+}
+
+function updateSuggestCount() {
+  const el = document.getElementById('suggestCount');
+  if (!el) return;
+  const total = ((state.payloadSuggestions || {}).suggestions || []).length;
+  el.textContent = `${(state.payloadSuggestionSel || new Set()).size} of ${total} selected`;
+}
+
+function mountSuggestions(payload) {
+  const container = document.getElementById('reviewResult');
+  if (!container) return;
+  container.innerHTML = renderSuggestions(payload);
+  const items = (payload && payload.suggestions) || [];
+  if (!items.length) return;
+
+  suggestionSelection(items);
+  container.querySelectorAll('input[type=checkbox][data-idx]').forEach(box => {
+    box.addEventListener('change', () => {
+      const idx = Number(box.dataset.idx);
+      if (box.checked) state.payloadSuggestionSel.add(idx); else state.payloadSuggestionSel.delete(idx);
+      box.closest('.review-row').classList.toggle('is-selected', box.checked);
+      updateSuggestCount();
+    });
+  });
+  document.getElementById('selectAllSuggestBtn').addEventListener('click', () => {
+    state.payloadSuggestionSel = new Set(items.map((_, i) => i));
+    mountSuggestions(payload);
+  });
+  document.getElementById('dismissSuggestBtn').addEventListener('click', () => {
+    state.payloadSuggestions = null;
+    state.payloadSuggestionSel = null;
+    renderArticleModal();
+  });
+  document.getElementById('applySuggestBtn').addEventListener('click', () => applySuggestions(payload));
+  bindReportBar(payload);
+  updateSuggestCount();
+}
+
+// "View report" uses the Markdown the review already returned, so reading the
+// saved report costs no extra request.
+function bindReportBar(payload) {
+  const view = document.getElementById('viewReportBtn');
+  const save = document.getElementById('downloadReportBtn');
+  if (!payload.saved || !payload.report) return;
+  if (view) {
+    view.addEventListener('click', () => {
+      void openReport(payload.report_name, payload.report);
+      const box = document.getElementById('reportViewer');
+      if (box) box.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  }
+  if (save) save.addEventListener('click', () => downloadText(payload.report_name || 'enrichment-report.md', payload.report));
+}
+
+async function applySuggestions(payload) {
+  const items = payload.suggestions || [];
+  const selected = state.payloadSuggestionSel || new Set();
+  const patch = {};
+  items.forEach((s, i) => { if (selected.has(i)) patch[s.field] = s.suggested; });
+  if (!Object.keys(patch).length) { toast('No suggestion selected.', 'error'); return; }
+
+  const btn = document.getElementById('applySuggestBtn');
+  btn.disabled = true;
+  btn.textContent = 'Applying…';
+  try {
+    const res = await apiFetch('/payload', {
+      method: 'PATCH',
+      body: JSON.stringify({ original_id: payload.original_id, fields: patch, collection: payload.collection })
+    });
+    toast(`Applied ${Object.keys(patch).length} field(s) to <code>${escapeHtml(payload.original_id)}</code> in ${escapeHtml(res.collection)}.`, 'ok');
+    // Those values are live now, so the checklist is stale — and the modal below
+    // is rebuilt from a fresh /article, which would otherwise re-show old rows.
+    state.payloadSuggestions = null;
+    state.payloadSuggestionSel = null;
+    state.payload = await apiFetch(
+      `/article?original_id=${encodeURIComponent(payload.original_id)}&collection=${encodeURIComponent(payload.collection)}`
+    );
+    renderArticleModal();
+    await refreshStatus();
+    void loadReports();
+  } catch (e) {
+    toast(`Apply failed: <code>${escapeHtml(e.message)}</code>`, 'error');
+    btn.disabled = false;
+    btn.textContent = 'Apply selected';
+  }
+}
+
+function bindPayloadReview(article) {
+  const runBtn = document.getElementById('reviewRunBtn');
+  if (!runBtn) return;
+
+  const providerSel = document.getElementById('reviewProvider');
+  const modelSel = document.getElementById('reviewModel');
+  const contentBox = document.getElementById('reviewIncludeContent');
+
+  modelSel.innerHTML = reviewModelOptions(providerSel.value);
+  providerSel.addEventListener('change', () => { modelSel.innerHTML = reviewModelOptions(providerSel.value); });
+  void loadReviewCatalog();
+
+  // Restore a checklist that survived a tab switch / re-render.
+  if (state.payloadSuggestions) mountSuggestions(state.payloadSuggestions);
+
+  runBtn.addEventListener('click', async () => {
+    const status = document.getElementById('reviewStatus');
+    runBtn.disabled = true;
+    runBtn.textContent = 'Reviewing…';
+    status.classList.remove('is-error');
+    status.textContent = 'comparing payload, corpus and source…';
+    state.payloadSuggestions = null;
+    state.payloadSuggestionSel = null;
+    try {
+      const res = await apiFetch('/suggest', {
+        method: 'POST',
+        body: JSON.stringify({
+          original_id: article.original_id,
+          collection: article.collection,
+          include_content: contentBox.checked,
+          provider: providerSel.value || null,
+          model: modelSel.value || null
+        })
+      });
+      state.payloadSuggestions = res;
+      mountSuggestions(res);
+      // The run just wrote a report (and possibly a first-ever one).
+      void loadReports();
+      const model = res.model ? ` (${res.model})` : '';
+      status.textContent = res.suggestions.length
+        ? `${res.suggestions.length} suggestion(s)${model}`
+        : `nothing to change${model}`;
+    } catch (e) {
+      state.payloadSuggestions = null;
+      state.payloadSuggestionSel = null;
+      status.classList.add('is-error');
+      status.textContent = 'review failed';
+      document.getElementById('reviewResult').innerHTML =
+        `<div class="review-empty">Review failed: ${escapeHtml(e.message)}</div>`;
+    } finally {
+      runBtn.disabled = false;
+      runBtn.textContent = 'Review payload';
+    }
+  });
+}
+
+/* ------------------------------------------------------------------
+   SAVED ENRICHMENT REPORTS
+   The review is persisted server-side, so the reader must be able to get
+   back to it without hunting through the filesystem: list them and render
+   the Markdown in place.
+   ------------------------------------------------------------------ */
+
+function reportItemMeta(item) {
+  const parts = [`${item.suggestions || 0} proposal(s)`];
+  if (item.applied) parts.push(`${item.applied} applied`);
+  const stamp = item.applied_at || item.generated_at;
+  if (stamp) parts.push(stamp);
+  return parts.join(' · ');
+}
+
+function renderReportList() {
+  if (state.reports === null) return '<div class="edit-note">Loading…</div>';
+  const items = state.reports || [];
+  if (!items.length) {
+    return '<div class="edit-note">No review has been saved yet — run one above to create the first report for this corpus.</div>';
+  }
+  return items.map(item => `
+    <button class="report-item ${state.reportView === item.name ? 'is-open' : ''}" data-report="${escapeHtml(item.name)}">
+      <span class="report-item-id">${escapeHtml(item.original_id || item.name)}</span>
+      ${item.title ? `<span class="report-item-title">${escapeHtml(item.title)}</span>` : ''}
+      <span class="report-item-meta">${escapeHtml(reportItemMeta(item))}</span>
+    </button>`).join('');
+}
+
+function mountReportList() {
+  const box = document.getElementById('reportList');
+  if (!box) return;
+  box.innerHTML = renderReportList();
+  box.querySelectorAll('button[data-report]').forEach(btn => {
+    btn.addEventListener('click', () => void openReport(btn.dataset.report));
+  });
+}
+
+async function loadReports() {
+  try {
+    const res = await apiFetch('/reports');
+    state.reports = (res && res.reports) || [];
+  } catch (e) {
+    const box = document.getElementById('reportList');
+    if (box) box.innerHTML = `<div class="edit-note">Could not list reports: ${escapeHtml(e.message)}</div>`;
+    return;
+  }
+  mountReportList();
+}
+
+// The full Markdown is already in hand right after a review, so pass it in to
+// avoid a refetch; the list path fetches the copy on disk instead.
+async function openReport(name, markdown) {
+  const box = document.getElementById('reportViewer');
+  if (!box) return;
+  state.reportView = name;
+  box.classList.add('is-open');
+  box.innerHTML = '<div class="source-status">Loading report…</div>';
+  mountReportList();
+  try {
+    const text = markdown !== undefined
+      ? markdown
+      : await apiFetch(`/reports/${encodeURIComponent(name)}`, { asText: true });
+    box.innerHTML = `
+      <div class="report-viewer-head">
+        <span class="report-item-id">${escapeHtml(name)}</span>
+        <button class="btn btn-ghost" id="reportDownloadBtn">Download</button>
+        <button class="btn btn-ghost" id="reportCloseBtn">Close</button>
+      </div>
+      <pre class="report-view">${escapeHtml(text)}</pre>`;
+    document.getElementById('reportCloseBtn').addEventListener('click', () => {
+      state.reportView = null;
+      box.classList.remove('is-open');
+      box.innerHTML = '';
+      mountReportList();
+    });
+    document.getElementById('reportDownloadBtn').addEventListener('click', () => downloadText(name, text));
+  } catch (e) {
+    box.innerHTML = `<div class="edit-warn">Could not open <code>${escapeHtml(name)}</code>: ${escapeHtml(e.message)}</div>`;
+  }
+}
+
+function downloadText(name, text) {
+  const url = URL.createObjectURL(new Blob([text], { type: 'text/markdown;charset=utf-8' }));
+  const link = document.createElement('a');
+  link.href = url;
+  link.download = name;
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  URL.revokeObjectURL(url);
+}
+
+function bindReports() {
+  mountReportList();
+  void loadReports();
+}
+
 async function openArticle(originalId, collection) {
   const body = document.getElementById('modalBody');
   if (collection) state.payloadCollection = collection;
@@ -2033,6 +2647,9 @@ async function openArticle(originalId, collection) {
   document.body.style.overflow = 'hidden';
   state.currentFile = null;
   state.payloadTab = 'live';
+  state.payloadSuggestions = null;
+  state.payloadSuggestionSel = null;
+  state.reportView = null;
   try {
     state.payload = await apiFetch(
       `/article?original_id=${encodeURIComponent(originalId)}&collection=${encodeURIComponent(state.payloadCollection)}`

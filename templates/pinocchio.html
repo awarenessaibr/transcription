@@ -2192,7 +2192,7 @@
               <div class="split-2">
                 <div class="field">
                   <label>Modelo</label>
-                  <input id="aiModel" value="deepseek-v4-pro">
+                  <input id="aiModel" value="deepseek-flash">
                 </div>
                 <div class="field">
                   <label>Endpoint Chat</label>
@@ -4702,7 +4702,7 @@ Reasoning for chain: Explanation of why this order is effective.">Lista de poss√
           }
           if (systemParts.length) messages.push({ role: 'system', content: systemParts.join('\n\n---\n\n') });
           messages.push({ role: 'user', content: prompt });
-          var model = ($('aiModel') || {}).value || 'deepseek-v4-pro';
+          var model = ($('aiModel') || {}).value || 'deepseek-flash';
           var payload = { model: model, messages: messages, stream: $('streamMode') && $('streamMode').checked };
           $('payloadSize').textContent = JSON.stringify(payload).length + ' bytes';
           return payload;
@@ -4767,7 +4767,7 @@ Reasoning for chain: Explanation of why this order is effective.">Lista de poss√
           var endpoint = ($('aiEndpoint') || {}).value;
           if (!endpoint) return showToast('Configure AI endpoint');
           var prompt = 'Based on the transcription results below, suggest improved configuration parameters for the next run. Return a JSON object with suggested parameter values and a brief explanation for each change.\n\nCurrent config:\n' + JSON.stringify(currentConfig, null, 2) + '\n\nResult summary:\n- Segments: ' + (currentResponse.segments || []).length + '\n- Empty segments: ' + (currentResponse.segments || []).filter(function (s) { return !(s.text || '').trim(); }).length + '\n- Language: ' + (currentResponse.language || 'unknown');
-          var payload = { model: ($('aiModel') || {}).value || 'deepseek-v4-pro', messages: [{ role: 'user', content: prompt }], stream: false };
+          var payload = { model: ($('aiModel') || {}).value || 'deepseek-flash', messages: [{ role: 'user', content: prompt }], stream: false };
           try {
             var token = ($('cfg_llm_token') || {}).value || '';
             var headers = { 'Content-Type': 'application/json' };
@@ -4931,7 +4931,7 @@ Reasoning for chain: Explanation of why this order is effective.">Lista de poss√
             var token = ($('cfg_llm_token') || {}).value || '';
             var headers = { 'Content-Type': 'application/json' };
             if (token) headers['Authorization'] = 'Bearer ' + token;
-            var payload = { model: ($('aiModel') || {}).value || 'deepseek-v4-pro', messages: [{ role: 'user', content: prompt }], stream: $('streamMode') && $('streamMode').checked };
+            var payload = { model: ($('aiModel') || {}).value || 'deepseek-flash', messages: [{ role: 'user', content: prompt }], stream: $('streamMode') && $('streamMode').checked };
             if (payload.stream) {
               var resp = await fetch(endpoint, { method: 'POST', headers: headers, body: JSON.stringify(payload) });
               if (!resp.ok) throw new Error('HTTP ' + resp.status);

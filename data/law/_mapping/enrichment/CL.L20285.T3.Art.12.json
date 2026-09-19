@@ -1,0 +1,37 @@
+{
+  "original_id": "CL.L20285.T3.Art.12",
+  "collection": "la8159_law",
+  "title": "Art. 12 — Ley 20.285, Título III, Artículo 12° – Denegación de acceso",
+  "source_path": "CL/L20285_Transparencia.md",
+  "generated_at": "2026-09-19T06:20:41+00:00",
+  "provider": "",
+  "model": "deepseek-flash",
+  "fields_reviewed": [
+    "doc_type"
+  ],
+  "enrichment_fields": [],
+  "include_content": false,
+  "summary": "The article's doc_type is currently 'unknown' but the header and framework code clearly identify it as an ordinary Chilean statute (Ley 20.285), so it should be set to 'Law'.",
+  "suggestions": [
+    {
+      "field": "doc_type",
+      "current": "unknown",
+      "suggested": "Law",
+      "rationale": "The document header names 'Ley 20.285' and the framework code L20285, which is an ordinary statute, matching the controlled token 'Law'.",
+      "justification": "The vocabulary rule states that 'Ley'/'Lei' maps to the token 'Law', and doc_type must be read from the document header or framework_code rather than the article's subject matter. The title 'Art. 12 — Ley 20.285' and the ELI ID 'CL.L20285.T3.Art.12' both identify the instrument as Ley 20.285, an ordinary Chilean statute. Therefore 'Law' is the correct instrument type.",
+      "evidence": "### Art. 12 — Ley 20.285, Título III, Artículo 12° – Denegación de acceso",
+      "confidence": "high",
+      "normalized_from": [],
+      "unknown_tokens": [],
+      "vocabulary": "controlled"
+    }
+  ],
+  "dropped": 0,
+  "current": {
+    "doc_type": "unknown"
+  },
+  "decision_logic": {
+    "doc_type": "Read the instrument type from the document header/title or framework_code, not from the article's subject matter. Map 'Ley'/'Lei' to 'Law', 'Decreto'/'DTO'/'Decreto con Fuerza de Ley' to 'Decree', 'Constitución' to 'Constitution', codified instruments to 'Code', etc. Only replace 'unknown' when the header explicitly names the instrument; otherwise leave it alone."
+  },
+  "applied": []
+}
