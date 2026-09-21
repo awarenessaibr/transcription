@@ -7,7 +7,7 @@
 | **Source URL** | https://bcn.cl/NvBATT |
 | **Official text** | Código Penal (BCN Ley Chile), promulgado 12-NOV-1874, última versión 20-AGO-2026 (Ley 21834) |
 | **Fetched date** | 2026-09-21 |
-| **Sha256** | n/a — not provided in source file |
+| **Sha256** | `ce1318b7129a9420030fd2876e225f05ac5161877832662080833a76fc17e9e1` (`Codigo-PENAL_12-NOV-1874.pdf`) |
 | **Jurisdiction** | CL |
 | **Framework code** | CPCL |
 | **Articles cached** | 1–501 + Artículo Final |
@@ -6350,5 +6350,3347 @@ El que abandonare a su cónyuge o a un ascendiente o descendiente, legítimo o i
 La suposición de parto y la sustitución de un niño por otro, serán castigadas con las penas de presidio menor en cualquiera de sus grados y multa de veintiuna a veinticinco unidades tributarias mensuales.
 
 > **BCN amendment note:** LEY 17727 Art. UNICO, Nº 5 D.O. 27.09.1972 · LEY 19450 Art. 1 k) D.O. 18.03.1996
+
+---
+
+### Art. 354 — Usurpación de estado civil
+
+**Theme:** Estado civil  
+**ELI ID:** `CL.CPCL.L2.T7.Art.354`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+El que usurpare el estado civil de otro, sufrirá la pena de presidio menor en sus grados medio a máximo y multa de once a veinte unidades tributarias mensuales.
+
+> **BCN amendment note:** LEY 19450 Art. 1 i) D.O. 18.03.1996
+
+Las mismas penas se impondrán al que sustrajere, ocultare o expusiere a un hijo legítimo o ilegítimo con ánimo verdadero o presunto de hacerle perder su estado civil.
+
+---
+
+### Art. 355 — Ocultación de menor
+
+**Theme:** Estado civil  
+**ELI ID:** `CL.CPCL.L2.T7.Art.355`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El que hallándose encargado de la persona de un menor no lo presentare, reclamándolo sus padres, guardadores o la autoridad, a petición de sus demás parientes o de oficio, ni diere explicaciones satisfactorias acerca de su desaparición, sufrirá la pena de presidio menor en su grado medio.
+
+---
+
+### Art. 356 — Entrega indebida de menor
+
+**Theme:** Estado civil  
+**ELI ID:** `CL.CPCL.L2.T7.Art.356`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+El que teniendo a su cargo la crianza o educación de un menor de diez años, lo entregare a un establecimiento público o a otra persona, sin la anuencia de la que se lo hubiere confiado o de la autoridad en su defecto, y de ello resultare perjuicio grave, será castigado con reclusión menor en su grado medio y multa de seis a diez unidades tributarias mensuales.
+
+> **BCN amendment note:** LEY 19450 Art. 1 d) D.O. 18.03.1996
+
+---
+
+### Art. 357 — Inducción a abandono del hogar
+
+**Theme:** Estado civil  
+**ELI ID:** `CL.CPCL.L2.T7.Art.357`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+El que indujere a un menor de edad, pero mayor de diez años, a que abandone la casa de sus padres, guardadores o encargados de su persona, sufrirá las penas de reclusión menor en cualquiera de sus grados y multa de once a veinte unidades tributarias mensuales.
+
+> **BCN amendment note:** LEY 19450 Art. 1 i) D.O. 18.03.1996
+
+---
+
+#### § IV. Del rapto. Derogado
+
+### Arts. 358–360 — Derogados
+
+> **BCN amendment note:** Ley 19617 Art. 1, N° 4 D.O. 12.07.1999
+
+---
+
+#### § V. De la violación
+
+### Art. 361 — Violación
+
+**Theme:** Violación  
+**ELI ID:** `CL.CPCL.L2.T7.Art.361`  
+**Tags:** norm_type: penalty · scope: criminal
+
+La violación será castigada con la pena de presidio mayor en su grado mínimo a medio. Comete violación el que accede carnalmente, por vía vaginal, anal o bucal, a una persona mayor de catorce años, en alguno de los casos siguientes:
+
+> **BCN amendment note:** LEY 19617 Art. 1, N° 5 D.O. 12.07.1999 · LEY 19927 Art. 1, N° 5, a y b) D.O. 14.01.2004
+
+1° Cuando se usa de fuerza o intimidación.
+
+2° Cuando la víctima se halla privada de sentido, o cuando se aprovecha su incapacidad para oponerse.
+
+3° Cuando se abusa de la enajenación o trastorno mental de la víctima.
+
+> **BCN amendment note:** Ley 20480 Art. 1 N° 2 D.O. 18.12.2010
+
+---
+
+### Art. 362 — Violación de menor de catorce años
+
+**Theme:** Violación  
+**ELI ID:** `CL.CPCL.L2.T7.Art.362`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El que accediere carnalmente, por vía vaginal, anal o bucal, a una persona menor de catorce años, será castigado con presidio mayor en sus grados medio a máximo, aunque no concurra circunstancia alguna de las enumeradas en el artículo anterior.
+
+> **BCN amendment note:** LEY 19617 Art. 1, N° 6 D.O. 12.07.1999 · LEY 19927 Art. 1, N° 6 D.O. 14.01.2004 · Ley 21483 Art. 1 N° 5 D.O. 24.08.2022
+
+---
+
+#### § VI. Del estupro y otros delitos sexuales
+
+> **BCN amendment note:** LEY 19617 Art. 1, N° 7 D.O. 12.07.1999
+
+### Art. 363 — Estupro
+
+**Theme:** Estupro y otros delitos sexuales  
+**ELI ID:** `CL.CPCL.L2.T7.Art.363`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Será castigado con presidio menor en su grado máximo a presidio mayor en su grado mínimo, el que accediere carnalmente, por vía vaginal, anal o bucal, a una persona menor de edad pero mayor de catorce años, concurriendo cualquiera de las circunstancias siguientes:
+
+1° Cuando se abusa de una anomalía o perturbación mental, aun transitoria, de la víctima, que por su menor entidad no sea constitutiva de enajenación o trastorno.
+
+> **BCN amendment note:** LEY 19617 Art. 1, N° 8 D.O. 12.07.1999 · LEY 19927 Art. 1, N° 7, a y b) D.O. 14.01.2004
+
+2° Cuando se abusa de una relación de dependencia de la víctima, como en los casos en que el agresor está encargado de su custodia, educación o cuidado, o tiene con ella una relación laboral.
+
+3° Cuando se abusa del grave desamparo en que se encuentra la víctima.
+
+4° Cuando se engaña a la víctima abusando de su inexperiencia o ignorancia sexual.
+
+---
+
+### Art. 364 — Derogado
+
+> **BCN amendment note:** LEY 19617 Art. 1, N° 9 D.O. 12.07.1999
+
+---
+
+### Art. 365 — Derogado
+
+> **BCN amendment note:** Ley 21483 Art. 1 N° 6 D.O. 24.08.2022
+
+---
+
+### Art. 365 bis — Introducción de objetos
+
+**Theme:** Estupro y otros delitos sexuales  
+**ELI ID:** `CL.CPCL.L2.T7.Art.365bis`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Si la acción sexual consistiere en la introducción de objetos de cualquier índole, por vía vaginal, anal o bucal, o se utilizaren animales en ello, será castigada:
+
+> **BCN amendment note:** LEY 19927 Art. 1, N° 8 D.O. 14.01.2004
+
+1.- con presidio mayor en su grado mínimo a medio, si concurre cualquiera de las circunstancias enumeradas en el artículo 361;
+
+2.- con presidio mayor en cualquiera de sus grados, si la víctima fuere menor de catorce años, y
+
+3.- con presidio menor en su grado máximo a presidio mayor en su grado mínimo, si concurre alguna de las circunstancias enumeradas en el artículo 363 y la víctima es menor de edad, pero mayor de catorce años.
+
+---
+
+### Art. 366 — Abuso sexual
+
+**Theme:** Estupro y otros delitos sexuales  
+**ELI ID:** `CL.CPCL.L2.T7.Art.366`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El que abusivamente realizare una acción sexual distinta del acceso carnal con una persona mayor de catorce años, será castigado con presidio menor en su grado máximo, cuando el abuso consistiere en la concurrencia de alguna de las circunstancias enumeradas en el artículo 361.
+
+Igual pena se aplicará cuando el abuso consistiere en la concurrencia de alguna de las circunstancias enumeradas en el artículo 363, siempre que la víctima fuere mayor de catorce y menor de dieciocho años.
+
+Se aplicará la pena de presidio menor en su grado mínimo a medio, cuando el abuso consistiere en el empleo de sorpresa u otra maniobra que no suponga consentimiento de la víctima, siempre que ésta sea mayor de catorce años.
+
+> **BCN amendment note:** LEY 19927 Art. 1, N° 9 D.O. 14.01.2004 · Ley 21153 Art. ÚNICO N° 2 D.O. 03.05.2019
+
+---
+
+### Art. 366 bis — Abuso sexual de menor de catorce
+
+**Theme:** Estupro y otros delitos sexuales  
+**ELI ID:** `CL.CPCL.L2.T7.Art.366bis`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El que realizare una acción sexual distinta del acceso carnal con una persona menor de catorce años, será castigado con la pena de presidio menor en su grado máximo a presidio mayor en su grado mínimo.
+
+> **BCN amendment note:** LEY 19927 Art. 1, N° 10 D.O. 14.01.2004
+
+---
+
+### Art. 366 ter — Concepto de acción sexual
+
+**Theme:** Estupro y otros delitos sexuales  
+**ELI ID:** `CL.CPCL.L2.T7.Art.366ter`  
+**Tags:** norm_type: definition · scope: criminal
+
+Para los efectos de los tres artículos anteriores, se entenderá por acción sexual cualquier acto de significación sexual y de relevancia realizado mediante contacto corporal con la víctima, o que haya afectado los genitales, el ano o la boca de la víctima, aun cuando no hubiere contacto corporal con ella.
+
+> **BCN amendment note:** LEY 19617 Art. 1, Nº 11 D.O. 12.07.1999 · LEY 19927 Art. 1, Nº 11 D.O. 14.01.2004
+
+---
+
+### Art. 366 quáter — Acciones sexuales ante menor
+
+**Theme:** Estupro y otros delitos sexuales  
+**ELI ID:** `CL.CPCL.L2.T7.Art.366quater`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El que, sin realizar una acción sexual en los términos anteriores, para procurar su excitación sexual o la excitación sexual de otro, realizare acciones de significación sexual ante una persona menor de catorce años, será castigado con presidio menor en su grado medio a máximo.
+
+> **BCN amendment note:** LEY 19927 Art. 1, Nº 12 D.O. 14.01.2004 · Ley 21522 Art. 1 Nº 2 D.O. 30.12.2022
+
+Si se determinare a una persona menor de catorce años a realizar acciones de significación sexual delante suyo o de otro, o se la hiciere ver o escuchar material pornográfico o de explotación sexual o presenciar espectáculos del mismo carácter, la pena será presidio menor en su grado máximo.
+
+Será sancionado con la misma pena del inciso precedente al que determinare a una persona menor de catorce años a enviar, entregar o exhibir:
+
+a) Imágenes o grabaciones en que se representaren acciones de significación sexual de su persona o de otro menor de catorce años de edad.
+
+b) Imágenes o grabaciones de sus genitales o los de otra persona menor de catorce años.
+
+Quien realice alguna de las conductas descritas en los incisos anteriores con una persona menor de edad pero mayor de catorce años, concurriendo cualquiera de las circunstancias del numerando 1º del artículo 361 o de las enumeradas en el artículo 363 o mediante amenazas en los términos de los artículos 296 y 297, tendrá las mismas penas señaladas en los incisos anteriores.
+
+> **BCN amendment note:** Ley 20526 Art. 1 Nº 1 b) D.O. 13.08.2011
+
+Las penas señaladas en el presente artículo se aplicarán también cuando los delitos descritos en él sean cometidos a distancia, mediante cualquier medio electrónico.
+
+Si en la comisión de cualquiera de los delitos descritos en este artículo, el autor falseare su identidad o edad, se aumentará la pena aplicable en un grado.
+
+> **BCN amendment note:** Ley 20526 Art. 1 Nº 1 c) D.O. 13.08.2011
+
+---
+
+#### § 6 bis. Explotación sexual comercial y material pornográfico de niños, niñas y adolescentes
+
+> **BCN amendment note:** Ley 21522 Art. 1 Nº 3 D.O. 30.12.2022
+
+### Art. 366 quinquies — Derogado
+
+> **BCN amendment note:** Ley 21522 Art. 1 Nº 4 D.O. 30.12.2022
+
+---
+
+### Art. 367 — Explotación sexual de menor
+
+**Theme:** Explotación sexual de menores  
+**ELI ID:** `CL.CPCL.L2.T7.Art.367`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+El que promoviere o facilitare la explotación sexual de una persona menor de dieciocho años sufrirá la pena de presidio mayor en su grado mínimo.
+
+Si se perpetrare el hecho explotándola en razón de su dependencia personal o económica o si concurriere habitualidad, la pena será de presidio mayor en cualquiera de sus grados y multa de treinta y una a treinta y cinco unidades tributarias mensuales.
+
+Para efectos de lo dispuesto en el inciso primero, se entenderá por explotación sexual la utilización de una persona menor de dieciocho años para la realización de una acción sexual o de una acción de significación sexual con ella a cambio de cualquier tipo de retribución hacia la víctima o un tercero.
+
+> **BCN amendment note:** Ley 21522 Art. 1 Nº 5 D.O. 30.12.2022
+
+---
+
+### Art. 367 bis — Derogado
+
+> **BCN amendment note:** Ley 20507 Art. PRIMERO Nº 2 D.O. 08.04.2011
+
+---
+
+### Art. 367 ter — Obtención de acción sexual de menor
+
+**Theme:** Explotación sexual de menores  
+**ELI ID:** `CL.CPCL.L2.T7.Art.367ter`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El que obtuviere la realización de una acción sexual de una persona menor de dieciocho años a cambio de cualquier tipo de retribución hacia la víctima o un tercero, será castigado con presidio menor en su grado máximo.
+
+> **BCN amendment note:** LEY 19927 Art. 1, Nº 16 D.O. 14.01.2004 · Ley 21522 Art. 1 Nº 3 y 6 D.O. 30.12.2022
+
+---
+
+### Art. 367 quáter — Material pornográfico de menores
+
+**Theme:** Explotación sexual de menores  
+**ELI ID:** `CL.CPCL.L2.T7.Art.367quater`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El que comercializare, importare, exportare, distribuyere, difundiere o exhibiere material pornográfico o de explotación sexual, cualquiera sea su soporte, en cuya elaboración hayan sido utilizadas personas menores de dieciocho años, será sancionado con la pena de presidio menor en su grado máximo.
+
+> **BCN amendment note:** Ley 21522 Art. 1 Nº 7 D.O. 30.12.2022
+
+Con la misma pena señalada en el inciso anterior será sancionado el que participare en la producción de dicho material pornográfico o de explotación sexual.
+
+El que maliciosamente almacenare o adquiriere material pornográfico o de explotación sexual, cualquiera sea su soporte, en cuya elaboración hayan sido utilizadas personas menores de dieciocho años, será castigado con presidio menor en su grado medio.
+
+Para los efectos de este artículo, se entenderá por material pornográfico o de explotación sexual en cuya elaboración hubieren sido utilizadas personas menores de dieciocho años, toda representación de éstos dedicados a actividades sexuales explícitas, reales o simuladas, o toda representación de sus partes genitales con fines primordialmente sexuales, o toda representación de dichos menores en que se emplee su voz o imagen, con los mismos fines.
+
+---
+
+### Art. 367 quinquies — Conductas cometidas en Chile
+
+**Theme:** Explotación sexual de menores  
+**ELI ID:** `CL.CPCL.L2.T7.Art.367quinquies`  
+**Tags:** norm_type: definition · scope: criminal
+
+Las conductas de comercialización, distribución, difusión y exhibición, señaladas en el artículo anterior, se entenderán cometidas en Chile cuando se realicen a través de un sistema de telecomunicaciones al que se tenga acceso desde territorio nacional.
+
+> **BCN amendment note:** Ley 21522 Art. 1 Nº 7 D.O. 30.12.2022
+
+---
+
+### Art. 367 sexies — Concurso con delitos mayores
+
+**Theme:** Explotación sexual de menores  
+**ELI ID:** `CL.CPCL.L2.T7.Art.367sexies`  
+**Tags:** norm_type: procedural · scope: criminal
+
+Lo dispuesto en este párrafo no será aplicable si el hecho fuere constitutivo de un delito sancionado con igual o mayor pena por alguna disposición de los párrafos 5 o 6 del Título VII del Libro Segundo, en cuyo caso el ánimo de lucro, la entrega o promesa de entrega de dinero o especies susceptibles de valoración pecuniaria serán considerados como una sola circunstancia agravante.
+
+> **BCN amendment note:** Ley 21522 Art. 1 Nº 7 D.O. 30.12.2022
+
+---
+
+### Art. 367 septies — Transmisión de imágenes de acción sexual de menor
+
+**Theme:** Explotación sexual de menores  
+**ELI ID:** `CL.CPCL.L2.T7.Art.367septies`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El que usando dispositivos técnicos transmitiere la imagen o sonido de una situación o interacción que permitiere presenciar, observar o escuchar la realización de una acción sexual o de una acción de significación sexual, por parte de una persona menor de dieciocho años, será sancionado con presidio menor en su grado máximo.
+
+> **BCN amendment note:** Ley 21522 Art. 1 Nº 7 D.O. 30.12.2022
+
+---
+
+### Art. 367 octies — Reincidencia con sentencias extranjeras
+
+**Theme:** Explotación sexual de menores  
+**ELI ID:** `CL.CPCL.L2.T7.Art.367octies`  
+**Tags:** norm_type: procedural · scope: criminal
+
+Para los efectos de determinar la reincidencia de la circunstancia 16 del artículo 12, en los delitos sancionados en este párrafo, se considerarán también las sentencias firmes dictadas en un Estado extranjero, aun cuando la pena impuesta no haya sido cumplida.
+
+> **BCN amendment note:** Ley 21522 Art. 1 Nº 7 D.O. 30.12.2022
+
+---
+
+#### § VII. Disposiciones comunes a los tres párrafos anteriores
+
+> **BCN amendment note:** LEY 19617 Art. 1, Nº 13 D.O. 12.07.1999 · Ley 21522 Art. 1 Nº 8 D.O. 30.12.2022
+
+### Art. 368 — Delitos cometidos por autoridad o encargado
+
+**Theme:** Disposiciones comunes a delitos sexuales  
+**ELI ID:** `CL.CPCL.L2.T7.Art.368`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Si los delitos previstos en los tres párrafos anteriores hubieren sido cometidos por autoridad pública, ministro de un culto religioso, guardador, maestro, empleado o encargado por cualquier título o causa de la educación, guarda, curación o cuidado del ofendido, se impondrá al responsable la pena señalada al delito con exclusión de su grado mínimo, si ella consta de dos o más grados, o de su mitad inferior, si la pena es un grado de una divisible. La misma regla se aplicará a quien hubiere cometido los mencionados delitos en contra de un menor de edad con ocasión de las funciones que desarrolle, aun en forma esporádica, en recintos educacionales, y al que los cometa con ocasión del servicio de transporte escolar que preste a cualquier título.
+
+Exceptúanse los casos en que el delito sea de aquellos que la ley describe y pena expresando las circunstancias de usarse fuerza o intimidación, abusarse de una relación de dependencia de la víctima o abusarse de autoridad o confianza.
+
+> **BCN amendment note:** LEY 19617 Art. 1, Nº 14 D.O. 12.07.1999 · Ley 21522 Art. 1 Nº 9 D.O. 30.12.2022 · Ley 20685 Art. 3 a) D.O. 20.08.2013
+
+---
+
+### Art. 368 bis — Agravantes
+
+**Theme:** Disposiciones comunes a delitos sexuales  
+**ELI ID:** `CL.CPCL.L2.T7.Art.368bis`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Sin perjuicio de lo dispuesto en el artículo 63, en los delitos señalados en los tres párrafos anteriores, serán circunstancias agravantes las siguientes:
+
+1º La 1ª del artículo 12.
+
+2º Ser dos o más los autores del delito.
+
+> **BCN amendment note:** Ley 20480 Art. 1 Nº 3 D.O. 18.12.2010 · Ley 21522 Art. 1 Nº 10 D.O. 30.12.2022
+
+---
+
+### Art. 368 bis A — Inaplicabilidad de atenuante
+
+**Theme:** Disposiciones comunes a delitos sexuales  
+**ELI ID:** `CL.CPCL.L2.T7.Art.368bisA`  
+**Tags:** norm_type: prohibition · scope: criminal
+
+La circunstancia atenuante señalada en el Nº 7 del artículo 11 no podrá aplicarse tratándose de los delitos previstos en los artículos 141, inciso final; 142, inciso final; 150 A, 150 D, 361, 362, 363, 365 bis; 366, incisos primero y segundo, 366 bis, 366 quáter, 367 y 367 ter, 372 bis, 411 quáter cuando se cometa con fines de explotación sexual, y 433, número 1, en relación con la violación.
+
+> **BCN amendment note:** Ley 21523 Art. 1 Nº 2 D.O. 31.12.2022
+
+---
+
+### Art. 368 ter — Clausura de establecimientos
+
+**Theme:** Disposiciones comunes a delitos sexuales  
+**ELI ID:** `CL.CPCL.L2.T7.Art.368ter`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Cuando, en la comisión de los delitos señalados en los artículos 366 quáter, 367, 367 ter, 367 quáter o 367 septies se utilizaren establecimientos o locales, a sabiendas de su propietario o encargado, o no pudiendo éste menos que saberlo, podrá decretarse en la sentencia su clausura definitiva.
+
+Asimismo, durante el proceso judicial respectivo, podrá decretarse, como medida cautelar, la clausura temporal de dichos establecimientos o locales.
+
+> **BCN amendment note:** LEY 19927 Art. 1, Nº 17 D.O. 14.01.2004 · Ley 21522 Art. 1 Nº 11, a) y b) D.O. 30.12.2022
+
+---
+
+### Art. 369 — Denuncia previa
+
+**Theme:** Disposiciones comunes a delitos sexuales  
+**ELI ID:** `CL.CPCL.L2.T7.Art.369`  
+**Tags:** norm_type: procedural · scope: criminal
+
+No se puede proceder por causa de los delitos previstos en los artículos 361 a 366 quáter, sin que, a lo menos, se haya denunciado el hecho a la justicia, al Ministerio Público o a la policía por la persona ofendida o por su representante legal.
+
+> **BCN amendment note:** LEY 19874 Art. 2 D.O. 13.05.2003
+
+Si la persona ofendida no pudiere libremente hacer por sí misma la denuncia, ni tuviere representante legal, o si, teniéndolo, estuviere imposibilitado o implicado en el delito, podrá procederse de oficio por el Ministerio Público, que también estará facultado para deducir las acciones civiles a que se refiere el artículo 370. Sin perjuicio de lo anterior, cualquier persona que tome conocimiento del hecho podrá denunciarlo.
+
+Con todo, tratándose de víctimas menores de edad, se estará a lo dispuesto en el artículo 369 quinquies de este Código y en el inciso segundo del artículo 53 del Código Procesal Penal.
+
+> **BCN amendment note:** Ley 21160 Art. 1 Nº 2 D.O. 18.07.2019 · Ley 21675 Art. 56 Nº 3 D.O. 14.06.2024
+
+---
+
+### Art. 369 bis — Derogado
+
+> **BCN amendment note:** Ley 21522 Art. 1 Nº 13 D.O. 30.12.2022
+
+---
+
+### Art. 369 bis A — Consideración especial en la pena
+
+**Theme:** Disposiciones comunes a delitos sexuales  
+**ELI ID:** `CL.CPCL.L2.T7.Art.369bisA`  
+**Tags:** norm_type: procedural · scope: criminal
+
+Tratándose de los delitos previstos en los artículos 141, inciso final; 142, inciso final; 150 A, 150 D, 361, 362, 363, 365 bis; 366, incisos primero y segundo, 366 bis, 366 quáter, 367 y 367 ter, 372 bis, 411 quáter cuando se cometa con fines de explotación sexual, y 433, número 1, en relación con la violación, para la determinación de la cuantía de la pena en los términos dispuestos en el artículo 69, el tribunal tendrá en especial consideración la afectación psíquica o mental de la víctima para la calificación de la extensión del mal producido por el delito.
+
+> **BCN amendment note:** Ley 21523 Art. 1 Nº 3 D.O. 31.12.2022
+
+---
+
+### Art. 369 ter — Interceptación y agentes encubiertos
+
+**Theme:** Disposiciones comunes a delitos sexuales  
+**ELI ID:** `CL.CPCL.L2.T7.Art.369ter`  
+**Tags:** norm_type: procedural · scope: criminal
+
+Cuando existieren sospechas fundadas de que una persona hubiere cometido o preparado la comisión de alguno de los delitos previstos en los artículos 367, 367 ter, 367 quáter, incisos primero y segundo, y 367 septies, y la investigación lo hiciere imprescindible, el tribunal, a petición del Ministerio Público, podrá autorizar la interceptación o grabación de las telecomunicaciones de esa persona. La captación, grabación y registro subrepticio de imágenes o sonidos en lugares cerrados o que no sean de libre acceso al público, podrá ser autorizada por el juez, a solicitud del fiscal cuando existan fundadas sospechas basadas en hechos determinados y graves que lo hagan imprescindible para el esclarecimiento de los hechos. En lo demás, se estará íntegramente a lo dispuesto en los artículos 222 a 225 del Código Procesal Penal.
+
+Igualmente, bajo los mismos supuestos previstos en el inciso precedente, podrá el tribunal, a petición del Ministerio Público, autorizar la intervención de agentes encubiertos. Mediando igual autorización y con el objeto exclusivo de facilitar la labor de estos agentes, los organismos policiales pertinentes podrán mantener un registro reservado de producciones del carácter investigado. Asimismo, podrán tener lugar entregas vigiladas de material respecto de la investigación de hechos que se instigaren o materializaren a través del intercambio de dichos elementos, en cualquier soporte.
+
+La actuación de los agentes encubiertos y las entregas vigiladas serán plenamente aplicables al caso en que la actuación de los agentes o el traslado o circulación de producciones se desarrolle a través de un sistema de telecomunicaciones.
+
+Los agentes encubiertos, el secreto de sus actuaciones, registros o documentos y las entregas vigiladas se regirán por las disposiciones del Párrafo 3º bis del Título I del Libro II del Código Procesal Penal.
+
+> **BCN amendment note:** LEY 19927 Art. 1, Nº 18 D.O. 14.01.2004 · Ley 21577 Art. 1 Nº 10 a) i y ii D.O. 15.06.2023 · Ley 21522 Art. 1 Nº 14, a) y b) D.O. 30.12.2022 · Ley 20507 Art. PRIMERO Nº 3 a) y b) D.O. 08.04.2011
+
+---
+
+### Art. 369 quáter — Suprimido
+
+> **BCN amendment note:** Ley 21577 Art. 1 Nº 10 b) D.O. 15.06.2023 · Ley 21160 Art. 1 Nº 3 D.O. 18.07.2019
+
+---
+
+### Art. 369 quinquies — Delitos de acción pública previa instancia particular
+
+**Theme:** Disposiciones comunes a delitos sexuales  
+**ELI ID:** `CL.CPCL.L2.T7.Art.369quinquies`  
+**Tags:** norm_type: procedural · scope: criminal
+
+Tratándose de los delitos establecidos en los artículos 141, inciso final, y 142, inciso final, ambos en relación con la violación; los artículos 150 B y 150 E, ambos en relación con los artículos 361, 362 y 365 bis; los artículos 361, 362, 363, 365 bis, 366, 366 bis, 366 quáter, 367, 367 ter, 367 quáter y 367 septies; el artículo 411 quáter en relación con la explotación sexual; y el artículo 433, N° 1, en relación con la violación, perpetrados en contra de una víctima menor de edad, se considerarán delitos de acción pública previa instancia particular y se regirán por lo dispuesto en el artículo 54 del Código Procesal Penal desde que el ofendido por el delito haya cumplido los dieciocho años de edad, si no se ha ejercido antes la acción penal.
+
+> **BCN amendment note:** Ley 21160 Art. 1 Nº 4 D.O. 18.07.2019 · Ley 21522 Art. 1 Nº 15, a) y b) D.O. 30.12.2022
+
+---
+
+### Art. 370 — Obligación de dar alimentos
+
+**Theme:** Disposiciones comunes a delitos sexuales  
+**ELI ID:** `CL.CPCL.L2.T7.Art.370`  
+**Tags:** norm_type: duty · scope: criminal
+
+Además de la indemnización que corresponda conforme a las reglas generales, el condenado por los delitos previstos en los artículos 361 a 366 bis será obligado a dar alimentos cuando proceda de acuerdo a las normas del Código Civil.
+
+> **BCN amendment note:** LEY 19617 Art. 1, Nº 17 D.O. 12.07.1999
+
+---
+
+### Art. 370 bis — Privación de patria potestad
+
+**Theme:** Disposiciones comunes a delitos sexuales  
+**ELI ID:** `CL.CPCL.L2.T7.Art.370bis`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El que fuere condenado por alguno de los delitos a que se refieren los tres párrafos anteriores cometido en la persona de un menor del que sea pariente, quedará privado de la patria potestad si la tuviere o inhabilitado para obtenerla si no la tuviere y, además, de todos los derechos que por el ministerio de la ley se le confirieren respecto de la persona y bienes del ofendido, de sus ascendientes y descendientes. El juez así lo declarará en la sentencia, decretará la emancipación del menor si correspondiere, y ordenará dejar constancia de ello mediante subinscripción practicada al margen de la inscripción de nacimiento del menor. Además, si el condenado es una de las personas llamadas por ley a dar su autorización para que la víctima salga del país, se prescindirá en lo sucesivo de aquélla.
+
+> **BCN amendment note:** LEY 19617 Art. 1, Nº 18 D.O. 12.07.1999 · Ley 21522 Art. 1 Nº 16 D.O. 30.12.2022 · Ley 20480 Art. 1 Nº 5 D.O. 18.12.2010
+
+El pariente condenado conservará, en cambio, todas las obligaciones legales cuyo cumplimiento vaya en beneficio de la víctima o de sus descendientes.
+
+---
+
+### Art. 371 — Derogado
+
+> **BCN amendment note:** LEY 19617 Art. 1, Nº 19 D.O. 12.07.1999 · Ley 21522 Art. 1 Nº 17 D.O. 30.12.2022
+
+---
+
+### Art. 372 — Inhabilitación educacional y sujeción a vigilancia
+
+**Theme:** Disposiciones comunes a delitos sexuales  
+**ELI ID:** `CL.CPCL.L2.T7.Art.372`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Los comprendidos en el artículo anterior y cualesquiera otros condenados por la comisión de los delitos previstos en los tres párrafos anteriores en contra de un menor de edad, serán también condenados a las penas de interdicción del derecho de ejercer la guarda y ser oídos como parientes en los casos que la ley designa, y de sujeción a la vigilancia de la autoridad durante los diez años siguientes al cumplimiento de la pena principal. Esta sujeción consistirá en informar a Carabineros cada tres meses su domicilio actual. El incumplimiento de esta obligación configurará la conducta establecida en el artículo 496 N° 1 de este Código.
+
+El que cometiere cualquiera de los delitos previstos en los artículos 361, 362, 363, 365 bis, 366, 366 bis, 366 quáter, 367, 367 ter, 367 quáter, 367 septies y 372 bis en contra de un menor de edad será condenado, además, a la pena de inhabilitación absoluta perpetua para cargos, empleos, oficios o profesiones ejercidos en ámbitos educacionales o que involucren una relación directa y habitual con personas menores de edad. La misma pena se aplicará a quien cometiere cualquiera de los delitos establecidos en los artículos 142 y 433 N° 1°, cuando alguna de las víctimas hubiere sufrido violación y fuere menor de edad.
+
+En los casos del inciso anterior, los fiscales del Ministerio Público, de conformidad con lo dispuesto en el literal g) del artículo 259 del Código Procesal Penal, deberán solicitar la pena de inhabilitación cuando formularen acusación, y el tribunal en caso de dictar sentencia condenatoria deberá imponerla de forma específica, de conformidad con lo dispuesto en el artículo 348 del Código Procesal Penal. Si la sentencia condenatoria no cumpliere con esta exigencia, el fiscal siempre deberá deducir recurso en conformidad a la ley.
+
+> **BCN amendment note:** LEY 19927 Art. 1, N° 19 D.O. 14.01.2004 · Ley 20594 Art. 1 D.O. 19.06.2012 · Ley 21522 Art. 1 N° 18 a) y b), i y ii D.O. 30.12.2022 · Ley 21418 Art. 2 N° 2 a) y b) D.O. 05.02.2022
+
+---
+
+### Art. 372 bis — Violación con femicidio
+
+**Theme:** Disposiciones comunes a delitos sexuales  
+**ELI ID:** `CL.CPCL.L2.T7.Art.372bis`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El que, con ocasión de violación, cometiere además homicidio en la persona de la víctima, será castigado con presidio perpetuo a presidio perpetuo calificado.
+
+Si el autor del delito descrito en el inciso anterior es un hombre y la víctima una mujer, el delito tendrá el nombre de violación con femicidio.
+
+> **BCN amendment note:** LEY 19927 Art. 1, N° 20 D.O. 14.01.2004 · Ley 21212 Art. 1 N° 1 D.O. 04.03.2020
+
+---
+
+### Art. 372 ter — Medidas de protección
+
+**Theme:** Disposiciones comunes a delitos sexuales  
+**ELI ID:** `CL.CPCL.L2.T7.Art.372ter`  
+**Tags:** norm_type: procedural · scope: criminal
+
+En los delitos contemplados en los artículos 141, inciso final; 142, inciso final; 150 A; 150 D; 361; 362; 363; 365 bis; 366; 366 bis; 366 quáter; 367; 367 ter; 372 bis; 411 quáter; cuando se cometan con fines de explotación sexual, y 433, número 1, en relación con la violación, el juez podrá en cualquier etapa de la investigación o del procedimiento, y aun antes de la formalización, a petición de parte, o de oficio por razones fundadas, disponer las medidas de protección de la víctima y su familia que estime convenientes, tales como la sujeción del imputado a la vigilancia de una persona o institución determinada, las que informarán periódicamente al tribunal; la prohibición de visitar el domicilio, el lugar de trabajo o el establecimiento educacional de la víctima; la prohibición de aproximarse a la víctima o a su familia, la prohibición de tomar contacto con la víctima o con su familia, y, en su caso, la obligación de abandonar el hogar que compartiere con la víctima.
+
+> **BCN amendment note:** LEY 19617 Art. 1, N° 22 D.O. 12.07.1999 · Ley 21523 Art. 1 N° 4 D.O. 31.12.2022
+
+---
+
+#### § VIII. De los ultrajes públicos a las buenas costumbres
+
+### Art. 373 — Ofensa al pudor
+
+**Theme:** Ultrajes a las buenas costumbres  
+**ELI ID:** `CL.CPCL.L2.T7.Art.373`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Los que de cualquier modo ofendieren el pudor o las buenas costumbres con hechos de grave escándalo o trascendencia, no comprendidos expresamente en otros artículos de este Código, sufrirán la pena de reclusión menor en sus grados mínimo a medio.
+
+---
+
+### Art. 374 — Venta de material contrario a las buenas costumbres
+
+**Theme:** Ultrajes a las buenas costumbres  
+**ELI ID:** `CL.CPCL.L2.T7.Art.374`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+El que vendiere, distribuyere o exhibiere canciones, folletos u otros escritos, impresos o no, figuras o estampas contrarios a las buenas costumbres, será condenado a las penas de reclusión menor en su grado mínimo o multa de once a veinte unidades tributarias mensuales.
+
+En las mismas penas incurrirá el autor del manuscrito, de la figura o de la estampa o el que los hubiere reproducido por un procedimiento cualquiera que no sea la imprenta.
+
+> **BCN amendment note:** LEY 19617 Art. 1, N° 23 D.O. 12.07.1999
+
+La sentencia condenatoria por este delito ordenará la destrucción total o parcial, según proceda, de los impresos o de las grabaciones sonoras o audiovisuales de cualquier tipo que sean objeto de comiso.
+
+> **BCN amendment note:** LEY 19806 Art. 1 D.O. 31.05.2002
+
+---
+
+### Art. 374 bis — Derogado
+
+> **BCN amendment note:** Ley 21522 Art. 1 N° 20 D.O. 30.12.2022
+
+---
+
+### Art. 374 ter — Derogado
+
+> **BCN amendment note:** Ley 21522 Art. 1 N° 20 D.O. 30.12.2022
+
+---
+
+#### § IX. Del incesto
+
+> **BCN amendment note:** LEY 19617 Art. 1, Nº 24 D.O. 12.07.1999
+
+### Art. 375 — Incesto
+
+**Theme:** Incesto  
+**ELI ID:** `CL.CPCL.L2.T7.Art.375`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El que, conociendo las relaciones que lo ligan, cometiere incesto con un ascendiente o descendiente por consanguinidad o con un hermano consanguíneo, será castigado con reclusión menor en sus grados mínimo a medio.
+
+> **BCN amendment note:** LEY 19617 Art. 1, Nº 25 D.O. 12.07.1999
+
+---
+
+### Arts. 376–381 — Derogados
+
+> **BCN amendment note:** LEY 19335 Art. 34 D.O. 23.09.1994
+
+---
+
+#### § X. Celebración de matrimonios ilegales
+
+### Art. 382 — Bigamia
+
+**Theme:** Matrimonios ilegales  
+**ELI ID:** `CL.CPCL.L2.T7.Art.382`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El que contrajere matrimonio estando casado válidamente, será castigado con reclusión menor en su grado máximo.
+
+En igual pena incurrirá el que contrajere matrimonio estando ordenado in sacris o ligado con voto solemne de castidad.
+
+---
+
+### Art. 383 — Simulación de matrimonio
+
+**Theme:** Matrimonios ilegales  
+**ELI ID:** `CL.CPCL.L2.T7.Art.383`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El que engañare a una persona simulando la celebración de matrimonio con ella, sufrirá la pena de reclusión menor en sus grados medio a máximo.
+
+> **BCN amendment note:** LEY 19947 Art. SEPTIMO N° 1 D.O. 17.05.2004
+
+---
+
+### Art. 384 — Matrimonio con violencia o engaño al oficial
+
+**Theme:** Matrimonios ilegales  
+**ELI ID:** `CL.CPCL.L2.T7.Art.384`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El que por sorpresa o engaño hiciere intervenir al funcionario que debe autorizar su matrimonio sin haber observado las prescripciones que la ley exige para su celebración, aun cuando el matrimonio sea válido, sufrirá la pena de reclusión menor en su grado mínimo.
+
+Si lo hiciere intervenir con violencia o intimidación, la pena será reclusión menor en sus grados medio a máximo.
+
+---
+
+### Arts. 385–387 — Derogados
+
+> **BCN amendment note:** LEY 19947 Art. SEPTIMO N° 2 D.O. 17.05.2004
+
+---
+
+### Art. 388 — Oficial civil o ministro de culto
+
+**Theme:** Matrimonios ilegales  
+**ELI ID:** `CL.CPCL.L2.T7.Art.388`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+El oficial civil que autorice o inscriba un matrimonio prohibido por la ley o en que no se hayan cumplido las formalidades que ella exige para su celebración o inscripción, sufrirá las penas de relegación menor en su grado medio y multa de seis a diez unidades tributarias mensuales. Igual multa se aplicará al ministro de culto que autorice un matrimonio prohibido por la ley.
+
+El ministro de culto que, con perjuicio de tercero, cometiere falsedad en el acta o en el certificado de matrimonio religioso destinados a producir efectos civiles, sufrirá las penas de presidio menor en cualquiera de sus grados.
+
+> **BCN amendment note:** LEY 19947 Art. SEPTIMO N° 3 D.O. 17.05.2004
+
+---
+
+### Art. 389 — Impedimento de inscripción
+
+**Theme:** Matrimonios ilegales  
+**ELI ID:** `CL.CPCL.L2.T7.Art.389`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+El tercero que impidiere la inscripción, ante un oficial civil, de un matrimonio religioso celebrado ante una entidad autorizada para tal efecto por la Ley de Matrimonio Civil, será castigado con la pena de presidio menor en su grado mínimo o multa de seis a diez unidades tributarias mensuales.
+
+> **BCN amendment note:** LEY 19947 Art. SEPTIMO N° 4 D.O. 17.05.2004
+
+---
+
+### TÍTULO OCTAVO — Crímenes y simples delitos contra las personas
+
+#### § I. Del parricidio
+
+### Art. 390 — Parricidio
+
+**Theme:** Parricidio  
+**ELI ID:** `CL.CPCL.L2.T8.Art.390`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El que, conociendo las relaciones que los ligan, mate a su padre, madre o hijo, a cualquier otro de sus ascendientes o descendientes o a quien es o ha sido su cónyuge o su conviviente, será castigado, como parricida, con la pena de presidio mayor en su grado máximo a presidio perpetuo calificado.
+
+> **BCN amendment note:** Ley 21212 Art. 1 N° 2 D.O. 04.03.2020 · LEY 20066 Art. 21 b) D.O. 07.10.2005
+
+---
+
+#### § 1 bis. Del femicidio
+
+### Art. 390 bis — Femicidio íntimo
+
+**Theme:** Femicidio  
+**ELI ID:** `CL.CPCL.L2.T8.Art.390bis`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El hombre que matare a una mujer que es o ha sido su cónyuge o conviviente, o con quien tiene o ha tenido un hijo en común, será sancionado con la pena de presidio mayor en su grado máximo a presidio perpetuo calificado.
+
+La misma pena se impondrá al hombre que matare a una mujer en razón de tener o haber tenido con ella una relación de pareja de carácter sentimental o sexual sin convivencia.
+
+> **BCN amendment note:** Ley 20480 Art. 1 N° 6 a) D.O. 18.12.2010 · LEY 17266 Art. 1 D.O. 06.01.1970 · LEY 19734 Art. 1 N° 15 D.O. 05.06.2001 · Ley 21212 Art. 1 N° 3 y 4 D.O. 04.03.2020
+
+---
+
+### Art. 390 ter — Femicidio por razón de género
+
+**Theme:** Femicidio  
+**ELI ID:** `CL.CPCL.L2.T8.Art.390ter`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El hombre que matare a una mujer en razón de su género será sancionado con la pena de presidio mayor en su grado máximo a presidio perpetuo.
+
+> **BCN amendment note:** Ley 21212 Art. 1 N° 4 D.O. 04.03.2020
+
+Se considerará que existe razón de género cuando la muerte se produzca en alguna de las siguientes circunstancias:
+
+1.- Ser consecuencia de la negativa a establecer con el autor una relación de carácter sentimental o sexual.
+
+2.- Ser consecuencia de que la víctima ejerza o haya ejercido la prostitución, u otra ocupación u oficio de carácter sexual.
+
+3.- Haberse cometido el delito tras haber ejercido contra la víctima cualquier forma de violencia sexual, sin perjuicio de lo dispuesto en el artículo 372 bis.
+
+4.- Haberse realizado con motivo de la orientación sexual, identidad de género o expresión de género de la víctima.
+
+5.- Haberse cometido en cualquier tipo de situación en la que se den circunstancias de manifiesta subordinación por las relaciones desiguales de poder entre el agresor y la víctima, o motivada por una evidente intención de discriminación.
+
+---
+
+### Art. 390 quáter — Agravantes del femicidio
+
+**Theme:** Femicidio  
+**ELI ID:** `CL.CPCL.L2.T8.Art.390quater`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Son circunstancias agravantes de responsabilidad penal para el delito de femicidio, las siguientes:
+
+> **BCN amendment note:** Ley 21212 Art. 1 Nº 4 D.O. 04.03.2020
+
+1. Encontrarse la víctima embarazada.
+
+2. Ser la víctima una niña o una adolescente menor de dieciocho años de edad, una mujer adulta mayor o una mujer en situación de discapacidad en los términos de la ley Nº 20.422.
+
+3. Ejecutarlo en presencia de ascendientes o descendientes de la víctima.
+
+4. Ejecutarlo en el contexto de violencia física o psicológica habitual del hechor contra la víctima.
+
+---
+
+### Art. 390 quinquies — Inaplicabilidad de atenuante
+
+**Theme:** Femicidio  
+**ELI ID:** `CL.CPCL.L2.T8.Art.390quinquies`  
+**Tags:** norm_type: prohibition · scope: criminal
+
+Tratándose del delito de femicidio, el juez no podrá aplicar la circunstancia atenuante de responsabilidad penal prevista en el Nº 5 del artículo 11.
+
+> **BCN amendment note:** Ley 21212 Art. 1 Nº 4 D.O. 04.03.2020
+
+---
+
+### Art. 390 sexies — Suicidio femicida
+
+**Theme:** Femicidio  
+**ELI ID:** `CL.CPCL.L2.T8.Art.390sexies`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El que con ocasión de hechos previos constitutivos de violencia de género, cometidos por éste en contra de la víctima, causare el suicidio de una mujer, será sancionado con la pena de presidio menor en su grado máximo a presidio mayor en su grado mínimo como autor de suicidio femicida.
+
+Se entenderá por violencia de género cualquier acción u omisión basada en el género, que causare muerte, daño o sufrimiento físico, sexual o psicológico a la mujer, donde quiera que esto ocurra, especialmente aquellas circunstancias establecidas en el artículo 390 ter.
+
+> **BCN amendment note:** Ley 21523 Art. 1 Nº 5 D.O. 31.12.2022
+
+---
+
+#### § 1 ter. Del homicidio
+
+> **BCN amendment note:** Ley 21212 Art. 1 Nº 5 D.O. 04.03.2020
+
+### Art. 391 — Homicidio
+
+**Theme:** Homicidio  
+**ELI ID:** `CL.CPCL.L2.T8.Art.391`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El que mate a otro y no esté comprendido en los artículos 390, 390 bis y 390 ter, será penado:
+
+1.° Con presidio mayor en su grado máximo a presidio perpetuo, si ejecutare el homicidio con alguna de las circunstancias siguientes:
+
+> **BCN amendment note:** Ley 21212 Art. 1 N° 6 D.O. 04.03.2020 · Ley 20779 Art. 1 N° 1 D.O. 17.09.2014 · LEY 17266 Art. 1 D.O. 06.01.1970 · Ley 21483 Art. 1 N° 7 a) D.O. 24.08.2022 · Ley 21571 Art. ÚNICO, N° 1 D.O. 11.05.2023 · Ley 21483 Art. 1 N° 7 b) D.O. 24.08.2022 · Ley 20779 Art. 1 N° 2 D.O. 17.09.2014
+
+---
+
+### Art. 391 bis — Conspiración para homicidio calificado
+
+**Theme:** Homicidio  
+**ELI ID:** `CL.CPCL.L2.T8.Art.391bis`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El que conspire para cometer el delito de homicidio calificado previsto en los términos del artículo 391 Nº 1º, circunstancia segunda, será castigado con la pena de presidio menor en su grado máximo.
+
+> **BCN amendment note:** Ley 21571 Art. ÚNICO, N° 2 D.O. 11.05.2023
+
+Si la conducta descrita en el inciso precedente se comete en contra de un juez con competencia en lo penal, de un fiscal del Ministerio Público, de un defensor penal público, de un funcionario de Carabineros de Chile, de la Policía de Investigaciones de Chile o de Gendarmería de Chile, en razón del ejercicio de sus funciones, será castigado con la pena de presidio menor en su grado máximo a presidio mayor en su grado mínimo.
+
+---
+
+### Art. 392 — Homicidio en riña
+
+**Theme:** Homicidio  
+**ELI ID:** `CL.CPCL.L2.T8.Art.392`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Cometiéndose un homicidio en riña o pelea y no constando el autor de la muerte, pero sí los que causaron lesiones graves al occiso, se impondrá a todos éstos la pena de presidio menor en su grado máximo.
+
+Si no constare tampoco quienes causaron lesiones graves al ofendido, se impondrá a todos los que hubieren ejercido violencia en su persona la de presidio menor en su grado medio.
+
+---
+
+### Art. 393 — Auxilio al suicidio
+
+**Theme:** Homicidio  
+**ELI ID:** `CL.CPCL.L2.T8.Art.393`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El que con conocimiento de causa prestare auxilio a otro para que se suicide, sufrirá la pena de presidio menor en sus grados medio a máximo, si se efectúa la muerte.
+
+---
+
+### Art. 393 bis — Inducción al suicidio
+
+**Theme:** Homicidio  
+**ELI ID:** `CL.CPCL.L2.T8.Art.393bis`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Quien induzca a otra persona a cometer suicidio será sancionado con la pena de presidio menor en sus grados mínimo a medio. Si por tal circunstancia se produjera la muerte, la pena será de presidio menor en sus grados medio a máximo.
+
+> **BCN amendment note:** Ley 21523 Art. 1 N° 6 D.O. 31.12.2022
+
+Si la inducción al suicidio y la consecuente muerte de la víctima, se produce con ocasión de concurrir cualesquiera de las circunstancias establecidas en el artículo 390 ter, será castigado con la pena de presidio menor en su grado máximo a presidio mayor en su grado mínimo.
+
+---
+
+#### § II. Del infanticidio
+
+### Art. 394 — Infanticidio
+
+**Theme:** Infanticidio  
+**ELI ID:** `CL.CPCL.L2.T8.Art.394`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Cometen infanticidio el padre, la madre o los demás ascendientes legítimos o ilegítimos que dentro de las cuarenta y ocho horas después del parto, matan al hijo o descendiente, y serán penados con presidio mayor en sus grados mínimo a medio.
+
+---
+
+#### § III. Lesiones corporales
+
+### Art. 395 — Castración
+
+**Theme:** Lesiones corporales  
+**ELI ID:** `CL.CPCL.L2.T8.Art.395`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El que maliciosamente castrare a otro será castigado con presidio mayor en sus grados mínimo a medio.
+
+---
+
+### Art. 396 — Mutilación
+
+**Theme:** Lesiones corporales  
+**ELI ID:** `CL.CPCL.L2.T8.Art.396`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Cualquiera otra mutilación de un miembro importante que deje al paciente en la imposibilidad de valerse por sí mismo o de ejecutar las funciones naturales que antes ejecutaba, hecha también con malicia, será penada con presidio menor en su grado máximo a presidio mayor en su grado mínimo.
+
+En los casos de mutilaciones de miembros menos importantes, como un dedo o una oreja, la pena será presidio menor en sus grados mínimo a medio.
+
+---
+
+### Art. 397 — Lesiones graves
+
+**Theme:** Lesiones corporales  
+**ELI ID:** `CL.CPCL.L2.T8.Art.397`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El que hiriere, golpeare o maltratare de obra a otro, será castigado como responsable de lesiones graves:
+
+> **BCN amendment note:** LEY 19806 Art. 1 D.O. 31.05.2002
+
+1.º Con la pena de presidio mayor en su grado mínimo, si de resultas de las lesiones queda el ofendido demente, inútil para el trabajo, impotente, impedido de algún miembro importante o notablemente deforme.
+
+2.º Con la de presidio menor en su grado medio, si las lesiones produjeren al ofendido enfermedad o incapacidad para el trabajo por más de treinta días.
+
+---
+
+### Art. 398 — Lesiones graves por sustancias nocivas
+
+**Theme:** Lesiones corporales  
+**ELI ID:** `CL.CPCL.L2.T8.Art.398`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Las penas del artículo anterior son aplicables respectivamente al que causare a otro alguna lesión grave, ya sea administrándole a sabiendas sustancias o bebidas nocivas o abusando de su credulidad o flaqueza de espíritu.
+
+---
+
+### Art. 399 — Lesiones menos graves
+
+**Theme:** Lesiones corporales  
+**ELI ID:** `CL.CPCL.L2.T8.Art.399`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+Las lesiones no comprendidas en los artículos precedentes se reputan menos graves, y serán penadas con relegación o presidio menores en sus grados mínimos o con multa de once a veinte unidades tributarias mensuales.
+
+> **BCN amendment note:** LEY 19450 Art. 1 i) D.O. 18.03.1996
+
+---
+
+### Art. 400 — Agravantes especiales de lesiones
+
+**Theme:** Lesiones corporales  
+**ELI ID:** `CL.CPCL.L2.T8.Art.400`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Si los hechos a que se refieren los artículos anteriores de este párrafo se ejecutan en contra de alguna de las personas que menciona el artículo 5° de la Ley sobre Violencia Intrafamiliar, o con cualquiera de las circunstancias Segunda, Tercera o Cuarta del número 1° del artículo 391 de este Código, las penas se aumentarán en un grado.
+
+Asimismo, si los hechos a que se refieren los artículos anteriores de este párrafo se ejecutan en contra de un menor de dieciocho años de edad, adulto mayor o persona en situación de discapacidad, por quienes tengan encomendado su cuidado, la pena señalada para el delito se aumentará en un grado.
+
+De la misma forma, si los hechos a que se refieren el numeral 2° del artículo 397 y el artículo 399 se ejecutaren en contra de miembros de los Cuerpos de Bomberos en ejercicio de sus funciones, la pena señalada para el delito se aumentará en un grado.
+
+> **BCN amendment note:** LEY 20066 Art. 21 c) D.O. 07.10.2005 · Ley 21013 Art. 1 Nº 4 D.O. 06.06.2017 · LEY 21246 Art. ÚNICO D.O. 21.07.2020
+
+---
+
+### Art. 401 — Lesiones a guardadores o autoridades
+
+**Theme:** Lesiones corporales  
+**ELI ID:** `CL.CPCL.L2.T8.Art.401`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Las lesiones menos graves inferidas a guardadores, sacerdotes o personas constituidas en dignidad o autoridad pública, serán castigadas siempre con presidio o relegación menores en sus grados mínimos a medios.
+
+> **BCN amendment note:** Ley 21188 Art. 1 Nº 3 D.O. 13.12.2019
+
+---
+
+### Art. 401 bis — Lesiones a profesionales de salud o educación
+
+**Theme:** Lesiones corporales  
+**ELI ID:** `CL.CPCL.L2.T8.Art.401bis`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+Las lesiones inferidas a los profesionales y funcionarios de los establecimientos de salud, públicos o privados, o contra los profesionales, funcionarios y manipuladores de alimentos de establecimientos educacionales, públicos o privados, al interior de sus dependencias o mientras éstos se encontraren en el ejercicio de sus funciones o en razón, con motivo u ocasión de ellas, serán sancionadas:
+
+> **BCN amendment note:** Ley 21188 Art. 1 Nº 4 D.O. 13.12.2019
+
+1. Con presidio mayor en sus grados mínimo a medio en los casos del número 1º del artículo 397.
+
+2. Con presidio menor en su grado máximo en los casos del número 2º del artículo 397.
+
+3. Con presidio menor en su grado medio en los casos del artículo 399.
+
+4. Con presidio menor en su grado mínimo si las lesiones que se causaren fueren leves.
+
+En los casos en que se maltratare corporalmente de manera relevante a las personas señaladas en el inciso anterior, la pena será de prisión en su grado máximo y multa de una a cuatro unidades tributarias mensuales.
+
+---
+
+### Art. 402 — Lesiones graves en riña
+
+**Theme:** Lesiones corporales  
+**ELI ID:** `CL.CPCL.L2.T8.Art.402`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Si resultaren lesiones graves de una riña o pelea y no constare su autor, pero sí los que causaron lesiones menos graves, se impondrán a todos éstos las penas inmediatamente inferiores en grado a las que les hubieran correspondido por aquellas lesiones.
+
+No constando tampoco los que causaron lesiones menos graves, se impondrán las penas inferiores en dos grados a los que aparezca que hicieron uso en la riña o pelea de armas que pudieron causar esas lesiones graves.
+
+---
+
+### Art. 403 — Lesiones menos graves en riña
+
+**Theme:** Lesiones corporales  
+**ELI ID:** `CL.CPCL.L2.T8.Art.403`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Cuando sólo hubieren resultado lesiones menos graves sin conocerse a los autores de ellas, pero sí a los que hicieron uso de armas capaces de producirlas, se impondrá a todos éstos las penas inmediatamente inferiores en grado a las que les hubieran correspondido por tales lesiones.
+
+En los casos de este artículo y del anterior, se estará a lo dispuesto en el 304 para la aplicación de la pena.
+
+---
+
+#### § III bis. Del maltrato a menores de dieciocho años de edad, adultos mayores o personas en situación de discapacidad
+
+> **BCN amendment note:** Ley 21013 Art. 1 Nº 5 D.O. 06.06.2017
+
+### Art. 403 bis — Maltrato relevante
+
+**Theme:** Maltrato a menores y vulnerables  
+**ELI ID:** `CL.CPCL.L2.T8.Art.403bis`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+El que, de manera relevante, maltratare corporalmente a un niño, niña o adolescente menor de dieciocho años, a una persona adulta mayor o a una persona en situación de discapacidad en los términos de la ley N° 20.422 será sancionado con prisión en cualquiera de sus grados o multa de una a cuatro unidades tributarias mensuales, salvo que el hecho sea constitutivo de un delito de mayor gravedad.
+
+El que teniendo un deber especial de cuidado o protección respecto de alguna de las personas referidas en el inciso primero, la maltratare corporalmente de manera relevante o no impidiere su maltrato debiendo hacerlo, será castigado con la pena de presidio menor en su grado mínimo, salvo que el hecho fuere constitutivo de un delito de mayor gravedad, caso en el cual se aplicará sólo la pena asignada por la ley a éste.
+
+> **BCN amendment note:** Ley 21013 Art. 1 Nº 5 D.O. 06.06.2017
+
+---
+
+### Art. 403 ter — Trato degradante
+
+**Theme:** Maltrato a menores y vulnerables  
+**ELI ID:** `CL.CPCL.L2.T8.Art.403ter`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El que sometiere a una de las personas referidas en los incisos primero y segundo del artículo 403 bis a un trato degradante, menoscabando gravemente su dignidad, será sancionado con la pena de presidio menor en su grado mínimo.
+
+> **BCN amendment note:** Ley 21013 Art. 1 N° 5 D.O. 06.06.2017
+
+---
+
+### Art. 403 quáter — Inhabilitación accesoria
+
+**Theme:** Maltrato a menores y vulnerables  
+**ELI ID:** `CL.CPCL.L2.T8.Art.403quater`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El que cometiere cualquiera de los delitos contemplados en los párrafos 1, 3 y 3 bis del título VIII del libro II de este código, en contra de un menor de dieciocho años de edad, adulto mayor o persona en situación de discapacidad, además será condenado a la pena de inhabilitación absoluta temporal para ejercer los cargos contemplados en el artículo 39 ter, en cualquiera de sus grados. En caso de reincidencia en delitos de la misma especie, el juez podrá imponer la inhabilitación absoluta con el carácter de perpetua.
+
+> **BCN amendment note:** Ley 21013 Art. 1 N° 5 D.O. 06.06.2017
+
+---
+
+### Art. 403 quinquies — Registro de condenas
+
+**Theme:** Maltrato a menores y vulnerables  
+**ELI ID:** `CL.CPCL.L2.T8.Art.403quinquies`  
+**Tags:** norm_type: procedural · scope: criminal
+
+Las condenas dictadas en virtud del artículo anterior deberán inscribirse en la respectiva sección del Registro General de Condenas, establecido en el decreto ley N° 645, de 1925, del Ministerio de Justicia, sobre el Registro Seccional de Inhabilitaciones.
+
+> **BCN amendment note:** Ley 21418 Art. 2 N° 3 D.O. 05.02.2022
+
+---
+
+### Art. 403 sexies — Penas accesorias
+
+**Theme:** Maltrato a menores y vulnerables  
+**ELI ID:** `CL.CPCL.L2.T8.Art.403sexies`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Además de las penas establecidas en los artículos anteriores, el juez podrá decretar, como pena accesoria, la asistencia a programas de rehabilitación para maltratadores o el cumplimiento de un servicio comunitario por el plazo que prudencialmente determine, el cual no podrá exceder de sesenta días, debiendo las instituciones respectivas dar cuenta sobre el cumplimiento efectivo de dichas penas ante el tribunal.
+
+Asimismo, el juez podrá decretar, como penas o medidas accesorias, la prohibición de acercarse a la víctima o a su domicilio, lugar de cuidado, trabajo o estudio, así como a cualquier otro lugar al que ésta concurra o visite habitualmente; también, la prohibición de porte y tenencia y, en su caso, el comiso de armas de fuego; y, además, la asistencia obligatoria a programas de tratamiento para la rehabilitación del consumo problemático de drogas o alcohol, si ello corresponde.
+
+> **BCN amendment note:** Ley 21013 Art. 1 N° 5 D.O. 06.06.2017
+
+---
+
+### Art. 403 septies — Acción penal pública
+
+**Theme:** Maltrato a menores y vulnerables  
+**ELI ID:** `CL.CPCL.L2.T8.Art.403septies`  
+**Tags:** norm_type: procedural · scope: criminal
+
+Los delitos contemplados en este párrafo serán de acción penal pública.
+
+> **BCN amendment note:** Ley 21013 Art. 1 Nº 5 D.O. 06.06.2017
+
+---
+
+#### § IV. Del duelo
+
+### Art. 404 — Provocación a duelo
+
+**Theme:** Duelo  
+**ELI ID:** `CL.CPCL.L2.T8.Art.404`  
+**Tags:** norm_type: penalty · scope: criminal
+
+La provocación a duelo será castigada con reclusión menor en su grado mínimo.
+
+---
+
+### Art. 405 — Denuesto por rehusar duelo
+
+**Theme:** Duelo  
+**ELI ID:** `CL.CPCL.L2.T8.Art.405`  
+**Tags:** norm_type: penalty · scope: criminal
+
+En igual pena incurrirá el que denostare o públicamente desacreditare a otro por haber rehusado un duelo.
+
+---
+
+### Art. 406 — Homicidio o lesiones en duelo
+
+**Theme:** Duelo  
+**ELI ID:** `CL.CPCL.L2.T8.Art.406`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+El que matare en duelo a su adversario sufrirá la pena de reclusión mayor en su grado mínimo.
+
+Si le causare las lesiones señaladas en el núm. 1.º del art. 397, será castigado con reclusión menor en su grado máximo.
+
+Cuando las lesiones fueren de las relacionadas en el núm. 2.º de dicho art. 397, la pena será reclusión menor en sus grados mínimo a medio.
+
+En los demás casos se impondrá a los combatientes reclusión menor en su grado mínimo o multa de once a veinte unidades tributarias mensuales.
+
+> **BCN amendment note:** LEY 19450 Art. 1 i) D.O. 18.03.1996
+
+---
+
+### Art. 407 — Incitación a duelo
+
+**Theme:** Duelo  
+**ELI ID:** `CL.CPCL.L2.T8.Art.407`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El que incitare a otro a provocar o aceptar un duelo, será castigado respectivamente con las penas señaladas en el artículo anterior, si el duelo se lleva a efecto.
+
+---
+
+### Art. 408 — Padrinos
+
+**Theme:** Duelo  
+**ELI ID:** `CL.CPCL.L2.T8.Art.408`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Los padrinos de un duelo que se lleve a efecto incurrirán en la pena de reclusión menor en su grado mínimo; pero si ellos lo hubieron concertado a muerte o con ventaja conocida de alguno de los combatientes, la pena será reclusión menor en su grado máximo.
+
+---
+
+### Art. 409 — Penas generales del duelo
+
+**Theme:** Duelo  
+**ELI ID:** `CL.CPCL.L2.T8.Art.409`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Se impondrán las penas generales de este Código para los casos de homicidio y lesiones:
+
+1.º Si el duelo se hubiere verificado sin la asistencia de padrinos.
+
+2º º Cuando se provocare o diere causa a un desafío proponiéndose un interés pecuniario o un objeto inmoral.
+
+3.º Al combatiente que faltare a las condiciones esenciales concertadas por los padrinos.
+
+---
+
+#### § V. Disposiciones comunes a los párrafos 1, 1 bis, 1 ter, 3 y 4 de este Título
+
+> **BCN amendment note:** Ley 21212 Art. 1 Nº 7 D.O. 04.03.2020
+
+### Art. 410 — Obligación de alimentos y curación
+
+**Theme:** Disposiciones comunes  
+**ELI ID:** `CL.CPCL.L2.T8.Art.410`  
+**Tags:** norm_type: duty · scope: criminal
+
+En los casos de homicidio o lesiones a que se refieren los párrafos 1, 1 bis, 1 ter, 3 y 4 del presente título, el ofensor, a más de las penas que en ellos se establecen, quedará obligado:
+
+> **BCN amendment note:** Ley 21212 Art. 1 Nº 8 D.O. 04.03.2020
+
+1.º A suministrar alimentos a la familia del occiso.
+
+2.º A pagar la curación del demente o imposibilitado para el trabajo y a dar alimentos a él y a su familia.
+
+3.º A pagar la curación del ofendido en los demás casos de lesiones y a dar alimentos a él y a su familia mientras dure la imposibilidad para el trabajo ocasionada por tales lesiones.
+
+Los alimentos serán siempre congruos tratándose del ofendido, y la obligación de darlos cesa si éste tiene bienes suficientes con que atender a su cómoda subsistencia y para suministrarlos a su familia en los casos y en la forma que determina el Código Civil.
+
+---
+
+### Art. 411 — Concepto de familia
+
+**Theme:** Disposiciones comunes  
+**ELI ID:** `CL.CPCL.L2.T8.Art.411`  
+**Tags:** norm_type: definition · scope: criminal
+
+Para los efectos del artículo anterior se entiende por familia todas las personas que tienen derecho a pedir alimentos al ofendido.
+
+---
+
+#### § V bis. De los delitos de tráfico ilícito de migrantes y trata de personas
+
+> **BCN amendment note:** Ley 20507 Art. PRIMERO Nº 4 D.O. 08.04.2011
+
+### Art. 411 bis — Tráfico de migrantes
+
+**Theme:** Tráfico de migrantes y trata  
+**ELI ID:** `CL.CPCL.L2.T8.Art.411bis`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+Tráfico de migrantes. El que con ánimo de lucro facilite o promueva la entrada ilegal al país de una persona que no sea nacional o residente, será castigado con reclusión menor en su grado medio a máximo y multa de cincuenta a cien unidades tributarias mensuales.
+
+La pena señalada en el inciso anterior se aplicará en su grado máximo si se pusiere en peligro la integridad física o salud del afectado.
+
+Si se pusiere en peligro la vida del afectado o si éste fuere menor de edad, la pena señalada en el inciso anterior se aumentará en un grado.
+
+Las mismas penas de los incisos anteriores, junto con la de inhabilitación absoluta temporal para cargos u oficios públicos en su grado máximo, se impondrá si el hecho fuere ejecutado, aun sin ánimo de lucro, por un funcionario público en el desempeño de su cargo o abusando de él. Para estos efectos se estará a lo dispuesto en el artículo 260.
+
+Por entrada ilegal se entenderá el paso de fronteras sin haber cumplido los requisitos necesarios para entrar legalmente a Chile.
+
+> **BCN amendment note:** Ley 21325 Art. 175 N° 15 D.O. 20.04.2021 · Ley 20507 Art. PRIMERO N° 4 D.O. 08.04.2011
+
+---
+
+### Art. 411 ter — Promoción de prostitución de migrantes
+
+**Theme:** Tráfico de migrantes y trata  
+**ELI ID:** `CL.CPCL.L2.T8.Art.411ter`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+El que promoviere o facilitare la entrada o salida del país de personas para que ejerzan la prostitución en el territorio nacional o en el extranjero, será castigado con la pena de reclusión menor en su grado máximo y multa de veinte unidades tributarias mensuales.
+
+> **BCN amendment note:** Ley 20507 Art. PRIMERO N° 4 D.O. 08.04.2011
+
+---
+
+### Art. 411 quáter — Trata de personas
+
+**Theme:** Tráfico de migrantes y trata  
+**ELI ID:** `CL.CPCL.L2.T8.Art.411quater`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+El que mediante violencia, intimidación, coacción, engaño, abuso de poder, aprovechamiento de una situación de vulnerabilidad o de dependencia de la víctima, o la concesión o recepción de pagos u otros beneficios para obtener el consentimiento de una persona que tenga autoridad sobre otra capte, traslade, acoja o reciba personas para que sean objeto de alguna forma de explotación sexual, incluyendo la pornografía, trabajos o servicios forzados, servidumbre o esclavitud o prácticas análogas a ésta, o extracción de órganos, será castigado con la pena de reclusión mayor en cualquiera de sus grados y multa de cincuenta a cien unidades tributarias mensuales.
+
+> **BCN amendment note:** Ley 20507 Art. PRIMERO N° 4 D.O. 08.04.2011 · Ley 21325 Art. 175 N° 6 D.O. 20.04.2021
+
+Si la víctima fuere menor de edad, aun cuando no concurriere violencia, intimidación, coacción, engaño, abuso de poder, aprovechamiento de una situación de vulnerabilidad o de dependencia de la víctima, o la concesión o recepción de pagos u otros beneficios para obtener el consentimiento de una persona que tenga autoridad sobre otra, se impondrán las penas de reclusión mayor en sus grados medio a máximo y multa de cincuenta a cien unidades tributarias mensuales.
+
+> **BCN amendment note:** Ley 21523 Art. 1 N° 7 D.O. 31.12.2022
+
+El que promoviere, facilitare o ejecutare cualquiera de las conductas descritas en este artículo será sancionado como autor del delito.
+
+---
+
+### Art. 411 quinquies — Asociación para trata o tráfico
+
+**Theme:** Tráfico de migrantes y trata  
+**ELI ID:** `CL.CPCL.L2.T8.Art.411quinquies`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Los que se asociaren u organizaren con el objeto de cometer alguno de los delitos de este párrafo serán sancionados, por este solo hecho, conforme a lo dispuesto en los artículos 292 y siguientes de este Código.
+
+> **BCN amendment note:** Ley 20507 Art. PRIMERO Nº 4 D.O. 08.04.2011
+
+---
+
+### Art. 411 sexies — Derogado
+
+> **BCN amendment note:** Ley 21694 Artículo primero Nº 5 D.O. 04.09.2024
+
+---
+
+### Art. 411 septies — Reincidencia con sentencias extranjeras
+
+**Theme:** Tráfico de migrantes y trata  
+**ELI ID:** `CL.CPCL.L2.T8.Art.411septies`  
+**Tags:** norm_type: procedural · scope: criminal
+
+Para los efectos de determinar la reincidencia del artículo 12, circunstancia 16ª en los delitos sancionados en este párrafo, se considerarán también las sentencias firmes dictadas en un Estado extranjero, aun cuando la pena impuesta no haya sido cumplida.
+
+> **BCN amendment note:** Ley 20507 Art. PRIMERO Nº 4 D.O. 08.04.2011
+
+---
+
+### Art. 411 octies — Técnicas especiales de investigación
+
+**Theme:** Tráfico de migrantes y trata  
+**ELI ID:** `CL.CPCL.L2.T8.Art.411octies`  
+**Tags:** norm_type: procedural · scope: criminal
+
+Previa autorización del juez de garantía competente, el fiscal podrá autorizar, en las investigaciones por los delitos previstos en el presente párrafo, que funcionarios policiales se desempeñen como agentes encubiertos y, a propuesta de dichos funcionarios, que determinados informantes de esos servicios actúen en esa calidad.
+
+Cuando existan fundadas sospechas de que una persona ha cometido o preparado la comisión de alguno de los delitos indicados en este Párrafo y la investigación lo haga imprescindible, el tribunal, a petición del Ministerio Público, podrá autorizar la interceptación o grabación de las telecomunicaciones de esa persona. La captación, grabación y registro subrepticio de imágenes o sonidos en lugares cerrados o que no sean de libre acceso al público, podrá ser autorizada por el juez, a solicitud del fiscal, cuando existan fundadas sospechas basadas en hechos determinados y graves que lo hagan imprescindible para el esclarecimiento de los hechos. En lo demás, se estará íntegramente a lo dispuesto en los artículos 222 a 225 del Código Procesal Penal.
+
+Igualmente, cuando la investigación lo haga imprescindible, el tribunal, a petición del Ministerio Público, podrá autorizar la utilización de otra u otras de las diligencias especiales de investigación reguladas en el Párrafo 3º bis del Título I del Libro II del Código Procesal Penal.
+
+En todo aquello no regulado por este artículo los agentes encubiertos e informantes se regirán por las disposiciones respectivas del Párrafo 3º bis del Título I del Libro II del Código Procesal Penal.
+
+> **BCN amendment note:** Ley 20507 Art. PRIMERO Nº 4 D.O. 08.04.2011 · Ley 21577 Art. 1 Nº 11 a), b) y c) D.O. 15.06.2023
+
+---
+
+#### § VII. De la calumnia
+
+### Art. 412 — Definición de calumnia
+
+**Theme:** Calumnia  
+**ELI ID:** `CL.CPCL.L2.T8.Art.412`  
+**Tags:** norm_type: definition · scope: criminal
+
+Es calumnia la imputación de un delito determinado pero falso y que pueda actualmente perseguirse de oficio.
+
+---
+
+### Art. 413 — Calumnia con publicidad
+
+**Theme:** Calumnia  
+**ELI ID:** `CL.CPCL.L2.T8.Art.413`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+La calumnia propagada por escrito y con publicidad será castigada:
+
+1.º Con las penas de reclusión menor en su grado medio y multa de once a veinte unidades tributarias mensuales, cuando se imputare un crimen.
+
+2.º Con las de reclusión menor en su grado mínimo y multa de seis a diez unidades tributarias mensuales, si se imputare un simple delito.
+
+> **BCN amendment note:** LEY 19450 Art. 1 i) y d) D.O. 18.03.1996
+
+---
+
+### Art. 414 — Calumnia sin publicidad
+
+**Theme:** Calumnia  
+**ELI ID:** `CL.CPCL.L2.T8.Art.414`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+No propagándose la calumnia con publicidad y por escrito, será castigada:
+
+1º Con las penas de reclusión menor en su grado mínimo y multa de seis a quince unidades tributarias mensuales, cuando se imputare un crimen.
+
+2.º Con las de reclusión menor en su grado mínimo y multa de seis a diez unidades tributarias mensuales, si se imputare un simple delito.
+
+> **BCN amendment note:** LEY 19450 Art. 1 e) y d) D.O. 18.03.1996
+
+---
+
+### Art. 415 — Prueba de la verdad
+
+**Theme:** Calumnia  
+**ELI ID:** `CL.CPCL.L2.T8.Art.415`  
+**Tags:** norm_type: exemption · scope: criminal
+
+El acusado de calumnia quedará exento de toda pena probando el hecho criminal que hubiere imputado.
+
+La sentencia en que se declare la calumnia, si el ofendido lo pidiere, se publicará por una vez a costa del calumniante en los periódicos que aquél designare, no excediendo de tres.
+
+---
+
+#### § VII. De las injurias
+
+### Art. 416 — Definición de injuria
+
+**Theme:** Injurias  
+**ELI ID:** `CL.CPCL.L2.T8.Art.416`  
+**Tags:** norm_type: definition · scope: criminal
+
+Es injuria toda expresión proferida o acción ejecutada en deshonra, descrédito o menosprecio de otra persona.
+
+---
+
+### Art. 417 — Injurias graves
+
+**Theme:** Injurias  
+**ELI ID:** `CL.CPCL.L2.T8.Art.417`  
+**Tags:** norm_type: definition · scope: criminal
+
+Son injurias graves:
+
+1.º La imputación de un crimen o simple delito de los que no dan lugar a procedimiento de oficio.
+
+2º La imputación de un crimen o simple delito penado o prescrito.
+
+3.º La de un vicio o falta de moralidad cuyas consecuencias puedan perjudicar considerablemente la fama, crédito o intereses del agraviado.
+
+4.º Las injurias que por su naturaleza, ocasión o circunstancias fueren tenidas en el concepto público por afrentosas.
+
+5.º Las que racionalmente merezcan la calificación de graves atendido el estado, dignidad y circunstancias del ofendido y del ofensor.
+
+---
+
+### Art. 418 — Injurias graves con publicidad
+
+**Theme:** Injurias  
+**ELI ID:** `CL.CPCL.L2.T8.Art.418`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+Las injurias graves hechas por escrito y con publicidad, serán castigadas con las penas de reclusión menor en sus grados mínimo a medio y multa de once a veinte unidades tributarias mensuales.
+
+No concurriendo aquellas circunstancias, las penas serán reclusión menor en su grado mínimo y multa de seis a diez unidades tributarias mensuales.
+
+> **BCN amendment note:** LEY 19450 Art. 1 i) y d) D.O. 18.03.1996
+
+---
+
+### Art. 419 — Injurias leves
+
+**Theme:** Injurias  
+**ELI ID:** `CL.CPCL.L2.T8.Art.419`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+Las injurias leves se castigarán con las penas de reclusión menor en su grado mínimo y multa de seis a diez unidades tributarias mensuales, cuando fueren hechas por escrito y con publicidad. No concurriendo estas circunstancias se penarán como faltas.
+
+> **BCN amendment note:** LEY 19450 Art. 1 d) D.O. 18.03.1996
+
+---
+
+### Art. 420 — Prueba de la verdad
+
+**Theme:** Injurias  
+**ELI ID:** `CL.CPCL.L2.T8.Art.420`  
+**Tags:** norm_type: exemption · scope: criminal
+
+Al acusado de injuria no se admitirá prueba sobre la verdad de las imputaciones, sino cuando éstas fueren dirigidas contra empleados públicos sobre hechos concernientes al ejercicio de su cargo.
+
+En este caso será absuelto el acusado si probare la verdad de las imputaciones.
+
+---
+
+#### § VIII. Disposiciones comunes a los dos párrafos anteriores
+
+### Art. 421 — Calumnia o injuria por alegorías
+
+**Theme:** Disposiciones comunes a calumnia e injuria  
+**ELI ID:** `CL.CPCL.L2.T8.Art.421`  
+**Tags:** norm_type: definition · scope: criminal
+
+Se comete el delito de calumnia o injuria no sólo manifiestamente, sino por medio de alegorías, caricaturas, emblemas o alusiones.
+
+---
+
+### Art. 422 — Calumnia o injuria por escrito y con publicidad
+
+**Theme:** Disposiciones comunes a calumnia e injuria  
+**ELI ID:** `CL.CPCL.L2.T8.Art.422`  
+**Tags:** norm_type: definition · scope: criminal
+
+La calumnia y la injuria se reputan hechas por escrito y con publicidad cuando se propagaren por medio de carteles o pasquines fijados en los sitios públicos; por papeles impresos, no sujetos a la ley de imprenta, litografías, grabados o manuscritos comunicados a más de cinco personas, o por alegorías, caricaturas, emblemas o alusiones reproducidos por medio de la litografía, el grabado, la fotografía u otro procedimiento cualquiera.
+
+---
+
+### Art. 423 — Calumnia o injuria encubierta
+
+**Theme:** Disposiciones comunes a calumnia e injuria  
+**ELI ID:** `CL.CPCL.L2.T8.Art.423`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El acusado de calumnia o injuria encubierta o equívoca que rehusare dar en juicio explicaciones satisfactorias acerca de ella, será castigado con las penas de los delitos de calumnia o injuria manifiesta.
+
+> **BCN amendment note:** LEY 19806 Art. 1 D.O. 31.05.2002
+
+---
+
+### Art. 424 — Derogado
+
+> **BCN amendment note:** LEY 19806 Art. 1 D.O. 31.05.2002
+
+---
+
+### Art. 425 — Calumnia o injuria publicada en periódico extranjero
+
+**Theme:** Disposiciones comunes a calumnia e injuria  
+**ELI ID:** `CL.CPCL.L2.T8.Art.425`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Respecto de las calumnias o injurias publicadas por medio de periódicos extranjeros, podrán ser acusados los que, desde el territorio de la República, hubieren enviado los artículos o dado orden para su inserción, o contribuido a la introducción o expendición de esos periódicos en Chile con ánimo manifiesto de propagar la calumnia o injuria.
+
+> **BCN amendment note:** LEY 19806 Art. 1 D.O. 31.05.2002
+
+---
+
+### Art. 426 — Calumnia o injuria causada en juicio
+
+**Theme:** Disposiciones comunes a calumnia e injuria  
+**ELI ID:** `CL.CPCL.L2.T8.Art.426`  
+**Tags:** norm_type: procedural · scope: criminal
+
+La calumnia o injuria causada en juicio se juzgará disciplinariamente por el tribunal que conoce de la causa; sin perjuicio del derecho del ofendido para deducir, una vez que el proceso haya concluido, la acción penal correspondiente.
+
+> **BCN amendment note:** LEY 19806 Art. 1 D.O. 31.05.2002
+
+---
+
+### Art. 427 — Expresiones en documento oficial
+
+**Theme:** Disposiciones comunes a calumnia e injuria  
+**ELI ID:** `CL.CPCL.L2.T8.Art.427`  
+**Tags:** norm_type: exemption · scope: criminal
+
+Las expresiones que puedan estimarse calumniosas o injuriosas, consignadas en un documento oficial, no destinado a la publicidad, sobre asuntos del servicio público, no dan derecho para acusar criminalmente al que las consignó.
+
+---
+
+### Art. 428 — Perdón del acusador
+
+**Theme:** Disposiciones comunes a calumnia e injuria  
+**ELI ID:** `CL.CPCL.L2.T8.Art.428`  
+**Tags:** norm_type: exemption · scope: criminal
+
+El condenado por calumnia o injuria puede ser relevado de la pena impuesta mediante perdón del acusador; pero la remisión no producirá efecto respecto de la multa una vez que ésta haya sido satisfecha.
+
+La calumnia o injuria se entenderá tácitamente remitida cuando hubieren mediado actos positivos que, en concepto del tribunal, importen reconciliación o abandono de la acción.
+
+---
+
+### Art. 429 — Derogado
+
+---
+
+### Art. 430 — Calumnias o injurias recíprocas
+
+**Theme:** Disposiciones comunes a calumnia e injuria  
+**ELI ID:** `CL.CPCL.L2.T8.Art.430`  
+**Tags:** norm_type: procedural · scope: criminal
+
+En el caso de calumnias o injurias recíprocas, se observarán las reglas siguientes:
+
+1.º Si las más graves de las calumnias o injurias recíprocamente inferidas merecieren igual pena, el tribunal las dará todas por compensadas.
+
+2.º Cuando la más grave de las calumnias o injurias imputadas por una de las partes, tuviere señalado mayor castigo que la más grave de las imputadas por la otra, al imponer la pena correspondiente a aquélla se rebajará la asignada para ésta.
+
+---
+
+### Art. 431 — Prescripción
+
+**Theme:** Disposiciones comunes a calumnia e injuria  
+**ELI ID:** `CL.CPCL.L2.T8.Art.431`  
+**Tags:** norm_type: penalty · scope: criminal
+
+La acción de calumnia o injuria prescribe en un año, contado desde que el ofendido tuvo o pudo racionalmente tener conocimiento de la ofensa.
+
+La misma regla se observará respecto de las demás personas enumeradas en el artículo 108 del Código Procesal Penal; pero el tiempo transcurrido desde que el ofendido tuvo o pudo tener conocimiento de la ofensa hasta su muerte, se tomará en cuenta al computarse el año durante el cual pueden ejercitar esta acción las personas comprendidas en dicho artículo.
+
+No podrá entablarse acción de calumnia o injuria después de cinco años, contados desde que se cometió el delito. Pero si la calumnia o injuria hubiere sido causada en juicio, este plazo no obstará al cómputo del año durante el cual se podrá ejercer la acción.
+
+> **BCN amendment note:** LEY 19806 Art. 1 D.O. 31.05.2002
+
+---
+
+### TÍTULO NOVENO — Crímenes y simples delitos contra la propiedad
+
+#### § 1. De la apropiación de las cosas muebles ajenas contra la voluntad de su dueño
+
+### Art. 432 — Definición de robo y hurto
+
+**Theme:** Apropiación de cosas muebles  
+**ELI ID:** `CL.CPCL.L2.T9.Art.432`  
+**Tags:** norm_type: definition · scope: criminal
+
+El que sin la voluntad de su dueño y con ánimo de lucrarse se apropia cosa mueble ajena usando de violencia o intimidación en las personas o de fuerza en las cosas, comete robo; si faltan la violencia, la intimidación y la fuerza, el delito se califica de hurto.
+
+> **BCN amendment note:** Nota: El Nº 7 de la ley 11183, publicada el 10.06.1956, modifica el presente artículo, en el sentido de derogar su inciso segundo.
+
+---
+
+#### § II. Del robo con violencia o intimidación en las personas
+
+### Art. 433 — Robo con violencia o intimidación
+
+**Theme:** Robo con violencia  
+**ELI ID:** `CL.CPCL.L2.T9.Art.433`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El culpable de robo con violencia o intimidación en las personas, sea que la violencia o la intimidación tenga lugar antes del robo para facilitar su ejecución, en el acto de cometerlo o después de cometido para favorecer su impunidad, será castigado:
+
+> **BCN amendment note:** Ley 20931 Art. 1 Nº 2 D.O. 05.07.2016
+
+1º. Con presidio mayor en su grado máximo a presidio perpetuo calificado cuando, con motivo u ocasión del robo, se cometiere, además, homicidio o violación.
+
+2º. Con presidio mayor en su grado máximo a presidio perpetuo cuando, con motivo u ocasión del robo, se cometiere alguna de las lesiones comprendidas en los artículos 395, 396 y 397, número 1º.
+
+3º. Con presidio mayor en su grado medio a máximo cuando se cometieren lesiones de las que trata el número 2º del artículo 397 o cuando las víctimas fueren retenidas bajo rescate o por un lapso mayor a aquel que resulte necesario para la comisión del delito.
+
+---
+
+### Art. 434 — Piratería
+
+**Theme:** Robo con violencia  
+**ELI ID:** `CL.CPCL.L2.T9.Art.434`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Los que cometieren actos de piratería serán castigados con la pena de presidio mayor en su grado mínimo a presidio perpetuo.
+
+> **BCN amendment note:** LEY 13303 Art. 3 D.O. 31.03.1959 · LEY 19029 Art. 2 N° 6 D.O. 23.01.1991
+
+---
+
+### Art. 435 — Derogado
+
+> **BCN amendment note:** LEY 11625 Art. 44 D.O. 04.10.1954
+
+---
+
+### Art. 436 — Otros robos con violencia
+
+**Theme:** Robo con violencia  
+**ELI ID:** `CL.CPCL.L2.T9.Art.436`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Fuera de los casos previstos en los artículos precedentes, los robos ejecutados con violencia o intimidación en las personas, serán penados con presidio mayor en sus grados mínimo a máximo, cualquiera que sea el valor de las especies sustraídas.
+
+Se considerará como robo y se castigará con la pena de presidio menor en sus grados medio a máximo, la apropiación de dinero u otras especies que los ofendidos lleven consigo, cuando se proceda por sorpresa o aparentando riñas en lugares de concurrencia o haciendo otras maniobras dirigidas a causar agolpamiento o confusión.
+
+También será considerado robo, y se sancionará con la pena de presidio menor en su grado máximo, la apropiación de vehículos motorizados, siempre que se valga de la sorpresa, de la distracción de la víctima o se genere por parte del autor cualquier maniobra distractora cuyo objeto sea que la víctima abandone el vehículo para facilitar su apropiación, en ambos casos, en el momento en que ésta se apreste a ingresar o hacer abandono de un lugar habitado, destinado a la habitación o sus dependencias, o su lugar de trabajo, salvo en aquellos casos en que medie violencia o intimidación, en los que se aplicará lo dispuesto en el inciso primero.
+
+> **BCN amendment note:** LEY 11625 Art. 45 D.O. 04.10.1954 · LEY 17727 Art. UNICO, N° 7 D.O. 27.09.1972 · LEY 21170 Art. 1 N° 1 D.O. 26.07.2019
+
+---
+
+### Art. 437 — Derogado
+
+> **BCN amendment note:** LEY 11625 Art. 46 D.O. 04.10.1954
+
+---
+
+### Art. 438 — Constreñimiento a suscribir instrumento
+
+**Theme:** Robo con violencia  
+**ELI ID:** `CL.CPCL.L2.T9.Art.438`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El que para obtener un provecho patrimonial para sí o para un tercero constriña a otro con violencia o intimidación a suscribir, otorgar o entregar un instrumento público o privado que importe una obligación estimable en dinero, o a ejecutar, omitir o tolerar cualquier otra acción que importe una disposición patrimonial en perjuicio suyo o de un tercero, será castigado con las penas respectivamente señaladas en este párrafo para el culpable de robo.
+
+> **BCN amendment note:** Ley 21555 Art. 3 N° 2 D.O. 10.04.2023
+
+---
+
+> ⚠️ **[Source gap: Pages 160–161 of the source PDF contain a corrupted numeric block ("400 400 400..." repeated) followed by fragmented OCR of Arts. 439–442. The following Articles 439–445 are reconstructed from the legible fragments.]**
+
+### Arts. 439–442 — Robo con fuerza en las cosas
+
+**Theme:** Robo con fuerza en las cosas  
+**ELI ID:** `CL.CPCL.L2.T9.Art.439-442`  
+**Tags:** norm_type: penalty · scope: criminal
+
+[Contenido parcialmente ilegible en la fuente. Se refiere al robo con fuerza en las cosas, con las penas y circunstancias de los arts. 440 a 442.]
+
+1.° A Escalamiento.
+
+2.° Fractura de puertas interiores, armarios, arcas u otra clase de muebles u objetos cerrados o sellados.
+
+3.° Haber hecho uso de llaves falsas, o verdadera que se hubiere sustraído, de ganzúas u otros instrumentos semejantes para entrar en el lugar del robo o abrir los muebles cerrados.
+
+> **BCN amendment note:** LEY 11625 Art. 49 D.O. 04.10.1954
+
+---
+
+### Art. 443 — Robo en bienes nacionales de uso público
+
+**Theme:** Robo con fuerza en las cosas  
+**ELI ID:** `CL.CPCL.L2.T9.Art.443`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Con la misma pena señalada en el artículo anterior se castigará el robo de cosas que se encuentren en bienes nacionales de uso público, en sitio no destinado a la habitación o en el interior de vehículos motorizados, si el autor hace uso de llaves falsas o verdaderas que se hayan substraído, de ganzúas u otros instrumentos semejantes o si se procede, mediante fractura de puertas, vidrios, cierros, candados u otros dispositivos de protección o si se utilizan medios de tracción.
+
+Si el delito a que se refiere el inciso precedente recayere sobre un vehículo motorizado, se impondrá la pena de presidio menor en su grado máximo.
+
+Se considerará robo y se castigará con la pena del inciso precedente la apropiación de un vehículo motorizado mediante la generación de cualquier maniobra distractora cuyo objeto sea que la víctima abandone el vehículo, fuera de los casos a los que se refiere el artículo 436.
+
+Si con ocasión de alguna de las conductas señaladas en el inciso primero, se produce la interrupción o interferencia del suministro de un servicio público o domiciliario, tales como electricidad, gas, agua, alcantarillado, colectores de aguas lluvia o telecomunicaciones, la pena se aplicará en su grado máximo. Si producto de lo anterior se afectara a una cantidad relevante de usuarios dentro de un poblado, la pena será de presidio mayor en su grado mínimo.
+
+> **BCN amendment note:** LEY 20273 Art. 1 a) D.O. 28.06.2008 · Ley 21170 Art. 1 Nº 3 a) D.O. 26.07.2019 · Ley 20639 Art. ÚNICO, Nº 1 a. D.O. 11.12.2012 · Ley 21170 Art. 1 Nº 3 b) D.O. 26.07.2019 · LEY 20639 Art. ÚNICO, Nº 1 b. D.O. 11.12.2012
+
+---
+
+### Art. 443 bis — Robo de cajeros automáticos
+
+**Theme:** Robo con fuerza en las cosas  
+**ELI ID:** `CL.CPCL.L2.T9.Art.443bis`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El robo con fuerza de cajeros automáticos, dispensadores o contenedores de dinero, o del dinero y valores contenidos en ellos, será sancionado con la pena de presidio menor en su grado máximo. Para los efectos del presente artículo se entenderá que hay fuerza en las cosas si se ha procedido con alguno de los medios señalados en el artículo 440, Nos 1º y 2º; si se ha fracturado, destruido o dañado el cajero automático o dispensador o sus dispositivos de protección o sujeción mediante el uso de instrumentos contundentes o cortantes de cualquier tipo, incluyendo el empleo de medios químicos; o si se utilizan medios de tracción.
+
+> **BCN amendment note:** LEY 21761 Art. 1º Nº 1 a) y b) D.O. 17.09.2025 · Ley 20601 Art. 1 D.O. 14.07.2012
+
+---
+
+### Art. 444 — Presunción de tentativa de robo
+
+**Theme:** Robo con fuerza en las cosas  
+**ELI ID:** `CL.CPCL.L2.T9.Art.444`  
+**Tags:** norm_type: definition · scope: criminal
+
+Se presume autor de tentativa de robo al que se introdujere con forado, fractura, escalamiento, uso de llave falsa o de llave verdadera sustraída o de ganzúa en algún aposento, casa, edificio habitado o destinado a la habitación o en sus dependencias.
+
+---
+
+### Art. 445 — Posesión de llaves falsas o ganzúas
+
+**Theme:** Robo con fuerza en las cosas  
+**ELI ID:** `CL.CPCL.L2.T9.Art.445`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El que fabricare, expendiere o tuviere en su poder llaves falsas, ganzúas u otros instrumentos destinados conocidamente para efectuar el delito de robo y no diere descargo suficiente sobre su fabricación, expendición, adquisición o conservación, será castigado con presidio menor en su grado mínimo.
+
+---
+
+#### § IV. Del hurto
+
+### Art. 446 — Penas del hurto
+
+**Theme:** Hurto  
+**ELI ID:** `CL.CPCL.L2.T9.Art.446`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+Los autores de hurto serán castigados:
+
+1.º Con presidio menor en sus grados medio a máximo y multa de once a quince unidades tributarias mensuales, si el valor de la cosa hurtada excediera de cuarenta unidades tributarias mensuales.
+
+2.º Con presidio menor en su grado medio y multa de seis a diez unidades tributarias mensuales, si el valor excediere de cuatro unidades tributarias mensuales y no pasare de cuarenta unidades tributarias mensuales.
+
+3.º Con presidio menor en su grado mínimo y multa de cinco unidades tributarias mensuales, si excediere de media unidad tributaria mensual y no pasare de cuatro unidades tributarias mensuales.
+
+Si el valor de la cosa hurtada excediere de cuatrocientas unidades tributarias mensuales, se aplicará la pena de presidio menor en su grado máximo y multa de veintiuna a treinta unidades tributarias mensuales.
+
+> **BCN amendment note:** LEY 19501 Art. 2 k) D.O. 15.05.1997 · LEY 19950 Art. 1 Nº 1 D.O. 05.06.2004
+
+---
+
+### Art. 447 — Agravantes especiales del hurto
+
+**Theme:** Hurto  
+**ELI ID:** `CL.CPCL.L2.T9.Art.447`  
+**Tags:** norm_type: penalty · scope: criminal
+
+En los casos del artículo anterior podrá aplicarse la pena inmediatamente superior en grado:
+
+> **BCN amendment note:** LEY 13303 Art. 5 D.O. 31.03.1959
+
+1.º Si el hurto se cometiere por dependiente, criado o sirviente asalariado, bien sea en la casa en que sirve o bien en aquella a que lo hubiere llevado su amo o patrón.
+
+2.º Cuando se cometiere por obrero, oficial o aprendiz en la casa, taller o almacén de su maestro o de la persona para quien trabaja, o por individuo que trabaja habitualmente en la casa donde hubiere hurtado.
+
+3.º Si se cometiere por el posadero, fondista u otra persona que hospede gentes en cosas que hubieren llevado a la posada o fonda.
+
+4.º Cuando se cometiere por patrón o comandante de buque, lanchero, conductor o bodeguero de tren, guarda almacenes, carruajero, carretero o arriero en cosas que se hayan puesto en su buque, carro, bodega, etc.
+
+---
+
+### Art. 447 bis — Hurto de redes de suministro
+
+**Theme:** Hurto  
+**ELI ID:** `CL.CPCL.L2.T9.Art.447bis`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El hurto de cosas que forman parte de redes de suministro de servicios públicos o domiciliarios, tales como electricidad, gas, agua, alcantarillado, colectores de aguas lluvia o telecomunicaciones, será castigado con presidio menor en sus grados medio a máximo.
+
+> **BCN amendment note:** LEY 20273 Art. 1 b) D.O. 28.06.2008 · Ley 21761 Art. 1º Nº 2 a) y b) D.O. 17.09.2025
+
+Si con ocasión de alguna de las conductas señaladas en este artículo se produce la interrupción o interferencia del servicio, la pena se aplicará en su grado máximo. Si producto de lo anterior se afectara a una cantidad relevante de usuarios dentro de un poblado, la pena será de presidio mayor en su grado mínimo.
+
+---
+
+### Art. 448 — Apropiación de especie perdida
+
+**Theme:** Hurto  
+**ELI ID:** `CL.CPCL.L2.T9.Art.448`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+El que, hallándose una especie mueble, al parecer perdida, cuyo valor exceda de una unidad tributaria mensual, no la entregare a la autoridad o a su dueño, siempre que le conste quién sea éste, por hechos coexistentes posteriores al hallazgo, será castigado con presidio menor en su grado mínimo y multa de cinco unidades tributarias mensuales.
+
+> **BCN amendment note:** LEY 3988 Art. 1 D.O. 20.10.1923 · LEY 19501 Art. 2 l) D.O. 15.05.1997 · Ley 19806 Art. 1 D.O. 31.05.2002
+
+También será castigado con presidio menor en su grado mínimo y multa de cinco unidades tributarias mensuales, el que hallare especies, al parecer perdidas o abandonadas, a consecuencia de naufragio, inundación, incendio, terremoto, accidente en ferrocarril u otra causa análoga, cuyo valor exceda la cantidad mencionada en el inciso anterior, y no las entregare a los dueños o a la autoridad en su defecto.
+
+> **BCN amendment note:** LEY 19501 Art. 2 l) D.O. 15.05.1997
+
+---
+
+#### § IV bis. Del Abigeato
+
+> **BCN amendment note:** LEY 20090 Art. 1 d) D.O. 11.01.2006
+
+### Art. 448 bis — Abigeato
+
+**Theme:** Abigeato  
+**ELI ID:** `CL.CPCL.L2.T9.Art.448bis`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El que robe o hurte uno o más caballos o bestias de silla o carga, o especies de ganado mayor, menor o colmenas, comete abigeato y será castigado con las penas señaladas en los Párrafos 2, 3 y 4.
+
+> **BCN amendment note:** LEY 20090 Art. 1 d) D.O. 11.01.2006
+
+Asimismo, se considerará autor del delito de abigeato al que sin el consentimiento de quienes pueden disponer del ganado:
+
+1º. Altere o elimine marcas o señales en animales ajenos.
+
+> **BCN amendment note:** Ley 21489 Art. 31 D.O. 12.10.2022
+
+2º. Marque, señale, contramarque o contraseñale animales ajenos.
+
+> **BCN amendment note:** Ley 20596 Art. 3, Nº 1 a) y b) D.O. 04.07.2012
+
+3º. Expida o porte certificados falsos para obtener guías o formularios o haga conducir animales ajenos sin estar debidamente autorizado.
+
+---
+
+### Art. 448 ter — Agravante del abigeato
+
+**Theme:** Abigeato  
+**ELI ID:** `CL.CPCL.L2.T9.Art.448ter`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+Una vez determinada la pena que correspondería a los autores, cómplices y encubridores de abigeato sin el requisito de tratarse de la substracción de animales y considerando las circunstancias modificatorias de responsabilidad penal concurrentes, el juez deberá aumentarla en un grado y aplicará, en todo caso, la pena de comiso en los términos del artículo 31 de este Código.
+
+Cuando las especies substraídas tengan un valor que exceda las cinco unidades tributarias mensuales, se aplicará, además, la accesoria de multa de setenta y cinco a cien unidades tributarias mensuales.
+
+Si la pena consta de dos o más grados, el aumento establecido en el inciso primero se hará después de determinar la pena que habría correspondido al imputado, con prescindencia del requisito de tratarse de la substracción de animales.
+
+Será castigado como autor de abigeato el que beneficie o destruya una especie para apropiarse de toda ella o de alguna de sus partes.
+
+La regla del inciso primero de este artículo se observará también en los casos previstos en el artículo 448, si se trata de animales comprendidos en el artículo anterior.
+
+> **BCN amendment note:** LEY 20090 Art. 1 d) D.O. 11.01.2006 · Ley 20596 Art. 3, Nº 2 a), b) y c) D.O. 04.07.2012
+
+---
+
+### Art. 448 quáter — Tenencia injustificada
+
+**Theme:** Abigeato  
+**ELI ID:** `CL.CPCL.L2.T9.Art.448quater`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Se castigará como autor de abigeato a aquel en cuyo poder se encuentren animales o partes de los mismos referidos en este Párrafo, cuando no pueda justificar su adquisición o legítima tenencia y, del mismo modo, al que sea habido en predio ajeno, arreando, transportando, manteniendo cautivas, inmovilizadas o maniatadas dichas especies animales. El porte de armas, herramientas o utensilios comúnmente empleados para el faenamiento de animales por quien no diere descargo suficiente de su tenencia, se castigará de conformidad a lo establecido en el artículo 445.
+
+Las marcas registradas, señales conocidas, dispositivos de identificación individual oficial registrados ante el Servicio Agrícola y Ganadero u otras de carácter electrónico o tecnológico puestas sobre el animal, constituyen presunción de dominio a favor del dueño de la marca o señal.
+
+Para los efectos previstos en el inciso primero, en los casos de traslado de animales o de partes de los mismos, realizado en vehículos de transporte de carga, Carabineros de Chile deberá exigir, además del formulario de movimiento animal, la boleta, factura o guía de despacho correspondiente, a efectos de acreditar el dominio, posesión o legítima tenencia de las especies. Ante la imposibilidad de acreditar dicho dominio, posesión o legítima tenencia, según corresponda, por carecer de los mencionados documentos o por negarse a su exhibición, los funcionarios policiales se incautarán de las especies, sus partes y del medio de transporte, dando aviso a la fiscalía correspondiente para el inicio de la investigación que proceda, al Servicio de Impuestos Internos ante un eventual delito tributario, a la autoridad sanitaria competente para que instruya sumario sanitario y al Servicio Agrícola y Ganadero para determinar la eventual existencia de infracciones a la normativa agropecuaria.
+
+> **BCN amendment note:** Ley 20596 Art. 3, Nº 3 b) i) y a) ii) D.O. 04.07.2012
+
+Ante la sospecha o la comisión de los delitos a que se refiere este párrafo, el Ministerio Público podrá, en lo pertinente, autorizar la correspondiente investigación bajo la técnica de entrega vigilada en los términos regulados en el Párrafo 3º bis del Título I del Libro II del Código Procesal Penal.
+
+> **BCN amendment note:** Ley 20596 Art. 3, Nº 3 c) D.O. 04.07.2012 · Ley 21577 Art. 1 Nº 12 D.O. 15.06.2023
+
+---
+
+### Art. 448 quinquies — Apropiación de plumas o pelos
+
+**Theme:** Abigeato  
+**ELI ID:** `CL.CPCL.L2.T9.Art.448quinquies`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El que se apropie de las plumas, pelos, crines, cerdas, lanas o cualquier elemento del pelaje de animales ajenos, por cualquier medio que ello se realice, será castigado con presidio menor en sus grados mínimo a medio.
+
+> **BCN amendment note:** LEY 20090 Art. 1 d) D.O. 11.01.2006
+
+---
+
+### Art. 448 sexies — Comiso de instrumentos de abigeato
+
+**Theme:** Abigeato  
+**ELI ID:** `CL.CPCL.L2.T9.Art.448sexies`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+Los vehículos motorizados o de otra clase, las herramientas y los instrumentos utilizados en la comisión del delito de abigeato, caerán en comiso.
+
+Durante el curso del procedimiento dichos bienes serán incautados de conformidad a las reglas generales, sin perjuicio del derecho establecido en el artículo 189 del Código Procesal Penal.
+
+> **BCN amendment note:** Ley 20596 Art. 3 Nº 4 y Nº 5 D.O. 04.07.2012
+
+---
+
+#### § IV ter. De la sustracción de madera
+
+> **BCN amendment note:** Ley 21488 Art. 1 Nº 1 D.O. 27.09.2022
+
+### Art. 448 septies — Sustracción de madera
+
+**Theme:** Sustracción de madera  
+**ELI ID:** `CL.CPCL.L2.T9.Art.448septies`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+El que robe o hurte troncos o trozas de madera comete el delito de sustracción de madera y será sancionado con las penas señaladas en los Párrafos II, III y IV del presente Título. Cuando la madera sustraída tenga un valor que exceda las 10 unidades tributarias mensuales se aplicará además la accesoria de multa de 75 a 100 unidades tributarias mensuales.
+
+> **BCN amendment note:** Ley 21488 Art. 1 Nº 1 D.O. 27.09.2022
+
+Si la madera sustraída tiene un valor superior a las 50 unidades tributarias mensuales o si la sustracción obedece a un proceder sistemático u organizado, se podrán aplicar las técnicas especiales de investigación previstas en el artículo 226 bis del Código Procesal Penal.
+
+Los vehículos motorizados o de otra clase, las herramientas y los instrumentos utilizados en la comisión del delito, caerán en comiso.
+
+---
+
+### Art. 448 octies — Tenencia injustificada de madera
+
+**Theme:** Sustracción de madera  
+**ELI ID:** `CL.CPCL.L2.T9.Art.448octies`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+Se castigará como autor de sustracción de madera, con las penas previstas en el artículo 446, a quien en cuyo poder se encuentren troncos o trozas de madera, cuando no pueda justificar su adquisición, su legítima tenencia o su labor en dichas faenas o actividades conexas destinadas a la tala de árboles y, del mismo modo, al que sea habido en predio ajeno, en idénticas faenas o actividades, sin consentimiento de su propietario ni autorización de tala.
+
+Asimismo, será sancionado con la pena de presidio menor en sus grados medio a máximo quien falsifique o maliciosamente haga uso de documentos falsos para obtener guías o formularios con miras a trasladar o comercializar madera de manera ilícita.
+
+> **BCN amendment note:** Ley 21488 Art. 1 Nº 1 D.O. 27.09.2022
+
+---
+
+#### § V. Disposiciones comunes a los cuatro Párrafos anteriores
+
+> **BCN amendment note:** LEY 20090 Art. 1 e) D.O. 11.01.2006
+
+### Art. 449 — Regla especial de determinación de la pena
+
+**Theme:** Disposiciones comunes a delitos contra la propiedad  
+**ELI ID:** `CL.CPCL.L2.T9.Art.449`  
+**Tags:** norm_type: procedural · scope: criminal
+
+Para determinar la pena de los delitos comprendidos en los Párrafos 1 a 4 ter, con excepción de aquellos contemplados en los artículos 448, inciso primero, y 448 quinquies, y del artículo 456 bis A, no se considerará lo establecido en los artículos 65 a 69, con excepción del artículo 68 ter, y se aplicará la siguiente regla:
+
+> **BCN amendment note:** Ley 20931 Art. 1 Nº 3 D.O. 05.07.2016
+
+1ª. Dentro del límite del grado o grados señalados por la ley como pena al delito, el tribunal determinará la cuantía de la pena en atención al número y entidad de las circunstancias atenuantes y agravantes concurrentes, así como a la mayor o menor extensión del mal causado, fundamentándolo en su sentencia.
+
+> **BCN amendment note:** Ley 21488 Art. 1 Nº 2 D.O. 27.09.2022 · Ley 21694, Artículo primero Nº 6, a) y b) D.O. 04.09.2024
+
+2ª. Derogada.
+
+---
+
+### Art. 449 bis — Agravante de agrupación
+
+**Theme:** Disposiciones comunes a delitos contra la propiedad  
+**ELI ID:** `CL.CPCL.L2.T9.Art.449bis`  
+**Tags:** norm_type: penalty · scope: criminal
+
+[Texto parcialmente ilegible en la fuente. Se refiere a la agravante de cometer los delitos de los Párrafos 1, 2, 3, 4, 4 bis y 4 ter de este Título, y del descrito en el artículo 456 bis A, formando parte de una agrupación u organización de dos o más personas destinada a cometer dichos hechos punibles.]
+
+> **BCN amendment note:** Ley 20931 Art. 1 Nº 3 D.O. 05.07.2016 · Ley 21488 Art. 1 Nº 3 D.O. 27.09.2022
+
+---
+
+### Art. 449 ter — Agravante por calamidad pública
+
+**Theme:** Disposiciones comunes a delitos contra la propiedad  
+**ELI ID:** `CL.CPCL.L2.T9.Art.449ter`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Cuando los delitos sancionados en los Párrafos 3 y 4 de este Título se perpetraren con ocasión de calamidad pública o alteración del orden público, sea que se actúe en grupo o individualmente pero amparado en este, se aumentará la pena privativa de libertad respectiva en un grado.
+
+Tratándose de la conducta sancionada en el inciso primero del artículo 436, y concurriendo las circunstancias descritas en el inciso anterior, se aplicará la pena privativa de libertad respectiva, con exclusión de su grado mínimo.
+
+> **BCN amendment note:** Ley 21208 Art. ÚNICO Nº 3 D.O. 30.01.2020
+
+---
+
+### Art. 449 quáter — Saqueo
+
+**Theme:** Disposiciones comunes a delitos contra la propiedad  
+**ELI ID:** `CL.CPCL.L2.T9.Art.449quater`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Se aplicará en todo caso la regla 2ª del artículo 449, aun cuando el responsable no sea reincidente, si los delitos señalados en dicho artículo se cometen en circunstancias tales que contribuyan a la sustracción o destrucción de todo o la mayor parte de aquello que había o se guardaba en algún establecimiento de comercio o industrial o del propio establecimiento. En estos casos el hecho se denominará saqueo.
+
+Si el responsable fuere reincidente en los términos de las circunstancias agravantes de los numerales 15 y 16 del artículo 12, el juez podrá considerar suficiente fundamento esta circunstancia para la imposición del máximo de la pena resultante.
+
+> **BCN amendment note:** Ley 21208 Art. ÚNICO Nº 3 D.O. 30.01.2020
+
+---
+
+### Art. 450 — Consumación anticipada
+
+**Theme:** Disposiciones comunes a delitos contra la propiedad  
+**ELI ID:** `CL.CPCL.L2.T9.Art.450`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Los delitos a que se refiere al Párrafo 2 y el artículo 440 del Párrafo 3 de este Título se castigarán como consumados desde que se encuentren en grado de tentativa.
+
+La misma regla se aplicará a los delitos sancionados en los Párrafos 3, 4, 4 bis y 4 ter de este Título cuando se cometieren con las circunstancias señaladas en el inciso primero de los artículos 449 ter o 449 quáter.
+
+> **BCN amendment note:** LEY 17727 Art. UNICO, Nº 9 D.O. 27.09.1972 · Ley 20813 Art. 5 Nº 3 D.O. 06.02.2015 · Ley 21488 Art. 1 Nº 4 D.O. 27.09.2022 · Ley 21208 Art. ÚNICO Nº 4 D.O. 30.01.2020
+
+---
+
+### Art. 450 bis — Inaplicabilidad de atenuante
+
+**Theme:** Disposiciones comunes a delitos contra la propiedad  
+**ELI ID:** `CL.CPCL.L2.T9.Art.450bis`  
+**Tags:** norm_type: prohibition · scope: criminal
+
+En el robo con violencia o intimidación en las personas no procederá la atenuante de responsabilidad penal contenida en el artículo 11, Nº 7.
+
+> **BCN amendment note:** LEY 19449 Art. UNICO, Nº 3 D.O. 08.03.1996
+
+---
+
+### Art. 451 — Reiteración de hurtos
+
+**Theme:** Disposiciones comunes a delitos contra la propiedad  
+**ELI ID:** `CL.CPCL.L2.T9.Art.451`  
+**Tags:** norm_type: penalty · scope: criminal
+
+En los casos de reiteración de hurtos, aunque se trate de faltas, a una misma persona, o a distintas personas en una misma casa, establecimiento de comercio, centro comercial, feria, recinto o lugar el tribunal calificará el ilícito y hará la regulación de la pena tomando por base el importe total de los objetos sustraídos, y la impondrá al delincuente en su grado superior.
+
+Esta regla es sin perjuicio de lo dispuesto en el art. 447.
+
+> **BCN amendment note:** LEY 19950 Art. 1 Nº 2 D.O. 05.06.2004 · LEY 19501 Art. 2 ll) D.O. 15.05.1997
+
+---
+
+### Art. 452 — Reincidencia
+
+**Theme:** Disposiciones comunes a delitos contra la propiedad  
+**ELI ID:** `CL.CPCL.L2.T9.Art.452`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El que después de haber sido condenado por robo o hurto cometiere cualquiera de estos delitos, además de las penas que le correspondan por el hecho o hechos en que hubiere reincidido, el tribunal podrá imponerle la de sujeción a la vigilancia de la autoridad dentro de los límites fijados en el art. 25.
+
+---
+
+### Art. 453 — Concurso de circunstancias
+
+**Theme:** Disposiciones comunes a delitos contra la propiedad  
+**ELI ID:** `CL.CPCL.L2.T9.Art.453`  
+**Tags:** norm_type: procedural · scope: criminal
+
+Cuando se reunieren en un hecho varias de las circunstancias a que se señala pena diversa según los párrafos precedentes, se aplicará la de las circunstancias que en aquel caso particular la merezcan más grave, pudiendo el tribunal aumentarla en un grado.
+
+---
+
+### Art. 454 — Presunción de autoría
+
+**Theme:** Disposiciones comunes a delitos contra la propiedad  
+**ELI ID:** `CL.CPCL.L2.T9.Art.454`  
+**Tags:** norm_type: definition · scope: criminal
+
+Se presumirá autor del robo o hurto de una cosa aquel en cuyo poder se encuentre, salvo que justifique su legítima adquisición o que la prueba de su irreprochable conducta anterior establezca una presunción en contrario.
+
+> **BCN amendment note:** LEY 20090 Art. 1 b) D.O. 11.01.2006
+
+---
+
+### Art. 455 — Regulación prudencial del valor
+
+**Theme:** Disposiciones comunes a delitos contra la propiedad  
+**ELI ID:** `CL.CPCL.L2.T9.Art.455`  
+**Tags:** norm_type: procedural · scope: criminal
+
+Cuando del proceso no resulte probado el valor de la cosa sustraída ni pudiere estimarse por peritos u otro arbitrio legal, el tribunal hará su regulación prudencialmente.
+
+---
+
+### Art. 455 bis — Robo o hurto de vehículo con infante
+
+**Theme:** Disposiciones comunes a delitos contra la propiedad  
+**ELI ID:** `CL.CPCL.L2.T9.Art.455bis`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Si en el momento de producirse el robo o hurto de un vehículo motorizado, se encontrare en su interior un infante o una persona que no pudiere abandonar el vehículo por sus propios medios, y el autor del robo o hurto inicia la conducción del mismo, se aplicará la pena de presidio mayor en sus grados medio a máximo.
+
+> **BCN amendment note:** Ley 21170 Art. 1 Nº 4) D.O. 26.07.2019
+
+---
+
+### Art. 456 — Devolución voluntaria
+
+**Theme:** Disposiciones comunes a delitos contra la propiedad  
+**ELI ID:** `CL.CPCL.L2.T9.Art.456`  
+**Tags:** norm_type: exemption · scope: criminal
+
+Si antes de perseguir al responsable o antes de decretar su prisión devolviere voluntariamente la cosa robada o hurtada, no hallándose comprendido en los casos de los arts. 433 y 434, se le aplicará la pena inmediatamente inferior en grado a la señalada para el delito.
+
+> **BCN amendment note:** LEY 19806 Art. 1 D.O. 31.05.2002
+
+---
+
+### Art. 456 bis — Agravantes de robo y hurto
+
+**Theme:** Disposiciones comunes a delitos contra la propiedad  
+**ELI ID:** `CL.CPCL.L2.T9.Art.456bis`  
+**Tags:** norm_type: penalty · scope: criminal
+
+En los delitos de robo y hurto serán circunstancias agravantes las siguientes:
+
+> **BCN amendment note:** LEY 11625 Art. 53 D.O. 04.10.1954
+
+1º) Ejecutar el delito en sitios faltos de vigilancia policial, obscuros, solitarios, sin tránsito habitual o que por cualquiera otra condición favorezcan la impunidad.
+
+2º) Ser la víctima niño, anciano, inválido o persona en manifiesto estado de inferioridad física;
+
+3º) Ejecutar el delito usando un vehículo motorizado sin placa patente delantera, trasera o ambas; o con cualquiera oculta o con vidrios oscuros o polarizados, en contravención a la ley Nº 18.290, de Tránsito; o en el que se haya utilizado cualquier otra práctica, técnica, intervención, herramienta, dispositivo o condición que favorezca su impunidad;
+
+> **BCN amendment note:** Ley 21601 Art. 3º D.O. 11.09.2023
+
+4º) Ejercer la violencia en las personas que intervengan en defensa de la víctima, salvo que este hecho importe otro delito;
+
+5º) Actuar con personas exentas de responsabilidad criminal, según el número 1.o del artículo 10, y
+
+6º) Ejecutar los delitos de robo o hurto de cosas que forman parte de redes de suministro de servicios públicos o domiciliarios, simulando ser trabajador de alguna empresa proveedora de dichos servicios o haciendo uso de información obtenida como trabajador de la misma empresa.
+
+> **BCN amendment note:** Ley 21761 Art. 1º Nº 3 a) b) y c) D.O. 17.09.2025
+
+Las circunstancias agravantes de los números 1.o y 5º del artículo 12 serán aplicables en los casos en que se ejerciere violencia sobre las personas.
+
+En estos delitos no podrá estimarse que concurre la circunstancia atenuante del número 7º del artículo 11, por la mera restitución a la víctima de las especies robadas o hurtadas y, en todo caso, el Juez deberá considerar, especificada, la justificación del celo con que el delincuente ha obrado.
+
+---
+
+#### § 5 bis. De la receptación
+
+> **BCN amendment note:** LEY 19413 Art. UNICO, Nº 2) D.O. 20.09.1995
+
+### Art. 456 bis A — Receptación
+
+**Theme:** Receptación  
+**ELI ID:** `CL.CPCL.L2.T9.Art.456bisA`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+El que conociendo su origen o no pudiendo menos que conocerlo, tenga en su poder, a cualquier título, especies hurtadas, robadas u objeto de abigeato o sustracción de madera, de receptación o de apropiación indebida del artículo 470, número 1º, las transporte, compre, venda, transforme o comercialice en cualquier forma, aun cuando ya hubiese dispuesto de ellas, sufrirá la pena de presidio menor en cualquiera de sus grados y multa de cinco a cien unidades tributarias mensuales.
+
+Para la determinación de la pena aplicable el tribunal tendrá especialmente en cuenta el valor de las especies, así como la gravedad del delito en que se obtuvieron, si éste era conocido por el autor.
+
+Cuando el objeto de la receptación sean vehículos motorizados o cosas que forman parte de redes de suministro de servicios públicos o domiciliarios, tales como electricidad, gas, agua, alcantarillado, colectores de aguas lluvia o telecomunicaciones, se impondrá la pena de presidio menor en su grado máximo y multa equivalente al valor de la tasación fiscal del vehículo o la pena de presidio menor en su grado máximo, y multa de cinco a veinte unidades tributarias mensuales, respectivamente. La sentencia condenatoria por delitos de este inciso dispondrá el comiso de los instrumentos, herramientas o medios empleados para cometerlos o para transformar o transportar los elementos sustraídos. Si dichos elementos son almacenados, ocultados o transformados en algún establecimiento de comercio con conocimiento del dueño o administrador, se podrá decretar, además, la clausura definitiva de dicho establecimiento, oficiándose a la autoridad competente.
+
+Sin perjuicio de lo dispuesto en el inciso anterior, se aplicará el máximo de la pena privativa de libertad allí señalada y multa equivalente al doble de la tasación fiscal, al autor de receptación de vehículos motorizados que conociere o no pudiere menos que conocer que en la apropiación de éste se ejerció sobre su legítimo tenedor alguna de las conductas descritas en el artículo 439. Lo dispuesto en este inciso no será aplicable a quien, por el mismo hecho, le correspondiere participación responsable por cualquiera de las hipótesis del delito de robo previstas en el artículo 433 y en el inciso primero del artículo 436.
+
+Se impondrá el grado máximo de la pena establecida en el inciso primero, cuando el autor haya incurrido en reiteración de esos hechos o sea reincidente en ellos. En los casos de reiteración o reincidencia en la receptación de los objetos señalados en el inciso tercero, se aplicará la pena privativa de libertad allí establecida, aumentada en un grado.
+
+Tratándose del delito de abigeato o sustracción de madera y la multa establecida en el inciso primero será de setenta y cinco a cien unidades tributarias mensuales y el juez podrá disponer la clausura definitiva del establecimiento.
+
+Si el valor de lo receptado excediere de cuatrocientas unidades tributarias mensuales, se impondrá el grado máximo de la pena o el máximo de la pena que corresponda en cada caso.
+
+> **BCN amendment note:** LEY 19413 Art. UNICO, Nº 2) D.O. 20.09.1995 · LEY 20253 Art. 1 Nº 5 D.O. 14.03.2008 · Ley 21488 Art. 1 Nº 5 a) y b) D.O. 27.09.2022 · LEY 20273 Art. 1 c) D.O. 28.06.2008 · LEY 20639 Art. ÚNICO, Nº 3 D.O. 11.12.2012 · Ley 21761 Art. 1º Nº 4 D.O. 17.09.2025 · Ley 21170 Art. 1 Nº 5 a), b) y c) D.O. 26.07.2019 · Ley 20596 Art. 3 N° 6 D.O. 04.07.2012 · Ley 20931 Art. 1 N° 5 D.O. 05.07.2016
+
+---
+
+#### § VI. De la usurpación
+
+### Art. 457 — Usurpación violenta
+
+**Theme:** Usurpación  
+**ELI ID:** `CL.CPCL.L2.T9.Art.457`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+Al que, con violencia o intimidación en las personas, ocupare total o parcialmente un inmueble, sea público o privado, o usurpare un derecho real que otro poseyere o tuviere legítimamente y al que, hecha la ocupación en ausencia del legítimo poseedor o tenedor, vuelto éste le repeliere, se le aplicará una pena de presidio menor en su grado medio a máximo.
+
+Si tales actos se ejecutaren por el dueño o poseedor regular contra el que posee o tiene ilegítimamente la cosa, aunque con derecho aparente, la pena será multa de seis a diez unidades tributarias mensuales, sin perjuicio de las que correspondieren por la violencia causada.
+
+> **BCN amendment note:** Ley 21633 Art. 1° N° 1 D.O. 24.11.2023 · LEY 19450 Art. 1 d) D.O. 18.03.1996
+
+---
+
+### Art. 457 bis — Usurpación con daño en las cosas
+
+**Theme:** Usurpación  
+**ELI ID:** `CL.CPCL.L2.T9.Art.457bis`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Cuando, en los casos del inciso primero del artículo anterior, el hecho se llevare a efecto sin violencia o intimidación en las personas, pero causando daño en las cosas, la pena será:
+
+> **BCN amendment note:** Ley 21633 Art. 1° N° 2 D.O. 24.11.2023
+
+1. Presidio menor en su grado medio, si causare daño cuyo importe exceda de cuarenta unidades tributarias mensuales.
+
+2. Presidio menor en su grado mínimo a medio, si causare daño cuyo importe exceda de cuatro unidades tributarias mensuales y no pasare de cuarenta unidades tributarias mensuales.
+
+3. Presidio menor en su grado mínimo, si causare daño cuyo importe no excediere de cuatro unidades tributarias mensuales, ni bajare de una unidad tributaria mensual.
+
+---
+
+### Art. 458 — Usurpación sin violencia ni daño
+
+**Theme:** Usurpación  
+**ELI ID:** `CL.CPCL.L2.T9.Art.458`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+Cuando, en los casos del inciso primero del artículo 457, el hecho se llevare a efecto sin violencia o intimidación en las personas, ni daño en las cosas, la pena será de presidio menor en su grado mínimo o multa de seis a diez unidades tributarias mensuales.
+
+Para imponer la pena mayor, el tribunal deberá tener en especial consideración las siguientes circunstancias:
+
+> **BCN amendment note:** Ley 21633 Art. 1° N° 3 D.O. 24.11.2023
+
+1.° Que el imputado haya sido condenado por delito de usurpación anteriormente.
+
+2.° Que el imputado haya desplegado acciones tendientes a eludir la acción de la justicia.
+
+3.° Que el mismo inmueble haya sido previamente objeto de delito de usurpación y que el imputado haya tenido conocimiento de dicha circunstancia.
+
+Para imponer la pena menor, el tribunal deberá tener en especial consideración las siguientes circunstancias:
+
+1.° El hecho de haber actuado el imputado por necesidad habitacional.
+
+---
+
+### Art. 458 bis — Agravantes de la usurpación
+
+**Theme:** Usurpación  
+**ELI ID:** `CL.CPCL.L2.T9.Art.458bis`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Se impondrá el máximum o el grado máximo, según corresponda, de las penas previstas en los tres artículos anteriores si la ocupación se realiza:
+
+1.° En un lugar habitado o destinado a la habitación.
+
+2.° Obstaculizando una acción destinada a impedir o dificultar la propagación de incendios.
+
+3.° Obstaculizando el suministro de servicios públicos o domiciliarios, tales como electricidad, gas, agua, alcantarillado, colectores de aguas lluvia o telefonía.
+
+---
+
+### Art. 459 — Usurpación de aguas
+
+**Theme:** Usurpación  
+**ELI ID:** `CL.CPCL.L2.T9.Art.459`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+Sufrirán las penas de presidio menor en sus grados medio a máximo y multa de veinte a cinco mil unidades tributarias mensuales, los que sin título legítimo e invadiendo derechos ajenos:
+
+1.° Sacaren aguas de represas, estanques u otros depósitos; de ríos, arroyos o fuentes, sean superficiales o subterráneas; de canales o acueductos, redes de agua potable e instalaciones domiciliarias de éstas, y se las apropiaren para hacer de ellas un uso cualquiera.
+
+2.° Rompieren o alteraren con igual fin diques, esclusas, compuertas, marcos u otras obras semejantes existentes en los ríos, arroyos, fuentes, depósitos, canales o acueductos.
+
+3.° Pusieren embarazo al ejercicio de los derechos que un tercero tuviere sobre dichas aguas.
+
+4.° Usurparen un derecho cualquiera referente al curso de ellas o turbaren a alguno en su legítima posesión.
+
+Las sanciones establecidas en este artículo no se aplicarán a quienes hagan uso del agua para consumo personal o familiar en los términos señalados en el artículo 56 del Código de Aguas.
+
+> **BCN amendment note:** Ley 21633 Art. 1° N° 4 D.O. 24.11.2023 · Ley 21595 Art. 48 N° 9, a) y b) D.O. 17.08.2023 · Ley 21064 Art. 2 N° 1 a) y b) D.O. 27.01.2018 · LEY 19450 Art. 1 i) D.O. 18.03.1996 · LEY 18119 Art. 1 D.O. 19.05.1982
+
+---
+
+### Art. 460 — Usurpación de aguas con violencia
+
+**Theme:** Usurpación  
+**ELI ID:** `CL.CPCL.L2.T9.Art.460`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+Cuando los simples delitos a que se refiere el artículo anterior se ejecutaren con violencia o intimidación en las personas, si el culpable no mereciere mayor pena por la violencia o intimidación que causare, sufrirá la de presidio menor en cualquiera de sus grados y multa de cincuenta a cinco mil unidades tributarias mensuales.
+
+> **BCN amendment note:** Ley 21064 Art. 2 N° 2 a) y b) D.O. 27.01.2018 · LEY 19450 Art. 1 i) D.O. 18.03.1996
+
+---
+
+### Art. 460 bis — Duplicación de inscripción de derechos de agua
+
+**Theme:** Usurpación  
+**ELI ID:** `CL.CPCL.L2.T9.Art.460bis`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+El que a sabiendas duplique la inscripción de su derecho en el Registro de Propiedad de Aguas del Conservador de Bienes Raíces sufrirá las penas de presidio menor en su grado mínimo, multa de once a veinte unidades tributarias mensuales, la revocación del título duplicado y la cancelación de la inscripción duplicada.
+
+> **BCN amendment note:** Ley 21064 Art. 2 N° 3 D.O. 27.01.2018
+
+---
+
+### Art. 461 — Uso fraudulento de aguas
+
+**Theme:** Usurpación  
+**ELI ID:** `CL.CPCL.L2.T9.Art.461`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Serán castigados con las penas del artículo 459, los que teniendo derecho para sacar aguas o usarlas se hubieren servido fraudulentamente, con tal fin, de orificios, conductos, marcos, compuertas o esclusas de una forma diversa a la establecida o de una capacidad superior a la medida a que tienen derecho.
+
+> **BCN amendment note:** LEY 19806 Art. 1 D.O. 31.05.2002
+
+---
+
+### Art. 462 — Destrucción de términos o límites
+
+**Theme:** Usurpación  
+**ELI ID:** `CL.CPCL.L2.T9.Art.462`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+El que destruyere o alterare términos o límites de propiedades públicas o particulares con ánimo de lucrarse, será penado con presidio menor en su grado mínimo y multa de once a veinte unidades tributarias mensuales.
+
+> **BCN amendment note:** LEY 19450 Art. 1 i) D.O. 18.03.1996
+
+---
+
+### Art. 462 bis — Destrucción de términos para posibilitar posesión
+
+**Theme:** Usurpación  
+**ELI ID:** `CL.CPCL.L2.T9.Art.462bis`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+El que sin estar legalmente autorizado destruya o altere los términos o límites de un inmueble con el objetivo de posibilitar una posesión será sancionado con multa de seis a diez unidades tributarias mensuales.
+
+> **BCN amendment note:** Ley 21633 Art. 1° N° 5 D.O. 24.11.2023
+
+Con la misma pena será sancionado quien, sin tener la posesión material de un bien inmueble, instale banderas, estacas u otras demarcaciones destinadas a manifestar intención de posesión de sitios no destinados a la habitación, sin el consentimiento de quien lo posee en virtud de título legítimo.
+
+---
+
+#### § VII. De los delitos concursales y de las defraudaciones
+
+> **BCN amendment note:** Ley 20720 Art. 345 N° 2 D.O. 09.01.2014
+
+### Art. 463 — Delitos concursales del deudor
+
+**Theme:** Delitos concursales  
+**ELI ID:** `CL.CPCL.L2.T9.Art.463`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Será castigado con la pena de presidio menor en cualquiera de sus grados el que, dentro de los dos años anteriores a la dictación de la resolución de liquidación a la que se refiere la ley Nº 20.720, que Sustituye el régimen concursal vigente por una ley de reorganización y liquidación de empresas y personas, y perfecciona el rol de la superintendencia del ramo, o durante el tiempo que medie entre la notificación de la demanda de liquidación forzosa y la dictación de la respectiva resolución, conociendo el mal estado de sus negocios:
+
+> **BCN amendment note:** Ley 21595 Art. 48 Nº 10 D.O. 17.08.2023
+
+1.º Redujere considerablemente su patrimonio destruyendo, dañando, inutilizando o dilapidando, activos o valores o renunciando sin razón a créditos.
+
+2.º Dispusiere de sumas relevantes en consideración a su patrimonio aplicándolas en juegos o apuestas o en negocios inusualmente riesgosos en relación con su actividad económica normal.
+
+3.º Diere créditos sin las garantías habituales en atención a su monto, o se desprendiere de garantías sin que se hubieren satisfecho los créditos caucionados.
+
+4.º Realizare otro acto manifestamente contrario a las exigencias de una administración racional del patrimonio.
+
+Tratándose de una empresa deudora en el sentido de la ley Nº 20.720, la pena señalada en el inciso anterior se impondrá también al que hubiere actuado con ignorancia inexcusable del mal estado de sus negocios.
+
+En el caso del número 4.º del inciso primero, las penas no serán impuestas si el hecho no hubiere contribuido relevantemente a ocasionar la insolvencia del deudor.
+
+---
+
+### Art. 463 bis — Conductas agravadas del deudor
+
+**Theme:** Delitos concursales  
+**ELI ID:** `CL.CPCL.L2.T9.Art.463bis`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Será castigado con la pena de presidio menor en su grado medio a presidio mayor en su grado mínimo, el deudor que realizare alguna de las siguientes conductas:
+
+> **BCN amendment note:** Ley 21595 Art. 48 Nº 11 D.O. 17.08.2023
+
+1.° Favorecer a uno o más acreedores en desmedro de otro pagando deudas que no fueren actualmente exigibles u otorgando garantías para deudas contraídas previamente sin garantía, dentro de los dos años anteriores a la resolución de reorganización o liquidación o durante el tiempo que medie entre la notificación de la demanda de liquidación forzosa y la dictación de la respectiva resolución.
+
+2.° Percibir, apropiarse o distraer bienes que deban ser objeto de cualquier clase de procedimiento concursal de liquidación, después de dictada la resolución de liquidación.
+
+3.° Realizar actos de disposición de bienes de su patrimonio, reales o simulados, o constituir prenda, hipoteca u otro gravamen sobre ellos, después de la resolución de liquidación.
+
+4.° Ocultar total o parcialmente sus bienes o sus haberes, dentro de los dos años anteriores a la resolución de liquidación o reorganización, o con posterioridad a esa resolución.
+
+---
+
+### Art. 463 ter — Otras conductas del deudor
+
+**Theme:** Delitos concursales  
+**ELI ID:** `CL.CPCL.L2.T9.Art.463ter`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Será castigado con la pena de presidio menor en sus grados mínimo a medio el deudor que:
+
+> **BCN amendment note:** Ley 21595 Art. 48 Nº 12 D.O. 17.08.2023
+
+1.° Durante cualquier clase de procedimiento concursal de reorganización o de liquidación, proporcionare al veedor o liquidador, en su caso, o a sus acreedores, información o antecedentes falsos o incompletos, en términos que no reflejen la verdadera situación de su activo o pasivo.
+
+2.° Dentro de los dos años anteriores a la dictación de la resolución de liquidación o durante el tiempo que medie entre la notificación de la demanda de liquidación forzosa y la dictación de la respectiva resolución, no hubiese llevado o conservado los libros de contabilidad y sus respaldos exigidos por la ley que deben ser puestos a disposición del liquidador una vez dictada la resolución de liquidación, o si hubiese ocultado, inutilizado, destruido o falseado la información en términos que ella no refleje la verdadera situación de su activo y pasivo.
+
+---
+
+### Art. 463 quáter — Extensión a administradores
+
+**Theme:** Delitos concursales  
+**ELI ID:** `CL.CPCL.L2.T9.Art.463quater`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Será castigado como autor de los delitos contemplados en los artículos 463, 463 bis y 463 ter quien, en la dirección o administración de los negocios del deudor, sometido a un procedimiento concursal de reorganización, a un procedimiento concursal de reorganización simplificada, a un procedimiento concursal de liquidación o a un procedimiento concursal de liquidación simplificada, hubiese ejecutado alguno de los actos o incurrido en alguna de las omisiones allí señalados, o hubiese autorizado...
+
+> **BCN amendment note:** Ley 20720 Art. 345 N° 3 D.O. 09.01.2014 · Ley 21563 Art. 2 N° 4 D.O. 10.05.2023
+
+---
+
+### Art. 464 — Delitos del veedor o liquidador
+
+**Theme:** Delitos concursales  
+**ELI ID:** `CL.CPCL.L2.T9.Art.464`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Será castigado con la pena de presidio menor en su grado máximo a presidio mayor en su grado mínimo y con la sanción accesoria de inhabilidad especial perpetua para ejercer el cargo, el veedor o liquidador designado en cualquier clase de procedimiento concursal de reorganización o de liquidación que:
+
+> **BCN amendment note:** Ley 21595 Art. 48 N° 13 D.O. 17.08.2023
+
+1. Proporcionare ventajas indebidas al deudor, a un acreedor o a un tercero.
+
+2. Perpetrare cualquiera de los hechos previstos en los números 1 u 11 del artículo 470.
+
+---
+
+### Art. 464 bis — Extensión a quien se vale de otro
+
+**Theme:** Delitos concursales  
+**ELI ID:** `CL.CPCL.L2.T9.Art.464bis`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El deudor, veedor, liquidador, o aquellos a los que se refiere el artículo 463 quáter, que se valiere de quien no tuviere esa calidad para perpetrar cualquiera de los delitos previstos en los artículos precedentes de este Párrafo será castigado como autor del respectivo delito.
+
+> **BCN amendment note:** Ley 21595 Art. 48 N° 14 D.O. 17.08.2023
+
+El que sin tener alguna de las calidades señaladas en el inciso precedente interviniere en la perpetración del delito será castigado como inductor o cómplice según las circunstancias.
+
+---
+
+### Art. 464 ter — Inducción mediante engaño
+
+**Theme:** Delitos concursales  
+**ELI ID:** `CL.CPCL.L2.T9.Art.464ter`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El que mediante engaño determinare a un deudor, veedor, liquidador, o aquellos a los que se refiere el artículo 463 quáter, a incurrir en cualquiera de los hechos previstos en los artículos precedentes de este Párrafo, será castigado con las mismas penas en ellos señalada.
+
+> **BCN amendment note:** Ley 21595 Art. 48 N° 15 D.O. 17.08.2023
+
+---
+
+### Art. 464 quáter — Pena accesoria profesional
+
+**Theme:** Delitos concursales  
+**ELI ID:** `CL.CPCL.L2.T9.Art.464quater`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Además de lo dispuesto en los artículos 27 a 31, el profesional que, con ocasión del ejercicio de su profesión, fuere penalmente responsable por haber intervenido en la perpetración de cualquiera de los delitos previstos en el presente Párrafo, será sancionado también con la pena accesoria de suspensión o inhabilitación para su ejercicio.
+
+---
+
+### Art. 465 — Persecución penal
+
+**Theme:** Delitos concursales  
+**ELI ID:** `CL.CPCL.L2.T9.Art.465`  
+**Tags:** norm_type: procedural · scope: criminal
+
+La persecución penal de los delitos contemplados en este Párrafo sólo podrá iniciarse previa instancia particular de la Superintendencia de Insolvencia y Reemprendimiento; del veedor o liquidador del proceso concursal respectivo; de cualquier acreedor que haya verificado su crédito si se tratare de un procedimiento concursal de liquidación o de liquidación simplificada, lo que se acreditará con copia autorizada del respectivo escrito y su proveído; o en el caso de un procedimiento concursal de reorganización o reorganización simplificada, de todo acreedor a quien le afecte el Acuerdo de Reorganización de conformidad a lo establecido en los artículos 66 y 286 F de la ley N° 20.720.
+
+Si se tratare de delitos de este Párrafo cometidos por veedores o liquidadores, la Superintendencia de Insolvencia y Reemprendimiento deberá denunciarlos si alguno de los funcionarios de su dependencia toma conocimiento de aquéllos en el ejercicio de sus funciones. Además, podrá interponer querella criminal, entendiéndose para este efecto cumplidos los requisitos que establece el inciso tercero del artículo 111 del Código Procesal Penal.
+
+Cuando se celebren acuerdos reparatorios de conformidad al artículo 241 y siguientes del Código Procesal Penal, los términos de esos acuerdos deberán ser aprobados previamente por la junta de acreedores respectiva y las prestaciones que deriven de ellos beneficiarán a todos los acreedores, a prorrata de sus respectivos créditos, sin distinguir para ello la clase o categoría de los mismos.
+
+Conocerá de los delitos concursales regulados en este Párrafo el tribunal con competencia en lo criminal del domicilio del deudor.
+
+---
+
+### Art. 465 bis — Derogado
+
+> **BCN amendment note:** Ley 21595 Art. 48 N° 16 D.O. 17.08.2023
+
+---
+
+### Art. 466 — Derogado
+
+> **BCN amendment note:** Ley 21595 Art. 48 N° 16 D.O. 17.08.2023
+
+---
+
+#### § VIII. Estafas y otros engaños
+
+### Art. 467 — Estafa
+
+**Theme:** Estafas y otros engaños  
+**ELI ID:** `CL.CPCL.L2.T9.Art.467`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+El que para obtener provecho patrimonial para sí o para un tercero mediante engaño provocare un error en otro, haciéndolo incurrir en una disposición patrimonial consistente en ejecutar, omitir o tolerar alguna acción en perjuicio suyo o de un tercero será sancionado:
+
+> **BCN amendment note:** Ley 21595 Art. 48 Nº 17 D.O. 17.08.2023
+
+1. Con presidio menor en su grado máximo y multa de veintiuna a trescientas unidades tributarias mensuales, si el perjuicio excede de cuatrocientas unidades tributarias mensuales y no pasa de cuarenta mil.
+
+2. Con presidio menor en sus grados medio a máximo y multa de once a quince unidades tributarias mensuales, si excede de cuarenta unidades tributarias mensuales y no pasa de cuatrocientas.
+
+3. Con presidio menor en su grado medio y multa de seis a diez unidades tributarias mensuales, si excede de cuatro unidades tributarias mensuales y no pasa de cuarenta.
+
+4. Con presidio menor en su grado mínimo y multa de cinco unidades tributarias mensuales, si excede de una unidad tributaria mensual y no pasa de cuatro.
+
+Si el perjuicio excede de cuarenta mil unidades tributarias mensuales, se aplicará la pena de presidio menor en su grado máximo a presidio mayor en su grado mínimo y multa de trescientas a quinientas unidades tributarias mensuales.
+
+---
+
+### Art. 468 — Estafas especiales y fraudes informáticos
+
+**Theme:** Estafas y otros engaños  
+**ELI ID:** `CL.CPCL.L2.T9.Art.468`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+Incurrirá en el delito previsto en el artículo anterior el que defraudare a otro usando de nombre fingido, atribuyéndose poder, influencia o crédito supuestos, aparentando bienes, crédito, comisión, empresa o negociación imaginarios, o valiéndose de cualquier otro engaño semejante.
+
+Las penas del artículo anterior serán aplicadas también al que para obtener un provecho para sí o para un tercero irrogue perjuicio patrimonial a otra persona:
+
+> **BCN amendment note:** Ley 21595 Art. 48 Nº 18, a) y b) D.O. 17.08.2023
+
+1. Manipulando los datos contenidos en un sistema informático o el resultado del procesamiento informático de datos a través de una intromisión indebida en la operación de éste.
+
+2. Utilizando sin la autorización del titular una o más claves confidenciales que habiliten el acceso u operación de un sistema informático, o
+
+3. Haciendo uso no autorizado de una tarjeta de pago ajena o de los datos codificados en una tarjeta de pago que la identifiquen y habiliten como medio de pago.
+
+Sin perjuicio de las penas que correspondan conforme al inciso anterior, sufrirá la pena de presidio menor en su grado medio y multa de seis a diez unidades tributarias mensuales el que obtenga indebidamente los datos codificados en una tarjeta de pago que la identifiquen y habiliten como medio de pago. La misma pena sufrirá el que los adquiera o ponga a disposición de otro a cualquier título.
+
+En la investigación de los delitos previstos en este artículo será aplicable lo dispuesto en el artículo 8 de la ley Nº 20.009.
+
+Lo dispuesto en los incisos segundo y tercero de este artículo será aplicable si el hecho no tuviere mayor pena conforme a otra ley.
+
+---
+
+### Art. 469 — Agravantes de la estafa
+
+**Theme:** Estafas y otros engaños  
+**ELI ID:** `CL.CPCL.L2.T9.Art.469`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Se impondrá respectivamente el máximo de las penas señaladas en el art. 467:
+
+1.º A los plateros y joyeros que cometieren defraudaciones alterando en su calidad, ley o peso los objetos relativos a su arte o comercio.
+
+2.º A los traficantes que defraudaren usando de pesos o medidas falsos en el despacho de los objetos de su tráfico.
+
+3.º A los comisionistas que cometieren defraudación alterando en sus cuentas los precios o las condiciones de los contratos, suponiendo gastos o exagerando los que hubieren hecho.
+
+4.º A los capitanes de buques que defrauden suponiendo gastos o exagerando los que hubieren hecho, o cometiendo cualquiera otro fraude en sus cuentas.
+
+5.º A los que cometieren defraudación con pretexto de supuestas remuneraciones a empleados públicos, sin perjuicio de la acción de calumnia que a éstos corresponda.
+
+6.º Al dueño de la cosa embargada, o a cualquier otro que, teniendo noticia del embargo, hubiere destruido fraudulentamente los objetos en que se ha hecho la traba.
+
+---
+
+### Art. 470 — Apropiación indebida y otras defraudaciones
+
+**Theme:** Estafas y otros engaños  
+**ELI ID:** `CL.CPCL.L2.T9.Art.470`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+Las penas privativas de libertad del art. 467 se aplicarán también:
+
+1.º A los que en perjuicio de otro se apropiaren o distrajeren dinero, efectos o cualquiera otra cosa mueble que hubieren recibido en depósito, comisión o administración, o por otro título que produzca obligación de entregarla o devolverla.
+
+En cuanto a la prueba del depósito en el caso a que se refiere el art. 2.217 del Código Civil, se observará lo que en dicho artículo se dispone.
+
+2.º A los capitanes de buques que, fuera de los casos y sin las solemnidades prevenidas por la ley, vendieren dichos buques, tomaren dinero a la gruesa sobre su casco y quilla, giraren letras a cargo del naviero, enajenaren mercaderías o vituallas o tomaren provisiones pertenecientes a los pasajeros.
+
+3.º A los que cometieren alguna defraudación abusando de firma de otro en blanco y extendiendo con ella algún documento en perjuicio del mismo o de un tercero.
+
+4.º A los que defraudaren haciendo suscribir a otro con engaño algún documento.
+
+5.º A los que cometieren defraudaciones sustrayendo, ocultando, destruyendo o inutilizando en todo o en parte algún proceso, expediente, documento u otro papel de cualquiera clase.
+
+6.º A los que con datos falsos u ocultando antecedentes que les son conocidos, celebraren dolosamente contratos aleatorios basados en dichos datos o antecedentes.
+
+7.º A los que en el juego se valieren de fraude para asegurar la suerte.
+
+8.º A los que fraudulentamente obtuvieren del Fisco, de las municipalidades, de las Cajas de Previsión y de las instituciones centralizadas o descentralizadas del Estado, prestaciones improcedentes, tales como remuneraciones, bonificaciones, subsidios, pensiones, jubilaciones, asignaciones, devoluciones o imputaciones indebidas.
+
+9.º Al que, con ánimo de defraudar, con o sin representación de persona natural o jurídica dedicada al rubro inmobiliario o de la construcción, suscribiere o hiciere suscribir contrato de promesa de compraventa de inmueble dedicado a la vivienda, local comercial u oficina, sin cumplir con las exigencias establecidas por el artículo 138 bis de la Ley General de Urbanismo y Construcciones, siempre que se produzca un perjuicio patrimonial para el promitente comprador.
+
+10.º A los que maliciosamente obtuvieren para sí, o para un tercero, el pago total o parcialmente indebido de un seguro, sea simulando la existencia de un siniestro, provocándolo intencionalmente, presentándolo ante el asegurador como ocurrido por causas o en circunstancias distintas a las verdaderas, ocultando la cosa asegurada o aumentando fraudulentamente las pérdidas efectivamente sufridas. Si no se verifica el pago indebido por causas independientes de su voluntad, se aplicará el mínimo o, en su caso, el grado mínimo de la pena. La pena se determinará de acuerdo con el monto de lo indebidamente solicitado.
+
+11. Al que teniendo a su cargo la salvaguardia o la gestión del patrimonio de otra persona, o de alguna parte de éste, en virtud de la ley, de una orden de la autoridad o de un acto o contrato, le irrogare perjuicio, sea ejerciendo abusivamente facultades para disponer por cuenta de ella u obligarla, sea ejecutando u omitiendo cualquier otra acción de modo manifiestamente contrario al interés del titular del patrimonio afectado.
+
+Si el hecho recayere sobre el patrimonio de una persona en relación con la cual el sujeto fuere guardador, tutor o curador, o de una persona incapaz que el sujeto tuviere a su cargo en alguna otra calidad, se impondrá, según sea el caso, el máximo o el grado máximo de las penas señaladas en el artículo 467.
+
+En caso de que el patrimonio encomendado fuere el de una sociedad anónima abierta o especial u otro patrimonio administrado por esa sociedad, el administrador que realizare alguna de las conductas descritas en el párrafo primero de este numeral, irrogando perjuicio al patrimonio social, será sancionado con las penas señaladas en el artículo 467 aumentadas en un grado. Además, se impondrá la pena de inhabilitación especial temporal en su grado mínimo para desempeñarse como gerente, director, liquidador o administrador a cualquier título de una sociedad o entidad sometida a fiscalización de una Superintendencia o de la Comisión para el Mercado Financiero.
+
+En los casos previstos en este artículo se impondrá, además, pena de multa de la mitad al tanto de la defraudación.
+
+> **BCN amendment note:** DL 3443, HACIENDA Art. 3 D.O. 02.07.1980 · LEY 19932 Art. 2 D.O. 03.02.2004 · Ley 20667 Art. 3 D.O. 09.05.2013 · Ley 21121 Art. 1 Nº 20 a) y b) D.O. 20.11.2018 · Ley 21595 Art. 48 Nº 19 D.O. 17.08.2023
+
+---
+
+### Art. 470 bis — Estafa inmobiliaria
+
+**Theme:** Estafas y otros engaños  
+**ELI ID:** `CL.CPCL.L2.T9.Art.470bis`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Se impondrán respectivamente las penas señaladas en el artículo 467, aumentadas en un grado, al que mediante engaño dispusiera a otro a celebrar cualquiera clase de actos o contratos que tengan por finalidad última o inmediata la transferencia del dominio o la concesión del uso y goce de un sitio, lote o terreno sin tener título legítimo de dominio o posesión, ni autorización del que lo detenta legítimamente para celebrar actos o contratos, siempre que le ocasione un perjuicio patrimonial a la víctima.
+
+> **BCN amendment note:** Ley 21633 Art. 1º Nº 6 D.O. 24.11.2023
+
+---
+
+### Art. 471 — Otras defraudaciones
+
+**Theme:** Estafas y otros engaños  
+**ELI ID:** `CL.CPCL.L2.T9.Art.471`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+Será castigado con presidio o relegación menores en sus grados mínimos o multa de once a veinte unidades tributarias mensuales:
+
+1.º El dueño de una cosa mueble que la sustrajere de quien la tenga legítimamente en su poder, con perjuicio de éste o de un tercero.
+
+> **BCN amendment note:** LEY 19450 Art. 1 i) D.O. 18.03.1996
+
+2.º El que otorgare en perjuicio de otro un contrato simulado.
+
+3.º Derogado.
+
+Los ejemplares, máquinas u objetos contrahechos, introducidos o expendidos fraudulentamente, se aplicarán al perjudicado y también las láminas o utensilios empleados en la ejecución del fraude, cuando sólo pudieren usarse para cometerlo.
+
+> **BCN amendment note:** Decreto Ley 345, INSTRUCCIÓN Art. 27 D.O. 17.03.1925
+
+---
+
+### Art. 472 — Usura
+
+**Theme:** Estafas y otros engaños  
+**ELI ID:** `CL.CPCL.L2.T9.Art.472`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El que suministre valores, de cualquiera manera que sea, a un interés que exceda del máximo que la ley permita estipular, será castigado con presidio o reclusión menores en cualquiera de sus grados.
+
+Se impondrá el grado máximo de la pena establecida en el inciso anterior cuando la conducta que allí se sanciona se realice simulando, de cualquier forma, que se suministran los valores a un interés permitido por la ley.
+
+Condenado por usura un extranjero, será expulsado del país; y condenado como reincidente en delito de usura un nacionalizado, se le cancelará su nacionalización y se le expulsará del país.
+
+> **BCN amendment note:** LEY 8716 Art. 1 D.O. 04.01.1947 · Ley 21595 Art. 48 Nº 20 D.O. 17.08.2023
+
+En ambos casos la expulsión se hará después de cumplida la pena.
+
+En la sustanciación y fallo de los procesos instruidos para la investigación de estos delitos, los Tribunales apreciarán la prueba en conciencia.
+
+---
+
+### Art. 472 bis — Abuso de situación de necesidad
+
+**Theme:** Estafas y otros engaños  
+**ELI ID:** `CL.CPCL.L2.T9.Art.472bis`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El que con abuso grave de una situación de necesidad, de la inexperiencia o de la incapacidad de discernimiento de otra persona, le pagare una remuneración manifiestamente desproporcionada e inferior al ingreso mínimo mensual previsto por la ley o le diere en arrendamiento un inmueble como morada recibiendo una contraprestación manifiestamente desproporcionada, será castigado con la pena de presidio o reclusión menor en cualquiera de sus grados.
+
+> **BCN amendment note:** Ley 21595 Art. 48 Nº 21 D.O. 17.08.2023
+
+---
+
+### Art. 472 ter — Agravante por cuantía o número de víctimas
+
+**Theme:** Estafas y otros engaños  
+**ELI ID:** `CL.CPCL.L2.T9.Art.472ter`  
+**Tags:** norm_type: penalty · scope: criminal
+
+En los casos en que alguno de los hechos previstos en este Párrafo irrogare un perjuicio que exceda de ochenta mil unidades tributarias mensuales o afecte a un número considerable de personas, se podrá imponer la pena superior en un grado a la señalada por la ley.
+
+> **BCN amendment note:** Ley 21595 Art. 48 Nº 21 D.O. 17.08.2023
+
+---
+
+### Art. 473 — Estafa residual
+
+**Theme:** Estafas y otros engaños  
+**ELI ID:** `CL.CPCL.L2.T9.Art.473`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+El que defraudare o perjudicare a otro usando de cualquier engaño que no se halle expresado en los artículos anteriores de este párrafo, será castigado con presidio o relegación menores en sus grados mínimos y multa de once a veinte unidades tributarias mensuales.
+
+> **BCN amendment note:** LEY 19450 Art. 1 i) D.O. 18.03.1996
+
+---
+
+#### § IX. Del incendio y otros estragos
+
+### Art. 474 — Incendio con muerte
+
+**Theme:** Incendio y estragos  
+**ELI ID:** `CL.CPCL.L2.T9.Art.474`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El que incendiare edificio, aeronave, buque, plataforma naval, automóviles de dos o más plazas, camiones, instalaciones de servicios sanitarios, de almacenamiento o transporte de combustibles, de distribución o generación de energía eléctrica, portuaria, aeronáutica o ferroviaria, incluyendo las de trenes subterráneos, u otro lugar, medio de transporte, instalación o bien semejante, siempre que hubiere personas en su interior, causando la muerte de una o más personas cuya presencia allí pudo prever, será castigado con presidio mayor en su grado máximo a presidio perpetuo.
+
+> **BCN amendment note:** Ley 21402 Art. único, Nº 1 a) D.O. 24.12.2021
+
+La misma pena se impondrá cuando del incendio no resultare muerte sino mutilación de miembro importante o lesión grave de las comprendidas en el número 1º del artículo 397.
+
+> **BCN amendment note:** Ley 21402 Art. único, Nº 1 b) D.O. 24.12.2021
+
+---
+
+### Art. 475 — Incendio con personas
+
+**Theme:** Incendio y estragos  
+**ELI ID:** `CL.CPCL.L2.T9.Art.475`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El que incendiare edificio, aeronave, buque, plataforma naval, vehículos de transporte público de pasajeros, automóviles de dos o más plazas, camiones, instalaciones de servicios sanitarios, de almacenamiento o transporte de combustibles, de distribución o generación de energía eléctrica, portuaria, aeronáutica o ferroviaria, incluyendo las de trenes subterráneos, u otro lugar, medio de transporte, instalación o bien semejante, siempre que allí hubiere una o más personas y su presencia se pudiese prever, será castigado con presidio mayor en su grado medio a presidio perpetuo.
+
+> **BCN amendment note:** Ley 21402 Art. único, Nº 2 D.O. 24.12.2021
+
+---
+
+### Art. 476 — Incendio sin personas
+
+**Theme:** Incendio y estragos  
+**ELI ID:** `CL.CPCL.L2.T9.Art.476`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Se castigará con presidio mayor en cualquiera de sus grados:
+
+1.º Al que incendiare un edificio o lugar destinado a servir de morada, que no estuviere actualmente habitado.
+
+2º Al que dentro de poblado ejecutare el incendio en edificio, aeronave, buque, plataforma naval, vehículos de transporte público de pasajeros, automóviles de dos o más plazas, camiones, instalaciones de servicios sanitarios, de almacenamiento o transporte de combustibles, de distribución o generación de energía eléctrica, portuaria, aeronáutica o ferroviaria, incluyendo las de trenes subterráneos, u otro lugar, medio de transporte, instalación o bien semejante, cuando no hubiere personas en su interior o su presencia no se pudiese prever.
+
+3.º Al que incendiare bosques, mieses, pastos, montes, cierros, plantíos o formaciones xerofíticas de aquellas definidas en la ley Nº 20.283.
+
+4.º Al que fuera de los casos señalados en los números anteriores provoque un incendio que afectare gravemente las condiciones de vida animal o vegetal de un Área Silvestre Protegida.
+
+> **BCN amendment note:** Ley 21402 Art. único, Nº 3 a) y b) D.O. 24.12.2021 · Ley 20653 Art. 1 a) y b) D.O. 02.02.2013
+
+---
+
+### Art. 477 — Incendio de otros objetos
+
+**Theme:** Incendio y estragos  
+**ELI ID:** `CL.CPCL.L2.T9.Art.477`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+El incendiario de objetos no comprendidos en los artículos anteriores será penado:
+
+1.º Con presidio menor en su grado máximo a presidio mayor en su grado mínimo y multa de once a quince unidades tributarias mensuales, si el daño causado a terceros excediere de cuarenta unidades tributarias mensuales.
+
+2.º Con presidio menor en sus grados medio a máximo y multa de seis a diez unidades tributarias mensuales, si el daño excediere de cuatro unidades tributarias mensuales y no pasare de cuarenta.
+
+3.° Con presidio menor en sus grados mínimo a medio y multa de cinco unidades tributarias mensuales, si el daño excediere de una unidad tributaria mensual y no pasare de cuatro unidades tributarias mensuales.
+
+> **BCN amendment note:** LEY 19501 Art. 2 n) D.O. 15.05.1997
+
+---
+
+### Art. 478 — Incendio de chozas u objetos de escaso valor
+
+**Theme:** Incendio y estragos  
+**ELI ID:** `CL.CPCL.L2.T9.Art.478`  
+**Tags:** norm_type: exemption · scope: criminal
+
+En caso de aplicarse el incendio a chozas, pajar o cobertizo deshabitado o a cualquier otro objeto cuyo valor no excediere de cuatro sueldos vitales, en tiempo y con circunstancias que manifiestamente excluyan todo peligro de propagación, el culpable no incurrirá en las penas señaladas en este párrafo; pero sí en las que mereciera por el daño que causare con arreglo a las disposiciones del párrafo siguiente.
+
+> **BCN amendment note:** LEY 3988 Art. 1 D.O. 20.10.1923 · LEY 17437 Art. 1, N° 11) D.O. 09.06.1971
+
+---
+
+### Art. 479 — Propagación del fuego
+
+**Theme:** Incendio y estragos  
+**ELI ID:** `CL.CPCL.L2.T9.Art.479`  
+**Tags:** norm_type: procedural · scope: criminal
+
+Cuando el fuego se comunicare del objeto que el culpable se propuso quemar, a otro u otros cuya destrucción, por su naturaleza o consecuencias, debe penarse con mayor severidad, se aplicará la pena más grave, siempre que los objetos incendiados estuvieren colocados de tal modo que el fuego haya debido comunicarse de unos a otros, atendidas las circunstancias del caso.
+
+---
+
+### Art. 480 — Estragos
+
+**Theme:** Incendio y estragos  
+**ELI ID:** `CL.CPCL.L2.T9.Art.480`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Incurrirán respectivamente en las penas de este párrafo los que causen estragos por medio de sumersión o variamiento de nave, inundación, destrucción de puentes o máquinas de vapor, y en general por la aplicación de cualquier otro agente o medio de destrucción tan poderoso como los expresados.
+
+> **BCN amendment note:** Ley 20813 Art. 5 N° 4 D.O. 06.02.2015
+
+---
+
+### Art. 481 — Preparativos para incendio o estragos
+
+**Theme:** Incendio y estragos  
+**ELI ID:** `CL.CPCL.L2.T9.Art.481`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El que fuere aprehendido con artefactos, implementos o preparativos conocidamente dispuestos para incendiar o causar alguno de los estragos expresados en este párrafo, será castigado con presidio menor en sus grados mínimo a medio; salvo que pudiendo considerarse el hecho como tentativa de un delito determinado debiera castigarse con mayor pena.
+
+> **BCN amendment note:** Ley 20813 Art. 5 N° 5 D.O. 06.02.2015
+
+---
+
+### Art. 482 — Incendio de bienes propios
+
+**Theme:** Incendio y estragos  
+**ELI ID:** `CL.CPCL.L2.T9.Art.482`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El culpable de incendio o estragos no se eximirá de las penas de los artículos anteriores, aunque para cometer el delito hubiere incendiado o destruido bienes de su pertenencia.
+
+Pero no incurrirá en tales penas el que rozare a fuego, incendiare rastrojos u otros objetos en tiempos y con circunstancias que manifiestamente excluyan todo propósito de propagación, y observando los reglamentos que se dicten sobre esta materia.
+
+---
+
+### Art. 483 — Presunciones de responsabilidad del comerciante
+
+**Theme:** Incendio y estragos  
+**ELI ID:** `CL.CPCL.L2.T9.Art.483`  
+**Tags:** norm_type: definition · scope: criminal
+
+Se presume responsable de un incendio al comerciante en cuya casa o establecimiento tiene origen aquél, si no justificare con sus libros, documentos u otra clase de prueba, que no reportaba provecho alguno del siniestro.
+
+Se presume también responsable de un incendio al comerciante cuyo seguro sea exageradamente superior al valor real del objeto asegurado en el momento de producirse el siniestro. En los casos de seguros con pólizas flotantes se presumirá responsable al comerciante que, en la declaración inmediatamente anterior al siniestro, declare valores manifiestamente superiores a sus existencias. Asimismo, se presume responsable si en todo o en parte ha disminuido o retirado las cosas aseguradas del lugar señalado en la póliza respectiva sin motivo justificado o sin dar aviso previo al asegurador.
+
+Las presunciones de este artículo no obstan a la apreciación de la prueba en conciencia.
+
+> **BCN amendment note:** LEY 7632 Art. 1 D.O. 06.11.1943
+
+---
+
+### Art. 483 a — Contador que falsea contabilidad
+
+**Theme:** Incendio y estragos  
+**ELI ID:** `CL.CPCL.L2.T9.Art.483a`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El contador o cualquiera persona que falsee o adultere la contabilidad del comerciante que sufra un siniestro, será sancionado con la pena señalada en el inciso segundo del artículo 197; pero no le afectará responsabilidad al contador por las existencias y precios inventariados.
+
+> **BCN amendment note:** LEY 7632 Art. 2 D.O. 06.11.1943
+
+---
+
+### Art. 483 b — Multa al comerciante incendiario
+
+**Theme:** Incendio y estragos  
+**ELI ID:** `CL.CPCL.L2.T9.Art.483b`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+A los comerciantes responsables del delito de incendio se les aplicará también una multa de veintiuna a cincuenta unidades tributarias mensuales, tomándose en cuenta para graduarla la naturaleza, entidad y gravedad del siniestro y las facultades económicas del condenado.
+
+Si no se paga la multa el condenado sufrirá por vía de sustitución y apremio, un día de reclusión por un quinto de unidad tributaria mensual de multa, no pudiendo exceder la reclusión de seis meses.
+
+La multa impuesta se mantendrá en una cuenta especial a la orden de la Superintendencia de Compañía de Seguros Sociedades Anónimas y Bolsas de Comercio, la cual anualmente la distribuirá proporcionalmente entre los distintos Cuerpos de Bomberos en el país.
+
+> **BCN amendment note:** LEY 19450 Art. 1 m) D.O. 18.03.1996 · LEY 19806 Art. 1 D.O. 31.05.2002 · LEY 19501 Art. 2 ñ) D.O. 15.05.1997
+
+---
+
+#### § X. De los daños
+
+### Art. 484 — Delito de daños
+
+**Theme:** Daños  
+**ELI ID:** `CL.CPCL.L2.T9.Art.484`  
+**Tags:** norm_type: definition · scope: criminal
+
+Incurren en el delito de daños y están sujetos a las penas de este párrafo, los que en la propiedad ajena causaren alguno que no se halle comprendido en el párrafo anterior.
+
+> **BCN amendment note:** LEY 19806 Art. 1 D.O. 31.05.2002
+
+---
+
+### Art. 485 — Daños agravados
+
+**Theme:** Daños  
+**ELI ID:** `CL.CPCL.L2.T9.Art.485`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+Serán castigados con la pena de reclusión menor en sus grados medio a máximo y multa de once a veinte unidades tributarias mensuales, los que causaren daño cuyo importe exceda de cuarenta unidades tributarias mensuales:
+
+> **BCN amendment note:** LEY 3988 Art. 1 D.O. 20.10.1923 · LEY 19501 Art. 2 o) D.O. 15.05.1997
+
+1.º Con la mira de impedir el libre ejercicio de la autoridad o en venganza de sus determinaciones, bien se cometiere el delito contra empleados públicos, bien contra particulares que, como testigos o de cualquiera otra manera, hayan contribuido o puedan contribuir a la ejecución o aplicación de las leyes;
+
+2.º Produciendo, por cualquier medio, infección o contagio en animales o aves domésticas;
+
+3.º Empleando sustancias venenosas o corrosivas;
+
+4.º En cuadrilla y en despoblado;
+
+5.º En archivos, registros, bibliotecas o museos públicos;
+
+6.º En puentes, caminos, paseos u otros bienes de uso público;
+
+7.º En tumbas, signos conmemorativos, monumentos, estatuas, cuadros u otros objetos de arte colocados en edificios o lugares públicos;
+
+8.º Arruinando al perjudicado;
+
+9.º En medios de transporte público de pasajeros o en bienes o infraestructura asociada a dicha actividad.
+
+> **BCN amendment note:** Ley 21587 Art. 2º Nos 1 y 2 D.O. 05.08.2023
+
+10.º Causando la interrupción o interferencia de uno o más servicios públicos o domiciliarios, tales como electricidad, gas, agua, alcantarillado, colectores de aguas lluvia o telecomunicaciones.
+
+> **BCN amendment note:** Ley 21761 Art. 1º Nº 5 D.O. 17.09.2025
+
+---
+
+### Art. 486 — Daños con circunstancias agravantes
+
+**Theme:** Daños  
+**ELI ID:** `CL.CPCL.L2.T9.Art.486`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+El que, con alguna de las circunstancias expresadas en el artículo anterior, causare daño cuyo importe exceda de cuatro unidades tributarias mensuales y no pase de cuarenta unidades tributarias mensuales, sufrirá la pena de reclusión menor en sus grados mínimo a medio y multa de seis a diez unidades tributarias mensuales.
+
+> **BCN amendment note:** LEY 3988 Art. 1 D.O. 20.10.1923 · LEY 19501 Art. 2 p) D.O. 15.05.1997
+
+Cuando dicho importe no excediere de cuatro unidades tributarias mensuales ni bajare de una unidad tributaria mensual, la pena será reclusión menor en su grado mínimo y multa de cinco unidades tributarias mensuales.
+
+---
+
+### Art. 487 — Daños no comprendidos
+
+**Theme:** Daños  
+**ELI ID:** `CL.CPCL.L2.T9.Art.487`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+Los daños no comprendidos en los artículos anteriores, serán penados con reclusión menor en su grado mínimo o multa de once a veinte unidades tributarias mensuales.
+
+Esta disposición no es aplicable a los daños causados por el ganado y a los demás que deben calificarse de faltas, con arreglo a lo que se establece en el Libro tercero.
+
+> **BCN amendment note:** LEY 19450 Art. 1 i) D.O. 18.03.1996
+
+---
+
+### Art. 488 — Concurso con delito mayor
+
+**Theme:** Daños  
+**ELI ID:** `CL.CPCL.L2.T9.Art.488`  
+**Tags:** norm_type: procedural · scope: criminal
+
+Las disposiciones del presente párrafo sólo tendrán lugar cuando el hecho no pueda considerarse como otro delito que merezca mayor pena.
+
+---
+
+#### § XI. Disposiciones generales
+
+### Art. 489 — Exención entre parientes
+
+**Theme:** Disposiciones generales sobre delitos contra la propiedad  
+**ELI ID:** `CL.CPCL.L2.T9.Art.489`  
+**Tags:** norm_type: exemption · scope: criminal
+
+Están exentos de responsabilidad criminal y sujetos únicamente a la civil por los hurtos, defraudaciones o daños que recíprocamente se causaren:
+
+1.° Los parientes consanguíneos en toda la línea recta.
+
+2.° Los parientes consanguíneos hasta el segundo grado inclusive de la línea colateral.
+
+3.° Los parientes afines en toda la línea recta.
+
+4.° Derogado.
+
+5.° Los cónyuges.
+
+6.° Los convivientes civiles.
+
+La excepción de este artículo no es aplicable a los extraños que participaren del delito, ni tampoco entre cónyuges cuando se trate de los delitos de daños indicados en el párrafo anterior.
+
+Además, esta exención no será aplicable cuando la víctima sea una persona mayor de sesenta años.
+
+> **BCN amendment note:** LEY 19450 Art. 1 i) D.O. 18.03.1996 · LEY 20427 Art. 3 Nº 1 Y 2 D.O. 18.03.2010 · LEY 20830 Art. 39 vii) D.O. 21.04.2015 · LEY 20480 Art. 1 Nº 7 D.O. 18.12.2010 · Ley 20427 Art. 3 Nº 3 D.O. 18.03.2010
+
+---
+
+### TÍTULO DÉCIMO — De los cuasidelitos
+
+### Art. 490 — Cuasidelito
+
+**Theme:** Cuasidelitos  
+**ELI ID:** `CL.CPCL.L2.T10.Art.490`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+El que por imprudencia temeraria ejecutare un hecho que, si mediara malicia, constituiría un crimen o un simple delito, será castigado:
+
+1.° Con reclusión o relegación menores en sus grados mínimos a medios, cuando el hecho importare crimen.
+
+2.° Con reclusión o relegación menores en sus grados mínimos o multa de once a veinte unidades tributarias mensuales, cuando importare simple delito.
+
+> **BCN amendment note:** LEY 19450 Art. 1 i) D.O. 18.03.1996
+
+---
+
+### Art. 491 — Cuasidelito profesional
+
+**Theme:** Cuasidelitos  
+**ELI ID:** `CL.CPCL.L2.T10.Art.491`  
+**Tags:** norm_type: penalty · scope: criminal
+
+El médico, cirujano, farmacéutico, flebotomiano o matrona que causare mal a las personas por negligencia culpable en el desempeño de su profesión, incurrirá respectivamente en las penas del artículo anterior.
+
+Iguales penas se aplicarán al dueño de animales feroces que, por descuido culpable de su parte, causaren daño a las personas.
+
+---
+
+### Art. 492 — Cuasidelito con infracción de reglamentos
+
+**Theme:** Cuasidelitos  
+**ELI ID:** `CL.CPCL.L2.T10.Art.492`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Las penas del artículo 490 se impondrán también respectivamente al que, con infracción de los reglamentos y por mera imprudencia o negligencia, ejecutare un hecho o incurriere en una omisión que, a mediar malicia, constituiría un crimen o un simple delito contra las personas.
+
+A los responsables de cuasidelito de homicidio o lesiones, ejecutados por medio de vehículos a tracción mecánica o animal, se los sancionará, además de las penas indicadas en el artículo 490, con la suspensión del carné, permiso o autorización que los habilite para conducir vehículos, por un período de uno a dos años, si el hecho de mediar malicia constituyera un crimen, y de seis meses a un año, si constituyera simple delito. En caso de reincidencia, podrá condenarse al conductor a inhabilidad perpetua para conducir vehículos a tracción mecánica o animal, cancelándose el carné, permiso o autorización.
+
+---
+
+### Art. 493 — Cuasidelitos especialmente penados
+
+**Theme:** Cuasidelitos  
+**ELI ID:** `CL.CPCL.L2.T10.Art.493`  
+**Tags:** norm_type: exemption · scope: criminal
+
+Las disposiciones del presente párrafo no se aplicarán a los cuasidelitos especialmente penados en este Código.
+
+---
+
+## LIBRO TERCERO — De las faltas
+
+### TÍTULO PRIMERO — De las faltas
+
+### Art. 494 — Faltas
+
+**Theme:** Faltas  
+**ELI ID:** `CL.CPCL.L3.T1.Art.494`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+Sufrirán la pena de multa de una a cuatro unidades tributarias mensuales:
+
+> **BCN amendment note:** LEY 19450 Art. 1 c) D.O. 18.03.1996 · LEY 19450 Art. 2, o, Nº 1) D.O. 18.03.1996
+
+1.° El que asistiendo a un espectáculo público [perturbare el orden].
+
+2.° El que excitare o dirigiere cencerradas u otras [manifestaciones].
+
+3.° El que ensuciare, arrojare o abandonare basura, materiales o desechos de cualquier índole en playas, riberas de ríos o de lagos, parques nacionales, reservas nacionales, monumentos naturales o en otras áreas de conservación de la biodiversidad declaradas bajo protección oficial.
+
+> **BCN amendment note:** Ley 21123 Art. ÚNICO D.O. 10.12.2018
+
+4.° El que amenazare a otro con armas blancas y el que [las portare].
+
+5.° El que causare lesiones leves, entendiéndose por tales las que, en concepto del tribunal, no se hallaren comprendidas en el art. 399, atendidas la calidad de las personas y circunstancias del hecho. En ningún caso el tribunal podrá calificar como leves las lesiones cometidas en contra de las personas mencionadas en el artículo 5º de la Ley sobre Violencia Intrafamiliar, ni aquéllas cometidas en contra de las personas a que se refiere el inciso primero del artículo 403 bis de este Código.
+
+> **BCN amendment note:** Ley 21413 Art. 2 D.O. 01.02.2022 · Ley 20813 Art. 5 Nº 6 D.O. 06.02.2015
+
+6.° El que corriere carruajes o caballerías con peligro de las personas, haciéndolo en poblado, ya sea de noche o de día cuando haya aglomeración de gente.
+
+7.° El farmacéutico que despachare medicamentos en virtud de receta que no se halle debidamente autorizada.
+
+8.° El que habitualmente y después de apercibimiento ejerciere, sin título legal ni permiso de autoridad competente, las profesiones de médico, cirujano, farmacéutico o Dentista.
+
+9.° El facultativo que, notando en una persona o en un cadáver señales de envenenamiento o de otro delito grave, no diere parte a la autoridad oportunamente.
+
+10.° El médico, cirujano, farmacéutico, Dentista o matrona que incurriere en descuido culpable en el desempeño de su profesión, sin causar daño a las personas.
+
+11.° Los mismos individuos expresados en el número anterior, que no prestaren los servicios de su profesión durante el turno que les señale la autoridad administrativa.
+
+12.° El médico, cirujano, farmacéutico, matrona o cualquiera otro que, llamado en clase de perito o testigo, se negare a practicar una operación propia de su profesión u oficio o a prestar una declaración requerida por la autoridad judicial, en los casos y en la forma que determine el Código de Procedimiento y sin perjuicio de los apremios legales.
+
+13.° El que encontrando perdido o abandonado a un menor de siete años no lo entregare a su familia o no lo recogiere o depositare en lugar seguro, dando cuenta a la autoridad en los dos últimos casos.
+
+14.° El que no socorriere o auxiliare a una persona que encontrare en despoblado herida, maltratada o en peligro de perecer, cuando pudiere hacerlo sin detrimento propio.
+
+15.° Los padres de familia o los que legalmente hagan sus veces que abandonen a sus hijos, no procurándoles la educación que permiten y requieren su clase y facultades.
+
+16.° El que sin estar legítimamente autorizado impidiere a otro con violencia hacer lo que la ley no prohíbe, o le compeliere a ejecutar lo que no quiera.
+
+17.° El que quebrantare los reglamentos o disposiciones de la autoridad sobre la custodia, conservación y transporte de materias inflamables o corrosivas o productos químicos que puedan causar estragos.
+
+18.° El dueño de animales feroces que en lugar accesible al público los dejare sueltos o en disposición de causar mal.
+
+Para estos efectos, se comprenderán como feroces los animales potencialmente peligrosos.
+
+19. El que ejecutare alguno de los hechos penados en los artículos 189, 233, 448, 467, 469, 470 y 477, siempre que el delito se refiera a valores que no excedan de una unidad tributaria mensual.
+
+> **BCN amendment note:** Ley 21020 Art. 36 N° 5 D.O. 02.08.2017 · LEY 19501 Art. 2 q) D.O. 15.05.1997
+
+20.° El que con violencia se apoderare de una cosa perteneciente a su deudor para hacerse pago con ella.
+
+21.° El que con violencia en las cosas entrare a cazar o pescar en lugar cerrado, o en lugar abierto contra expresa prohibición intimada personalmente.
+
+Con todo, tratándose de las faltas mencionadas en el número 19, la multa no será inferior al valor malversado o defraudado, al de la cosa hurtada o del daño causado, en su caso, y podrá alcanzar el doble de ese valor, aun cuando supere una unidad tributaria mensual.
+
+> **BCN amendment note:** LEY 19950 Art. 1 N° 3 D.O. 05.06.2004
+
+---
+
+### Art. 494 bis — Hurto falta
+
+**Theme:** Faltas  
+**ELI ID:** `CL.CPCL.L3.T1.Art.494bis`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+Los autores de hurto serán castigados con prisión en su grado mínimo a medio y multa de una a cuatro unidades tributarias mensuales, si el valor de la cosa hurtada no pasa de media unidad tributaria mensual.
+
+La falta de que trata este artículo se castigará con multa de una a cuatro unidades tributarias mensuales, si se encuentra en grado de frustrada. En estos casos, el tribunal podrá conmutar la multa por la realización de trabajos determinados en beneficio de la comunidad, señalando expresamente el tipo de trabajo, el lugar donde deba realizarse, su duración y la persona o institución encargada de controlar su cumplimiento. Los trabajos se realizarán, de preferencia, sin afectar la jornada laboral o de estudio que tenga el infractor, con un máximo de ocho horas semanales. La no realización cabal y oportuna de los trabajos determinados por el tribunal dejará sin efecto la conmutación por el solo ministerio de la ley, y deberá cumplirse íntegramente la sanción primitivamente aplicada.
+
+En los casos en que participen en el hurto individuos mayores de dieciocho años y menores de esa edad, se aplicará a los mayores la pena que les habría correspondido sin esa circunstancia, aumentada en un grado, si éstos se han prevalido de los menores en la perpetración de la falta.
+
+En caso de reincidencia en hurto falta frustrado, se duplicará la multa aplicada. Se entenderá que hay reincidencia cuando el responsable haya sido condenado previamente por delito de la misma especie, cualquiera haya sido la pena impuesta y su estado de cumplimiento. Si el responsable ha reincidido dos o más veces se triplicará la multa aplicada.
+
+La agravante regulada en el inciso precedente prescribirá de conformidad con lo dispuesto en el artículo 104. Tratándose de faltas, el término de la prescripción será de seis meses.
+
+> **BCN amendment note:** LEY 20140 Art. UNICO D.O. 30.12.2006
+
+---
+
+### Art. 494 ter — Acoso sexual en lugares públicos
+
+**Theme:** Faltas  
+**ELI ID:** `CL.CPCL.L3.T1.Art.494ter`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+Comete acoso sexual el que realizare, en lugares públicos o de libre acceso público, y sin mediar el consentimiento de la víctima, un acto de significación sexual capaz de provocar una situación objetivamente intimidatoria, hostil o humillante, y que no constituya una falta o delito al que se imponga una pena más grave, que consistiere en:
+
+> **BCN amendment note:** Ley 21153 Art. ÚNICO Nº 3 D.O. 03.05.2019
+
+1. Actos de carácter verbal o ejecutados por medio de gestos. En este caso se impondrá una multa de una a tres unidades tributarias mensuales.
+
+2. Conductas consistentes en acercamientos o persecuciones, o actos de exhibicionismo obsceno o de contenido sexual explícito. En cualquiera de estos casos se impondrá la pena de prisión en su grado medio a máximo y multa de cinco a diez unidades tributarias mensuales.
+
+---
+
+### Art. 495 — Otras faltas
+
+**Theme:** Faltas  
+**ELI ID:** `CL.CPCL.L3.T1.Art.495`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+Serán castigados con multa de una unidad tributaria mensual:
+
+> **BCN amendment note:** LEY 19501 Art. 2 r) D.O. 15.05.1997
+
+1.º El que contraviniere a las reglas que la autoridad dictare para conservar el orden público o evitar que se altere, salvo que el hecho constituya crimen o simple delito.
+
+2.º El que por quebrantar los reglamentos sobre espectáculos públicos ocasionare algún desorden.
+
+3.º El subordinado del orden civil que faltare al respeto y sumisión debidos a sus jefes o superiores.
+
+4.º El particular que cometiere igual falta respecto de cualquier funcionario revestido de autoridad pública, mientras ejerce sus funciones, y respecto de toda persona constituida en dignidad, aun cuando no sea en el ejercicio de sus funciones, siempre que fuere conocida o se anunciare como tal; sin perjuicio de imponer, tanto en este caso como en el anterior, la pena correspondiente al crimen o simple [delito].
+
+5.° El que públicamente ofendiere el pudor con acciones o dichos deshonestos.
+
+6.° El cónyuge que escandalizare con sus disensiones domésticas después de haber sido amonestado por la autoridad.
+
+7.° El que infringiere los reglamentos de policía en lo concerniente a quienes ejercen el comercio sexual.
+
+8.° El que diere espectáculos públicos sin licencia de la autoridad, o traspasando la que se le hubiere concedido.
+
+9.° El que abriere establecimientos sin licencia de la autoridad, cuando sea necesaria.
+
+10.° El que en la exposición de niños quebrantare los reglamentos.
+
+11.° El que infringiere las reglas establecidas para la quema de bosques, rastrojos u otros productos de la tierra, o para evitar la propagación de fuego en máquinas de vapor, caleras, hornos u otros lugares semejantes.
+
+12.° El que infringiere los reglamentos sobre corta de bosques o arbolados.
+
+13.° El que infringiere las leyes o reglamentos sobre apertura, conservación y reparación de vías públicas.
+
+14.° El que en caminos públicos, calles, plazas, ferias u otros sitios semejantes de reunión estableciere rifas u otros juegos de envite o azar.
+
+15.° El que defraudare al público en la venta de mantenimientos, ya sea en calidad, ya en cantidad, por valor que no exceda de una unidad tributaria mensual, y el que vendiere bebidas o mantenimientos deteriorados o nocivos.
+
+16.° El traficante que tuviere medidas o pesos falsos, aunque con ellos no hubiere defraudado.
+
+17.° El que usare en su tráfico medidas o pesos no contrastados.
+
+18.° El dueño o encargado de fondas, cafés, confiterías u otros establecimientos destinados al despacho de comestibles o bebidas que faltare a los reglamentos de policía relativos a la conservación o uso de vasijas o útiles destinados para el servicio.
+
+19.° El que faltando a las órdenes de la autoridad, descuidare reparar o demoler edificios ruinosos.
+
+20.° El que infringiere las reglas de seguridad concernientes a la apertura de pozos o excavaciones y al depósito de materiales o escombros, o a la colocación de cualesquiera otros objetos en las calles, plazas, paseos públicos o en la parte exterior de los edificios que embaracen el tráfico o puedan causar daño a los transeúntes.
+
+21.° El que intencionalmente o con negligencia culpable causare daño que no exceda de una unidad tributaria mensual en bienes públicos o de propiedad particular.
+
+22.° El que aprovechando aguas de otro o distrayéndolas de su curso, causare daño que no exceda de una unidad tributaria mensual.
+
+Con todo, la multa para las faltas señaladas en los números 15, 21 y 22 será a lo menos equivalente al valor de lo defraudado o del daño causado y podrá llegar hasta el doble de ese valor, aunque exceda una unidad tributaria mensual.
+
+> **BCN amendment note:** LEY 19927 Art. 1, N° 23 D.O. 14.01.2004 · LEY 19501 Art. 2 s) D.O. 15.05.1997 · LEY 19450 Art. 2, p, N° 2) D.O. 18.03.1996
+
+---
+
+### Art. 496 — Faltas de obediencia y otras
+
+**Theme:** Faltas  
+**ELI ID:** `CL.CPCL.L3.T1.Art.496`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+Sufrirán la pena de multa de una a cuatro unidades tributarias mensuales:
+
+> **BCN amendment note:** LEY 19501 Art. 2 u) D.O. 15.05.1997
+
+1.º El que faltare a la obediencia debida a la autoridad dejando de cumplir las órdenes particulares que ésta le diere, en todos aquellos casos en que la desobediencia no tenga señalada mayor pena por este Código o por leyes especiales.
+
+2.º El que pudiendo, sin grave detrimento propio, prestar a la autoridad el auxilio que reclamare en casos de incendio, inundación, naufragio u otra calamidad, se negare a ello.
+
+3.º El que impidiere el ejercicio de las funciones fiscalizadoras de los inspectores municipales.
+
+> **BCN amendment note:** Ley 20931 Art. 1 Nº 6 D.O. 05.07.2016
+
+4.º El que no diere los partes de defunción, contraviniendo a la ley o reglamentos.
+
+5.º El que ocultare su verdadero nombre y apellido a la autoridad o a persona que tenga derecho para exigir que los manifieste o se negare a manifestarlos o diere domicilio falso.
+
+> **BCN amendment note:** LEY 6827 Art. 48 D.O. 28.02.1941
+
+6.º El que infringiere las reglas de policía dirigidas a asegurar el abastecimiento de los pueblos.
+
+7.º El que con rondas u otros esparcimientos nocturnos altere el sosiego público, desobedeciendo a la autoridad.
+
+8.º El que tomare parte en encerradas u otras reuniones ofensivas a alguna persona, no estando comprendida en el núm. 2.º del art. 494.
+
+9.º El que se bañare quebrantando las reglas de decencia o seguridad establecidas por la autoridad.
+
+10.º El que riñere en público sin armas, salvo el caso de justa defensa propia o de un tercero.
+
+11.º El que injuriare a otro livianamente de obra o de palabra, no siendo por escrito y con publicidad.
+
+> **BCN amendment note:** Ley 21310 Art. 3 D.O. 03.02.2021
+
+12.º Derogado.
+
+13.º El que corriere carruajes o caballerías dentro de una población, no siendo en los casos previstos por el núm. 6.º del art. 494.
+
+14.º El que infringiere los reglamentos relativos a carruajes públicos o de particulares.
+
+15.º El que infringiere las reglas de policía relativas a posadas, fondas, tabernas y otros establecimientos públicos.
+
+16.º El encargado de la guarda de un loco o demente que le dejare vagar por sitios públicos sin la debida seguridad.
+
+17.º El dueño de animales dañinos que los dejare sueltos o en disposición de causar mal en las poblaciones.
+
+18.º El que con su embriaguez molestare a tercero en público.
+
+19.º El que arrojare animales muertos en sitios vedados o quebrantando las reglas de policía.
+
+20.° El que infringiere las reglas de policía en la elaboración de objetos fétidos o insalubres, o los arrojare a las calles, plazas o paseos públicos.
+
+21.° El que arrojare escombros u objetos punzantes o cortantes en lugares públicos, contraviniendo a las reglas de policía.
+
+22.° El que no entregare a la policía de aseo las basuras o desperdicios que hubiere en el interior de su habitación.
+
+23.° El que echar en las acequias de las poblaciones objetos que, impidiendo el libre y fácil curso de las aguas, puedan ocasionar anegación.
+
+24.° El que tuviere en balcones, ventanas, azoteas u otros puntos exteriores de sus casas tiestos u otros objetos, con infracción de las reglas de policía.
+
+25.° El que arrojare a la calle por balcones, ventanas o por cualquiera otra parte agua u objetos que puedan causar daño.
+
+26.° El que tirare piedras u otros objetos arrojadizos en parajes públicos, con riesgo de los transeúntes, o lo hiciere a las casas o edificios, en perjuicio de los mismos o con peligro de las personas.
+
+27.° El que infringiere los reglamentos en materia de juegos o diversiones dentro de las poblaciones.
+
+28.° El que entrare con carruajes, caballerías o animales dañinos en heredades plantadas o sembradas.
+
+29.° El que en contravención a los reglamentos construyere chimeneas, estufas u hornos, o dejare de limpiarlos o cuidarlos.
+
+30.° El que, empleando el fuego, elevare globos sin permiso de la autoridad.
+
+31.° El que, habiendo recibido de buena fe moneda falsa o cercenada o títulos de crédito falsos, los circulare después de constarle su falsedad o cercenamiento, siempre que su valor no exceda de una unidad tributaria mensual.
+
+32.° Derogado.
+
+33.° El que entrare en heredad ajena para coger frutas y comerlas en el acto.
+
+34.° El que entrare sin violencia a cazar o pescar en sitio vedado o cerrado.
+
+35.° Derogado.
+
+36.° El que infringiere los reglamentos de caza o pesca en el modo y tiempo de ejecutar una u otra o de vender sus productos.
+
+37.° Los empresarios del alumbrado público que faltaren a las reglas establecidas para su servicio, y los particulares que infringieren dichas reglas.
+
+38.° El que indebidamente apagare el alumbrado público o del exterior de los edificios, o de los portales, teatros, u otros lugares de espectáculo o reunión, o el de las escaleras de los mismos.
+
+> **BCN amendment note:** LEY 19501 Art. 2 u) D.O. 15.05.1997 · LEY 19918 Art. UNICO D.O. 18.12.2003 · LEY 18859 Art. UNICO N° 2 D.O. 29.11.1989
+
+---
+
+### Art. 497 — Daños por ganado
+
+**Theme:** Faltas  
+**ELI ID:** `CL.CPCL.L3.T1.Art.497`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+El dueño de ganados que entraren en heredad ajena cerrada y causaren daño, será castigado con multa, por cada cabeza de ganado:
+
+1.° De una unidad tributaria mensual, si fuere vacuno, caballar, mular o asnal.
+
+2.° De un quinto de unidad tributaria mensual, si fuere lanar o cabrio y la heredad tuviere arbolado.
+
+4.° Del tanto del daño causado a un tercio más, si fuere de otra especie no comprendida en los números anteriores. Esto mismo se observará si el ganado fuere lanar o cabrio y la heredad no tuviere arbolado.
+
+> **BCN amendment note:** LEY 19450 Art. 1 b) D.O. 18.03.1996 · LEY 19501 Art. 1 a) D.O. 15.05.1997
+
+**NOTA:** El numeral 21° de la ley 11183, publicada el 10.06.1953, modifica el presente artículo en el sentido de: sustituir su numeral 1° tal como se transcribe; suprimiendo su numeral 2° original. El numeral 3° pasa a ser 2°, sustituyéndose parte de su contenido por la frase transcrita, pero sin alterar la numeración respecto de su actual numeral 4°. Por tal razón, en la construcción de su texto actualizado se mantiene su numeración sin tener un orden correlativo.
+
+---
+
+### TÍTULO SEGUNDO — Disposiciones comunes a las faltas
+
+### Art. 498 — Cómplices en faltas
+
+**Theme:** Disposiciones comunes a faltas  
+**ELI ID:** `CL.CPCL.L3.T2.Art.498`  
+**Tags:** norm_type: penalty · scope: criminal
+
+Los cómplices en las faltas serán castigados con una pena que no exceda de la mitad de la que corresponda a los autores.
+
+---
+
+### Art. 499 — Comiso
+
+**Theme:** Disposiciones comunes a faltas  
+**ELI ID:** `CL.CPCL.L3.T2.Art.499`  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: financial_penalty
+
+Caerán en comiso:
+
+1.° Las armas que llevare el ofensor al hacer un daño o inferir injuria, si las hubiere mostrado.
+
+2.° Las bebidas y comestibles deteriorados y nocivos.
+
+3.° Los efectos falsificados, adulterados o averiados que se expendieren como legítimos o buenos.
+
+4.° Los comestibles en que se defraudare al público en cantidad o calidad.
+
+5.° Las medidas o pesos falsos.
+
+6.° Los enseres que sirvan para juegos o rifas.
+
+7.° Los efectos que se empleen para adivinaciones u otros engaños semejantes.
+
+---
+
+### Art. 500 — Facultad del tribunal
+
+**Theme:** Disposiciones comunes a faltas  
+**ELI ID:** `CL.CPCL.L3.T2.Art.500`  
+**Tags:** norm_type: power · scope: criminal
+
+El comiso de los instrumentos y efectos de las faltas, expresados en el artículo anterior, lo decretará el tribunal a su prudente arbitrio según los casos y circunstancias.
+
+---
+
+### Art. 501 — Límite a ordenanzas municipales
+
+**Theme:** Disposiciones comunes a faltas  
+**ELI ID:** `CL.CPCL.L3.T2.Art.501`  
+**Tags:** norm_type: prohibition · scope: criminal
+
+En las ordenanzas municipales y en los reglamentos generales o particulares que dictare en lo sucesivo la autoridad administrativa no se establecerán mayores penas que las señaladas en este libro, aun cuando hayan de imponerse en virtud de atribuciones gubernativas, a no ser que se determine otra cosa por leyes especiales.
+
+---
+
+### TÍTULO FINAL — De la observancia de este Código
+
+### Artículo Final — Vigencia del Código
+
+**Theme:** Observancia del Código  
+**ELI ID:** `CL.CPCL.Final`  
+**Tags:** norm_type: procedural · scope: criminal
+
+El presente Código comenzará a regir el primero de marzo de mil ochocientos setenta y cinco, y en esa fecha quedarán derogadas las leyes y demás disposiciones preexistentes sobre todas las materias que en él se tratan.
+
+Y por cuanto, oído el Consejo de Estado, he tenido a bien aprobarlo y sancionarlo; por tanto promúlguese y llévese a efecto en todas sus partes como ley de la República.
+
+FEDERICO ERRÁZURIZ.
+
+JOSÉ MARÍA BARCELÓ.
+
+---
+
+### Promulgación
+
+**Theme:** Promulgación  
+**ELI ID:** `CL.CPCL.Promulgacion`  
+**Tags:** norm_type: procedural · scope: criminal
+
+Santiago, noviembre 12 de 1874.
+
+Núm. 2561.- Para los efectos de la ley de esta fecha, en que se aprueba el Código Penal, nombro una comisión compuesta del Oficial Mayor del Ministerio de Justicia, Culto e Instrucción Pública, don Carlos Riesco, y de los jefes de sección del mismo Ministerio don Manuel Egidio Ballesteros y don Ramón C. Briseño.
+
+Anótese.
+
+ERRÁZURIZ.
+
+JOSÉ MARÍA BARCELÓ
+
+Certificamos que la presente edición del Código Penal está conforme con el proyecto aprobado por el Congreso Nacional.-Santiago, diciembre 15 de 1874.
+
+CARLOS RIESCO.- M. E. BALLESTEROS.- RAMÓN C. BRISEÑO.
 
 ---

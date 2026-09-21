@@ -4,7 +4,7 @@
 
 - **Source:** Convention on Offences and Certain Other Acts Committed on Board Aircraft, signed at Tokyo, 14 September 1963; UN Treaty Series No. 10106 / ICAO
 - **Fetched:** 2026-09-21
-- **Sha256:** n/a — not provided in source file
+- **Sha256:** `52c5e5b8adf97e9808f3b2d2448bf98b6b126e4bf26b5a72b4c3a6dc44a5a700` (`conv1-english.pdf`)
 - **Articles:** 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28
 - **Notes:** ✅ verified — Tokyo Convention 1963, full official English text. Articles 27 and 28 are unnumbered final clauses labeled here for structural consistency.
 

@@ -7,7 +7,7 @@
 | **Source URL** | https://bcn.cl/2VX3gL |
 | **Official text** | Código Aeronáutico (BCN Ley Chile), aprobado por Ley 18916, última versión 19-ENE-2026 (Ley 21792) |
 | **Fetched date** | 2026-09-21 |
-| **Sha256** | n/a — not provided in source file |
+| **Sha256** | `b777cbc595182e5bef04369f2edbbdc12600437d82bf4aeeda3df64856216685` (`CL.CACH.2024-07-05.pdf`) |
 | **Jurisdiction** | CL |
 | **Framework code** | CACH |
 | **Articles cached** | 1–203 |

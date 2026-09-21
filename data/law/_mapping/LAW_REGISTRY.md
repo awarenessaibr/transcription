@@ -1,36 +1,36 @@
 # Law Corpus Registry — `data/law/` ↔ Qdrant `la8159_law`
 
-Generated: 2026-09-21T08:22:20.381350
+Generated: 2026-09-21T10:10:13.105766
 
 ## Summary
 
 | Metric | Value |
 |---|---|
-| data/law .md files | 107 |
-| Article blocks (with ELI) | 1146 |
-| Unique article ELIs | 1146 |
+| data/law .md files | 112 |
+| Article blocks (with ELI) | 2179 |
+| Unique article ELIs | 2179 |
 | Reference-only files (no ELI) | 0 |
-| Qdrant points | 1146 |
-| Qdrant unique original_ids | 1146 |
+| Qdrant points | 2083 |
+| Qdrant unique original_ids | 2083 |
 | Qdrant duplicate original_ids | 0 |
-| Articles missing in Qdrant | 0 |
+| Articles missing in Qdrant | 96 |
 | Qdrant articles with no local ELI | 0 |
-| Same article already ingested (alias) | 6 |
-| Content exact match | 1146 |
+| Same article already ingested (alias) | 21 |
+| Content exact match | 2083 |
 | Content whitespace/separator-normalised | 0 |
 | Content drift (legacy revision) | 0 |
 | Title drift | 0 |
 | Theme drift / Tags drift | 0 / 0 |
 | doc_type drift (derived mapping) | 0 |
-| Files by language | {'pt': 55, 'es': 52} |
-| Articles by language | {'pt': 958, 'es': 188} |
-| Colliding ELIs (multi-locale) | 6 |
+| Files by language | {'pt': 56, 'es': 56} |
+| Articles by language | {'pt': 1133, 'es': 1046} |
+| Colliding ELIs (multi-locale) | 17 |
 | Citation aliases (resolving / total) | 0 / 0 |
 | Citation aliases broken (no corpus target) | 0 |
 | Citation aliases pointing away from the corpus | 0 |
 | Citation alias targets missing in Qdrant | 0 |
 | Relabels pending (planned canonicalisation) | 0 |
-| Validation OK | True |
+| Validation OK | False |
 
 ## Per-file coverage
 
@@ -104,6 +104,8 @@ Generated: 2026-09-21T08:22:20.381350
 | `CL/CL.L19496.Art.57.md` | es |  | 1 | 1 |  |  |
 | `CL/CL.L20555.Art.1.md` | es |  | 1 | 1 |  |  |
 | `CL/CL.LPDC.Art.56.md` | es |  | 1 | 1 | 1 |  |
+| `CL/CL_CACH.md` | es |  | 220 | 220 | 10 |  |
+| `CL/CL_CPCL.md` | es |  | 617 | 617 |  |  |
 | `CL/CodigoPenal.md` | es |  | 7 | 7 |  |  |
 | `CL/CodigoPenal_Prevaricacion.md` | es |  | 8 | 8 |  |  |
 | `CL/Constitucion.md` | es |  | 7 | 7 |  |  |
@@ -115,15 +117,17 @@ Generated: 2026-09-21T08:22:20.381350
 | `CL/DGAC_PREVAC.md` | es |  | 17 | 17 |  |  |
 | `CL/DTO2421_CGR.md` | es |  | 1 | 1 |  |  |
 | `CL/L16752_DGAC.md` | es |  | 20 | 20 |  |  |
-| `CL/L18916_CACH.md` | es |  | 9 | 9 | 4 |  |
+| `CL/L18916_CACH.md` | es |  | 9 | 9 | 9 |  |
 | `CL/L19496_LPDC.md` | es |  | 8 | 8 |  |  |
 | `CL/L19628_LPDP.md` | es |  | 2 | 2 |  |  |
 | `CL/L20285_Transparencia.md` | es |  | 25 | 25 |  |  |
 | `CL/L20405_INDH.md` | es |  | 2 | 2 |  |  |
+| `CL/L20609.md` | es |  | 20 | 20 |  |  |
+| `CL/L20831.md` | es |  | 16 | 16 |  |  |
 | `CL/L20880_Probidad.md` | es |  | 2 | 2 |  |  |
 | `CL/R218_JAC_DerechosPasajeros.md` | es |  | 4 | 4 |  |  |
-| `INT/ACHR_1969.md` | pt |  | 30 | 30 |  |  |
-| `INT/Chicago_1944.md` | pt |  | 3 | 3 |  |  |
+| `INT/ACHR.md` | pt |  | 83 | 83 |  |  |
+| `INT/Chicago1944.md` | pt |  | 96 | 0 |  |  |
 | `INT/Hague_1980.md` | pt |  | 2 | 2 |  |  |
 | `INT/IATA_GC.md` | pt |  | 19 | 19 |  |  |
 | `INT/ICAO_Annex10.md` | pt |  | 4 | 4 |  |  |
@@ -139,6 +143,7 @@ Generated: 2026-09-21T08:22:20.381350
 | `INT/ICAO_DOC9284.md` | pt |  | 1 | 1 |  |  |
 | `INT/ILC_ARSIWA.md` | pt |  | 1 | 1 |  |  |
 | `INT/MC99_1999.md` | pt |  | 60 | 60 |  |  |
+| `INT/TOKYO_1963.md` | pt |  | 29 | 29 |  |  |
 | `INT/UNCRC_1989.md` | pt |  | 4 | 4 |  |  |
 | `INT/UNGCP.md` | pt |  | 3 | 3 |  |  |
 | `INT/VCCR_1963.md` | pt |  | 3 | 3 |  |  |

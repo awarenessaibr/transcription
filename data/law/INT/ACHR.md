@@ -4,7 +4,7 @@
 
 - **Source:** United Nations Treaty Series, Vol. 1144, No. 17955 — American Convention on Human Rights: "Pact of San José, Costa Rica". Signed at San José, Costa Rica, on 22 November 1969. Registered by the Organization of American States on 27 August 1979.
 - **Fetched:** 2026-09-21
-- **Sha256:** n/a — not provided in source file
+- **Sha256:** `52c5e5b8adf97e9808f3b2d2448bf98b6b126e4bf26b5a72b4c3a6dc44a5a700` (`conv1-english.pdf`)
 - **Articles:** 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82
 - **Notes:** ✅ verified — UN Treaty Series authoritative English text. More complete than the earlier OAS B-32 version: includes Article 15 (Right of Assembly), correct Article 19 (Rights of the Child) text, Article 57 (Commission before Court), and full Articles 53, 54, 67, 77. ⚠️ Minor OCR gaps: Article 7 heading missing; Article 17 heading missing; some page-range text lost on pp. 5–6, 8–9, 14.
 
