@@ -11,7 +11,8 @@ Endpoints
 ``GET  /api/law/registry`` / ``/registry/markdown``
     The ``law_registry.json`` superset and its Markdown companion.
 ``POST /api/law/registry/refresh``
-    Re-run validation and rewrite both artifacts.
+    Re-run validation, fold in ``_mapping/alias_map.json``, and rewrite both
+    artifacts (coverage, citation-alias classification, pending relabels).
 ``GET  /api/law/source?path=``
     Corpus Markdown, path-traversal safe.
 ``GET  /api/law/article?original_id=``
@@ -85,6 +86,7 @@ from src.infrastructure.qdrant_law_index import (
     LawArticle,
     PayloadEditError,
     QdrantLawIndex,
+    load_alias_map,
     registry_paths,
 )
 
@@ -430,7 +432,12 @@ def get_registry_markdown() -> PlainTextResponse:
 
 @router.post("/registry/refresh")
 def refresh_registry() -> dict[str, Any]:
-    """Re-validate the corpus and rewrite both registry artifacts."""
+    """Re-validate the corpus and rewrite both registry artifacts.
+
+    The citation alias map (``_mapping/alias_map.json``) is folded in, so the
+    rewritten artifacts carry the alias edges, their classification against the
+    parsed corpus, and the relabels the corpus still has to ingest.
+    """
     from src.infrastructure.qdrant_law_index import write_registry
 
     index = get_index()
@@ -440,12 +447,29 @@ def refresh_registry() -> dict[str, Any]:
     except Exception as exc:  # noqa: BLE001
         raise HTTPException(status_code=503, detail=f"Qdrant unavailable: {exc}") from exc
 
-    json_path, md_path = write_registry(plan, report, output_dir=law_dir())
+    alias_map = load_alias_map(law_dir())
+    json_path, md_path = write_registry(plan, report, output_dir=law_dir(), alias_map=alias_map)
+    alias_audit = alias_map.audit(plan.by_original_id, missing_in_collection=report.missing_in_collection)
     return {
         "ok": report.ok,
+        #: False only when the map has an alias that cannot resolve — a broken
+        #: edge is a real defect, so the UI must not report a clean refresh.
+        "alias_ok": not alias_audit["aliases_broken"] and alias_audit["error"] is None,
         "json": str(json_path),
         "markdown": str(md_path),
         "report": report.as_dict(),
+        "aliases": {
+            "source": alias_audit["source"],
+            "error": alias_audit["error"],
+            "total": alias_audit["aliases_total"],
+            "resolving_in_corpus": alias_audit["aliases_resolving_into_corpus"],
+            "broken": alias_audit["aliases_broken"],
+            "pointing_away_from_corpus": alias_audit["aliases_pointing_away_from_corpus"],
+            "targets_missing_in_collection": alias_audit["targets_missing_in_collection"],
+            "relabel_plan_total": alias_audit["relabel_plan_total"],
+            "relabel_pending": alias_audit["relabel_pending"],
+            "distinct_targets": len(alias_audit["targets"]),
+        },
     }
 
 

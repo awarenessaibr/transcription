@@ -11,11 +11,11 @@ transcripts_appearing:
   - "[[I-002_06_NAR-STG_8_pdi_identity_control]]"
 appearances:
   - transcript_id: "I-002_06_NAR-STG_8_pdi_identity_control"
-    segment_labels: ""
-    segment_indices: ""
-    segment_count: "0"
+    segment_labels: "PDI-Female"
+    segment_indices: "21, 23, 27, 29, 31, 33, 35, 36, 37, 39, 41, 44, 47, 49, 50, 51, 53, 55, 58, 66, 68, 69, 71, 73, 74, 75, 78, 80, 91, 113"
+    segment_count: "30"
 appearance_count: "1"
-segment_count: "0"
+segment_count: "30"
 key_statements: []
 tags:
   - speaker
@@ -41,11 +41,11 @@ _provenance:
 <!-- BEGIN:APPEARANCES -->
 ## Appearances
 
-**1 transcript(s) · 0 mapped segment instance(s)**
+**1 transcript(s) · 30 mapped segment instance(s)**
 
 | Transcript | Segments | Labels |
 | --- | --- | --- |
-| [[I-002_06_NAR-STG_8_pdi_identity_control]] | 0 | — |
+| [[I-002_06_NAR-STG_8_pdi_identity_control]] | 30 <br><code>21, 23, 27, 29, 31, 33, 35, 36, 37, 39, 41, 44, …</code> | `PDI-Female` |
 
 <!-- END:APPEARANCES -->
 

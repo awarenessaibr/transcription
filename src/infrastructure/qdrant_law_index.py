@@ -2414,11 +2414,161 @@ def registry_paths(output_dir: str | Path | None = None) -> tuple[Path, Path]:
     return base / "law_registry.json", base / "LAW_REGISTRY.md"
 
 
+#: Filename of the strict citation-alias map, kept in the ``_mapping`` directory.
+ALIAS_MAP_FILENAME = "alias_map.json"
+
+
+def alias_map_path(output_dir: str | Path | None = None) -> Path:
+    """``_mapping/alias_map.json`` — beside the registry artifacts, never in the corpus."""
+    json_path, _ = registry_paths(output_dir)
+    return json_path.with_name(ALIAS_MAP_FILENAME)
+
+
+def _string_map(raw: Any) -> dict[str, str]:
+    """Coerce a JSON object into ``{str: str}``, dropping anything malformed."""
+    if not isinstance(raw, Mapping):
+        return {}
+    return {str(k): str(v) for k, v in raw.items() if isinstance(v, str)}
+
+
+@dataclass(slots=True)
+class AliasMap:
+    """Strict citation-alias map: a *cited* ELI → the ELI the corpus carries.
+
+    Kept in ``_mapping/alias_map.json`` so a citation checker can resolve a statute
+    that is cited under a different ELI family (``CL.CPR`` → ``CL.CONST``,
+    ``CL.LPDC`` → ``CL.L19496``, …).
+
+    Two directions are deliberately kept apart:
+
+    * :attr:`aliases` resolves *citations*, so every value must be an ELI that
+      exists in the corpus — otherwise the citation resolves to nothing.
+    * :attr:`relabel_plan` records the intended *canonicalisation* (current ELI →
+      canonical ELI). That only becomes true after the source file is re-ELI'd and
+      re-ingested, so keeping it separate stops a planned rename from being read
+      as "already available".
+    """
+
+    aliases: dict[str, str] = field(default_factory=dict)
+    relabel_plan: dict[str, str] = field(default_factory=dict)
+    canonical_families: dict[str, str] = field(default_factory=dict)
+    notes: list[str] = field(default_factory=list)
+    path: str = ""
+    error: str | None = None
+
+    def resolve(self, eli: str) -> str:
+        """Follow alias edges (cycle-safe) to the ELI a citation should use."""
+        seen: set[str] = set()
+        current = eli
+        while current in self.aliases and current not in seen:
+            seen.add(current)
+            current = self.aliases[current]
+        return current
+
+    def as_dict(self) -> dict[str, Any]:
+        return {
+            "source": self.path,
+            "aliases": dict(self.aliases),
+            "relabel_plan": dict(self.relabel_plan),
+            "canonical_families": dict(self.canonical_families),
+            "notes": list(self.notes),
+        }
+
+    def audit(
+        self,
+        corpus_elis: Iterable[str],
+        *,
+        missing_in_collection: Iterable[str] = (),
+    ) -> dict[str, Any]:
+        """Classify every alias edge against the parsed corpus.
+
+        The checks exist because an alias map is easy to get *directionally* wrong:
+        an entry whose key is itself an authored ELI points *away* from real
+        content, and an entry whose target is not in the corpus is a citation that
+        resolves to nothing.
+        """
+        corpus = set(corpus_elis)
+        missing = set(missing_in_collection)
+
+        broken: list[dict[str, str]] = []
+        points_away: list[dict[str, str]] = []
+        chains: list[dict[str, str]] = []
+        self_referential: list[str] = []
+        targets: dict[str, list[str]] = defaultdict(list)
+        resolved = 0
+
+        for alias, target in sorted(self.aliases.items()):
+            if alias == target:
+                self_referential.append(alias)
+                continue
+            if target in self.aliases:
+                chains.append({"alias": alias, "via": target, "resolved": self.resolve(alias)})
+            final = self.resolve(alias)
+            if final not in corpus:
+                broken.append({"alias": alias, "target": target, "resolved": final})
+            else:
+                resolved += 1
+                targets[final].append(alias)
+            if alias in corpus:
+                points_away.append({"alias": alias, "target": target})
+
+        relabel_pending = [
+            {"eli": eli, "canonical": canonical}
+            for eli, canonical in sorted(self.relabel_plan.items())
+            if eli in corpus
+        ]
+        return {
+            "source": self.path,
+            "loaded": self.error is None,
+            "error": self.error,
+            "aliases_total": len(self.aliases),
+            "aliases_resolving_into_corpus": resolved,
+            "aliases_broken": broken,
+            "aliases_pointing_away_from_corpus": points_away,
+            "alias_chains": chains,
+            "self_referential": self_referential,
+            #: resolved target ELI -> the citations that resolve to it
+            "targets": {k: v for k, v in sorted(targets.items())},
+            "targets_missing_in_collection": sorted(t for t in targets if t in missing),
+            "relabel_plan_total": len(self.relabel_plan),
+            "relabel_pending": relabel_pending,
+        }
+
+
+def load_alias_map(output_dir: str | Path | None = None) -> AliasMap:
+    """Load ``_mapping/alias_map.json``.
+
+    A missing file is normal (the map is optional) and yields an empty map. A
+    malformed file is surfaced on :attr:`AliasMap.error` instead of raising, so a
+    typo in the map cannot take down the registry refresh — but it is reported.
+    """
+    path = alias_map_path(output_dir)
+    if not path.is_file():
+        return AliasMap(path=str(path))
+    try:
+        raw = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        logger.warning("[law] unreadable alias map %s: %s", path, exc)
+        return AliasMap(path=str(path), error=f"{type(exc).__name__}: {exc}")
+    if not isinstance(raw, Mapping):
+        return AliasMap(path=str(path), error="alias map must be a JSON object")
+
+    notes_raw = raw.get("notes")
+    return AliasMap(
+        aliases=_string_map(raw.get("aliases")),
+        relabel_plan=_string_map(raw.get("relabel_plan")),
+        canonical_families=_string_map(raw.get("canonical_families")),
+        notes=[str(n) for n in notes_raw] if isinstance(notes_raw, list) else [],
+        path=str(path),
+    )
+
+
 def write_registry(
     plan: CorpusPlan,
     report: ValidationReport,
     *,
     output_dir: str | Path | None = None,
+    alias_map: AliasMap | None = None,
 ) -> tuple[Path, Path]:
     """Write ``law_registry.json`` + ``LAW_REGISTRY.md`` next to the corpus.
 
@@ -2435,6 +2585,10 @@ def write_registry(
     json_path, md_path = registry_paths(output_dir)
     json_path.parent.mkdir(parents=True, exist_ok=True)
 
+    if alias_map is None:
+        alias_map = load_alias_map(output_dir)
+    alias_audit = alias_map.audit(plan.by_original_id, missing_in_collection=report.missing_in_collection)
+
     missing = set(report.missing_in_collection)
     extra = set(report.extra_in_collection)
     live_source_basenames = set(report.source_files_in_collection)
@@ -2444,12 +2598,21 @@ def write_registry(
     for eli, rel_path in plan.skipped_variants:
         alias_by_file[rel_path].append(eli)
 
+    # Citation aliases per resolved target, so a file can report which citations
+    # it is the resolution target of. Distinct from ``alias_by_file`` above,
+    # which holds same-article/different-locale variants.
+    citations_by_target: dict[str, list[str]] = defaultdict(list)
+    for target, citations in alias_audit["targets"].items():
+        citations_by_target[target].extend(citations)
+
     files: list[dict[str, Any]] = []
     for file_report in plan.files:
         elis = file_report.unique_elis
         missing_eli = [e for e in elis if e in missing]
         in_qdrant_eli = [e for e in elis if e not in missing]
         alias_eli = alias_by_file.get(file_report.rel_path, [])
+        citation_aliases = sorted({c for e in elis for c in citations_by_target.get(e, [])})
+        relabel_eli = sorted(e for e in elis if e in alias_map.relabel_plan)
         files.append(
             {
                 "file": file_report.rel_path,
@@ -2466,6 +2629,10 @@ def write_registry(
                 "in_qdrant_eli": in_qdrant_eli,
                 "source_basename_present_in_qdrant": Path(file_report.rel_path).name
                 in live_source_basenames,
+                # -- alias-map detail (not part of the legacy JS schema) --
+                "citation_aliases_resolving_here": citation_aliases,
+                "citation_aliases_count": len(citation_aliases),
+                "relabel_pending_eli": relabel_eli,
                 # -- extra detail (not part of the legacy JS schema) --
                 "blocks_without_eli": file_report.blocks_without_eli,
             }
@@ -2487,6 +2654,13 @@ def write_registry(
         "genuinely_missing_articles": len(report.missing_in_collection),
         "qdrant_articles_without_local_file": len(report.extra_in_collection),
         "language_breakdown": dict(language_breakdown),
+        # -- citation alias map (not part of the legacy JS schema) --
+        "alias_map_entries": alias_audit["aliases_total"],
+        "alias_map_resolving_in_corpus": alias_audit["aliases_resolving_into_corpus"],
+        "alias_map_broken": len(alias_audit["aliases_broken"]),
+        "alias_map_pointing_away_from_corpus": len(alias_audit["aliases_pointing_away_from_corpus"]),
+        "alias_map_targets_missing_in_qdrant": len(alias_audit["targets_missing_in_collection"]),
+        "relabel_plan_entries": alias_audit["relabel_plan_total"],
     }
     detail = {
         "collection": report.collection,
@@ -2507,6 +2681,17 @@ def write_registry(
         "doc_type_drift": report.doc_type_drift,
         "missing_eli": report.missing_in_collection,
         "extra_eli": report.extra_in_collection,
+        "alias_map_source": alias_audit["source"],
+        "alias_map_error": alias_audit["error"],
+        "alias_map_total": alias_audit["aliases_total"],
+        "alias_map_resolving_in_corpus": alias_audit["aliases_resolving_into_corpus"],
+        "alias_map_broken": alias_audit["aliases_broken"],
+        "alias_map_pointing_away_from_corpus": alias_audit["aliases_pointing_away_from_corpus"],
+        "alias_map_targets_missing_in_collection": alias_audit["targets_missing_in_collection"],
+        "alias_map_chains": alias_audit["alias_chains"],
+        "alias_map_self_referential": alias_audit["self_referential"],
+        "relabel_plan_total": alias_audit["relabel_plan_total"],
+        "relabel_pending": alias_audit["relabel_pending"],
     }
 
     payload = {
@@ -2514,6 +2699,17 @@ def write_registry(
         "files": files,
         "qdrant_only_articles": report.extra_details,
         "detail": detail,
+        # The map itself plus its per-edge classification, so a consumer can
+        # resolve citations without re-reading ``_mapping/alias_map.json``.
+        "alias_map": alias_map.as_dict(),
+        # ``error`` is kept: an unreadable map is an audit verdict, not a
+        # transient failure, and a consumer must be able to tell "no aliases
+        # declared" from "aliases declared but unparsed".
+        "alias_audit": {
+            k: v
+            for k, v in alias_audit.items()
+            if k not in {"source", "loaded", "targets"}
+        } | {"citation_targets": alias_audit["targets"]},
     }
     json_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
@@ -2545,6 +2741,11 @@ def write_registry(
         f"| Files by language | {summary['language_breakdown']} |",
         f"| Articles by language | {detail['articles_language_breakdown']} |",
         f"| Colliding ELIs (multi-locale) | {detail['colliding_elis']} |",
+        f"| Citation aliases (resolving / total) | {summary['alias_map_resolving_in_corpus']} / {summary['alias_map_entries']} |",
+        f"| Citation aliases broken (no corpus target) | {summary['alias_map_broken']} |",
+        f"| Citation aliases pointing away from the corpus | {summary['alias_map_pointing_away_from_corpus']} |",
+        f"| Citation alias targets missing in Qdrant | {summary['alias_map_targets_missing_in_qdrant']} |",
+        f"| Relabels pending (planned canonicalisation) | {summary['relabel_plan_entries']} |",
         f"| Validation OK | {report.ok} |",
         "",
         "## Per-file coverage",
@@ -2562,11 +2763,98 @@ def write_registry(
         )
     lines.append("")
 
+    # -- citation alias map -------------------------------------------------
+    lines += [
+        "## Citation alias map",
+        "",
+        f"Source: `{alias_audit['source']}`",
+        "",
+    ]
+    if alias_audit["error"]:
+        lines += [f"> **Unreadable alias map** — {alias_audit['error']}", ""]
+    elif not alias_map.aliases:
+        lines += ["No alias entries.", ""]
+    else:
+        lines += [
+            "| Cited ELI | Resolves to | In corpus | In Qdrant |",
+            "|---|---|---|---|",
+        ]
+        for alias, target in sorted(alias_map.aliases.items()):
+            resolved = alias_map.resolve(alias)
+            in_corpus = resolved in plan.by_original_id
+            in_qdrant = in_corpus and resolved not in missing
+            if not in_corpus:
+                verdict, qdrant = "**no**", "—"
+            elif in_qdrant:
+                verdict, qdrant = "yes", "yes"
+            else:
+                verdict, qdrant = "yes", "**no**"
+            resolved_cell = f"`{resolved}`" if resolved == target else f"`{target}` → `{resolved}`"
+            lines.append(f"| `{alias}` | {resolved_cell} | {verdict} | {qdrant} |")
+        lines.append("")
+
+        if alias_audit["aliases_broken"]:
+            lines += [
+                "### Unresolved citation aliases",
+                "",
+                "These aliases have no ELI in the corpus, so a citation using them "
+                "resolves to nothing. Point them at an ELI the corpus carries, or "
+                "ingest the missing article.",
+                "",
+            ]
+            lines += [
+                f"- `{row['alias']}` → `{row['resolved'] or row['target']}` (absent from the corpus)"
+                for row in alias_audit["aliases_broken"]
+            ]
+            lines.append("")
+
+        if alias_audit["aliases_pointing_away_from_corpus"]:
+            lines += [
+                "### Aliases pointing away from authored content",
+                "",
+                "The alias *key* is itself an ELI the corpus carries, but the target "
+                "is not — the edge direction is inverted and would hide real content.",
+                "",
+            ]
+            lines += [
+                f"- `{row['alias']}` → `{row['target']}`" for row in alias_audit["aliases_pointing_away_from_corpus"]
+            ]
+            lines.append("")
+
+        if alias_audit["alias_chains"]:
+            lines += ["### Alias chains", ""]
+            lines += [
+                f"- `{row['alias']}` → `{row['via']}` → `{row['resolved']}`" for row in alias_audit["alias_chains"]
+            ]
+            lines.append("")
+
+    if alias_audit["relabel_pending"]:
+        lines += [
+            "## Planned relabels (not applied)",
+            "",
+            "Canonicalisation the corpus still has to ingest. A relabel is only real "
+            "once the source file carries the new ELI **and** the point is re-ingested; "
+            "until then citations resolve through the alias map above.",
+            "",
+            "| Current ELI | Intended canonical ELI |",
+            "|---|---|",
+        ]
+        lines += [
+            f"| `{row['eli']}` | `{row['canonical']}` |" for row in alias_audit["relabel_pending"]
+        ]
+        lines.append("")
+
+    if alias_map.notes:
+        lines += ["## Alias map notes", ""]
+        lines += [f"- {note}" for note in alias_map.notes]
+        lines.append("")
+
     md_path.write_text("\n".join(lines), encoding="utf-8")
     return json_path, md_path
 
 
 __all__ = [
+    "ALIAS_MAP_FILENAME",
     "BM25_MAX_CHARS",
     "BM25_MODEL",
     "BM25_VECTOR_NAME",
@@ -2590,6 +2878,7 @@ __all__ = [
     "SCHEMA_VERSION",
     "TAG_FIELDS",
     "VOLATILE_PAYLOAD_KEYS",
+    "AliasMap",
     "CanonicalLawIngester",
     "CorpusPlan",
     "FileReport",
@@ -2606,12 +2895,14 @@ __all__ = [
     "SearchHit",
     "ValidationReport",
     "article_number_for",
+    "alias_map_path",
     "build_payload_patch",
     "build_qdrant_client",
     "default_law_dir",
     "diff_payloads",
     "doc_type_for",
     "language_for_path",
+    "load_alias_map",
     "localized_point_id",
     "normalize_content",
     "parse_article_tags",

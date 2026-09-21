@@ -10,6 +10,7 @@ incidents:
 transcripts_appearing:
   - "[[I-002_04_NAR-06_STG_6_jetbridge_standoff]]"
   - "[[I-002_05_NAR-07_STG_7_post_removal_investigation]]"
+  - "[[I-002_06_NAR-STG_8_pdi_identity_control]]"
 appearances:
   - transcript_id: "I-002_04_NAR-06_STG_6_jetbridge_standoff"
     segment_labels: "dgac_official"
@@ -19,8 +20,12 @@ appearances:
     segment_labels: "dgac_official"
     segment_indices: "1, 4, 5, 7, 8, 9, 10, 12, 13, 16, 18, 19, 29, 32, 34, 36, 70, 71, 72, 74, 75, 76, 77, 78, 79, 81, 82, 84, 87, 90"
     segment_count: "30"
-appearance_count: "2"
-segment_count: "134"
+  - transcript_id: "I-002_06_NAR-STG_8_pdi_identity_control"
+    segment_labels: "DGAC, dgac_official"
+    segment_indices: "3, 6, 22, 25, 26, 28, 30, 32, 34, 84, 115, 117, 123, 125"
+    segment_count: "14"
+appearance_count: "3"
+segment_count: "148"
 key_statements: []
 tags:
   - speaker
@@ -41,17 +46,18 @@ _provenance:
 | Organization | DGAC (Dirección General de Aeronáutica Civil) |
 | Identification | role-only |
 | Incidents | I-002 |
-| Transcripts | [[I-002_04_NAR-06_STG_6_jetbridge_standoff]], [[I-002_05_NAR-07_STG_7_post_removal_investigation]] |
+| Transcripts | [[I-002_04_NAR-06_STG_6_jetbridge_standoff]], [[I-002_05_NAR-07_STG_7_post_removal_investigation]], [[I-002_06_NAR-STG_8_pdi_identity_control]] |
 
 <!-- BEGIN:APPEARANCES -->
 ## Appearances
 
-**2 transcript(s) · 134 mapped segment instance(s)**
+**3 transcript(s) · 148 mapped segment instance(s)**
 
 | Transcript | Segments | Labels |
 | --- | --- | --- |
 | [[I-002_04_NAR-06_STG_6_jetbridge_standoff]] | 104 <br><code>75, 76, 78, 79, 80, 83, 84, 86, 88, 90, 92, 93, …</code> | `dgac_official` |
 | [[I-002_05_NAR-07_STG_7_post_removal_investigation]] | 30 <br><code>1, 4, 5, 7, 8, 9, 10, 12, 13, 16, 18, 19, …</code> | `dgac_official` |
+| [[I-002_06_NAR-STG_8_pdi_identity_control]] | 14 <br><code>3, 6, 22, 25, 26, 28, 30, 32, 34, 84, 115, 117, …</code> | `DGAC`, `dgac_official` |
 
 <!-- END:APPEARANCES -->
 

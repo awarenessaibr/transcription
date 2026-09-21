@@ -1,0 +1,86 @@
+import json
+
+mapping = {
+    21: "PDI-Female",
+    22: "DGAC",
+    23: "PDI-Female",
+    25: "DGAC",
+    26: "DGAC",
+    27: "PDI-Female",
+    28: "DGAC",
+    29: "PDI-Female",
+    30: "DGAC",
+    31: "PDI-Female",
+    32: "DGAC",
+    33: "PDI-Female",
+    34: "DGAC",
+    35: "PDI-Female",
+    36: "PDI-Female",
+    37: "PDI-Female",
+    39: "PDI-Female",
+    41: "PDI-Female",
+    44: "PDI-Female",
+    47: "PDI-Female",
+    48: "PDI-Female 2",
+    49: "PDI-Female",
+    50: "PDI-Female",
+    51: "PDI-Female",
+    52: "PDI-Female 2",
+    53: "PDI-Female",
+    54: "PDI-Female 2",
+    55: "PDI-Female",
+    56: "PDI-Female 2",
+    58: "PDI-Female",
+    65: "PDI-Female 2",
+    66: "PDI-Female",
+    67: "PDI-Female 2",
+    68: "PDI-Female",
+    69: "PDI-Female",
+    70: "PDI",
+    71: "PDI-Female",
+    72: "PDI",
+    73: "PDI-Female",
+    74: "PDI-Female",
+    75: "PDI-Female",
+    78: "PDI-Female",
+    80: "PDI-Female",
+    81: "PDI",
+    84: "DGAC",
+    91: "PDI-Female",
+    94: "PDI",
+    95: "PDI",
+    96: "PDI",
+    97: "PDI",
+    98: "Joaquin Barraza",
+    101: "PDI",
+    102: "PDI",
+    104: "Chilean Officers",
+    105: "Chilean Officers",
+    106: "Chilean Officers",
+    107: "Chilean Officers",
+    108: "Chilean Officers",
+    109: "Chilean Officers",
+    110: "Chilean Officers",
+    111: "PDI",
+    112: "Chilean Officers",
+    113: "PDI-Female",
+    114: "Chilean Officers",
+    115: "DGAC",
+    116: "PDI",
+    117: "DGAC",
+    118: "Joaquin Barraza",
+    123: "DGAC",
+    125: "DGAC",
+}
+
+with open("I-002_06_NAR-STG_8_pdi_identity_control.json", "r", encoding="utf-8") as f:
+    data = json.load(f)
+
+for seg in data["segments"]:
+    if seg.get("speaker") == "multi_party_audio":
+        idx = seg.get("index")
+        if idx in mapping:
+            seg["speaker"] = mapping[idx]
+
+with open("I-002_06_NAR-STG_8_pdi_identity_control.corrected.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)

@@ -27,6 +27,9 @@ Examples
     # build the repo-owned semantic index
     python scripts/ingest_law_corpus.py ingest
 
+    # build the repo-owned semantic index
+    python scripts/ingest_law_corpus.py ingest --target both
+
     # what would change in the shared production collection?
     python scripts/ingest_law_corpus.py ingest --target canonical --dry-run
 

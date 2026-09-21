@@ -309,10 +309,12 @@ code {
 
 .kv-grid {
   display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
-  gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: 3px;
+  gap: 0; background: var(--bg-card); border: 1px solid var(--border); border-radius: 3px;
   overflow: hidden;
 }
-.kv { background: var(--bg-card); padding: 11px 14px; }
+/* Hairlines per-cell (see .alias-grid): a partially filled final row must not
+   render as a filler block. */
+.kv { background: var(--bg-card); padding: 11px 14px; box-shadow: 1px 1px 0 var(--border); }
 .kv dt {
   font-family: var(--mono); font-size: 0.58rem; text-transform: uppercase;
   letter-spacing: 0.07em; color: var(--text-muted); margin-bottom: 4px;
@@ -672,6 +674,56 @@ details.source-doc > summary:hover { color: var(--accent); }
   font-family: var(--mono); font-size: 0.7rem; line-height: 1.75; color: var(--text-secondary); white-space: pre-wrap;
 }
 
+/* ---------- Citation alias map ---------- */
+.alias-panel { margin: 22px 0 0; }
+.alias-card { border: 1px solid var(--border); border-radius: 6px; background: var(--bg-card); overflow: hidden; }
+.alias-head {
+  display: flex; align-items: center; gap: 10px; flex-wrap: wrap; width: 100%;
+  padding: 12px 16px; cursor: pointer; background: var(--bg-surface);
+  border: none; font: inherit; text-align: left;
+}
+.alias-head:hover { background: var(--accent-dim); }
+.alias-caret { font-size: 0.7rem; color: var(--text-muted); transition: transform .15s ease; }
+.alias-card.is-open .alias-caret { transform: rotate(90deg); }
+.alias-title { font-family: var(--serif); font-size: 1rem; font-weight: 600; color: var(--text-primary); }
+.alias-head .alias-meta { margin-left: auto; display: flex; align-items: center; gap: 7px; flex-wrap: wrap; }
+.alias-pill {
+  font-family: var(--mono); font-size: 0.62rem; padding: 2px 7px; border-radius: 999px;
+  border: 1px solid var(--border-strong); color: var(--text-secondary); white-space: nowrap;
+}
+.alias-pill.is-ok   { color: var(--status-note); border-color: var(--status-note); }
+.alias-pill.is-warn { color: var(--status-analysis); border-color: var(--status-analysis); }
+.alias-pill.is-bad  { color: var(--status-flag); border-color: var(--status-flag); }
+.alias-body { display: none; padding: 14px 16px 18px; border-top: 1px solid var(--border); }
+.alias-card.is-open .alias-body { display: block; }
+.alias-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(235px, 1fr));
+  gap: 0; background: var(--bg-card); border: 1px solid var(--border); border-radius: 3px;
+  overflow: hidden;
+}
+/* Hairlines drawn per-cell rather than via the container background, so a
+   trailing row that does not fill every column stays blank instead of showing
+   a filler block. */
+.alias-row { background: var(--bg-card); padding: 9px 12px; display: grid; gap: 3px; box-shadow: 1px 1px 0 var(--border); }
+.alias-row .cited { font-family: var(--mono); font-size: 0.68rem; color: var(--text-primary); word-break: break-all; }
+.alias-row .resolves { font-family: var(--mono); font-size: 0.64rem; color: var(--text-muted); word-break: break-all; }
+.alias-row .resolves.is-broken { color: var(--status-flag); }
+.alias-row.is-broken { box-shadow: inset 3px 0 0 var(--status-flag); }
+.alias-row.is-warn { box-shadow: inset 3px 0 0 var(--status-analysis); }
+.alias-sub {
+  font-family: var(--mono); font-size: 0.63rem; text-transform: uppercase;
+  letter-spacing: 0.08em; color: var(--text-muted); margin: 18px 0 10px;
+}
+.alias-callout {
+  border: 1px solid var(--status-flag); border-left-width: 3px; border-radius: 4px;
+  background: var(--bg-surface); padding: 11px 13px; font-size: 0.75rem;
+  color: var(--text-secondary); line-height: 1.6;
+}
+.alias-callout.is-warn { border-color: var(--status-analysis); }
+.alias-callout ul { margin: 7px 0 0; padding-left: 18px; }
+.alias-callout code { font-family: var(--mono); font-size: 0.68rem; }
+.alias-empty { font-size: 0.78rem; color: var(--text-muted); }
+
 /* ---------- Toasts ---------- */
 .toast-wrap { position: fixed; right: 20px; bottom: 20px; z-index: 200; display: grid; gap: 9px; max-width: 380px; }
 .toast {
@@ -703,7 +755,7 @@ details.source-doc > summary:hover { color: var(--accent); }
     <div class="masthead-row">
       <span class="masthead-back">Case Hub / Law Corpus / data-law ↔ qdrant la8159_law</span>
       <div class="masthead-actions">
-        <button class="btn btn-ghost" id="refreshRegistryBtn" title="Re-validate the corpus and rewrite law_registry.json">Refresh registry</button>
+        <button class="btn btn-ghost" id="refreshRegistryBtn" title="Re-validate the corpus, fold in the citation alias map (_mapping/alias_map.json), and rewrite law_registry.json + LAW_REGISTRY.md">Refresh registry</button>
         <button class="btn btn-ghost" id="registryBtn">Registry source</button>
         <div class="btn-wrap">
           <button class="btn btn-accent" id="indexBtn" aria-haspopup="true" aria-expanded="false">
@@ -795,6 +847,7 @@ details.source-doc > summary:hover { color: var(--accent); }
 <!-- ================= MAIN ================= -->
 <main class="main">
   <div class="job-panel" id="jobPanel"></div>
+  <div class="alias-panel" id="aliasPanel"></div>
   <div id="content"></div>
 </main>
 
@@ -865,6 +918,11 @@ const state = {
   refOnly: false,
   currentFile: null,
   sourceCache: {},
+
+  // Citation alias map (from the registry JSON, or a registry refresh)
+  aliasMap: null,
+  aliasAudit: null,
+  aliasOpen: false,
 
   // API-backed state (only meaningful when served by the app)
   api: false,
@@ -971,6 +1029,10 @@ function ingestRegistry(data, md) {
   }
 
   state.summary = data.summary || {};
+  // The citation alias map is part of the registry artifact; ``alias_audit``
+  // carries its classification against the parsed corpus.
+  state.aliasMap = data.alias_map || null;
+  state.aliasAudit = normalizeAliasAudit(data);
   state.files = (data.files || []).map(f => {
     const jur = jurisdictionOf(f.file);
     const total = Number(f.articles_local ?? 0);
@@ -1122,7 +1184,9 @@ function matchesQuery(file, q) {
     file.file, file.title, file.language, file.reference_note,
     (file.in_qdrant_eli || []).join(' '),
     (file.missing_eli || []).join(' '),
-    (file.alias_eli || []).join(' ')
+    (file.alias_eli || []).join(' '),
+    (file.citation_aliases_resolving_here || []).join(' '),
+    (file.relabel_pending_eli || []).join(' ')
   ].join(' \u0000 ').toLowerCase();
   return q.toLowerCase().split(/\s+/).filter(Boolean).every(term => hay.includes(term));
 }
@@ -1153,6 +1217,7 @@ function getFiltered() {
    ================================================================== */
 function render() {
   renderStats();
+  renderAliasPanel();
   renderContent();
 }
 
@@ -1180,6 +1245,129 @@ function renderStats() {
   bar.innerHTML = items.map(([label, val]) =>
     `<div class="stat-item"><div class="stat-val">${val}</div><div class="stat-label">${label}</div></div>`
   ).join('');
+}
+
+/* ==================================================================
+   CITATION ALIAS MAP
+   ================================================================== */
+/* The registry artifact carries a dedicated ``alias_audit`` block; older
+   artifacts and the on-demand registry only have the flattened ``detail``
+   keys. Fold both into one shape so the panel has a single contract. */
+function normalizeAliasAudit(data) {
+  if (data.alias_audit) return data.alias_audit;
+  const d = data.detail || {};
+  if (d.alias_map_total === undefined) return null;
+  return {
+    aliases_total: d.alias_map_total ?? 0,
+    aliases_resolving_into_corpus: d.alias_map_resolving_in_corpus ?? 0,
+    aliases_broken: d.alias_map_broken || [],
+    aliases_pointing_away_from_corpus: d.alias_map_pointing_away_from_corpus || [],
+    targets_missing_in_collection: d.alias_map_targets_missing_in_collection || [],
+    relabel_plan_total: d.relabel_plan_total ?? 0,
+    relabel_pending: d.relabel_pending || [],
+    error: d.alias_map_error || null,
+    citation_targets: {}
+  };
+}
+
+function renderAliasPanel() {
+  const panel = document.getElementById('aliasPanel');
+  if (!panel) return;
+
+  const map = state.aliasMap;
+  const audit = state.aliasAudit || {};
+  const aliases = (map && map.aliases) || {};
+  const entries = Object.keys(aliases).sort();
+  const relabel = audit.relabel_pending || [];
+  const error = audit.error || null;
+
+  if (!state.loaded || (!entries.length && !relabel.length && !error)) {
+    panel.innerHTML = '';
+    return;
+  }
+
+  const brokenByAlias = {};
+  (audit.aliases_broken || []).forEach(r => { brokenByAlias[r.alias] = r; });
+  const awayByAlias = {};
+  (audit.aliases_pointing_away_from_corpus || []).forEach(r => { awayByAlias[r.alias] = r; });
+  const missingTargets = new Set(audit.targets_missing_in_collection || []);
+
+  const brokenCount = Object.keys(brokenByAlias).length;
+  const awayCount = Object.keys(awayByAlias).length;
+
+  const pills = [`<span class="alias-pill">${entries.length} alias${entries.length === 1 ? '' : 'es'}</span>`];
+  if (missingTargets.size) pills.push(`<span class="alias-pill is-warn">${missingTargets.size} target${missingTargets.size === 1 ? '' : 's'} not in Qdrant</span>`);
+  if (awayCount) pills.push(`<span class="alias-pill is-warn">${awayCount} inverted</span>`);
+  if (brokenCount) pills.push(`<span class="alias-pill is-bad">${brokenCount} broken</span>`);
+  if (relabel.length) pills.push(`<span class="alias-pill is-warn">${relabel.length} relabel${relabel.length === 1 ? '' : 's'} pending</span>`);
+
+  let body = '';
+  if (error) {
+    body += `<div class="alias-callout"><strong>Alias map unreadable.</strong> <code>${escapeHtml(error)}</code></div>`;
+  }
+
+  if (entries.length) {
+    body += '<div class="alias-grid">' + entries.map(a => {
+      const target = aliases[a];
+      const broken = brokenByAlias[a];
+      const away = awayByAlias[a];
+      const cls = broken ? 'is-broken' : (away || missingTargets.has(target) ? 'is-warn' : '');
+      let reason = target;
+      let isBroken = false;
+      if (broken) {
+        reason = `\u2717 ${broken.resolved || target} \u2014 not in the corpus`;
+        isBroken = true;
+      } else if (away) {
+        reason = `\u26a0 ${target} \u2014 the alias key is itself authored content`;
+      } else if (missingTargets.has(target)) {
+        reason = `\u26a0 ${target} \u2014 not in Qdrant`;
+      }
+      return `<div class="alias-row ${cls}">
+        <span class="cited">${escapeHtml(a)}</span>
+        <span class="resolves${isBroken ? ' is-broken' : ''}">\u2192 ${escapeHtml(reason)}</span>
+      </div>`;
+    }).join('') + '</div>';
+  } else {
+    body += '<div class="alias-empty">No citation aliases defined.</div>';
+  }
+
+  if (relabel.length) {
+    body += `<div class="alias-sub">Planned relabels \u2014 not applied</div>
+      <div class="alias-callout is-warn">
+        Canonicalisation the corpus still has to ingest. A relabel is only real once the source
+        file carries the new ELI <em>and</em> the point is re-ingested; until then citations
+        resolve through the alias map above.
+        <ul>${relabel.map(r => `<li><code>${escapeHtml(r.eli)}</code> \u2192 <code>${escapeHtml(r.canonical)}</code></li>`).join('')}</ul>
+      </div>`;
+  }
+
+  const notes = (map && map.notes) || [];
+  if (notes.length) {
+    body += `<div class="alias-sub">Notes</div>
+      <div class="edit-note">${notes.map(n => escapeHtml(n)).join('<br>')}</div>`;
+  }
+
+  const source = (map && map.source) || '';
+  panel.innerHTML = `
+    <div class="alias-card${state.aliasOpen ? ' is-open' : ''}">
+      <button class="alias-head" type="button" id="aliasToggle" aria-expanded="${state.aliasOpen ? 'true' : 'false'}">
+        <span class="alias-caret">\u25b8</span>
+        <span class="alias-title">Citation alias map</span>
+        <span class="alias-meta">${pills.join('')}</span>
+      </button>
+      <div class="alias-body">
+        ${source ? `<div class="edit-note" style="margin-bottom:12px">Source: <code>${escapeHtml(source)}</code></div>` : ''}
+        ${body}
+      </div>
+    </div>`;
+
+  const toggle = document.getElementById('aliasToggle');
+  if (toggle) {
+    toggle.addEventListener('click', () => {
+      state.aliasOpen = !state.aliasOpen;
+      renderAliasPanel();
+    });
+  }
 }
 
 function renderContent() {
@@ -1353,6 +1541,7 @@ function openModal(fileKey) {
     ['In Qdrant', formatNumber(f._inQdrant)],
     ['Missing', formatNumber(f._missing)],
     ['Aliases', formatNumber(f._aliases)],
+    ['Cited as (alias map)', formatNumber(f.citation_aliases_count || 0)],
     ['Coverage', f.reference_only ? '—' : `${Math.round(f._coverage * 100)}%`],
     ['Basename in Qdrant', f.source_basename_present_in_qdrant ? 'yes' : 'no']
   ];
@@ -1401,6 +1590,31 @@ function openModal(fileKey) {
       <div class="eli-list">
         ${aliases.map(id => `<div class="eli-item eli-alias">${escapeHtml(id)}</div>`).join('')}
       </div>
+    </div>`;
+  }
+
+  // Citations that _mapping/alias_map.json resolves to an article carried by this file.
+  const citedAs = f.citation_aliases_resolving_here || [];
+  if (citedAs.length) {
+    html += `<div class="modal-section">
+      <div class="modal-section-label" style="color:var(--status-note)">Cited as · ${citedAs.length}</div>
+      <div class="eli-list">
+        ${citedAs.map(id => `<div class="eli-item" style="color:var(--status-note);border-left-color:var(--status-note)">${escapeHtml(id)}</div>`).join('')}
+      </div>
+      <div class="edit-note" style="margin-top:8px">Citations using these ELIs resolve, through <code>_mapping/alias_map.json</code>, to articles carried by this file.</div>
+    </div>`;
+  }
+
+  // Canonicalisation this file still owes the corpus.
+  const relabelPending = f.relabel_pending_eli || [];
+  if (relabelPending.length) {
+    const plan = (state.aliasMap && state.aliasMap.relabel_plan) || {};
+    html += `<div class="modal-section">
+      <div class="modal-section-label" style="color:var(--status-analysis)">Relabel pending · ${relabelPending.length}</div>
+      <div class="eli-list">
+        ${relabelPending.map(id => `<div class="eli-item eli-alias" title="Planned canonical ELI: ${escapeHtml(plan[id] || '')}">${escapeHtml(id)}${plan[id] ? ` → ${escapeHtml(plan[id])}` : ''}</div>`).join('')}
+      </div>
+      <div class="edit-note" style="margin-top:8px">Planned, not applied: the source file still has to be re-ELI'd and re-ingested.</div>
     </div>`;
   }
 
@@ -1808,10 +2022,27 @@ async function refreshRegistryArtifacts() {
   btn.textContent = 'Refreshing…';
   try {
     const res = await apiFetch('/registry/refresh', { method: 'POST' });
+    const a = res.aliases || {};
+    const total = Number(a.total || 0);
+    const resolving = Number(a.resolving_in_corpus || 0);
+    const broken = (a.broken || []).length;
+    const away = (a.pointing_away_from_corpus || []).length;
+    const relabels = (a.relabel_pending || []).length;
+
+    const aliasBits = [];
+    if (a.error) aliasBits.push(`map unreadable (${a.error})`);
+    if (total) aliasBits.push(`${resolving}/${total} citation aliases resolve`);
+    if (broken) aliasBits.push(`${broken} broken`);
+    if (away) aliasBits.push(`${away} pointing away from the corpus`);
+    if (relabels) aliasBits.push(`${relabels} relabel${relabels === 1 ? '' : 's'} pending`);
+
     toast(
       `Registry rewritten (${res.ok ? 'coverage complete' : 'coverage gaps remain'}).<br>` +
-      `<code>${escapeHtml(basename(res.json))}</code> · <code>${escapeHtml(basename(res.markdown))}</code>`,
-      res.ok ? 'ok' : 'error'
+      `<code>${escapeHtml(basename(res.json))}</code> · <code>${escapeHtml(basename(res.markdown))}</code>` +
+      (aliasBits.length
+        ? `<br>Alias map folded in: ${aliasBits.map(b => escapeHtml(b)).join(' · ')}.`
+        : '<br>No citation alias map (<code>_mapping/alias_map.json</code>) found.'),
+      res.ok && res.alias_ok !== false ? 'ok' : 'error'
     );
     await Promise.all([reloadRegistryData(), refreshStatus()]);
   } catch (e) {

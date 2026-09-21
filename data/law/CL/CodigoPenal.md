@@ -10,8 +10,8 @@
 | **Sha256** | 509efbf4814f18b681903a7e6c1cd828443c47cb4930c67991d7a32c69fe0baf |
 | **Jurisdiction** | CL |
 | **Framework code** | CPCL |
-| **Articles cached** | 17, 94, 255, 269 ter, 412, 416, 494 N 16 |
-| **Notes** | Official BCN/leychile text. This rebuild replaces stale mirror summaries that previously mis-described Arts. 141, 223, 224 and 497. Art. 494 is broad; only numeral 16 is locked here because that is the coercion/falta provision used in the validated Chile materials. |
+| **Articles cached** | 17, 94, 211, 255, 412, 416, 494 N 16 |
+| **Notes** | Official BCN/leychile text. This rebuild replaces stale mirror summaries that previously mis-described Arts. 141, 223, 224 and 497. Art. 494 is broad; only numeral 16 is locked here because that is the coercion/falta provision used in the validated Chile materials. Art. 211 carries its in-force text (Ley 21592 Art. 21 N° 1, D.O. 21.08.2023, unchanged through the 20-AGO-2026 version); the pre-amendment wording still quoted by eleven vaults is repealed. `269 ter` was dropped from this list because the file has never carried that block — it lives in `CL.CPCL.C1.Art.269_ter.md`. |
 
 ---
 
@@ -50,6 +50,22 @@ La accion penal prescribe:
 Cuando la pena senalada al delito sea compuesta, se estara a la privativa de libertad, para la aplicacion de las reglas comprendidas en los tres primeros acapites de este articulo; si no se impusieren penas privativas de libertad, se estara a la mayor.
 
 Las reglas precedentes se entienden sin perjuicio de las prescripciones de corto tiempo que establece este Codigo para delitos determinados.
+
+---
+
+### Art. 211 — Denuncia calumniosa
+
+**ELI ID:** `CL.CPCL.C1.Art.211`  
+**Hierarchy:** Compat alias · Art. 211  
+**Tags:** norm_type: penalty · scope: criminal · sanctions: criminal_liability
+
+El que maliciosamente presentare una denuncia por la cual se impute falsamente a otra persona un hecho determinado constitutivo de delito, infraccion administrativa o infraccion disciplinaria sera sancionado:
+
+1. Con la pena de presidio menor en su grado medio y multa de once a veinte unidades tributarias mensuales si el hecho imputado fuere constitutivo de crimen.  
+2. Con la pena de presidio menor en sus grados minimo a medio y multa de seis a diez unidades tributarias mensuales si el hecho imputado fuere constitutivo de simple delito o de infraccion administrativa.  
+3. Con la pena de presidio menor en su grado minimo y multa de una a cinco unidades tributarias mensuales si el hecho imputado fuere constitutivo de falta o fuere de aquellos que diere lugar a una infraccion disciplinaria.
+
+Para los efectos del inciso anterior, se entendera tambien que denuncia el que presenta querella o formula acusacion particular en un proceso penal.
 
 ---
 

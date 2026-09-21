@@ -1,30 +1,35 @@
 # Law Corpus Registry — `data/law/` ↔ Qdrant `la8159_law`
 
-Generated: 2026-09-19T11:35:06.383098
+Generated: 2026-09-21T06:49:34.694923
 
 ## Summary
 
 | Metric | Value |
 |---|---|
-| data/law .md files | 119 |
-| Article blocks (with ELI) | 1145 |
-| Unique article ELIs | 1145 |
-| Reference-only files (no ELI) | 3 |
+| data/law .md files | 107 |
+| Article blocks (with ELI) | 1146 |
+| Unique article ELIs | 1146 |
+| Reference-only files (no ELI) | 0 |
 | Qdrant points | 1119 |
 | Qdrant unique original_ids | 1119 |
 | Qdrant duplicate original_ids | 0 |
-| Articles missing in Qdrant | 26 |
-| Qdrant articles with no local ELI | 0 |
-| Same article already ingested (alias) | 294 |
-| Content exact match | 787 |
+| Articles missing in Qdrant | 35 |
+| Qdrant articles with no local ELI | 8 |
+| Same article already ingested (alias) | 6 |
+| Content exact match | 775 |
 | Content whitespace/separator-normalised | 280 |
-| Content drift (legacy revision) | 52 |
-| Title drift | 1 |
-| Theme drift / Tags drift | 1 / 0 |
-| doc_type drift (derived mapping) | 672 |
-| Files by language | {'pt': 55, 'es': 41, 'en': 23} |
-| Articles by language | {'pt': 674, 'es': 179, 'en': 292} |
-| Colliding ELIs (multi-locale) | 293 |
+| Content drift (legacy revision) | 56 |
+| Title drift | 5 |
+| Theme drift / Tags drift | 5 / 4 |
+| doc_type drift (derived mapping) | 664 |
+| Files by language | {'pt': 55, 'es': 52} |
+| Articles by language | {'pt': 958, 'es': 188} |
+| Colliding ELIs (multi-locale) | 6 |
+| Citation aliases (resolving / total) | 0 / 0 |
+| Citation aliases broken (no corpus target) | 0 |
+| Citation aliases pointing away from the corpus | 0 |
+| Citation alias targets missing in Qdrant | 0 |
+| Relabels pending (planned canonicalisation) | 0 |
 | Validation OK | False |
 
 ## Per-file coverage
@@ -67,6 +72,19 @@ Generated: 2026-09-19T11:35:06.383098
 | `BR/R770_ANAC_CodigoEtica.md` | pt |  | 46 | 46 |  |  |
 | `CL/CC_CodigoCivil.md` | es |  | 6 | 6 |  |  |
 | `CL/CHIPENCOD_CP.md` | es |  | 12 | 12 |  |  |
+| `CL/CL.CACH.Art.127.md` | es |  | 1 | 0 |  |  |
+| `CL/CL.CACH.Art.131.md` | es |  | 1 | 1 |  |  |
+| `CL/CL.CACH.Art.132.md` | es |  | 1 | 0 |  |  |
+| `CL/CL.CACH.Art.133.md` | es |  | 1 | 1 |  |  |
+| `CL/CL.CACH.Art.133A.md` | es |  | 1 | 1 |  |  |
+| `CL/CL.CACH.Art.133B.md` | es |  | 1 | 1 |  |  |
+| `CL/CL.CACH.Art.133C.md` | es |  | 1 | 0 |  |  |
+| `CL/CL.CACH.Art.133D.md` | es |  | 1 | 0 |  |  |
+| `CL/CL.CACH.Art.133E.md` | es |  | 1 | 0 |  |  |
+| `CL/CL.CACH.Art.133F.md` | es |  | 1 | 0 |  |  |
+| `CL/CL.CC.Art.2314.md` | es |  | 1 | 1 | 1 |  |
+| `CL/CL.CP.Art.211.md` | es |  | 1 | 0 |  |  |
+| `CL/CL.CP.Art.412.md` | es |  | 1 | 0 |  |  |
 | `CL/CL.CPCL.C1.Art.228.md` | es |  | 1 | 0 |  |  |
 | `CL/CL.CPCL.C1.Art.229.md` | es |  | 1 | 0 |  |  |
 | `CL/CL.CPCL.C1.Art.256.md` | es |  | 1 | 0 |  |  |
@@ -85,11 +103,9 @@ Generated: 2026-09-19T11:35:06.383098
 | `CL/CL.L19496.Art.56H.md` | es |  | 1 | 0 |  |  |
 | `CL/CL.L19496.Art.57.md` | es |  | 1 | 0 |  |  |
 | `CL/CL.L20555.Art.1.md` | es |  | 1 | 0 |  |  |
-| `CL/ChileanCivilCodeandRelatedLaws.md` | es | yes | 0 | 0 |  | whole-code / institutional document (no article ELIs) |
-| `CL/CodigoPenal.md` | es |  | 7 | 7 | 1 |  |
-| `CL/CodigoPenalChile.md` | es | yes | 0 | 0 |  | whole-code / institutional document (no article ELIs) |
-| `CL/CodigoPenal_269bis_269ter.md` | es |  | 2 | 1 | 2 |  |
-| `CL/CodigoPenal_Prevaricacion.md` | es |  | 10 | 0 | 2 |  |
+| `CL/CL.LPDC.Art.56.md` | es |  | 1 | 0 | 1 |  |
+| `CL/CodigoPenal.md` | es |  | 7 | 6 |  |  |
+| `CL/CodigoPenal_Prevaricacion.md` | es |  | 8 | 0 |  |  |
 | `CL/Constitucion.md` | es |  | 7 | 6 |  |  |
 | `CL/Constitucion_BCN.md` | es |  | 4 | 4 |  |  |
 | `CL/DAN17_DGAC.md` | es |  | 12 | 12 |  |  |
@@ -99,54 +115,37 @@ Generated: 2026-09-19T11:35:06.383098
 | `CL/DGAC_PREVAC.md` | es |  | 17 | 17 |  |  |
 | `CL/DTO2421_CGR.md` | es |  | 1 | 1 |  |  |
 | `CL/L16752_DGAC.md` | es |  | 20 | 20 |  |  |
-| `CL/L18916_CACH.md` | es |  | 9 | 9 |  |  |
+| `CL/L18916_CACH.md` | es |  | 9 | 9 | 4 |  |
 | `CL/L19496_LPDC.md` | es |  | 8 | 8 |  |  |
 | `CL/L19628_LPDP.md` | es |  | 2 | 2 |  |  |
 | `CL/L20285_Transparencia.md` | es |  | 25 | 25 |  |  |
 | `CL/L20405_INDH.md` | es |  | 2 | 2 |  |  |
 | `CL/L20880_Probidad.md` | es |  | 2 | 2 |  |  |
 | `CL/R218_JAC_DerechosPasajeros.md` | es |  | 4 | 4 |  |  |
-| `CORP/LATAM_CodeOfConduct_2024.md` | en | yes | 0 | 0 |  | whole-code / institutional document (no article ELIs) |
-| `INT/BR/ACHR_1969.md` | pt |  | 30 | 30 | 30 |  |
-| `INT/BR/BR_CL_Joint_Declaration_2024.md` | pt |  | 8 | 8 | 8 |  |
-| `INT/BR/Hague_1980.md` | pt |  | 2 | 2 | 2 |  |
-| `INT/BR/IATA_GC.md` | pt |  | 19 | 19 | 19 |  |
-| `INT/BR/ICAO_Annex10.md` | pt |  | 4 | 4 | 4 |  |
-| `INT/BR/ICAO_Annex11.md` | pt |  | 10 | 10 | 10 |  |
-| `INT/BR/ICAO_Annex13.md` | pt |  | 1 | 1 | 1 |  |
-| `INT/BR/ICAO_Annex14.md` | pt |  | 21 | 21 | 21 |  |
-| `INT/BR/ICAO_Annex17.md` | pt |  | 7 | 7 | 7 |  |
-| `INT/BR/ICAO_Annex18.md` | pt |  | 4 | 4 | 4 |  |
-| `INT/BR/ICAO_Annex6.md` | pt |  | 30 | 30 | 30 |  |
-| `INT/BR/ICAO_Annex9.md` | pt |  | 61 | 61 | 61 |  |
-| `INT/BR/ICAO_DOC4444.md` | pt |  | 15 | 15 | 15 |  |
-| `INT/BR/ICAO_DOC8168.md` | pt |  | 3 | 3 | 3 |  |
-| `INT/BR/ICAO_DOC9284.md` | pt |  | 1 | 1 | 1 |  |
-| `INT/BR/ILC_ARSIWA.md` | pt |  | 1 | 1 | 1 |  |
-| `INT/BR/MC99_1999.md` | pt |  | 60 | 60 | 60 |  |
-| `INT/BR/UNCRC_1989.md` | pt |  | 4 | 4 | 4 |  |
-| `INT/BR/UNGCP.md` | pt |  | 3 | 3 | 3 |  |
-| `INT/BR/VCCR_1963.md` | pt |  | 3 | 3 | 3 |  |
-| `INT/BR/VCLT_1969.md` | pt |  | 2 | 2 | 2 |  |
-| `INT/EN/ACHR_1969.md` | en |  | 30 | 30 |  |  |
-| `INT/EN/BR_CL_Joint_Declaration_2024.md` | en |  | 8 | 8 |  |  |
-| `INT/EN/Chicago_1944.md` | en |  | 3 | 3 |  |  |
-| `INT/EN/Hague_1980.md` | en |  | 2 | 2 |  |  |
-| `INT/EN/IATA_GC.md` | en |  | 19 | 19 |  |  |
-| `INT/EN/ICAO_Annex10.md` | en |  | 4 | 4 |  |  |
-| `INT/EN/ICAO_Annex11.md` | en |  | 10 | 10 |  |  |
-| `INT/EN/ICAO_Annex13.md` | en |  | 1 | 1 |  |  |
-| `INT/EN/ICAO_Annex14.md` | en |  | 21 | 21 |  |  |
-| `INT/EN/ICAO_Annex17.md` | en |  | 7 | 7 |  |  |
-| `INT/EN/ICAO_Annex18.md` | en |  | 4 | 4 |  |  |
-| `INT/EN/ICAO_Annex6.md` | en |  | 30 | 30 |  |  |
-| `INT/EN/ICAO_Annex9.md` | en |  | 61 | 61 |  |  |
-| `INT/EN/ICAO_DOC4444.md` | en |  | 15 | 15 |  |  |
-| `INT/EN/ICAO_DOC8168.md` | en |  | 3 | 3 |  |  |
-| `INT/EN/ICAO_DOC9284.md` | en |  | 1 | 1 |  |  |
-| `INT/EN/ILC_ARSIWA.md` | en |  | 1 | 1 |  |  |
-| `INT/EN/MC99_1999.md` | en |  | 60 | 60 |  |  |
-| `INT/EN/UNCRC_1989.md` | en |  | 4 | 4 |  |  |
-| `INT/EN/UNGCP.md` | en |  | 3 | 3 |  |  |
-| `INT/EN/VCCR_1963.md` | en |  | 3 | 3 |  |  |
-| `INT/EN/VCLT_1969.md` | en |  | 2 | 2 |  |  |
+| `INT/ACHR_1969.md` | pt |  | 30 | 30 |  |  |
+| `INT/Chicago_1944.md` | pt |  | 3 | 3 |  |  |
+| `INT/Hague_1980.md` | pt |  | 2 | 2 |  |  |
+| `INT/IATA_GC.md` | pt |  | 19 | 19 |  |  |
+| `INT/ICAO_Annex10.md` | pt |  | 4 | 4 |  |  |
+| `INT/ICAO_Annex11.md` | pt |  | 10 | 10 |  |  |
+| `INT/ICAO_Annex13.md` | pt |  | 1 | 1 |  |  |
+| `INT/ICAO_Annex14.md` | pt |  | 21 | 21 |  |  |
+| `INT/ICAO_Annex17.md` | pt |  | 7 | 7 |  |  |
+| `INT/ICAO_Annex18.md` | pt |  | 4 | 4 |  |  |
+| `INT/ICAO_Annex6.md` | pt |  | 30 | 30 |  |  |
+| `INT/ICAO_Annex9.md` | pt |  | 61 | 61 |  |  |
+| `INT/ICAO_DOC4444.md` | pt |  | 15 | 15 |  |  |
+| `INT/ICAO_DOC8168.md` | pt |  | 3 | 3 |  |  |
+| `INT/ICAO_DOC9284.md` | pt |  | 1 | 1 |  |  |
+| `INT/ILC_ARSIWA.md` | pt |  | 1 | 1 |  |  |
+| `INT/MC99_1999.md` | pt |  | 60 | 60 |  |  |
+| `INT/UNCRC_1989.md` | pt |  | 4 | 4 |  |  |
+| `INT/UNGCP.md` | pt |  | 3 | 3 |  |  |
+| `INT/VCCR_1963.md` | pt |  | 3 | 3 |  |  |
+| `INT/VCLT_1969.md` | pt |  | 2 | 2 |  |  |
+
+## Citation alias map
+
+Source: `/Users/leandrodisconzi/repos/mcp-ecosystem/transcription/data/law/_mapping/alias_map.json`
+
+No alias entries.

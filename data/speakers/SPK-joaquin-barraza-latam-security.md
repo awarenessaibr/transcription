@@ -9,6 +9,7 @@ incidents:
   - "I-002"
 transcripts_appearing:
   - "[[I-002_04_NAR-06_STG_6_jetbridge_standoff]]"
+  - "[[I-002_06_NAR-STG_8_pdi_identity_control]]"
   - "[[I-002_07_NAR-06_STG_13_post_PDI_corridor]]"
   - "[[I-002_09_NAR-10_STG_16_counter_confrontation]]"
   - "[[I-002_11_NAR-13_STG_20_barraza_counter]]"
@@ -17,10 +18,14 @@ appearances:
     segment_labels: "airline_security_official"
     segment_indices: "33, 35, 37, 39, 41, 48, 50, 52, 54, 55, 57, 60, 64, 67, 70, 123, 125, 131, 133"
     segment_count: "19"
+  - transcript_id: "I-002_06_NAR-STG_8_pdi_identity_control"
+    segment_labels: "Joaquin Barraza, airline_security_official"
+    segment_indices: "0, 98, 118"
+    segment_count: "3"
   - transcript_id: "I-002_07_NAR-06_STG_13_post_PDI_corridor"
     segment_labels: "airline_luggage_staff, airline_security_official, dgac_official, pdi_official"
-    segment_indices: "1, 2, 4, 6, 10, 12, 14, 16, 20, 21, 25, 26, 36, 39, 42, 44, 45, 47, 48, 49, 51, 53, 55, 57, 60, 62, 66, 67, 70, 72, 73, 75, 78, 112, 113, 114, 116, 117, 118, 119, 122, 124, 125, 126, 128, 130, 133, 135, 136, 138, 140, 142, 145, 147, 149, 153, 155, 161, 163, 167, 168, 171, 174, 180, 181, 184, 187, 191, 193, 194, 195, 196, 199, 200, 201, 202, 203, 204, 205, 208"
-    segment_count: "80"
+    segment_indices: "3, 4, 5, 6, 7, 8, 9, 11, 15, 17, 19, 21, 25, 26, 30, 31, 42, 45, 48, 50, 51, 53, 54, 55, 57, 59, 61, 63, 66, 68, 72, 73, 76, 78, 79, 81, 84, 118, 119, 120, 122, 123, 124, 125, 128, 130, 131, 132, 134, 136, 139, 141, 142, 144, 146, 148, 151, 153, 155, 159, 161, 167, 169, 173, 174, 177, 180, 186, 187, 190, 193, 197, 199, 200, 201, 202, 205, 206, 207, 208, 209, 210, 211, 214"
+    segment_count: "84"
   - transcript_id: "I-002_09_NAR-10_STG_16_counter_confrontation"
     segment_labels: "airline_security_official"
     segment_indices: "4, 6, 8, 10, 12, 15, 17, 19, 21, 23, 25, 26, 28, 32, 35, 36, 38, 40, 42, 43, 45, 47, 49, 51, 53, 56, 58, 60, 62, 64, 66, 70, 72, 74, 76, 78, 81, 83, 85, 86, 89, 93, 95, 97, 98, 99, 102, 104, 106, 108, 110, 112, 115, 117, 119, 121, 123, 125, 127, 129, 131, 133, 135, 137, 139, 140, 143, 145, 146"
@@ -29,8 +34,8 @@ appearances:
     segment_labels: "airline_security_official, airline_staff"
     segment_indices: "0, 1, 2, 4, 10, 13, 16, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 42, 44, 46, 49, 51, 55, 62, 64, 66, 68, 70, 72, 74"
     segment_count: "32"
-appearance_count: "4"
-segment_count: "200"
+appearance_count: "5"
+segment_count: "207"
 key_statements:
   - quote: "El capitán decidió no embarcarlo en este vuelo"
     transcript: "[[I-002_04_NAR-06_STG_6_jetbridge_standoff]]"
@@ -64,17 +69,18 @@ _provenance:
 | Organization | LATAM Airlines |
 | Identification | confirmed |
 | Incidents | I-002 |
-| Transcripts | [[I-002_04_NAR-06_STG_6_jetbridge_standoff]], [[I-002_07_NAR-06_STG_13_post_PDI_corridor]], [[I-002_09_NAR-10_STG_16_counter_confrontation]], [[I-002_11_NAR-13_STG_20_barraza_counter]] |
+| Transcripts | [[I-002_04_NAR-06_STG_6_jetbridge_standoff]], [[I-002_06_NAR-STG_8_pdi_identity_control]], [[I-002_07_NAR-06_STG_13_post_PDI_corridor]], [[I-002_09_NAR-10_STG_16_counter_confrontation]], [[I-002_11_NAR-13_STG_20_barraza_counter]] |
 
 <!-- BEGIN:APPEARANCES -->
 ## Appearances
 
-**4 transcript(s) · 200 mapped segment instance(s)**
+**5 transcript(s) · 207 mapped segment instance(s)**
 
 | Transcript | Segments | Labels |
 | --- | --- | --- |
 | [[I-002_04_NAR-06_STG_6_jetbridge_standoff]] | 19 <br><code>33, 35, 37, 39, 41, 48, 50, 52, 54, 55, 57, 60, …</code> | `airline_security_official` |
-| [[I-002_07_NAR-06_STG_13_post_PDI_corridor]] | 80 <br><code>1, 2, 4, 6, 10, 12, 14, 16, 20, 21, 25, 26, …</code> | `airline_luggage_staff`, `airline_security_official`, `dgac_official`, `pdi_official` |
+| [[I-002_06_NAR-STG_8_pdi_identity_control]] | 3 <br><code>0, 98, 118</code> | `Joaquin Barraza`, `airline_security_official` |
+| [[I-002_07_NAR-06_STG_13_post_PDI_corridor]] | 84 <br><code>3, 4, 5, 6, 7, 8, 9, 11, 15, 17, 19, 21, …</code> | `airline_luggage_staff`, `airline_security_official`, `dgac_official`, `pdi_official` |
 | [[I-002_09_NAR-10_STG_16_counter_confrontation]] | 69 <br><code>4, 6, 8, 10, 12, 15, 17, 19, 21, 23, 25, 26, …</code> | `airline_security_official` |
 | [[I-002_11_NAR-13_STG_20_barraza_counter]] | 32 <br><code>0, 1, 2, 4, 10, 13, 16, 19, 21, 23, 25, 27, …</code> | `airline_security_official`, `airline_staff` |
 
