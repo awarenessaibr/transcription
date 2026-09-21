@@ -1226,6 +1226,8 @@ class IngestStats:
     skipped: int = 0
     failed: int = 0
     embedded: int = 0
+    #: Points deleted because their article is no longer in the corpus.
+    orphans_pruned: int = 0
     failures: list[dict[str, Any]] = field(default_factory=list)
     notes: list[str] = field(default_factory=list)
 
@@ -1248,6 +1250,7 @@ class IngestStats:
             "skipped": self.skipped,
             "failed": self.failed,
             "embedded": self.embedded,
+            "orphans_pruned": self.orphans_pruned,
             "notes": list(self.notes),
             "failures": list(self.failures),
         }
@@ -1305,8 +1308,51 @@ def _scroll_all(
     return records
 
 
+def collection_exists(client: QdrantClient, collection: str) -> bool:
+    """True when ``collection`` is present on the cluster.
+
+    Deliberately separate from ``scroll()``/``count()``: ``scroll`` **raises** on
+    a missing collection but returns ``[]`` on an empty one, so a dropped
+    collection and a pristine one are indistinguishable through a scroll alone.
+    That ambiguity previously made a deleted ``la8159_law`` report
+    ``points=0, missing=0, up_to_date=True`` — a green tick over an outage.
+
+    A transport error (cluster unreachable) still propagates: the caller must be
+    able to tell "collection is gone" from "Qdrant is down".
+    """
+    try:
+        return bool(client.collection_exists(collection))
+    except AttributeError:  # pragma: no cover - older clients without the helper
+        return collection in {c.name for c in client.get_collections().collections}
+
+
 def _payload_filter(key: str, value: str) -> qm.Filter:
     return qm.Filter(must=[qm.FieldCondition(key=key, match=qm.MatchValue(value=value))])
+
+
+def original_id_to_point_ids(
+    client: QdrantClient,
+    collection: str,
+    *,
+    key: str = "original_id",
+) -> dict[str, list[Any]]:
+    """Map payload identifier → point ids by scanning the collection once.
+
+    Deletion is *not* filter-based: Qdrant rejects a ``MatchAny`` filter on
+    ``original_id`` unless a payload index exists — with ``400 Bad request:
+    Index required but not found`` — and the shared ``la8159_law`` collection
+    has no such index. Resolving the ids locally and deleting by id works on
+    any collection, indexed or not.
+
+    ``eli_id`` is read as a fallback so schema-v1 local points are covered.
+    """
+    mapping: dict[str, list[Any]] = defaultdict(list)
+    for record in _scroll_all(client, collection):
+        payload = record.payload or {}
+        identifier = payload.get(key) or payload.get("eli_id")
+        if identifier:
+            mapping[str(identifier)].append(record.id)
+    return dict(mapping)
 
 
 # ---------------------------------------------------------------------------
@@ -1582,6 +1628,38 @@ class CanonicalLawIngester:
             )
         self.client.upsert(collection_name=self.bm25_collection, points=points, wait=True)
 
+    # -- stale point removal ----------------------------------------------
+    def delete_orphans(self, elis: Sequence[str], *, dry_run: bool = False) -> dict[str, int]:
+        """Delete points whose ``original_id`` is no longer in the corpus.
+
+        Ingestion is upsert-only, so removing a source file from ``data/law``
+        leaves its points behind for good. An orphan is stale *by definition*
+        (the corpus is the source of truth), so it is removed from the payload
+        store **and** its BM25 companion together, otherwise the two drift.
+
+        Returns ``{collection: points_deleted}``; empty when there is nothing to
+        do. In ``dry_run`` the counts are what *would* be deleted.
+        """
+        targets = {e for e in elis if e}
+        if not targets:
+            return {}
+        removed: dict[str, int] = {}
+        for collection in (self.collection, self.bm25_collection):
+            if not collection_exists(self.client, collection):
+                continue
+            live = original_id_to_point_ids(self.client, collection)
+            doomed = [point_id for eli, ids in live.items() if eli in targets for point_id in ids]
+            if not doomed:
+                continue
+            if not dry_run:
+                self.client.delete(
+                    collection_name=collection,
+                    points_selector=qm.PointIdsList(points=doomed),
+                    wait=True,
+                )
+            removed[collection] = len(doomed)
+        return removed
+
     # -- surgical payload edit --------------------------------------------
     def update_payload(
         self,
@@ -1662,10 +1740,7 @@ class LocalLawIngester:
 
     # -- collection lifecycle ---------------------------------------------
     def collection_exists(self) -> bool:
-        try:
-            return self.client.collection_exists(self.collection)
-        except AttributeError:  # pragma: no cover - older clients
-            return self.collection in {c.name for c in self.client.get_collections().collections}
+        return collection_exists(self.client, self.collection)
 
     def ensure_collection(self, *, recreate: bool = False) -> None:
         if recreate and self.collection_exists():
@@ -1688,6 +1763,29 @@ class LocalLawIngester:
                 )
             except Exception as exc:  # noqa: BLE001 — index may already exist
                 logger.debug("[law] payload index %s.%s: %s", self.collection, field_name, exc)
+
+    # -- stale point removal ----------------------------------------------
+    def delete_orphans(self, elis: Sequence[str], *, dry_run: bool = False) -> dict[str, int]:
+        """Delete points whose ``original_id``/``eli_id`` is no longer in the corpus.
+
+        Without this the collection keeps serving law that has been deleted from
+        ``data/law``, because ingestion only ever upserts. Returns
+        ``{collection: points_deleted}``.
+        """
+        targets = {e for e in elis if e}
+        if not targets or not self.collection_exists():
+            return {}
+        live = original_id_to_point_ids(self.client, self.collection)
+        doomed = [point_id for eli, ids in live.items() if eli in targets for point_id in ids]
+        if not doomed:
+            return {}
+        if not dry_run:
+            self.client.delete(
+                collection_name=self.collection,
+                points_selector=qm.PointIdsList(points=doomed),
+                wait=True,
+            )
+        return {self.collection: len(doomed)}
 
     # -- embedding ---------------------------------------------------------
     def _get_encoder(self):
@@ -1955,6 +2053,9 @@ class ValidationReport:
     """Coverage + parity report for one collection."""
 
     collection: str
+    #: ``False`` when the collection is absent from the cluster. Without this a
+    #: deleted collection is indistinguishable from a total coverage gap.
+    collection_exists: bool = True
     points: int = 0
     unique_original_ids: int = 0
     duplicate_original_ids: dict[str, int] = field(default_factory=dict)
@@ -1981,7 +2082,8 @@ class ValidationReport:
     @property
     def ok(self) -> bool:
         return (
-            not self.missing_in_collection
+            self.collection_exists
+            and not self.missing_in_collection
             and not self.extra_in_collection
             and not self.duplicate_original_ids
         )
@@ -1989,6 +2091,7 @@ class ValidationReport:
     def as_dict(self) -> dict[str, Any]:
         return {
             "collection": self.collection,
+            "collection_exists": self.collection_exists,
             "ok": self.ok,
             "points": self.points,
             "unique_original_ids": self.unique_original_ids,
@@ -2041,6 +2144,15 @@ class LawRegistryValidator:
         for article in plan.articles:
             by_id[article.original_id].append(article)
         report.unique_elis_local = len(by_id)
+
+        # Checked before scrolling: ``_scroll_all`` raises a 404 on an absent
+        # collection, which previously made validation of a dropped collection
+        # an unhandled error rather than a legible verdict.
+        report.collection_exists = collection_exists(self.client, collection)
+        if not report.collection_exists:
+            logger.warning("[law] collection %s does not exist; skipping payload comparison", collection)
+            report.missing_in_collection = sorted(by_id)
+            return report
 
         records = _scroll_all(self.client, collection)
         report.points = len(records)
@@ -2121,14 +2233,22 @@ class LawIndexStatus:
     reference_only_files: int = 0
     collisions: int = 0
     canonical_collection: str = CANONICAL_COLLECTION
+    #: Whether the canonical collection is actually present on the cluster.
+    #: Defaults to ``False`` so a status built from an unread cluster is never
+    #: mistaken for a healthy one.
+    canonical_exists: bool = False
     canonical_points: int = 0
     canonical_missing: list[str] = field(default_factory=list)
     canonical_extra: list[str] = field(default_factory=list)
+    #: Set when the canonical collection exists but could not be read, so the
+    #: UI can distinguish "empty" from "broken" instead of showing a zero.
+    canonical_error: str | None = None
     local_collection: str = LOCAL_COLLECTION
     local_exists: bool = False
     local_points: int = 0
     local_missing: list[str] = field(default_factory=list)
     local_extra: list[str] = field(default_factory=list)
+    local_error: str | None = None
 
     def as_dict(self, sample: int = 50) -> dict[str, Any]:
         return {
@@ -2139,11 +2259,21 @@ class LawIndexStatus:
             "collisions": self.collisions,
             "canonical": {
                 "collection": self.canonical_collection,
+                "exists": self.canonical_exists,
                 "points": self.canonical_points,
                 "missing": len(self.canonical_missing),
                 "extra": len(self.canonical_extra),
                 "missing_sample": self.canonical_missing[:sample],
-                "up_to_date": not self.canonical_missing and not self.canonical_extra,
+                "error": self.canonical_error,
+                # A collection that does not exist is *not* up to date: it holds
+                # none of the corpus. Requiring existence here is what stops a
+                # dropped collection from rendering as a green tick.
+                "up_to_date": (
+                    self.canonical_exists
+                    and self.canonical_error is None
+                    and not self.canonical_missing
+                    and not self.canonical_extra
+                ),
             },
             "local": {
                 "collection": self.local_collection,
@@ -2152,7 +2282,13 @@ class LawIndexStatus:
                 "missing": len(self.local_missing),
                 "extra": len(self.local_extra),
                 "missing_sample": self.local_missing[:sample],
-                "up_to_date": self.local_exists and not self.local_missing and not self.local_extra,
+                "error": self.local_error,
+                "up_to_date": (
+                    self.local_exists
+                    and self.local_error is None
+                    and not self.local_missing
+                    and not self.local_extra
+                ),
             },
         }
 
@@ -2241,6 +2377,7 @@ class QdrantLawIndex:
         recreate_local: bool = False,
         multi_language: bool = False,
         only_missing: bool = False,
+        prune_orphans: bool = False,
         on_progress: ProgressCallback | None = None,
     ) -> dict[str, IngestStats]:
         """Ingest the corpus into the requested targets.
@@ -2248,6 +2385,10 @@ class QdrantLawIndex:
         ``only_missing`` switches every target to *incremental* mode: articles
         already present are skipped, which is what the registry UI's
         "index not yet indexed" action needs.
+
+        ``prune_orphans`` also deletes points whose article is no longer in the
+        corpus, so a target converges on ``data/law`` instead of only growing.
+        It is opt-in because it is the one destructive step in this module.
 
         ``on_progress`` receives ``(phase, done, total)`` and is called from the
         ingesting thread, so a background job can report granular progress.
@@ -2262,9 +2403,11 @@ class QdrantLawIndex:
 
             return _cb
 
+        corpus_ids = set(plan.by_original_id)
+
         if "canonical" in targets:
             existing = self.canonical.existing_index()
-            results["canonical"] = self.canonical.ingest(
+            canonical_stats = self.canonical.ingest(
                 plan.articles,
                 existing=existing,
                 dry_run=dry_run,
@@ -2275,8 +2418,18 @@ class QdrantLawIndex:
                 refresh_bm25=refresh_bm25,
                 on_progress=_target_progress("canonical"),
             )
+            if prune_orphans:
+                orphans = sorted(set(existing) - corpus_ids)
+                removed = self.canonical.delete_orphans(orphans, dry_run=dry_run)
+                canonical_stats.orphans_pruned = sum(removed.values())
+                if orphans:
+                    canonical_stats.notes.append(
+                        f"{'would prune' if dry_run else 'pruned'} {len(orphans)} orphan ELI(s) "
+                        f"from {', '.join(sorted(removed)) or self.canonical.collection}"
+                    )
+            results["canonical"] = canonical_stats
         if "local" in targets:
-            results["local"] = self.local.ingest(
+            local_stats = self.local.ingest(
                 plan.articles,
                 dry_run=dry_run,
                 recreate=recreate_local,
@@ -2284,6 +2437,16 @@ class QdrantLawIndex:
                 only_missing=only_missing,
                 on_progress=_target_progress("local"),
             )
+            if prune_orphans and not recreate_local:
+                orphans = sorted(set(self.local.existing_ids()) - corpus_ids)
+                removed = self.local.delete_orphans(orphans, dry_run=dry_run)
+                local_stats.orphans_pruned = sum(removed.values())
+                if orphans:
+                    local_stats.notes.append(
+                        f"{'would prune' if dry_run else 'pruned'} {len(orphans)} orphan ELI(s) "
+                        f"from {self.local.collection}"
+                    )
+            results["local"] = local_stats
         return results
 
     def status(self, plan: CorpusPlan | None = None) -> LawIndexStatus:
@@ -2301,18 +2464,38 @@ class QdrantLawIndex:
 
         corpus_ids = set(plan.by_original_id)
 
-        with suppress(Exception):
-            status.canonical_points = self.canonical.article_count()
-            canonical_ids = set(self.canonical.existing_index())
-            status.canonical_missing = sorted(corpus_ids - canonical_ids)
-            status.canonical_extra = sorted(canonical_ids - corpus_ids)
+        # A missing collection raises from ``scroll``/``count``; catching that
+        # and leaving the counters at zero produced ``points=0, missing=0,
+        # up_to_date=True`` — a green tick over a deleted production collection.
+        # Existence is therefore checked explicitly, and a read failure is
+        # *recorded* rather than suppressed.
+        status.canonical_exists = collection_exists(self.client, self.canonical.collection)
+        if status.canonical_exists:
+            try:
+                status.canonical_points = self.canonical.article_count()
+                canonical_ids = set(self.canonical.existing_index())
+            except Exception as exc:  # noqa: BLE001 — surfaced to the caller
+                status.canonical_error = f"{type(exc).__name__}: {exc}"
+                logger.warning(
+                    "[law] cannot read canonical collection %s: %s",
+                    self.canonical.collection,
+                    exc,
+                )
+            else:
+                status.canonical_missing = sorted(corpus_ids - canonical_ids)
+                status.canonical_extra = sorted(canonical_ids - corpus_ids)
 
-        status.local_exists = self.local.collection_exists()
+        status.local_exists = collection_exists(self.client, self.local.collection)
         if status.local_exists:
-            local_ids = self.local.existing_ids()
-            status.local_points = len(local_ids)
-            status.local_missing = sorted(corpus_ids - local_ids)
-            status.local_extra = sorted(local_ids - corpus_ids)
+            try:
+                local_ids = self.local.existing_ids()
+            except Exception as exc:  # noqa: BLE001 — surfaced to the caller
+                status.local_error = f"{type(exc).__name__}: {exc}"
+                logger.warning("[law] cannot read local collection %s: %s", self.local.collection, exc)
+            else:
+                status.local_points = len(local_ids)
+                status.local_missing = sorted(corpus_ids - local_ids)
+                status.local_extra = sorted(local_ids - corpus_ids)
 
         return status
 
@@ -2853,6 +3036,192 @@ def write_registry(
     return json_path, md_path
 
 
+# -------------------------------------------------------------------------
+# Registry artifact ↔ live collection reconciliation
+# -------------------------------------------------------------------------
+
+#: ``summary`` keys that describe the *live collection* rather than the corpus.
+#: They are correct at the instant ``write_registry`` runs and wrong from then
+#: on, so a consumer that reads the artifact verbatim can report a collection
+#: state that no longer exists. ``reconcile_registry`` overwrites exactly these
+#: and nothing else: the remaining keys (``data_law_md_files``,
+#: ``data_law_articles_unique``, ``language_breakdown`` …) come from parsing
+#: ``data/law/`` and cannot be invalidated by a Qdrant mutation.
+LIVE_SUMMARY_KEYS = (
+    "qdrant_points",
+    "qdrant_articles_with_local_file",
+    "data_law_articles_not_in_qdrant",
+    "genuinely_missing_articles",
+    "qdrant_articles_without_local_file",
+)
+
+
+def reconcile_registry(
+    artifact: dict[str, Any],
+    *,
+    canonical: Mapping[str, Any],
+    checked_at: str | None = None,
+) -> dict[str, Any]:
+    """Fold a live collection status into a registry artifact, in place.
+
+    A registry artifact is a **photograph**: ``write_registry`` stamps
+    ``summary.generated_at`` and records the coverage it observed, and nothing
+    ever revisits it. Serving it unexamined is how a corpus that has since been
+    fully ingested keeps advertising "35 articles not in Qdrant" — the artifact
+    is not lying about the past, it is just being read as if it were the present.
+
+    ``canonical`` is a :meth:`LawIndexStatus.as_dict` ``canonical`` block, whose
+    counts are **integers** (``points``, ``missing``, ``extra``) with only a
+    capped ``missing_sample`` list alongside. So this reconciles on the counts,
+    which are always exact, and touches the artifact's ELI *lists* only where the
+    live count makes the answer unambiguous:
+
+    * ``freshness.stale`` — ``True`` when the live collection disagrees with what
+      the artifact recorded, or when it is unreachable.
+    * ``freshness.reasons`` — one line per disagreement, naming both values.
+    * ``freshness.artifact`` / ``freshness.live`` — the before/after, so the
+      override stays inspectable rather than silent.
+    * ``summary[...]`` — the ``LIVE_SUMMARY_KEYS`` overwritten with live values,
+      plus ``summary.reconciled_at`` recording that it happened.
+    * ``detail.missing_eli`` / ``detail.extra_eli`` and the per-file
+      ``articles_missing`` / ``missing_eli`` — emptied when the corresponding
+      live count is 0. That is the one case where the live status already proves
+      the stale list is empty, and it is the case that matters: a fully ingested
+      corpus whose artifact still lists 35 missing articles. When the live count
+      is non-zero the artifact's list is a stale superset that cannot be
+      re-derived without re-running the comparison, so it is left in place and
+      ``freshness.undecomposed`` names it rather than silently disagreeing with
+      the corrected count.
+
+    When ``canonical['exists']`` is false, or ``canonical['error']`` is set, no
+    live count is trustworthy: the artifact is marked stale but nothing is
+    overwritten, because an unreadable collection is not evidence that 0 articles
+    are missing.
+
+    Returns the same mapping it was given (mutated).
+    """
+    summary = artifact.setdefault("summary", {})
+    detail = artifact.setdefault("detail", {})
+
+    def count(key: str) -> int | None:
+        value = canonical.get(key)
+        return value if isinstance(value, int) else None
+
+    live_points = count("points")
+    live_missing = count("missing")
+    live_extra = count("extra")
+
+    # Exactly one reason, decided in priority order, and it doubles as the
+    # "can this status be trusted" verdict: a `None` count must never reach the
+    # summary, because writing `None` there is worse than writing nothing.
+    #
+    # ``error`` outranks ``exists`` because a failed read means existence itself
+    # is unknown — a caller that could not reach the collection can only report
+    # ``exists=False`` as a fallback, and calling that "does not exist" would
+    # assert a fact nobody established.
+    unavailable: str | None = None
+    if canonical.get("error"):
+        unavailable = (
+            f"collection read failed ({canonical['error']}) — live counts unavailable; artifact not reconciled"
+        )
+    elif not canonical.get("exists"):
+        unavailable = "collection does not exist — live counts unavailable; artifact not reconciled"
+    elif live_points is None or live_missing is None or live_extra is None:
+        malformed = [
+            name
+            for name, value in (("points", live_points), ("missing", live_missing), ("extra", live_extra))
+            if value is None
+        ]
+        unavailable = f"live counts malformed ({', '.join(malformed)}) — artifact not reconciled"
+
+    usable = unavailable is None
+
+    reasons: list[str] = [unavailable] if unavailable else []
+    if usable:
+        if summary.get("qdrant_points") != live_points:
+            reasons.append(f"qdrant_points {summary.get('qdrant_points')} → {live_points}")
+        for label, key, live in (
+            ("missing", "missing_eli", live_missing),
+            ("extra", "extra_eli", live_extra),
+        ):
+            recorded = detail.get(key)
+            if isinstance(recorded, (list, tuple, set)) and len(recorded) != live:
+                reasons.append(f"{label} ELIs {len(recorded)} → {live}")
+
+        # A file can only be incomplete if something is missing collection-wide,
+        # so a live missing count of 0 refutes every per-file count at once.
+        stale_files = [f for f in artifact.get("files") or [] if f.get("articles_missing")]
+        if not live_missing and stale_files:
+            reasons.append(f"per-file articles_missing counts ({len(stale_files)} file(s)) → 0")
+
+    artifact["freshness"] = {
+        "stale": bool(reasons),
+        "generated_at": summary.get("generated_at"),
+        "checked_at": checked_at or _iso_now(),
+        "collection": canonical.get("collection") or detail.get("collection"),
+        "reconciled_keys": list(LIVE_SUMMARY_KEYS),
+        "reasons": reasons,
+        "artifact": {
+            "qdrant_points": summary.get("qdrant_points"),
+            "missing": len(detail.get("missing_eli") or []),
+            "extra": len(detail.get("extra_eli") or []),
+        },
+        "live": {
+            "exists": bool(canonical.get("exists")),
+            "error": canonical.get("error"),
+            "points": live_points,
+            "missing": live_missing,
+            "extra": live_extra,
+        },
+        "refresh_endpoint": "/api/law/registry/refresh",
+    }
+
+    if not usable:
+        return artifact
+
+    # Only the collection-derived counts move; the corpus-derived ones are still
+    # the parse of the files on disk, which is exactly what they claim to be.
+    reconciled = {
+        "qdrant_points": live_points,
+        "qdrant_articles_with_local_file": (live_points or 0) - (live_extra or 0),
+        "data_law_articles_not_in_qdrant": live_missing,
+        "genuinely_missing_articles": live_missing,
+        "qdrant_articles_without_local_file": live_extra,
+    }
+    summary.update(reconciled)
+    summary["reconciled_at"] = artifact["freshness"]["checked_at"]
+    artifact["freshness"]["applied"] = reconciled
+
+    # ``extra_eli`` is "in Qdrant, absent from the corpus" and has no sample in
+    # the status block, so a non-zero live count can only be flagged, never
+    # rewritten.
+    undecomposed: list[str] = []
+    if not live_extra and detail.get("extra_eli"):
+        detail["extra_eli"] = []
+        artifact["qdrant_only_articles"] = []
+    elif live_extra:
+        undecomposed.append("detail.extra_eli")
+
+    if not live_missing:
+        # Every corpus ELI is present, so the artifact's per-file breakdown can
+        # be completed exactly: nothing is missing, and whatever it listed as
+        # missing is now in the collection.
+        detail["missing_eli"] = []
+        for entry in artifact.get("files") or []:
+            if entry.get("missing_eli"):
+                entry["in_qdrant_eli"] = sorted(set(entry.get("in_qdrant_eli") or []) | set(entry["missing_eli"]))
+            entry["missing_eli"] = []
+            entry["articles_missing"] = 0
+            entry["articles_in_qdrant"] = entry.get("articles_local", entry.get("articles_in_qdrant", 0))
+    else:
+        undecomposed.append("detail.missing_eli")
+
+    if undecomposed:
+        artifact["freshness"]["undecomposed"] = undecomposed
+
+    return artifact
+
+
 __all__ = [
     "ALIAS_MAP_FILENAME",
     "BM25_MAX_CHARS",
@@ -2867,6 +3236,7 @@ __all__ = [
     "ENRICHMENT_ARRAY_FIELDS",
     "ENRICHMENT_PAYLOAD_FIELDS",
     "ENRICHMENT_SCALAR_FIELDS",
+    "LIVE_SUMMARY_KEYS",
     "LOCAL_COLLECTION",
     "LOCAL_DENSE_DIM",
     "LOCAL_EMBED_MODEL",
@@ -2909,6 +3279,7 @@ __all__ = [
     "payload_bytes",
     "placeholder_dense_vector",
     "point_id_for",
+    "reconcile_registry",
     "registry_paths",
     "sha256_short",
     "split_eli",

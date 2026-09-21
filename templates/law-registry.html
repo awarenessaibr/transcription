@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Law Corpus Registry · la8159_law</title>
+<title>Law Corpus Registry · transcription_law</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -97,6 +97,31 @@ code {
 .stat-item:last-child { border-right: none; }
 .stat-val { font-family: var(--mono); font-size: 0.92rem; font-weight: 500; color: var(--text-primary); }
 .stat-label { font-size: 0.68rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.07em; margin-top: 5px; }
+
+/* ---------- Freshness ---------- */
+/* The registry artifact is a photograph of the collection, so the page has to
+   be able to say "this was true earlier" instead of showing a frozen number. */
+.freshness-bar { display: none; border-bottom: 1px solid var(--border); background: var(--status-analysis-dim); }
+.freshness-bar.is-visible { display: block; }
+.freshness-inner {
+  max-width: 1180px; margin: 0 auto; padding: 13px 32px;
+  display: flex; gap: 14px; align-items: flex-start;
+}
+.freshness-icon { flex: 0 0 auto; color: var(--status-analysis); margin-top: 2px; }
+.freshness-body { flex: 1 1 auto; min-width: 0; }
+.freshness-title {
+  font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.07em;
+  text-transform: uppercase; color: var(--status-analysis);
+}
+.freshness-text { font-size: 0.82rem; color: var(--text-secondary); margin-top: 3px; }
+.freshness-reasons {
+  margin: 8px 0 0; padding: 0; list-style: none;
+  font-family: var(--mono); font-size: 0.7rem; color: var(--text-secondary);
+}
+.freshness-reasons li { padding: 2px 0 2px 14px; position: relative; }
+.freshness-reasons li::before { content: '\2192'; position: absolute; left: 0; color: var(--status-analysis); }
+.freshness-actions { flex: 0 0 auto; display: flex; gap: 8px; align-items: center; }
+.freshness-meta { font-family: var(--mono); font-size: 0.66rem; color: var(--text-muted); margin-top: 7px; }
 
 /* ---------- Toolbar ---------- */
 .toolbar {
@@ -753,7 +778,7 @@ details.source-doc > summary:hover { color: var(--accent); }
 <header class="masthead">
   <div class="masthead-inner">
     <div class="masthead-row">
-      <span class="masthead-back">Case Hub / Law Corpus / data-law ↔ qdrant la8159_law</span>
+      <span class="masthead-back">Case Hub / Law Corpus / data-law ↔ qdrant transcription_law</span>
       <div class="masthead-actions">
         <button class="btn btn-ghost" id="refreshRegistryBtn" title="Re-validate the corpus, fold in the citation alias map (_mapping/alias_map.json), and rewrite law_registry.json + LAW_REGISTRY.md">Refresh registry</button>
         <button class="btn btn-ghost" id="registryBtn">Registry source</button>
@@ -801,7 +826,7 @@ details.source-doc > summary:hover { color: var(--accent); }
         </label>
       </div>
     </div>
-    <div class="masthead-badge">la8159_law · article-level ingestion</div>
+    <div class="masthead-badge">transcription_law · repo-owned dense 384-dim semantic index</div>
     <h1>Law Corpus Registry</h1>
     <p class="masthead-sub">
       Every statute, regulation, and instrument in <code>data-law/</code> — Brazilian, Chilean,
@@ -810,6 +835,9 @@ details.source-doc > summary:hover { color: var(--accent); }
     </p>
   </div>
 </header>
+
+<!-- ================= FRESHNESS ================= -->
+<div class="freshness-bar" id="freshnessBar" role="status" aria-live="polite"></div>
 
 <!-- ================= STATS ================= -->
 <div class="stats-bar">
@@ -872,9 +900,10 @@ details.source-doc > summary:hover { color: var(--accent); }
 
 <footer class="page-footer">
   <p>
-    <span class="mono">Law Corpus Registry · la8159_law</span><br>
+    <span class="mono">Law Corpus Registry · transcription_law</span><br>
     Article-level ELI coverage derived from <span class="mono">law_registry.json</span> ·
     Non-statutory corporate and soft-law instruments are marked reference-only.
+    <br><span style="font-size:0.7rem;color:var(--text-muted)">Semantic search runs against the repo-owned <code>transcription_law</code> collection. Coverage is validated against the shared <code>la8159_law</code> payload store, which this environment both reads and writes.</span>
   </p>
 </footer>
 
@@ -908,6 +937,9 @@ const LANGUAGES = {
    ================================================================== */
 const state = {
   summary: null,
+  // The server reconciles the artifact against the live collection before
+  // serving it, so this block says whether the counts below are current.
+  freshness: null,
   files: [],
   registryMd: '',
   loaded: false,
@@ -1029,6 +1061,7 @@ function ingestRegistry(data, md) {
   }
 
   state.summary = data.summary || {};
+  state.freshness = data.freshness || null;
   // The citation alias map is part of the registry artifact; ``alias_audit``
   // carries its classification against the parsed corpus.
   state.aliasMap = data.alias_map || null;
@@ -1216,9 +1249,61 @@ function getFiltered() {
    RENDER
    ================================================================== */
 function render() {
+  renderFreshness();
   renderStats();
   renderAliasPanel();
   renderContent();
+}
+
+/* The artifact is a photograph of the collection at ``generated_at``. The
+   server re-checks it against the live collection and rewrites the counts it
+   could re-derive, so this banner is what stops a frozen number from being
+   read as a current one — including with the server unreachable, where
+   nothing was measured and the artifact must not be presented as fresh. */
+function renderFreshness() {
+  const bar = document.getElementById('freshnessBar');
+  const f = state.freshness;
+
+  if (!f || !f.stale) {
+    bar.classList.remove('is-visible');
+    bar.innerHTML = '';
+    return;
+  }
+
+  const reasons = (f.reasons || []).filter(Boolean);
+  const checked = f.checked_at ? `checked ${formatStamp(f.checked_at)}` : '';
+  const generated = f.generated_at ? `artifact generated ${formatStamp(f.generated_at)}` : '';
+  const meta = [generated, checked].filter(Boolean).join(' · ');
+
+  const reconciled = f.applied
+    ? 'The counts the server could re-derive have been corrected below; the artifact itself is unchanged until it is rewritten.'
+    : 'No live counts were available, so the figures below are the unverified ones from the artifact.';
+
+  bar.classList.add('is-visible');
+  bar.innerHTML = `
+    <div class="freshness-inner">
+      <span class="freshness-icon" aria-hidden="true">
+        <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M8 1.8L15 14H1L8 1.8z"/><path d="M8 6.4v3.4"/><path d="M8 12.1h.01"/>
+        </svg>
+      </span>
+      <div class="freshness-body">
+        <div class="freshness-title">Registry artifact is stale${f.collection ? ` · ${escapeHtml(f.collection)}` : ''}</div>
+        <div class="freshness-text">${escapeHtml(reconciled)}</div>
+        ${reasons.length ? `<ul class="freshness-reasons">${reasons.map(r => `<li>${escapeHtml(r)}</li>`).join('')}</ul>` : ''}
+        ${meta ? `<div class="freshness-meta">${escapeHtml(meta)}</div>` : ''}
+      </div>
+      ${state.api ? `<div class="freshness-actions"><button class="btn btn-primary" id="freshnessRefreshBtn">Rewrite artifact</button></div>` : ''}
+    </div>`;
+
+  const btn = document.getElementById('freshnessRefreshBtn');
+  if (btn) btn.addEventListener('click', () => refreshRegistryArtifacts());
+}
+
+function formatStamp(value) {
+  const d = new Date(String(value).replace(' ', 'T'));
+  if (isNaN(d.getTime())) return String(value);
+  return d.toLocaleString(undefined, { dateStyle: 'medium', timeStyle: 'short' });
 }
 
 function renderStats() {

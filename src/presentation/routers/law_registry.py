@@ -87,6 +87,7 @@ from src.infrastructure.qdrant_law_index import (
     PayloadEditError,
     QdrantLawIndex,
     load_alias_map,
+    reconcile_registry,
     registry_paths,
 )
 
@@ -155,6 +156,9 @@ class IndexJob:
     allow_new: bool
     recreate_local: bool
     multi_language: bool
+    #: Delete points whose article is no longer in the corpus. Opt-in, because
+    #: it is the only destructive step an ingestion run can take.
+    prune_orphans: bool = False
     state: str = "queued"
     created_at: str = ""
     started_at: str | None = None
@@ -173,6 +177,7 @@ class IndexJob:
             "allow_new": self.allow_new,
             "recreate_local": self.recreate_local,
             "multi_language": self.multi_language,
+            "prune_orphans": self.prune_orphans,
         }
 
     def as_dict(self) -> dict[str, Any]:
@@ -243,6 +248,7 @@ def _run_job(job: IndexJob) -> None:
             recreate_local=job.recreate_local,
             multi_language=job.multi_language,
             only_missing=job.mode == "incremental",
+            prune_orphans=job.prune_orphans,
             on_progress=on_progress,
         )
         job.result = {
@@ -284,6 +290,10 @@ class IndexRequest(BaseModel):
     )
     recreate_local: bool = Field(False, description="drop and rebuild the local collection")
     multi_language: bool = False
+    prune_orphans: bool = Field(
+        False,
+        description="delete points whose article is no longer in the corpus",
+    )
     confirm: bool = Field(
         False,
         description="required when writing to the shared canonical collections",
@@ -400,14 +410,31 @@ def get_status() -> dict[str, Any]:
 
 @router.get("/registry")
 def get_registry() -> dict[str, Any]:
-    """Return ``law_registry.json`` (generated in-memory when absent)."""
+    """Return ``law_registry.json`` (generated in-memory when absent).
+
+    The artifact is a photograph of the collection at ``summary.generated_at``,
+    so it is reconciled against the live collection before being returned. The
+    coverage counts are overwritten with live values and the artifact carries a
+    ``freshness`` block naming what disagreed — otherwise a registry written
+    while articles were still missing keeps advertising them as missing forever,
+    which is exactly what makes the UI show a number that cannot be cleared.
+    """
     json_path, _ = _registry_files()
     if json_path.is_file():
         try:
-            return json.loads(json_path.read_text(encoding="utf-8"))
+            artifact = json.loads(json_path.read_text(encoding="utf-8"))
         except json.JSONDecodeError as exc:
             logger.exception("[law] invalid registry JSON")
             raise HTTPException(status_code=500, detail=f"Invalid registry JSON: {exc}") from exc
+
+        # A reconciliation failure must not take the endpoint down: an
+        # unreachable Qdrant leaves the artifact servable, just marked stale.
+        try:
+            canonical = get_index().status().as_dict()["canonical"]
+        except Exception as exc:  # noqa: BLE001 — Qdrant may be unreachable
+            logger.warning("[law] registry reconciliation skipped: %s", exc)
+            canonical = {"exists": False, "error": f"{type(exc).__name__}: {exc}"}
+        return reconcile_registry(artifact, canonical=canonical)
 
     # Not generated yet — build it on the fly without touching disk.
     index = get_index()
@@ -1032,6 +1059,7 @@ def start_index(request: IndexRequest) -> dict[str, Any]:
         allow_new=request.allow_new,
         recreate_local=request.recreate_local,
         multi_language=request.multi_language,
+        prune_orphans=request.prune_orphans,
         created_at=_iso_now(),
     )
     with _jobs_lock:

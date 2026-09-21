@@ -1,6 +1,6 @@
 # Law Corpus Registry — `data/law/` ↔ Qdrant `la8159_law`
 
-Generated: 2026-09-21T06:49:34.694923
+Generated: 2026-09-21T08:22:20.381350
 
 ## Summary
 
@@ -10,18 +10,18 @@ Generated: 2026-09-21T06:49:34.694923
 | Article blocks (with ELI) | 1146 |
 | Unique article ELIs | 1146 |
 | Reference-only files (no ELI) | 0 |
-| Qdrant points | 1119 |
-| Qdrant unique original_ids | 1119 |
+| Qdrant points | 1146 |
+| Qdrant unique original_ids | 1146 |
 | Qdrant duplicate original_ids | 0 |
-| Articles missing in Qdrant | 35 |
-| Qdrant articles with no local ELI | 8 |
+| Articles missing in Qdrant | 0 |
+| Qdrant articles with no local ELI | 0 |
 | Same article already ingested (alias) | 6 |
-| Content exact match | 775 |
-| Content whitespace/separator-normalised | 280 |
-| Content drift (legacy revision) | 56 |
-| Title drift | 5 |
-| Theme drift / Tags drift | 5 / 4 |
-| doc_type drift (derived mapping) | 664 |
+| Content exact match | 1146 |
+| Content whitespace/separator-normalised | 0 |
+| Content drift (legacy revision) | 0 |
+| Title drift | 0 |
+| Theme drift / Tags drift | 0 / 0 |
+| doc_type drift (derived mapping) | 0 |
 | Files by language | {'pt': 55, 'es': 52} |
 | Articles by language | {'pt': 958, 'es': 188} |
 | Colliding ELIs (multi-locale) | 6 |
@@ -30,7 +30,7 @@ Generated: 2026-09-21T06:49:34.694923
 | Citation aliases pointing away from the corpus | 0 |
 | Citation alias targets missing in Qdrant | 0 |
 | Relabels pending (planned canonicalisation) | 0 |
-| Validation OK | False |
+| Validation OK | True |
 
 ## Per-file coverage
 
@@ -72,41 +72,41 @@ Generated: 2026-09-21T06:49:34.694923
 | `BR/R770_ANAC_CodigoEtica.md` | pt |  | 46 | 46 |  |  |
 | `CL/CC_CodigoCivil.md` | es |  | 6 | 6 |  |  |
 | `CL/CHIPENCOD_CP.md` | es |  | 12 | 12 |  |  |
-| `CL/CL.CACH.Art.127.md` | es |  | 1 | 0 |  |  |
+| `CL/CL.CACH.Art.127.md` | es |  | 1 | 1 |  |  |
 | `CL/CL.CACH.Art.131.md` | es |  | 1 | 1 |  |  |
-| `CL/CL.CACH.Art.132.md` | es |  | 1 | 0 |  |  |
+| `CL/CL.CACH.Art.132.md` | es |  | 1 | 1 |  |  |
 | `CL/CL.CACH.Art.133.md` | es |  | 1 | 1 |  |  |
 | `CL/CL.CACH.Art.133A.md` | es |  | 1 | 1 |  |  |
 | `CL/CL.CACH.Art.133B.md` | es |  | 1 | 1 |  |  |
-| `CL/CL.CACH.Art.133C.md` | es |  | 1 | 0 |  |  |
-| `CL/CL.CACH.Art.133D.md` | es |  | 1 | 0 |  |  |
-| `CL/CL.CACH.Art.133E.md` | es |  | 1 | 0 |  |  |
-| `CL/CL.CACH.Art.133F.md` | es |  | 1 | 0 |  |  |
+| `CL/CL.CACH.Art.133C.md` | es |  | 1 | 1 |  |  |
+| `CL/CL.CACH.Art.133D.md` | es |  | 1 | 1 |  |  |
+| `CL/CL.CACH.Art.133E.md` | es |  | 1 | 1 |  |  |
+| `CL/CL.CACH.Art.133F.md` | es |  | 1 | 1 |  |  |
 | `CL/CL.CC.Art.2314.md` | es |  | 1 | 1 | 1 |  |
-| `CL/CL.CP.Art.211.md` | es |  | 1 | 0 |  |  |
-| `CL/CL.CP.Art.412.md` | es |  | 1 | 0 |  |  |
-| `CL/CL.CPCL.C1.Art.228.md` | es |  | 1 | 0 |  |  |
-| `CL/CL.CPCL.C1.Art.229.md` | es |  | 1 | 0 |  |  |
-| `CL/CL.CPCL.C1.Art.256.md` | es |  | 1 | 0 |  |  |
-| `CL/CL.CPCL.C1.Art.257.md` | es |  | 1 | 0 |  |  |
-| `CL/CL.CPCL.C1.Art.269_bis.md` | es |  | 1 | 0 |  |  |
+| `CL/CL.CP.Art.211.md` | es |  | 1 | 1 |  |  |
+| `CL/CL.CP.Art.412.md` | es |  | 1 | 1 |  |  |
+| `CL/CL.CPCL.C1.Art.228.md` | es |  | 1 | 1 |  |  |
+| `CL/CL.CPCL.C1.Art.229.md` | es |  | 1 | 1 |  |  |
+| `CL/CL.CPCL.C1.Art.256.md` | es |  | 1 | 1 |  |  |
+| `CL/CL.CPCL.C1.Art.257.md` | es |  | 1 | 1 |  |  |
+| `CL/CL.CPCL.C1.Art.269_bis.md` | es |  | 1 | 1 |  |  |
 | `CL/CL.CPCL.C1.Art.269_ter.md` | es |  | 1 | 1 |  |  |
-| `CL/CL.L19496.Art.53A.md` | es |  | 1 | 0 |  |  |
-| `CL/CL.L19496.Art.56.md` | es |  | 1 | 0 |  |  |
-| `CL/CL.L19496.Art.56A.md` | es |  | 1 | 0 |  |  |
-| `CL/CL.L19496.Art.56B.md` | es |  | 1 | 0 |  |  |
-| `CL/CL.L19496.Art.56C.md` | es |  | 1 | 0 |  |  |
-| `CL/CL.L19496.Art.56D.md` | es |  | 1 | 0 |  |  |
-| `CL/CL.L19496.Art.56E.md` | es |  | 1 | 0 |  |  |
-| `CL/CL.L19496.Art.56F.md` | es |  | 1 | 0 |  |  |
-| `CL/CL.L19496.Art.56G.md` | es |  | 1 | 0 |  |  |
-| `CL/CL.L19496.Art.56H.md` | es |  | 1 | 0 |  |  |
-| `CL/CL.L19496.Art.57.md` | es |  | 1 | 0 |  |  |
-| `CL/CL.L20555.Art.1.md` | es |  | 1 | 0 |  |  |
-| `CL/CL.LPDC.Art.56.md` | es |  | 1 | 0 | 1 |  |
-| `CL/CodigoPenal.md` | es |  | 7 | 6 |  |  |
-| `CL/CodigoPenal_Prevaricacion.md` | es |  | 8 | 0 |  |  |
-| `CL/Constitucion.md` | es |  | 7 | 6 |  |  |
+| `CL/CL.L19496.Art.53A.md` | es |  | 1 | 1 |  |  |
+| `CL/CL.L19496.Art.56.md` | es |  | 1 | 1 |  |  |
+| `CL/CL.L19496.Art.56A.md` | es |  | 1 | 1 |  |  |
+| `CL/CL.L19496.Art.56B.md` | es |  | 1 | 1 |  |  |
+| `CL/CL.L19496.Art.56C.md` | es |  | 1 | 1 |  |  |
+| `CL/CL.L19496.Art.56D.md` | es |  | 1 | 1 |  |  |
+| `CL/CL.L19496.Art.56E.md` | es |  | 1 | 1 |  |  |
+| `CL/CL.L19496.Art.56F.md` | es |  | 1 | 1 |  |  |
+| `CL/CL.L19496.Art.56G.md` | es |  | 1 | 1 |  |  |
+| `CL/CL.L19496.Art.56H.md` | es |  | 1 | 1 |  |  |
+| `CL/CL.L19496.Art.57.md` | es |  | 1 | 1 |  |  |
+| `CL/CL.L20555.Art.1.md` | es |  | 1 | 1 |  |  |
+| `CL/CL.LPDC.Art.56.md` | es |  | 1 | 1 | 1 |  |
+| `CL/CodigoPenal.md` | es |  | 7 | 7 |  |  |
+| `CL/CodigoPenal_Prevaricacion.md` | es |  | 8 | 8 |  |  |
+| `CL/Constitucion.md` | es |  | 7 | 7 |  |  |
 | `CL/Constitucion_BCN.md` | es |  | 4 | 4 |  |  |
 | `CL/DAN17_DGAC.md` | es |  | 12 | 12 |  |  |
 | `CL/DFL1_19653_L18575.md` | es |  | 2 | 2 |  |  |

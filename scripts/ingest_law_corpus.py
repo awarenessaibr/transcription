@@ -184,6 +184,7 @@ def cmd_ingest(args: argparse.Namespace) -> int:
             refresh_bm25=not args.no_refresh_bm25,
             recreate_local=args.recreate_local,
             multi_language=args.multi_language,
+            prune_orphans=args.prune_orphans,
         )
     else:
         results = index.ingest(
@@ -195,6 +196,7 @@ def cmd_ingest(args: argparse.Namespace) -> int:
             refresh_bm25=not args.no_refresh_bm25,
             recreate_local=args.recreate_local,
             multi_language=args.multi_language,
+            prune_orphans=args.prune_orphans,
         )
 
     payload = {
@@ -461,6 +463,11 @@ def build_parser() -> argparse.ArgumentParser:
     p_ingest.add_argument("--no-refresh-payloads", action="store_true", help="leave existing payloads untouched")
     p_ingest.add_argument("--no-refresh-bm25", action="store_true", help="leave BM25 sparse vectors untouched")
     p_ingest.add_argument("--recreate-local", action="store_true", help="drop and rebuild the local collection")
+    p_ingest.add_argument(
+        "--prune-orphans",
+        action="store_true",
+        help="delete points for articles no longer in the corpus (converges on data/law)",
+    )
 
     p_migrate = sub.add_parser(
         "migrate",

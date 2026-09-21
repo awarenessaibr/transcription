@@ -364,10 +364,34 @@ def test_law_index_status_reports_pending_counts() -> None:
 
 
 def test_law_index_status_is_up_to_date_when_nothing_is_pending() -> None:
-    payload = LawIndexStatus(local_exists=True).as_dict()
+    payload = LawIndexStatus(canonical_exists=True, local_exists=True).as_dict()
 
     assert payload["canonical"]["up_to_date"] is True
     assert payload["local"]["up_to_date"] is True
+
+
+def test_law_index_status_absent_canonical_collection_is_not_up_to_date() -> None:
+    """Regression: a deleted collection used to report ``up_to_date: True``.
+
+    ``status()`` swallowed the 404 from ``scroll``, leaving every counter at
+    zero — so a dropped production collection rendered as a green tick with
+    ``points == 0``. Absence must never read as "nothing pending".
+    """
+    payload = LawIndexStatus(canonical_exists=False, local_exists=True).as_dict()
+
+    assert payload["canonical"]["exists"] is False
+    assert payload["canonical"]["up_to_date"] is False
+
+
+def test_law_index_status_read_error_is_surfaced_and_not_up_to_date() -> None:
+    payload = LawIndexStatus(
+        canonical_exists=True,
+        canonical_error="UnexpectedResponse: 500",
+        local_exists=True,
+    ).as_dict()
+
+    assert payload["canonical"]["error"] == "UnexpectedResponse: 500"
+    assert payload["canonical"]["up_to_date"] is False
 
 
 def test_law_index_status_absent_local_collection_is_not_up_to_date() -> None:
@@ -476,6 +500,10 @@ class _StubIndex:
         return LawIndexStatus(
             articles_parsed=len(self._articles),
             unique_elis=len(self._articles),
+            #: The stub models a *reachable* canonical collection: it reports
+            #: points, so ``canonical_exists`` has to be true or the status is
+            #: self-contradictory and reconciliation would refuse to trust it.
+            canonical_exists=True,
             canonical_points=len(self.payloads),
             local_exists=True,
             local_points=len(self.payloads),
@@ -748,6 +776,73 @@ def test_registry_endpoint_returns_the_file_once_present(client: Any) -> None:
 
     assert payload["files"][0]["file"] == "BR/L1.md"
     assert md_path.parent == json_path.parent
+
+
+def _write_artifact(client: Any, **summary: Any) -> None:
+    json_path, _ = registry_paths(client.app.state.law_root)
+    json_path.write_text(
+        json.dumps(
+            {
+                "summary": {"generated_at": "2026-09-21T06:49:34+00:00", "qdrant_points": 1119, **summary},
+                "files": [],
+                "detail": {"collection": CANONICAL_COLLECTION},
+            }
+        ),
+        "utf-8",
+    )
+
+
+def test_registry_endpoint_reconciles_a_stale_artifact_against_the_live_collection(client: Any) -> None:
+    # The reported defect: the artifact was written while 35 articles were still
+    # missing, so serving it verbatim kept the UI advertising them forever.
+    _write_artifact(client, genuinely_missing_articles=35, data_law_articles_not_in_qdrant=35)
+    client.index.payloads["BR.L1.C1.Art.1"] = dict(LIVE_PAYLOAD)
+
+    payload = client.get("/api/law/registry").json()
+
+    assert payload["freshness"]["stale"] is True
+    assert any("qdrant_points 1119" in reason for reason in payload["freshness"]["reasons"])
+    assert payload["summary"]["genuinely_missing_articles"] == 0
+    assert payload["summary"]["data_law_articles_not_in_qdrant"] == 0
+    # The photograph is preserved, so the override is visible rather than silent.
+    assert payload["freshness"]["artifact"]["qdrant_points"] == 1119
+    assert payload["freshness"]["generated_at"] == "2026-09-21T06:49:34+00:00"
+
+
+def test_registry_endpoint_reports_a_fresh_artifact_as_not_stale(client: Any) -> None:
+    _write_artifact(
+        client,
+        qdrant_points=len(client.index.payloads),
+        genuinely_missing_articles=0,
+        data_law_articles_not_in_qdrant=0,
+    )
+
+    payload = client.get("/api/law/registry").json()
+
+    assert payload["freshness"]["stale"] is False
+    assert payload["freshness"]["reasons"] == []
+
+
+def test_registry_endpoint_still_serves_the_artifact_when_qdrant_is_unreachable(
+    client: Any, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    _write_artifact(client, genuinely_missing_articles=35)
+
+    def boom() -> Any:
+        raise ConnectionError("refused")
+
+    monkeypatch.setattr(client.index, "status", boom)
+
+    response = client.get("/api/law/registry")
+
+    # An unreachable collection must not turn a readable artifact into a 5xx,
+    # but it must not be presented as fresh either — and the stale 35 must not
+    # be replaced with a zero that nobody measured.
+    assert response.status_code == 200
+    payload = response.json()
+    assert payload["freshness"]["stale"] is True
+    assert "ConnectionError" in payload["freshness"]["reasons"][0]
+    assert payload["summary"]["genuinely_missing_articles"] == 35
 
 
 def test_registry_markdown_endpoint_404s_when_absent(client: Any) -> None:

@@ -34,10 +34,12 @@ from src.infrastructure.qdrant_law_index import (
     IngestStats,
     LawArticle,
     LawCorpusParser,
+    LawIndexStatus,
     LocalLawIngester,
     QdrantLawIndex,
     _fold_tag_label,
     article_number_for,
+    collection_exists,
     default_law_dir,
     diff_payloads,
     doc_type_for,
@@ -50,6 +52,7 @@ from src.infrastructure.qdrant_law_index import (
     parse_article_tags,
     placeholder_dense_vector,
     point_id_for,
+    reconcile_registry,
     sha256_short,
     split_eli,
     stable_point_id,
@@ -161,6 +164,7 @@ class StubQdrantClient:
         self.upserts: list[tuple[str, list[qm.PointStruct]]] = []
         self.created_collections: list[str] = []
         self.deleted_collections: list[str] = []
+        self.deletes: list[tuple[str, Any]] = []
         self.payload_indexes: list[tuple[str, str]] = []
         self._existing: set[str] = set()
 
@@ -193,6 +197,9 @@ class StubQdrantClient:
     def delete_collection(self, name: str) -> None:
         self._existing.discard(name)
         self.deleted_collections.append(name)
+
+    def delete(self, collection_name: str, points_selector: Any, wait: bool = True) -> None:
+        self.deletes.append((collection_name, points_selector))
 
 
 def _article(original_id: str, **overrides: Any) -> LawArticle:
@@ -1106,6 +1113,451 @@ def test_local_ingest_records_embedding_failures(monkeypatch: pytest.MonkeyPatch
     assert stats.failed == 1
     assert stats.failures[0]["reason"] == "embed_failed"
     assert client.upserts == []
+
+
+# ---------------------------------------------------------------------------
+# Orphan pruning + honest collection status
+# ---------------------------------------------------------------------------
+def test_collection_exists_distinguishes_absent_from_empty() -> None:
+    """``scroll`` cannot tell a dropped collection from a pristine one."""
+    client = StubQdrantClient()
+    client.create_collection("empty_but_real")
+
+    assert collection_exists(client, "empty_but_real") is True
+    assert collection_exists(client, "never_created") is False
+
+
+def test_local_delete_orphans_targets_the_named_articles() -> None:
+    orphan_id = stable_point_id("XX.GONE.Art.9")
+    keeper_id = stable_point_id("BR.L1.C1.Art.1")
+    client = StubQdrantClient(
+        [
+            qm.Record(id=orphan_id, payload={"original_id": "XX.GONE.Art.9"}),
+            qm.Record(id=keeper_id, payload={"original_id": "BR.L1.C1.Art.1"}),
+        ]
+    )
+    client.create_collection("transcription_law")
+    ingester = LocalLawIngester(client, collection="transcription_law")
+
+    removed = ingester.delete_orphans(["XX.GONE.Art.9", "XX.GONE.Art.9", ""])
+
+    assert removed == {"transcription_law": 1}
+    collection, selector = client.deletes[0]
+    assert collection == "transcription_law"
+    # Deleted by id, not by filter: Qdrant refuses MatchAny without an index.
+    assert selector.points == [orphan_id]
+
+
+def test_local_delete_orphans_reads_the_schema_v1_eli_id_key() -> None:
+    """Local points may only carry ``eli_id``, so it must be read as a fallback."""
+    orphan_id = stable_point_id("XX.GONE.Art.9")
+    client = StubQdrantClient([qm.Record(id=orphan_id, payload={"eli_id": "XX.GONE.Art.9"})])
+    client.create_collection("transcription_law")
+    ingester = LocalLawIngester(client, collection="transcription_law")
+
+    assert ingester.delete_orphans(["XX.GONE.Art.9"]) == {"transcription_law": 1}
+    assert client.deletes[0][1].points == [orphan_id]
+
+
+def test_local_delete_orphans_skips_an_absent_collection() -> None:
+    client = StubQdrantClient()
+    ingester = LocalLawIngester(client, collection="transcription_law")
+
+    assert ingester.delete_orphans(["XX.GONE.Art.9"]) == {}
+    assert client.deletes == []
+
+
+def test_local_delete_orphans_dry_run_writes_nothing() -> None:
+    client = StubQdrantClient(
+        [qm.Record(id=stable_point_id("XX.GONE.Art.9"), payload={"original_id": "XX.GONE.Art.9"})]
+    )
+    client.create_collection("transcription_law")
+    ingester = LocalLawIngester(client, collection="transcription_law")
+
+    removed = ingester.delete_orphans(["XX.GONE.Art.9"], dry_run=True)
+
+    assert removed == {"transcription_law": 1}
+    assert client.deletes == []
+
+
+def test_delete_orphans_reports_nothing_when_the_eli_is_already_gone() -> None:
+    client = StubQdrantClient(
+        [qm.Record(id=stable_point_id("BR.L1.C1.Art.1"), payload={"original_id": "BR.L1.C1.Art.1"})]
+    )
+    client.create_collection("transcription_law")
+    ingester = LocalLawIngester(client, collection="transcription_law")
+
+    assert ingester.delete_orphans(["XX.GONE.Art.9"]) == {}
+
+
+def test_canonical_delete_orphans_removes_payload_store_and_bm25_together() -> None:
+    orphan_id = stable_point_id("XX.GONE.Art.9")
+    client = StubQdrantClient(
+        [qm.Record(id=orphan_id, payload={"original_id": "XX.GONE.Art.9"})]
+    )
+    client.create_collection("la8159_law")
+    client.create_collection("la8159_law_bm25")
+    ingester = CanonicalLawIngester(client, collection="la8159_law", bm25_collection="la8159_law_bm25")
+
+    removed = ingester.delete_orphans(["XX.GONE.Art.9"])
+
+    assert removed == {"la8159_law": 1, "la8159_law_bm25": 1}
+    assert [name for name, _ in client.deletes] == ["la8159_law", "la8159_law_bm25"]
+    assert all(selector.points == [orphan_id] for _, selector in client.deletes)
+
+
+def test_canonical_delete_orphans_ignores_a_missing_bm25_companion() -> None:
+    client = StubQdrantClient(
+        [qm.Record(id=stable_point_id("XX.GONE.Art.9"), payload={"original_id": "XX.GONE.Art.9"})]
+    )
+    client.create_collection("la8159_law")
+    ingester = CanonicalLawIngester(client, collection="la8159_law", bm25_collection="la8159_law_bm25")
+
+    assert ingester.delete_orphans(["XX.GONE.Art.9"]) == {"la8159_law": 1}
+    assert [name for name, _ in client.deletes] == ["la8159_law"]
+
+
+def test_facade_prune_orphans_removes_extras_and_counts_them(
+    corpus: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    client = StubQdrantClient(
+        [
+            qm.Record(id=stable_point_id("BR.L1.C1.Art.1"), payload={"original_id": "BR.L1.C1.Art.1"}),
+            qm.Record(id=stable_point_id("XX.GONE.Art.9"), payload={"original_id": "XX.GONE.Art.9"}),
+        ]
+    )
+    client.create_collection("transcription_law")
+    index = QdrantLawIndex(client=client, law_dir=corpus, local_collection="transcription_law")
+    monkeypatch.setattr(index.local, "_embed", lambda texts: [[0.1] * LOCAL_DENSE_DIM for _ in texts])
+
+    results = index.ingest(targets=("local",), only_missing=True, prune_orphans=True)
+
+    assert results["local"].orphans_pruned == 1
+    assert "pruned 1 orphan ELI(s)" in results["local"].notes[-1]
+    assert client.deletes[0][1].points == [stable_point_id("XX.GONE.Art.9")]
+
+
+def test_facade_prune_orphans_is_off_by_default(corpus: Path, monkeypatch: pytest.MonkeyPatch) -> None:
+    client = StubQdrantClient(
+        [qm.Record(id=stable_point_id("XX.GONE.Art.9"), payload={"original_id": "XX.GONE.Art.9"})]
+    )
+    client.create_collection("transcription_law")
+    index = QdrantLawIndex(client=client, law_dir=corpus, local_collection="transcription_law")
+    monkeypatch.setattr(index.local, "_embed", lambda texts: [[0.1] * LOCAL_DENSE_DIM for _ in texts])
+
+    results = index.ingest(targets=("local",), only_missing=True)
+
+    assert results["local"].orphans_pruned == 0
+    assert client.deletes == []
+
+
+def test_facade_prune_orphans_skips_the_dense_and_bm25_grids_when_recreating_local(
+    corpus: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    """``recreate_local`` already drops every point, so pruning is redundant."""
+    client = StubQdrantClient(
+        [qm.Record(id=stable_point_id("XX.GONE.Art.9"), payload={"original_id": "XX.GONE.Art.9"})]
+    )
+    client.create_collection("transcription_law")
+    index = QdrantLawIndex(client=client, law_dir=corpus, local_collection="transcription_law")
+    monkeypatch.setattr(index.local, "_embed", lambda texts: [[0.1] * LOCAL_DENSE_DIM for _ in texts])
+
+    results = index.ingest(targets=("local",), recreate_local=True, prune_orphans=True)
+
+    assert results["local"].orphans_pruned == 0
+    assert client.deletes == []
+
+
+def test_status_reports_an_absent_canonical_collection(corpus: Path) -> None:
+    """A dropped collection must not read as an all-clear."""
+    client = StubQdrantClient()
+    index = QdrantLawIndex(client=client, law_dir=corpus, canonical_collection="law")
+
+    payload = index.status().as_dict()
+
+    assert payload["canonical"]["exists"] is False
+    assert payload["canonical"]["up_to_date"] is False
+    assert payload["local"]["exists"] is False
+
+
+def test_status_surfaces_a_read_error_instead_of_zeroing_the_block(corpus: Path) -> None:
+    client = StubQdrantClient()
+    client.create_collection("law")
+
+    def boom(collection_name: str, exact: bool = True) -> Any:
+        raise RuntimeError("qdrant exploded")
+
+    client.count = boom  # type: ignore[method-assign]
+    index = QdrantLawIndex(client=client, law_dir=corpus, canonical_collection="law")
+
+    payload = index.status().as_dict()
+
+    assert payload["canonical"]["exists"] is True
+    assert payload["canonical"]["error"] == "RuntimeError: qdrant exploded"
+    assert payload["canonical"]["up_to_date"] is False
+
+
+def test_validate_reports_an_absent_collection_rather_than_raising(corpus: Path) -> None:
+    client = StubQdrantClient()
+    index = QdrantLawIndex(client=client, law_dir=corpus, canonical_collection="law")
+    plan = index.build_plan()
+
+    report = index.validate(plan)
+
+    assert report.collection_exists is False
+    assert report.ok is False
+    assert report.points == 0
+    assert len(report.missing_in_collection) == len(plan.by_original_id)
+
+
+def test_validation_report_serialises_collection_existence() -> None:
+    from src.infrastructure.qdrant_law_index import ValidationReport
+
+    payload = ValidationReport(collection="law", collection_exists=False).as_dict()
+
+    assert payload["collection_exists"] is False
+    assert payload["ok"] is False
+
+
+# ---------------------------------------------------------------------------
+# Registry artifact reconciliation
+# ---------------------------------------------------------------------------
+def _artifact(**summary_overrides: Any) -> dict[str, Any]:
+    """The shape ``write_registry`` emits, trimmed to what reconciliation reads."""
+    summary = {
+        "generated_at": "2026-09-21T06:49:34+00:00",
+        "data_law_md_files": 107,
+        "data_law_articles_unique": 1146,
+        "qdrant_points": 1119,
+        "qdrant_articles_with_local_file": 1111,
+        "data_law_articles_not_in_qdrant": 35,
+        "genuinely_missing_articles": 35,
+        "qdrant_articles_without_local_file": 8,
+    }
+    summary.update(summary_overrides)
+    return {
+        "summary": summary,
+        "files": [
+            {
+                "file": "CL/x.md",
+                "articles_local": 3,
+                "articles_in_qdrant": 1,
+                "articles_missing": 2,
+                "missing_eli": ["E0", "E1"],
+                "in_qdrant_eli": ["E2"],
+            }
+        ],
+        "qdrant_only_articles": [{"eli_id": "X"}, {"eli_id": "Y"}],
+        "detail": {"collection": "la8159_law", "missing_eli": ["E0", "E1"], "extra_eli": ["X", "Y"]},
+    }
+
+
+def _clean() -> dict[str, Any]:
+    """The status block for a collection holding the whole corpus."""
+    return {"exists": True, "error": None, "points": 1146, "missing": 0, "extra": 0, "missing_sample": []}
+
+
+def test_reconcile_marks_a_stale_artifact_and_names_every_disagreement() -> None:
+    artifact = _artifact()
+
+    result = reconcile_registry(artifact, canonical=_clean(), checked_at="2026-09-22T00:00:00+00:00")
+
+    assert result is artifact  # mutated in place, not copied
+    freshness = artifact["freshness"]
+    assert freshness["stale"] is True
+    assert freshness["generated_at"] == "2026-09-21T06:49:34+00:00"
+    assert freshness["checked_at"] == "2026-09-22T00:00:00+00:00"
+    assert freshness["reasons"] == [
+        "qdrant_points 1119 → 1146",
+        "missing ELIs 2 → 0",
+        "extra ELIs 2 → 0",
+        "per-file articles_missing counts (1 file(s)) → 0",
+    ]
+    # The before/after must both survive, so the override is inspectable.
+    assert freshness["artifact"] == {"qdrant_points": 1119, "missing": 2, "extra": 2}
+    assert freshness["live"] == {"exists": True, "error": None, "points": 1146, "missing": 0, "extra": 0}
+
+
+def test_reconcile_overwrites_only_the_collection_derived_counts() -> None:
+    artifact = _artifact()
+
+    reconcile_registry(artifact, canonical=_clean())
+
+    assert artifact["summary"]["qdrant_points"] == 1146
+    assert artifact["summary"]["genuinely_missing_articles"] == 0
+    assert artifact["summary"]["data_law_articles_not_in_qdrant"] == 0
+    assert artifact["summary"]["qdrant_articles_without_local_file"] == 0
+    assert artifact["summary"]["qdrant_articles_with_local_file"] == 1146
+    assert artifact["summary"]["reconciled_at"] == artifact["freshness"]["checked_at"]
+    # Corpus-derived keys describe the parse of data/law, not the collection.
+    assert artifact["summary"]["data_law_md_files"] == 107
+    assert artifact["summary"]["data_law_articles_unique"] == 1146
+    assert artifact["summary"]["generated_at"] == "2026-09-21T06:49:34+00:00"
+
+
+def test_reconcile_completes_the_eli_lists_when_nothing_is_missing() -> None:
+    # A live missing count of 0 proves the stale lists are empty, so they are
+    # cleared rather than left disagreeing with the corrected count.
+    artifact = _artifact()
+
+    reconcile_registry(artifact, canonical=_clean())
+
+    assert artifact["detail"]["missing_eli"] == []
+    assert artifact["detail"]["extra_eli"] == []
+    assert artifact["qdrant_only_articles"] == []
+    entry = artifact["files"][0]
+    assert entry["missing_eli"] == []
+    assert entry["articles_missing"] == 0
+    assert entry["articles_in_qdrant"] == 3
+    # The ELIs the artifact called missing are folded into the present set.
+    assert entry["in_qdrant_eli"] == ["E0", "E1", "E2"]
+    assert "undecomposed" not in artifact["freshness"]
+
+
+def test_reconcile_leaves_the_eli_lists_alone_when_something_is_still_missing() -> None:
+    # With a non-zero live count the artifact's list is a stale superset that
+    # cannot be re-derived here, so it must be named rather than silently
+    # contradicted by the corrected count.
+    artifact = _artifact()
+
+    reconcile_registry(
+        artifact,
+        canonical={"exists": True, "error": None, "points": 1140, "missing": 6, "extra": 0},
+    )
+
+    assert artifact["summary"]["genuinely_missing_articles"] == 6
+    assert artifact["summary"]["qdrant_points"] == 1140
+    assert artifact["detail"]["missing_eli"] == ["E0", "E1"]  # left as-is
+    assert artifact["freshness"]["undecomposed"] == ["detail.missing_eli"]
+
+
+def test_reconcile_leaves_a_fresh_artifact_untouched_and_not_stale() -> None:
+    artifact = _artifact(
+        qdrant_points=1146,
+        qdrant_articles_with_local_file=1146,
+        data_law_articles_not_in_qdrant=0,
+        genuinely_missing_articles=0,
+        qdrant_articles_without_local_file=0,
+    )
+    artifact["detail"]["missing_eli"] = []
+    artifact["detail"]["extra_eli"] = []
+    artifact["qdrant_only_articles"] = []
+    artifact["files"] = [
+        {
+            "file": "CL/x.md",
+            "articles_local": 3,
+            "articles_in_qdrant": 3,
+            "articles_missing": 0,
+            "missing_eli": [],
+            "in_qdrant_eli": ["E0", "E1", "E2"],
+        }
+    ]
+
+    reconcile_registry(artifact, canonical=_clean())
+
+    assert artifact["freshness"]["stale"] is False
+    assert artifact["freshness"]["reasons"] == []
+    assert artifact["freshness"]["applied"] == {
+        "qdrant_points": 1146,
+        "qdrant_articles_with_local_file": 1146,
+        "data_law_articles_not_in_qdrant": 0,
+        "genuinely_missing_articles": 0,
+        "qdrant_articles_without_local_file": 0,
+    }
+
+
+def test_reconcile_flags_a_fully_ingested_corpus_whose_artifact_still_lists_missing_articles() -> None:
+    # The reported defect, end to end: the collection is complete but the
+    # artifact still advertises the articles as missing.
+    artifact = _artifact(
+        qdrant_points=1146,
+        qdrant_articles_with_local_file=1146,
+        data_law_articles_not_in_qdrant=35,
+        genuinely_missing_articles=35,
+        qdrant_articles_without_local_file=0,
+    )
+    artifact["detail"]["extra_eli"] = []
+    artifact["qdrant_only_articles"] = []
+    artifact["detail"]["missing_eli"] = [f"E{i}" for i in range(35)]
+
+    reconcile_registry(artifact, canonical=_clean())
+
+    assert artifact["summary"]["genuinely_missing_articles"] == 0
+    assert artifact["summary"]["data_law_articles_not_in_qdrant"] == 0
+    assert artifact["freshness"]["stale"] is True
+    assert "missing ELIs 35 → 0" in artifact["freshness"]["reasons"]
+
+
+def test_reconcile_does_not_overwrite_anything_when_the_collection_is_absent() -> None:
+    artifact = _artifact()
+
+    reconcile_registry(artifact, canonical={"exists": False, "error": None, "points": 0, "missing": 0, "extra": 0})
+
+    assert artifact["freshness"]["stale"] is True
+    assert artifact["freshness"]["reasons"] == [
+        "collection does not exist — live counts unavailable; artifact not reconciled"
+    ]
+    # An absent collection is not evidence that nothing is missing.
+    assert "applied" not in artifact["freshness"]
+    assert artifact["summary"]["genuinely_missing_articles"] == 35
+    assert artifact["summary"]["qdrant_points"] == 1119
+    assert artifact["detail"]["missing_eli"] == ["E0", "E1"]
+
+
+def test_reconcile_does_not_overwrite_anything_on_a_read_error() -> None:
+    artifact = _artifact()
+
+    reconcile_registry(
+        artifact,
+        canonical={"exists": True, "error": "ConnectionError: refused", "points": 0, "missing": 0, "extra": 0},
+    )
+
+    assert artifact["freshness"]["stale"] is True
+    assert artifact["freshness"]["reasons"] == [
+        "collection read failed (ConnectionError: refused) — live counts unavailable; artifact not reconciled"
+    ]
+    assert "applied" not in artifact["freshness"]
+    assert artifact["summary"]["qdrant_points"] == 1119
+
+
+def test_reconcile_points_at_the_refresh_endpoint() -> None:
+    artifact = _artifact()
+
+    reconcile_registry(artifact, canonical=_clean())
+
+    assert artifact["freshness"]["refresh_endpoint"] == "/api/law/registry/refresh"
+    assert artifact["freshness"]["live"]["exists"] is True
+
+
+def test_reconcile_handles_a_minimal_artifact_without_detail_or_files() -> None:
+    # The on-demand registry shape has no ``files`` and the legacy JS shape has
+    # no ``detail``; neither may raise.
+    artifact: dict[str, Any] = {"summary": {"qdrant_points": 1}}
+
+    reconcile_registry(artifact, canonical={"exists": True, "error": None, "points": 5, "missing": 0, "extra": 0})
+
+    assert artifact["summary"]["qdrant_points"] == 5
+    assert artifact["summary"]["genuinely_missing_articles"] == 0
+
+
+def test_reconcile_refuses_to_reconcile_on_a_non_integer_count() -> None:
+    # ``missing`` must be an int. A string (a hand-edited artifact, or a status
+    # schema change) must not be coerced: writing ``None`` into the summary is
+    # worse than leaving the stale value, because a consumer cannot tell it apart
+    # from "no data".
+    artifact = _artifact(qdrant_points=1146)
+
+    reconcile_registry(
+        artifact,
+        canonical={"exists": True, "error": None, "points": 1146, "missing": "0", "extra": 0},
+    )
+
+    assert artifact["summary"]["genuinely_missing_articles"] == 35
+    assert artifact["freshness"]["stale"] is True
+    assert artifact["freshness"]["reasons"] == [
+        "live counts malformed (missing) — artifact not reconciled"
+    ]
+    assert "applied" not in artifact["freshness"]
 
 
 # ---------------------------------------------------------------------------
