@@ -1,36 +1,36 @@
 # Law Corpus Registry — `data/law/` ↔ Qdrant `la8159_law`
 
-Generated: 2026-09-21T10:10:13.105766
+Generated: 2026-09-21T10:36:54.536094
 
 ## Summary
 
 | Metric | Value |
 |---|---|
-| data/law .md files | 112 |
-| Article blocks (with ELI) | 2179 |
-| Unique article ELIs | 2179 |
+| data/law .md files | 114 |
+| Article blocks (with ELI) | 2608 |
+| Unique article ELIs | 2608 |
 | Reference-only files (no ELI) | 0 |
-| Qdrant points | 2083 |
-| Qdrant unique original_ids | 2083 |
+| Qdrant points | 2608 |
+| Qdrant unique original_ids | 2608 |
 | Qdrant duplicate original_ids | 0 |
-| Articles missing in Qdrant | 96 |
+| Articles missing in Qdrant | 0 |
 | Qdrant articles with no local ELI | 0 |
 | Same article already ingested (alias) | 21 |
-| Content exact match | 2083 |
+| Content exact match | 2608 |
 | Content whitespace/separator-normalised | 0 |
 | Content drift (legacy revision) | 0 |
 | Title drift | 0 |
 | Theme drift / Tags drift | 0 / 0 |
 | doc_type drift (derived mapping) | 0 |
-| Files by language | {'pt': 56, 'es': 56} |
-| Articles by language | {'pt': 1133, 'es': 1046} |
+| Files by language | {'pt': 58, 'es': 56} |
+| Articles by language | {'pt': 1562, 'es': 1046} |
 | Colliding ELIs (multi-locale) | 17 |
 | Citation aliases (resolving / total) | 0 / 0 |
 | Citation aliases broken (no corpus target) | 0 |
 | Citation aliases pointing away from the corpus | 0 |
 | Citation alias targets missing in Qdrant | 0 |
 | Relabels pending (planned canonicalisation) | 0 |
-| Validation OK | False |
+| Validation OK | True |
 
 ## Per-file coverage
 
@@ -50,6 +50,7 @@ Generated: 2026-09-21T10:10:13.105766
 | `BR/D11129_PNDH3.md` | pt |  | 20 | 20 |  |  |
 | `BR/D1171_CodigoEticaServidor.md` | pt |  | 28 | 28 |  |  |
 | `BR/D2181_SNDC.md` | pt |  | 10 | 10 |  |  |
+| `BR/D530_ANAC.md` | pt |  | 6 | 6 |  |  |
 | `BR/D6029_SistemaGestaoEtica.md` | pt |  | 26 | 26 |  |  |
 | `BR/D7203_Nepotismo.md` | pt |  | 6 | 6 |  |  |
 | `BR/D7724_LAI_Regulamento.md` | pt |  | 12 | 12 |  |  |
@@ -59,6 +60,7 @@ Generated: 2026-09-21T10:10:13.105766
 | `BR/L12813_ConflitoInteresses.md` | pt |  | 8 | 8 |  |  |
 | `BR/L12846_Anticorrupcao.md` | pt |  | 11 | 11 |  |  |
 | `BR/L13460_UsuarioServicoPublico.md` | pt |  | 14 | 14 |  |  |
+| `BR/L13709.md` | pt |  | 80 | 80 |  |  |
 | `BR/L7565_CBA.md` | pt |  | 128 | 128 |  |  |
 | `BR/L7716_RacialCrime.md` | pt |  | 9 | 9 |  |  |
 | `BR/L8078_CDC.md` | pt |  | 32 | 32 |  |  |
@@ -127,7 +129,7 @@ Generated: 2026-09-21T10:10:13.105766
 | `CL/L20880_Probidad.md` | es |  | 2 | 2 |  |  |
 | `CL/R218_JAC_DerechosPasajeros.md` | es |  | 4 | 4 |  |  |
 | `INT/ACHR.md` | pt |  | 83 | 83 |  |  |
-| `INT/Chicago1944.md` | pt |  | 96 | 0 |  |  |
+| `INT/Chicago1944.md` | pt |  | 96 | 96 |  |  |
 | `INT/Hague_1980.md` | pt |  | 2 | 2 |  |  |
 | `INT/IATA_GC.md` | pt |  | 19 | 19 |  |  |
 | `INT/ICAO_Annex10.md` | pt |  | 4 | 4 |  |  |
@@ -137,7 +139,7 @@ Generated: 2026-09-21T10:10:13.105766
 | `INT/ICAO_Annex17.md` | pt |  | 7 | 7 |  |  |
 | `INT/ICAO_Annex18.md` | pt |  | 4 | 4 |  |  |
 | `INT/ICAO_Annex6.md` | pt |  | 30 | 30 |  |  |
-| `INT/ICAO_Annex9.md` | pt |  | 61 | 61 |  |  |
+| `INT/ICAO_Annex9.md` | pt |  | 404 | 404 |  |  |
 | `INT/ICAO_DOC4444.md` | pt |  | 15 | 15 |  |  |
 | `INT/ICAO_DOC8168.md` | pt |  | 3 | 3 |  |  |
 | `INT/ICAO_DOC9284.md` | pt |  | 1 | 1 |  |  |
