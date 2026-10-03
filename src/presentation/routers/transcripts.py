@@ -1148,22 +1148,46 @@ async def save_review(transcript_id: str, payload: SegmentUpdate):
     # map the indices onto post-insert/post-delete positions and flag the wrong
     # segments. Missing keys keep their stored value; an explicit "" clears it.
     reviewed_set = {int(i) for i in payload.reviewed_indices}
-    base = _replace(
-        base,
-        segments=[
-            _replace(
-                seg,
-                reviewed=(seg.index in reviewed_set),
-                correction_note=payload.edited_correction_notes.get(
-                    seg.index, getattr(seg, "correction_note", "")
-                ),
-                backchannel_events=payload.edited_backchannel_events.get(
-                    seg.index, getattr(seg, "backchannel_events", "")
-                ),
-            )
-            for seg in base.segments
-        ],
-    )
+    rejected_edits: list[dict] = []
+
+    def _apply_segment(seg: Segment) -> Segment:
+        new_text = payload.edited_texts.get(seg.index)
+        new_speaker = payload.edited_speakers.get(seg.index)
+        new_start = payload.edited_starts.get(seg.index)
+        new_end = payload.edited_ends.get(seg.index)
+
+        start = seg.start if new_start is None else float(new_start)
+        end = seg.end if new_end is None else float(new_end)
+        # Reject a timing edit that would invert or collapse the segment rather
+        # than persist a corrupt timeline. This is the same class of defect that
+        # lets the refiner empty a window via an unvalidated start/end.
+        if start >= end:
+            rejected_edits.append({
+                "segment_index": seg.index,
+                "reason": f"start ({start}) must be < end ({end})",
+            })
+            start, end = seg.start, seg.end
+
+        return _replace(
+            seg,
+            reviewed=(seg.index in reviewed_set),
+            correction_note=payload.edited_correction_notes.get(
+                seg.index, getattr(seg, "correction_note", "")
+            ),
+            backchannel_events=payload.edited_backchannel_events.get(
+                seg.index, getattr(seg, "backchannel_events", "")
+            ),
+            text=seg.text if new_text is None else new_text,
+            speaker=seg.speaker if new_speaker is None else Speaker(label=new_speaker),
+            start=start,
+            end=end,
+        )
+
+    base = _replace(base, segments=[_apply_segment(seg) for seg in base.segments])
+
+    # An explicitly supplied recording time is metadata a reviewer can correct.
+    if payload.recording_datetime is not None:
+        base = _replace(base, recording_datetime=payload.recording_datetime)
 
     applied: list[Patch] = []
     skipped: list[dict] = []
@@ -1210,24 +1234,37 @@ async def save_review(transcript_id: str, payload: SegmentUpdate):
             for raw in payload.patches
         ]
 
-    for idx in payload.reviewed_indices:
-        if 0 <= idx < len(patched.segments):
-            emit(idx, "segment_reviewed", {})
+    # Emit audit events only for segments that actually exist, and count what was
+    # really recorded. The previous version emitted for any supplied index and
+    # then reported `events_written` from the raw payload lengths, so the response
+    # overstated the work done for edits that were never applied.
+    valid_indices = {seg.index for seg in patched.segments}
+    events_written = 0
 
+    def emit_if_present(seg_idx: int, event_type: str, event_payload: dict) -> None:
+        nonlocal events_written
+        if seg_idx in valid_indices:
+            emit(seg_idx, event_type, event_payload)
+            events_written += 1
+
+    for idx in payload.reviewed_indices:
+        emit_if_present(idx, "segment_reviewed", {})
     for idx, text in payload.edited_texts.items():
-        emit(idx, "segment_text_edited", {"text": text})
+        emit_if_present(idx, "segment_text_edited", {"text": text})
     for idx, spk in payload.edited_speakers.items():
-        emit(idx, "segment_speaker_edited", {"speaker": spk})
+        emit_if_present(idx, "segment_speaker_edited", {"speaker": spk})
     for idx, start in payload.edited_starts.items():
-        emit(idx, "segment_time_edited", {"start": start})
+        emit_if_present(idx, "segment_time_edited", {"start": start})
     for idx, end in payload.edited_ends.items():
-        emit(idx, "segment_time_edited", {"end": end})
+        emit_if_present(idx, "segment_time_edited", {"end": end})
 
     # Curation columns were already applied to the base above; record the events.
     for idx, note in payload.edited_correction_notes.items():
-        emit(idx, "segment_correction_note_edited", {"correction_note": note})
+        emit_if_present(idx, "segment_correction_note_edited", {"correction_note": note})
     for idx, events in payload.edited_backchannel_events.items():
-        emit(idx, "segment_backchannel_events_edited", {"backchannel_events": events})
+        emit_if_present(idx, "segment_backchannel_events_edited", {"backchannel_events": events})
+
+    skipped.extend(rejected_edits)
 
     # Off-load the synchronous, atomic disk write so it never blocks the loop.
     await asyncio.to_thread(_store.save, patched)
@@ -1240,13 +1277,7 @@ async def save_review(transcript_id: str, payload: SegmentUpdate):
         # Canonical post-save state so the client updates in place instead of
         # re-fetching the transcript and re-listing afterwards.
         "transcript": _transcript_to_dict(patched),
-        "events_written": len(payload.reviewed_indices)
-        + len(payload.edited_texts)
-        + len(payload.edited_speakers)
-        + len(payload.edited_starts)
-        + len(payload.edited_ends)
-        + len(payload.edited_correction_notes)
-        + len(payload.edited_backchannel_events),
+        "events_written": events_written,
     }
             
 @router.post("/{transcript_id}/review/index")
