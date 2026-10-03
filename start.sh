@@ -12,7 +12,8 @@ fi
 
 cd "$SCRIPT_DIR"
 
-HOST="${HOST:-0.0.0.0}"
+# Loopback by default: unauthenticated unless TRANSCRIPTION_API_KEY is set.
+HOST="${HOST:-127.0.0.1}"
 PORT="${PORT:-${transcription_PORT:-8049}}"
 APP_URL="${APP_URL:-http://${HOST}:${PORT}/pinocchio}"
 

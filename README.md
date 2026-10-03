@@ -255,6 +255,9 @@ All settings are loaded from environment variables. See [.env.example](.env.exam
 
 | Variable | Description | Default |
 |----------|-------------|---------|
+| `TRANSCRIPTION_API_KEY` | Enables API-key auth on every route except `/health`, `/static/*` and the HTML shells. **Unset means the API is unauthenticated** — only safe because the server binds to loopback by default. | — |
+| `HOST` | Bind address for the API (`127.0.0.1` by default; set `0.0.0.0` to expose on the network) | `127.0.0.1` |
+| `PORT` | Bind port for the API | `8049` |
 | `PYANNOTE_AUTH_TOKEN` | HuggingFace token for Pyannote | — |
 | `HF_TOKEN` | Canonical Hugging Face token env var | — |
 | `HUGGINGFACE_HUB_TOKEN` | HuggingFace hub token | — |

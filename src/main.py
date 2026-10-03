@@ -5,12 +5,14 @@ This file is the ONLY place where all layers know about each other.
 """
 import asyncio
 import logging
+import os
 import time
 from pathlib import Path
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
+
 from .composition import build_runtime
 from .config import settings
 from .llm.router import router as llm_router
@@ -70,6 +72,13 @@ init_references_router(
 # ── FastAPI App ──────────────────────────────────────────────────────────
 app = FastAPI(title="SA transcription Transcription API")
 
+# Authentication. With TRANSCRIPTION_API_KEY set, every route except the health
+# probe, static assets and the HTML shells requires the key. Without it the gate
+# is open, which is only safe because the server binds to loopback by default.
+from .presentation.middleware.auth import APIKeyMiddleware, warn_if_disabled  # noqa: E402
+
+app.add_middleware(APIKeyMiddleware)
+
 # CORS — explicit origins, not wildcard
 app.add_middleware(
     CORSMiddleware,
@@ -108,6 +117,7 @@ app.mount("/speakers", StaticFiles(directory=settings.SPEAKERS_DIR), name="speak
 async def preload():
     """Kick off non-blocking background preload of heavy models."""
     log = logging.getLogger("startup")
+    warn_if_disabled()
 
     if not settings.PRELOAD_MODELS:
         log.info("Model preload disabled (PRELOAD_MODELS=false)")
@@ -133,4 +143,7 @@ async def preload():
 if __name__ == "__main__":
     import uvicorn
 
-    uvicorn.run(app, host="0.0.0.0", port=8049)
+    # Loopback by default: this process serves privileged legal material and
+    # has no authentication unless TRANSCRIPTION_API_KEY is set. Set
+    # HOST=0.0.0.0 explicitly to expose it on the network.
+    uvicorn.run(app, host=os.getenv("HOST", "127.0.0.1"), port=int(os.getenv("PORT", "8049")))
