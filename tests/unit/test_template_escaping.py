@@ -23,10 +23,11 @@ from pathlib import Path
 import pytest
 
 TEMPLATES = Path(__file__).resolve().parents[2] / "templates"
-PINOCCHIO = ["pinocchio.html", "pinocchio-en.html"]
+# The Spanish twins were retired in favour of the -en pair, which is now canonical.
+PINOCCHIO = ["pinocchio-en.html"]
 
 pytestmark = pytest.mark.skipif(
-    not (TEMPLATES / "pinocchio.html").exists(), reason="templates not present"
+    not (TEMPLATES / "pinocchio-en.html").exists(), reason="templates not present"
 )
 
 
@@ -84,7 +85,7 @@ def test_escape_html_handles_quotes(name: str) -> None:
 
 @pytest.mark.parametrize(
     "name",
-    ["pinocchio.html", "pinocchio-en.html", "revision.html", "revision-en.html"],
+    ["pinocchio-en.html", "revision-en.html"],
 )
 def test_inline_javascript_parses(name: str) -> None:
     """A malformed template edit should fail here, not in the browser."""
@@ -110,3 +111,43 @@ def test_inline_javascript_parses(name: str) -> None:
         assert res.returncode == 0, (
             f"{name}: inline script block {i} has a syntax error:\n{res.stderr[:400]}"
         )
+
+
+# ---------------------------------------------------------------------------
+# UI retirement guards
+#
+# The Spanish twins were retired in favour of the -en pair, and curadoria was
+# removed. These assert the duplicates cannot silently reappear and that every
+# UI route still resolves to a template that exists.
+# ---------------------------------------------------------------------------
+RETIRED_TEMPLATES = ("pinocchio.html", "revision.html", "curadoria.html")
+
+
+@pytest.mark.parametrize("retired", RETIRED_TEMPLATES)
+def test_retired_template_is_gone(retired: str) -> None:
+    assert not (TEMPLATES / retired).exists(), (
+        f"{retired} is back; it was retired in favour of the -en pair"
+    )
+
+
+@pytest.mark.parametrize("surviving", ["pinocchio-en.html", "revision-en.html"])
+def test_surviving_template_exists(surviving: str) -> None:
+    assert (TEMPLATES / surviving).exists()
+
+
+def test_ui_routes_resolve_to_existing_templates() -> None:
+    """A route pointing at a deleted template would 404 the whole UI."""
+    from fastapi import FastAPI
+    from fastapi.testclient import TestClient
+
+    from src.presentation.routers import pinocchio
+
+    app = FastAPI()
+    app.include_router(pinocchio.router)
+    with TestClient(app) as client:
+        for path in ("/", "/pinocchio", "/pinocchio-en", "/revision", "/revision-en"):
+            res = client.get(path)
+            assert res.status_code == 200, f"{path} -> {res.status_code}"
+            assert "text/html" in res.headers.get("content-type", ""), path
+        # The retired view must not be served any more.
+        assert client.get("/curadoria").status_code == 404
