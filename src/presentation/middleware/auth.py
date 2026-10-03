@@ -52,7 +52,6 @@ PUBLIC_PATHS: frozenset[str] = frozenset({
     "/pinocchio-en",
     "/revision",
     "/revision-en",
-    "/law-registry",
     "/speakers-registry",
     "/docs",
     "/openapi.json",

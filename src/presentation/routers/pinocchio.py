@@ -30,7 +30,6 @@ _TEMPLATE_DIR = Path(__file__).resolve().parents[3] / "templates"
 _PINOCCIO_TEMPLATE = _TEMPLATE_DIR / "pinocchio-en.html"
 _REVISION_TEMPLATE = _TEMPLATE_DIR / "revision-en.html"
 _SPEAKERS_REGISTRY_TEMPLATE = _TEMPLATE_DIR / "speakers-registry.html"
-_LAW_REGISTRY_TEMPLATE = _TEMPLATE_DIR / "law-registry.html"
 
 
 def _serve(path: Path) -> FileResponse:
@@ -57,12 +56,6 @@ async def serve_revision() -> FileResponse:
 @router.get("/speakers-registry", include_in_schema=False)
 async def serve_speakers_registry() -> FileResponse:
     return _serve(_SPEAKERS_REGISTRY_TEMPLATE)
-
-
-@router.get("/law-registry", include_in_schema=False)
-async def serve_law_registry() -> FileResponse:
-    """Law corpus registry browser (backed by /api/law/*)."""
-    return _serve(_LAW_REGISTRY_TEMPLATE)
 
 
 # ── /api/pinocchio/* aliases (307 preserves method + body) ────────────────

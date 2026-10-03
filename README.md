@@ -10,7 +10,6 @@ High-accuracy transcription service combining **OpenAI Whisper** ASR with **Pyan
 - **Audio preprocessing** — Noise reduction, voice enhancement (band-pass 300-3400 Hz), loudness normalisation (LUFS), silence removal
 - **AI transcript analysis** — Anthropic Claude integration for summaries, entity extraction, sentiment (optional)
 - **Semantic search** — Qdrant vector store with sentence-transformers for transcript search (optional)
-- **Law corpus index** — `data/law/**/*.md` → Qdrant with payload/BM25 parity validation and a regenerateable registry (see [Law Corpus Index](#law-corpus-index))
 - **Clean Architecture** — Domain / Application / Infrastructure / Presentation layers with Protocol-based ports
 - **Dual deployment** — FastAPI server or Runpod serverless handler
 
@@ -127,113 +126,6 @@ curl -X POST http://localhost:8049/api/diarization/transcribe \
   -F "max_speakers=3"
 ```
 
-## Law Corpus Index (`data/law/`) {#law-corpus-index}
-
-The `data/law/**/*.md` corpus (100 files / 1119 article ELIs) is parsed into Qdrant by
-`src/infrastructure/qdrant_law_index.py` and driven by `scripts/ingest_law_corpus.py`.
-
-| Collection | Dim | Vector | Role |
-|---|---|---|---|
-| `transcription_law` | 384 | dense, `all-MiniLM-L6-v2` | **Repo-owned semantic search.** Safe to drop/rebuild (`--recreate-local`). |
-| `la8159_law` | 768 | dense (opaque) | **Shared production payload store.** Read for payloads; treated as *not* a similarity index. |
-| `la8159_law_bm25` | — | sparse `text`, `qdrant/bm25` | Shared lexical search over the same articles. |
-
-> ⚠️ **Dense semantic search must use `transcription_law`.** The 768-dim vectors in
-> `la8159_law` are not produced by any known local model, so similarity on that
-> collection is meaningless. Point IDs are `uuid5(NAMESPACE_DNS, original_id)`, so
-> existing points are always reused and never duplicated.
-
-```bash
-# read-only: parse the corpus and print an inventory
-.venv-py312/bin/python scripts/ingest_law_corpus.py plan
-
-# build/refresh the repo-owned semantic index (default target = local)
-.venv-py312/bin/python scripts/ingest_law_corpus.py ingest
-
-# coverage + payload-parity report, and regenerate the registry artifacts
-.venv-py312/bin/python scripts/ingest_law_corpus.py validate --write-registry
-
-# semantic search / lexical search
-.venv-py312/bin/python scripts/ingest_law_corpus.py search "prazo para recurso administrativo"
-.venv-py312/bin/python scripts/ingest_law_corpus.py search "prazo recurso" --target canonical
-
-# preview a refresh of the SHARED production collections (writes nothing)
-.venv-py312/bin/python scripts/ingest_law_corpus.py ingest --target canonical --dry-run
-```
-
-**Targets.** `--target local` (the default), `canonical`, or `both`. Writing to
-`canonical` refreshes payloads via `set_payload` (no `vector` key, so the 768-dim
-vectors are preserved) and re-derives the BM25 sparse vectors. `--allow-new` is
-off by default because creating a missing article would require a placeholder
-dense vector.
-
-**Corpus conventions** — each article is a `### <Title>` block whose first
-backticked `` `ELI ID` `` (or `` `ID ELI` ``) line becomes `original_id`; optional
-`Theme`/`Tags` lines and a trailing `---` separator are preserved. Multi-locale
-articles (`INT/BR` pt vs `INT/EN` en) collide on `original_id`; the English
-variant wins by default (`--prefer-language`, `--multi-language` to keep all).
-
-**Registry.** `validate --write-registry` writes `data/law/_mapping/law_registry.json`
-and `LAW_REGISTRY.md`. The JSON is a **superset** of the schema emitted by
-`discovery/case-server/pipeline/build_law_registry.js`, so existing JS consumers
-keep working; parity details live under the extra `detail` key.
-
-Registry artifacts are **excluded from parsing** (`_CORPUS_EXCLUDED_FILES`), so a
-generated `LAW_REGISTRY.md` can never be re-ingested as law content.
-`write_registry` resolves its destination through `registry_paths()`, which maps a
-corpus root to its `_mapping` subdirectory — the writer and the read endpoints can
-therefore never disagree about where the registry lives.
-
-### Law registry API (`/api/law`)
-
-Served by `src/presentation/routers/law_registry.py`.
-
-| Method | Path | Purpose |
-|---|---|---|
-| `GET` | `/status` | Corpus/coverage summary, `editable_fields`, registry artifact paths. Slow (~2–6 s): it parses the whole corpus. |
-| `GET` | `/registry` | `law_registry.json` (generated on demand when absent). |
-| `GET` | `/registry/markdown` | `LAW_REGISTRY.md`. |
-| `POST` | `/registry/refresh` | Re-validate and rewrite both artifacts. |
-| `GET` | `/source?path=` | Read one corpus file (traversal-safe, `.md`/`.markdown` only). |
-| `GET` | `/article?original_id=&collection=` | Live payload, expected payload, and per-field `diff`; `indexed` is per selected collection. |
-| `GET` | `/search?q=&target=&limit=&jurisdiction=` | Dense search on `local`, lexical on `canonical`. |
-| `PATCH` | `/payload` | Edit a point's payload (see below). |
-| `POST` | `/index` | Start an ingestion job → `202` with a job id. |
-| `GET` | `/index/{job_id}` | Job state, per-phase `progress`, stats, notes, failures. |
-| `GET` | `/index` | Known jobs and the active one. |
-| `POST` | `/index/{job_id}/cancel` | Request cancellation. |
-
-`POST /index` body: `mode` (`incremental` \| `force`), `target` (`local` \|
-`canonical` \| `both`), `dry_run`, `allow_new`, `recreate_local`,
-`multi_language`, `confirm`.
-
-- `mode=incremental` maps to `only_missing`: articles already present are skipped,
-  and **canonical payloads are not rewritten** (`refresh_payloads and not only_missing`).
-  BM25 sparse vectors are derived data, so they are still regenerated.
-- `mode=force` re-ingests everything.
-- `target` defaults to `local`. Writing to `canonical` requires `confirm: true`
-  unless `dry_run: true`.
-- `recreate_local` with `incremental` → `400`. A second concurrent job → `409`.
-
-### Editing payloads from the UI
-
-`/law-registry` renders the registry, lets you open any article's live payload next
-to the corpus-derived expectation, and edit it in place. The Index button offers
-*index not yet indexed* (incremental) and *full forced ingestion*, with dry-run,
-recreate, and target controls.
-
-**Editable:** `title`, `theme`, `tags`, `content`, `source_file`, `doc_type`.
-**Immutable:** `original_id`, `original_data`, `metadata`, `framework_code`,
-`jurisdiction`, `language`, `sha256_short`, `source_path`.
-
-Editing `content` also rewrites `text` and re-derives `sha256_short`; flat edits are
-mirrored into `original_data`, and `metadata.updated_at` is set while
-`ingestion_time` is preserved. Dense vectors and point IDs are **never** modified —
-only `set_payload` is used — and an edit to an ELI that is not indexed fails rather
-than creating a point with a placeholder vector. The UI defaults writes to
-`transcription_law` (repo-owned) and requires an explicit confirm dialog before
-touching the shared production collections.
-
 ## Architecture
 
 ```
@@ -271,12 +163,6 @@ All settings are loaded from environment variables. See [.env.example](.env.exam
 | `ANTHROPIC_MODEL` | Anthropic-compatible model for analysis | `deepseek-flash` |
 | `QDRANT_URL` | Qdrant server URL (enables semantic search) | `http://localhost:6333` |
 | `QDRANT_API_KEY` | Qdrant API key (if secured) | — |
-| `LAW_DIR` | Law corpus root (`.md` articles) | `data/law` |
-| `LAW_COLLECTION` | Shared canonical payload collection | `la8159_law` |
-| `LAW_BM25_COLLECTION` | Shared BM25 sparse collection | `la8159_law_bm25` |
-| `LAW_LOCAL_COLLECTION` | Repo-owned dense search collection | `transcription_law` |
-| `LAW_EMBED_MODEL` | Sentence-transformers model for the law index | `all-MiniLM-L6-v2` |
-| `LAW_PREFERRED_LANGUAGE` | Locale winner on `original_id` collisions | `en` |
 
 Pyannote token resolution order is:
 `PYANNOTE_AUTH_TOKEN` → `HF_TOKEN` → `HUGGINGFACE_HUB_TOKEN` → `use_auth_token`.

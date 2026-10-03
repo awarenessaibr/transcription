@@ -22,7 +22,6 @@ from .presentation.routers.diarization import router as diarization_router
 
 # Presentation routers
 from .presentation.routers.health import router as health_router
-from .presentation.routers.law_registry import router as law_registry_router
 from .presentation.routers.parameters import router as parameters_router
 from .presentation.routers.pinocchio import router as pinocchio_router
 from .presentation.routers.projects import init_projects_router
@@ -99,7 +98,6 @@ app.include_router(references_router)
 app.include_router(pinocchio_router)
 app.include_router(llm_router)
 app.include_router(speakers_router)
-app.include_router(law_registry_router)
 
 # Serve frontend assets (shared LLM provider UI)
 _STATIC_DIR = Path(__file__).resolve().parents[1] / "static"

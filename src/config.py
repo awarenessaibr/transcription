@@ -89,23 +89,6 @@ class Settings:
     SPEAKERS_DIR: str = os.getenv("SPEAKERS_DIR", str(_DATA_ROOT / "speakers"))
     SPEAKER_INDEX_FILE: str = os.getenv("SPEAKER_INDEX_FILE", str(_DATA_ROOT / "speaker_index.json"))
 
-    # Law corpus index (see src/infrastructure/qdrant_law_index.py)
-    LAW_DIR: str = os.getenv("LAW_DIR", str(_DATA_ROOT / "law"))
-    # Shared production collections (payload store + BM25 sparse search store).
-    LAW_COLLECTION: str = os.getenv("LAW_COLLECTION", "la8159_law")
-    LAW_BM25_COLLECTION: str = os.getenv("LAW_BM25_COLLECTION", "la8159_law_bm25")
-    # Repo-owned dense collection for real semantic search.
-    LAW_LOCAL_COLLECTION: str = os.getenv("LAW_LOCAL_COLLECTION", "transcription_law")
-    LAW_EMBED_MODEL: str = os.getenv("LAW_EMBED_MODEL", "all-MiniLM-L6-v2")
-    # Locale preferred when the same ELI exists in several languages.
-    LAW_PREFERRED_LANGUAGE: str = os.getenv("LAW_PREFERRED_LANGUAGE", "en")
-
-    # LLM-assisted payload review (see src/infrastructure/llm.py). Empty means
-    # "leave it to the request / first configured provider and its first model",
-    # so a request-level choice from the registry UI always wins.
-    LAW_REVIEW_PROVIDER: str = os.getenv("LAW_REVIEW_PROVIDER", "")
-    LAW_REVIEW_MODEL: str = os.getenv("LAW_REVIEW_MODEL", "")
-
     # Hardware acceleration
     TORCH_DEVICE: str = "cuda" if torch.cuda.is_available() else "cpu"
     TORCH_FLOAT: str = "fp16" if TORCH_DEVICE == "cuda" else "fp32"
@@ -137,7 +120,6 @@ class Settings:
         os.makedirs(self.REFERENCE_DIR, exist_ok=True)
         os.makedirs(self.PROJECTS_DIR, exist_ok=True)
         os.makedirs(self.SPEAKERS_DIR, exist_ok=True)
-        os.makedirs(self.LAW_DIR, exist_ok=True)
 
 
 settings = Settings()
