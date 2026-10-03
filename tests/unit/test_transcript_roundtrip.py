@@ -21,13 +21,21 @@ from pathlib import Path
 
 import pytest
 
+from src.domain.entities.transcript import Segment, Speaker, Transcript
+from src.domain.transcript_fields import (
+    PARTICIPANT_FIELDS,
+    SEGMENT_FIELDS,
+    TRANSCRIPT_FIELDS,
+    validate_transcript,
+)
 from src.infrastructure.json_store import JSONTranscriptStore
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 CORPUS = REPO_ROOT / "data" / "transcripts"
 
 # Fields a segment may carry. Every one of these must survive a round-trip.
-SEGMENT_FIELDS = (
+# (Named distinctly from the imported SEGMENT_FIELDS schema dict.)
+ROUNDTRIP_SEGMENT_FIELDS = (
     "index",
     "speaker",
     "start",
@@ -117,7 +125,7 @@ def test_every_present_segment_field_survives(stem: str, tmp_path: Path) -> None
     assert len(a_segs) == len(b_segs)
 
     problems: list[str] = []
-    for field in SEGMENT_FIELDS:
+    for field in ROUNDTRIP_SEGMENT_FIELDS:
         if field in RECOMPUTED:
             continue
         for i, (b, a) in enumerate(zip(b_segs, a_segs, strict=False)):
@@ -225,3 +233,125 @@ def test_list_ids_strips_only_the_extension(tmp_path: Path) -> None:
     ids = JSONTranscriptStore(str(d)).list_ids()
     assert "a.json.b" in ids, ids
     assert "plain" in ids, ids
+
+
+# ---------------------------------------------------------------------------
+# Schema drift guards
+#
+# These are the *preventive* half of the safety net. The round-trip tests above
+# only prove that declared fields survive; these prove that everything the
+# corpus actually contains IS declared. Had they existed, both
+# `segment_datetime` and segment-level `speaker_id` would have been caught the
+# moment an enrichment script started writing them.
+# ---------------------------------------------------------------------------
+def _corpus_docs() -> list[tuple[str, dict]]:
+    out = []
+    for path in _CORPUS:
+        raw = json.loads(path.read_text(encoding="utf-8"))
+        if isinstance(raw, dict):
+            out.append((path.stem, raw))
+    return out
+
+
+def test_every_corpus_segment_key_is_declared() -> None:
+    """Any segment key in the real corpus must exist in SEGMENT_FIELDS."""
+    seen: dict[str, list[str]] = {}
+    for stem, doc in _corpus_docs():
+        for seg in doc.get("segments", []):
+            for key in seg:
+                seen.setdefault(key, [])
+                if len(seen[key]) < 3:
+                    seen[key].append(stem)
+    undeclared = {k: v for k, v in seen.items() if k not in SEGMENT_FIELDS and k not in RECOMPUTED}
+    assert not undeclared, (
+        "segment keys present in the corpus but not declared in SEGMENT_FIELDS "
+        f"(they will be silently dropped by the store): {undeclared}"
+    )
+
+
+def test_every_corpus_top_level_key_is_declared() -> None:
+    """Any top-level key in the real corpus must exist in TRANSCRIPT_FIELDS."""
+    seen: dict[str, list[str]] = {}
+    for stem, doc in _corpus_docs():
+        for key in doc:
+            seen.setdefault(key, [])
+            if len(seen[key]) < 3:
+                seen[key].append(stem)
+    undeclared = {k: v for k, v in seen.items() if k not in TRANSCRIPT_FIELDS}
+    assert not undeclared, (
+        f"top-level keys present in the corpus but not declared in TRANSCRIPT_FIELDS: {undeclared}"
+    )
+
+
+def test_every_corpus_participant_key_is_declared() -> None:
+    """Any participant key in the real corpus must exist in PARTICIPANT_FIELDS."""
+    seen: dict[str, list[str]] = {}
+    for stem, doc in _corpus_docs():
+        for part in doc.get("participants", []):
+            if not isinstance(part, dict):
+                continue
+            for key in part:
+                seen.setdefault(key, [])
+                if len(seen[key]) < 3:
+                    seen[key].append(stem)
+    undeclared = {k: v for k, v in seen.items() if k not in PARTICIPANT_FIELDS}
+    assert not undeclared, (
+        f"participant keys present in the corpus but not declared in PARTICIPANT_FIELDS: {undeclared}"
+    )
+
+
+@pytest.mark.parametrize("stem", _ids())
+def test_real_corpus_validates_cleanly(stem: str) -> None:
+    """Every real transcript must pass the declared schema with no warnings."""
+    doc = json.loads((CORPUS / f"{stem}.json").read_text(encoding="utf-8"))
+    report = validate_transcript(doc)
+    assert report.ok, f"{stem}: schema errors {report.errors[:5]}"
+    assert not report.warnings, f"{stem}: schema warnings {report.warnings[:5]}"
+
+
+def test_validator_rejects_a_segment_missing_required_fields() -> None:
+    """The gate must not be vacuous: a malformed segment is an error."""
+    report = validate_transcript(
+        {"transcript_id": "x", "segments": [{"index": 0, "start": 0.0}]}
+    )
+    assert not report.ok
+    assert any("speaker" in e for e in report.errors), report.errors
+
+
+def test_store_refuses_to_save_an_invalid_transcript(tmp_path: Path) -> None:
+    """save() must raise rather than persist a schema-violating document.
+
+    Dataclasses do not enforce their annotations, so a non-numeric ``index``
+    reaches the store intact -- exactly the shape of value an untyped caller or
+    a hand-edited payload produces. The gate must reject it.
+    """
+    store = JSONTranscriptStore(str(tmp_path / "s"))
+    bad = Transcript(
+        transcript_id="bad",
+        segments=[Segment(index="not-an-int", speaker=Speaker(label="x"), start=0.0, end=1.0)],
+    )
+    with pytest.raises(ValueError, match="refusing to save"):
+        store.save(bad)
+
+
+def test_store_saves_a_valid_transcript(tmp_path: Path) -> None:
+    """Control case: a well-formed transcript still saves."""
+    store = JSONTranscriptStore(str(tmp_path / "s"))
+    good = Transcript(
+        transcript_id="good",
+        segments=[
+            Segment(
+                index=0,
+                speaker=Speaker(label="passenger"),
+                start=0.0,
+                end=1.0,
+                text="hola",
+                segment_datetime="2024-07-05T12:00:00.000",
+                speaker_id="SPK-passenger-leandro",
+            )
+        ],
+    )
+    path = store.save(good)
+    saved = json.loads(Path(path).read_text(encoding="utf-8"))
+    assert saved["segments"][0]["segment_datetime"] == "2024-07-05T12:00:00.000"
+    assert saved["segments"][0]["speaker_id"] == "SPK-passenger-leandro"

@@ -10,9 +10,9 @@ the store, the router, or any infrastructure adapter.
 """
 from __future__ import annotations
 
+from collections.abc import Callable
 from dataclasses import dataclass, field
-from typing import Any, Callable
-
+from typing import Any
 
 # ---------------------------------------------------------------------------
 # Type tags
@@ -196,6 +196,19 @@ SEGMENT_FIELDS: dict[str, FieldSpec] = {
         description="Curator backchannel-events note for the segment.",
         default="",
     ),
+    # Enrichment-owned provenance. Declared here so the validator can catch the
+    # failure mode that destroyed 349 values: a field written into the corpus
+    # that the entity/store layer does not know about.
+    "segment_datetime": FieldSpec(
+        "segment_datetime", STR,
+        description="Wall-clock instant for this segment (ISO 8601).",
+        default="",
+    ),
+    "speaker_id": FieldSpec(
+        "speaker_id", STR,
+        description="Resolved canonical speaker identifier for this segment.",
+        default="",
+    ),
 }
 
 # Participant sub-schema.
@@ -204,6 +217,11 @@ PARTICIPANT_FIELDS: dict[str, FieldSpec] = {
     "role": FieldSpec("role", STR, description="Role in the interaction (e.g. 'Passenger')."),
     "speaker_label": FieldSpec("speaker_label", STR, description="Display label used in segments."),
     "speaker_id": FieldSpec("speaker_id", STR, description="Stable speaker identifier (enriched)."),
+    "segment_labels": FieldSpec(
+        "segment_labels", LIST,
+        description="Raw segment speaker labels this participant is known to appear as.",
+        item_type=STR,
+    ),
 }
 
 # Controlled vocabularies.  Values outside these sets are reported as warnings
@@ -265,8 +283,12 @@ CORRECTION_FIELDS: dict[str, FieldSpec] = {
 }
 
 # Container key -> sub-schema applied to each contained object.
+# ``participants`` was missing from this map, so PARTICIPANT_FIELDS was never
+# applied to any transcript -- an omission that let the participant shape drift
+# unnoticed (80 of 92 records carry an undeclared ``segment_labels``).
 _NESTED_SCHEMAS: dict[str, dict[str, FieldSpec]] = {
     "segments": SEGMENT_FIELDS,
+    "participants": PARTICIPANT_FIELDS,
     "key_evidentiary_findings": FINDING_FIELDS,
     "corrections_applied": CORRECTION_FIELDS,
     "forensic_clusters": CLUSTER_FIELDS,
@@ -309,7 +331,7 @@ def _matches_type(value: Any, type_tag: str) -> bool:
     if type_tag == INT:
         return isinstance(value, int) and not isinstance(value, bool)
     if type_tag == FLOAT:
-        return isinstance(value, (int, float)) and not isinstance(value, bool)
+        return isinstance(value, int | float) and not isinstance(value, bool)
     if type_tag == BOOL:
         return isinstance(value, bool)
     if type_tag == LIST:
@@ -438,11 +460,26 @@ def _check_nested(
 
         item = value[name]
         if item is not None and not _matches_type(item, spec.type):
+            # Mirror the top-level semantics: coerce when possible (a legacy
+            # "12.5" start becomes 12.5), and treat an uncoercible value as a
+            # hard error. Previously this branch was warning-only, which made
+            # the nested half of the schema purely advisory: a store gate that
+            # raises on `errors` could never reject a malformed segment.
+            coerced = _coerce(item, spec)
+            if coerced is None:
+                report.ok = False
+                report.errors.append(
+                    f"{path}.{name}: cannot coerce {item!r} to {spec.type}"
+                )
+                continue
+            value[name] = coerced
             report.warnings.append(
-                f"{path}.{name}: expected {spec.type}, got {type(item).__name__}"
+                f"{path}.{name}: coerced {type(item).__name__} -> {spec.type}"
             )
-            continue
+            item = coerced
         if spec.allowed_values and item not in spec.allowed_values:
             report.warnings.append(
                 f"{path}.{name}: {item!r} not in allowed values {spec.allowed_values}"
             )
+        if isinstance(item, list):
+            _check_item_types(item, spec, f"{path}.{name}", report)

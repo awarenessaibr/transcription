@@ -7,6 +7,7 @@ import os
 import tempfile
 
 from src.domain.entities.transcript import Segment, Speaker, Transcript
+from src.domain.transcript_fields import validate_transcript
 
 logger = logging.getLogger(__name__)
 
@@ -67,6 +68,22 @@ class JSONTranscriptStore:
             "segments": segments,
             "reviewed": bool(getattr(transcript, "reviewed", False)),
         }
+        # Refuse to persist a document that violates the declared schema. This is
+        # the gate that would have caught a field being written by an enrichment
+        # script but not declared on the entity: silent loss is not recoverable,
+        # whereas a raised error is.
+        report = validate_transcript(data)
+        if report.warnings:
+            logger.warning(
+                "[store] %s: schema warnings: %s",
+                transcript.transcript_id,
+                "; ".join(report.warnings[:5]),
+            )
+        if not report.ok:
+            raise ValueError(
+                f"refusing to save transcript {transcript.transcript_id!r}: "
+                + "; ".join(report.errors[:5])
+            )
         # Atomic write: dump to a temp file in the same directory, fsync, then
         # os.replace() (atomic on POSIX). A crash mid-write can therefore never
         # leave a truncated/corrupt transcript behind, and readers always see
@@ -102,6 +119,17 @@ class JSONTranscriptStore:
         # (previously the list branch set locals and then called raw.get(...),
         # raising AttributeError on exactly the files it was meant to support).
         doc = raw if isinstance(raw, dict) else {}
+        # Report schema drift on read, but never refuse to load: a quirky legacy
+        # file must remain readable, and a load failure would hide the very
+        # evidence a reviewer is trying to inspect.
+        if doc:
+            report = validate_transcript(doc)
+            if report.errors or report.warnings:
+                logger.warning(
+                    "[store] %s: schema issues on load: %s",
+                    transcript_id,
+                    "; ".join((report.errors + report.warnings)[:5]),
+                )
         items = raw if isinstance(raw, list) else (doc.get("segments", []) or [])
         meta = doc.get("metadata", {}) or {}
         source_file = doc.get("source_file", "") or ""
