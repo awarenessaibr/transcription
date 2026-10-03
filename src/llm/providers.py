@@ -272,9 +272,22 @@ def resolve_base_url(provider: str, override: Optional[str] = None) -> Optional[
 
     Priority: explicit override -> env var (``<PROVIDER>_BASE_URL``) -> registry.
     Ollama resolves from ``OLLAMA_BASE_URL`` / ``OLLAMA_HOST``.
+
+    ``override`` is an INTERNAL seam (tests, operator tooling). It must never be
+    wired to request data: whatever it returns receives the server's stored API
+    key as a bearer token, so a caller-controlled override turns this process
+    into an authenticated proxy for an arbitrary host. The HTTP layer no longer
+    accepts one -- see src/llm/router.py ChatRequest.
     """
     if override:
-        return override.rstrip("/")
+        # Refuse anything that is not a plain http(s) URL so a future caller
+        # cannot reintroduce an SSRF primitive through a scheme handler.
+        candidate = str(override).strip()
+        if not candidate.lower().startswith(("http://", "https://")) or " " in candidate:
+            raise ValueError(
+                f"invalid base_url override for provider {provider!r}: {override!r}"
+            )
+        return candidate.rstrip("/")
 
     defn = PROVIDERS.get(provider)
     if not defn:

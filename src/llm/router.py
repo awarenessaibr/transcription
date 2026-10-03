@@ -66,8 +66,13 @@ class ChatRequest(BaseModel):
     temperature: Optional[float] = None
     top_p: Optional[float] = None
     max_tokens: Optional[int] = None
-    # Optional override, only ever supplied from the UI's advanced path.
-    base_url: Optional[str] = None
+    # NOTE: there is deliberately no ``base_url`` here. It used to exist, and
+    # because resolve_base_url returned it verbatim while _auth_headers attached
+    # the server's stored key, an unauthenticated caller could make this process
+    # POST to any host with `Authorization: Bearer <real provider key>`. No
+    # client ever sent it (grep of templates/ and static/ is empty), so the field
+    # was pure attack surface. Upstream hosts are configured per provider via
+    # <PROVIDER>_BASE_URL.
 
 
 # ---------------------------------------------------------------------------
@@ -135,8 +140,8 @@ def _auth_headers(provider: str, api_key: Optional[str]) -> Dict[str, str]:
     return headers
 
 
-def _chat_url(provider: str, override: Optional[str] = None) -> str:
-    base = resolve_base_url(provider, override)
+def _chat_url(provider: str) -> str:
+    base = resolve_base_url(provider)
     if not base:
         raise HTTPException(status_code=400, detail=f"No base URL configured for '{provider}'")
 
@@ -429,7 +434,7 @@ async def llm_chat_completions(req: ChatRequest):
     if req.max_tokens:
         payload["max_tokens"] = req.max_tokens
 
-    url = _chat_url(provider, req.base_url)
+    url = _chat_url(provider)
     headers = _auth_headers(provider, api_key)
     kind = defn["kind"]
 
