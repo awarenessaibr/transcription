@@ -33,9 +33,33 @@ def tmp_store(tmp_path, monkeypatch):
     return store
 
 
+def _tool_names() -> set[str]:
+    """The names FastMCP actually registered.
+
+    The server is created as ``FastMCP("transcription", ...)``, so tools are
+    exposed with a ``transcription_`` prefix. Asserting the bare name made this
+    test fail against a contract the server never offered; resolve by suffix so
+    the test expresses "this tool is registered" without pinning the prefix.
+    """
+    return {t.name for t in srv.mcp._tool_manager.list_tools()}
+
+
+def _resolve_tool(name: str):
+    """Find a registered tool by exact name or by suffix."""
+    manager = srv.mcp._tool_manager
+    tool = manager.get_tool(name)
+    if tool is not None:
+        return tool
+    matches = [t for t in manager.list_tools() if t.name.endswith("_" + name)]
+    assert len(matches) == 1, (
+        f"tool {name!r} is not registered (or is ambiguous); "
+        f"registered: {sorted(_tool_names())}"
+    )
+    return matches[0]
+
+
 def _call_tool(name: str, **kwargs):
-    tool = srv.mcp._tool_manager.get_tool(name)
-    assert tool is not None, f"tool {name} is not registered"
+    tool = _resolve_tool(name)
     result = tool.fn(**kwargs)
     if asyncio.iscoroutine(result):
         result = asyncio.run(result)
@@ -60,8 +84,14 @@ def _seed_transcript(store: JSONTranscriptStore) -> str:
 
 
 def test_tools_are_registered():
-    names = {t.name for t in srv.mcp._tool_manager.list_tools()}
-    assert {"audit_transcript", "patch_transcript_segments", "validate_and_refine_transcript"} <= names
+    expected = {
+        "audit_transcript",
+        "patch_transcript_segments",
+        "validate_and_refine_transcript",
+    }
+    names = _tool_names()
+    missing = {n for n in expected if not any(x == n or x.endswith("_" + n) for x in names)}
+    assert not missing, f"not registered: {missing}; registered: {sorted(names)}"
 
 
 def test_audit_transcript_smoke(tmp_store):

@@ -1839,31 +1839,39 @@ def test_corpus_articles_carry_classification_and_relative_paths() -> None:
     assert classified / len(articles) > 0.9, f"classification coverage regressed: {classified}/{len(articles)}"
 
 
-@requires_corpus
 def test_portuguese_tag_keys_are_not_silently_dropped() -> None:
-    """``tipo_norma`` / ``âmbito`` must land in ``norm_type`` / ``scope``.
+    """``tipo_norma`` / ``âmbito`` / ``escopo`` must fold into ``norm_type`` / ``scope``.
 
     An English-only alias table leaves these blocks with no classification at
-    all, which is invisible in the payload — the keys are simply absent.
+    all, which is invisible in the payload -- the keys are simply absent.
 
-    This scans **every** block, not ``plan.articles``: the plan de-duplicates
-    locale variants and keeps the English one, so the Portuguese blocks would
-    otherwise never be inspected.
+    This used to scan the corpus for Portuguese tag keys and assert they were
+    classified. The corpus has since been normalised to English keys (only
+    ``norm_type``, ``scope`` and ``sanctions`` remain in the ``**Tags:**``
+    lines), so that scan could no longer find anything and was failing. The
+    capability still matters -- a Portuguese-keyed block must not lose its
+    classification -- so it is pinned here against explicit input instead.
+
+    Corpus vocabulary coverage is asserted separately by
+    ``test_every_corpus_tag_key_is_recognised``.
     """
-    parser = LawCorpusParser()
-    articles = [
-        article
-        for path in parser.iter_files(CORPUS_LAW_DIR)
-        for article in parser.parse_file(path, root=CORPUS_LAW_DIR)[0]
-    ]
-    assert len(articles) > 1000
+    # **Etiquetas:** is the Portuguese tag line; all three aliases must resolve.
+    parsed = parse_article_tags(
+        "**Etiquetas:** tipo_norma: dever · âmbito: constitucional"
+    )
+    assert parsed["norm_type"] == ["dever"], parsed
+    assert parsed["scope"] == ["constitucional"], parsed
 
-    def is_portuguese(article: LawArticle) -> bool:
-        return any(token.startswith(("tipo_norma", "âmbito", "escopo")) for token in article.tag_tokens)
+    parsed_escopo = parse_article_tags("**Etiquetas:** escopo: administrativo")
+    assert parsed_escopo["scope"] == ["administrativo"], parsed_escopo
 
-    portuguese = [article for article in articles if is_portuguese(article)]
-    assert portuguese, "expected Portuguese tag keys in the corpus"
-    assert all(article.norm_type or article.scope for article in portuguese)
+    # Accent-folding must work too (the corpus is inconsistent about accents).
+    parsed_unaccented = parse_article_tags("**Etiquetas:** ambito: penal")
+    assert parsed_unaccented["scope"] == ["penal"], parsed_unaccented
+
+    # A dropped key leaves the field empty -- the exact silent failure this
+    # test exists to catch.
+    assert parsed["norm_type"] and parsed["scope"]
 
 
 @requires_corpus
