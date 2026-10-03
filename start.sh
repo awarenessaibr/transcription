@@ -17,7 +17,7 @@ PORT="${PORT:-${transcription_PORT:-8049}}"
 APP_URL="${APP_URL:-http://${HOST}:${PORT}/pinocchio}"
 
 MCP_TRANSPORT="${MCP_TRANSPORT:-streamable-http}"
-MCP_HOST="${MCP_HOST:-0.0.0.0}"
+MCP_HOST="${MCP_HOST:-127.0.0.1}"   # loopback by default; set MCP_HOST=0.0.0.0 to expose on the LAN
 
 VENV_DIR="$SCRIPT_DIR/.venv"
 if [[ -x "$VENV_DIR/bin/python" ]] && ! "$VENV_DIR/bin/python" -c 'import sys; raise SystemExit(0 if sys.version_info[:2] == (3, 12) else 1)' >/dev/null 2>&1; then
