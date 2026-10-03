@@ -28,6 +28,7 @@ from .presentation.routers.projects import init_projects_router
 from .presentation.routers.projects import router as projects_router
 from .presentation.routers.references import init_references_router
 from .presentation.routers.references import router as references_router
+from .presentation.routers.speakers import init_speakers_router
 from .presentation.routers.speakers import router as speakers_router
 from .presentation.routers.transcription import init_transcription_router
 from .presentation.routers.transcription import router as transcription_router
@@ -61,6 +62,7 @@ init_transcript_router(
     audio_file_adapter=runtime.audio_file_adapter,
 )
 init_projects_router(runtime.project_store_adapter, runtime.ref_store_adapter)
+init_speakers_router(runtime.store_adapter)
 init_references_router(
     runtime.ref_store_adapter,
     runtime.narrative_store_adapter,

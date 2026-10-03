@@ -88,6 +88,9 @@ class Settings:
     PROJECTS_DIR: str = os.getenv("PROJECTS_DIR", str(_DATA_ROOT / "projects"))
     SPEAKERS_DIR: str = os.getenv("SPEAKERS_DIR", str(_DATA_ROOT / "speakers"))
     SPEAKER_INDEX_FILE: str = os.getenv("SPEAKER_INDEX_FILE", str(_DATA_ROOT / "speaker_index.json"))
+    # Consumable speaker+segment map (machine-readable, schema-versioned) for
+    # other consumers. See src/infrastructure/speaker_registry_store.py.
+    SPEAKER_MAP_FILE: str = os.getenv("SPEAKER_MAP_FILE", str(_DATA_ROOT / "speaker_segment_map.json"))
 
     # Hardware acceleration
     TORCH_DEVICE: str = "cuda" if torch.cuda.is_available() else "cpu"

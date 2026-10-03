@@ -35,7 +35,7 @@ from dataclasses import replace
 from pathlib import Path
 
 from src.application.services.speaker_resolver import resolve_speakers
-from src.domain.entities.transcript import Segment, Speaker, Transcript
+from src.domain.entities.transcript import Segment, Transcript
 from src.domain.speaker import (
     SpeakerEvidence,
     SpeakerProfile,
@@ -374,6 +374,78 @@ class SpeakerRegistryStore:
             "requested": mapping,
         }
         return updated, report
+
+    def build_speaker_index(self, transcripts: list[Transcript]) -> dict:
+        """Build a ``speaker_index.json``-compatible document in-process.
+
+        Mirrors the shape consumed by ``templates/speakers-registry.html`` and
+        ``GET /api/speakers/index``. This exists so a refresh need not shell out
+        to ``scripts/generate_speaker_index_v3.py``, which hardcodes
+        ``data/speaker_index.json`` and therefore ignores a configured path --
+        an earlier version of the rebuild endpoint did exactly that and wrote
+        into the repository during tests.
+
+        A segment's speaker resolves from ``segment.speaker_id`` when set (what
+        :meth:`apply_map` writes), otherwise from the participants'
+        ``segment_labels`` (how the pre-existing corpus records it).
+        """
+        profiles = self.load_profiles()
+        mapped: dict[str, dict] = {}
+        unmapped: dict[str, int] = {}
+        total_segments = 0
+        mapped_instances = 0
+
+        for transcript in transcripts:
+            fallback = self.participant_labels(transcript)
+            indices_by_speaker: dict[str, list[int]] = {}
+            labels_by_speaker: dict[str, set[str]] = {}
+
+            for segment in transcript.segments or []:
+                total_segments += 1
+                speaker_id = (segment.speaker_id or "").strip() or fallback.get(
+                    segment.speaker.label, ""
+                )
+                if not speaker_id:
+                    unmapped[segment.speaker.label] = unmapped.get(segment.speaker.label, 0) + 1
+                    continue
+                mapped_instances += 1
+                indices_by_speaker.setdefault(speaker_id, []).append(segment.index)
+                labels_by_speaker.setdefault(speaker_id, set()).add(segment.speaker.label)
+                mapped.setdefault(speaker_id, self._speaker_entry(speaker_id, profiles))
+
+            for speaker_id, indices in indices_by_speaker.items():
+                mapped[speaker_id]["appearances"].append(
+                    {
+                        "transcript_id": transcript.transcript_id,
+                        "segment_labels": sorted(labels_by_speaker[speaker_id]),
+                        "segment_indices": sorted(indices),
+                    }
+                )
+
+        return {
+            "summary": {
+                "generated_utc": _dt.datetime.now(_dt.UTC).isoformat(),
+                "source": "data/transcripts/",
+                "total_transcripts_scanned": len(transcripts),
+                "total_segments_scanned": total_segments,
+                "total_mapped_speaker_ids": len(mapped),
+                "total_unmapped_segment_instances": sum(unmapped.values()),
+                "mapped_segment_instances": mapped_instances,
+            },
+            "mapped_speakers": dict(sorted(mapped.items())),
+            "unmapped_segment_labels": dict(sorted(unmapped.items(), key=lambda kv: -kv[1])),
+        }
+
+    def _speaker_entry(self, speaker_id: str, profiles: dict[str, SpeakerProfile]) -> dict:
+        profile = profiles.get(speaker_id)
+        md_path = self._speakers_dir / f"{speaker_id}.md"
+        return {
+            "display_name": (profile.display_name if profile else "") or speaker_id,
+            "organization": profile.organization if profile else "",
+            "identification_confidence": profile.identification_confidence if profile else "",
+            "md_file": str(md_path) if md_path.is_file() else "",
+            "appearances": [],
+        }
 
     # -- consumable artifact --------------------------------------------
     def build_segment_map(self, transcripts: list[Transcript]) -> dict:
