@@ -274,7 +274,7 @@ Each step leaves the suite green and is independently revertable.
 | 2 | RunPod: serverless path still used? | **Keep the frontend calls; delete server-side redundancy.** Deleted `runpod_client.py` (our server calling RunPod, duplicating the browser) + the script's `--serverless` path. **Kept `runpod_handler.py`**: the browser calls `api.runpod.ai/v2/<id>` (`pinocchio-en:5771`, `:5845`) and `runpod_handler.py` is the handler *inside* that endpoint — deleting it would break the feature we were told to preserve | ✅ `8d546a9` (−275 net) |
 | 3 | `curadoria.html` | **Delete.** It called no endpoint the two surviving UIs do not also call, so nothing was orphaned | ✅ `2e5cf4a` (−2,895) |
 | 4 | MCP scope | **Leave as-is** — not yet defined what the Olivia workspace needs. No MCP changes on this branch | ⏸ deferred |
-| 5 | Law subsystem destination | **Split by purpose, then extract** (Phase L1–L4). Decisive input: `violation-refiner/violation_pack/shared_corpora.py` already declares `transcription_law` and `reviewed_transcripts` as owned by `transcription` — and **no project claims `la8159_law`**, which this repo nonetheless writes to. Full proposal: [LAW_SUBSYSTEM_STRATEGY.md](LAW_SUBSYSTEM_STRATEGY.md) | 📋 proposal |
+| 5 | Law subsystem | **Remove entirely.** Superseded the split-and-extract proposal: both forks were answered "drop both". All law code, tooling, UI, docs and the corpus are gone; `violations_cited` survives as a plain evidence field with no resolver | ✅ `3cd0a9d` + `f4a12c2` (−16,285 code/ −97,239 data lines) |
 | 6 | Spanish twins | **Retire them; keep the `-en` pair.** The `-en` files are now canonical; `/pinocchio`, `/revision` etc. remain as aliases so old links work | ✅ `2e5cf4a` (−10,059) |
 
 **Net effect of decisions 1, 2, 3 and 6 — measured from git, not estimated:**
@@ -289,7 +289,8 @@ Each step leaves the suite green and is independently revertable.
 
 …with **no capability lost** for the two active frontends.
 
-### Still open from decision 5
+### Follow-ups recorded, not resolved
 
-1. **Is corpus search (384-d `transcription_law`) still wanted?** If not, Phases L3–L4 collapse to "delete the search half, keep L1" — the fork that determines whether 3,288 lines stay.
-2. **Who owns `la8159_law`?** Unowned in every contract found, while three projects touch it, and this repo's CLI can `delete_orphans` on it.
+1. **Cross-repo:** `violation-refiner` asserts a contract over `transcription_law` and `reviewed_transcripts` (`violation_pack/shared_corpora.py`, `verify_contract()`), and `seeking/` reads `transcription_law` too. That collection was produced by the code removed in `3cd0a9d`, so it will no longer be refreshed. `reviewed_transcripts` is unaffected (it comes from `/review/index`). Operators should decide whether to drop the now-unmaintained collections.
+2. **`violations_cited` is now inert.** It remains declared and round-trips correctly, but nothing resolves the codes — and 28 of the 35 in use never resolved to anything in the first place. The citations are preserved as a record of what was cited at the time; they are no longer verifiable.
+3. **Decision 4 (MCP)** is still deliberately open.
