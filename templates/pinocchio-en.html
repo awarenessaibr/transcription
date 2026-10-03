@@ -3961,11 +3961,14 @@ Reasoning for chain: Explanation of why this order is effective.">List of possib
               var state = isNew ? (pendingUpdates[idx] && pendingUpdates[idx].status || 'pending') : '';
               var stateClass = state ? ' ' + state : '';
               var text = (s.text || '').trim();
-              if (!text) text = '<span style=\"color:var(--gray);font-style:italic;\">(no text)</span>';
+              // Escape before interpolating: segment text is attacker-influenced
+              // (imported payloads and adversarial audio both reach it) and this
+              // is a forensic review surface rendered with innerHTML.
+              var textHtml = text ? escapeHtml(text) : '<span style=\"color:var(--gray);font-style:italic;\">(no text)</span>';
               return '<div class=\"comparison-row' + stateClass + '\">' +
                 '<div><span class=\"speaker\">' + escapeHtml(speakerLabel) + '</span> ' +
                 '<span class=\"time\">' + fmtTime(s.start) + ' — ' + fmtTime(s.end) + '</span></div>' +
-                '<div class=\"text\">' + text + '</div></div>';
+                '<div class=\"text\">' + textHtml + '</div></div>';
             }).join('');
           }
           renderSegList('compOriginalList', origSegs, false);
@@ -4134,7 +4137,7 @@ Reasoning for chain: Explanation of why this order is effective.">List of possib
         }
         function setStatus(text, cls) {
           var el = $('runStatus');
-          el.innerHTML = '<span class="badge' + (cls ? ' ' + cls : '') + '">' + text + '</span><span id="elapsed" style="color:var(--gray);"></span>';
+          el.innerHTML = '<span class="badge' + (cls ? ' ' + cls : '') + '">' + escapeHtml(text) + '</span><span id="elapsed" style="color:var(--gray);"></span>';
         }
 
         /* ====== ELAPSED TIMER ====== */
@@ -4921,7 +4924,7 @@ Reasoning for chain: Explanation of why this order is effective.">List of possib
             var empty = segs.filter(function (s) { return !(s.text || '').trim(); }).length;
             var conf = segs.reduce(function (a, s) { return a + (s.avg_logprob || 0); }, 0) / (segs.length || 1);
             var tr = document.createElement('tr');
-            tr.innerHTML = '<td><input type="checkbox" name="saved_run_' + i + '" data-idx="' + i + '" aria-label="Selecionar execucao salva ' + (i + 1) + '"></td><td>#' + (i + 1) + '</td><td>' + (run.filename || '—') + '</td><td>' + segs.length + '</td><td>' + Object.keys(speakers).length + '</td><td>' + words + '</td><td>' + conf.toFixed(2) + '</td><td>' + empty + '</td><td>' + (run.config ? run.config.model_size : '—') + '</td><td>' + (run.timestamp || '—') + '</td><td><button class="btn small ghost" onclick="loadSavedRun(' + i + ')">Ver</button></td>';
+            tr.innerHTML = '<td><input type="checkbox" name="saved_run_' + i + '" data-idx="' + i + '" aria-label="Selecionar execucao salva ' + (i + 1) + '"></td><td>#' + (i + 1) + '</td><td>' + escapeHtml(run.filename || '—') + '</td><td>' + segs.length + '</td><td>' + Object.keys(speakers).length + '</td><td>' + words + '</td><td>' + conf.toFixed(2) + '</td><td>' + empty + '</td><td>' + (run.config ? run.config.model_size : '—') + '</td><td>' + (run.timestamp || '—') + '</td><td><button class="btn small ghost" onclick="loadSavedRun(' + i + ')">Ver</button></td>';
             tbody.appendChild(tr);
           });
         }
