@@ -11,7 +11,7 @@ import tempfile
 import time
 import unicodedata
 from dataclasses import replace as _replace
-from typing import Any, Dict, List, Optional
+from typing import Any
 
 from fastapi import APIRouter, File, HTTPException, Query, Request, UploadFile
 from fastapi.responses import FileResponse
@@ -20,8 +20,8 @@ from sse_starlette.sse import EventSourceResponse
 
 from src.application.dto.schemas import AnalyzeRequest, SearchRequest
 from src.config import settings
-from src.domain.entities.transcript import Segment, Speaker, Transcript
 from src.domain.entities.patch import Patch, PatchOp
+from src.domain.entities.transcript import Segment, Speaker, Transcript
 
 logger = logging.getLogger(__name__)
 
@@ -167,7 +167,7 @@ def _iter_audio_files(folder: str) -> list[str]:
     return sorted(f for f in os.listdir(folder) if f.rsplit(".", 1)[-1].lower() in _AUDIO_EXTS)
 
 
-def _locate_source_audio(transcript, transcript_id: str) -> Optional[str]:
+def _locate_source_audio(transcript, transcript_id: str) -> str | None:
     """Find the full source recording for a transcript (mirrors retranscribe logic)."""
     # 1) Fast path: exact filename (source_file or transcript_id fallback).
     audio_filename = transcript.source_file or f"{transcript_id}.m4a"
@@ -242,38 +242,38 @@ def _extract_segment_cached(audio_path: str, seg_dir: str, segment_index: int, s
 # ------------------------------------------------------------------
 class MetadataUpdate(BaseModel):
     """Update transcript metadata (top‑level fields)."""
-    title: Optional[str] = None
-    subtitle: Optional[str] = None
-    recording_datetime: Optional[str] = None
-    location: Optional[str] = None
-    audio_id: Optional[str] = None
-    case_id: Optional[str] = None
-    narrative_id: Optional[str] = None
-    chronological_order: Optional[int] = None
-    prior_stage: Optional[str] = None
-    next_stage: Optional[str] = None
-    classification: Optional[str] = None
-    participants: Optional[List[Dict[str, Any]]] = None
-    violations_cited: Optional[List[str]] = None
-    tags: Optional[List[str]] = None
-    forensic_clusters: Optional[Dict[str, Any]] = None
-    key_evidentiary_findings: Optional[List[Dict[str, Any]]] = None
-    corrections_applied: Optional[List[Dict[str, Any]]] = None
+    title: str | None = None
+    subtitle: str | None = None
+    recording_datetime: str | None = None
+    location: str | None = None
+    audio_id: str | None = None
+    case_id: str | None = None
+    narrative_id: str | None = None
+    chronological_order: int | None = None
+    prior_stage: str | None = None
+    next_stage: str | None = None
+    classification: str | None = None
+    participants: list[dict[str, Any]] | None = None
+    violations_cited: list[str] | None = None
+    tags: list[str] | None = None
+    forensic_clusters: dict[str, Any] | None = None
+    key_evidentiary_findings: list[dict[str, Any]] | None = None
+    corrections_applied: list[dict[str, Any]] | None = None
     # optional: replace entire segment list
-    segments: Optional[List[Dict[str, Any]]] = None
+    segments: list[dict[str, Any]] | None = None
 
 
 class SegmentUpdate(BaseModel):
     """Segment‑level edits (reviewed status, patches, text, speaker, start/end)."""
-    reviewed_indices: List[int] = []
-    patches: List["PatchPayload"] = Field(default_factory=list)
-    edited_texts: Dict[int, str] = {}
-    edited_speakers: Dict[int, str] = {}
-    edited_starts: Dict[int, float] = {}
-    edited_ends: Dict[int, float] = {}
-    edited_correction_notes: Dict[int, str] = {}
-    edited_backchannel_events: Dict[int, str] = {}
-    recording_datetime: Optional[str] = None
+    reviewed_indices: list[int] = []
+    patches: list[PatchPayload] = Field(default_factory=list)
+    edited_texts: dict[int, str] = {}
+    edited_speakers: dict[int, str] = {}
+    edited_starts: dict[int, float] = {}
+    edited_ends: dict[int, float] = {}
+    edited_correction_notes: dict[int, str] = {}
+    edited_backchannel_events: dict[int, str] = {}
+    recording_datetime: str | None = None
 
 
 class ReviewIndexPayload(BaseModel):
@@ -963,7 +963,7 @@ async def import_csv(payload: CSVImportPayload):
     transcript_id = _sanitize_filename_stem(payload.filename) or stem
 
     segments = []
-    with open(csv_path, "r", encoding="utf-8-sig") as f:
+    with open(csv_path, encoding="utf-8-sig") as f:
         reader = csv.DictReader(f)
         for row in reader:
             try:
@@ -1147,6 +1147,11 @@ async def save_review(transcript_id: str, payload: SegmentUpdate):
     # (the same space the patches reference). Applying them after patching would
     # map the indices onto post-insert/post-delete positions and flag the wrong
     # segments. Missing keys keep their stored value; an explicit "" clears it.
+    #
+    # edited_texts / edited_speakers / edited_starts / edited_ends are applied in
+    # this same pass. They used to be accepted, counted into `events_written`, and
+    # then thrown away -- a reviewer's corrections were reported as saved and lost
+    # on reload (docs/REDUCED_CORE_MANIFEST.md section 6.2).
     reviewed_set = {int(i) for i in payload.reviewed_indices}
     rejected_edits: list[dict] = []
 
@@ -1279,7 +1284,7 @@ async def save_review(transcript_id: str, payload: SegmentUpdate):
         "transcript": _transcript_to_dict(patched),
         "events_written": events_written,
     }
-            
+
 @router.post("/{transcript_id}/review/index")
 async def index_reviewed_segments(transcript_id: str, payload: ReviewIndexPayload = ReviewIndexPayload()):
     if _index is None:
@@ -1342,9 +1347,10 @@ async def retranscribe_segments(transcript_id: str, payload: RetranscribeSegment
     if _asr is None or _audio_files is None:
         raise HTTPException(status_code=503, detail="ASR or Audio processor not initialized")
 
-    from pydub import AudioSegment
+    import shutil
+    import tempfile
+
     from src.domain.chilean_spanish import post_process_chilean_spanish
-    import tempfile, shutil
 
     transcript = _store.load(transcript_id)
     if transcript is None:
