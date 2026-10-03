@@ -22,9 +22,16 @@ class Segment:
     text: str = ""
     reviewed: bool = False
 
-    # NEW FIELDS
+    # Curator annotations.
     correction_note: str = ""
     backchannel_events: str = ""
+
+    # Wall-clock instant for this segment, and the resolved speaker identity.
+    # Both are written by the enrichment pipeline and MUST survive a store
+    # round-trip: dropping them silently destroyed 349 timestamps before these
+    # fields existed (see docs/REDUCED_CORE_MANIFEST.md §6.3).
+    segment_datetime: str = ""
+    speaker_id: str = ""
 
     @property
     def duration(self) -> float:

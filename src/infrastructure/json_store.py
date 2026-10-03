@@ -31,6 +31,10 @@ class JSONTranscriptStore:
                 "reviewed": getattr(seg, "reviewed", False),
                 "correction_note": getattr(seg, "correction_note", ""),
                 "backchannel_events": getattr(seg, "backchannel_events", ""),
+                # Enrichment-owned provenance fields. Omitting either one
+                # silently destroys it on the next save.
+                "segment_datetime": getattr(seg, "segment_datetime", ""),
+                "speaker_id": getattr(seg, "speaker_id", ""),
             }
             for seg in transcript.segments
         ]
@@ -93,23 +97,18 @@ class JSONTranscriptStore:
         with open(path, encoding="utf-8") as f:
             raw = json.load(f)
 
-        # Backward compat: legacy files stored a flat list of segments.
-        if isinstance(raw, list):
-            items = raw
-            meta = {}
-            source_file = ""
-            language = "es"
-            timestamp = ""
-            provider = ""
-            original_transcript_id = None
-        else:
-            items = raw.get("segments", []) or []
-            meta = raw.get("metadata", {}) or {}
-            source_file = raw.get("source_file", "") or ""
-            language = raw.get("language", "es") or "es"
-            timestamp = raw.get("timestamp", "") or ""
-            provider = raw.get("provider", "") or ""
-            original_transcript_id = raw.get("original_transcript_id") or None
+        # Backward compat: legacy files stored a flat list of segments. Normalise
+        # to a dict first so every top-level lookup below is safe for both shapes
+        # (previously the list branch set locals and then called raw.get(...),
+        # raising AttributeError on exactly the files it was meant to support).
+        doc = raw if isinstance(raw, dict) else {}
+        items = raw if isinstance(raw, list) else (doc.get("segments", []) or [])
+        meta = doc.get("metadata", {}) or {}
+        source_file = doc.get("source_file", "") or ""
+        language = doc.get("language", "es") or "es"
+        timestamp = doc.get("timestamp", "") or ""
+        provider = doc.get("provider", "") or ""
+        original_transcript_id = doc.get("original_transcript_id") or None
 
         segments = []
         for i, item in enumerate(items):
@@ -134,6 +133,8 @@ class JSONTranscriptStore:
                 reviewed=item.get("reviewed", False),
                 correction_note=item.get("correction_note", ""),
                 backchannel_events=item.get("backchannel_events", ""),
+                segment_datetime=item.get("segment_datetime", ""),
+                speaker_id=item.get("speaker_id", ""),
             )
             segments.append(segment)
 
@@ -141,35 +142,35 @@ class JSONTranscriptStore:
             transcript_id=transcript_id,
             segments=segments,
             source_file=source_file,
-            source_path=raw.get("source_path", "") or "",
+            source_path=doc.get("source_path", "") or "",
             language=language,
             metadata=meta,
             timestamp=timestamp,
             provider=provider,
             original_transcript_id=original_transcript_id,
-            title=raw.get("title", ""),
-            subtitle=raw.get("subtitle", ""),
-            recording_datetime=raw.get("recording_datetime", ""),
-            location=raw.get("location", ""),
-            audio_id=raw.get("audio_id", ""),
-            case_id=raw.get("case_id", ""),
-            narrative_id=raw.get("narrative_id", ""),
-            chronological_order=raw.get("chronological_order"),
-            prior_stage=raw.get("prior_stage", ""),
-            next_stage=raw.get("next_stage", ""),
-            classification=raw.get("classification", ""),
-            participants=raw.get("participants", []),
-            violations_cited=raw.get("violations_cited", []),
-            tags=raw.get("tags", []),
-            forensic_clusters=raw.get("forensic_clusters", {}),
-            key_evidentiary_findings=raw.get("key_evidentiary_findings", []),
-            corrections_applied=raw.get("corrections_applied", []),
-            reviewed=bool(raw.get("reviewed", False)),
+            title=doc.get("title", ""),
+            subtitle=doc.get("subtitle", ""),
+            recording_datetime=doc.get("recording_datetime", ""),
+            location=doc.get("location", ""),
+            audio_id=doc.get("audio_id", ""),
+            case_id=doc.get("case_id", ""),
+            narrative_id=doc.get("narrative_id", ""),
+            chronological_order=doc.get("chronological_order"),
+            prior_stage=doc.get("prior_stage", ""),
+            next_stage=doc.get("next_stage", ""),
+            classification=doc.get("classification", ""),
+            participants=doc.get("participants", []),
+            violations_cited=doc.get("violations_cited", []),
+            tags=doc.get("tags", []),
+            forensic_clusters=doc.get("forensic_clusters", {}),
+            key_evidentiary_findings=doc.get("key_evidentiary_findings", []),
+            corrections_applied=doc.get("corrections_applied", []),
+            reviewed=bool(doc.get("reviewed", False)),
         )
 
     def list_ids(self) -> list[str]:
         return [
-            f.replace(".json", "")
+            f[:-5]
             for f in os.listdir(self._dir)
             if f.endswith(".json")
         ]
