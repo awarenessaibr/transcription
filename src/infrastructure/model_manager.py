@@ -5,53 +5,38 @@ import gc
 import logging
 import os
 
-# CRITICAL: Set PyTorch to NOT use weights_only by default
-# This must be set BEFORE torch is imported
-os.environ["TORCH_FORCE_WEIGHTS_ONLY"] = "0"
-
 import torch
 import whisper
 
 logger = logging.getLogger(__name__)
 
-# Aggressive patch: Override torch._utils._rebuild_parameter to use weights_only=False
+# NOTE: this module used to monkeypatch ``torch.load`` process-wide to force
+# ``weights_only=False``, and set a ``TORCH_FORCE_WEIGHTS_ONLY`` env var that
+# PyTorch does not read. That defeated safe unpickling for *every* checkpoint
+# loaded anywhere in the process -- including models fetched from a hub -- and
+# silently overrode callers that had explicitly asked for ``weights_only=True``.
+#
+# The supported way to load a checkpoint that legitimately contains non-tensor
+# classes is ``torch.serialization.add_safe_globals``, applied below to the
+# Pyannote classes the diarization pipeline needs. If a checkpoint ever fails to
+# load, the error names the offending class: add it to the allowlist rather than
+# disabling the safety check for the whole process.
+
+# Register the Pyannote classes that appear in the diarization checkpoints.
 try:
-    import torch._utils
-    _original_rebuild = torch._utils._rebuild_parameter
-    
-    def _rebuild_with_weights_false(*args, **kwargs):
-        kwargs.setdefault("weights_only", False)
-        return _original_rebuild(*args, **kwargs)
-    
-    torch._utils._rebuild_parameter = _rebuild_with_weights_false
-    logger.debug("Patched torch._utils._rebuild_parameter")
-except Exception as e:
-    logger.warning(f"Could not patch _rebuild_parameter: {e}")
-
-# Monkeypatch torch.load itself to force weights_only=False
-_torch_load_original = torch.load
-
-def _torch_load_force_weights_false(f, *args, **kwargs):
-    """Force weights_only=False to support legacy Pyannote models."""
-    kwargs["weights_only"] = False
-    return _torch_load_original(f, *args, **kwargs)
-
-torch.load = _torch_load_force_weights_false
-
-# Also add a blanket safe globals for all Pyannote classes (using wildcard if possible)
-try:
-    import pyannote.audio.core.task
     import inspect
-    
+
+    import pyannote.audio.core.task
+
     # Get all classes from pyannote.audio.core.task
     pyannote_classes = []
-    for name, obj in inspect.getmembers(pyannote.audio.core.task):
+    for _name, obj in inspect.getmembers(pyannote.audio.core.task):
         if inspect.isclass(obj) and obj.__module__.startswith('pyannote'):
             pyannote_classes.append(obj)
-    
+
     # Add torch version class
     pyannote_classes.append(torch.torch_version.TorchVersion)
-    
+
     torch.serialization.add_safe_globals(pyannote_classes)
     logger.debug(f"Registered {len(pyannote_classes)} Pyannote classes as safe globals")
 except Exception as e:
