@@ -266,11 +266,30 @@ Each step leaves the suite green and is independently revertable.
 
 ---
 
-## 12. Decisions needed
+## 12. Decisions — resolved 2026-10-03
 
-1. **Qdrant collection panel** (pinocchio-en:3402, 7 dropdowns): delete, or back it with a real endpoint?
-2. **RunPod**: is the serverless path (`runpod_handler.py`, `runpod_client.py`, 469 lines) still used? The browser calls RunPod directly, suggesting the server-side path may be redundant.
-3. **`curadoria.html`**: is it still needed? It drives `/api/transcripts/pinocchio/review/{id}` and the CSV surface — if it is being retired, more of `transcripts.py` can go, but if it is in use it becomes a third target UI.
-4. **MCP scope**: keep all 41 tools, or trim to the tool list the Olivia workspace actually consumes?
-5. **Law subsystem destination**: separate package in this repo, or a separate repository?
-6. **Spanish twins**: keep `pinocchio.html`/`revision.html` as generated translations, or retire them in favour of the `-en` pair?
+| # | Decision | Outcome | Status |
+|---|---|---|---|
+| 1 | Qdrant collections panel (`pinocchio-en:3402`, 7 dropdowns) | **Delete.** It was fully orphaned: it called `/v1/qdrant/collections` (no such route), populated eight elements absent from the document, and was never invoked | ✅ `d1a7d0d` (−82) |
+| 2 | RunPod: serverless path still used? | **Keep the frontend calls; delete server-side redundancy.** Deleted `runpod_client.py` (our server calling RunPod, duplicating the browser) + the script's `--serverless` path. **Kept `runpod_handler.py`**: the browser calls `api.runpod.ai/v2/<id>` (`pinocchio-en:5771`, `:5845`) and `runpod_handler.py` is the handler *inside* that endpoint — deleting it would break the feature we were told to preserve | ✅ `8d546a9` (−275 net) |
+| 3 | `curadoria.html` | **Delete.** It called no endpoint the two surviving UIs do not also call, so nothing was orphaned | ✅ `2e5cf4a` (−2,895) |
+| 4 | MCP scope | **Leave as-is** — not yet defined what the Olivia workspace needs. No MCP changes on this branch | ⏸ deferred |
+| 5 | Law subsystem destination | **Split by purpose, then extract** (Phase L1–L4). Decisive input: `violation-refiner/violation_pack/shared_corpora.py` already declares `transcription_law` and `reviewed_transcripts` as owned by `transcription` — and **no project claims `la8159_law`**, which this repo nonetheless writes to. Full proposal: [LAW_SUBSYSTEM_STRATEGY.md](LAW_SUBSYSTEM_STRATEGY.md) | 📋 proposal |
+| 6 | Spanish twins | **Retire them; keep the `-en` pair.** The `-en` files are now canonical; `/pinocchio`, `/revision` etc. remain as aliases so old links work | ✅ `2e5cf4a` (−10,059) |
+
+**Net effect of decisions 1, 2, 3 and 6 — measured from git, not estimated:**
+
+| Item | Lines |
+|---|---:|
+| Templates deleted (`pinocchio.html` 6,958 · `revision.html` 3,101 · `curadoria.html` 2,895) | **12,954** |
+| Dead UI code deleted (Qdrant panel) | 82 |
+| Python net (`runpod_client.py` 193 + `batch_transcribe.py` 84, less 2 inserted) | 275 |
+| Router + test churn added back (73 inserted, 62 rewritten) | −11 |
+| **Total across the three commits** | **−13,300 net** (13,375 deleted, 75 inserted) |
+
+…with **no capability lost** for the two active frontends.
+
+### Still open from decision 5
+
+1. **Is corpus search (384-d `transcription_law`) still wanted?** If not, Phases L3–L4 collapse to "delete the search half, keep L1" — the fork that determines whether 3,288 lines stay.
+2. **Who owns `la8159_law`?** Unowned in every contract found, while three projects touch it, and this repo's CLI can `delete_orphans` on it.
