@@ -151,3 +151,26 @@ def test_ui_routes_resolve_to_existing_templates() -> None:
             assert "text/html" in res.headers.get("content-type", ""), path
         # The retired view must not be served any more.
         assert client.get("/curadoria").status_code == 404
+
+
+def test_dead_qdrant_collections_panel_stays_removed() -> None:
+    """The collections panel was removed as dead code and must not return.
+
+    ``loadCollections()`` fetched ``/v1/qdrant/collections`` -- an endpoint that
+    does not exist in this service -- populated seven ``<select>`` elements that
+    are absent from the document, wrote globals nothing read, and was never
+    invoked. It was 81 lines of unreachable UI.
+    """
+    src = _read("pinocchio-en.html")
+    assert "/v1/qdrant/collections" not in src
+    assert "loadCollections" not in src
+    for element_id in (
+        "collections-list",
+        "ingest-collection-select",
+        "structured-collection-select",
+        "query-collection-select",
+        "chat-collection-select",
+        "step-collection-select",
+        "enhanced-collection-select",
+    ):
+        assert element_id not in src, f"{element_id} is back"
