@@ -4,12 +4,43 @@ from __future__ import annotations
 import json
 import logging
 import os
+import re
 import tempfile
 
 from src.domain.entities.transcript import Segment, Speaker, Transcript
 from src.domain.transcript_fields import validate_transcript
 
 logger = logging.getLogger(__name__)
+
+# A transcript id becomes a filename component. It must therefore be a single
+# safe path element: the pattern forbids separators, so no id can escape the
+# store directory, and it forbids a leading dot so no dotfile is written.
+# Verified against all 29 ids in the real corpus (max length 56, charset
+# A-Za-z0-9 _ -).
+_SAFE_TRANSCRIPT_ID = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._-]{0,127}$")
+
+
+def validate_transcript_id(transcript_id: object) -> str:
+    """Return ``transcript_id`` if it is a safe single path element, else raise.
+
+    The store used to interpolate this value straight into a path:
+
+        path = os.path.join(self._dir, f"{transcript_id}.json")
+
+    so ``POST /api/transcripts/import`` with
+    ``{"transcript_id": "./../../escaped_root"}`` wrote a JSON file two levels
+    above the transcript directory, with attacker-controlled contents (proven
+    end-to-end through the router with TestClient). ``load`` had the same join
+    and is reachable from the MCP tools.
+    """
+    if not isinstance(transcript_id, str) or not transcript_id:
+        raise ValueError(f"invalid transcript id: {transcript_id!r}")
+    if not _SAFE_TRANSCRIPT_ID.match(transcript_id) or ".." in transcript_id:
+        raise ValueError(
+            f"invalid transcript id {transcript_id!r}: must match "
+            f"{_SAFE_TRANSCRIPT_ID.pattern} and contain no '..'"
+        )
+    return transcript_id
 
 
 class JSONTranscriptStore:
@@ -19,8 +50,22 @@ class JSONTranscriptStore:
         self._dir = transcript_dir
         os.makedirs(self._dir, exist_ok=True)
 
+    def _path_for(self, transcript_id: object) -> str:
+        """Validate the id and return a path proven to sit inside the store root.
+
+        The regex already forbids separators; the realpath containment check is
+        defence in depth so a future relaxation of the pattern cannot silently
+        reintroduce a traversal.
+        """
+        safe_id = validate_transcript_id(transcript_id)
+        root = os.path.realpath(self._dir)
+        path = os.path.realpath(os.path.join(root, f"{safe_id}.json"))
+        if os.path.dirname(path) != root:
+            raise ValueError(f"transcript id {safe_id!r} escapes the transcript directory")
+        return os.path.join(self._dir, f"{safe_id}.json")
+
     def save(self, transcript: Transcript) -> str:
-        path = os.path.join(self._dir, f"{transcript.transcript_id}.json")
+        path = self._path_for(transcript.transcript_id)
         segments = [
             {
                 "index": seg.index,
@@ -108,7 +153,7 @@ class JSONTranscriptStore:
         return path
 
     def load(self, transcript_id: str) -> Transcript | None:
-        path = os.path.join(self._dir, f"{transcript_id}.json")
+        path = self._path_for(transcript_id)
         if not os.path.exists(path):
             return None
         with open(path, encoding="utf-8") as f:
