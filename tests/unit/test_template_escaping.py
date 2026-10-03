@@ -174,3 +174,32 @@ def test_dead_qdrant_collections_panel_stays_removed() -> None:
         "enhanced-collection-select",
     ):
         assert element_id not in src, f"{element_id} is back"
+
+
+def test_speaker_resolution_ui_is_wired() -> None:
+    """The capture UI must expose the registry-driven speaker resolution.
+
+    Without this the feature is server-only: a fresh diarization's SPEAKER_nn
+    labels stay opaque because nothing in the UI can resolve or apply them.
+    """
+    src = _read("pinocchio-en.html")
+    # the three endpoints the UI must call
+    assert "/api/speakers/resolve" in src
+    assert "/api/speakers/map" in src
+    assert "/api/speakers/segment-map/rebuild" in src
+    # the controls
+    for element_id in (
+        "speakerResolveSection",
+        "resolveSpeakersBtn",
+        "applySpeakerMapBtn",
+        "rebuildSpeakerMapBtn",
+        "speakerResolveBackdrop",
+        "speakerResolveBody",
+    ):
+        assert f'id="{element_id}"' in src, f"{element_id} missing"
+    # the functions and their binding
+    for fn in ("openSpeakerResolver", "applySpeakerResolve", "renderSpeakerResolve", "bindSpeakerResolve"):
+        assert f"function {fn}" in src, f"{fn} missing"
+    assert "bindSpeakerResolve();" in src, "the resolution handlers are never bound"
+    # applying must feed the existing label map so the UI shows names at once
+    assert "speakerLabels[label] = speakerDisplayName(map[label]);" in src

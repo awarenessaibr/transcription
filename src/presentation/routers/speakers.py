@@ -190,6 +190,18 @@ async def resolve_transcript(payload: ResolveRequest) -> dict:
         resolution, min_confidence=payload.min_confidence
     )
     body["peer_transcripts"] = peers
+
+    # Display names for every identity the client may offer, so the review UI can
+    # label its choices without a second round-trip.
+    profiles = registry.load_profiles()
+    relevant: set[str] = set(resolution.known_cast)
+    for proposal in resolution.proposals:
+        if proposal.speaker_id:
+            relevant.add(proposal.speaker_id)
+        relevant.update(proposal.candidates)
+    body["profiles"] = {
+        sid: profiles[sid].to_dict() for sid in sorted(relevant) if sid in profiles
+    }
     return body
 
 

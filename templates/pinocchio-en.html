@@ -2036,6 +2036,27 @@
             </div>
           </section>
 
+          <section class="card" id="speakerResolveSection">
+            <h3 style="display:flex; align-items:center; gap:12px;">
+              Speakers
+              <span id="speakerResolveStatus" class="badge-soft">no transcript loaded</span>
+            </h3>
+            <div class="content">
+              <p class="muted" style="font-size:.65rem;line-height:1.5;margin:0 0 10px;">
+                Map this recording's diarization labels onto the curated speaker registry.
+                Suggestions come from the registry's known cast for this audio, verbatim
+                statements, and alias labels; nothing is written until you confirm.
+              </p>
+              <div class="row">
+                <button class="btn small" id="resolveSpeakersBtn" type="button">Resolve speakers</button>
+                <button class="btn small ghost" id="rebuildSpeakerMapBtn" type="button"
+                        title="Regenerate data/speaker_segment_map.json and speaker_index.json">
+                  Rebuild speaker index
+                </button>
+              </div>
+            </div>
+          </section>
+
           <section class="card" id="voiceprintLibrarySection">
             <h3 style="display:flex; align-items:center; gap:12px;">
               Voiceprint Library
@@ -2906,6 +2927,29 @@ Reasoning for chain: Explanation of why this order is effective.">List of possib
         </aside>
       </div>
 
+      <div id="speakerResolveBackdrop" class="modal-backdrop">
+        <div class="modal large-modal" role="dialog" aria-modal="true"
+             aria-labelledby="speaker-resolve-title">
+          <header>
+            <i class="fas fa-user-tag" style="color:var(--amber);"></i>
+            <span id="speaker-resolve-title">Resolve speakers</span>
+            <div class="row" style="margin-left:auto;">
+              <button class="btn small" type="button"
+                      onclick="closeModal('speakerResolveBackdrop')">Close</button>
+            </div>
+          </header>
+          <div class="modal-body">
+            <p class="muted" id="speakerResolveNote" style="font-size:.65rem;margin-bottom:10px;"></p>
+            <div id="speakerResolveBody" style="max-height:55vh; overflow:auto;"></div>
+            <div class="row" style="margin-top:12px; display:flex; gap:8px;">
+              <button class="btn small ghost" type="button"
+                      onclick="closeModal('speakerResolveBackdrop')">Cancel</button>
+              <button class="btn small" id="applySpeakerMapBtn" type="button">Apply mapping</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div id="api-keys-modal" class="modal-backdrop">
         <div class="modal large-modal" role="dialog" aria-modal="true" aria-labelledby="api-keys-title">
           <header>
@@ -2935,6 +2979,161 @@ Reasoning for chain: Explanation of why this order is effective.">List of possib
       <script>
         /* ====== UTIL ====== */
         const $ = id => document.getElementById(id);
+        /* ══════════════════ Speaker resolution ══════════════════ */
+        let speakerResolveState = null;
+
+        function currentTranscriptId() {
+          if (currentResponse && currentResponse.transcript_id) return String(currentResponse.transcript_id);
+          return '';
+        }
+
+        function updateSpeakerResolveStatus() {
+          const el = $('speakerResolveStatus');
+          const btn = $('resolveSpeakersBtn');
+          if (!el) return;
+          const tid = currentTranscriptId();
+          if (tid) {
+            el.textContent = tid;
+            if (btn) btn.disabled = false;
+          } else {
+            el.textContent = 'no transcript loaded';
+            if (btn) btn.disabled = true;
+          }
+        }
+
+        function speakerDisplayName(sid) {
+          const st = speakerResolveState;
+          if (st && st.profiles && st.profiles[sid]) {
+            return st.profiles[sid].display_name || sid;
+          }
+          return sid;
+        }
+
+        async function openSpeakerResolver() {
+          const tid = currentTranscriptId();
+          if (!tid) { showToast('Load a transcript first.'); return; }
+          const body = $('speakerResolveBody');
+          if (body) body.innerHTML = '<p>Resolving against the speaker registry…</p>';
+          openModal('speakerResolveBackdrop');
+          try {
+            const res = await fetch('/api/speakers/resolve', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ transcript_id: tid })
+            });
+            if (!res.ok) throw new Error('HTTP ' + res.status + ' ' + (await res.text()).slice(0, 200));
+            speakerResolveState = await res.json();
+            renderSpeakerResolve();
+          } catch (err) {
+            if (body) body.innerHTML = '<p class="muted" style="color:var(--red,#c00);">Could not resolve: ' + escapeHtml(err.message || String(err)) + '</p>';
+          }
+        }
+
+        function renderSpeakerResolve() {
+          const st = speakerResolveState;
+          const body = $('speakerResolveBody');
+          const note = $('speakerResolveNote');
+          if (!body || !st) return;
+
+          if (!st.proposals || !st.proposals.length) {
+            body.innerHTML = '<p>No diarization labels found on this transcript.</p>';
+            if (note) note.textContent = '';
+            return;
+          }
+
+          // Offer every identity the client may choose: the recording's cast,
+          // plus anything the resolver proposed or shortlisted.
+          const options = new Set(Object.keys(st.profiles || {}));
+          (st.known_cast || []).forEach(function (sid) { options.add(sid); });
+          const optionList = Array.from(options).sort(function (a, b) {
+            return speakerDisplayName(a).localeCompare(speakerDisplayName(b));
+          });
+
+          const rows = st.proposals.map(function (p, idx) {
+            const opts = optionList.map(function (sid) {
+              const sel = (p.speaker_id === sid) ? ' selected' : '';
+              return '<option value="' + escapeHtml(sid) + '"' + sel + '>' +
+                     escapeHtml(speakerDisplayName(sid)) + '</option>';
+            }).join('');
+            const signals = (p.signals || []).join(', ') || 'no signal';
+            const cls = p.determining ? 'ok' : (p.speaker_id ? '' : 'muted');
+            const mentioned = (p.mentioned && p.mentioned.length)
+              ? '<div class="muted" style="font-size:.65rem;">mentions: ' + escapeHtml(p.mentioned.join(', ')) + '</div>' : '';
+            return '<div class="comparison-row" data-label="' + escapeHtml(p.raw_label) + '">' +
+                     '<div style="display:flex; gap:10px; align-items:center; flex-wrap:wrap;">' +
+                       '<code>' + escapeHtml(p.raw_label) + '</code>' +
+                       '<span class="badge-soft">' + p.segment_count + ' segs</span>' +
+                       '<span class="muted ' + cls + '">' + escapeHtml(signals) +
+                         ' (conf ' + p.confidence + ')</span>' +
+                     '</div>' +
+                     '<div style="margin-top:6px;">' +
+                       '<select class="speaker-resolve-select" data-label="' + escapeHtml(p.raw_label) + '">' +
+                         '<option value="">— leave unresolved —</option>' + opts +
+                       '</select>' +
+                     '</div>' + mentioned +
+                   '</div>';
+          }).join('');
+
+          const unresolved = (st.unresolved_labels || []).length;
+          body.innerHTML = rows +
+            (unresolved ? '<p class="muted" style="font-size:.65rem;">' + unresolved + ' label(s) unresolved: ' +
+               escapeHtml((st.unresolved_labels || []).join(', ')) + '</p>' : '') +
+            ((st.notes && st.notes.length) ? '<p class="muted" style="font-size:.65rem;">' + escapeHtml(st.notes.join(' · ')) + '</p>' : '');
+          if (note) note.textContent = st.known_cast && st.known_cast.length
+            ? 'Known cast: ' + st.known_cast.length + ' speaker(s)'
+            : 'No known cast for this recording.';
+        }
+
+        async function applySpeakerResolve() {
+          const st = speakerResolveState;
+          const tid = currentTranscriptId();
+          if (!st || !tid) return;
+          const map = {};
+          document.querySelectorAll('.speaker-resolve-select').forEach(function (sel) {
+            if (sel.value) map[sel.dataset.label] = sel.value;
+          });
+          if (!Object.keys(map).length) { showToast('Nothing selected to apply.'); return; }
+          try {
+            const res = await fetch('/api/speakers/map', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ transcript_id: tid, speaker_map: map })
+            });
+            const data = await res.json();
+            if (!res.ok) throw new Error(data.detail || ('HTTP ' + res.status));
+            // Reflect the mapping in the UI immediately.
+            Object.keys(map).forEach(function (label) {
+              speakerLabels[label] = speakerDisplayName(map[label]);
+            });
+            if (typeof renderSegments === 'function' && currentResponse) {
+              renderSegments(currentResponse.segments || []);
+            }
+            closeModal('speakerResolveBackdrop');
+            showToast('Mapped ' + (data.applied_count || 0) + ' label(s).');
+          } catch (err) {
+            showToast('Apply failed: ' + (err.message || err));
+          }
+        }
+
+        async function rebuildSpeakerMap() {
+          try {
+            const res = await fetch('/api/speakers/segment-map/rebuild', { method: 'POST' });
+            const data = await res.json();
+            if (!res.ok) throw new Error(data.detail || ('HTTP ' + res.status));
+            showToast('Speaker map rebuilt: ' + data.speaker_count + ' speakers, ' +
+                      data.transcript_count + ' transcripts.');
+          } catch (err) {
+            showToast('Rebuild failed: ' + (err.message || err));
+          }
+        }
+
+        function bindSpeakerResolve() {
+          if ($('resolveSpeakersBtn')) $('resolveSpeakersBtn').addEventListener('click', openSpeakerResolver);
+          if ($('applySpeakerMapBtn')) $('applySpeakerMapBtn').addEventListener('click', applySpeakerResolve);
+          if ($('rebuildSpeakerMapBtn')) $('rebuildSpeakerMapBtn').addEventListener('click', rebuildSpeakerMap);
+          updateSpeakerResolveStatus();
+        }
+
         function showToast(msg) { const t = $('toast'); t.textContent = msg; t.style.display = 'block'; setTimeout(() => t.style.display = 'none', 2600); }
         function openModal(id) { $(id).style.display = 'flex'; }
         function closeModal(id) { $(id).style.display = 'none'; }
@@ -4132,6 +4331,8 @@ Reasoning for chain: Explanation of why this order is effective.">List of possib
 
         /* ====== RENDER SEGMENTS ====== */
         function renderSegments(segments) {
+          // Keep the speaker panel's status in step with what is on screen.
+          if (typeof updateSpeakerResolveStatus === 'function') updateSpeakerResolveStatus();
           var tbody = $('segmentsTable').querySelector('tbody');
           tbody.innerHTML = '';
           selectedSegmentIndex = null;
@@ -5386,6 +5587,7 @@ Reasoning for chain: Explanation of why this order is effective.">List of possib
           selectAudioForSegments();
         });
         if ($('extractFromSelectedBtn')) $('extractFromSelectedBtn').addEventListener('click', extractVoiceprintFromSelected);
+        bindSpeakerResolve();
         if ($('exportSegmentsZipBtn')) $('exportSegmentsZipBtn').addEventListener('click', exportSegmentsZip);
         if ($('openQueueBtn')) $('openQueueBtn').addEventListener('click', function () {
           renderQueueSidebar();

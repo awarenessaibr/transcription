@@ -30,6 +30,8 @@ src/llm/llm_credentials.json.tmp
 data/audio/
 data/originals/
 data/segment_audio/
+# Generated speaker + segment map (regenerate via POST /api/speakers/segment-map/rebuild)
+data/speaker_segment_map.json
 data/transcripts_by_audio/
 data/transcripts_narrative/
 
