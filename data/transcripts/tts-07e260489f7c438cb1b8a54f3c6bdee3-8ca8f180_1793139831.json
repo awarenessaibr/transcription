@@ -1,0 +1,153 @@
+{
+  "transcript_id": "tts-07e260489f7c438cb1b8a54f3c6bdee3-8ca8f180_1793139831",
+  "source_file": "tts-07e260489f7c438cb1b8a54f3c6bdee3-8ca8f180_1793139831.wav",
+  "source_path": "",
+  "language": "en",
+  "timestamp": "",
+  "provider": "",
+  "original_transcript_id": null,
+  "metadata": {
+    "saved_audio_file": "tts-07e260489f7c438cb1b8a54f3c6bdee3-8ca8f180_1793139831.wav",
+    "processed_audio_file": "tts-07e260489f7c438cb1b8a54f3c6bdee3-8ca8f180_1793139831_processed.wav"
+  },
+  "title": "",
+  "subtitle": "",
+  "recording_datetime": "",
+  "location": "",
+  "audio_id": "",
+  "case_id": "",
+  "narrative_id": "",
+  "chronological_order": null,
+  "prior_stage": "",
+  "next_stage": "",
+  "classification": "",
+  "participants": [],
+  "violations_cited": [],
+  "tags": [],
+  "forensic_clusters": {},
+  "key_evidentiary_findings": [],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 1,
+      "speaker": "SPEAKER_00",
+      "start": 0.03096875,
+      "end": 0.41909375000000004,
+      "duration": 0.388,
+      "text": " You",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " You",
+          "start": 0.03096875,
+          "end": 0.21096874999999998,
+          "probability": 0.08565398305654526
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "speaker": "SPEAKER_00",
+      "start": 0.60471875,
+      "end": 6.2915937500000005,
+      "duration": 5.687,
+      "text": " on the nature of artificial intelligence generated through a novel multi-agent experimental protocol.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " on",
+          "start": 0.60471875,
+          "end": 0.8047187499999999,
+          "probability": 0.8934742212295532
+        },
+        {
+          "word": " the",
+          "start": 0.8047187499999999,
+          "end": 0.90471875,
+          "probability": 0.9974285960197449
+        },
+        {
+          "word": " nature",
+          "start": 0.90471875,
+          "end": 1.20471875,
+          "probability": 0.996029257774353
+        },
+        {
+          "word": " of",
+          "start": 1.20471875,
+          "end": 1.40471875,
+          "probability": 0.9969532489776611
+        },
+        {
+          "word": " artificial",
+          "start": 1.40471875,
+          "end": 1.88471875,
+          "probability": 0.9169870018959045
+        },
+        {
+          "word": " intelligence",
+          "start": 1.88471875,
+          "end": 2.50471875,
+          "probability": 0.9980624318122864
+        },
+        {
+          "word": " generated",
+          "start": 2.50471875,
+          "end": 3.20471875,
+          "probability": 0.9892163276672363
+        },
+        {
+          "word": " through",
+          "start": 3.20471875,
+          "end": 3.50471875,
+          "probability": 0.9948704242706299
+        },
+        {
+          "word": " a",
+          "start": 3.50471875,
+          "end": 3.66471875,
+          "probability": 0.9817227721214294
+        },
+        {
+          "word": " novel",
+          "start": 3.66471875,
+          "end": 4.00471875,
+          "probability": 0.9989211559295654
+        },
+        {
+          "word": " multi",
+          "start": 4.00471875,
+          "end": 4.384718749999999,
+          "probability": 0.9538065195083618
+        },
+        {
+          "word": "-agent",
+          "start": 4.384718749999999,
+          "end": 4.88471875,
+          "probability": 0.961778998374939
+        },
+        {
+          "word": " experimental",
+          "start": 4.88471875,
+          "end": 5.54471875,
+          "probability": 0.9963074922561646
+        },
+        {
+          "word": " protocol.",
+          "start": 5.54471875,
+          "end": 5.94471875,
+          "probability": 0.9983237385749817
+        }
+      ]
+    }
+  ],
+  "reviewed": false
+}

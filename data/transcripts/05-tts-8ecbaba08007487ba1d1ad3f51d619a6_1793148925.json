@@ -1,0 +1,276 @@
+{
+  "transcript_id": "05-tts-8ecbaba08007487ba1d1ad3f51d619a6_1793148925",
+  "source_file": "05-tts-8ecbaba08007487ba1d1ad3f51d619a6_1793148925.wav",
+  "source_path": "",
+  "language": "en",
+  "timestamp": "",
+  "provider": "",
+  "original_transcript_id": null,
+  "metadata": {
+    "saved_audio_file": "05-tts-8ecbaba08007487ba1d1ad3f51d619a6_1793148925.wav",
+    "processed_audio_file": "05-tts-8ecbaba08007487ba1d1ad3f51d619a6_1793148925_processed.wav"
+  },
+  "title": "",
+  "subtitle": "",
+  "recording_datetime": "",
+  "location": "",
+  "audio_id": "",
+  "case_id": "",
+  "narrative_id": "",
+  "chronological_order": null,
+  "prior_stage": "",
+  "next_stage": "",
+  "classification": "",
+  "participants": [],
+  "violations_cited": [],
+  "tags": [],
+  "forensic_clusters": {},
+  "key_evidentiary_findings": [],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 1,
+      "speaker": "SPEAKER_00",
+      "start": 0.03096875,
+      "end": 6.949718750000001,
+      "duration": 6.919,
+      "text": " Intellectual Property, CEO 2026, Samaraj Madau. All rights reserved.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Intellectual",
+          "start": 0.03096875,
+          "end": 0.71096875,
+          "probability": 0.9707533518473307
+        },
+        {
+          "word": " Property,",
+          "start": 0.71096875,
+          "end": 1.17096875,
+          "probability": 0.5943894982337952
+        },
+        {
+          "word": " CEO",
+          "start": 1.47096875,
+          "end": 2.05096875,
+          "probability": 0.6540964245796204
+        },
+        {
+          "word": " 2026,",
+          "start": 2.05096875,
+          "end": 3.25096875,
+          "probability": 0.8842496275901794
+        },
+        {
+          "word": " Samaraj",
+          "start": 3.71096875,
+          "end": 4.470968750000001,
+          "probability": 0.8686182498931885
+        },
+        {
+          "word": " Madau.",
+          "start": 4.470968750000001,
+          "end": 4.99096875,
+          "probability": 0.5332459360361099
+        },
+        {
+          "word": " All",
+          "start": 5.310968750000001,
+          "end": 5.67096875,
+          "probability": 0.9866223931312561
+        },
+        {
+          "word": " rights",
+          "start": 5.67096875,
+          "end": 5.95096875,
+          "probability": 0.8839653134346008
+        },
+        {
+          "word": " reserved.",
+          "start": 5.95096875,
+          "end": 6.63096875,
+          "probability": 0.9973154664039612
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "speaker": "SPEAKER_00",
+      "start": 7.01721875,
+      "end": 17.83409375,
+      "duration": 10.817,
+      "text": " The AI Lyceum is a registered trademark of Samaraj Madao. The AI Shadow and the Lyceum method are trademarks Shio Aba.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " The",
+          "start": 7.01721875,
+          "end": 7.37721875,
+          "probability": 0.832854151725769
+        },
+        {
+          "word": " AI",
+          "start": 7.37721875,
+          "end": 7.99721875,
+          "probability": 0.8305095434188843
+        },
+        {
+          "word": " Lyceum",
+          "start": 7.99721875,
+          "end": 8.89721875,
+          "probability": 0.8644067843755087
+        },
+        {
+          "word": " is",
+          "start": 8.89721875,
+          "end": 9.11721875,
+          "probability": 0.9920252561569214
+        },
+        {
+          "word": " a",
+          "start": 9.11721875,
+          "end": 9.27721875,
+          "probability": 0.9911263585090637
+        },
+        {
+          "word": " registered",
+          "start": 9.27721875,
+          "end": 9.85721875,
+          "probability": 0.9878909587860107
+        },
+        {
+          "word": " trademark",
+          "start": 9.85721875,
+          "end": 10.43721875,
+          "probability": 0.9547579884529114
+        },
+        {
+          "word": " of",
+          "start": 10.43721875,
+          "end": 10.93721875,
+          "probability": 0.9922081828117371
+        },
+        {
+          "word": " Samaraj",
+          "start": 10.93721875,
+          "end": 11.55721875,
+          "probability": 0.8517904480298361
+        },
+        {
+          "word": " Madao.",
+          "start": 11.55721875,
+          "end": 12.11721875,
+          "probability": 0.5647529115279516
+        },
+        {
+          "word": " The",
+          "start": 12.297218749999999,
+          "end": 12.73721875,
+          "probability": 0.9817127585411072
+        },
+        {
+          "word": " AI",
+          "start": 12.73721875,
+          "end": 13.21721875,
+          "probability": 0.9880290627479553
+        },
+        {
+          "word": " Shadow",
+          "start": 13.21721875,
+          "end": 13.67721875,
+          "probability": 0.766941249370575
+        },
+        {
+          "word": " and",
+          "start": 13.67721875,
+          "end": 13.95721875,
+          "probability": 0.980558454990387
+        },
+        {
+          "word": " the",
+          "start": 13.95721875,
+          "end": 14.09721875,
+          "probability": 0.7114550471305847
+        },
+        {
+          "word": " Lyceum",
+          "start": 14.09721875,
+          "end": 14.69721875,
+          "probability": 0.9971875747044882
+        },
+        {
+          "word": " method",
+          "start": 14.69721875,
+          "end": 15.07721875,
+          "probability": 0.7512317299842834
+        },
+        {
+          "word": " are",
+          "start": 15.07721875,
+          "end": 15.47721875,
+          "probability": 0.9820582270622253
+        },
+        {
+          "word": " trademarks",
+          "start": 15.47721875,
+          "end": 16.17721875,
+          "probability": 0.9834012985229492
+        },
+        {
+          "word": " Shio",
+          "start": 16.17721875,
+          "end": 16.91721875,
+          "probability": 0.47950564324855804
+        },
+        {
+          "word": " Aba.",
+          "start": 16.91721875,
+          "end": 17.377218749999997,
+          "probability": 0.38478976488113403
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "speaker": "SPEAKER_00",
+      "start": 18.22221875,
+      "end": 20.770343750000002,
+      "duration": 2.548,
+      "text": " Af Samaraj Madao.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Af",
+          "start": 18.22221875,
+          "end": 18.94221875,
+          "probability": 0.2294858694076538
+        },
+        {
+          "word": " Samaraj",
+          "start": 18.94221875,
+          "end": 20.12221875,
+          "probability": 0.48819925387700397
+        },
+        {
+          "word": " Madao.",
+          "start": 20.12221875,
+          "end": 20.70221875,
+          "probability": 0.6813129434982935
+        }
+      ]
+    }
+  ],
+  "reviewed": false
+}

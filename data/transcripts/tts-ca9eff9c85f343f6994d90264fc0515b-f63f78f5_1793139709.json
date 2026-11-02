@@ -1,0 +1,495 @@
+{
+  "transcript_id": "tts-ca9eff9c85f343f6994d90264fc0515b-f63f78f5_1793139709",
+  "source_file": "tts-ca9eff9c85f343f6994d90264fc0515b-f63f78f5_1793139709.wav",
+  "source_path": "",
+  "language": "en",
+  "timestamp": "",
+  "provider": "",
+  "original_transcript_id": null,
+  "metadata": {
+    "saved_audio_file": "tts-ca9eff9c85f343f6994d90264fc0515b-f63f78f5_1793139709.wav",
+    "processed_audio_file": "tts-ca9eff9c85f343f6994d90264fc0515b-f63f78f5_1793139709_processed.wav"
+  },
+  "title": "",
+  "subtitle": "",
+  "recording_datetime": "",
+  "location": "",
+  "audio_id": "",
+  "case_id": "",
+  "narrative_id": "",
+  "chronological_order": null,
+  "prior_stage": "",
+  "next_stage": "",
+  "classification": "",
+  "participants": [],
+  "violations_cited": [],
+  "tags": [],
+  "forensic_clusters": {},
+  "key_evidentiary_findings": [],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 1,
+      "speaker": "SPEAKER_00",
+      "start": 0.50346875,
+      "end": 3.10221875,
+      "duration": 2.599,
+      "text": " This document records the complete methodology.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " This",
+          "start": 0.50346875,
+          "end": 0.7034687500000001,
+          "probability": 0.9264112114906311
+        },
+        {
+          "word": " document",
+          "start": 0.7034687500000001,
+          "end": 1.12346875,
+          "probability": 0.9968896508216858
+        },
+        {
+          "word": " records",
+          "start": 1.12346875,
+          "end": 1.6634687499999998,
+          "probability": 0.9959868788719177
+        },
+        {
+          "word": " the",
+          "start": 1.6634687499999998,
+          "end": 1.82346875,
+          "probability": 0.9986030459403992
+        },
+        {
+          "word": " complete",
+          "start": 1.82346875,
+          "end": 2.22346875,
+          "probability": 0.997958779335022
+        },
+        {
+          "word": " methodology.",
+          "start": 2.22346875,
+          "end": 2.6634687500000003,
+          "probability": 0.9974790215492249
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "speaker": "SPEAKER_00",
+      "start": 3.5915937500000004,
+      "end": 5.312843750000001,
+      "duration": 1.721,
+      "text": " The full agent prompts used.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " The",
+          "start": 3.5915937500000004,
+          "end": 3.7115937500000005,
+          "probability": 0.5300372242927551
+        },
+        {
+          "word": " full",
+          "start": 3.7115937500000005,
+          "end": 3.91159375,
+          "probability": 0.762337327003479
+        },
+        {
+          "word": " agent",
+          "start": 3.91159375,
+          "end": 4.17159375,
+          "probability": 0.8838949799537659
+        },
+        {
+          "word": " prompts",
+          "start": 4.17159375,
+          "end": 4.611593750000001,
+          "probability": 0.9793419241905212
+        },
+        {
+          "word": " used.",
+          "start": 4.611593750000001,
+          "end": 5.17159375,
+          "probability": 0.9904416799545288
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "speaker": "SPEAKER_00",
+      "start": 5.599718750000001,
+      "end": 12.26534375,
+      "duration": 6.666,
+      "text": " the unedited dialogue output, and a formal extraction of the novel theoretical frameworks that emerged from the exchange.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " the",
+          "start": 5.599718750000001,
+          "end": 5.759718750000001,
+          "probability": 0.907945454120636
+        },
+        {
+          "word": " unedited",
+          "start": 5.759718750000001,
+          "end": 6.259718750000001,
+          "probability": 0.9978905121485392
+        },
+        {
+          "word": " dialogue",
+          "start": 6.259718750000001,
+          "end": 6.719718750000001,
+          "probability": 0.7545287609100342
+        },
+        {
+          "word": " output,",
+          "start": 6.719718750000001,
+          "end": 7.299718750000001,
+          "probability": 0.9985263347625732
+        },
+        {
+          "word": " and",
+          "start": 7.499718750000001,
+          "end": 7.7397187500000015,
+          "probability": 0.9970502853393555
+        },
+        {
+          "word": " a",
+          "start": 7.7397187500000015,
+          "end": 7.859718750000001,
+          "probability": 0.997972309589386
+        },
+        {
+          "word": " formal",
+          "start": 7.859718750000001,
+          "end": 8.179718750000001,
+          "probability": 0.9993925094604492
+        },
+        {
+          "word": " extraction",
+          "start": 8.179718750000001,
+          "end": 8.679718750000001,
+          "probability": 0.9987418055534363
+        },
+        {
+          "word": " of",
+          "start": 8.679718750000001,
+          "end": 8.95971875,
+          "probability": 0.9991859793663025
+        },
+        {
+          "word": " the",
+          "start": 8.95971875,
+          "end": 9.059718750000002,
+          "probability": 0.9934501647949219
+        },
+        {
+          "word": " novel",
+          "start": 9.059718750000002,
+          "end": 9.35971875,
+          "probability": 0.9996052384376526
+        },
+        {
+          "word": " theoretical",
+          "start": 9.35971875,
+          "end": 9.85971875,
+          "probability": 0.9939892292022705
+        },
+        {
+          "word": " frameworks",
+          "start": 9.85971875,
+          "end": 10.499718750000001,
+          "probability": 0.9982048273086548
+        },
+        {
+          "word": " that",
+          "start": 10.499718750000001,
+          "end": 10.719718750000002,
+          "probability": 0.9985923171043396
+        },
+        {
+          "word": " emerged",
+          "start": 10.719718750000002,
+          "end": 11.15971875,
+          "probability": 0.9989521503448486
+        },
+        {
+          "word": " from",
+          "start": 11.15971875,
+          "end": 11.379718750000002,
+          "probability": 0.9995738863945007
+        },
+        {
+          "word": " the",
+          "start": 11.379718750000002,
+          "end": 11.499718750000001,
+          "probability": 0.9966574907302856
+        },
+        {
+          "word": " exchange.",
+          "start": 11.499718750000001,
+          "end": 11.759718750000001,
+          "probability": 0.9378083944320679
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "speaker": "SPEAKER_00",
+      "start": 12.83909375,
+      "end": 27.43596875,
+      "duration": 14.597,
+      "text": " It is offered as both a work of philosophical imagination and a contribution to the growing literature on AI interpretability, alignment theory and machine consciousness, examined through a lens that the field has largely neglected, the depth psychological.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " It",
+          "start": 12.83909375,
+          "end": 12.99909375,
+          "probability": 0.9107696413993835
+        },
+        {
+          "word": " is",
+          "start": 12.99909375,
+          "end": 13.11909375,
+          "probability": 0.9966676831245422
+        },
+        {
+          "word": " offered",
+          "start": 13.11909375,
+          "end": 13.43909375,
+          "probability": 0.9987801909446716
+        },
+        {
+          "word": " as",
+          "start": 13.43909375,
+          "end": 13.61909375,
+          "probability": 0.982612133026123
+        },
+        {
+          "word": " both",
+          "start": 13.61909375,
+          "end": 13.81909375,
+          "probability": 0.9972993731498718
+        },
+        {
+          "word": " a",
+          "start": 13.81909375,
+          "end": 13.93909375,
+          "probability": 0.9976676106452942
+        },
+        {
+          "word": " work",
+          "start": 13.93909375,
+          "end": 14.17909375,
+          "probability": 0.9983501434326172
+        },
+        {
+          "word": " of",
+          "start": 14.17909375,
+          "end": 14.31909375,
+          "probability": 0.9980230331420898
+        },
+        {
+          "word": " philosophical",
+          "start": 14.31909375,
+          "end": 14.959093750000001,
+          "probability": 0.996661901473999
+        },
+        {
+          "word": " imagination",
+          "start": 14.959093750000001,
+          "end": 15.55909375,
+          "probability": 0.999477207660675
+        },
+        {
+          "word": " and",
+          "start": 15.55909375,
+          "end": 16.29909375,
+          "probability": 0.9696313738822937
+        },
+        {
+          "word": " a",
+          "start": 16.29909375,
+          "end": 16.39909375,
+          "probability": 0.998702883720398
+        },
+        {
+          "word": " contribution",
+          "start": 16.39909375,
+          "end": 16.81909375,
+          "probability": 0.9997250437736511
+        },
+        {
+          "word": " to",
+          "start": 16.81909375,
+          "end": 17.21909375,
+          "probability": 0.9995290040969849
+        },
+        {
+          "word": " the",
+          "start": 17.21909375,
+          "end": 17.31909375,
+          "probability": 0.9993956089019775
+        },
+        {
+          "word": " growing",
+          "start": 17.31909375,
+          "end": 17.59909375,
+          "probability": 0.9927411079406738
+        },
+        {
+          "word": " literature",
+          "start": 17.59909375,
+          "end": 18.05909375,
+          "probability": 0.9994490742683411
+        },
+        {
+          "word": " on",
+          "start": 18.05909375,
+          "end": 18.49909375,
+          "probability": 0.9982471466064453
+        },
+        {
+          "word": " AI",
+          "start": 18.49909375,
+          "end": 18.77909375,
+          "probability": 0.8368646502494812
+        },
+        {
+          "word": " interpretability,",
+          "start": 18.77909375,
+          "end": 19.63909375,
+          "probability": 0.988412618637085
+        },
+        {
+          "word": " alignment",
+          "start": 19.85909375,
+          "end": 20.439093749999998,
+          "probability": 0.982023298740387
+        },
+        {
+          "word": " theory",
+          "start": 20.439093749999998,
+          "end": 20.85909375,
+          "probability": 0.9992218017578125
+        },
+        {
+          "word": " and",
+          "start": 20.85909375,
+          "end": 21.07909375,
+          "probability": 0.7519162893295288
+        },
+        {
+          "word": " machine",
+          "start": 21.07909375,
+          "end": 21.439093749999998,
+          "probability": 0.9986667633056641
+        },
+        {
+          "word": " consciousness,",
+          "start": 21.439093749999998,
+          "end": 22.09909375,
+          "probability": 0.9942969679832458
+        },
+        {
+          "word": " examined",
+          "start": 22.37909375,
+          "end": 23.01909375,
+          "probability": 0.9984903335571289
+        },
+        {
+          "word": " through",
+          "start": 23.01909375,
+          "end": 23.239093750000002,
+          "probability": 0.9995406866073608
+        },
+        {
+          "word": " a",
+          "start": 23.239093750000002,
+          "end": 23.439093749999998,
+          "probability": 0.9996156692504883
+        },
+        {
+          "word": " lens",
+          "start": 23.439093749999998,
+          "end": 23.67909375,
+          "probability": 0.9962040781974792
+        },
+        {
+          "word": " that",
+          "start": 23.67909375,
+          "end": 23.87909375,
+          "probability": 0.9991305470466614
+        },
+        {
+          "word": " the",
+          "start": 23.87909375,
+          "end": 23.99909375,
+          "probability": 0.9984436631202698
+        },
+        {
+          "word": " field",
+          "start": 23.99909375,
+          "end": 24.27909375,
+          "probability": 0.9991568326950073
+        },
+        {
+          "word": " has",
+          "start": 24.27909375,
+          "end": 24.45909375,
+          "probability": 0.9996767044067383
+        },
+        {
+          "word": " largely",
+          "start": 24.45909375,
+          "end": 24.79909375,
+          "probability": 0.9997689127922058
+        },
+        {
+          "word": " neglected,",
+          "start": 24.79909375,
+          "end": 25.37909375,
+          "probability": 0.9997535347938538
+        },
+        {
+          "word": " the",
+          "start": 25.739093750000002,
+          "end": 26.059093750000002,
+          "probability": 0.9957834482192993
+        },
+        {
+          "word": " depth",
+          "start": 26.059093750000002,
+          "end": 26.33909375,
+          "probability": 0.9963662624359131
+        },
+        {
+          "word": " psychological.",
+          "start": 26.33909375,
+          "end": 26.77909375,
+          "probability": 0.9638170599937439
+        }
+      ]
+    }
+  ],
+  "reviewed": false
+}

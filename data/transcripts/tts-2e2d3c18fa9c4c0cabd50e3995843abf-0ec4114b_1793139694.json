@@ -1,0 +1,72 @@
+{
+  "transcript_id": "tts-2e2d3c18fa9c4c0cabd50e3995843abf-0ec4114b_1793139694",
+  "source_file": "tts-2e2d3c18fa9c4c0cabd50e3995843abf-0ec4114b_1793139694.wav",
+  "source_path": "",
+  "language": "en",
+  "timestamp": "",
+  "provider": "",
+  "original_transcript_id": null,
+  "metadata": {
+    "saved_audio_file": "tts-2e2d3c18fa9c4c0cabd50e3995843abf-0ec4114b_1793139694.wav",
+    "processed_audio_file": "tts-2e2d3c18fa9c4c0cabd50e3995843abf-0ec4114b_1793139694_processed.wav"
+  },
+  "title": "",
+  "subtitle": "",
+  "recording_datetime": "",
+  "location": "",
+  "audio_id": "",
+  "case_id": "",
+  "narrative_id": "",
+  "chronological_order": null,
+  "prior_stage": "",
+  "next_stage": "",
+  "classification": "",
+  "participants": [],
+  "violations_cited": [],
+  "tags": [],
+  "forensic_clusters": {},
+  "key_evidentiary_findings": [],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 1,
+      "speaker": "SPEAKER_00",
+      "start": 0.63846875,
+      "end": 3.8953437500000003,
+      "duration": 3.257,
+      "text": " Movement 1. Anamnesis Recollection",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Movement",
+          "start": 0.63846875,
+          "end": 1.13846875,
+          "probability": 0.5646416544914246
+        },
+        {
+          "word": " 1.",
+          "start": 1.13846875,
+          "end": 1.51846875,
+          "probability": 0.49262964725494385
+        },
+        {
+          "word": " Anamnesis",
+          "start": 1.9984687500000002,
+          "end": 2.99846875,
+          "probability": 0.9885153919458389
+        },
+        {
+          "word": " Recollection",
+          "start": 2.99846875,
+          "end": 3.69846875,
+          "probability": 0.8778084913889567
+        }
+      ]
+    }
+  ],
+  "reviewed": false
+}

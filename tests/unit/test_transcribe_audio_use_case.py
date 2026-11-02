@@ -20,7 +20,11 @@ class DummyDiarizer:
 
 
 class DummyProcessor:
+    def __init__(self):
+        self.params = None
+
     def process(self, audio_path: str, _params: dict) -> str:
+        self.params = _params
         base, ext = Path(audio_path).with_suffix(""), Path(audio_path).suffix
         processed_path = f"{base}_processed{ext or '.wav'}"
         shutil.copyfile(audio_path, processed_path)
@@ -66,6 +70,24 @@ class DummyAudioFiles:
 
     def get_duration(self, _audio_path: str) -> float:
         return 1.0
+
+
+class TimestampASR:
+    def transcribe(self, *_args, **kwargs):
+        assert kwargs["word_timestamps"] is True
+        return {
+            "text": "hello world",
+            "language": "en",
+            "words": [
+                {"word": " hello", "start": 0.1, "end": 0.4, "probability": 0.98},
+                {"word": " world", "start": 0.5, "end": 0.9, "probability": 0.95},
+            ],
+        }
+
+
+class OffsetDiarizer:
+    def diarize(self, *_args, **_kwargs):
+        return [DiarizationTurn(speaker="SPEAKER_00", start=2.0, end=3.0)]
 
 
 @pytest.mark.asyncio
@@ -121,3 +143,32 @@ async def test_transcribe_can_cleanup_audio_files_when_disabled(tmp_path):
     assert result.transcript_id == "sample_1"
     assert not (tmp_path / "sample 1.wav").exists()
     assert not (tmp_path / "sample 1_processed.wav").exists()
+
+
+@pytest.mark.asyncio
+async def test_word_timestamps_are_offset_persisted_and_keep_source_timeline(tmp_path):
+    audio_files = DummyAudioFiles(tmp_path)
+    processor = DummyProcessor()
+    store = DummyStore()
+    use_case = TranscribeAudioUseCase(
+        asr=TimestampASR(),
+        diarizer=OffsetDiarizer(),
+        processor=processor,
+        store=store,
+        audio_files=audio_files,
+        index=None,
+    )
+
+    result = await use_case.execute(
+        filename="timestamped.wav",
+        content=b"wav-bytes",
+        dest_dir=str(tmp_path),
+        params={"word_timestamps": True, "remove_silence": True},
+    )
+
+    assert processor.params["remove_silence"] is False
+    assert result.segments[0].words[0].start == pytest.approx(2.1)
+    assert result.segments[0].words[1].end == pytest.approx(2.9)
+    persisted = store.load(result.transcript_id)
+    assert persisted.segments[0].words[0].word == " hello"
+    assert persisted.segments[0].words[0].probability == pytest.approx(0.98)

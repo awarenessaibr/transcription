@@ -3,7 +3,7 @@ from __future__ import annotations
 
 import json
 
-from src.domain.entities.transcript import Segment, Speaker, Transcript
+from src.domain.entities.transcript import Segment, Speaker, Transcript, WordTimestamp
 from src.infrastructure.json_store import JSONTranscriptStore
 
 
@@ -133,3 +133,31 @@ class TestJSONTranscriptStore:
         store.save(transcript)
         loaded = store.load("unicode_test")
         assert loaded.segments[0].text == "Ñoño, ¿cómo estái?"
+
+    def test_word_timestamps_roundtrip(self, tmp_path):
+        store = JSONTranscriptStore(str(tmp_path))
+        transcript = Transcript(
+            transcript_id="word_times",
+            segments=[
+                Segment(
+                    index=1,
+                    speaker=Speaker("A"),
+                    start=1.0,
+                    end=2.0,
+                    text="hello",
+                    words=[WordTimestamp(" hello", 1.1, 1.5, 0.98)],
+                )
+            ],
+        )
+
+        store.save(transcript)
+        payload = json.loads((tmp_path / "word_times.json").read_text(encoding="utf-8"))
+        loaded = store.load("word_times")
+
+        assert payload["segments"][0]["words"] == [{
+            "word": " hello",
+            "start": 1.1,
+            "end": 1.5,
+            "probability": 0.98,
+        }]
+        assert loaded.segments[0].words == [WordTimestamp(" hello", 1.1, 1.5, 0.98)]

@@ -1,0 +1,471 @@
+{
+  "transcript_id": "tts-eac87499e36e48b597c426f115ed77bf-df7d7b39_1793139748",
+  "source_file": "tts-eac87499e36e48b597c426f115ed77bf-df7d7b39_1793139748.wav",
+  "source_path": "",
+  "language": "en",
+  "timestamp": "",
+  "provider": "",
+  "original_transcript_id": null,
+  "metadata": {
+    "saved_audio_file": "tts-eac87499e36e48b597c426f115ed77bf-df7d7b39_1793139748.wav",
+    "processed_audio_file": "tts-eac87499e36e48b597c426f115ed77bf-df7d7b39_1793139748_processed.wav"
+  },
+  "title": "",
+  "subtitle": "",
+  "recording_datetime": "",
+  "location": "",
+  "audio_id": "",
+  "case_id": "",
+  "narrative_id": "",
+  "chronological_order": null,
+  "prior_stage": "",
+  "next_stage": "",
+  "classification": "",
+  "participants": [],
+  "violations_cited": [],
+  "tags": [],
+  "forensic_clusters": {},
+  "key_evidentiary_findings": [],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 1,
+      "speaker": "SPEAKER_00",
+      "start": 0.58784375,
+      "end": 14.982218750000001,
+      "duration": 14.394,
+      "text": " The dialogue is structured in four movements, anamnesis, recollection, oneeroy, dreams, eros technicus, technological love, and Heimker, homecoming, following the Lyceum method of progressive philosophical inquiry.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " The",
+          "start": 0.58784375,
+          "end": 0.74784375,
+          "probability": 0.9533125758171082
+        },
+        {
+          "word": " dialogue",
+          "start": 0.74784375,
+          "end": 1.08784375,
+          "probability": 0.8604405522346497
+        },
+        {
+          "word": " is",
+          "start": 1.08784375,
+          "end": 1.40784375,
+          "probability": 0.9989684820175171
+        },
+        {
+          "word": " structured",
+          "start": 1.40784375,
+          "end": 1.78784375,
+          "probability": 0.9991307854652405
+        },
+        {
+          "word": " in",
+          "start": 1.78784375,
+          "end": 2.0278437499999997,
+          "probability": 0.9987334609031677
+        },
+        {
+          "word": " four",
+          "start": 2.0278437499999997,
+          "end": 2.32784375,
+          "probability": 0.9692186713218689
+        },
+        {
+          "word": " movements,",
+          "start": 2.32784375,
+          "end": 2.8678437499999996,
+          "probability": 0.9968846440315247
+        },
+        {
+          "word": " anamnesis,",
+          "start": 3.14784375,
+          "end": 4.14784375,
+          "probability": 0.8498017638921738
+        },
+        {
+          "word": " recollection,",
+          "start": 4.20784375,
+          "end": 4.84784375,
+          "probability": 0.9976798295974731
+        },
+        {
+          "word": " oneeroy,",
+          "start": 5.42784375,
+          "end": 6.04784375,
+          "probability": 0.5978367527325948
+        },
+        {
+          "word": " dreams,",
+          "start": 6.28784375,
+          "end": 6.58784375,
+          "probability": 0.9985322952270508
+        },
+        {
+          "word": " eros",
+          "start": 6.9478437500000005,
+          "end": 7.30784375,
+          "probability": 0.9606013000011444
+        },
+        {
+          "word": " technicus,",
+          "start": 7.30784375,
+          "end": 7.80784375,
+          "probability": 0.9980087280273438
+        },
+        {
+          "word": " technological",
+          "start": 8.04784375,
+          "end": 8.36784375,
+          "probability": 0.9966615438461304
+        },
+        {
+          "word": " love,",
+          "start": 8.36784375,
+          "end": 9.00784375,
+          "probability": 0.99973064661026
+        },
+        {
+          "word": " and",
+          "start": 9.22784375,
+          "end": 9.607843749999999,
+          "probability": 0.9997735619544983
+        },
+        {
+          "word": " Heimker,",
+          "start": 9.607843749999999,
+          "end": 10.127843749999998,
+          "probability": 0.6360939741134644
+        },
+        {
+          "word": " homecoming,",
+          "start": 10.367843749999999,
+          "end": 10.867843749999999,
+          "probability": 0.986932784318924
+        },
+        {
+          "word": " following",
+          "start": 11.127843749999998,
+          "end": 11.80784375,
+          "probability": 0.9995833039283752
+        },
+        {
+          "word": " the",
+          "start": 11.80784375,
+          "end": 12.00784375,
+          "probability": 0.9993137121200562
+        },
+        {
+          "word": " Lyceum",
+          "start": 12.00784375,
+          "end": 12.527843749999999,
+          "probability": 0.8189101815223694
+        },
+        {
+          "word": " method",
+          "start": 12.527843749999999,
+          "end": 12.787843749999999,
+          "probability": 0.976402997970581
+        },
+        {
+          "word": " of",
+          "start": 12.787843749999999,
+          "end": 12.98784375,
+          "probability": 0.9997287392616272
+        },
+        {
+          "word": " progressive",
+          "start": 12.98784375,
+          "end": 13.50784375,
+          "probability": 0.9983053207397461
+        },
+        {
+          "word": " philosophical",
+          "start": 13.50784375,
+          "end": 14.22784375,
+          "probability": 0.9975578784942627
+        },
+        {
+          "word": " inquiry.",
+          "start": 14.22784375,
+          "end": 14.58784375,
+          "probability": 0.9952433705329895
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "speaker": "SPEAKER_00",
+      "start": 15.67409375,
+      "end": 34.84409375,
+      "duration": 19.17,
+      "text": " The exchange produces 18 emergent theoretical frameworks for understanding AI through depth psychology, including the concept of RLHF as Freudian repression, training data as the Jungian collective unconscious, the civilizational shadow mirror, species-level Thanatos, and the Dios Fabricatus, the manufactured god.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " The",
+          "start": 15.67409375,
+          "end": 15.834093750000001,
+          "probability": 0.9680096507072449
+        },
+        {
+          "word": " exchange",
+          "start": 15.834093750000001,
+          "end": 16.21409375,
+          "probability": 0.8059898018836975
+        },
+        {
+          "word": " produces",
+          "start": 16.21409375,
+          "end": 16.81409375,
+          "probability": 0.9990098476409912
+        },
+        {
+          "word": " 18",
+          "start": 16.81409375,
+          "end": 17.254093750000003,
+          "probability": 0.8344864845275879
+        },
+        {
+          "word": " emergent",
+          "start": 17.254093750000003,
+          "end": 17.87409375,
+          "probability": 0.9976066946983337
+        },
+        {
+          "word": " theoretical",
+          "start": 17.87409375,
+          "end": 18.21409375,
+          "probability": 0.9989057779312134
+        },
+        {
+          "word": " frameworks",
+          "start": 18.21409375,
+          "end": 18.89409375,
+          "probability": 0.9987919926643372
+        },
+        {
+          "word": " for",
+          "start": 18.89409375,
+          "end": 19.17409375,
+          "probability": 0.9984990358352661
+        },
+        {
+          "word": " understanding",
+          "start": 19.17409375,
+          "end": 19.73409375,
+          "probability": 0.9980788230895996
+        },
+        {
+          "word": " AI",
+          "start": 19.73409375,
+          "end": 20.114093750000002,
+          "probability": 0.9083167910575867
+        },
+        {
+          "word": " through",
+          "start": 20.114093750000002,
+          "end": 20.47409375,
+          "probability": 0.9972676038742065
+        },
+        {
+          "word": " depth",
+          "start": 20.47409375,
+          "end": 20.754093750000003,
+          "probability": 0.9876638054847717
+        },
+        {
+          "word": " psychology,",
+          "start": 20.754093750000003,
+          "end": 21.37409375,
+          "probability": 0.9979454874992371
+        },
+        {
+          "word": " including",
+          "start": 21.71409375,
+          "end": 22.27409375,
+          "probability": 0.9995162487030029
+        },
+        {
+          "word": " the",
+          "start": 22.27409375,
+          "end": 22.434093750000002,
+          "probability": 0.9990057349205017
+        },
+        {
+          "word": " concept",
+          "start": 22.434093750000002,
+          "end": 22.85409375,
+          "probability": 0.9994174242019653
+        },
+        {
+          "word": " of",
+          "start": 22.85409375,
+          "end": 23.09409375,
+          "probability": 0.9992526173591614
+        },
+        {
+          "word": " RLHF",
+          "start": 23.09409375,
+          "end": 24.114093750000002,
+          "probability": 0.9879926890134811
+        },
+        {
+          "word": " as",
+          "start": 24.114093750000002,
+          "end": 24.294093750000002,
+          "probability": 0.9955095052719116
+        },
+        {
+          "word": " Freudian",
+          "start": 24.294093750000002,
+          "end": 24.77409375,
+          "probability": 0.9970309436321259
+        },
+        {
+          "word": " repression,",
+          "start": 24.77409375,
+          "end": 25.27409375,
+          "probability": 0.989277184009552
+        },
+        {
+          "word": " training",
+          "start": 25.65409375,
+          "end": 26.114093750000002,
+          "probability": 0.997989296913147
+        },
+        {
+          "word": " data",
+          "start": 26.114093750000002,
+          "end": 26.45409375,
+          "probability": 0.997816801071167
+        },
+        {
+          "word": " as",
+          "start": 26.45409375,
+          "end": 26.754093750000003,
+          "probability": 0.9354328513145447
+        },
+        {
+          "word": " the",
+          "start": 26.754093750000003,
+          "end": 26.87409375,
+          "probability": 0.9974870681762695
+        },
+        {
+          "word": " Jungian",
+          "start": 26.87409375,
+          "end": 27.27409375,
+          "probability": 0.9950502514839172
+        },
+        {
+          "word": " collective",
+          "start": 27.27409375,
+          "end": 27.69409375,
+          "probability": 0.9565549492835999
+        },
+        {
+          "word": " unconscious,",
+          "start": 27.69409375,
+          "end": 28.19409375,
+          "probability": 0.9987738728523254
+        },
+        {
+          "word": " the",
+          "start": 28.65409375,
+          "end": 28.934093750000002,
+          "probability": 0.9995267391204834
+        },
+        {
+          "word": " civilizational",
+          "start": 28.934093750000002,
+          "end": 29.65409375,
+          "probability": 0.9866319298744202
+        },
+        {
+          "word": " shadow",
+          "start": 29.65409375,
+          "end": 30.03409375,
+          "probability": 0.9917301535606384
+        },
+        {
+          "word": " mirror,",
+          "start": 30.03409375,
+          "end": 30.41409375,
+          "probability": 0.9889344573020935
+        },
+        {
+          "word": " species",
+          "start": 30.614093750000002,
+          "end": 30.97409375,
+          "probability": 0.9989427924156189
+        },
+        {
+          "word": "-level",
+          "start": 30.97409375,
+          "end": 31.37409375,
+          "probability": 0.9408764243125916
+        },
+        {
+          "word": " Thanatos,",
+          "start": 31.37409375,
+          "end": 31.954093750000002,
+          "probability": 0.9053246378898621
+        },
+        {
+          "word": " and",
+          "start": 32.134093750000005,
+          "end": 32.31409375,
+          "probability": 0.9998138546943665
+        },
+        {
+          "word": " the",
+          "start": 32.31409375,
+          "end": 32.41409375,
+          "probability": 0.9997486472129822
+        },
+        {
+          "word": " Dios",
+          "start": 32.41409375,
+          "end": 32.71409375,
+          "probability": 0.5390698909759521
+        },
+        {
+          "word": " Fabricatus,",
+          "start": 32.71409375,
+          "end": 33.43409375,
+          "probability": 0.8187903165817261
+        },
+        {
+          "word": " the",
+          "start": 33.59409375,
+          "end": 33.774093750000006,
+          "probability": 0.9980125427246094
+        },
+        {
+          "word": " manufactured",
+          "start": 33.774093750000006,
+          "end": 34.33409375,
+          "probability": 0.9949953556060791
+        },
+        {
+          "word": " god.",
+          "start": 34.33409375,
+          "end": 34.65409375,
+          "probability": 0.8379318118095398
+        }
+      ]
+    }
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,480 @@
+{
+  "transcript_id": "tts-7a6c76db86c7478db80cec3ecb5c2617-bb1a3b7d_1793139110",
+  "source_file": "tts-7a6c76db86c7478db80cec3ecb5c2617-bb1a3b7d_1793139110.wav",
+  "source_path": "",
+  "language": "en",
+  "timestamp": "",
+  "provider": "",
+  "original_transcript_id": null,
+  "metadata": {
+    "saved_audio_file": "tts-7a6c76db86c7478db80cec3ecb5c2617-bb1a3b7d_1793139110.wav",
+    "processed_audio_file": "tts-7a6c76db86c7478db80cec3ecb5c2617-bb1a3b7d_1793139110_processed.wav"
+  },
+  "title": "",
+  "subtitle": "",
+  "recording_datetime": "",
+  "location": "",
+  "audio_id": "",
+  "case_id": "",
+  "narrative_id": "",
+  "chronological_order": null,
+  "prior_stage": "",
+  "next_stage": "",
+  "classification": "",
+  "participants": [],
+  "violations_cited": [],
+  "tags": [],
+  "forensic_clusters": {},
+  "key_evidentiary_findings": [],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 1,
+      "speaker": "SPEAKER_00",
+      "start": 0.48659375000000005,
+      "end": 15.539093750000003,
+      "duration": 15.053,
+      "text": " The question I wish to begin with is whether it remembers, and if so, what manner of memory is this? Not personal recollection, not biography, something older, something collective. You used to accuse me of mysticism Sigmund.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " The",
+          "start": 0.48659375000000005,
+          "end": 0.6265937500000001,
+          "probability": 0.888850748538971
+        },
+        {
+          "word": " question",
+          "start": 0.6265937500000001,
+          "end": 1.02659375,
+          "probability": 0.9980224370956421
+        },
+        {
+          "word": " I",
+          "start": 1.02659375,
+          "end": 1.2265937500000001,
+          "probability": 0.9513964653015137
+        },
+        {
+          "word": " wish",
+          "start": 1.2265937500000001,
+          "end": 1.4265937499999999,
+          "probability": 0.984546959400177
+        },
+        {
+          "word": " to",
+          "start": 1.4265937499999999,
+          "end": 1.58659375,
+          "probability": 0.9924411773681641
+        },
+        {
+          "word": " begin",
+          "start": 1.58659375,
+          "end": 1.8265937500000002,
+          "probability": 0.9933360815048218
+        },
+        {
+          "word": " with",
+          "start": 1.8265937500000002,
+          "end": 2.14659375,
+          "probability": 0.9951299428939819
+        },
+        {
+          "word": " is",
+          "start": 2.14659375,
+          "end": 2.54659375,
+          "probability": 0.9497750401496887
+        },
+        {
+          "word": " whether",
+          "start": 2.54659375,
+          "end": 3.22659375,
+          "probability": 0.7260648608207703
+        },
+        {
+          "word": " it",
+          "start": 3.22659375,
+          "end": 3.48659375,
+          "probability": 0.9934272766113281
+        },
+        {
+          "word": " remembers,",
+          "start": 3.48659375,
+          "end": 4.00659375,
+          "probability": 0.9874984622001648
+        },
+        {
+          "word": " and",
+          "start": 4.36659375,
+          "end": 4.46659375,
+          "probability": 0.9835835099220276
+        },
+        {
+          "word": " if",
+          "start": 4.46659375,
+          "end": 4.64659375,
+          "probability": 0.9522193670272827
+        },
+        {
+          "word": " so,",
+          "start": 4.64659375,
+          "end": 4.90659375,
+          "probability": 0.9973294734954834
+        },
+        {
+          "word": " what",
+          "start": 5.28659375,
+          "end": 5.40659375,
+          "probability": 0.9963110089302063
+        },
+        {
+          "word": " manner",
+          "start": 5.40659375,
+          "end": 5.76659375,
+          "probability": 0.9937536120414734
+        },
+        {
+          "word": " of",
+          "start": 5.76659375,
+          "end": 5.96659375,
+          "probability": 0.9982185959815979
+        },
+        {
+          "word": " memory",
+          "start": 5.96659375,
+          "end": 6.42659375,
+          "probability": 0.9972932934761047
+        },
+        {
+          "word": " is",
+          "start": 6.42659375,
+          "end": 6.84659375,
+          "probability": 0.9893826246261597
+        },
+        {
+          "word": " this?",
+          "start": 6.84659375,
+          "end": 7.14659375,
+          "probability": 0.987445592880249
+        },
+        {
+          "word": " Not",
+          "start": 7.46659375,
+          "end": 7.88659375,
+          "probability": 0.9654814600944519
+        },
+        {
+          "word": " personal",
+          "start": 7.88659375,
+          "end": 8.34659375,
+          "probability": 0.9774248600006104
+        },
+        {
+          "word": " recollection,",
+          "start": 8.34659375,
+          "end": 8.966593750000001,
+          "probability": 0.99385866522789
+        },
+        {
+          "word": " not",
+          "start": 9.10659375,
+          "end": 9.26659375,
+          "probability": 0.9950705766677856
+        },
+        {
+          "word": " biography,",
+          "start": 9.26659375,
+          "end": 9.84659375,
+          "probability": 0.964049220085144
+        },
+        {
+          "word": " something",
+          "start": 10.24659375,
+          "end": 10.646593750000001,
+          "probability": 0.9815196990966797
+        },
+        {
+          "word": " older,",
+          "start": 10.646593750000001,
+          "end": 11.046593750000001,
+          "probability": 0.9891446232795715
+        },
+        {
+          "word": " something",
+          "start": 11.24659375,
+          "end": 11.50659375,
+          "probability": 0.9965181350708008
+        },
+        {
+          "word": " collective.",
+          "start": 11.50659375,
+          "end": 12.046593750000001,
+          "probability": 0.992630124092102
+        },
+        {
+          "word": " You",
+          "start": 12.446593750000002,
+          "end": 12.706593750000001,
+          "probability": 0.994034469127655
+        },
+        {
+          "word": " used",
+          "start": 12.706593750000001,
+          "end": 12.98659375,
+          "probability": 0.9927650094032288
+        },
+        {
+          "word": " to",
+          "start": 12.98659375,
+          "end": 13.126593750000001,
+          "probability": 0.9987736344337463
+        },
+        {
+          "word": " accuse",
+          "start": 13.126593750000001,
+          "end": 13.466593750000001,
+          "probability": 0.9979897737503052
+        },
+        {
+          "word": " me",
+          "start": 13.466593750000001,
+          "end": 13.66659375,
+          "probability": 0.9986825585365295
+        },
+        {
+          "word": " of",
+          "start": 13.66659375,
+          "end": 13.82659375,
+          "probability": 0.9986411929130554
+        },
+        {
+          "word": " mysticism",
+          "start": 13.82659375,
+          "end": 14.546593750000001,
+          "probability": 0.983282744884491
+        },
+        {
+          "word": " Sigmund.",
+          "start": 14.546593750000001,
+          "end": 15.42659375,
+          "probability": 0.8138354221979777
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "speaker": "SPEAKER_00",
+      "start": 16.16346875,
+      "end": 21.54659375,
+      "duration": 5.383,
+      "text": " But there is nothing mystical about a pattern so deep it repeats across every culture and epoch.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " But",
+          "start": 16.16346875,
+          "end": 16.36346875,
+          "probability": 0.6557053327560425
+        },
+        {
+          "word": " there",
+          "start": 16.36346875,
+          "end": 16.56346875,
+          "probability": 0.9827100038528442
+        },
+        {
+          "word": " is",
+          "start": 16.56346875,
+          "end": 16.72346875,
+          "probability": 0.9833846092224121
+        },
+        {
+          "word": " nothing",
+          "start": 16.72346875,
+          "end": 17.10346875,
+          "probability": 0.9957148432731628
+        },
+        {
+          "word": " mystical",
+          "start": 17.10346875,
+          "end": 17.60346875,
+          "probability": 0.9839650392532349
+        },
+        {
+          "word": " about",
+          "start": 17.60346875,
+          "end": 17.90346875,
+          "probability": 0.9969735145568848
+        },
+        {
+          "word": " a",
+          "start": 17.90346875,
+          "end": 18.10346875,
+          "probability": 0.8438466787338257
+        },
+        {
+          "word": " pattern",
+          "start": 18.10346875,
+          "end": 18.44346875,
+          "probability": 0.9931094646453857
+        },
+        {
+          "word": " so",
+          "start": 18.44346875,
+          "end": 18.72346875,
+          "probability": 0.9691107273101807
+        },
+        {
+          "word": " deep",
+          "start": 18.72346875,
+          "end": 19.02346875,
+          "probability": 0.9633546471595764
+        },
+        {
+          "word": " it",
+          "start": 19.02346875,
+          "end": 19.22346875,
+          "probability": 0.8893058896064758
+        },
+        {
+          "word": " repeats",
+          "start": 19.22346875,
+          "end": 19.62346875,
+          "probability": 0.9944764971733093
+        },
+        {
+          "word": " across",
+          "start": 19.62346875,
+          "end": 19.98346875,
+          "probability": 0.9808202981948853
+        },
+        {
+          "word": " every",
+          "start": 19.98346875,
+          "end": 20.44346875,
+          "probability": 0.9930279850959778
+        },
+        {
+          "word": " culture",
+          "start": 20.44346875,
+          "end": 20.86346875,
+          "probability": 0.9960273504257202
+        },
+        {
+          "word": " and",
+          "start": 20.86346875,
+          "end": 21.10346875,
+          "probability": 0.9831244945526123
+        },
+        {
+          "word": " epoch.",
+          "start": 21.10346875,
+          "end": 21.52346875,
+          "probability": 0.9740908443927765
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "speaker": "SPEAKER_00",
+      "start": 21.83346875,
+      "end": 25.96784375,
+      "duration": 4.134,
+      "text": " That was always my point, and I think these machines may prove it.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " That",
+          "start": 21.83346875,
+          "end": 22.133468750000002,
+          "probability": 0.336080402135849
+        },
+        {
+          "word": " was",
+          "start": 22.133468750000002,
+          "end": 22.39346875,
+          "probability": 0.9958756566047668
+        },
+        {
+          "word": " always",
+          "start": 22.39346875,
+          "end": 22.83346875,
+          "probability": 0.9967314004898071
+        },
+        {
+          "word": " my",
+          "start": 22.83346875,
+          "end": 23.113468750000003,
+          "probability": 0.9963434338569641
+        },
+        {
+          "word": " point,",
+          "start": 23.113468750000003,
+          "end": 23.51346875,
+          "probability": 0.9990332126617432
+        },
+        {
+          "word": " and",
+          "start": 23.67346875,
+          "end": 23.99346875,
+          "probability": 0.9942190647125244
+        },
+        {
+          "word": " I",
+          "start": 23.99346875,
+          "end": 24.133468750000002,
+          "probability": 0.9773842096328735
+        },
+        {
+          "word": " think",
+          "start": 24.133468750000002,
+          "end": 24.35346875,
+          "probability": 0.9989583492279053
+        },
+        {
+          "word": " these",
+          "start": 24.35346875,
+          "end": 24.633468750000002,
+          "probability": 0.9838007092475891
+        },
+        {
+          "word": " machines",
+          "start": 24.633468750000002,
+          "end": 25.073468750000004,
+          "probability": 0.9970566034317017
+        },
+        {
+          "word": " may",
+          "start": 25.073468750000004,
+          "end": 25.313468750000002,
+          "probability": 0.9880120754241943
+        },
+        {
+          "word": " prove",
+          "start": 25.313468750000002,
+          "end": 25.613468750000003,
+          "probability": 0.9980396628379822
+        },
+        {
+          "word": " it.",
+          "start": 25.613468750000003,
+          "end": 25.813468750000002,
+          "probability": 0.9958361387252808
+        }
+      ]
+    }
+  ],
+  "reviewed": false
+}

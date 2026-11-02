@@ -106,6 +106,12 @@ class ReferenceGuidedTranscribeUseCase:
         initial_prompt = self._build_initial_prompt(best_ref, language)
         if initial_prompt:
             logger.info("[guided] initial_prompt: %d chars", len(initial_prompt))
+        else:
+            # No reference-derived prompt: fall back to the caller's prompt rather than
+            # silently discarding it (the router used to drop the UI's prompt entirely).
+            initial_prompt = params.get("initial_prompt") or ""
+            if initial_prompt:
+                logger.info("[guided] initial_prompt from request: %d chars", len(initial_prompt))
 
         # ── Step 3: Convert + preprocess audio ────────────────────────────
         t_step = time.time()
@@ -114,8 +120,11 @@ class ReferenceGuidedTranscribeUseCase:
             "noise_reduce": params.get("noise_reduce", True),
             "reduction_db": params.get("reduction_db", 25),
             "voice_enhance": params.get("voice_enhance", True),
+            "enhance_highpass_hz": params.get("enhance_highpass_hz"),
+            "enhance_lowpass_hz": params.get("enhance_lowpass_hz"),
             "apply_gain": params.get("apply_gain", True),
             "target_lufs": params.get("target_lufs", -16.0),
+            "allow_attenuation": params.get("allow_attenuation", True),
             "remove_silence": params.get("remove_silence", True),
             "silence_thresh": params.get("silence_thresh", -45),
             "min_silence_len": params.get("min_silence_len", 250),
@@ -124,17 +133,30 @@ class ReferenceGuidedTranscribeUseCase:
 
         # ── Step 4: Whisper ASR (full file, not segmented) ────────────────
         t_step = time.time()
-        asr_result = self._asr.transcribe(
-            processed_path,
-            language=language,
-            model_size=model_size,
-            temperature=params.get("whisper_temp", 0.0),
-            beam_size=params.get("beam_size", 5),
-            best_of=params.get("best_of", 5),
-            initial_prompt=initial_prompt,
-            condition_on_previous_text=params.get("condition_on_previous_text", True),
-            word_timestamps=params.get("word_timestamps", False),
-        )
+        asr_kwargs = {
+            "language": language,
+            "model_size": model_size,
+            "temperature": params.get("whisper_temp", 0.0),
+            "beam_size": params.get("beam_size", 5),
+            "best_of": params.get("best_of", 5),
+            "initial_prompt": initial_prompt,
+            "condition_on_previous_text": params.get("condition_on_previous_text", True),
+            "word_timestamps": params.get("word_timestamps", False),
+        }
+        # Optional decoding controls. Forwarded only when the caller supplied them, so the
+        # adapter's own defaults stay authoritative otherwise.
+        for key in (
+            "compression_ratio_threshold",
+            "logprob_threshold",
+            "no_speech_threshold",
+            "length_penalty",
+            "patience",
+            "suppress_blank",
+            "suppress_tokens",
+        ):
+            if params.get(key) is not None:
+                asr_kwargs[key] = params[key]
+        asr_result = self._asr.transcribe(processed_path, **asr_kwargs)
         raw_text = asr_result.get("text", "") if isinstance(asr_result, dict) else asr_result
         asr_elapsed = time.time() - t_step
         logger.info("[guided] ASR complete: %d chars in %.2fs", len(raw_text), asr_elapsed)

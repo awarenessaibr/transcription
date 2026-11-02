@@ -36,6 +36,9 @@ def build_transcribe_params(
     keep_cache: bool,
     skip_diarization: bool = False,
     progress_callback: Any = None,
+    enhance_highpass_hz: float | None = None,
+    enhance_lowpass_hz: float | None = None,
+    allow_attenuation: bool = True,
 ) -> dict[str, Any]:
     """Build a unified transcribe parameter dict shared across routers and MCP servers."""
     return {
@@ -47,7 +50,10 @@ def build_transcribe_params(
         "noise_reduce": noise_reduce,
         "reduction_db": reduction_db,
         "voice_enhance": voice_enhance,
+        "enhance_highpass_hz": enhance_highpass_hz,
+        "enhance_lowpass_hz": enhance_lowpass_hz,
         "apply_gain": apply_gain,
+        "allow_attenuation": allow_attenuation,
         "target_lufs": target_lufs,
         "remove_silence": remove_silence,
         "silence_thresh": silence_thresh,

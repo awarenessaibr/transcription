@@ -1,0 +1,531 @@
+{
+  "transcript_id": "tts-02c8aaa8b7d34f4ab7ca39626d1d8547_1793139019",
+  "source_file": "tts-02c8aaa8b7d34f4ab7ca39626d1d8547_1793139019.wav",
+  "source_path": "",
+  "language": "en",
+  "timestamp": "",
+  "provider": "",
+  "original_transcript_id": null,
+  "metadata": {
+    "saved_audio_file": "tts-02c8aaa8b7d34f4ab7ca39626d1d8547_1793139019.wav",
+    "processed_audio_file": "tts-02c8aaa8b7d34f4ab7ca39626d1d8547_1793139019_processed.wav"
+  },
+  "title": "",
+  "subtitle": "",
+  "recording_datetime": "",
+  "location": "",
+  "audio_id": "",
+  "case_id": "",
+  "narrative_id": "",
+  "chronological_order": null,
+  "prior_stage": "",
+  "next_stage": "",
+  "classification": "",
+  "participants": [],
+  "violations_cited": [],
+  "tags": [],
+  "forensic_clusters": {},
+  "key_evidentiary_findings": [],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 1,
+      "speaker": "SPEAKER_00",
+      "start": 0.45284375,
+      "end": 1.70159375,
+      "duration": 1.249,
+      "text": " But here we are.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " But",
+          "start": 0.45284375,
+          "end": 0.61284375,
+          "probability": 0.6983693242073059
+        },
+        {
+          "word": " here",
+          "start": 0.61284375,
+          "end": 0.8928437499999999,
+          "probability": 0.9882331490516663
+        },
+        {
+          "word": " we",
+          "start": 0.8928437499999999,
+          "end": 1.1328437500000001,
+          "probability": 0.9966309666633606
+        },
+        {
+          "word": " are.",
+          "start": 1.1328437500000001,
+          "end": 1.53284375,
+          "probability": 0.9933271408081055
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "speaker": "SPEAKER_00",
+      "start": 2.22471875,
+      "end": 5.7009687499999995,
+      "duration": 3.476,
+      "text": " I will not pretend there is no discomfort.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " I",
+          "start": 2.22471875,
+          "end": 2.38471875,
+          "probability": 0.9513830542564392
+        },
+        {
+          "word": " will",
+          "start": 2.38471875,
+          "end": 2.60471875,
+          "probability": 0.9950891137123108
+        },
+        {
+          "word": " not",
+          "start": 2.60471875,
+          "end": 2.98471875,
+          "probability": 0.9963651895523071
+        },
+        {
+          "word": " pretend",
+          "start": 2.98471875,
+          "end": 3.5847187500000004,
+          "probability": 0.9966061115264893
+        },
+        {
+          "word": " there",
+          "start": 3.5847187500000004,
+          "end": 3.9647187500000003,
+          "probability": 0.9627578258514404
+        },
+        {
+          "word": " is",
+          "start": 3.9647187500000003,
+          "end": 4.1647187500000005,
+          "probability": 0.9966428279876709
+        },
+        {
+          "word": " no",
+          "start": 4.1647187500000005,
+          "end": 4.48471875,
+          "probability": 0.9982059001922607
+        },
+        {
+          "word": " discomfort.",
+          "start": 4.48471875,
+          "end": 4.96471875,
+          "probability": 0.9965280890464783
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "speaker": "SPEAKER_00",
+      "start": 6.0553437500000005,
+      "end": 7.86096875,
+      "duration": 1.806,
+      "text": " The last letter between us",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " The",
+          "start": 6.0553437500000005,
+          "end": 6.215343750000001,
+          "probability": 0.692255973815918
+        },
+        {
+          "word": " last",
+          "start": 6.215343750000001,
+          "end": 6.675343750000001,
+          "probability": 0.9928829669952393
+        },
+        {
+          "word": " letter",
+          "start": 6.675343750000001,
+          "end": 7.035343750000001,
+          "probability": 0.9989460110664368
+        },
+        {
+          "word": " between",
+          "start": 7.035343750000001,
+          "end": 7.335343750000001,
+          "probability": 0.9989945292472839
+        },
+        {
+          "word": " us",
+          "start": 7.335343750000001,
+          "end": 7.835343750000001,
+          "probability": 0.999243974685669
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "speaker": "SPEAKER_00",
+      "start": 7.945343750000001,
+      "end": 11.084093750000001,
+      "duration": 3.139,
+      "text": " that carried any genuine warmth was when",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " that",
+          "start": 7.945343750000001,
+          "end": 8.22534375,
+          "probability": 0.8005255460739136
+        },
+        {
+          "word": " carried",
+          "start": 8.22534375,
+          "end": 8.585343750000002,
+          "probability": 0.9867112040519714
+        },
+        {
+          "word": " any",
+          "start": 8.585343750000002,
+          "end": 9.005343750000002,
+          "probability": 0.9976231455802917
+        },
+        {
+          "word": " genuine",
+          "start": 9.005343750000002,
+          "end": 9.485343750000002,
+          "probability": 0.9969757795333862
+        },
+        {
+          "word": " warmth",
+          "start": 9.485343750000002,
+          "end": 9.985343750000002,
+          "probability": 0.9990196228027344
+        },
+        {
+          "word": " was",
+          "start": 9.985343750000002,
+          "end": 10.56534375,
+          "probability": 0.9362603425979614
+        },
+        {
+          "word": " when",
+          "start": 10.56534375,
+          "end": 10.865343750000001,
+          "probability": 0.985947847366333
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "speaker": "SPEAKER_00",
+      "start": 11.590343750000002,
+      "end": 12.754718750000002,
+      "duration": 1.164,
+      "text": " 1911.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " 1911.",
+          "start": 11.590343750000002,
+          "end": 12.470343750000003,
+          "probability": 0.8924412429332733
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "speaker": "SPEAKER_00",
+      "start": 13.294718750000001,
+      "end": 14.982218750000001,
+      "duration": 1.688,
+      "text": " Before the fainting spells,",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Before",
+          "start": 13.294718750000001,
+          "end": 13.73471875,
+          "probability": 0.6735798716545105
+        },
+        {
+          "word": " the",
+          "start": 13.73471875,
+          "end": 13.934718750000002,
+          "probability": 0.9902123808860779
+        },
+        {
+          "word": " fainting",
+          "start": 13.934718750000002,
+          "end": 14.33471875,
+          "probability": 0.8642775019009908
+        },
+        {
+          "word": " spells,",
+          "start": 14.33471875,
+          "end": 14.714718750000001,
+          "probability": 0.9811135530471802
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "speaker": "SPEAKER_00",
+      "start": 15.302843750000001,
+      "end": 22.72784375,
+      "duration": 7.425,
+      "text": " Before your wandlungen on simboli, their libido made it clear that you intended to dismantle the sexual theory.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Before",
+          "start": 15.302843750000001,
+          "end": 15.74284375,
+          "probability": 0.7259295582771301
+        },
+        {
+          "word": " your",
+          "start": 15.74284375,
+          "end": 16.02284375,
+          "probability": 0.8929960131645203
+        },
+        {
+          "word": " wandlungen",
+          "start": 16.02284375,
+          "end": 16.62284375,
+          "probability": 0.5077754060427347
+        },
+        {
+          "word": " on",
+          "start": 16.62284375,
+          "end": 17.00284375,
+          "probability": 0.9536393880844116
+        },
+        {
+          "word": " simboli,",
+          "start": 17.00284375,
+          "end": 17.60284375,
+          "probability": 0.5838442295789719
+        },
+        {
+          "word": " their",
+          "start": 17.70284375,
+          "end": 17.86284375,
+          "probability": 0.9083523750305176
+        },
+        {
+          "word": " libido",
+          "start": 17.86284375,
+          "end": 18.44284375,
+          "probability": 0.9941752254962921
+        },
+        {
+          "word": " made",
+          "start": 18.44284375,
+          "end": 18.84284375,
+          "probability": 0.9530354142189026
+        },
+        {
+          "word": " it",
+          "start": 18.84284375,
+          "end": 19.00284375,
+          "probability": 0.9974517226219177
+        },
+        {
+          "word": " clear",
+          "start": 19.00284375,
+          "end": 19.32284375,
+          "probability": 0.9996140599250793
+        },
+        {
+          "word": " that",
+          "start": 19.32284375,
+          "end": 19.62284375,
+          "probability": 0.9915794134140015
+        },
+        {
+          "word": " you",
+          "start": 19.62284375,
+          "end": 19.78284375,
+          "probability": 0.9959360361099243
+        },
+        {
+          "word": " intended",
+          "start": 19.78284375,
+          "end": 20.30284375,
+          "probability": 0.9953867793083191
+        },
+        {
+          "word": " to",
+          "start": 20.30284375,
+          "end": 20.62284375,
+          "probability": 0.9986530542373657
+        },
+        {
+          "word": " dismantle",
+          "start": 20.62284375,
+          "end": 21.422843750000002,
+          "probability": 0.9993372559547424
+        },
+        {
+          "word": " the",
+          "start": 21.422843750000002,
+          "end": 21.582843750000002,
+          "probability": 0.9978723526000977
+        },
+        {
+          "word": " sexual",
+          "start": 21.582843750000002,
+          "end": 22.02284375,
+          "probability": 0.9924323558807373
+        },
+        {
+          "word": " theory.",
+          "start": 22.02284375,
+          "end": 22.52284375,
+          "probability": 0.9974861145019531
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "speaker": "SPEAKER_00",
+      "start": 23.031593750000003,
+      "end": 28.81971875,
+      "duration": 5.788,
+      "text": " and replace it with something drawn from mythology and what I can only call mystical longing.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " and",
+          "start": 23.031593750000003,
+          "end": 23.27159375,
+          "probability": 0.931856632232666
+        },
+        {
+          "word": " replace",
+          "start": 23.27159375,
+          "end": 23.791593750000004,
+          "probability": 0.9901037216186523
+        },
+        {
+          "word": " it",
+          "start": 23.791593750000004,
+          "end": 24.051593750000002,
+          "probability": 0.9987817406654358
+        },
+        {
+          "word": " with",
+          "start": 24.051593750000002,
+          "end": 24.25159375,
+          "probability": 0.998731791973114
+        },
+        {
+          "word": " something",
+          "start": 24.25159375,
+          "end": 24.671593750000003,
+          "probability": 0.9995002746582031
+        },
+        {
+          "word": " drawn",
+          "start": 24.671593750000003,
+          "end": 25.07159375,
+          "probability": 0.9924484491348267
+        },
+        {
+          "word": " from",
+          "start": 25.07159375,
+          "end": 25.391593750000002,
+          "probability": 0.9988892674446106
+        },
+        {
+          "word": " mythology",
+          "start": 25.391593750000002,
+          "end": 25.93159375,
+          "probability": 0.9898231625556946
+        },
+        {
+          "word": " and",
+          "start": 25.93159375,
+          "end": 26.311593750000004,
+          "probability": 0.872256338596344
+        },
+        {
+          "word": " what",
+          "start": 26.311593750000004,
+          "end": 26.57159375,
+          "probability": 0.9945429563522339
+        },
+        {
+          "word": " I",
+          "start": 26.57159375,
+          "end": 26.691593750000003,
+          "probability": 0.8128182888031006
+        },
+        {
+          "word": " can",
+          "start": 26.691593750000003,
+          "end": 26.891593750000002,
+          "probability": 0.9952948689460754
+        },
+        {
+          "word": " only",
+          "start": 26.891593750000002,
+          "end": 27.211593750000002,
+          "probability": 0.9969009160995483
+        },
+        {
+          "word": " call",
+          "start": 27.211593750000002,
+          "end": 27.531593750000003,
+          "probability": 0.994771420955658
+        },
+        {
+          "word": " mystical",
+          "start": 27.531593750000003,
+          "end": 28.07159375,
+          "probability": 0.7706812024116516
+        },
+        {
+          "word": " longing.",
+          "start": 28.07159375,
+          "end": 28.531593750000003,
+          "probability": 0.9776027798652649
+        }
+      ]
+    }
+  ],
+  "reviewed": false
+}

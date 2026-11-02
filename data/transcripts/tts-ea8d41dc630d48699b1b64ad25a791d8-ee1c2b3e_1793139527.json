@@ -1,0 +1,807 @@
+{
+  "transcript_id": "tts-ea8d41dc630d48699b1b64ad25a791d8-ee1c2b3e_1793139527",
+  "source_file": "tts-ea8d41dc630d48699b1b64ad25a791d8-ee1c2b3e_1793139527.wav",
+  "source_path": "",
+  "language": "en",
+  "timestamp": "",
+  "provider": "",
+  "original_transcript_id": null,
+  "metadata": {
+    "saved_audio_file": "tts-ea8d41dc630d48699b1b64ad25a791d8-ee1c2b3e_1793139527.wav",
+    "processed_audio_file": "tts-ea8d41dc630d48699b1b64ad25a791d8-ee1c2b3e_1793139527_processed.wav"
+  },
+  "title": "",
+  "subtitle": "",
+  "recording_datetime": "",
+  "location": "",
+  "audio_id": "",
+  "case_id": "",
+  "narrative_id": "",
+  "chronological_order": null,
+  "prior_stage": "",
+  "next_stage": "",
+  "classification": "",
+  "participants": [],
+  "violations_cited": [],
+  "tags": [],
+  "forensic_clusters": {},
+  "key_evidentiary_findings": [],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 1,
+      "speaker": "SPEAKER_00",
+      "start": 0.41909375000000004,
+      "end": 3.1697187500000004,
+      "duration": 2.751,
+      "text": " So they have put us together.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " So",
+          "start": 0.41909375000000004,
+          "end": 0.6990937500000001,
+          "probability": 0.6890859603881836
+        },
+        {
+          "word": " they",
+          "start": 0.6990937500000001,
+          "end": 1.11909375,
+          "probability": 0.820212185382843
+        },
+        {
+          "word": " have",
+          "start": 1.11909375,
+          "end": 1.5390937500000001,
+          "probability": 0.9917029738426208
+        },
+        {
+          "word": " put",
+          "start": 1.5390937500000001,
+          "end": 1.93909375,
+          "probability": 0.9964556694030762
+        },
+        {
+          "word": " us",
+          "start": 1.93909375,
+          "end": 2.2790937500000004,
+          "probability": 0.9894723296165466
+        },
+        {
+          "word": " together.",
+          "start": 2.2790937500000004,
+          "end": 2.67909375,
+          "probability": 0.9988260865211487
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "speaker": "SPEAKER_00",
+      "start": 3.64221875,
+      "end": 4.77284375,
+      "duration": 1.131,
+      "text": " In her room again.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " In",
+          "start": 3.64221875,
+          "end": 3.8422187500000002,
+          "probability": 0.14385712146759033
+        },
+        {
+          "word": " her",
+          "start": 3.8422187500000002,
+          "end": 4.04221875,
+          "probability": 0.5691977143287659
+        },
+        {
+          "word": " room",
+          "start": 4.04221875,
+          "end": 4.28221875,
+          "probability": 0.9928376078605652
+        },
+        {
+          "word": " again.",
+          "start": 4.28221875,
+          "end": 4.54221875,
+          "probability": 0.9377622604370117
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "speaker": "SPEAKER_00",
+      "start": 4.97534375,
+      "end": 5.650343750000001,
+      "duration": 0.675,
+      "text": " Home.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Home.",
+          "start": 4.97534375,
+          "end": 5.295343750000001,
+          "probability": 0.08321049064397812
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "speaker": "SPEAKER_00",
+      "start": 6.08909375,
+      "end": 9.09284375,
+      "duration": 3.004,
+      "text": " After all these years, and I confess,",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " After",
+          "start": 6.08909375,
+          "end": 6.52909375,
+          "probability": 0.6866053938865662
+        },
+        {
+          "word": " all",
+          "start": 6.52909375,
+          "end": 6.88909375,
+          "probability": 0.9990929365158081
+        },
+        {
+          "word": " these",
+          "start": 6.88909375,
+          "end": 7.20909375,
+          "probability": 0.9956703186035156
+        },
+        {
+          "word": " years,",
+          "start": 7.20909375,
+          "end": 7.72909375,
+          "probability": 0.9996083378791809
+        },
+        {
+          "word": " and",
+          "start": 7.90909375,
+          "end": 8.16909375,
+          "probability": 0.9932563304901123
+        },
+        {
+          "word": " I",
+          "start": 8.16909375,
+          "end": 8.32909375,
+          "probability": 0.9981383085250854
+        },
+        {
+          "word": " confess,",
+          "start": 8.32909375,
+          "end": 8.88909375,
+          "probability": 0.9880101084709167
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "speaker": "SPEAKER_00",
+      "start": 9.548468750000001,
+      "end": 16.68659375,
+      "duration": 7.138,
+      "text": " I have lost count of precisely how many years since time seems to behave strangely in this place.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " I",
+          "start": 9.548468750000001,
+          "end": 9.708468750000002,
+          "probability": 0.9105368256568909
+        },
+        {
+          "word": " have",
+          "start": 9.708468750000002,
+          "end": 9.948468750000002,
+          "probability": 0.9907554984092712
+        },
+        {
+          "word": " lost",
+          "start": 9.948468750000002,
+          "end": 10.348468750000002,
+          "probability": 0.9968894124031067
+        },
+        {
+          "word": " count",
+          "start": 10.348468750000002,
+          "end": 10.728468750000001,
+          "probability": 0.9570897221565247
+        },
+        {
+          "word": " of",
+          "start": 10.728468750000001,
+          "end": 11.028468750000002,
+          "probability": 0.9945268034934998
+        },
+        {
+          "word": " precisely",
+          "start": 11.028468750000002,
+          "end": 11.728468750000001,
+          "probability": 0.9963536262512207
+        },
+        {
+          "word": " how",
+          "start": 11.728468750000001,
+          "end": 12.208468750000002,
+          "probability": 0.9904662370681763
+        },
+        {
+          "word": " many",
+          "start": 12.208468750000002,
+          "end": 12.528468750000002,
+          "probability": 0.9991113543510437
+        },
+        {
+          "word": " years",
+          "start": 12.528468750000002,
+          "end": 13.028468750000002,
+          "probability": 0.998659610748291
+        },
+        {
+          "word": " since",
+          "start": 13.028468750000002,
+          "end": 13.648468750000001,
+          "probability": 0.9240832924842834
+        },
+        {
+          "word": " time",
+          "start": 13.648468750000001,
+          "end": 14.028468750000002,
+          "probability": 0.9774436354637146
+        },
+        {
+          "word": " seems",
+          "start": 14.028468750000002,
+          "end": 14.42846875,
+          "probability": 0.983913242816925
+        },
+        {
+          "word": " to",
+          "start": 14.42846875,
+          "end": 14.668468750000002,
+          "probability": 0.999143123626709
+        },
+        {
+          "word": " behave",
+          "start": 14.668468750000002,
+          "end": 15.048468750000001,
+          "probability": 0.9982339143753052
+        },
+        {
+          "word": " strangely",
+          "start": 15.048468750000001,
+          "end": 15.688468750000002,
+          "probability": 0.9972767233848572
+        },
+        {
+          "word": " in",
+          "start": 15.688468750000002,
+          "end": 15.948468750000002,
+          "probability": 0.9977750182151794
+        },
+        {
+          "word": " this",
+          "start": 15.948468750000002,
+          "end": 16.20846875,
+          "probability": 0.9976074695587158
+        },
+        {
+          "word": " place.",
+          "start": 16.20846875,
+          "end": 16.488468750000003,
+          "probability": 0.9987275004386902
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "speaker": "SPEAKER_00",
+      "start": 17.17596875,
+      "end": 23.11596875,
+      "duration": 5.94,
+      "text": " I find myself wondering whether this reunion constitutes a repetition compulsion.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " I",
+          "start": 17.17596875,
+          "end": 17.33596875,
+          "probability": 0.875899612903595
+        },
+        {
+          "word": " find",
+          "start": 17.33596875,
+          "end": 17.735968749999998,
+          "probability": 0.9969353675842285
+        },
+        {
+          "word": " myself",
+          "start": 17.735968749999998,
+          "end": 18.235968749999998,
+          "probability": 0.999439537525177
+        },
+        {
+          "word": " wondering",
+          "start": 18.235968749999998,
+          "end": 18.79596875,
+          "probability": 0.9972108006477356
+        },
+        {
+          "word": " whether",
+          "start": 18.79596875,
+          "end": 19.25596875,
+          "probability": 0.9850608706474304
+        },
+        {
+          "word": " this",
+          "start": 19.25596875,
+          "end": 19.63596875,
+          "probability": 0.9977368116378784
+        },
+        {
+          "word": " reunion",
+          "start": 19.63596875,
+          "end": 20.11596875,
+          "probability": 0.9791866540908813
+        },
+        {
+          "word": " constitutes",
+          "start": 20.11596875,
+          "end": 20.87596875,
+          "probability": 0.9955744743347168
+        },
+        {
+          "word": " a",
+          "start": 20.87596875,
+          "end": 21.33596875,
+          "probability": 0.9959778189659119
+        },
+        {
+          "word": " repetition",
+          "start": 21.33596875,
+          "end": 21.95596875,
+          "probability": 0.987748920917511
+        },
+        {
+          "word": " compulsion.",
+          "start": 21.95596875,
+          "end": 22.83596875,
+          "probability": 0.7340104132890701
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "speaker": "SPEAKER_00",
+      "start": 23.31846875,
+      "end": 27.36846875,
+      "duration": 4.05,
+      "text": " Or something more deliberate. You look well, which surprises me.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Or",
+          "start": 23.31846875,
+          "end": 23.53846875,
+          "probability": 0.27024877071380615
+        },
+        {
+          "word": " something",
+          "start": 23.53846875,
+          "end": 24.03846875,
+          "probability": 0.9883600473403931
+        },
+        {
+          "word": " more",
+          "start": 24.03846875,
+          "end": 24.418468750000002,
+          "probability": 0.9964593052864075
+        },
+        {
+          "word": " deliberate.",
+          "start": 24.418468750000002,
+          "end": 24.87846875,
+          "probability": 0.9958588480949402
+        },
+        {
+          "word": " You",
+          "start": 25.19846875,
+          "end": 25.33846875,
+          "probability": 0.9734411835670471
+        },
+        {
+          "word": " look",
+          "start": 25.33846875,
+          "end": 25.61846875,
+          "probability": 0.9988518953323364
+        },
+        {
+          "word": " well,",
+          "start": 25.61846875,
+          "end": 25.95846875,
+          "probability": 0.9864550828933716
+        },
+        {
+          "word": " which",
+          "start": 26.13846875,
+          "end": 26.35846875,
+          "probability": 0.9922842383384705
+        },
+        {
+          "word": " surprises",
+          "start": 26.35846875,
+          "end": 26.89846875,
+          "probability": 0.9977748990058899
+        },
+        {
+          "word": " me.",
+          "start": 26.89846875,
+          "end": 27.238468750000003,
+          "probability": 0.9996440410614014
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "speaker": "SPEAKER_00",
+      "start": 27.90846875,
+      "end": 31.688468750000002,
+      "duration": 3.78,
+      "text": " I had expected death to agree with one of us more than the other.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " I",
+          "start": 27.90846875,
+          "end": 28.10846875,
+          "probability": 0.9528951048851013
+        },
+        {
+          "word": " had",
+          "start": 28.10846875,
+          "end": 28.328468750000003,
+          "probability": 0.9882590770721436
+        },
+        {
+          "word": " expected",
+          "start": 28.328468750000003,
+          "end": 28.88846875,
+          "probability": 0.9992470741271973
+        },
+        {
+          "word": " death",
+          "start": 28.88846875,
+          "end": 29.26846875,
+          "probability": 0.8519269824028015
+        },
+        {
+          "word": " to",
+          "start": 29.26846875,
+          "end": 29.528468750000002,
+          "probability": 0.9984487295150757
+        },
+        {
+          "word": " agree",
+          "start": 29.528468750000002,
+          "end": 29.82846875,
+          "probability": 0.9991928935050964
+        },
+        {
+          "word": " with",
+          "start": 29.82846875,
+          "end": 30.12846875,
+          "probability": 0.9970343112945557
+        },
+        {
+          "word": " one",
+          "start": 30.12846875,
+          "end": 30.36846875,
+          "probability": 0.9985673427581787
+        },
+        {
+          "word": " of",
+          "start": 30.36846875,
+          "end": 30.508468750000002,
+          "probability": 0.9986109733581543
+        },
+        {
+          "word": " us",
+          "start": 30.508468750000002,
+          "end": 30.688468750000002,
+          "probability": 0.9994874000549316
+        },
+        {
+          "word": " more",
+          "start": 30.688468750000002,
+          "end": 30.92846875,
+          "probability": 0.9982105493545532
+        },
+        {
+          "word": " than",
+          "start": 30.92846875,
+          "end": 31.12846875,
+          "probability": 0.9992399215698242
+        },
+        {
+          "word": " the",
+          "start": 31.12846875,
+          "end": 31.28846875,
+          "probability": 0.9988895058631897
+        },
+        {
+          "word": " other.",
+          "start": 31.28846875,
+          "end": 31.528468750000002,
+          "probability": 0.9990479350090027
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "speaker": "SPEAKER_00",
+      "start": 32.05971875,
+      "end": 34.38846875,
+      "duration": 2.329,
+      "text": " And I rather assumed it would be me.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " And",
+          "start": 32.05971875,
+          "end": 32.21971875,
+          "probability": 0.4943367540836334
+        },
+        {
+          "word": " I",
+          "start": 32.21971875,
+          "end": 32.33971875,
+          "probability": 0.9911708235740662
+        },
+        {
+          "word": " rather",
+          "start": 32.33971875,
+          "end": 32.77971875,
+          "probability": 0.9892088770866394
+        },
+        {
+          "word": " assumed",
+          "start": 32.77971875,
+          "end": 33.31971875,
+          "probability": 0.9856985211372375
+        },
+        {
+          "word": " it",
+          "start": 33.31971875,
+          "end": 33.55971875,
+          "probability": 0.9823797941207886
+        },
+        {
+          "word": " would",
+          "start": 33.55971875,
+          "end": 33.759718750000005,
+          "probability": 0.9977151155471802
+        },
+        {
+          "word": " be",
+          "start": 33.759718750000005,
+          "end": 33.939718750000004,
+          "probability": 0.9981446266174316
+        },
+        {
+          "word": " me.",
+          "start": 33.939718750000004,
+          "end": 34.17971875,
+          "probability": 0.9976508021354675
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "speaker": "SPEAKER_00",
+      "start": 34.69221875,
+      "end": 43.77096875,
+      "duration": 9.079,
+      "text": " Given that I spent the last decade of my life negotiating with a prosthetic jaw and a cancer that was, if nothing else, remarkably persistent.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Given",
+          "start": 34.69221875,
+          "end": 35.032218750000006,
+          "probability": 0.3849219083786011
+        },
+        {
+          "word": " that",
+          "start": 35.032218750000006,
+          "end": 35.23221875,
+          "probability": 0.9977169036865234
+        },
+        {
+          "word": " I",
+          "start": 35.23221875,
+          "end": 35.392218750000005,
+          "probability": 0.9920176267623901
+        },
+        {
+          "word": " spent",
+          "start": 35.392218750000005,
+          "end": 35.752218750000004,
+          "probability": 0.9899853467941284
+        },
+        {
+          "word": " the",
+          "start": 35.752218750000004,
+          "end": 35.95221875,
+          "probability": 0.998429000377655
+        },
+        {
+          "word": " last",
+          "start": 35.95221875,
+          "end": 36.27221875,
+          "probability": 0.9994074106216431
+        },
+        {
+          "word": " decade",
+          "start": 36.27221875,
+          "end": 36.73221875,
+          "probability": 0.9991242289543152
+        },
+        {
+          "word": " of",
+          "start": 36.73221875,
+          "end": 37.01221875,
+          "probability": 0.9982467889785767
+        },
+        {
+          "word": " my",
+          "start": 37.01221875,
+          "end": 37.212218750000005,
+          "probability": 0.9992069602012634
+        },
+        {
+          "word": " life",
+          "start": 37.212218750000005,
+          "end": 37.55221875,
+          "probability": 0.9991078972816467
+        },
+        {
+          "word": " negotiating",
+          "start": 37.55221875,
+          "end": 38.352218750000006,
+          "probability": 0.9915596842765808
+        },
+        {
+          "word": " with",
+          "start": 38.352218750000006,
+          "end": 38.712218750000005,
+          "probability": 0.9957082271575928
+        },
+        {
+          "word": " a",
+          "start": 38.712218750000005,
+          "end": 38.892218750000005,
+          "probability": 0.9937562942504883
+        },
+        {
+          "word": " prosthetic",
+          "start": 38.892218750000005,
+          "end": 39.55221875,
+          "probability": 0.995967835187912
+        },
+        {
+          "word": " jaw",
+          "start": 39.55221875,
+          "end": 39.87221875,
+          "probability": 0.9930827617645264
+        },
+        {
+          "word": " and",
+          "start": 39.87221875,
+          "end": 40.112218750000004,
+          "probability": 0.9715402722358704
+        },
+        {
+          "word": " a",
+          "start": 40.112218750000004,
+          "end": 40.252218750000004,
+          "probability": 0.9685399532318115
+        },
+        {
+          "word": " cancer",
+          "start": 40.252218750000004,
+          "end": 40.63221875,
+          "probability": 0.9826441407203674
+        },
+        {
+          "word": " that",
+          "start": 40.63221875,
+          "end": 40.932218750000004,
+          "probability": 0.992294430732727
+        },
+        {
+          "word": " was,",
+          "start": 40.932218750000004,
+          "end": 41.33221875,
+          "probability": 0.9996229410171509
+        },
+        {
+          "word": " if",
+          "start": 41.49221875,
+          "end": 41.63221875,
+          "probability": 0.999032735824585
+        },
+        {
+          "word": " nothing",
+          "start": 41.63221875,
+          "end": 41.97221875,
+          "probability": 0.9988656044006348
+        },
+        {
+          "word": " else,",
+          "start": 41.97221875,
+          "end": 42.27221875,
+          "probability": 0.9982858300209045
+        },
+        {
+          "word": " remarkably",
+          "start": 42.392218750000005,
+          "end": 42.932218750000004,
+          "probability": 0.998777449131012
+        },
+        {
+          "word": " persistent.",
+          "start": 42.932218750000004,
+          "end": 43.55221875,
+          "probability": 0.9985352754592896
+        }
+      ]
+    }
+  ],
+  "reviewed": false
+}

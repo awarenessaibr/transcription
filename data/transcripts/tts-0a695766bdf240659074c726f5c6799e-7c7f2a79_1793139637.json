@@ -1,0 +1,105 @@
+{
+  "transcript_id": "tts-0a695766bdf240659074c726f5c6799e-7c7f2a79_1793139637",
+  "source_file": "tts-0a695766bdf240659074c726f5c6799e-7c7f2a79_1793139637.wav",
+  "source_path": "",
+  "language": "en",
+  "timestamp": "",
+  "provider": "",
+  "original_transcript_id": null,
+  "metadata": {
+    "saved_audio_file": "tts-0a695766bdf240659074c726f5c6799e-7c7f2a79_1793139637.wav",
+    "processed_audio_file": "tts-0a695766bdf240659074c726f5c6799e-7c7f2a79_1793139637_processed.wav"
+  },
+  "title": "",
+  "subtitle": "",
+  "recording_datetime": "",
+  "location": "",
+  "audio_id": "",
+  "case_id": "",
+  "narrative_id": "",
+  "chronological_order": null,
+  "prior_stage": "",
+  "next_stage": "",
+  "classification": "",
+  "participants": [],
+  "violations_cited": [],
+  "tags": [],
+  "forensic_clusters": {},
+  "key_evidentiary_findings": [],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 1,
+      "speaker": "SPEAKER_00",
+      "start": 0.50346875,
+      "end": 2.32596875,
+      "duration": 1.822,
+      "text": " The Dalog movement won.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " The",
+          "start": 0.50346875,
+          "end": 0.66346875,
+          "probability": 0.7384825944900513
+        },
+        {
+          "word": " Dalog",
+          "start": 0.66346875,
+          "end": 1.12346875,
+          "probability": 0.6892034709453583
+        },
+        {
+          "word": " movement",
+          "start": 1.12346875,
+          "end": 1.5434687500000002,
+          "probability": 0.36959320306777954
+        },
+        {
+          "word": " won.",
+          "start": 1.5434687500000002,
+          "end": 2.02346875,
+          "probability": 0.6251683235168457
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "speaker": "SPEAKER_00",
+      "start": 2.52846875,
+      "end": 4.45221875,
+      "duration": 1.924,
+      "text": " an amnesis recollection",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " an",
+          "start": 2.52846875,
+          "end": 2.78846875,
+          "probability": 0.4374435245990753
+        },
+        {
+          "word": " amnesis",
+          "start": 2.78846875,
+          "end": 3.42846875,
+          "probability": 0.8806826670964559
+        },
+        {
+          "word": " recollection",
+          "start": 3.42846875,
+          "end": 4.22846875,
+          "probability": 0.94951531291008
+        }
+      ]
+    }
+  ],
+  "reviewed": false
+}

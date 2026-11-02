@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Narration Aligner</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: #172033;
+      background: #f3f5f9;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; padding: 32px 18px; }
+    main { max-width: 1040px; margin: 0 auto; }
+    h1 { margin: 0 0 8px; font-size: 27px; }
+    .intro { margin: 0 0 24px; color: #58647a; line-height: 1.55; }
+    .card { background: #fff; border: 1px solid #e1e6ef; border-radius: 14px;
+            padding: 22px; margin-bottom: 18px; box-shadow: 0 4px 18px #1e293b0a; }
+    .uploads, .options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+    label { display: block; font-size: 14px; font-weight: 650; }
+    input, select { display: block; width: 100%; margin-top: 8px; padding: 10px 12px;
+                    border: 1px solid #cbd3df; border-radius: 8px; background: #fff;
+                    color: inherit; font: inherit; }
+    input[type=file] { padding: 9px; font-weight: 400; }
+    .help { margin: 7px 0 0; color: #69758a; font-size: 12px; font-weight: 400; }
+    .actions { display: flex; align-items: center; gap: 12px; margin-top: 20px; }
+    button { border: 0; border-radius: 8px; background: #315ce8; color: #fff;
+             padding: 11px 16px; font: inherit; font-weight: 650; cursor: pointer; }
+    button.secondary { background: #147d64; }
+    button:disabled { cursor: wait; opacity: .55; }
+    .status { margin-top: 16px; padding: 12px 14px; border-radius: 8px; line-height: 1.45; }
+    .status[hidden] { display: none; }
+    .status.info { background: #eef3ff; color: #2545a4; }
+    .status.error { background: #fff0ef; color: #9b3028; }
+    .status.success { background: #eaf8f2; color: #176b4f; }
+    .results-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;
+                    gap: 12px; margin-bottom: 14px; }
+    .results-head h2 { margin: 0; font-size: 19px; }
+    .table-wrap { max-height: 55vh; overflow: auto; border: 1px solid #e6eaf0; border-radius: 8px; }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    th, td { padding: 10px 11px; border-bottom: 1px solid #edf0f4; text-align: left; vertical-align: top; }
+    th { position: sticky; top: 0; background: #f8f9fc; color: #5d687b; font-size: 11px;
+         letter-spacing: .045em; text-transform: uppercase; }
+    td.time, td.confidence { white-space: nowrap; font-variant-numeric: tabular-nums; }
+    tr.review { background: #fff9e8; }
+    .badge { display: inline-block; padding: 3px 7px; border-radius: 99px;
+             background: #fff0c2; color: #755400; font-size: 11px; font-weight: 700; }
+    @media (max-width: 680px) {
+      body { padding: 20px 12px; }
+      .uploads, .options { grid-template-columns: 1fr; }
+      .card { padding: 17px; }
+      th, td { padding: 8px; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Narration Aligner</h1>
+  <p class="intro">Match source text lines to Whisper timestamps. Upload audio and text or a CSV;
+    the result can be reviewed here and downloaded as <code>start_ms,end_ms,page,text</code>.
+    Audio stays on its original timeline and no transcript is saved.</p>
+
+  <section class="card" aria-label="Alignment inputs">
+    <div class="uploads">
+      <label for="audio">Narration audio
+        <input id="audio" type="file" accept="audio/*,video/*" required>
+        <p class="help">Audio or video container with an audio track.</p>
+      </label>
+      <label for="source">Source text
+        <input id="source" type="file" accept=".txt,.csv,text/plain,text/csv" required>
+        <p class="help">Plain lines, “Página N” markers, or a CSV with a text column.</p>
+      </label>
+    </div>
+    <div class="options" style="margin-top:18px">
+      <label for="language">Language
+        <select id="language">
+          <option value="auto">Automatic</option>
+          <option value="es">Spanish</option>
+          <option value="pt">Portuguese</option>
+          <option value="en">English</option>
+          <option value="it">Italian</option>
+          <option value="fr">French</option>
+        </select>
+      </label>
+      <label for="model">Whisper model
+        <select id="model">
+          <option value="large-v3">large-v3</option>
+          <option value="medium">medium</option>
+          <option value="small">small</option>
+          <option value="base">base</option>
+          <option value="tiny">tiny</option>
+        </select>
+      </label>
+    </div>
+    <div class="actions">
+      <button id="align" type="button">Align narration</button>
+      <span class="help">Long recordings may take several minutes.</span>
+    </div>
+    <div id="status" class="status" role="status" aria-live="polite" hidden></div>
+  </section>
+
+  <section id="results" class="card" hidden>
+    <div class="results-head">
+      <h2 id="summary">Aligned lines</h2>
+      <button id="download" class="secondary" type="button">Download CSV</button>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Start (ms)</th><th>End (ms)</th><th>Page</th><th>Text</th><th>Match</th></tr>
+        </thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+  </section>
+</main>
+<script>
+  const audioInput = document.getElementById('audio');
+  const sourceInput = document.getElementById('source');
+  const alignButton = document.getElementById('align');
+  const status = document.getElementById('status');
+  const results = document.getElementById('results');
+  let csvContent = '';
+
+  function setStatus(message, kind) {
+    status.textContent = message;
+    status.className = `status ${kind}`;
+    status.hidden = false;
+  }
+
+  function addCell(row, text, className) {
+    const cell = document.createElement('td');
+    cell.textContent = String(text);
+    if (className) cell.className = className;
+    row.appendChild(cell);
+  }
+
+  function render(data) {
+    const body = document.getElementById('rows');
+    body.replaceChildren();
+    for (const item of data.rows) {
+      const row = document.createElement('tr');
+      if (item.needs_review) row.className = 'review';
+      addCell(row, item.start_ms, 'time');
+      addCell(row, item.end_ms, 'time');
+      addCell(row, item.page);
+      addCell(row, item.text);
+      const match = document.createElement('td');
+      match.className = 'confidence';
+      match.textContent = `${Math.round(item.confidence * 100)}%`;
+      if (item.needs_review) {
+        const badge = document.createElement('span');
+        badge.className = 'badge';
+        badge.textContent = ' Review';
+        match.appendChild(badge);
+      }
+      row.appendChild(match);
+      body.appendChild(row);
+    }
+    document.getElementById('summary').textContent =
+      `${data.targets_count} lines aligned against ${data.segments_count} Whisper segments`;
+    csvContent = data.csv;
+    results.hidden = false;
+  }
+
+  alignButton.addEventListener('click', async () => {
+    if (!audioInput.files.length || !sourceInput.files.length) {
+      setStatus('Choose both an audio file and a source text file.', 'error');
+      return;
+    }
+    const payload = new FormData();
+    payload.append('audio', audioInput.files[0]);
+    payload.append('text', sourceInput.files[0]);
+    payload.append('language', document.getElementById('language').value);
+    payload.append('whisper_model', document.getElementById('model').value);
+
+    alignButton.disabled = true;
+    setStatus('Transcribing and aligning… Keep this page open while the audio is processed.', 'info');
+    try {
+      const response = await fetch('/api/alignment/narration', { method: 'POST', body: payload });
+      const result = await response.json();
+      if (!response.ok) throw new Error(result.detail || `Request failed (${response.status})`);
+      render(result);
+      const reviewCount = result.rows.filter(row => row.needs_review).length;
+      setStatus(
+        `Alignment complete. ${reviewCount} of ${result.rows.length} lines need review.`,
+        reviewCount ? 'info' : 'success'
+      );
+    } catch (error) {
+      setStatus(error.message || 'Alignment failed.', 'error');
+    } finally {
+      alignButton.disabled = false;
+    }
+  });
+
+  document.getElementById('download').addEventListener('click', () => {
+    const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = 'aligned_narration.csv';
+    link.click();
+    URL.revokeObjectURL(url);
+  });
+</script>
+</body>
+</html>

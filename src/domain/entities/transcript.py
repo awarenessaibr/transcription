@@ -11,6 +11,16 @@ class Speaker:
 
 
 @dataclass(frozen=True)
+class WordTimestamp:
+    """A recognized word and its position on the source audio timeline."""
+
+    word: str
+    start: float
+    end: float
+    probability: float | None = None
+
+
+@dataclass(frozen=True)
 class Segment:
     """A single transcribed audio segment."""
 
@@ -32,6 +42,7 @@ class Segment:
     # fields existed (see docs/REDUCED_CORE_MANIFEST.md §6.3).
     segment_datetime: str = ""
     speaker_id: str = ""
+    words: list[WordTimestamp] = field(default_factory=list)
 
     @property
     def duration(self) -> float:

@@ -1,0 +1,150 @@
+{
+  "transcript_id": "06-tts-3837f1e6364a4d8096d1f0fc9a76986f_1793148955",
+  "source_file": "06-tts-3837f1e6364a4d8096d1f0fc9a76986f_1793148955.wav",
+  "source_path": "",
+  "language": "en",
+  "timestamp": "",
+  "provider": "",
+  "original_transcript_id": null,
+  "metadata": {
+    "saved_audio_file": "06-tts-3837f1e6364a4d8096d1f0fc9a76986f_1793148955.wav",
+    "processed_audio_file": "06-tts-3837f1e6364a4d8096d1f0fc9a76986f_1793148955_processed.wav"
+  },
+  "title": "",
+  "subtitle": "",
+  "recording_datetime": "",
+  "location": "",
+  "audio_id": "",
+  "case_id": "",
+  "narrative_id": "",
+  "chronological_order": null,
+  "prior_stage": "",
+  "next_stage": "",
+  "classification": "",
+  "participants": [],
+  "violations_cited": [],
+  "tags": [],
+  "forensic_clusters": {},
+  "key_evidentiary_findings": [],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 1,
+      "speaker": "SPEAKER_00",
+      "start": 0.57096875,
+      "end": 9.447218750000001,
+      "duration": 8.876,
+      "text": " Anthropic rights holders or any interested party with questions or concerns may contact hello at ADCM.com.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Anthropic",
+          "start": 0.57096875,
+          "end": 1.2109687500000001,
+          "probability": 0.5932165831327438
+        },
+        {
+          "word": " rights",
+          "start": 1.2109687500000001,
+          "end": 1.6709687500000001,
+          "probability": 0.9689399003982544
+        },
+        {
+          "word": " holders",
+          "start": 1.6709687500000001,
+          "end": 2.09096875,
+          "probability": 0.9318295121192932
+        },
+        {
+          "word": " or",
+          "start": 2.09096875,
+          "end": 2.89096875,
+          "probability": 0.8645731806755066
+        },
+        {
+          "word": " any",
+          "start": 2.89096875,
+          "end": 3.29096875,
+          "probability": 0.9971309900283813
+        },
+        {
+          "word": " interested",
+          "start": 3.29096875,
+          "end": 4.01096875,
+          "probability": 0.9839097857475281
+        },
+        {
+          "word": " party",
+          "start": 4.01096875,
+          "end": 4.5709687500000005,
+          "probability": 0.9727762937545776
+        },
+        {
+          "word": " with",
+          "start": 4.5709687500000005,
+          "end": 5.050968750000001,
+          "probability": 0.9951914548873901
+        },
+        {
+          "word": " questions",
+          "start": 5.050968750000001,
+          "end": 5.61096875,
+          "probability": 0.9924560785293579
+        },
+        {
+          "word": " or",
+          "start": 5.61096875,
+          "end": 5.870968749999999,
+          "probability": 0.9956570863723755
+        },
+        {
+          "word": " concerns",
+          "start": 5.870968749999999,
+          "end": 6.43096875,
+          "probability": 0.9978075623512268
+        },
+        {
+          "word": " may",
+          "start": 6.43096875,
+          "end": 6.91096875,
+          "probability": 0.8505718111991882
+        },
+        {
+          "word": " contact",
+          "start": 6.91096875,
+          "end": 7.470968750000001,
+          "probability": 0.9957678318023682
+        },
+        {
+          "word": " hello",
+          "start": 7.470968750000001,
+          "end": 7.890968750000001,
+          "probability": 0.7933000922203064
+        },
+        {
+          "word": " at",
+          "start": 7.890968750000001,
+          "end": 8.29096875,
+          "probability": 0.03041800670325756
+        },
+        {
+          "word": " ADCM",
+          "start": 8.29096875,
+          "end": 8.89096875,
+          "probability": 0.49934041996796924
+        },
+        {
+          "word": ".com.",
+          "start": 8.89096875,
+          "end": 9.31096875,
+          "probability": 0.9681909084320068
+        }
+      ]
+    }
+  ],
+  "reviewed": false
+}

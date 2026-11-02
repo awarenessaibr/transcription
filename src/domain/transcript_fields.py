@@ -209,6 +209,27 @@ SEGMENT_FIELDS: dict[str, FieldSpec] = {
         description="Resolved canonical speaker identifier for this segment.",
         default="",
     ),
+    "words": FieldSpec(
+        "words", LIST,
+        description="Word-level timestamps relative to the source audio timeline.",
+        item_type=DICT,
+        default=[],
+    ),
+}
+
+WORD_TIMESTAMP_FIELDS: dict[str, FieldSpec] = {
+    "word": FieldSpec(
+        "word", STR,
+        description="Recognized word, including its whitespace/punctuation.",
+        required=True,
+    ),
+    "start": FieldSpec("start", FLOAT, description="Word start time in seconds.", required=True),
+    "end": FieldSpec("end", FLOAT, description="Word end time in seconds.", required=True),
+    "probability": FieldSpec(
+        "probability", FLOAT,
+        description="Whisper confidence for the word.",
+        nullable=True,
+    ),
 }
 
 # Participant sub-schema.
@@ -432,6 +453,16 @@ def validate_transcript(data: dict) -> ValidationReport:
         if isinstance(value, list):
             for i, item in enumerate(value):
                 _check_nested(item, sub, f"{key}[{i}]", report)
+                if sub is SEGMENT_FIELDS and isinstance(item, dict):
+                    words = item.get("words", [])
+                    if isinstance(words, list):
+                        for word_index, word in enumerate(words):
+                            _check_nested(
+                                word,
+                                WORD_TIMESTAMP_FIELDS,
+                                f"{key}[{i}].words[{word_index}]",
+                                report,
+                            )
         elif isinstance(value, dict):
             for name, item in value.items():
                 _check_nested(item, sub, f"{key}.{name}", report)

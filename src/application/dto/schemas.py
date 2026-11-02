@@ -54,6 +54,13 @@ class ExcerptRequest(BaseModel):
     num_speakers: int | None = Field(None, description="Exact number of speakers")
 
 
+class WordTimestampResult(BaseModel):
+    word: str
+    start: float
+    end: float
+    probability: float | None = None
+
+
 class SegmentResult(BaseModel):
     index: int
     speaker: str
@@ -61,6 +68,7 @@ class SegmentResult(BaseModel):
     end: float
     duration: float
     text: str = ""
+    words: list[WordTimestampResult] = Field(default_factory=list)
 
 
 class TimingResult(BaseModel):

@@ -1,0 +1,276 @@
+{
+  "transcript_id": "tts-64f7f4ed103e4dc19ae7a482371dc75b-822a27d0_1793139308",
+  "source_file": "tts-64f7f4ed103e4dc19ae7a482371dc75b-822a27d0_1793139308.wav",
+  "source_path": "",
+  "language": "en",
+  "timestamp": "",
+  "provider": "",
+  "original_transcript_id": null,
+  "metadata": {
+    "saved_audio_file": "tts-64f7f4ed103e4dc19ae7a482371dc75b-822a27d0_1793139308.wav",
+    "processed_audio_file": "tts-64f7f4ed103e4dc19ae7a482371dc75b-822a27d0_1793139308_processed.wav"
+  },
+  "title": "",
+  "subtitle": "",
+  "recording_datetime": "",
+  "location": "",
+  "audio_id": "",
+  "case_id": "",
+  "narrative_id": "",
+  "chronological_order": null,
+  "prior_stage": "",
+  "next_stage": "",
+  "classification": "",
+  "participants": [],
+  "violations_cited": [],
+  "tags": [],
+  "forensic_clusters": {},
+  "key_evidentiary_findings": [],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 1,
+      "speaker": "SPEAKER_00",
+      "start": 0.03096875,
+      "end": 13.969718750000002,
+      "duration": 13.939,
+      "text": " He picks up the cigar, examines it, and lights it with a match drawn from his breast pocket. The gesture is ritual, precise, unhurried, performed with the hands of a man who has done this ten thousand times.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " He",
+          "start": 0.03096875,
+          "end": 0.49096875,
+          "probability": 0.9235650897026062
+        },
+        {
+          "word": " picks",
+          "start": 0.49096875,
+          "end": 0.77096875,
+          "probability": 0.9974812865257263
+        },
+        {
+          "word": " up",
+          "start": 0.77096875,
+          "end": 0.93096875,
+          "probability": 0.9976227879524231
+        },
+        {
+          "word": " the",
+          "start": 0.93096875,
+          "end": 1.07096875,
+          "probability": 0.9987918734550476
+        },
+        {
+          "word": " cigar,",
+          "start": 1.07096875,
+          "end": 1.51096875,
+          "probability": 0.9944102168083191
+        },
+        {
+          "word": " examines",
+          "start": 1.73096875,
+          "end": 2.23096875,
+          "probability": 0.9982782602310181
+        },
+        {
+          "word": " it,",
+          "start": 2.23096875,
+          "end": 2.43096875,
+          "probability": 0.9986397624015808
+        },
+        {
+          "word": " and",
+          "start": 2.53096875,
+          "end": 2.97096875,
+          "probability": 0.9987179040908813
+        },
+        {
+          "word": " lights",
+          "start": 2.97096875,
+          "end": 3.25096875,
+          "probability": 0.9989373087882996
+        },
+        {
+          "word": " it",
+          "start": 3.25096875,
+          "end": 3.43096875,
+          "probability": 0.9987897276878357
+        },
+        {
+          "word": " with",
+          "start": 3.43096875,
+          "end": 3.57096875,
+          "probability": 0.9981755018234253
+        },
+        {
+          "word": " a",
+          "start": 3.57096875,
+          "end": 3.69096875,
+          "probability": 0.9985617995262146
+        },
+        {
+          "word": " match",
+          "start": 3.69096875,
+          "end": 3.99096875,
+          "probability": 0.9994537234306335
+        },
+        {
+          "word": " drawn",
+          "start": 3.99096875,
+          "end": 4.29096875,
+          "probability": 0.9988971948623657
+        },
+        {
+          "word": " from",
+          "start": 4.29096875,
+          "end": 4.55096875,
+          "probability": 0.9994792342185974
+        },
+        {
+          "word": " his",
+          "start": 4.55096875,
+          "end": 4.75096875,
+          "probability": 0.998835027217865
+        },
+        {
+          "word": " breast",
+          "start": 4.75096875,
+          "end": 4.99096875,
+          "probability": 0.998292863368988
+        },
+        {
+          "word": " pocket.",
+          "start": 4.99096875,
+          "end": 5.37096875,
+          "probability": 0.9626433253288269
+        },
+        {
+          "word": " The",
+          "start": 5.71096875,
+          "end": 6.230968750000001,
+          "probability": 0.998443067073822
+        },
+        {
+          "word": " gesture",
+          "start": 6.230968750000001,
+          "end": 6.5709687500000005,
+          "probability": 0.9994207620620728
+        },
+        {
+          "word": " is",
+          "start": 6.5709687500000005,
+          "end": 6.83096875,
+          "probability": 0.9996376037597656
+        },
+        {
+          "word": " ritual,",
+          "start": 6.83096875,
+          "end": 7.21096875,
+          "probability": 0.9983945488929749
+        },
+        {
+          "word": " precise,",
+          "start": 7.59096875,
+          "end": 8.17096875,
+          "probability": 0.9988870024681091
+        },
+        {
+          "word": " unhurried,",
+          "start": 8.61096875,
+          "end": 9.21096875,
+          "probability": 0.9991999467213949
+        },
+        {
+          "word": " performed",
+          "start": 9.45096875,
+          "end": 10.05096875,
+          "probability": 0.9978981018066406
+        },
+        {
+          "word": " with",
+          "start": 10.05096875,
+          "end": 10.25096875,
+          "probability": 0.9988358616828918
+        },
+        {
+          "word": " the",
+          "start": 10.25096875,
+          "end": 10.390968749999999,
+          "probability": 0.9987959861755371
+        },
+        {
+          "word": " hands",
+          "start": 10.390968749999999,
+          "end": 10.71096875,
+          "probability": 0.9996844530105591
+        },
+        {
+          "word": " of",
+          "start": 10.71096875,
+          "end": 10.85096875,
+          "probability": 0.9999352693557739
+        },
+        {
+          "word": " a",
+          "start": 10.85096875,
+          "end": 10.95096875,
+          "probability": 0.9979864358901978
+        },
+        {
+          "word": " man",
+          "start": 10.95096875,
+          "end": 11.230968749999999,
+          "probability": 0.9995653033256531
+        },
+        {
+          "word": " who",
+          "start": 11.230968749999999,
+          "end": 11.390968749999999,
+          "probability": 0.9989546537399292
+        },
+        {
+          "word": " has",
+          "start": 11.390968749999999,
+          "end": 11.55096875,
+          "probability": 0.9990671277046204
+        },
+        {
+          "word": " done",
+          "start": 11.55096875,
+          "end": 11.730968749999999,
+          "probability": 0.9997028708457947
+        },
+        {
+          "word": " this",
+          "start": 11.730968749999999,
+          "end": 11.95096875,
+          "probability": 0.9992827773094177
+        },
+        {
+          "word": " ten",
+          "start": 11.95096875,
+          "end": 12.17096875,
+          "probability": 0.7916655540466309
+        },
+        {
+          "word": " thousand",
+          "start": 12.17096875,
+          "end": 12.570968749999999,
+          "probability": 0.9972476363182068
+        },
+        {
+          "word": " times.",
+          "start": 12.570968749999999,
+          "end": 13.03096875,
+          "probability": 0.9996941089630127
+        }
+      ]
+    }
+  ],
+  "reviewed": false
+}

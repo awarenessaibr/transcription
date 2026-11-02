@@ -1,11 +1,11 @@
 {
   "summary": {
-    "generated_utc": "2026-10-01T20:34:26.557769+00:00",
+    "generated_utc": "2026-10-30T10:34:58.878209+00:00",
     "source": "data/transcripts/",
-    "total_transcripts_scanned": 29,
-    "total_segments_scanned": 3582,
+    "total_transcripts_scanned": 76,
+    "total_segments_scanned": 3867,
     "total_mapped_speaker_ids": 40,
-    "total_unmapped_segment_instances": 424
+    "total_unmapped_segment_instances": 709
   },
   "mapped_speakers": {
     "SPK-antonela-latam-agent": {
@@ -4110,6 +4110,55 @@
     }
   },
   "unmapped_segment_labels": {
+    "SPEAKER_00": [
+      "0000-tts-3ff3a9e61a9d462a8c896a92c7c4ab1b_1792035477",
+      "00001-tts-7bc90c3076af4543bc08b63b4c490fef_1792035521",
+      "00002-tts-51b490016f7a422394a6b6ead151a073_1792035588",
+      "00003-tts-efb36763cc954d40a6d7c689810951df_1792035631",
+      "01-tts-71830ae401c54d3f8a438cd7a1375196_1793148813",
+      "02-tts-9c65f64ed9994c88a73bf490a8da4f9c_1793148836",
+      "03-tts-41f2a4d50c964d4e962d3ace3e9dc629_1793148857",
+      "04-tts-675923fad4414dbbb63c1162b711e7a2_1793148894",
+      "05-tts-8ecbaba08007487ba1d1ad3f51d619a6_1793148925",
+      "06-tts-3837f1e6364a4d8096d1f0fc9a76986f_1793148955",
+      "giovannin-senza-paura-it_1792405374.mp4",
+      "gosia_1792057828.mp3",
+      "gosia_1792057882.mp3",
+      "heritage-book-pt-br_1792035920.mp3",
+      "tts-022281be685149018e74cc941cb65bc4-c526d563_1793139229",
+      "tts-02c8aaa8b7d34f4ab7ca39626d1d8547-12179e5e_1793139469",
+      "tts-02c8aaa8b7d34f4ab7ca39626d1d8547_1793139019",
+      "tts-07e260489f7c438cb1b8a54f3c6bdee3-8ca8f180_1793139831",
+      "tts-0a695766bdf240659074c726f5c6799e-7c7f2a79_1793139637",
+      "tts-1583112128774569b96b803a58e96f88-e230905b_1793139815",
+      "tts-265e7355dd4244f482f5d71cbd882ad8-fe6061ef_1793139617",
+      "tts-2a9a2bbe93344c739217db9bdaaf13d4-d691ad1b_1793139785",
+      "tts-2cca755aa38e4c60b5d32f77ab0c61fd-24353b35_1793139844",
+      "tts-2e2d3c18fa9c4c0cabd50e3995843abf-0ec4114b_1793139694",
+      "tts-33c5d126e37c45169559fd3c267762a2-23e18239_1793139074",
+      "tts-594127cc1785449d80139a9ce6236781-ad7f00fd_1793139322",
+      "tts-64f7f4ed103e4dc19ae7a482371dc75b-822a27d0_1793139308",
+      "tts-671c157731d44911b8603a49b04dde16-8c2e8ee1_1793139145",
+      "tts-765235ce57e844f7b2a8266de1af0737-cae61242_1793139650",
+      "tts-765235ce57e844f7b2a8266de1af0737_1793139853",
+      "tts-7a6c76db86c7478db80cec3ecb5c2617-bb1a3b7d_1793139110",
+      "tts-8a750993d39348a5b1d36f01062bf655-e93466c1_1793139702",
+      "tts-8ab910d9c8214c4d9ab54eb6ffd8e2db-1be2a6e1_1793139299",
+      "tts-8bd5923bef344bef801b05e1a83152d3-0855fa25_1793139193",
+      "tts-8fa9e3a859194b688631b55011128969-677ee323_1793139686",
+      "tts-b74789d962b84a8981ee98d3acc58e6c-df15180f_1793139604",
+      "tts-ca9eff9c85f343f6994d90264fc0515b-f63f78f5_1793139709",
+      "tts-ca9eff9c85f343f6994d90264fc0515b_1793139890",
+      "tts-caa22848a5374f728d1fd638f62e9046-fba9b9c1_1793139794",
+      "tts-d3c0d8c6a04e41e8a9a1105a77f3f707-6ed8d6ee_1793139101",
+      "tts-d6c9ab13ab014c6d9b14b33152cd1ad2-a42ef498_1793139381",
+      "tts-d6c9ab13ab014c6d9b14b33152cd1ad2_1793138925",
+      "tts-ea8d41dc630d48699b1b64ad25a791d8-ee1c2b3e_1793139527",
+      "tts-eac87499e36e48b597c426f115ed77bf-df7d7b39_1793139748",
+      "tts-f0c7d94e10b64c0a9b7c8934508dffe6-b1959b75_1793139334",
+      "tts-f0c7d94e10b64c0a9b7c8934508dffe6_1793138859",
+      "tts-fe8e35987f164425ba61f8a7a600ee40-bca8213a_1792402870"
+    ],
     "Passenger (Leandro Disconzi)": [
       "I-001_01_Guarulhos_incident_Ofensive_Agressive_Behaviour",
       "I-001_0_Guarulhos_incident_Lost_Phone_Report"
@@ -4154,6 +4203,12 @@
     "airline_staff_antonella": [
       "I-002_17_NAR-21_STG_29",
       "I-002_19_NAR_LATAM_STG_3"
+    ],
+    "SPEAKER_01": [
+      "giovannin-senza-paura-it_1792405374.mp4"
+    ],
+    "SPEAKER_02": [
+      "giovannin-senza-paura-it_1792405374.mp4"
     ]
   }
 }

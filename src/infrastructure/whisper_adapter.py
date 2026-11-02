@@ -41,7 +41,35 @@ class WhisperASRAdapter:
         if language is not None:
             transcribe_kwargs["language"] = language
         result = model.transcribe(audio_path, **transcribe_kwargs)
-        return {"text": result.get("text", ""), "language": result.get("language")}
+        segments = []
+        for segment in result.get("segments", []):
+            if segment.get("start") is None or segment.get("end") is None:
+                logger.warning("Whisper returned a segment without timestamps: %r", segment)
+                continue
+            segments.append({
+                "start": segment["start"],
+                "end": segment["end"],
+                "text": str(segment.get("text", "")).strip(),
+            })
+        words = []
+        if transcribe_kwargs["word_timestamps"]:
+            for segment in result.get("segments", []):
+                for word in segment.get("words") or []:
+                    if word.get("start") is None or word.get("end") is None:
+                        logger.warning("Whisper returned a word without timestamps: %r", word)
+                        continue
+                    words.append({
+                        "word": word.get("word", ""),
+                        "start": word["start"],
+                        "end": word["end"],
+                        "probability": word.get("probability"),
+                    })
+        return {
+            "text": result.get("text", ""),
+            "language": result.get("language"),
+            "segments": segments,
+            "words": words,
+        }
 
     def clear_cache(self):
         self._mm.clear_cache()

@@ -1,0 +1,84 @@
+{
+  "transcript_id": "gosia_1792057828.mp3",
+  "source_file": "gosia_1792057828.mp3.wav",
+  "source_path": "",
+  "language": "auto",
+  "timestamp": "",
+  "provider": "",
+  "original_transcript_id": null,
+  "metadata": {
+    "saved_audio_file": "gosia_1792057828.mp3.wav",
+    "processed_audio_file": "gosia_1792057828.mp3_processed.wav"
+  },
+  "title": "",
+  "subtitle": "",
+  "recording_datetime": "",
+  "location": "",
+  "audio_id": "",
+  "case_id": "",
+  "narrative_id": "",
+  "chronological_order": null,
+  "prior_stage": "",
+  "next_stage": "",
+  "classification": "",
+  "participants": [],
+  "violations_cited": [],
+  "tags": [],
+  "forensic_clusters": {},
+  "key_evidentiary_findings": [],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 1,
+      "speaker": "SPEAKER_00",
+      "start": 0.03096875,
+      "end": 2.7478437500000004,
+      "duration": 2.717,
+      "text": " Wczorajsze homeruny nie wygrywają dzisiejszych gier.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Wczorajsze",
+          "start": 0.03096875,
+          "end": 0.65096875,
+          "probability": 0.9937168856461843
+        },
+        {
+          "word": " homeruny",
+          "start": 0.65096875,
+          "end": 1.19096875,
+          "probability": 0.7300607189536095
+        },
+        {
+          "word": " nie",
+          "start": 1.19096875,
+          "end": 1.33096875,
+          "probability": 0.999057948589325
+        },
+        {
+          "word": " wygrywają",
+          "start": 1.33096875,
+          "end": 1.85096875,
+          "probability": 0.9998252391815186
+        },
+        {
+          "word": " dzisiejszych",
+          "start": 1.85096875,
+          "end": 2.39096875,
+          "probability": 0.9996518890062968
+        },
+        {
+          "word": " gier.",
+          "start": 2.39096875,
+          "end": 2.63096875,
+          "probability": 0.9999289512634277
+        }
+      ]
+    }
+  ],
+  "reviewed": false
+}

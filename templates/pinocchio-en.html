@@ -1852,8 +1852,8 @@
             <div class="field">
               <label>Word Timestamps</label>
               <select id="criticalWordTimestamps">
+                <option selected>true</option>
                 <option>false</option>
-                <option>true</option>
               </select>
             </div>
           </div>
@@ -2033,6 +2033,151 @@
                 </div>
               </div>
 
+            </div>
+          </section>
+
+          <!-- ── Audio Lab: speech-oriented preprocessing (in-process DSP) ──────────────
+               Ported from the sibling `audio/` project's torchaudio webapp, minus its
+               speech-hostile defaults. Runs on the transcription service itself, so it needs no
+               extra process, and every operation is bounded/clamped server-side. ── -->
+          <section class="card" id="audioLabSection">
+            <h3 style="display:flex;align-items:center;gap:12px;">
+              <i class="fas fa-wave-square" style="color:var(--amber);"></i>
+              Audio Lab
+              <span id="audioLabStatus" class="badge-soft">no file</span>
+              <button id="audioLabToggleBtn" class="btn small ghost" style="margin-left:auto;"
+                type="button">Collapse</button>
+            </h3>
+            <div class="content" id="audioLabContent">
+              <p class="muted" style="font-size:.65rem;line-height:1.5;margin:0 0 10px;">
+                Inspect and clean the selected file before Whisper sees it.
+                Analyze reports real ITU-R BS.1770 loudness, SNR, clipping and silence; Process
+                renders a new file you can transcribe, download, or hand to the pipeline.
+                The band-pass defaults to <strong>60–8000 Hz</strong>: the historical
+                <span style="font-family:var(--mono);">300–3400 Hz</span> "voice enhance" tilted the
+                3.4–8 kHz fricatives down by 6–8 dB.
+              </p>
+
+              <div class="split-2">
+                <div class="field" style="grid-column:1/-1;">
+                  <label for="labPreset">Preset</label>
+                  <select id="labPreset">
+                    <option value="none">No processing</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="labHighpass">High-pass (Hz)</label>
+                  <input id="labHighpass" type="number" value="60" min="20" max="2000" step="5">
+                </div>
+                <div class="field">
+                  <label for="labLowpass">Low-pass (Hz)</label>
+                  <input id="labLowpass" type="number" value="8000" min="1000" max="20000" step="100">
+                </div>
+                <div class="field">
+                  <label for="labDenoise">Denoise strength (0–1)</label>
+                  <input id="labDenoise" type="number" value="0" min="0" max="1" step="0.05">
+                </div>
+                <div class="field">
+                  <label for="labDereverb">Dereverb amount (0–1)</label>
+                  <input id="labDereverb" type="number" value="0" min="0" max="1" step="0.05">
+                </div>
+                <div class="field">
+                  <label for="labNormalize">Normalize to (dBFS RMS)</label>
+                  <select id="labNormalize">
+                    <option value="">off</option>
+                    <option value="-3" selected>-3 (recommended)</option>
+                    <option value="-6">-6</option>
+                    <option value="-16">-16</option>
+                    <option value="-20">-20</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="labPeakCeiling">Peak ceiling (dBFS)</label>
+                  <input id="labPeakCeiling" type="number" value="-1" min="-12" max="0" step="0.5">
+                </div>
+                <div class="field">
+                  <label for="labResample">Resample to</label>
+                  <select id="labResample">
+                    <option value="">keep</option>
+                    <option value="16000">16000 Hz (Whisper-native)</option>
+                    <option value="8000">8000 Hz</option>
+                    <option value="44100">44100 Hz</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="labMono">Downmix to mono</label>
+                  <select id="labMono">
+                    <option value="true">true</option>
+                    <option value="false">false</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="labTrim">Trim silence (timeline-aware)</label>
+                  <select id="labTrim">
+                    <option value="false">false</option>
+                    <option value="true">true</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="labTrimThreshold">Trim threshold (dBFS)</label>
+                  <input id="labTrimThreshold" type="number" value="-45" min="-90" max="0" step="1">
+                </div>
+                <div class="field">
+                  <label for="labTrimMin">Min silence (ms)</label>
+                  <input id="labTrimMin" type="number" value="250" min="0" max="60000" step="10">
+                </div>
+              </div>
+
+              <div class="row" style="flex-wrap:wrap;gap:8px;margin-top:4px;">
+                <button id="labAnalyzeBtn" class="btn small" type="button">
+                  <i class="fas fa-stethoscope"></i> Analyze
+                </button>
+                <button id="labSuggestBtn" class="btn small" type="button">
+                  <i class="fas fa-wand-magic-sparkles"></i> Suggest chain
+                </button>
+                <button id="labProcessBtn" class="btn primary small" type="button">
+                  <i class="fas fa-play"></i> Process
+                </button>
+                <button id="labApplyBtn" class="btn small" type="button" disabled>
+                  <i class="fas fa-check"></i> Apply to session
+                </button>
+                <button id="labDownloadBtn" class="btn small" type="button" disabled>
+                  <i class="fas fa-download"></i> Download WAV
+                </button>
+                <button id="labTranscribeBtn" class="btn small" type="button" disabled
+                  title="Transcribe the processed audio immediately">
+                  <i class="fas fa-microchip"></i> Transcribe processed
+                </button>
+                <button id="labRevertBtn" class="btn small ghost" type="button" disabled>
+                  <i class="fas fa-rotate-left"></i> Revert
+                </button>
+              </div>
+
+              <div id="labProgress" style="display:none;margin-top:8px;">
+                <div class="progress-label" id="labProgressLabel">Working…</div>
+                <div class="progress-container">
+                  <div class="progress-bar" id="labProgressBar"></div>
+                </div>
+              </div>
+
+              <div id="labReportWrap" style="display:none;margin-top:10px;">
+                <div class="row" style="justify-content:space-between;align-items:center;">
+                  <strong style="font-size:.7rem;letter-spacing:.5px;color:var(--white);">QUALITY
+                    REPORT</strong>
+                  <span id="labReportSource" style="font-size:.55rem;color:var(--gray);"></span>
+                </div>
+                <div id="labReportChips" class="chips" style="margin-top:6px;"></div>
+                <div id="labReportTips" style="margin-top:6px;"></div>
+                <div class="field" style="margin-top:8px;">
+                  <label>Metrics (raw JSON)</label>
+                  <pre id="labReportPre" class="pre" style="max-height:200px;">—</pre>
+                </div>
+              </div>
+
+              <div class="tip-card" style="margin-top:10px;">
+                Values are clamped server-side, so an out-of-range entry cannot produce silence or
+                distortion. Nothing is written to disk unless you download or apply it.
+              </div>
             </div>
           </section>
 
@@ -2735,8 +2880,13 @@ Reasoning for chain: Explanation of why this order is effective.">List of possib
                 <option>true</option>
                 <option>false</option>
               </select></div>
-            <div class="field"><label>Reduction dB</label><input id="cfg_reduction_db" type="number" value="25" min="0"
-                max="40" step="1"></div>
+            <div class="field"><label>Reduction Strength (0–40, not dB)
+                <span class="tooltip-help">?<span class="tooltip-box">Noise-reduction strength on a
+                    0-40 scale, not decibels: 40 maps to a full prop_decrease of 1.0. Values are
+                    clamped to 0-40; negative values used to amplify noise instead of suppressing
+                    it.</span></span>
+              </label><input id="cfg_reduction_db" type="number" value="25" min="0" max="40" step="1">
+            </div>
             <div class="field"><label>Voice Enhance</label><select id="cfg_voice_enhance">
                 <option>true</option>
                 <option>false</option>
@@ -2748,8 +2898,8 @@ Reasoning for chain: Explanation of why this order is effective.">List of possib
             <div class="field"><label>Target LUFS</label><input id="cfg_target_lufs" type="number" value="-16" step="1"
                 min="-30" max="-5"></div>
             <div class="field"><label>Word Timestamps</label><select id="cfg_word_timestamps">
+                <option selected>true</option>
                 <option>false</option>
-                <option>true</option>
               </select></div>
             <div class="field"><label>Beam Size</label><input id="cfg_beam_size" type="number" value="5" min="1"
                 max="10"></div>
@@ -2772,6 +2922,51 @@ Reasoning for chain: Explanation of why this order is effective.">List of possib
             <div class="field"><label>Condition on Previous Text</label><select id="cfg_condition_prev">
                 <option>true</option>
                 <option>false</option>
+              </select></div>
+            <!-- Voice-enhance band edges + decoding controls that the backend accepts but the
+                 form used to omit.  Values here are sent verbatim as multipart fields; a field
+                 the server does not declare is silently discarded, so names must match exactly. -->
+            <div class="field">
+              <label>Voice Enhance High-Pass (Hz)
+                <span class="tooltip-help">?<span class="tooltip-box">Low edge of the voice-enhance
+                    band-pass. Removes DC, rumble and handling noise. 60 Hz is the speech-safe
+                    default; the legacy value was 300 Hz, which cut male F0 energy.</span></span>
+              </label>
+              <input id="cfg_enhance_highpass" type="number" value="60" min="20" max="2000" step="5">
+            </div>
+            <div class="field">
+              <label>Voice Enhance Low-Pass (Hz)
+                <span class="tooltip-help">?<span class="tooltip-box">High edge of the voice-enhance
+                    band-pass. Keep at or above 8000 Hz for speech: 3.4-8 kHz carries the
+                    fricatives (s, f, z, th) Whisper relies on, and the legacy 3400 Hz setting
+                    tilted that band down by 6-8 dB.</span></span>
+              </label>
+              <input id="cfg_enhance_lowpass" type="number" value="8000" min="1000" max="20000" step="100">
+            </div>
+            <div class="field">
+              <label>Allow Gain Attenuation
+                <span class="tooltip-help">?<span class="tooltip-box">When true, loudness
+                    normalization can also reduce gain. When false it keeps the legacy boost-only
+                    behaviour.</span></span>
+              </label>
+              <select id="cfg_allow_attenuation">
+                <option>true</option>
+                <option>false</option>
+              </select>
+            </div>
+            <div class="field"><label>Suppress Blank</label><select id="cfg_suppress_blank">
+                <option>true</option>
+                <option>false</option>
+              </select></div>
+            <div class="field"><label>Suppress Tokens</label><input id="cfg_suppress_tokens"
+                value="-1" placeholder="-1"></div>
+            <div class="field"><label>Keep Model Cache</label><select id="cfg_keep_cache">
+                <option>true</option>
+                <option>false</option>
+              </select></div>
+            <div class="field"><label>Skip Diarization</label><select id="cfg_skip_diarization">
+                <option>false</option>
+                <option>true</option>
               </select></div>
             <div class="field" style="grid-column:1/-1">
               <label>Choose suggested prompt for audio</label>
@@ -3693,10 +3888,15 @@ Reasoning for chain: Explanation of why this order is effective.">List of possib
               language: currentResponse.language || null,
               selected_only: selectedOnly,
               exported_segments: indices.length,
-              total_segments: currentResponse.segments.length
+              total_segments: currentResponse.segments.length,
+              word_timestamps_enabled: !!(currentResponse.params && currentResponse.params.word_timestamps),
+              word_timestamp_count: 0,
+              word_timestamp_timebase: 'source_audio_seconds'
             };
 
             var csv = ['index,speaker,start,end,duration,text'];
+            var wordsCsv = ['segment_index,speaker,word,start,end,probability'];
+            var exportedWords = [];
 
             indices.forEach(function (index) {
               var seg = currentResponse.segments[index];
@@ -3718,8 +3918,36 @@ Reasoning for chain: Explanation of why this order is effective.">List of possib
                 end: end,
                 duration: duration,
                 text: text,
+                words: Array.isArray(seg.words) ? seg.words : [],
                 audio_file: 'audio_segments/' + wavName
               }, null, 2));
+
+              (Array.isArray(seg.words) ? seg.words : []).forEach(function (word) {
+                var wordStart = Number(word.start);
+                var wordEnd = Number(word.end);
+                if (!Number.isFinite(wordStart) || !Number.isFinite(wordEnd)) return;
+                var wordRecord = {
+                  segment_index: seg.index != null ? seg.index : index,
+                  speaker: speaker,
+                  word: String(word.word || ''),
+                  start: wordStart,
+                  end: wordEnd,
+                  probability: word.probability != null && Number.isFinite(Number(word.probability))
+                    ? Number(word.probability)
+                    : null
+                };
+                exportedWords.push(wordRecord);
+                wordsCsv.push([
+                  wordRecord.segment_index,
+                  csvCell(wordRecord.speaker),
+                  csvCell(wordRecord.word),
+                  wordRecord.start.toFixed(6),
+                  wordRecord.end.toFixed(6),
+                  wordRecord.probability != null && Number.isFinite(wordRecord.probability)
+                    ? wordRecord.probability.toFixed(6)
+                    : ''
+                ].join(','));
+              });
 
               csv.push([
                 index,
@@ -3731,14 +3959,24 @@ Reasoning for chain: Explanation of why this order is effective.">List of possib
               ].join(','));
             });
 
+            manifest.word_timestamp_count = exportedWords.length;
             zip.file(exportBase + '_manifest.json', JSON.stringify(manifest, null, 2));
             zip.file(exportBase + '_transcript.json', JSON.stringify(currentResponse, null, 2));
             zip.file(exportBase + '_segments.csv', csv.join('\n'));
+            zip.file(exportBase + '_word_timestamps.json', JSON.stringify({
+              transcript_id: currentResponse.transcript_id || null,
+              time_unit: 'seconds',
+              timebase: 'source_audio',
+              words: exportedWords
+            }, null, 2));
+            zip.file(exportBase + '_word_timestamps.csv', wordsCsv.join('\n'));
 
             var blob = await zip.generateAsync({ type: 'blob' });
             var suffix = selectedOnly ? '_selected_segment' : '_segments_all';
             saveAs(blob, exportBase + suffix + '.zip');
-            showToast('ZIP exportado com sucesso');
+            showToast(exportedWords.length
+              ? 'ZIP exportado com ' + exportedWords.length + ' timestamps de palavras'
+              : 'ZIP exportado sem timestamps de palavras. Ative Word Timestamps e transcreva novamente.');
           } catch (err) {
             showToast('Falha ao exportar ZIP: ' + (err && err.message ? err.message : err));
           }
@@ -4304,7 +4542,7 @@ Reasoning for chain: Explanation of why this order is effective.">List of possib
             vad_threshold: Number(v('criticalVadThreshold') || v('cfg_vad_threshold') || 0.7),
             remove_silence: boolVal(v('criticalRemoveSilence') || v('cfg_remove_silence') || 'true'),
             noise_reduce: boolVal(v('criticalNoiseReduce') || v('cfg_noise_reduce') || 'true'),
-            word_timestamps: boolVal(v('criticalWordTimestamps') || v('cfg_word_timestamps') || 'false'),
+            word_timestamps: boolVal(v('criticalWordTimestamps') || v('cfg_word_timestamps') || 'true'),
             initial_prompt: valOrNull(v('cfg_initial_prompt')),
             beam_size: valOrNull(v('cfg_beam_size')) ? Number(v('cfg_beam_size')) : null,
             best_of: valOrNull(v('cfg_best_of')) ? Number(v('cfg_best_of')) : null,
@@ -4313,15 +4551,27 @@ Reasoning for chain: Explanation of why this order is effective.">List of possib
             min_silence_len: valOrNull(v('cfg_min_silence_len')) ? Number(v('cfg_min_silence_len')) : null,
             reduction_db: valOrNull(v('cfg_reduction_db')) ? Number(v('cfg_reduction_db')) : null,
             voice_enhance: boolVal(v('cfg_voice_enhance')),
+            // Band-pass edges for voice_enhance. Sent explicitly so the server does not fall back
+            // to the legacy 300-3400 Hz telephone band, which costs fricative accuracy.
+            enhance_highpass_hz: valOrNull(v('cfg_enhance_highpass')) ? Number(v('cfg_enhance_highpass')) : null,
+            enhance_lowpass_hz: valOrNull(v('cfg_enhance_lowpass')) ? Number(v('cfg_enhance_lowpass')) : null,
             apply_gain: boolVal(v('cfg_apply_gain')),
+            allow_attenuation: boolVal(v('cfg_allow_attenuation')),
             target_lufs: valOrNull(v('cfg_target_lufs')) ? Number(v('cfg_target_lufs')) : null,
             condition_on_previous_text: boolVal(v('cfg_condition_prev')),
-            temp_inc: valOrNull(v('cfg_temp_inc')) ? Number(v('cfg_temp_inc')) : null,
-            comp_ratio: valOrNull(v('cfg_comp_ratio')) ? Number(v('cfg_comp_ratio')) : null,
-            logprob: valOrNull(v('cfg_logprob')) ? Number(v('cfg_logprob')) : null,
+            // NOTE: these three must use the server's exact Form field names. They used to be
+            // sent as `temp_inc` / `comp_ratio` / `logprob`, which no route declares, so FastAPI
+            // discarded them with a 200 OK and the UI's values never took effect.
+            temperature_increment_on_fallback: valOrNull(v('cfg_temp_inc')) ? Number(v('cfg_temp_inc')) : null,
+            compression_ratio_threshold: valOrNull(v('cfg_comp_ratio')) ? Number(v('cfg_comp_ratio')) : null,
+            logprob_threshold: valOrNull(v('cfg_logprob')) ? Number(v('cfg_logprob')) : null,
             no_speech_threshold: valOrNull(v('cfg_no_speech')) ? Number(v('cfg_no_speech')) : null,
             length_penalty: valOrNull(v('cfg_length_penalty')) ? Number(v('cfg_length_penalty')) : null,
             patience: valOrNull(v('cfg_patience')) ? Number(v('cfg_patience')) : null,
+            suppress_blank: valOrNull(v('cfg_suppress_blank')) != null ? boolVal(v('cfg_suppress_blank')) : null,
+            suppress_tokens: valOrNull(v('cfg_suppress_tokens')),
+            keep_cache: valOrNull(v('cfg_keep_cache')) != null ? boolVal(v('cfg_keep_cache')) : null,
+            skip_diarization: boolVal(v('cfg_skip_diarization')),
             // ── Project Journey extensions ──
             project_id: valOrNull(v('pj_project_id')),
             canonical_name: valOrNull(v('pj_canonical_name')),
@@ -4456,17 +4706,26 @@ Reasoning for chain: Explanation of why this order is effective.">List of possib
             min_silence_len: ['cfg_min_silence_len'],
             reduction_db: ['cfg_reduction_db'],
             voice_enhance: ['cfg_voice_enhance'],
+            enhance_highpass_hz: ['cfg_enhance_highpass'],
+            enhance_lowpass_hz: ['cfg_enhance_lowpass'],
             apply_gain: ['cfg_apply_gain'],
+            allow_attenuation: ['cfg_allow_attenuation'],
             target_lufs: ['cfg_target_lufs'],
             condition_on_previous_text: ['cfg_condition_prev'],
-            temp_inc: ['cfg_temp_inc'],
+            temperature_increment_on_fallback: ['cfg_temp_inc'],
             compression_ratio_threshold: ['cfg_comp_ratio'],
-            comp_ratio: ['cfg_comp_ratio'],
             logprob_threshold: ['cfg_logprob'],
+            // Legacy aliases kept so previously saved suggestion payloads still apply.
+            temp_inc: ['cfg_temp_inc'],
+            comp_ratio: ['cfg_comp_ratio'],
             logprob: ['cfg_logprob'],
             no_speech_threshold: ['cfg_no_speech'],
             length_penalty: ['cfg_length_penalty'],
             patience: ['cfg_patience'],
+            suppress_blank: ['cfg_suppress_blank'],
+            suppress_tokens: ['cfg_suppress_tokens'],
+            keep_cache: ['cfg_keep_cache'],
+            skip_diarization: ['cfg_skip_diarization'],
             initial_prompt: ['cfg_initial_prompt'],
             provider: ['cfg_provider']
           };
@@ -4556,6 +4815,84 @@ Reasoning for chain: Explanation of why this order is effective.">List of possib
         }
 
         /* ====== LOCAL TRANSCRIPTION (FormData POST) ====== */
+        /* ====== ASYNC JOB POLLING ======
+         * The guided-async route (and /transcribe/async) return {job_id, status_url, stream_url}
+         * immediately. This used to be treated as a finished transcript, so selecting a Project
+         * silently produced "Transcrição concluída — 0 segmentos". Poll the status endpoint,
+         * reflect real progress, and resolve with the finished result.
+         */
+        const JOB_POLL_INTERVAL_MS = 2000;
+        const JOB_POLL_TIMEOUT_MS = 2 * 60 * 60 * 1000;
+
+        function isAsyncJobResponse(data) {
+          return !!(data && typeof data === 'object' && data.job_id && !Array.isArray(data.segments));
+        }
+
+        function jobStatusCandidates(jobId) {
+          var urls = [];
+          if (window.API_BASE_URL) {
+            try {
+              var base = new URL(window.API_BASE_URL, window.location.origin);
+              urls.push(base.origin + '/api/transcripts/status/' + encodeURIComponent(jobId));
+            } catch (e) { /* ignore */ }
+          }
+          urls.push('/api/transcripts/status/' + encodeURIComponent(jobId));
+          return urls.filter(function (u, i) { return urls.indexOf(u) === i; });
+        }
+
+        async function fetchJobStatus(jobId) {
+          var urls = jobStatusCandidates(jobId);
+          var lastErr = null;
+          for (var i = 0; i < urls.length; i++) {
+            try {
+              var resp = await fetch(urls[i]);
+              if (resp.ok) return await resp.json();
+              lastErr = new Error('HTTP ' + resp.status + ' from ' + urls[i]);
+            } catch (err) { lastErr = err; }
+          }
+          throw lastErr || new Error('Unable to read job status');
+        }
+
+        async function awaitTranscriptionJob(jobId, onUpdate) {
+          var started = Date.now();
+          var consecutiveErrors = 0;
+          while (Date.now() - started < JOB_POLL_TIMEOUT_MS) {
+            await new Promise(function (r) { setTimeout(r, JOB_POLL_INTERVAL_MS); });
+            var job;
+            try {
+              job = await fetchJobStatus(jobId);
+              consecutiveErrors = 0;
+            } catch (err) {
+              consecutiveErrors += 1;
+              if (consecutiveErrors >= 5) throw err;
+              continue;
+            }
+            if (typeof onUpdate === 'function') onUpdate(job);
+            if (job.status === 'done') {
+              if (!job.result) throw new Error('Job finished without a result payload');
+              return job.result;
+            }
+            if (job.status === 'error' || job.status === 'failed') {
+              throw new Error(job.error || job.message || 'Transcription job failed');
+            }
+          }
+          throw new Error('Transcription job did not finish within ' + (JOB_POLL_TIMEOUT_MS / 3600000) + 'h');
+        }
+
+        function applyJobProgress(job) {
+          if (!job) return;
+          var stage = String(job.stage || '').toLowerCase();
+          if (stage === 'upload' || stage === 'queued') setStage('upload');
+          else if (stage === 'preprocess' || stage === 'preprocessing') setStage('preprocess');
+          else if (stage === 'diarization' || stage === 'diarize') setStage('diarization');
+          else if (stage === 'transcription' || stage === 'asr') setStage('transcription');
+          if (typeof job.progress === 'number') {
+            setProgress(job.progress, job.message || ('Processing… (' + job.progress + '%)'));
+          } else if (job.message) {
+            $('progressLabel').textContent = job.message;
+          }
+        }
+
         async function transcribeLocal(file, config) {
           setStage('upload');
           setProgress(15, 'Uploading…');
@@ -4571,6 +4908,11 @@ Reasoning for chain: Explanation of why this order is effective.">List of possib
           setStage('diarization');
           setProgress(60, 'Processing…');
           var data = await resp.json();
+          if (isAsyncJobResponse(data)) {
+            // Server accepted the job and will report progress out-of-band.
+            setProgress(Math.max(0, Number(data.progress) || 5), 'Job queued: ' + data.job_id);
+            data = await awaitTranscriptionJob(data.job_id, applyJobProgress);
+          }
           setStage('transcription');
           setProgress(100, 'Done');
           return data;
@@ -4701,6 +5043,19 @@ Reasoning for chain: Explanation of why this order is effective.">List of possib
           }
           return handleTranscription(file);
         }
+
+        /* Narrow bridge for the Audio Lab panel (separate script block). Keeps that block from
+           depending on the lexical scope of this one. */
+        window.__pinocchioBridge = {
+          getCurrentFile: function () { return currentAudioFile; },
+          setCurrentFile: function (file) { currentAudioFile = file; },
+          setupWaveform: function (file) { return setupWaveform(file); },
+          transcribe: function (file) { return handleAudioSelection(file); },
+          showToast: function (msg) { showToast(msg); },
+          defaultFileName: function () {
+            return (currentAudioFile && currentAudioFile.name) || 'audio.wav';
+          }
+        };
 
         /* ====== FILE INPUT + DRAG & DROP ====== */
         $('audioInput').addEventListener('change', function () {
@@ -5666,7 +6021,7 @@ Reasoning for chain: Explanation of why this order is effective.">List of possib
         fields.vadThreshold.value = cfg.vad_threshold != null ? cfg.vad_threshold : 0.7;
         fields.removeSilence.value = String(cfg.remove_silence != null ? cfg.remove_silence : true);
         fields.noiseReduce.value = String(cfg.noise_reduce != null ? cfg.noise_reduce : true);
-        fields.wordTimestamps.value = String(cfg.word_timestamps != null ? cfg.word_timestamps : false);
+        fields.wordTimestamps.value = String(cfg.word_timestamps != null ? cfg.word_timestamps : true);
         if (fields.pyannoteApiKey) fields.pyannoteApiKey.value = cfg.pyannote_api_key || '';
       }
 
@@ -5846,6 +6201,38 @@ Reasoning for chain: Explanation of why this order is effective.">List of possib
         if (criticalEndpoint) criticalEndpoint.value = value;
       }
 
+      // The Critical Configuration card and this modal edit eight overlapping fields, and
+      // buildConfig() resolves them as `critical* || cfg_*`. Because the critical* inputs are
+      // always populated, the modal twins were unreachable: editing them appeared to work and
+      // "Save Config" persisted them, but nothing was ever sent. Push the modal values back into
+      // the critical panel so the two surfaces agree in both directions.
+      const CFG_TO_CRITICAL = {
+        cfg_language: 'criticalLanguage',
+        cfg_model_size: 'criticalModel',
+        cfg_min_speakers: 'criticalMinSpeakers',
+        cfg_max_speakers: 'criticalMaxSpeakers',
+        cfg_vad_threshold: 'criticalVadThreshold',
+        cfg_remove_silence: 'criticalRemoveSilence',
+        cfg_noise_reduce: 'criticalNoiseReduce',
+        cfg_word_timestamps: 'criticalWordTimestamps'
+      };
+
+      function syncCriticalFromCfg() {
+        let synced = 0;
+        Object.keys(CFG_TO_CRITICAL).forEach(function (sourceId) {
+          const source = byId(sourceId);
+          const target = byId(CFG_TO_CRITICAL[sourceId]);
+          if (!source || !target) return;
+          const value = source.type === 'checkbox' ? String(!!source.checked) : source.value;
+          if (value !== '' && target.value !== value) {
+            target.value = value;
+            synced += 1;
+          }
+        });
+        return synced;
+      }
+      window.__pinocchioSyncCriticalFromCfg = syncCriticalFromCfg;
+
       const saveCfgBtn = byId('saveCfgBtn');
       const loadCfgBtn = byId('loadCfgBtn');
       const resetCfgBtn = byId('resetCfgBtn');
@@ -5862,9 +6249,16 @@ Reasoning for chain: Explanation of why this order is effective.">List of possib
         const merged = Object.assign({}, existing, readAllCfgFields());
         localStorage.setItem(cfgKey, JSON.stringify(merged));
         syncEndpoint();
+        // Keep the always-visible Critical Configuration card in step with what was just saved.
+        const synced = syncCriticalFromCfg();
         if (window.syncRunpodFromFullModal) window.syncRunpodFromFullModal();
-        if (window.__pinocchioCriticalConfig) window.__pinocchioCriticalConfig.load();
-        toast('Configurações salvas');
+        if (window.__pinocchioCriticalConfig) {
+          window.__pinocchioCriticalConfig.load();
+          // load() copies critical -> modal; re-apply the modal edits we just synced so the
+          // operator sees exactly what will be sent.
+          if (synced) applyCfgObject(readAllCfgFields());
+        }
+        toast(synced ? ('Configurações salvas (' + synced + ' campo(s) sincronizado(s))') : 'Configurações salvas');
       };
 
       if (loadCfgBtn) loadCfgBtn.onclick = function () {
@@ -5875,6 +6269,10 @@ Reasoning for chain: Explanation of why this order is effective.">List of possib
         const endpointInput = byId('cfg_api');
         if (endpoint && endpointInput) endpointInput.value = endpoint;
         syncEndpoint();
+        // Without this, __pinocchioCriticalConfig.load() would copy the *old* critical values
+        // back over the freshly loaded ones, so "Load" silently undid itself for the eight
+        // overlapping fields.
+        syncCriticalFromCfg();
         if (window.__pinocchioCriticalConfig) window.__pinocchioCriticalConfig.load();
         toast('Configurações carregadas');
       };
@@ -6245,7 +6643,7 @@ Reasoning for chain: Explanation of why this order is effective.">List of possib
           vad_threshold: (document.getElementById('criticalVadThreshold') || {}).value || 0.7,
           remove_silence: (document.getElementById('criticalRemoveSilence') || {}).value || 'true',
           noise_reduce: (document.getElementById('criticalNoiseReduce') || {}).value || 'true',
-          word_timestamps: (document.getElementById('criticalWordTimestamps') || {}).value || 'false',
+          word_timestamps: (document.getElementById('criticalWordTimestamps') || {}).value || 'true',
           initial_prompt: (document.getElementById('cfg_initial_prompt') || {}).value || '',
           beam_size: (document.getElementById('cfg_beam_size') || {}).value || '',
           best_of: (document.getElementById('cfg_best_of') || {}).value || '',
@@ -7477,6 +7875,552 @@ Reasoning for chain: Explanation of why this order is effective.">List of possib
       });
 
 
+    })();
+  </script>
+
+  <!-- ══════════════════════════════════════════════════════════════════════════════════════
+       Audio Lab controller
+       Self-contained: talks to /api/pinocchio/audio/* and to the bridge exposed by the main
+       script. Every value is clamped server-side as well, so this layer is about ergonomics,
+       not safety.
+       ══════════════════════════════════════════════════════════════════════════════════════ -->
+  <script>
+    (function () {
+      'use strict';
+
+      var LAB_BASE = '/api/pinocchio/audio';
+      var $ = function (id) { return document.getElementById(id); };
+      var bridge = function () { return window.__pinocchioBridge || null; };
+
+      var state = {
+        capabilities: null,
+        originalFile: null,
+        processedBlob: null,
+        processedFile: null,
+        lastReport: null,
+        busy: false
+      };
+
+      /* ── UI helpers ─────────────────────────────────────────────────────── */
+
+      function toast(msg) {
+        var fn = bridge() && bridge().showToast;
+        if (fn) fn(msg);
+        else if (window.showToast) window.showToast(msg);
+      }
+
+      function setStatus(text, tone) {
+        var el = $('audioLabStatus');
+        if (!el) return;
+        el.textContent = text;
+        el.style.color = tone === 'error' ? 'var(--red, #e5484d)'
+          : tone === 'ok' ? 'var(--green, #4a9e70)' : '';
+      }
+
+      function setProgress(pct, label) {
+        var wrap = $('labProgress');
+        var bar = $('labProgressBar');
+        var lbl = $('labProgressLabel');
+        if (!wrap || !bar) return;
+        if (pct == null) { wrap.style.display = 'none'; return; }
+        wrap.style.display = 'block';
+        bar.style.width = Math.min(100, Math.max(0, pct)) + '%';
+        if (label && lbl) lbl.textContent = label;
+      }
+
+      function setBusy(busy, label) {
+        state.busy = !!busy;
+        ['labAnalyzeBtn', 'labSuggestBtn', 'labProcessBtn'].forEach(function (id) {
+          var el = $(id);
+          if (el) el.disabled = !!busy;
+        });
+        if (busy) setStatus(label || 'working…');
+        else setStatus(currentStatusText(), null);
+        updateButtons();
+      }
+
+      function currentStatusText() {
+        var name = state.originalFile ? state.originalFile.name : null;
+        if (!name) return 'no file';
+        return state.processedFile ? (name + ' · processed') : name;
+      }
+
+      function updateButtons() {
+        var hasProcessed = !!state.processedBlob;
+        ['labApplyBtn', 'labDownloadBtn', 'labTranscribeBtn'].forEach(function (id) {
+          var el = $(id);
+          if (el) el.disabled = state.busy || !hasProcessed;
+        });
+        var revert = $('labRevertBtn');
+        if (revert) revert.disabled = state.busy || !state.processedFile;
+      }
+
+      function bytesToSize(bytes) {
+        if (!bytes && bytes !== 0) return '—';
+        if (bytes < 1024) return bytes + ' B';
+        if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(1) + ' KB';
+        return (bytes / 1024 / 1024).toFixed(2) + ' MB';
+      }
+
+      function chip(text, tone) {
+        var style = tone === 'good' ? 'background:var(--green-lo);color:var(--green)'
+          : tone === 'bad' ? 'background:#3a1d1d;color:#ff8a8a'
+            : tone === 'accent' ? 'background:var(--amber-lo);color:var(--amber)' : '';
+        return '<span class="chip" style="' + style + '">' + escapeHtml(text) + '</span>';
+      }
+
+      function escapeHtml(value) {
+        return String(value == null ? '' : value)
+          .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+          .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+      }
+
+      function fmtDb(value) {
+        return (value == null || !isFinite(value)) ? '—' : (value > 0 ? '+' : '') + value.toFixed(1) + ' dB';
+      }
+
+      /* ── Request plumbing ───────────────────────────────────────────────── */
+
+      function resolveBase() {
+        // Same origin as the page: the pinocchio alias router lives here.
+        return LAB_BASE;
+      }
+
+      async function readError(resp) {
+        try {
+          var body = await resp.json();
+          if (body && body.detail) return typeof body.detail === 'string' ? body.detail : JSON.stringify(body.detail);
+        } catch (e) { /* not JSON */ }
+        try { return (await resp.text()).slice(0, 300); } catch (e) { return 'HTTP ' + resp.status; }
+      }
+
+      function decodeReportHeader(resp) {
+        var raw = resp.headers.get('X-Audio-Lab-Report');
+        if (!raw) return null;
+        try {
+          var padded = raw.replace(/-/g, '+').replace(/_/g, '/');
+          while (padded.length % 4) padded += '=';
+          var json = decodeURIComponent(escape(atob(padded)));
+          return JSON.parse(json);
+        } catch (e) { return null; }
+      }
+
+      /* ── Capabilities / presets ─────────────────────────────────────────── */
+
+      async function loadCapabilities() {
+        try {
+          var resp = await fetch(resolveBase() + '/capabilities');
+          if (!resp.ok) throw new Error('HTTP ' + resp.status);
+          state.capabilities = await resp.json();
+          var select = $('labPreset');
+          if (select && state.capabilities.presets) {
+            select.innerHTML = '';
+            Object.keys(state.capabilities.presets).forEach(function (key) {
+              var meta = state.capabilities.presets[key];
+              var option = document.createElement('option');
+              option.value = key;
+              option.textContent = meta.label || key;
+              select.appendChild(option);
+            });
+            select.value = 'speech_clean';
+          }
+          setStatus(currentStatusText(), null);
+        } catch (err) {
+          setStatus('unavailable', 'error');
+          setProgress(null);
+          var presets = $('labPreset');
+          if (presets && presets.options.length <= 1) {
+            var fallback = document.createElement('option');
+            fallback.value = 'speech_clean';
+            fallback.textContent = 'Speech clean (offline default)';
+            presets.appendChild(fallback);
+          }
+        }
+      }
+
+      /* ── Chain construction ─────────────────────────────────────────────── */
+
+      function numberOrNull(id) {
+        var el = $(id);
+        if (!el) return null;
+        var raw = String(el.value || '').trim();
+        if (raw === '') return null;
+        var n = Number(raw);
+        return isFinite(n) ? n : null;
+      }
+
+      function buildChain() {
+        var chain = [{ op: 'dc_remove' }];
+
+        var high = numberOrNull('labHighpass');
+        if (high) chain.push({ op: 'highpass', cutoff_hz: high, q: 0.707 });
+
+        var low = numberOrNull('labLowpass');
+        if (low) chain.push({ op: 'lowpass', cutoff_hz: low, q: 0.707 });
+
+        var denoise = numberOrNull('labDenoise');
+        if (denoise && denoise > 0) chain.push({ op: 'spectral_denoise', strength: denoise, n_fft: 1024 });
+
+        var dereverb = numberOrNull('labDereverb');
+        if (dereverb && dereverb > 0) chain.push({ op: 'dereverb', amount: dereverb, decay_ms: 200 });
+
+        var resample = ($('labResample') || {}).value || '';
+        if (resample) chain.push({ op: 'resample', target_sr: Number(resample) });
+
+        if ((($('labMono') || {}).value || 'false') === 'true') chain.push({ op: 'to_mono' });
+
+        var target = numberOrNull('labNormalize');
+        if (target != null) {
+          chain.push({
+            op: 'normalize',
+            target_dbfs: target,
+            peak_ceiling_dbfs: numberOrNull('labPeakCeiling') != null ? numberOrNull('labPeakCeiling') : -1.0
+          });
+        }
+
+        if ((($('labTrim') || {}).value || 'false') === 'true') {
+          chain.push({
+            op: 'trim_silence',
+            threshold_db: numberOrNull('labTrimThreshold') != null ? numberOrNull('labTrimThreshold') : -45,
+            min_silence_ms: numberOrNull('labTrimMin') != null ? numberOrNull('labTrimMin') : 250,
+            pad_ms: 80
+          });
+        }
+
+        // dc_remove alone is a no-op worth skipping when nothing else is selected.
+        return chain.length > 1 ? chain : [];
+      }
+
+      function applyPreset(name) {
+        var meta = state.capabilities && state.capabilities.presets && state.capabilities.presets[name];
+        if (!meta) return;
+        var chain = meta.chain || [];
+        // Reset every control to "off", then reflect the preset into them so the operator can
+        // see and tweak exactly what the preset does. An empty control means "skip this op"
+        // in buildChain(), so a preset without a step really is a no-op for that step.
+        if ($('labHighpass')) $('labHighpass').value = '';
+        if ($('labLowpass')) $('labLowpass').value = '';
+        if ($('labDenoise')) $('labDenoise').value = 0;
+        if ($('labDereverb')) $('labDereverb').value = 0;
+        if ($('labNormalize')) $('labNormalize').value = '';
+        if ($('labPeakCeiling')) $('labPeakCeiling').value = -1;
+        if ($('labResample')) $('labResample').value = '';
+        if ($('labMono')) $('labMono').value = 'false';
+        if ($('labTrim')) $('labTrim').value = 'false';
+        if ($('labTrimThreshold')) $('labTrimThreshold').value = -45;
+        if ($('labTrimMin')) $('labTrimMin').value = 250;
+
+        chain.forEach(function (step) {
+          switch (step.op) {
+            case 'highpass': if ($('labHighpass')) $('labHighpass').value = step.cutoff_hz; break;
+            case 'lowpass': if ($('labLowpass')) $('labLowpass').value = step.cutoff_hz; break;
+            case 'spectral_denoise': if ($('labDenoise')) $('labDenoise').value = step.strength; break;
+            case 'dereverb': if ($('labDereverb')) $('labDereverb').value = step.amount; break;
+            case 'resample': if ($('labResample')) $('labResample').value = String(step.target_sr); break;
+            case 'to_mono': if ($('labMono')) $('labMono').value = 'true'; break;
+            case 'normalize':
+              if ($('labNormalize')) $('labNormalize').value = String(step.target_dbfs);
+              if ($('labPeakCeiling') && step.peak_ceiling_dbfs != null) {
+                $('labPeakCeiling').value = step.peak_ceiling_dbfs;
+              }
+              break;
+            case 'trim_silence':
+              if ($('labTrim')) $('labTrim').value = 'true';
+              if ($('labTrimThreshold') && step.threshold_db != null) $('labTrimThreshold').value = step.threshold_db;
+              if ($('labTrimMin') && step.min_silence_ms != null) $('labTrimMin').value = step.min_silence_ms;
+              break;
+            default: break;
+          }
+        });
+      }
+
+      /* ── Report rendering ───────────────────────────────────────────────── */
+
+      function metricsFromReport(report) {
+        if (!report) return null;
+        return report.input && report.output ? { before: report.input, after: report.output } : null;
+      }
+
+      function renderReport(report, label) {
+        if (!report) return;
+        state.lastReport = report;
+        var wrap = $('labReportWrap');
+        if (wrap) wrap.style.display = 'block';
+        if ($('labReportSource')) {
+          $('labReportSource').textContent = label || report.source || '';
+        }
+
+        var pair = metricsFromReport(report);
+        var chips = [];
+        if (pair) {
+          chips.push(chip('RMS ' + fmtDb(pair.before.rms_dbfs) + ' → ' + fmtDb(pair.after.rms_dbfs), 'accent'));
+          chips.push(chip('Peak ' + fmtDb(pair.before.peak_dbfs) + ' → ' + fmtDb(pair.after.peak_dbfs)));
+          chips.push(chip('Loudness ' + fmtDb(pair.before.loudness_lufs) + ' → ' + fmtDb(pair.after.loudness_lufs) + ' LUFS', 'accent'));
+          chips.push(chip('SNR ' + fmtDb(pair.before.snr_estimate_db) + ' → ' + fmtDb(pair.after.snr_estimate_db)));
+          chips.push(chip('Dur ' + (pair.before.duration_sec || 0).toFixed(2) + 's → ' + (pair.after.duration_sec || 0).toFixed(2) + 's'));
+        } else {
+          chips.push(chip((report.duration_sec || 0).toFixed(2) + ' s'));
+          chips.push(chip(report.sample_rate + ' Hz'));
+          chips.push(chip(report.channels + ' ch'));
+          chips.push(chip('RMS ' + fmtDb(report.rms_dbfs)));
+          chips.push(chip('Peak ' + fmtDb(report.peak_dbfs)));
+          chips.push(chip('Crest ' + fmtDb(report.crest_db)));
+          chips.push(chip('Loudness ' + fmtDb(report.loudness_lufs) + ' LUFS'));
+          chips.push(chip('SNR ' + fmtDb(report.snr_estimate_db)));
+          chips.push(chip('Noise floor ' + fmtDb(report.noise_floor_dbfs)));
+          chips.push(chip('Silence ' + ((report.silence_ratio || 0) * 100).toFixed(1) + '%'));
+          chips.push(chip('Clipping ' + (report.clipping_pct || 0).toFixed(3) + '%',
+            (report.clipping_pct || 0) > 0.05 ? 'bad' : 'good'));
+          chips.push(chip('3.4–8 kHz ' + (report.energy_3k4_8k_pct == null ? '—' : report.energy_3k4_8k_pct.toFixed(2) + '%'),
+            (report.energy_3k4_8k_pct || 0) < 0.5 ? 'bad' : 'good'));
+          if (report.silence_region_count != null) {
+            chips.push(chip(report.silence_region_count + ' silence region(s)'));
+          }
+        }
+        if ($('labReportChips')) $('labReportChips').innerHTML = chips.join('');
+
+        var tips = report.recommendations || report.output && report.output.recommendations || [];
+        if ($('labReportTips')) {
+          $('labReportTips').innerHTML = tips.map(function (tip) {
+            return '<div class="tip-card" style="margin-top:4px;">' + escapeHtml(tip) + '</div>';
+          }).join('');
+        }
+
+        var pre = $('labReportPre');
+        if (pre) {
+          var printable = pair ? { delta: report.delta, applied: report.applied, before: pair.before, after: pair.after } : report;
+          pre.textContent = JSON.stringify(printable, null, 2);
+        }
+
+        if (report.warnings && report.warnings.length) {
+          report.warnings.forEach(function (warning) { toast('Audio Lab: ' + warning); });
+        }
+      }
+
+      /* ── Actions ────────────────────────────────────────────────────────── */
+
+      function requireFile() {
+        var file = (bridge() && bridge().getCurrentFile()) || state.originalFile;
+        if (!file) {
+          toast('Select an audio file first (File & Execution → Choose files)');
+          return null;
+        }
+        state.originalFile = file;
+        return file;
+      }
+
+      async function analyze() {
+        var file = requireFile();
+        if (!file || state.busy) return;
+        setBusy(true, 'analyzing…');
+        setProgress(20, 'Uploading for analysis…');
+        try {
+          var fd = new FormData();
+          fd.append('file', file, file.name);
+          fd.append('with_loudness', 'true');
+          fd.append('with_silence', 'true');
+          setProgress(55, 'Measuring…');
+          var resp = await fetch(resolveBase() + '/analyze', { method: 'POST', body: fd });
+          if (!resp.ok) throw new Error(await readError(resp));
+          var report = await resp.json();
+          setProgress(100, 'Done');
+          renderReport(report, file.name);
+          toast('Audio Lab: analysis complete');
+        } catch (err) {
+          setProgress(null);
+          toast('Audio Lab analyze failed: ' + (err.message || err));
+        } finally {
+          setBusy(false);
+          setTimeout(function () { setProgress(null); }, 1200);
+        }
+      }
+
+      async function suggestChain() {
+        var file = requireFile();
+        if (!file || state.busy) return;
+        setBusy(true, 'suggesting…');
+        setProgress(40, 'Analysing the recording…');
+        try {
+          var fd = new FormData();
+          fd.append('file', file, file.name);
+          var resp = await fetch(resolveBase() + '/suggest-chain', { method: 'POST', body: fd });
+          if (!resp.ok) throw new Error(await readError(resp));
+          var payload = await resp.json();
+          applyPreset('none');
+          (payload.chain || []).forEach(function (step) {
+            switch (step.op) {
+              case 'highpass': if ($('labHighpass')) $('labHighpass').value = step.cutoff_hz; break;
+              case 'lowpass': if ($('labLowpass')) $('labLowpass').value = step.cutoff_hz; break;
+              case 'spectral_denoise': if ($('labDenoise')) $('labDenoise').value = step.strength; break;
+              case 'dereverb': if ($('labDereverb')) $('labDereverb').value = step.amount; break;
+              case 'resample': if ($('labResample')) $('labResample').value = String(step.target_sr); break;
+              case 'to_mono': if ($('labMono')) $('labMono').value = 'true'; break;
+              case 'normalize': if ($('labNormalize')) $('labNormalize').value = String(step.target_dbfs); break;
+              default: break;
+            }
+          });
+          setProgress(100, 'Done');
+          renderReport(payload.report, file.name + ' (suggested chain applied)');
+          toast('Audio Lab: suggested ' + (payload.chain || []).length + ' step(s)');
+        } catch (err) {
+          setProgress(null);
+          toast('Audio Lab suggest failed: ' + (err.message || err));
+        } finally {
+          setBusy(false);
+          setTimeout(function () { setProgress(null); }, 1200);
+        }
+      }
+
+      async function process_() {
+        var file = requireFile();
+        if (!file || state.busy) return;
+        var chain = buildChain();
+        if (!chain.length) { toast('Select at least one Audio Lab operation'); return; }
+        setBusy(true, 'processing…');
+        setProgress(20, 'Uploading…');
+        try {
+          var fd = new FormData();
+          fd.append('file', file, file.name);
+          fd.append('chain', JSON.stringify(chain));
+          fd.append('response_format', 'binary');
+          fd.append('measure_before', 'true');
+          setProgress(60, 'Applying ' + chain.length + ' step(s)…');
+          var resp = await fetch(resolveBase() + '/process', { method: 'POST', body: fd });
+          if (!resp.ok) throw new Error(await readError(resp));
+          var blob = await resp.blob();
+          var report = decodeReportHeader(resp);
+          state.processedBlob = blob;
+          var outName = (file.name || 'audio').replace(/\.[^.]+$/, '') + '_lab.wav';
+          state.processedFile = new File([blob], outName, { type: 'audio/wav' });
+          setProgress(100, 'Done');
+          renderReport(report, outName + ' · ' + bytesToSize(blob.size));
+          setStatus(currentStatusText(), 'ok');
+          toast('Audio Lab: processed ' + chain.length + ' step(s) → ' + bytesToSize(blob.size));
+        } catch (err) {
+          setProgress(null);
+          toast('Audio Lab process failed: ' + (err.message || err));
+        } finally {
+          setBusy(false);
+          updateButtons();
+          setTimeout(function () { setProgress(null); }, 1200);
+        }
+      }
+
+      function applyToSession() {
+        if (!state.processedFile) return;
+        var b = bridge();
+        if (!b) { toast('Audio Lab: session bridge unavailable'); return; }
+        b.setCurrentFile(state.processedFile);
+        try { b.setupWaveform(state.processedFile); } catch (e) { /* waveform is best-effort */ }
+        setStatus(currentStatusText(), 'ok');
+        toast('Audio Lab: applied — the next transcription uses the processed audio');
+      }
+
+      function revert() {
+        if (!state.originalFile) return;
+        var b = bridge();
+        if (b) {
+          b.setCurrentFile(state.originalFile);
+          try { b.setupWaveform(state.originalFile); } catch (e) { /* best-effort */ }
+        }
+        state.processedBlob = null;
+        state.processedFile = null;
+        setStatus(currentStatusText(), null);
+        updateButtons();
+        toast('Audio Lab: reverted to the original audio');
+      }
+
+      function download() {
+        if (!state.processedBlob || !state.processedFile) return;
+        var url = URL.createObjectURL(state.processedBlob);
+        var link = document.createElement('a');
+        link.href = url;
+        link.download = state.processedFile.name;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        setTimeout(function () { URL.revokeObjectURL(url); }, 4000);
+      }
+
+      async function transcribeProcessed() {
+        if (!state.processedFile) return;
+        var b = bridge();
+        if (!b) { toast('Audio Lab: session bridge unavailable'); return; }
+        b.setCurrentFile(state.processedFile);
+        try { b.setupWaveform(state.processedFile); } catch (e) { /* best-effort */ }
+        toast('Audio Lab: transcribing processed audio…');
+        await b.transcribe(state.processedFile);
+      }
+
+      /* ── Wiring ─────────────────────────────────────────────────────────── */
+
+      function setCollapsed(collapsed) {
+        var content = $('audioLabContent');
+        var btn = $('audioLabToggleBtn');
+        if (!content || !btn) return;
+        content.style.display = collapsed ? 'none' : 'flex';
+        btn.textContent = collapsed ? 'Expand' : 'Collapse';
+      }
+
+      function bind() {
+        var analyzeBtn = $('labAnalyzeBtn');
+        if (analyzeBtn) analyzeBtn.addEventListener('click', analyze);
+        var suggestBtn = $('labSuggestBtn');
+        if (suggestBtn) suggestBtn.addEventListener('click', suggestChain);
+        var processBtn = $('labProcessBtn');
+        if (processBtn) processBtn.addEventListener('click', process_);
+        var applyBtn = $('labApplyBtn');
+        if (applyBtn) applyBtn.addEventListener('click', applyToSession);
+        var downloadBtn = $('labDownloadBtn');
+        if (downloadBtn) downloadBtn.addEventListener('click', download);
+        var transcribeBtn = $('labTranscribeBtn');
+        if (transcribeBtn) transcribeBtn.addEventListener('click', transcribeProcessed);
+        var revertBtn = $('labRevertBtn');
+        if (revertBtn) revertBtn.addEventListener('click', revert);
+        var toggleBtn = $('audioLabToggleBtn');
+        if (toggleBtn) toggleBtn.addEventListener('click', function () {
+          var content = $('audioLabContent');
+          setCollapsed(content && content.style.display !== 'none');
+        });
+        var preset = $('labPreset');
+        if (preset) preset.addEventListener('change', function () { applyPreset(this.value); });
+      }
+
+      function init() {
+        bind();
+        setCollapsed(false);
+        setProgress(null);
+        updateButtons();
+        setStatus('no file');
+        loadCapabilities();
+
+        // Keep the header badge and the waveform in step with the main file picker.
+        var input = $('audioInput');
+        if (input) {
+          input.addEventListener('change', function () {
+            if (this.files && this.files.length === 1) {
+              state.originalFile = this.files[0];
+              state.processedBlob = null;
+              state.processedFile = null;
+              setStatus(currentStatusText(), null);
+              updateButtons();
+            }
+          });
+        }
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+      } else {
+        init();
+      }
+
+      window.__pinocchioAudioLab = {
+        analyze: analyze,
+        process: process_,
+        state: state,
+        buildChain: buildChain
+      };
     })();
   </script>
 </body>

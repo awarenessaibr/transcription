@@ -1,0 +1,86 @@
+{
+  "transcript_id": "tts-fe8e35987f164425ba61f8a7a600ee40-bca8213a_1792402870",
+  "source_file": "tts-fe8e35987f164425ba61f8a7a600ee40-bca8213a_1792402870.wav",
+  "source_path": "",
+  "language": "it",
+  "timestamp": "",
+  "provider": "",
+  "original_transcript_id": null,
+  "metadata": {
+    "saved_audio_file": "tts-fe8e35987f164425ba61f8a7a600ee40-bca8213a_1792402870.wav",
+    "processed_audio_file": "tts-fe8e35987f164425ba61f8a7a600ee40-bca8213a_1792402870_processed.wav"
+  },
+  "title": "",
+  "subtitle": "",
+  "recording_datetime": "",
+  "location": "",
+  "audio_id": "",
+  "case_id": "",
+  "narrative_id": "",
+  "chronological_order": null,
+  "prior_stage": "",
+  "next_stage": "",
+  "classification": "",
+  "participants": [],
+  "violations_cited": [],
+  "tags": [],
+  "forensic_clusters": {},
+  "key_evidentiary_findings": [],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 1,
+      "speaker": "SPEAKER_00",
+      "start": 0.03096875,
+      "end": 0.047843750000000004,
+      "duration": 0.017,
+      "text": "",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": []
+    },
+    {
+      "index": 2,
+      "speaker": "SPEAKER_00",
+      "start": 0.08159375,
+      "end": 2.79846875,
+      "duration": 2.717,
+      "text": " Scena Willow, la strada.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Scena",
+          "start": 0.08159375,
+          "end": 0.66159375,
+          "probability": 0.8198457956314087
+        },
+        {
+          "word": " Willow,",
+          "start": 0.66159375,
+          "end": 1.44159375,
+          "probability": 0.8542762100696564
+        },
+        {
+          "word": " la",
+          "start": 1.84159375,
+          "end": 1.94159375,
+          "probability": 0.9113277792930603
+        },
+        {
+          "word": " strada.",
+          "start": 1.94159375,
+          "end": 2.52159375,
+          "probability": 0.9991625249385834
+        }
+      ]
+    }
+  ],
+  "reviewed": false
+}

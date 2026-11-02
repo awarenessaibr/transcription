@@ -1,0 +1,5640 @@
+{
+  "transcript_id": "giovannin-senza-paura-it_1792405374.mp4",
+  "source_file": "giovannin-senza-paura-it_1792405374.mp4.wav",
+  "source_path": "",
+  "language": "it",
+  "timestamp": "",
+  "provider": "",
+  "original_transcript_id": null,
+  "metadata": {
+    "saved_audio_file": "giovannin-senza-paura-it_1792405374.mp4.wav",
+    "processed_audio_file": "giovannin-senza-paura-it_1792405374.mp4_processed.wav"
+  },
+  "title": "",
+  "subtitle": "",
+  "recording_datetime": "",
+  "location": "",
+  "audio_id": "",
+  "case_id": "",
+  "narrative_id": "",
+  "chronological_order": null,
+  "prior_stage": "",
+  "next_stage": "",
+  "classification": "",
+  "participants": [],
+  "violations_cited": [],
+  "tags": [],
+  "forensic_clusters": {},
+  "key_evidentiary_findings": [],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 1,
+      "speaker": "SPEAKER_00",
+      "start": 0.70596875,
+      "end": 7.844093750000001,
+      "duration": 7.138,
+      "text": " Giovannin Senza Paura. Adattamento della fiaba popolare italiana. Italo Calvino.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Giovannin",
+          "start": 0.70596875,
+          "end": 1.52596875,
+          "probability": 0.9495570460955302
+        },
+        {
+          "word": " Senza",
+          "start": 1.52596875,
+          "end": 2.1059687499999997,
+          "probability": 0.7388701438903809
+        },
+        {
+          "word": " Paura.",
+          "start": 2.1059687499999997,
+          "end": 2.6459687499999998,
+          "probability": 0.9769680202007294
+        },
+        {
+          "word": " Adattamento",
+          "start": 2.9459687500000005,
+          "end": 4.02596875,
+          "probability": 0.9991288781166077
+        },
+        {
+          "word": " della",
+          "start": 4.02596875,
+          "end": 4.28596875,
+          "probability": 0.9993115663528442
+        },
+        {
+          "word": " fiaba",
+          "start": 4.28596875,
+          "end": 4.68596875,
+          "probability": 0.9359556436538696
+        },
+        {
+          "word": " popolare",
+          "start": 4.68596875,
+          "end": 5.28596875,
+          "probability": 0.9994029700756073
+        },
+        {
+          "word": " italiana.",
+          "start": 5.28596875,
+          "end": 5.9859687500000005,
+          "probability": 0.9998830854892731
+        },
+        {
+          "word": " Italo",
+          "start": 6.32596875,
+          "end": 7.00596875,
+          "probability": 0.9924953579902649
+        },
+        {
+          "word": " Calvino.",
+          "start": 7.00596875,
+          "end": 7.50596875,
+          "probability": 0.9478614727656046
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "speaker": "SPEAKER_00",
+      "start": 8.232218750000001,
+      "end": 22.00221875,
+      "duration": 13.77,
+      "text": " Fiabe italiane. La strada. C'era una volta un ragazzino che si chiamava Giovannino e tutti lo chiamavano senza paura. Il perché, presto detto, non aveva paura di niente.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Fiabe",
+          "start": 8.232218750000001,
+          "end": 8.692218750000002,
+          "probability": 0.7838753163814545
+        },
+        {
+          "word": " italiane.",
+          "start": 8.692218750000002,
+          "end": 9.472218750000001,
+          "probability": 0.9147990047931671
+        },
+        {
+          "word": " La",
+          "start": 9.812218750000001,
+          "end": 10.292218750000002,
+          "probability": 0.9894084930419922
+        },
+        {
+          "word": " strada.",
+          "start": 10.292218750000002,
+          "end": 10.872218750000002,
+          "probability": 0.9970353543758392
+        },
+        {
+          "word": " C",
+          "start": 11.132218750000002,
+          "end": 11.43221875,
+          "probability": 0.998964786529541
+        },
+        {
+          "word": "'era",
+          "start": 11.43221875,
+          "end": 11.59221875,
+          "probability": 0.9997639358043671
+        },
+        {
+          "word": " una",
+          "start": 11.59221875,
+          "end": 11.812218750000001,
+          "probability": 0.9999246597290039
+        },
+        {
+          "word": " volta",
+          "start": 11.812218750000001,
+          "end": 12.192218750000002,
+          "probability": 0.9999772310256958
+        },
+        {
+          "word": " un",
+          "start": 12.192218750000002,
+          "end": 12.43221875,
+          "probability": 0.9999063014984131
+        },
+        {
+          "word": " ragazzino",
+          "start": 12.43221875,
+          "end": 13.172218750000003,
+          "probability": 0.9999470710754395
+        },
+        {
+          "word": " che",
+          "start": 13.172218750000003,
+          "end": 13.332218750000001,
+          "probability": 0.9997552037239075
+        },
+        {
+          "word": " si",
+          "start": 13.332218750000001,
+          "end": 13.492218750000001,
+          "probability": 0.9999771118164062
+        },
+        {
+          "word": " chiamava",
+          "start": 13.492218750000001,
+          "end": 13.992218750000001,
+          "probability": 0.9997919201850891
+        },
+        {
+          "word": " Giovannino",
+          "start": 13.992218750000001,
+          "end": 14.812218750000001,
+          "probability": 0.9993349115053812
+        },
+        {
+          "word": " e",
+          "start": 14.812218750000001,
+          "end": 15.29221875,
+          "probability": 0.9589452147483826
+        },
+        {
+          "word": " tutti",
+          "start": 15.29221875,
+          "end": 15.632218750000002,
+          "probability": 0.9998891353607178
+        },
+        {
+          "word": " lo",
+          "start": 15.632218750000002,
+          "end": 15.832218750000001,
+          "probability": 0.9999433755874634
+        },
+        {
+          "word": " chiamavano",
+          "start": 15.832218750000001,
+          "end": 16.45221875,
+          "probability": 0.9998474568128586
+        },
+        {
+          "word": " senza",
+          "start": 16.45221875,
+          "end": 16.872218750000002,
+          "probability": 0.9913220405578613
+        },
+        {
+          "word": " paura.",
+          "start": 16.872218750000002,
+          "end": 17.49221875,
+          "probability": 0.9999451637268066
+        },
+        {
+          "word": " Il",
+          "start": 17.85221875,
+          "end": 18.27221875,
+          "probability": 0.9989217519760132
+        },
+        {
+          "word": " perché,",
+          "start": 18.27221875,
+          "end": 18.67221875,
+          "probability": 0.991910994052887
+        },
+        {
+          "word": " presto",
+          "start": 18.872218750000002,
+          "end": 19.292218750000004,
+          "probability": 0.9871667623519897
+        },
+        {
+          "word": " detto,",
+          "start": 19.292218750000004,
+          "end": 19.59221875,
+          "probability": 0.9998806715011597
+        },
+        {
+          "word": " non",
+          "start": 20.21221875,
+          "end": 20.39221875,
+          "probability": 0.9995601773262024
+        },
+        {
+          "word": " aveva",
+          "start": 20.39221875,
+          "end": 20.81221875,
+          "probability": 0.9999616146087646
+        },
+        {
+          "word": " paura",
+          "start": 20.81221875,
+          "end": 21.192218750000002,
+          "probability": 0.9999712109565735
+        },
+        {
+          "word": " di",
+          "start": 21.192218750000002,
+          "end": 21.39221875,
+          "probability": 0.9999865293502808
+        },
+        {
+          "word": " niente.",
+          "start": 21.39221875,
+          "end": 21.77221875,
+          "probability": 0.9999713897705078
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "speaker": "SPEAKER_00",
+      "start": 22.67721875,
+      "end": 25.39409375,
+      "duration": 2.717,
+      "text": " Né dei lupi, né del buio.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Né",
+          "start": 22.67721875,
+          "end": 23.05721875,
+          "probability": 0.7102304399013519
+        },
+        {
+          "word": " dei",
+          "start": 23.05721875,
+          "end": 23.21721875,
+          "probability": 0.9982908368110657
+        },
+        {
+          "word": " lupi,",
+          "start": 23.21721875,
+          "end": 23.85721875,
+          "probability": 0.9987265467643738
+        },
+        {
+          "word": " né",
+          "start": 24.01721875,
+          "end": 24.39721875,
+          "probability": 0.9965167045593262
+        },
+        {
+          "word": " del",
+          "start": 24.39721875,
+          "end": 24.597218750000003,
+          "probability": 0.9999369382858276
+        },
+        {
+          "word": " buio.",
+          "start": 24.597218750000003,
+          "end": 25.097218750000003,
+          "probability": 0.9932699501514435
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "speaker": "SPEAKER_00",
+      "start": 25.90034375,
+      "end": 31.418468750000002,
+      "duration": 5.518,
+      "text": " né dei temporali, così se ne andava in giro per il mondo fischiettando.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " né",
+          "start": 25.90034375,
+          "end": 26.28034375,
+          "probability": 0.8339058756828308
+        },
+        {
+          "word": " dei",
+          "start": 26.28034375,
+          "end": 26.500343750000003,
+          "probability": 0.9991349577903748
+        },
+        {
+          "word": " temporali,",
+          "start": 26.500343750000003,
+          "end": 27.360343750000002,
+          "probability": 0.9998526275157928
+        },
+        {
+          "word": " così",
+          "start": 27.76034375,
+          "end": 27.96034375,
+          "probability": 0.9988910555839539
+        },
+        {
+          "word": " se",
+          "start": 27.96034375,
+          "end": 28.180343750000002,
+          "probability": 0.9998661279678345
+        },
+        {
+          "word": " ne",
+          "start": 28.180343750000002,
+          "end": 28.32034375,
+          "probability": 0.9998747110366821
+        },
+        {
+          "word": " andava",
+          "start": 28.32034375,
+          "end": 28.700343750000002,
+          "probability": 0.9995229244232178
+        },
+        {
+          "word": " in",
+          "start": 28.700343750000002,
+          "end": 28.92034375,
+          "probability": 0.9998968839645386
+        },
+        {
+          "word": " giro",
+          "start": 28.92034375,
+          "end": 29.14034375,
+          "probability": 0.9999136328697205
+        },
+        {
+          "word": " per",
+          "start": 29.14034375,
+          "end": 29.360343750000002,
+          "probability": 0.9998252987861633
+        },
+        {
+          "word": " il",
+          "start": 29.360343750000002,
+          "end": 29.500343750000003,
+          "probability": 0.9999605417251587
+        },
+        {
+          "word": " mondo",
+          "start": 29.500343750000003,
+          "end": 29.860343750000002,
+          "probability": 0.9998185038566589
+        },
+        {
+          "word": " fischiettando.",
+          "start": 29.860343750000002,
+          "end": 30.96034375,
+          "probability": 0.9976889967918396
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "speaker": "SPEAKER_00",
+      "start": 31.688468750000002,
+      "end": 41.189093750000005,
+      "duration": 9.501,
+      "text": " Finché una sera il sole calò e capì che gli serviva un letto. La locanda! Bussò a una locanda e chiese una stanza per la notte.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Finché",
+          "start": 31.688468750000002,
+          "end": 32.16846875,
+          "probability": 0.8156667947769165
+        },
+        {
+          "word": " una",
+          "start": 32.16846875,
+          "end": 32.42846875,
+          "probability": 0.9971465468406677
+        },
+        {
+          "word": " sera",
+          "start": 32.42846875,
+          "end": 32.68846875,
+          "probability": 0.9998313188552856
+        },
+        {
+          "word": " il",
+          "start": 32.68846875,
+          "end": 32.88846875,
+          "probability": 0.9998152852058411
+        },
+        {
+          "word": " sole",
+          "start": 32.88846875,
+          "end": 33.16846875,
+          "probability": 0.9999018907546997
+        },
+        {
+          "word": " calò",
+          "start": 33.16846875,
+          "end": 33.64846875,
+          "probability": 0.9997571408748627
+        },
+        {
+          "word": " e",
+          "start": 33.64846875,
+          "end": 34.02846875,
+          "probability": 0.9945875406265259
+        },
+        {
+          "word": " capì",
+          "start": 34.02846875,
+          "end": 34.368468750000005,
+          "probability": 0.9996964037418365
+        },
+        {
+          "word": " che",
+          "start": 34.368468750000005,
+          "end": 34.50846875,
+          "probability": 0.9999208450317383
+        },
+        {
+          "word": " gli",
+          "start": 34.50846875,
+          "end": 34.64846875,
+          "probability": 0.999491810798645
+        },
+        {
+          "word": " serviva",
+          "start": 34.64846875,
+          "end": 35.16846875,
+          "probability": 0.999849945306778
+        },
+        {
+          "word": " un",
+          "start": 35.16846875,
+          "end": 35.32846875,
+          "probability": 0.9999754428863525
+        },
+        {
+          "word": " letto.",
+          "start": 35.32846875,
+          "end": 35.78846875,
+          "probability": 0.999811589717865
+        },
+        {
+          "word": " La",
+          "start": 35.94846875,
+          "end": 36.16846875,
+          "probability": 0.594195544719696
+        },
+        {
+          "word": " locanda!",
+          "start": 36.16846875,
+          "end": 36.88846875,
+          "probability": 0.9937485456466675
+        },
+        {
+          "word": " Bussò",
+          "start": 37.548468750000005,
+          "end": 38.06846875,
+          "probability": 0.9223894278208414
+        },
+        {
+          "word": " a",
+          "start": 38.06846875,
+          "end": 38.228468750000005,
+          "probability": 0.9994692206382751
+        },
+        {
+          "word": " una",
+          "start": 38.228468750000005,
+          "end": 38.408468750000004,
+          "probability": 0.9999332427978516
+        },
+        {
+          "word": " locanda",
+          "start": 38.408468750000004,
+          "end": 39.02846875,
+          "probability": 0.999725341796875
+        },
+        {
+          "word": " e",
+          "start": 39.02846875,
+          "end": 39.28846875,
+          "probability": 0.999869704246521
+        },
+        {
+          "word": " chiese",
+          "start": 39.28846875,
+          "end": 39.62846875,
+          "probability": 0.9988059103488922
+        },
+        {
+          "word": " una",
+          "start": 39.62846875,
+          "end": 39.868468750000005,
+          "probability": 0.9999152421951294
+        },
+        {
+          "word": " stanza",
+          "start": 39.868468750000005,
+          "end": 40.368468750000005,
+          "probability": 0.9997084140777588
+        },
+        {
+          "word": " per",
+          "start": 40.368468750000005,
+          "end": 40.648468750000006,
+          "probability": 0.9999825954437256
+        },
+        {
+          "word": " la",
+          "start": 40.648468750000006,
+          "end": 40.80846875,
+          "probability": 0.9999804496765137
+        },
+        {
+          "word": " notte.",
+          "start": 40.80846875,
+          "end": 41.02846875,
+          "probability": 0.9979542195796967
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "speaker": "SPEAKER_01",
+      "start": 41.189093750000005,
+      "end": 41.25659375,
+      "duration": 0.067,
+      "text": " Grazie.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Grazie.",
+          "start": 41.189093750000005,
+          "end": 41.20909375000001,
+          "probability": 0.7878385782241821
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "speaker": "SPEAKER_00",
+      "start": 41.25659375,
+      "end": 41.45909375,
+      "duration": 0.203,
+      "text": " Grazie.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Grazie.",
+          "start": 41.25659375,
+          "end": 41.33659375,
+          "probability": 0.6733830571174622
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "speaker": "SPEAKER_01",
+      "start": 42.10034375,
+      "end": 43.55159375,
+      "duration": 1.451,
+      "text": " Mi dispiace, ragazzo.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Mi",
+          "start": 42.10034375,
+          "end": 42.24034375,
+          "probability": 0.8878664374351501
+        },
+        {
+          "word": " dispiace,",
+          "start": 42.24034375,
+          "end": 42.82034375,
+          "probability": 0.999477485815684
+        },
+        {
+          "word": " ragazzo.",
+          "start": 42.940343750000004,
+          "end": 43.40034375,
+          "probability": 0.999719480673472
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "speaker": "SPEAKER_01",
+      "start": 44.024093750000006,
+      "end": 45.407843750000005,
+      "duration": 1.384,
+      "text": " Posto qui non ce n'è.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Posto",
+          "start": 44.024093750000006,
+          "end": 44.46409375,
+          "probability": 0.6409454047679901
+        },
+        {
+          "word": " qui",
+          "start": 44.46409375,
+          "end": 44.604093750000004,
+          "probability": 0.9560679197311401
+        },
+        {
+          "word": " non",
+          "start": 44.604093750000004,
+          "end": 44.784093750000004,
+          "probability": 0.9844448566436768
+        },
+        {
+          "word": " ce",
+          "start": 44.784093750000004,
+          "end": 44.96409375,
+          "probability": 0.9967291355133057
+        },
+        {
+          "word": " n",
+          "start": 44.96409375,
+          "end": 45.064093750000005,
+          "probability": 0.992830216884613
+        },
+        {
+          "word": "'è.",
+          "start": 45.064093750000005,
+          "end": 45.14409375,
+          "probability": 0.997498482465744
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "speaker": "SPEAKER_01",
+      "start": 45.67784375,
+      "end": 46.16721875,
+      "duration": 0.489,
+      "text": " Però",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Però",
+          "start": 45.67784375,
+          "end": 45.93784375,
+          "probability": 0.718325138092041
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "speaker": "SPEAKER_01",
+      "start": 46.572218750000005,
+      "end": 49.91346875,
+      "duration": 3.341,
+      "text": " Se davvero non hai paura, c'è un palazzo qui vicino.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Se",
+          "start": 46.572218750000005,
+          "end": 46.79221875,
+          "probability": 0.8880901336669922
+        },
+        {
+          "word": " davvero",
+          "start": 46.79221875,
+          "end": 47.252218750000004,
+          "probability": 0.9996420443058014
+        },
+        {
+          "word": " non",
+          "start": 47.252218750000004,
+          "end": 47.392218750000005,
+          "probability": 0.9989532232284546
+        },
+        {
+          "word": " hai",
+          "start": 47.392218750000005,
+          "end": 47.55221875,
+          "probability": 0.9985886216163635
+        },
+        {
+          "word": " paura,",
+          "start": 47.55221875,
+          "end": 47.97221875,
+          "probability": 0.9999054670333862
+        },
+        {
+          "word": " c",
+          "start": 48.212218750000005,
+          "end": 48.572218750000005,
+          "probability": 0.9990756511688232
+        },
+        {
+          "word": "'è",
+          "start": 48.572218750000005,
+          "end": 48.63221875000001,
+          "probability": 0.9995255470275879
+        },
+        {
+          "word": " un",
+          "start": 48.63221875000001,
+          "end": 48.73221875,
+          "probability": 0.9995217323303223
+        },
+        {
+          "word": " palazzo",
+          "start": 48.73221875,
+          "end": 49.172218750000006,
+          "probability": 0.9989243944485983
+        },
+        {
+          "word": " qui",
+          "start": 49.172218750000006,
+          "end": 49.33221875,
+          "probability": 0.9990218877792358
+        },
+        {
+          "word": " vicino.",
+          "start": 49.33221875,
+          "end": 49.752218750000004,
+          "probability": 0.9999176263809204
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "speaker": "SPEAKER_01",
+      "start": 50.672843750000006,
+      "end": 52.09034375,
+      "duration": 1.417,
+      "text": " Ti ci mando volentieri.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Ti",
+          "start": 50.672843750000006,
+          "end": 50.83284375,
+          "probability": 0.6029640436172485
+        },
+        {
+          "word": " ci",
+          "start": 50.83284375,
+          "end": 50.992843750000006,
+          "probability": 0.9598117470741272
+        },
+        {
+          "word": " mando",
+          "start": 50.992843750000006,
+          "end": 51.29284375,
+          "probability": 0.9994567334651947
+        },
+        {
+          "word": " volentieri.",
+          "start": 51.29284375,
+          "end": 51.95284375000001,
+          "probability": 0.9987035393714905
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "speaker": "SPEAKER_00",
+      "start": 52.782218750000006,
+      "end": 54.21659375,
+      "duration": 1.434,
+      "text": " E perché dovrai avere paura?",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " E",
+          "start": 52.782218750000006,
+          "end": 52.90221875,
+          "probability": 0.8599388599395752
+        },
+        {
+          "word": " perché",
+          "start": 52.90221875,
+          "end": 53.182218750000004,
+          "probability": 0.9720767140388489
+        },
+        {
+          "word": " dovrai",
+          "start": 53.182218750000004,
+          "end": 53.48221875000001,
+          "probability": 0.9379605948925018
+        },
+        {
+          "word": " avere",
+          "start": 53.48221875000001,
+          "end": 53.70221875000001,
+          "probability": 0.9993948936462402
+        },
+        {
+          "word": " paura?",
+          "start": 53.70221875000001,
+          "end": 54.08221875,
+          "probability": 0.9998920261859894
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "speaker": "SPEAKER_01",
+      "start": 54.82409375,
+      "end": 57.659093750000004,
+      "duration": 2.835,
+      "text": " Perché chi ci è entrato non è mai uscito vivo.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Perché",
+          "start": 54.82409375,
+          "end": 55.104093750000004,
+          "probability": 0.5409989356994629
+        },
+        {
+          "word": " chi",
+          "start": 55.104093750000004,
+          "end": 55.30409375,
+          "probability": 0.9981746673583984
+        },
+        {
+          "word": " ci",
+          "start": 55.30409375,
+          "end": 55.46409375,
+          "probability": 0.9370612502098083
+        },
+        {
+          "word": " è",
+          "start": 55.46409375,
+          "end": 55.54409375,
+          "probability": 0.9983901977539062
+        },
+        {
+          "word": " entrato",
+          "start": 55.54409375,
+          "end": 56.04409375,
+          "probability": 0.9998951256275177
+        },
+        {
+          "word": " non",
+          "start": 56.04409375,
+          "end": 56.26409375,
+          "probability": 0.9945682287216187
+        },
+        {
+          "word": " è",
+          "start": 56.26409375,
+          "end": 56.44409375,
+          "probability": 0.6463019251823425
+        },
+        {
+          "word": " mai",
+          "start": 56.44409375,
+          "end": 56.72409375,
+          "probability": 0.9997876286506653
+        },
+        {
+          "word": " uscito",
+          "start": 56.72409375,
+          "end": 57.12409375,
+          "probability": 0.9997639656066895
+        },
+        {
+          "word": " vivo.",
+          "start": 57.12409375,
+          "end": 57.424093750000004,
+          "probability": 0.9990665316581726
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "speaker": "SPEAKER_01",
+      "start": 58.11471875,
+      "end": 63.632843750000006,
+      "duration": 5.518,
+      "text": " Ogni mattina arriva la compagnia con la bara a portare via chi ha avuto il coraggio di dormirci.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Ogni",
+          "start": 58.11471875,
+          "end": 58.494718750000004,
+          "probability": 0.9811074733734131
+        },
+        {
+          "word": " mattina",
+          "start": 58.494718750000004,
+          "end": 58.954718750000005,
+          "probability": 0.9998312890529633
+        },
+        {
+          "word": " arriva",
+          "start": 58.954718750000005,
+          "end": 59.29471875,
+          "probability": 0.997609943151474
+        },
+        {
+          "word": " la",
+          "start": 59.29471875,
+          "end": 59.41471875,
+          "probability": 0.9894168972969055
+        },
+        {
+          "word": " compagnia",
+          "start": 59.41471875,
+          "end": 59.97471875,
+          "probability": 0.9980827371279398
+        },
+        {
+          "word": " con",
+          "start": 59.97471875,
+          "end": 60.174718750000004,
+          "probability": 0.9957759976387024
+        },
+        {
+          "word": " la",
+          "start": 60.174718750000004,
+          "end": 60.274718750000005,
+          "probability": 0.9406068921089172
+        },
+        {
+          "word": " bara",
+          "start": 60.274718750000005,
+          "end": 60.57471875,
+          "probability": 0.826625645160675
+        },
+        {
+          "word": " a",
+          "start": 60.57471875,
+          "end": 61.05471875,
+          "probability": 0.8058135509490967
+        },
+        {
+          "word": " portare",
+          "start": 61.05471875,
+          "end": 61.43471875,
+          "probability": 0.9998477101325989
+        },
+        {
+          "word": " via",
+          "start": 61.43471875,
+          "end": 61.73471875,
+          "probability": 0.9998742341995239
+        },
+        {
+          "word": " chi",
+          "start": 61.73471875,
+          "end": 61.89471875,
+          "probability": 0.9836472868919373
+        },
+        {
+          "word": " ha",
+          "start": 61.89471875,
+          "end": 61.994718750000004,
+          "probability": 0.9995067119598389
+        },
+        {
+          "word": " avuto",
+          "start": 61.994718750000004,
+          "end": 62.21471875,
+          "probability": 0.9998902678489685
+        },
+        {
+          "word": " il",
+          "start": 62.21471875,
+          "end": 62.33471875,
+          "probability": 0.9994009733200073
+        },
+        {
+          "word": " coraggio",
+          "start": 62.33471875,
+          "end": 62.75471875,
+          "probability": 0.9998210668563843
+        },
+        {
+          "word": " di",
+          "start": 62.75471875,
+          "end": 62.89471875,
+          "probability": 0.9997819066047668
+        },
+        {
+          "word": " dormirci.",
+          "start": 62.89471875,
+          "end": 63.494718750000004,
+          "probability": 0.9961230456829071
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "speaker": "SPEAKER_00",
+      "start": 63.83534375000001,
+      "end": 94.41284375000001,
+      "duration": 30.578,
+      "text": " Pensate che Giovannino si spaventò, ma che? Si fece dare un lume, una bottiglia di vino e una bella salciccia, e partì tutto contento. La porta del palazzo, il palazzo sorgeva fuori dal paese, tra muri coperti d'edera e di muschio. La luna era alta, il sentiero deserto. Giovannino alzò il lume e si avvicinò alla porta, che era già aperta, nera come una bocca.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Pensate",
+          "start": 63.83534375000001,
+          "end": 64.45534375000001,
+          "probability": 0.9312676787376404
+        },
+        {
+          "word": " che",
+          "start": 64.45534375000001,
+          "end": 64.65534375,
+          "probability": 0.9999707937240601
+        },
+        {
+          "word": " Giovannino",
+          "start": 64.65534375,
+          "end": 65.33534375,
+          "probability": 0.9988265037536621
+        },
+        {
+          "word": " si",
+          "start": 65.33534375,
+          "end": 65.55534375,
+          "probability": 0.9998607635498047
+        },
+        {
+          "word": " spaventò,",
+          "start": 65.55534375,
+          "end": 66.33534375,
+          "probability": 0.9999092072248459
+        },
+        {
+          "word": " ma",
+          "start": 66.57534375,
+          "end": 66.83534375,
+          "probability": 0.9997237324714661
+        },
+        {
+          "word": " che?",
+          "start": 66.83534375,
+          "end": 67.05534375,
+          "probability": 0.9996323585510254
+        },
+        {
+          "word": " Si",
+          "start": 67.29534375,
+          "end": 67.77534375,
+          "probability": 0.9963436722755432
+        },
+        {
+          "word": " fece",
+          "start": 67.77534375,
+          "end": 68.13534375,
+          "probability": 0.9998688399791718
+        },
+        {
+          "word": " dare",
+          "start": 68.13534375,
+          "end": 68.43534375,
+          "probability": 0.9995315074920654
+        },
+        {
+          "word": " un",
+          "start": 68.43534375,
+          "end": 68.65534375000001,
+          "probability": 0.9999719858169556
+        },
+        {
+          "word": " lume,",
+          "start": 68.65534375000001,
+          "end": 69.11534375000001,
+          "probability": 0.9994314610958099
+        },
+        {
+          "word": " una",
+          "start": 69.59534375000001,
+          "end": 69.99534375,
+          "probability": 0.9998021721839905
+        },
+        {
+          "word": " bottiglia",
+          "start": 69.99534375,
+          "end": 70.63534375,
+          "probability": 0.999905546506246
+        },
+        {
+          "word": " di",
+          "start": 70.63534375,
+          "end": 70.81534375000001,
+          "probability": 0.9997629523277283
+        },
+        {
+          "word": " vino",
+          "start": 70.81534375000001,
+          "end": 71.21534375,
+          "probability": 0.9999574422836304
+        },
+        {
+          "word": " e",
+          "start": 71.21534375,
+          "end": 71.45534375000001,
+          "probability": 0.9991745352745056
+        },
+        {
+          "word": " una",
+          "start": 71.45534375000001,
+          "end": 71.67534375000001,
+          "probability": 0.9999667406082153
+        },
+        {
+          "word": " bella",
+          "start": 71.67534375000001,
+          "end": 72.01534375,
+          "probability": 0.9999510049819946
+        },
+        {
+          "word": " salciccia,",
+          "start": 72.01534375,
+          "end": 72.83534375,
+          "probability": 0.9497290104627609
+        },
+        {
+          "word": " e",
+          "start": 72.99534375,
+          "end": 73.61534375000001,
+          "probability": 0.9998592138290405
+        },
+        {
+          "word": " partì",
+          "start": 73.61534375000001,
+          "end": 74.03534375000001,
+          "probability": 0.9993763566017151
+        },
+        {
+          "word": " tutto",
+          "start": 74.03534375000001,
+          "end": 74.31534375000001,
+          "probability": 0.9999376535415649
+        },
+        {
+          "word": " contento.",
+          "start": 74.31534375000001,
+          "end": 75.19534375,
+          "probability": 0.9999382495880127
+        },
+        {
+          "word": " La",
+          "start": 75.39534375000001,
+          "end": 75.85534375,
+          "probability": 0.9964883327484131
+        },
+        {
+          "word": " porta",
+          "start": 75.85534375,
+          "end": 76.25534375000001,
+          "probability": 0.9978272318840027
+        },
+        {
+          "word": " del",
+          "start": 76.25534375000001,
+          "end": 76.51534375,
+          "probability": 0.9999480247497559
+        },
+        {
+          "word": " palazzo,",
+          "start": 76.51534375,
+          "end": 77.23534375000001,
+          "probability": 0.999367872873942
+        },
+        {
+          "word": " il",
+          "start": 77.37534375000001,
+          "end": 77.79534375,
+          "probability": 0.999642014503479
+        },
+        {
+          "word": " palazzo",
+          "start": 77.79534375,
+          "end": 78.31534375000001,
+          "probability": 0.9999417861302694
+        },
+        {
+          "word": " sorgeva",
+          "start": 78.31534375000001,
+          "end": 78.85534375,
+          "probability": 0.9990584850311279
+        },
+        {
+          "word": " fuori",
+          "start": 78.85534375,
+          "end": 79.19534375,
+          "probability": 0.999967098236084
+        },
+        {
+          "word": " dal",
+          "start": 79.19534375,
+          "end": 79.39534375000001,
+          "probability": 0.9998927116394043
+        },
+        {
+          "word": " paese,",
+          "start": 79.39534375000001,
+          "end": 79.95534375000001,
+          "probability": 0.9998043775558472
+        },
+        {
+          "word": " tra",
+          "start": 80.29534375,
+          "end": 80.75534375000001,
+          "probability": 0.9509410858154297
+        },
+        {
+          "word": " muri",
+          "start": 80.75534375000001,
+          "end": 81.07534375,
+          "probability": 0.9991767704486847
+        },
+        {
+          "word": " coperti",
+          "start": 81.07534375,
+          "end": 81.61534375000001,
+          "probability": 0.9995273947715759
+        },
+        {
+          "word": " d",
+          "start": 81.61534375000001,
+          "end": 81.79534375,
+          "probability": 0.9712387919425964
+        },
+        {
+          "word": "'edera",
+          "start": 81.79534375,
+          "end": 82.13534375,
+          "probability": 0.9856531222661337
+        },
+        {
+          "word": " e",
+          "start": 82.13534375,
+          "end": 82.27534375,
+          "probability": 0.9999221563339233
+        },
+        {
+          "word": " di",
+          "start": 82.27534375,
+          "end": 82.45534375000001,
+          "probability": 0.9999250173568726
+        },
+        {
+          "word": " muschio.",
+          "start": 82.45534375000001,
+          "end": 82.89534375000001,
+          "probability": 0.9984562993049622
+        },
+        {
+          "word": " La",
+          "start": 83.19534375,
+          "end": 83.59534375000001,
+          "probability": 0.9990941286087036
+        },
+        {
+          "word": " luna",
+          "start": 83.59534375000001,
+          "end": 83.93534375000002,
+          "probability": 0.9987789988517761
+        },
+        {
+          "word": " era",
+          "start": 83.93534375000002,
+          "end": 84.17534375000001,
+          "probability": 0.9999436140060425
+        },
+        {
+          "word": " alta,",
+          "start": 84.17534375000001,
+          "end": 84.57534375,
+          "probability": 0.9998911619186401
+        },
+        {
+          "word": " il",
+          "start": 85.01534375,
+          "end": 85.29534375,
+          "probability": 0.9998284578323364
+        },
+        {
+          "word": " sentiero",
+          "start": 85.29534375,
+          "end": 85.85534375,
+          "probability": 0.9995690882205963
+        },
+        {
+          "word": " deserto.",
+          "start": 85.85534375,
+          "end": 86.61534375000001,
+          "probability": 0.9996510744094849
+        },
+        {
+          "word": " Giovannino",
+          "start": 87.25534375000001,
+          "end": 88.01534375,
+          "probability": 0.9987369179725647
+        },
+        {
+          "word": " alzò",
+          "start": 88.01534375,
+          "end": 88.45534375000001,
+          "probability": 0.9973395466804504
+        },
+        {
+          "word": " il",
+          "start": 88.45534375000001,
+          "end": 88.59534375000001,
+          "probability": 0.9995338916778564
+        },
+        {
+          "word": " lume",
+          "start": 88.59534375000001,
+          "end": 88.91534375,
+          "probability": 0.9995291233062744
+        },
+        {
+          "word": " e",
+          "start": 88.91534375,
+          "end": 89.07534375,
+          "probability": 0.9989466071128845
+        },
+        {
+          "word": " si",
+          "start": 89.07534375,
+          "end": 89.23534375,
+          "probability": 0.9999607801437378
+        },
+        {
+          "word": " avvicinò",
+          "start": 89.23534375,
+          "end": 89.75534375000001,
+          "probability": 0.9999657273292542
+        },
+        {
+          "word": " alla",
+          "start": 89.75534375000001,
+          "end": 89.91534375,
+          "probability": 0.999832272529602
+        },
+        {
+          "word": " porta,",
+          "start": 89.91534375,
+          "end": 90.33534375,
+          "probability": 0.9997277855873108
+        },
+        {
+          "word": " che",
+          "start": 90.57534375,
+          "end": 91.01534375,
+          "probability": 0.999962568283081
+        },
+        {
+          "word": " era",
+          "start": 91.01534375,
+          "end": 91.25534375000001,
+          "probability": 0.9999403953552246
+        },
+        {
+          "word": " già",
+          "start": 91.25534375000001,
+          "end": 91.45534375000001,
+          "probability": 0.9998857975006104
+        },
+        {
+          "word": " aperta,",
+          "start": 91.45534375000001,
+          "end": 92.09534375000001,
+          "probability": 0.9999331831932068
+        },
+        {
+          "word": " nera",
+          "start": 92.81534375000001,
+          "end": 93.11534375000001,
+          "probability": 0.9998280704021454
+        },
+        {
+          "word": " come",
+          "start": 93.11534375000001,
+          "end": 93.41534375,
+          "probability": 0.9999245405197144
+        },
+        {
+          "word": " una",
+          "start": 93.41534375,
+          "end": 93.63534375,
+          "probability": 0.9999260902404785
+        },
+        {
+          "word": " bocca.",
+          "start": 93.63534375,
+          "end": 94.03534375000001,
+          "probability": 0.9996823966503143
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "speaker": "SPEAKER_00",
+      "start": 94.51409375,
+      "end": 100.58909375,
+      "duration": 6.075,
+      "text": " Chiunque altro sarebbe tornato indietro. Lui entrò con la sua ombra lunga dietro di sé.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Chiunque",
+          "start": 94.51409375,
+          "end": 95.15409375,
+          "probability": 0.9385336438814799
+        },
+        {
+          "word": " altro",
+          "start": 95.15409375,
+          "end": 95.47409375,
+          "probability": 0.9996021389961243
+        },
+        {
+          "word": " sarebbe",
+          "start": 95.47409375,
+          "end": 95.99409375,
+          "probability": 0.9999437928199768
+        },
+        {
+          "word": " tornato",
+          "start": 95.99409375,
+          "end": 96.49409375,
+          "probability": 0.9998214840888977
+        },
+        {
+          "word": " indietro.",
+          "start": 96.49409375,
+          "end": 97.13409375,
+          "probability": 0.9999545812606812
+        },
+        {
+          "word": " Lui",
+          "start": 97.33409375,
+          "end": 97.87409375,
+          "probability": 0.9995556771755219
+        },
+        {
+          "word": " entrò",
+          "start": 97.87409375,
+          "end": 98.29409375,
+          "probability": 0.999854177236557
+        },
+        {
+          "word": " con",
+          "start": 98.29409375,
+          "end": 98.53409375,
+          "probability": 0.9997074007987976
+        },
+        {
+          "word": " la",
+          "start": 98.53409375,
+          "end": 98.65409375,
+          "probability": 0.9999024868011475
+        },
+        {
+          "word": " sua",
+          "start": 98.65409375,
+          "end": 98.83409375,
+          "probability": 0.9992978572845459
+        },
+        {
+          "word": " ombra",
+          "start": 98.83409375,
+          "end": 99.23409375,
+          "probability": 0.999543309211731
+        },
+        {
+          "word": " lunga",
+          "start": 99.23409375,
+          "end": 99.61409375,
+          "probability": 0.9996696710586548
+        },
+        {
+          "word": " dietro",
+          "start": 99.61409375,
+          "end": 99.91409375,
+          "probability": 0.9998797476291656
+        },
+        {
+          "word": " di",
+          "start": 99.91409375,
+          "end": 100.05409375,
+          "probability": 0.9999914169311523
+        },
+        {
+          "word": " sé.",
+          "start": 100.05409375,
+          "end": 100.27409375,
+          "probability": 0.9964599013328552
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "speaker": "SPEAKER_00",
+      "start": 100.89284375000001,
+      "end": 113.02596875,
+      "duration": 12.133,
+      "text": " La sala del palazzo a mezzanotte. Il palazzo era grande, freddo e pieno d'ombre. Giovannino si sedette a tavola, accanto al camino, e cominciò a cenare.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " La",
+          "start": 100.89284375000001,
+          "end": 101.13284375,
+          "probability": 0.8124930262565613
+        },
+        {
+          "word": " sala",
+          "start": 101.13284375,
+          "end": 101.51284375000002,
+          "probability": 0.9990027546882629
+        },
+        {
+          "word": " del",
+          "start": 101.51284375000002,
+          "end": 101.73284375000001,
+          "probability": 0.999883770942688
+        },
+        {
+          "word": " palazzo",
+          "start": 101.73284375000001,
+          "end": 102.33284375000001,
+          "probability": 0.9987329443295797
+        },
+        {
+          "word": " a",
+          "start": 102.33284375000001,
+          "end": 102.45284375000001,
+          "probability": 0.9672693014144897
+        },
+        {
+          "word": " mezzanotte.",
+          "start": 102.45284375000001,
+          "end": 103.17284375000001,
+          "probability": 0.999560534954071
+        },
+        {
+          "word": " Il",
+          "start": 103.39284375000001,
+          "end": 103.75284375000001,
+          "probability": 0.999553382396698
+        },
+        {
+          "word": " palazzo",
+          "start": 103.75284375000001,
+          "end": 104.33284375000001,
+          "probability": 0.9999223152796427
+        },
+        {
+          "word": " era",
+          "start": 104.33284375000001,
+          "end": 104.51284375000002,
+          "probability": 0.9999154806137085
+        },
+        {
+          "word": " grande,",
+          "start": 104.51284375000002,
+          "end": 104.99284375,
+          "probability": 0.9999369382858276
+        },
+        {
+          "word": " freddo",
+          "start": 105.33284375000001,
+          "end": 105.71284375000002,
+          "probability": 0.9997455477714539
+        },
+        {
+          "word": " e",
+          "start": 105.71284375000002,
+          "end": 105.83284375000001,
+          "probability": 0.9999058246612549
+        },
+        {
+          "word": " pieno",
+          "start": 105.83284375000001,
+          "end": 106.23284375000001,
+          "probability": 0.9999351501464844
+        },
+        {
+          "word": " d",
+          "start": 106.23284375000001,
+          "end": 106.35284375,
+          "probability": 0.9992846846580505
+        },
+        {
+          "word": "'ombre.",
+          "start": 106.35284375,
+          "end": 106.65284375000002,
+          "probability": 0.9952176411946615
+        },
+        {
+          "word": " Giovannino",
+          "start": 107.27284375,
+          "end": 107.89284375000001,
+          "probability": 0.9986132979393005
+        },
+        {
+          "word": " si",
+          "start": 107.89284375000001,
+          "end": 108.07284375,
+          "probability": 0.9996501207351685
+        },
+        {
+          "word": " sedette",
+          "start": 108.07284375,
+          "end": 108.57284375,
+          "probability": 0.8523604869842529
+        },
+        {
+          "word": " a",
+          "start": 108.57284375,
+          "end": 108.79284375000002,
+          "probability": 0.9999101161956787
+        },
+        {
+          "word": " tavola,",
+          "start": 108.79284375000002,
+          "end": 109.31284375000001,
+          "probability": 0.9998747706413269
+        },
+        {
+          "word": " accanto",
+          "start": 109.59284375000001,
+          "end": 110.31284375000001,
+          "probability": 0.9997395575046539
+        },
+        {
+          "word": " al",
+          "start": 110.31284375000001,
+          "end": 110.47284375000001,
+          "probability": 0.9998642206192017
+        },
+        {
+          "word": " camino,",
+          "start": 110.47284375000001,
+          "end": 110.91284375000001,
+          "probability": 0.8568296432495117
+        },
+        {
+          "word": " e",
+          "start": 111.21284375000002,
+          "end": 111.51284375000002,
+          "probability": 0.9998471736907959
+        },
+        {
+          "word": " cominciò",
+          "start": 111.51284375000002,
+          "end": 112.13284375,
+          "probability": 0.9998230536778768
+        },
+        {
+          "word": " a",
+          "start": 112.13284375,
+          "end": 112.27284375,
+          "probability": 0.9999891519546509
+        },
+        {
+          "word": " cenare.",
+          "start": 112.27284375,
+          "end": 112.79284375000002,
+          "probability": 0.9994968771934509
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "speaker": "SPEAKER_00",
+      "start": 114.07221875,
+      "end": 120.23159375,
+      "duration": 6.159,
+      "text": " A mezzanotte in punto, una voce cupa scese giù per la cappa del camino. Butto?",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " A",
+          "start": 114.07221875,
+          "end": 114.21221875,
+          "probability": 0.9095076322555542
+        },
+        {
+          "word": " mezzanotte",
+          "start": 114.21221875,
+          "end": 114.87221875,
+          "probability": 0.9996644705533981
+        },
+        {
+          "word": " in",
+          "start": 114.87221875,
+          "end": 115.15221875,
+          "probability": 0.9969204664230347
+        },
+        {
+          "word": " punto,",
+          "start": 115.15221875,
+          "end": 115.49221875,
+          "probability": 0.9892421364784241
+        },
+        {
+          "word": " una",
+          "start": 116.15221875,
+          "end": 116.37221875,
+          "probability": 0.9992287158966064
+        },
+        {
+          "word": " voce",
+          "start": 116.37221875,
+          "end": 116.75221875000001,
+          "probability": 0.9995436072349548
+        },
+        {
+          "word": " cupa",
+          "start": 116.75221875000001,
+          "end": 117.13221875,
+          "probability": 0.9660117626190186
+        },
+        {
+          "word": " scese",
+          "start": 117.13221875,
+          "end": 117.57221875,
+          "probability": 0.9451353847980499
+        },
+        {
+          "word": " giù",
+          "start": 117.57221875,
+          "end": 117.83221875000001,
+          "probability": 0.9995816349983215
+        },
+        {
+          "word": " per",
+          "start": 117.83221875000001,
+          "end": 118.05221875000001,
+          "probability": 0.9998948574066162
+        },
+        {
+          "word": " la",
+          "start": 118.05221875000001,
+          "end": 118.21221875,
+          "probability": 0.9998968839645386
+        },
+        {
+          "word": " cappa",
+          "start": 118.21221875,
+          "end": 118.55221875000001,
+          "probability": 0.9893397092819214
+        },
+        {
+          "word": " del",
+          "start": 118.55221875000001,
+          "end": 118.75221875,
+          "probability": 0.9998863935470581
+        },
+        {
+          "word": " camino.",
+          "start": 118.75221875,
+          "end": 119.21221875,
+          "probability": 0.9148180484771729
+        },
+        {
+          "word": " Butto?",
+          "start": 119.69221875000001,
+          "end": 120.05221875000001,
+          "probability": 0.950931966304779
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "speaker": "SPEAKER_00",
+      "start": 120.67034375,
+      "end": 123.92721875000001,
+      "duration": 3.257,
+      "text": " E dal cammino cadde una gamba.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " E",
+          "start": 120.67034375,
+          "end": 121.61034375,
+          "probability": 0.6679419875144958
+        },
+        {
+          "word": " dal",
+          "start": 121.61034375,
+          "end": 121.73034375,
+          "probability": 0.2994900941848755
+        },
+        {
+          "word": " cammino",
+          "start": 121.73034375,
+          "end": 122.43034375,
+          "probability": 0.8008789320786794
+        },
+        {
+          "word": " cadde",
+          "start": 122.43034375,
+          "end": 122.81034375,
+          "probability": 0.995209276676178
+        },
+        {
+          "word": " una",
+          "start": 122.81034375,
+          "end": 123.03034375,
+          "probability": 0.9995567202568054
+        },
+        {
+          "word": " gamba.",
+          "start": 123.03034375,
+          "end": 123.51034375,
+          "probability": 0.9996721148490906
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "speaker": "SPEAKER_00",
+      "start": 124.51784375000001,
+      "end": 127.67346875000001,
+      "duration": 3.156,
+      "text": " Una gamba d'uomo, grossa come un tronco.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Una",
+          "start": 124.51784375000001,
+          "end": 124.75784375,
+          "probability": 0.7400400042533875
+        },
+        {
+          "word": " gamba",
+          "start": 124.75784375,
+          "end": 125.13784375000002,
+          "probability": 0.9994187951087952
+        },
+        {
+          "word": " d",
+          "start": 125.13784375000002,
+          "end": 125.33784375,
+          "probability": 0.9751255512237549
+        },
+        {
+          "word": "'uomo,",
+          "start": 125.33784375,
+          "end": 125.65784375000001,
+          "probability": 0.9991776347160339
+        },
+        {
+          "word": " grossa",
+          "start": 125.83784375,
+          "end": 126.21784375000001,
+          "probability": 0.9978349208831787
+        },
+        {
+          "word": " come",
+          "start": 126.21784375000001,
+          "end": 126.53784375000001,
+          "probability": 0.9989890456199646
+        },
+        {
+          "word": " un",
+          "start": 126.53784375000001,
+          "end": 126.67784375000001,
+          "probability": 0.999882698059082
+        },
+        {
+          "word": " tronco.",
+          "start": 126.67784375000001,
+          "end": 127.23784375000001,
+          "probability": 0.999929944674174
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "speaker": "SPEAKER_00",
+      "start": 127.92659375000001,
+      "end": 131.52096875,
+      "duration": 3.594,
+      "text": " Giovannino si versò un bicchiere di vino. Butto?",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Giovannino",
+          "start": 127.92659375000001,
+          "end": 128.70659375,
+          "probability": 0.9840652147928873
+        },
+        {
+          "word": " si",
+          "start": 128.70659375,
+          "end": 128.90659375,
+          "probability": 0.9979187846183777
+        },
+        {
+          "word": " versò",
+          "start": 128.90659375,
+          "end": 129.32659375,
+          "probability": 0.9996217489242554
+        },
+        {
+          "word": " un",
+          "start": 129.32659375,
+          "end": 129.48659375,
+          "probability": 0.9994125366210938
+        },
+        {
+          "word": " bicchiere",
+          "start": 129.48659375,
+          "end": 129.92659375,
+          "probability": 0.9989073276519775
+        },
+        {
+          "word": " di",
+          "start": 129.92659375,
+          "end": 130.10659375,
+          "probability": 0.9957079887390137
+        },
+        {
+          "word": " vino.",
+          "start": 130.10659375,
+          "end": 130.48659375,
+          "probability": 0.9998273849487305
+        },
+        {
+          "word": " Butto?",
+          "start": 130.76659375,
+          "end": 131.18659375000001,
+          "probability": 0.8569738566875458
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "speaker": "SPEAKER_00",
+      "start": 131.70659375,
+      "end": 138.16971875000002,
+      "duration": 6.463,
+      "text": " e butta. Cadde un'altra gamba. Giovannino addentò la salciccia. Butto.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " e",
+          "start": 131.70659375,
+          "end": 131.94659375,
+          "probability": 0.3064711391925812
+        },
+        {
+          "word": " butta.",
+          "start": 131.94659375,
+          "end": 132.36659375,
+          "probability": 0.9824098944664001
+        },
+        {
+          "word": " Cadde",
+          "start": 132.48659375,
+          "end": 133.02659375,
+          "probability": 0.9851923882961273
+        },
+        {
+          "word": " un",
+          "start": 133.02659375,
+          "end": 133.24659375,
+          "probability": 0.9997745156288147
+        },
+        {
+          "word": "'altra",
+          "start": 133.24659375,
+          "end": 133.54659375,
+          "probability": 0.9980222880840302
+        },
+        {
+          "word": " gamba.",
+          "start": 133.54659375,
+          "end": 134.16659375,
+          "probability": 0.9998227655887604
+        },
+        {
+          "word": " Giovannino",
+          "start": 134.78659375,
+          "end": 135.62659374999998,
+          "probability": 0.9993388056755066
+        },
+        {
+          "word": " addentò",
+          "start": 135.62659374999998,
+          "end": 136.16659375,
+          "probability": 0.9926493366559347
+        },
+        {
+          "word": " la",
+          "start": 136.16659375,
+          "end": 136.28659375,
+          "probability": 0.9997695088386536
+        },
+        {
+          "word": " salciccia.",
+          "start": 136.28659375,
+          "end": 137.06659375,
+          "probability": 0.9753880947828293
+        },
+        {
+          "word": " Butto.",
+          "start": 137.48659375,
+          "end": 137.86659375,
+          "probability": 0.9724928438663483
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "speaker": "SPEAKER_00",
+      "start": 138.38909375,
+      "end": 140.65034375000002,
+      "duration": 2.261,
+      "text": " E butta. Cade un braccio.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " E",
+          "start": 138.38909375,
+          "end": 138.62909375,
+          "probability": 0.3246172368526459
+        },
+        {
+          "word": " butta.",
+          "start": 138.62909375,
+          "end": 139.04909375,
+          "probability": 0.985936313867569
+        },
+        {
+          "word": " Cade",
+          "start": 139.20909375,
+          "end": 139.64909375,
+          "probability": 0.7758034765720367
+        },
+        {
+          "word": " un",
+          "start": 139.64909375,
+          "end": 139.82909375,
+          "probability": 0.9995869994163513
+        },
+        {
+          "word": " braccio.",
+          "start": 139.82909375,
+          "end": 140.36909375,
+          "probability": 0.9985211491584778
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "speaker": "SPEAKER_00",
+      "start": 141.15659375,
+      "end": 144.31221875,
+      "duration": 3.156,
+      "text": " Giovannino si mise a fischiettare. Butto?",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Giovannino",
+          "start": 141.15659375,
+          "end": 141.77659375000002,
+          "probability": 0.9887688358624777
+        },
+        {
+          "word": " si",
+          "start": 141.77659375000002,
+          "end": 141.99659375000002,
+          "probability": 0.9991748929023743
+        },
+        {
+          "word": " mise",
+          "start": 141.99659375000002,
+          "end": 142.25659375,
+          "probability": 0.9976414442062378
+        },
+        {
+          "word": " a",
+          "start": 142.25659375,
+          "end": 142.45659375000002,
+          "probability": 0.9999364614486694
+        },
+        {
+          "word": " fischiettare.",
+          "start": 142.45659375000002,
+          "end": 143.27659375000002,
+          "probability": 0.9976490139961243
+        },
+        {
+          "word": " Butto?",
+          "start": 143.77659375000002,
+          "end": 144.11659375000002,
+          "probability": 0.8785476386547089
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "speaker": "SPEAKER_00",
+      "start": 144.70034375,
+      "end": 148.19346875000002,
+      "duration": 3.493,
+      "text": " e butta. Cadde l'altro braccio. Butto.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " e",
+          "start": 144.70034375,
+          "end": 144.88034375,
+          "probability": 0.3731815218925476
+        },
+        {
+          "word": " butta.",
+          "start": 144.88034375,
+          "end": 145.32034375,
+          "probability": 0.9837283194065094
+        },
+        {
+          "word": " Cadde",
+          "start": 145.44034375,
+          "end": 146.10034375,
+          "probability": 0.9439630806446075
+        },
+        {
+          "word": " l",
+          "start": 146.10034375,
+          "end": 146.18034375,
+          "probability": 0.9992400407791138
+        },
+        {
+          "word": "'altro",
+          "start": 146.18034375,
+          "end": 146.48034375,
+          "probability": 0.9987796545028687
+        },
+        {
+          "word": " braccio.",
+          "start": 146.48034375,
+          "end": 147.18034375,
+          "probability": 0.9996659457683563
+        },
+        {
+          "word": " Butto.",
+          "start": 147.66034375,
+          "end": 148.08034375,
+          "probability": 0.9783629179000854
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "speaker": "SPEAKER_00",
+      "start": 149.05409375000002,
+      "end": 149.69534375,
+      "duration": 0.641,
+      "text": " Buddha",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Buddha",
+          "start": 149.05409375000002,
+          "end": 149.41409375000003,
+          "probability": 0.46962690353393555
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "speaker": "SPEAKER_00",
+      "start": 150.01596875,
+      "end": 157.60971875,
+      "duration": 7.594,
+      "text": " «Butta». Cadde il busto e si attaccò da solo a gambe e braccia. Ora c'era un uomo in piedi.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " «Butta».",
+          "start": 150.01596875,
+          "end": 150.71596875,
+          "probability": 0.7722099721431732
+        },
+        {
+          "word": " Cadde",
+          "start": 150.71596875,
+          "end": 151.25596875000002,
+          "probability": 0.9808355271816254
+        },
+        {
+          "word": " il",
+          "start": 151.25596875000002,
+          "end": 151.43596875,
+          "probability": 0.9998145699501038
+        },
+        {
+          "word": " busto",
+          "start": 151.43596875,
+          "end": 151.99596875,
+          "probability": 0.9996415972709656
+        },
+        {
+          "word": " e",
+          "start": 151.99596875,
+          "end": 152.71596875,
+          "probability": 0.9573295712471008
+        },
+        {
+          "word": " si",
+          "start": 152.71596875,
+          "end": 152.89596875,
+          "probability": 0.9999366998672485
+        },
+        {
+          "word": " attaccò",
+          "start": 152.89596875,
+          "end": 153.41596875000002,
+          "probability": 0.9994056820869446
+        },
+        {
+          "word": " da",
+          "start": 153.41596875000002,
+          "end": 153.51596875,
+          "probability": 0.9993575215339661
+        },
+        {
+          "word": " solo",
+          "start": 153.51596875,
+          "end": 153.79596875000001,
+          "probability": 0.9984800219535828
+        },
+        {
+          "word": " a",
+          "start": 153.79596875000001,
+          "end": 153.97596875000002,
+          "probability": 0.999702513217926
+        },
+        {
+          "word": " gambe",
+          "start": 153.97596875000002,
+          "end": 154.35596875000002,
+          "probability": 0.9996084868907928
+        },
+        {
+          "word": " e",
+          "start": 154.35596875000002,
+          "end": 154.47596875000002,
+          "probability": 0.9999028444290161
+        },
+        {
+          "word": " braccia.",
+          "start": 154.47596875000002,
+          "end": 155.05596875,
+          "probability": 0.9997226893901825
+        },
+        {
+          "word": " Ora",
+          "start": 155.37596875000003,
+          "end": 155.79596875000001,
+          "probability": 0.977590799331665
+        },
+        {
+          "word": " c",
+          "start": 155.79596875000001,
+          "end": 155.97596875000002,
+          "probability": 0.9997469782829285
+        },
+        {
+          "word": "'era",
+          "start": 155.97596875000002,
+          "end": 156.15596875,
+          "probability": 0.9999634027481079
+        },
+        {
+          "word": " un",
+          "start": 156.15596875,
+          "end": 156.33596875,
+          "probability": 0.999946117401123
+        },
+        {
+          "word": " uomo",
+          "start": 156.33596875,
+          "end": 156.59596875000003,
+          "probability": 0.9998392760753632
+        },
+        {
+          "word": " in",
+          "start": 156.59596875000003,
+          "end": 156.81596875000002,
+          "probability": 0.9998551607131958
+        },
+        {
+          "word": " piedi.",
+          "start": 156.81596875000002,
+          "end": 157.33596875,
+          "probability": 0.9999769926071167
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "speaker": "SPEAKER_00",
+      "start": 157.91346875000002,
+      "end": 161.03534375,
+      "duration": 3.122,
+      "text": " Grande e grosso, ma senza testa.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Grande",
+          "start": 157.91346875000002,
+          "end": 158.45346875,
+          "probability": 0.831481397151947
+        },
+        {
+          "word": " e",
+          "start": 158.45346875,
+          "end": 158.63346875000002,
+          "probability": 0.9945411086082458
+        },
+        {
+          "word": " grosso,",
+          "start": 158.63346875000002,
+          "end": 159.19346875000002,
+          "probability": 0.9987186789512634
+        },
+        {
+          "word": " ma",
+          "start": 159.35346875000002,
+          "end": 159.79346875000002,
+          "probability": 0.9996192455291748
+        },
+        {
+          "word": " senza",
+          "start": 159.79346875000002,
+          "end": 160.13346875000002,
+          "probability": 0.9998763799667358
+        },
+        {
+          "word": " testa.",
+          "start": 160.13346875000002,
+          "end": 160.79346875000002,
+          "probability": 0.9998656213283539
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "speaker": "SPEAKER_00",
+      "start": 161.17034375,
+      "end": 161.81159375000001,
+      "duration": 0.641,
+      "text": " butto",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " butto",
+          "start": 161.17034375,
+          "end": 161.71034375,
+          "probability": 0.77554851770401
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "speaker": "SPEAKER_00",
+      "start": 162.84096875,
+      "end": 163.70159375,
+      "duration": 0.861,
+      "text": " Butta pure.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Butta",
+          "start": 162.84096875,
+          "end": 163.28096875,
+          "probability": 0.8496923446655273
+        },
+        {
+          "word": " pure.",
+          "start": 163.28096875,
+          "end": 163.52096875,
+          "probability": 0.9992865920066833
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "speaker": "SPEAKER_00",
+      "start": 163.88721875000002,
+      "end": 165.74346875,
+      "duration": 1.856,
+      "text": " e la testa rotolò.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " e",
+          "start": 163.88721875000002,
+          "end": 164.16721875000002,
+          "probability": 0.6915267705917358
+        },
+        {
+          "word": " la",
+          "start": 164.16721875000002,
+          "end": 164.34721875000002,
+          "probability": 0.9992988109588623
+        },
+        {
+          "word": " testa",
+          "start": 164.34721875000002,
+          "end": 164.82721875000001,
+          "probability": 0.9997585713863373
+        },
+        {
+          "word": " rotolò.",
+          "start": 164.82721875000001,
+          "end": 165.34721875000002,
+          "probability": 0.997743288675944
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "speaker": "SPEAKER_00",
+      "start": 165.94596875000002,
+      "end": 172.00409375,
+      "duration": 6.058,
+      "text": " Saltò e si piantò in cima al collo. Davanti a Giovannino c'era un gigante.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Saltò",
+          "start": 165.94596875000002,
+          "end": 166.66596875000002,
+          "probability": 0.9688429534435272
+        },
+        {
+          "word": " e",
+          "start": 166.66596875000002,
+          "end": 167.10596875000002,
+          "probability": 0.9681704044342041
+        },
+        {
+          "word": " si",
+          "start": 167.10596875000002,
+          "end": 167.28596875000002,
+          "probability": 0.9999710321426392
+        },
+        {
+          "word": " piantò",
+          "start": 167.28596875000002,
+          "end": 167.74596875000003,
+          "probability": 0.998089333375295
+        },
+        {
+          "word": " in",
+          "start": 167.74596875000003,
+          "end": 167.90596875000003,
+          "probability": 0.9999257326126099
+        },
+        {
+          "word": " cima",
+          "start": 167.90596875000003,
+          "end": 168.14596875,
+          "probability": 0.99994957447052
+        },
+        {
+          "word": " al",
+          "start": 168.14596875,
+          "end": 168.32596875000002,
+          "probability": 0.9992552399635315
+        },
+        {
+          "word": " collo.",
+          "start": 168.32596875000002,
+          "end": 168.84596875000003,
+          "probability": 0.9996855556964874
+        },
+        {
+          "word": " Davanti",
+          "start": 169.22596875000002,
+          "end": 169.70596875,
+          "probability": 0.9991145133972168
+        },
+        {
+          "word": " a",
+          "start": 169.70596875,
+          "end": 169.88596875000002,
+          "probability": 0.9999067783355713
+        },
+        {
+          "word": " Giovannino",
+          "start": 169.88596875000002,
+          "end": 170.48596875,
+          "probability": 0.9991177121798197
+        },
+        {
+          "word": " c",
+          "start": 170.48596875,
+          "end": 170.64596875,
+          "probability": 0.9998937845230103
+        },
+        {
+          "word": "'era",
+          "start": 170.64596875,
+          "end": 170.78596875000002,
+          "probability": 0.9999209046363831
+        },
+        {
+          "word": " un",
+          "start": 170.78596875000002,
+          "end": 170.90596875000003,
+          "probability": 0.9999662637710571
+        },
+        {
+          "word": " gigante.",
+          "start": 170.90596875000003,
+          "end": 171.50596875000002,
+          "probability": 0.9997613728046417
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "speaker": "SPEAKER_02",
+      "start": 172.00409375,
+      "end": 172.02096875,
+      "duration": 0.017,
+      "text": "",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": []
+    },
+    {
+      "index": 35,
+      "speaker": "SPEAKER_00",
+      "start": 172.02096875,
+      "end": 172.03784375,
+      "duration": 0.017,
+      "text": "",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": []
+    },
+    {
+      "index": 36,
+      "speaker": "SPEAKER_02",
+      "start": 172.03784375,
+      "end": 172.27409375000002,
+      "duration": 0.236,
+      "text": " alla seconda.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " alla",
+          "start": 172.03784375,
+          "end": 172.23784375,
+          "probability": 0.5218603014945984
+        },
+        {
+          "word": " seconda.",
+          "start": 172.23784375,
+          "end": 172.23784375,
+          "probability": 0.5201298780739307
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "speaker": "SPEAKER_00",
+      "start": 172.27409375000002,
+      "end": 172.30784375000002,
+      "duration": 0.034,
+      "text": "",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": []
+    },
+    {
+      "index": 38,
+      "speaker": "SPEAKER_02",
+      "start": 172.30784375000002,
+      "end": 172.34159375000002,
+      "duration": 0.034,
+      "text": "",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": []
+    },
+    {
+      "index": 39,
+      "speaker": "SPEAKER_00",
+      "start": 172.34159375000002,
+      "end": 173.03346875,
+      "duration": 0.692,
+      "text": " Salute.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Salute.",
+          "start": 172.34159375000002,
+          "end": 172.74159375000002,
+          "probability": 0.9306810796260834
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "speaker": "SPEAKER_00",
+      "start": 173.15159375000002,
+      "end": 173.97846875000002,
+      "duration": 0.827,
+      "text": " attraverso",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " attraverso",
+          "start": 173.15159375000002,
+          "end": 173.95159375000003,
+          "probability": 0.9052971005439758
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "speaker": "SPEAKER_02",
+      "start": 173.97846875000002,
+      "end": 174.02909375000002,
+      "duration": 0.051,
+      "text": " Grazie.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Grazie.",
+          "start": 173.97846875000002,
+          "end": 173.99846875000003,
+          "probability": 0.6081690937280655
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "speaker": "SPEAKER_00",
+      "start": 174.02909375000002,
+      "end": 174.99096875,
+      "duration": 0.962,
+      "text": " il palazzo.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " il",
+          "start": 174.02909375000002,
+          "end": 174.16909375,
+          "probability": 0.8694658279418945
+        },
+        {
+          "word": " palazzo.",
+          "start": 174.16909375,
+          "end": 174.82909375000003,
+          "probability": 0.9972305496533712
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "speaker": "SPEAKER_02",
+      "start": 174.99096875,
+      "end": 177.30284375000002,
+      "duration": 2.312,
+      "text": " Prendi il lume e vieni con me.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Prendi",
+          "start": 174.99096875,
+          "end": 175.63096875,
+          "probability": 0.9346791505813599
+        },
+        {
+          "word": " il",
+          "start": 175.63096875,
+          "end": 175.83096875,
+          "probability": 0.9720777273178101
+        },
+        {
+          "word": " lume",
+          "start": 175.83096875,
+          "end": 176.17096875000001,
+          "probability": 0.9984225034713745
+        },
+        {
+          "word": " e",
+          "start": 176.17096875000001,
+          "end": 176.35096875000002,
+          "probability": 0.993779718875885
+        },
+        {
+          "word": " vieni",
+          "start": 176.35096875000002,
+          "end": 176.69096875,
+          "probability": 0.9987013041973114
+        },
+        {
+          "word": " con",
+          "start": 176.69096875,
+          "end": 176.93096875,
+          "probability": 0.9996378421783447
+        },
+        {
+          "word": " me.",
+          "start": 176.93096875,
+          "end": 177.11096875,
+          "probability": 0.9974504113197327
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "speaker": "SPEAKER_00",
+      "start": 178.55159375000002,
+      "end": 180.55971875,
+      "duration": 2.008,
+      "text": " Giovannino prese il lume.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Giovannino",
+          "start": 178.55159375000002,
+          "end": 179.29159375000003,
+          "probability": 0.9954747358957926
+        },
+        {
+          "word": " prese",
+          "start": 179.29159375000003,
+          "end": 179.75159375,
+          "probability": 0.9992750883102417
+        },
+        {
+          "word": " il",
+          "start": 179.75159375,
+          "end": 179.91159375000004,
+          "probability": 0.9949992895126343
+        },
+        {
+          "word": " lume.",
+          "start": 179.91159375000004,
+          "end": 180.27159375000002,
+          "probability": 0.9988399744033813
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "speaker": "SPEAKER_00",
+      "start": 180.96471875,
+      "end": 184.10346875000002,
+      "duration": 3.139,
+      "text": " Ma non si mosse di un passo. Passa avanti.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Ma",
+          "start": 180.96471875,
+          "end": 181.16471875,
+          "probability": 0.5854220986366272
+        },
+        {
+          "word": " non",
+          "start": 181.16471875,
+          "end": 181.36471875,
+          "probability": 0.9975889921188354
+        },
+        {
+          "word": " si",
+          "start": 181.36471875,
+          "end": 181.60471875,
+          "probability": 0.9991458654403687
+        },
+        {
+          "word": " mosse",
+          "start": 181.60471875,
+          "end": 182.06471875,
+          "probability": 0.9989040791988373
+        },
+        {
+          "word": " di",
+          "start": 182.06471875,
+          "end": 182.20471875,
+          "probability": 0.9972725510597229
+        },
+        {
+          "word": " un",
+          "start": 182.20471875,
+          "end": 182.36471875,
+          "probability": 0.9995984435081482
+        },
+        {
+          "word": " passo.",
+          "start": 182.36471875,
+          "end": 182.82471875000002,
+          "probability": 0.9992756247520447
+        },
+        {
+          "word": " Passa",
+          "start": 183.08471875,
+          "end": 183.48471875,
+          "probability": 0.9776580333709717
+        },
+        {
+          "word": " avanti.",
+          "start": 183.48471875,
+          "end": 183.92471875,
+          "probability": 0.9994611442089081
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "speaker": "SPEAKER_00",
+      "start": 184.62659375,
+      "end": 185.31846875000002,
+      "duration": 0.692,
+      "text": " Prima tu.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Prima",
+          "start": 184.62659375,
+          "end": 184.92659375000002,
+          "probability": 0.905301421880722
+        },
+        {
+          "word": " tu.",
+          "start": 184.92659375000002,
+          "end": 185.06659375,
+          "probability": 0.9896689057350159
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "speaker": "SPEAKER_00",
+      "start": 185.45346875,
+      "end": 185.94284375,
+      "duration": 0.489,
+      "text": " Tu",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Tu",
+          "start": 185.45346875,
+          "end": 185.75346875000002,
+          "probability": 0.43592211604118347
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "speaker": "SPEAKER_00",
+      "start": 186.51659375,
+      "end": 198.27846875,
+      "duration": 11.762,
+      "text": " «No, tu!» Alla fine il gigante cedette e si mise davanti. Attraversarono sala dopo sala il gigante a passi pesanti Giovannino dietro a fargli luce.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " «No,",
+          "start": 186.51659375,
+          "end": 186.73659375,
+          "probability": 0.7334577739238739
+        },
+        {
+          "word": " tu",
+          "start": 186.91659375,
+          "end": 187.01659375,
+          "probability": 0.9993835687637329
+        },
+        {
+          "word": "!»",
+          "start": 187.01659375,
+          "end": 187.63659375,
+          "probability": 0.7699932754039764
+        },
+        {
+          "word": " Alla",
+          "start": 187.63659375,
+          "end": 187.95659375,
+          "probability": 0.9933127760887146
+        },
+        {
+          "word": " fine",
+          "start": 187.95659375,
+          "end": 188.15659374999998,
+          "probability": 0.9998257756233215
+        },
+        {
+          "word": " il",
+          "start": 188.15659374999998,
+          "end": 188.35659375,
+          "probability": 0.9868088960647583
+        },
+        {
+          "word": " gigante",
+          "start": 188.35659375,
+          "end": 188.87659375,
+          "probability": 0.9958650469779968
+        },
+        {
+          "word": " cedette",
+          "start": 188.87659375,
+          "end": 189.47659375,
+          "probability": 0.9940417210261027
+        },
+        {
+          "word": " e",
+          "start": 189.47659375,
+          "end": 189.63659375,
+          "probability": 0.9994164705276489
+        },
+        {
+          "word": " si",
+          "start": 189.63659375,
+          "end": 189.81659375,
+          "probability": 0.9999356269836426
+        },
+        {
+          "word": " mise",
+          "start": 189.81659375,
+          "end": 190.13659375,
+          "probability": 0.993209183216095
+        },
+        {
+          "word": " davanti.",
+          "start": 190.13659375,
+          "end": 190.81659375,
+          "probability": 0.999867171049118
+        },
+        {
+          "word": " Attraversarono",
+          "start": 191.91659375,
+          "end": 192.59659375,
+          "probability": 0.9980914711952209
+        },
+        {
+          "word": " sala",
+          "start": 192.59659375,
+          "end": 192.87659375,
+          "probability": 0.9975123405456543
+        },
+        {
+          "word": " dopo",
+          "start": 192.87659375,
+          "end": 193.21659375,
+          "probability": 0.9999053478240967
+        },
+        {
+          "word": " sala",
+          "start": 193.21659375,
+          "end": 193.71659375,
+          "probability": 0.9997671246528625
+        },
+        {
+          "word": " il",
+          "start": 193.71659375,
+          "end": 193.95659375,
+          "probability": 0.6338975429534912
+        },
+        {
+          "word": " gigante",
+          "start": 193.95659375,
+          "end": 194.49659375,
+          "probability": 0.9998895823955536
+        },
+        {
+          "word": " a",
+          "start": 194.49659375,
+          "end": 194.67659375,
+          "probability": 0.9912733435630798
+        },
+        {
+          "word": " passi",
+          "start": 194.67659375,
+          "end": 195.03659375,
+          "probability": 0.9998579323291779
+        },
+        {
+          "word": " pesanti",
+          "start": 195.03659375,
+          "end": 195.53659375,
+          "probability": 0.9998381435871124
+        },
+        {
+          "word": " Giovannino",
+          "start": 195.53659375,
+          "end": 196.23659375,
+          "probability": 0.9549995462099711
+        },
+        {
+          "word": " dietro",
+          "start": 196.23659375,
+          "end": 196.75659375,
+          "probability": 0.9996500313282013
+        },
+        {
+          "word": " a",
+          "start": 196.75659375,
+          "end": 196.89659375,
+          "probability": 0.9968871474266052
+        },
+        {
+          "word": " fargli",
+          "start": 196.89659375,
+          "end": 197.29659375,
+          "probability": 0.9996149837970734
+        },
+        {
+          "word": " luce.",
+          "start": 197.29659375,
+          "end": 197.71659375,
+          "probability": 0.999819815158844
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "speaker": "SPEAKER_00",
+      "start": 198.39659375000002,
+      "end": 202.42971875,
+      "duration": 4.033,
+      "text": " Sotto una scalla c'era una porticina. Apri là.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Sotto",
+          "start": 198.39659375000002,
+          "end": 198.95659375000002,
+          "probability": 0.8269881904125214
+        },
+        {
+          "word": " una",
+          "start": 198.95659375000002,
+          "end": 199.19659375000003,
+          "probability": 0.9979326725006104
+        },
+        {
+          "word": " scalla",
+          "start": 199.19659375000003,
+          "end": 199.63659375000003,
+          "probability": 0.9221647679805756
+        },
+        {
+          "word": " c",
+          "start": 199.63659375000003,
+          "end": 199.87659375,
+          "probability": 0.9910153746604919
+        },
+        {
+          "word": "'era",
+          "start": 199.87659375,
+          "end": 200.01659375000003,
+          "probability": 0.9995477497577667
+        },
+        {
+          "word": " una",
+          "start": 200.01659375000003,
+          "end": 200.23659375000003,
+          "probability": 0.9981826543807983
+        },
+        {
+          "word": " porticina.",
+          "start": 200.23659375000003,
+          "end": 201.09659375,
+          "probability": 0.9981629252433777
+        },
+        {
+          "word": " Apri",
+          "start": 201.45659375000002,
+          "end": 201.95659375000002,
+          "probability": 0.7114408761262894
+        },
+        {
+          "word": " là.",
+          "start": 201.95659375000002,
+          "end": 202.09659375,
+          "probability": 0.8941830992698669
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "speaker": "SPEAKER_00",
+      "start": 203.18909375,
+      "end": 215.06909375,
+      "duration": 11.88,
+      "text": " aprila tu. E il gigante la spalancò con una spallata. La cantina. Oltre la porta c'era una scala a chiocciola che scendeva nel buio. Scendi.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " aprila",
+          "start": 203.18909375,
+          "end": 203.56909375,
+          "probability": 0.5321349464356899
+        },
+        {
+          "word": " tu.",
+          "start": 203.56909375,
+          "end": 203.70909375000002,
+          "probability": 0.9992063641548157
+        },
+        {
+          "word": " E",
+          "start": 203.90909375,
+          "end": 204.34909375,
+          "probability": 0.9302119612693787
+        },
+        {
+          "word": " il",
+          "start": 204.34909375,
+          "end": 204.54909375000003,
+          "probability": 0.9994161128997803
+        },
+        {
+          "word": " gigante",
+          "start": 204.54909375000003,
+          "end": 205.00909375,
+          "probability": 0.9992314279079437
+        },
+        {
+          "word": " la",
+          "start": 205.00909375,
+          "end": 205.16909375,
+          "probability": 0.9996521472930908
+        },
+        {
+          "word": " spalancò",
+          "start": 205.16909375,
+          "end": 205.76909375000002,
+          "probability": 0.9994481801986694
+        },
+        {
+          "word": " con",
+          "start": 205.76909375000002,
+          "end": 206.00909375,
+          "probability": 0.9998570680618286
+        },
+        {
+          "word": " una",
+          "start": 206.00909375,
+          "end": 206.18909375,
+          "probability": 0.9999452829360962
+        },
+        {
+          "word": " spallata.",
+          "start": 206.18909375,
+          "end": 206.82909375,
+          "probability": 0.9996944268544515
+        },
+        {
+          "word": " La",
+          "start": 207.18909375,
+          "end": 207.66909375,
+          "probability": 0.9933085441589355
+        },
+        {
+          "word": " cantina.",
+          "start": 207.66909375,
+          "end": 208.44909375,
+          "probability": 0.9977431893348694
+        },
+        {
+          "word": " Oltre",
+          "start": 208.70909375000002,
+          "end": 209.26909375000002,
+          "probability": 0.9996437033017477
+        },
+        {
+          "word": " la",
+          "start": 209.26909375000002,
+          "end": 209.40909375,
+          "probability": 0.9997265934944153
+        },
+        {
+          "word": " porta",
+          "start": 209.40909375,
+          "end": 209.84909375,
+          "probability": 0.9995112419128418
+        },
+        {
+          "word": " c",
+          "start": 209.84909375,
+          "end": 210.70909375000002,
+          "probability": 0.7858796715736389
+        },
+        {
+          "word": "'era",
+          "start": 210.70909375000002,
+          "end": 210.88909375,
+          "probability": 0.999943196773529
+        },
+        {
+          "word": " una",
+          "start": 210.88909375,
+          "end": 211.12909375,
+          "probability": 0.9998980760574341
+        },
+        {
+          "word": " scala",
+          "start": 211.12909375,
+          "end": 211.62909375,
+          "probability": 0.9981732070446014
+        },
+        {
+          "word": " a",
+          "start": 211.62909375,
+          "end": 211.84909375,
+          "probability": 0.9965224266052246
+        },
+        {
+          "word": " chiocciola",
+          "start": 211.84909375,
+          "end": 212.34909375,
+          "probability": 0.9991255551576614
+        },
+        {
+          "word": " che",
+          "start": 212.34909375,
+          "end": 212.52909375000002,
+          "probability": 0.9997554421424866
+        },
+        {
+          "word": " scendeva",
+          "start": 212.52909375000002,
+          "end": 213.08909375000002,
+          "probability": 0.9997376600901285
+        },
+        {
+          "word": " nel",
+          "start": 213.08909375000002,
+          "end": 213.28909375,
+          "probability": 0.9996974468231201
+        },
+        {
+          "word": " buio.",
+          "start": 213.28909375,
+          "end": 213.74909375000001,
+          "probability": 0.9997766613960266
+        },
+        {
+          "word": " Scendi.",
+          "start": 214.12909375,
+          "end": 214.80909375000002,
+          "probability": 0.990138590335846
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "speaker": "SPEAKER_00",
+      "start": 215.69346875000002,
+      "end": 216.99284375000002,
+      "duration": 1.299,
+      "text": " Scendi tu per primo.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Scendi",
+          "start": 215.69346875000002,
+          "end": 216.13346875000002,
+          "probability": 0.9084248840808868
+        },
+        {
+          "word": " tu",
+          "start": 216.13346875000002,
+          "end": 216.27346875000003,
+          "probability": 0.997082531452179
+        },
+        {
+          "word": " per",
+          "start": 216.27346875000003,
+          "end": 216.45346875,
+          "probability": 0.9991528987884521
+        },
+        {
+          "word": " primo.",
+          "start": 216.45346875,
+          "end": 216.73346875000001,
+          "probability": 0.9992876648902893
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "speaker": "SPEAKER_00",
+      "start": 217.39784375000002,
+      "end": 218.56221875000003,
+      "duration": 1.164,
+      "text": " C'è zero giù.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " C",
+          "start": 217.39784375000002,
+          "end": 217.63784375000003,
+          "probability": 0.06567659974098206
+        },
+        {
+          "word": "'è",
+          "start": 217.63784375000003,
+          "end": 217.77784375000002,
+          "probability": 0.9087544679641724
+        },
+        {
+          "word": " zero",
+          "start": 217.77784375000002,
+          "end": 218.05784375000002,
+          "probability": 0.6821849942207336
+        },
+        {
+          "word": " giù.",
+          "start": 218.05784375000002,
+          "end": 218.35784375000003,
+          "probability": 0.990619421005249
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "speaker": "SPEAKER_00",
+      "start": 219.08534375000002,
+      "end": 226.93221875,
+      "duration": 7.847,
+      "text": " In una cantina umida e antica, il gigante indicò una grande lastra di pietra sul pavimento.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " In",
+          "start": 219.08534375000002,
+          "end": 219.28534375,
+          "probability": 0.8135021328926086
+        },
+        {
+          "word": " una",
+          "start": 219.28534375,
+          "end": 219.50534375,
+          "probability": 0.9998520612716675
+        },
+        {
+          "word": " cantina",
+          "start": 219.50534375,
+          "end": 220.12534375,
+          "probability": 0.9994376599788666
+        },
+        {
+          "word": " umida",
+          "start": 220.12534375,
+          "end": 220.66534375000003,
+          "probability": 0.9996850192546844
+        },
+        {
+          "word": " e",
+          "start": 220.66534375000003,
+          "end": 220.88534375000003,
+          "probability": 0.9996726512908936
+        },
+        {
+          "word": " antica,",
+          "start": 220.88534375000003,
+          "end": 221.44534375000003,
+          "probability": 0.999920666217804
+        },
+        {
+          "word": " il",
+          "start": 221.76534375000003,
+          "end": 222.16534375000003,
+          "probability": 0.9992376565933228
+        },
+        {
+          "word": " gigante",
+          "start": 222.16534375000003,
+          "end": 222.74534375000002,
+          "probability": 0.9990352988243103
+        },
+        {
+          "word": " indicò",
+          "start": 222.74534375000002,
+          "end": 223.26534375000003,
+          "probability": 0.9999036192893982
+        },
+        {
+          "word": " una",
+          "start": 223.26534375000003,
+          "end": 223.52534375000002,
+          "probability": 0.9999136924743652
+        },
+        {
+          "word": " grande",
+          "start": 223.52534375000002,
+          "end": 223.96534375000002,
+          "probability": 0.999900221824646
+        },
+        {
+          "word": " lastra",
+          "start": 223.96534375000002,
+          "end": 224.48534375000003,
+          "probability": 0.9989534318447113
+        },
+        {
+          "word": " di",
+          "start": 224.48534375000003,
+          "end": 224.64534375000002,
+          "probability": 0.9999730587005615
+        },
+        {
+          "word": " pietra",
+          "start": 224.64534375000002,
+          "end": 225.12534375,
+          "probability": 0.9998607436815897
+        },
+        {
+          "word": " sul",
+          "start": 225.12534375,
+          "end": 225.34534375,
+          "probability": 0.9995588660240173
+        },
+        {
+          "word": " pavimento.",
+          "start": 225.34534375,
+          "end": 226.12534375,
+          "probability": 0.9999167919158936
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "speaker": "SPEAKER_02",
+      "start": 226.93221875,
+      "end": 227.42159375000003,
+      "duration": 0.489,
+      "text": " Alla.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Alla.",
+          "start": 226.93221875,
+          "end": 227.25221875,
+          "probability": 0.5222294628620148
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "speaker": "SPEAKER_00",
+      "start": 227.42159375000003,
+      "end": 227.43846875000003,
+      "duration": 0.017,
+      "text": "",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": []
+    },
+    {
+      "index": 56,
+      "speaker": "SPEAKER_00",
+      "start": 228.04596875000001,
+      "end": 228.06284375,
+      "duration": 0.017,
+      "text": "",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": []
+    },
+    {
+      "index": 57,
+      "speaker": "SPEAKER_02",
+      "start": 228.06284375,
+      "end": 228.99096875,
+      "duration": 0.928,
+      "text": " Sollevala tu.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Sollevala",
+          "start": 228.60284375,
+          "end": 228.80284375000002,
+          "probability": 0.9513999074697495
+        },
+        {
+          "word": " tu.",
+          "start": 228.80284375000002,
+          "end": 228.90284375000002,
+          "probability": 0.9962331652641296
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "speaker": "SPEAKER_00",
+      "start": 228.99096875,
+      "end": 229.07534375,
+      "duration": 0.084,
+      "text": " Grazie a tutti.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Grazie",
+          "start": 228.99096875,
+          "end": 229.03096875,
+          "probability": 0.6600922048091888
+        },
+        {
+          "word": " a",
+          "start": 229.03096875,
+          "end": 229.03096875,
+          "probability": 0.1799313873052597
+        },
+        {
+          "word": " tutti.",
+          "start": 229.03096875,
+          "end": 229.03096875,
+          "probability": 0.9594318270683289
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "speaker": "SPEAKER_00",
+      "start": 229.56471875000003,
+      "end": 234.66096875000002,
+      "duration": 5.096,
+      "text": " e il gigante la sollevò come se fosse un sassolino, sotto.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " e",
+          "start": 229.56471875000003,
+          "end": 229.72471875000002,
+          "probability": 0.42578890919685364
+        },
+        {
+          "word": " il",
+          "start": 229.72471875000002,
+          "end": 229.90471875000003,
+          "probability": 0.9994251728057861
+        },
+        {
+          "word": " gigante",
+          "start": 229.90471875000003,
+          "end": 230.42471875000004,
+          "probability": 0.9922707378864288
+        },
+        {
+          "word": " la",
+          "start": 230.42471875000004,
+          "end": 230.62471875000003,
+          "probability": 0.9988007545471191
+        },
+        {
+          "word": " sollevò",
+          "start": 230.62471875000003,
+          "end": 231.18471875000003,
+          "probability": 0.9995971918106079
+        },
+        {
+          "word": " come",
+          "start": 231.18471875000003,
+          "end": 231.46471875000003,
+          "probability": 0.9991874098777771
+        },
+        {
+          "word": " se",
+          "start": 231.46471875000003,
+          "end": 231.66471875000002,
+          "probability": 0.9989368319511414
+        },
+        {
+          "word": " fosse",
+          "start": 231.66471875000002,
+          "end": 232.06471875000003,
+          "probability": 0.999922513961792
+        },
+        {
+          "word": " un",
+          "start": 232.06471875000003,
+          "end": 232.28471875000002,
+          "probability": 0.9997296929359436
+        },
+        {
+          "word": " sassolino,",
+          "start": 232.28471875000002,
+          "end": 233.18471875000003,
+          "probability": 0.9995131641626358
+        },
+        {
+          "word": " sotto.",
+          "start": 233.48471875,
+          "end": 234.02471875000003,
+          "probability": 0.9987367987632751
+        }
+      ]
+    },
+    {
+      "index": 60,
+      "speaker": "SPEAKER_00",
+      "start": 234.96471875,
+      "end": 238.55909375000002,
+      "duration": 3.594,
+      "text": " Tre lingotti d'oro brillavano nella luce del lume.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Tre",
+          "start": 234.96471875,
+          "end": 235.28471875,
+          "probability": 0.9079297184944153
+        },
+        {
+          "word": " lingotti",
+          "start": 235.28471875,
+          "end": 235.90471875,
+          "probability": 0.9885626435279846
+        },
+        {
+          "word": " d",
+          "start": 235.90471875,
+          "end": 236.10471875,
+          "probability": 0.9998934268951416
+        },
+        {
+          "word": "'oro",
+          "start": 236.10471875,
+          "end": 236.30471875,
+          "probability": 0.9995960593223572
+        },
+        {
+          "word": " brillavano",
+          "start": 236.30471875,
+          "end": 237.10471875,
+          "probability": 0.9995005329449972
+        },
+        {
+          "word": " nella",
+          "start": 237.10471875,
+          "end": 237.36471875,
+          "probability": 0.9994792342185974
+        },
+        {
+          "word": " luce",
+          "start": 237.36471875,
+          "end": 237.76471875000001,
+          "probability": 0.9999185800552368
+        },
+        {
+          "word": " del",
+          "start": 237.76471875000001,
+          "end": 238.00471875,
+          "probability": 0.9887580871582031
+        },
+        {
+          "word": " lume.",
+          "start": 238.00471875,
+          "end": 238.36471875,
+          "probability": 0.9990423023700714
+        }
+      ]
+    },
+    {
+      "index": 61,
+      "speaker": "SPEAKER_02",
+      "start": 238.76159375,
+      "end": 240.06096875000003,
+      "duration": 1.299,
+      "text": " Portali di sopra.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Portali",
+          "start": 238.76159375,
+          "end": 239.30159375,
+          "probability": 0.9240425825119019
+        },
+        {
+          "word": " di",
+          "start": 239.30159375,
+          "end": 239.46159375,
+          "probability": 0.9985153079032898
+        },
+        {
+          "word": " sopra.",
+          "start": 239.46159375,
+          "end": 239.88159375,
+          "probability": 0.9930731952190399
+        }
+      ]
+    },
+    {
+      "index": 62,
+      "speaker": "SPEAKER_00",
+      "start": 241.05659375000002,
+      "end": 241.71471875,
+      "duration": 0.658,
+      "text": " Portali tu!",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Portali",
+          "start": 241.05659375000002,
+          "end": 241.45659375000002,
+          "probability": 0.8689877390861511
+        },
+        {
+          "word": " tu!",
+          "start": 241.45659375000002,
+          "end": 241.57659375000003,
+          "probability": 0.9396447539329529
+        }
+      ]
+    },
+    {
+      "index": 63,
+      "speaker": "SPEAKER_00",
+      "start": 242.59221875000003,
+      "end": 245.41034375,
+      "duration": 2.818,
+      "text": " E il gigante, uno alla volta.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " E",
+          "start": 242.59221875000003,
+          "end": 242.75221875000003,
+          "probability": 0.6896949410438538
+        },
+        {
+          "word": " il",
+          "start": 242.75221875000003,
+          "end": 242.95221875000004,
+          "probability": 0.9686463475227356
+        },
+        {
+          "word": " gigante,",
+          "start": 242.95221875000004,
+          "end": 243.63221875000002,
+          "probability": 0.9952496290206909
+        },
+        {
+          "word": " uno",
+          "start": 243.99221875000003,
+          "end": 244.23221875000002,
+          "probability": 0.9982959628105164
+        },
+        {
+          "word": " alla",
+          "start": 244.23221875000002,
+          "end": 244.43221875000003,
+          "probability": 0.9997879862785339
+        },
+        {
+          "word": " volta.",
+          "start": 244.43221875000003,
+          "end": 244.89221875000004,
+          "probability": 0.9999430179595947
+        }
+      ]
+    },
+    {
+      "index": 64,
+      "speaker": "SPEAKER_00",
+      "start": 245.54534375000003,
+      "end": 248.34659375,
+      "duration": 2.801,
+      "text": " Portò su tutti e tre i lingotti.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Portò",
+          "start": 245.54534375000003,
+          "end": 246.06534375000004,
+          "probability": 0.9143345952033997
+        },
+        {
+          "word": " su",
+          "start": 246.06534375000004,
+          "end": 246.26534375000003,
+          "probability": 0.9998244643211365
+        },
+        {
+          "word": " tutti",
+          "start": 246.26534375000003,
+          "end": 246.66534375000003,
+          "probability": 0.9993429780006409
+        },
+        {
+          "word": " e",
+          "start": 246.66534375000003,
+          "end": 246.88534375000003,
+          "probability": 0.9998875856399536
+        },
+        {
+          "word": " tre",
+          "start": 246.88534375000003,
+          "end": 247.08534375000002,
+          "probability": 0.9980900883674622
+        },
+        {
+          "word": " i",
+          "start": 247.08534375000002,
+          "end": 247.32534375000003,
+          "probability": 0.9982966780662537
+        },
+        {
+          "word": " lingotti.",
+          "start": 247.32534375000003,
+          "end": 247.90534375000004,
+          "probability": 0.9938871264457703
+        }
+      ]
+    },
+    {
+      "index": 65,
+      "speaker": "SPEAKER_00",
+      "start": 248.48159375,
+      "end": 250.43909375,
+      "duration": 1.958,
+      "text": " L'incanto spezzato.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " L",
+          "start": 248.48159375,
+          "end": 248.74159375,
+          "probability": 0.5586763620376587
+        },
+        {
+          "word": "'incanto",
+          "start": 248.74159375,
+          "end": 249.26159375,
+          "probability": 0.9969167908032736
+        },
+        {
+          "word": " spezzato.",
+          "start": 249.26159375,
+          "end": 250.06159375000001,
+          "probability": 0.9996892809867859
+        }
+      ]
+    },
+    {
+      "index": 66,
+      "speaker": "SPEAKER_00",
+      "start": 250.72596875000002,
+      "end": 254.99534375000002,
+      "duration": 4.269,
+      "text": " Tornati nella sala del camino, il gigante si fermò.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Tornati",
+          "start": 250.72596875000002,
+          "end": 251.36596875,
+          "probability": 0.9786665439605713
+        },
+        {
+          "word": " nella",
+          "start": 251.36596875,
+          "end": 251.70596875,
+          "probability": 0.999636173248291
+        },
+        {
+          "word": " sala",
+          "start": 251.70596875,
+          "end": 252.02596875000003,
+          "probability": 0.9808918833732605
+        },
+        {
+          "word": " del",
+          "start": 252.02596875000003,
+          "end": 252.24596875000003,
+          "probability": 0.9997652173042297
+        },
+        {
+          "word": " camino,",
+          "start": 252.24596875000003,
+          "end": 252.74596875000003,
+          "probability": 0.8449459075927734
+        },
+        {
+          "word": " il",
+          "start": 253.14596875,
+          "end": 253.54596875000001,
+          "probability": 0.9989153146743774
+        },
+        {
+          "word": " gigante",
+          "start": 253.54596875000001,
+          "end": 254.06596875000002,
+          "probability": 0.9983582198619843
+        },
+        {
+          "word": " si",
+          "start": 254.06596875000002,
+          "end": 254.26596875,
+          "probability": 0.9998546838760376
+        },
+        {
+          "word": " fermò.",
+          "start": 254.26596875,
+          "end": 254.78596875000002,
+          "probability": 0.9999119639396667
+        }
+      ]
+    },
+    {
+      "index": 67,
+      "speaker": "SPEAKER_00",
+      "start": 255.41721875000002,
+      "end": 258.21846875,
+      "duration": 2.801,
+      "text": " E per la prima volta la sua voce cambiò.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " E",
+          "start": 255.41721875000002,
+          "end": 255.57721875000001,
+          "probability": 0.6396010518074036
+        },
+        {
+          "word": " per",
+          "start": 255.57721875000001,
+          "end": 255.75721875000002,
+          "probability": 0.9988380074501038
+        },
+        {
+          "word": " la",
+          "start": 255.75721875000002,
+          "end": 255.87721875000003,
+          "probability": 0.9999303817749023
+        },
+        {
+          "word": " prima",
+          "start": 255.87721875000003,
+          "end": 256.11721875,
+          "probability": 0.9998334646224976
+        },
+        {
+          "word": " volta",
+          "start": 256.11721875,
+          "end": 256.55721875,
+          "probability": 0.9999761581420898
+        },
+        {
+          "word": " la",
+          "start": 256.55721875,
+          "end": 256.97721875,
+          "probability": 0.9314578771591187
+        },
+        {
+          "word": " sua",
+          "start": 256.97721875,
+          "end": 257.15721875,
+          "probability": 0.9985515475273132
+        },
+        {
+          "word": " voce",
+          "start": 257.15721875,
+          "end": 257.49721875,
+          "probability": 0.999896913766861
+        },
+        {
+          "word": " cambiò.",
+          "start": 257.49721875,
+          "end": 258.01721875000004,
+          "probability": 0.9997977614402771
+        }
+      ]
+    },
+    {
+      "index": 68,
+      "speaker": "SPEAKER_02",
+      "start": 258.33659375,
+      "end": 270.33471875000004,
+      "duration": 11.998,
+      "text": " Giovannino, l'incanto è spezzato. Questo lingotto è per te, questo è per la compagnia che verrà a prenderti credendoti morto, e il terzo per il primo povero che passerà di qui.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Giovannino,",
+          "start": 258.33659375,
+          "end": 259.03659375,
+          "probability": 0.9716830849647522
+        },
+        {
+          "word": " l",
+          "start": 259.15659375,
+          "end": 259.23659375,
+          "probability": 0.9988333582878113
+        },
+        {
+          "word": "'incanto",
+          "start": 259.23659375,
+          "end": 259.73659375,
+          "probability": 0.9990716775258383
+        },
+        {
+          "word": " è",
+          "start": 259.73659375,
+          "end": 259.89659375,
+          "probability": 0.9969680905342102
+        },
+        {
+          "word": " spezzato.",
+          "start": 259.89659375,
+          "end": 260.55659375000005,
+          "probability": 0.9996045827865601
+        },
+        {
+          "word": " Questo",
+          "start": 260.67659375,
+          "end": 260.97659375,
+          "probability": 0.9978415966033936
+        },
+        {
+          "word": " lingotto",
+          "start": 260.97659375,
+          "end": 261.49659375000005,
+          "probability": 0.9837062954902649
+        },
+        {
+          "word": " è",
+          "start": 261.49659375000005,
+          "end": 261.61659375,
+          "probability": 0.9995242357254028
+        },
+        {
+          "word": " per",
+          "start": 261.61659375,
+          "end": 261.81659375000004,
+          "probability": 0.9999722242355347
+        },
+        {
+          "word": " te,",
+          "start": 261.81659375000004,
+          "end": 262.03659375,
+          "probability": 0.9993630051612854
+        },
+        {
+          "word": " questo",
+          "start": 262.45659375,
+          "end": 262.85659375,
+          "probability": 0.998711347579956
+        },
+        {
+          "word": " è",
+          "start": 262.85659375,
+          "end": 262.99659375000005,
+          "probability": 0.9996929168701172
+        },
+        {
+          "word": " per",
+          "start": 262.99659375000005,
+          "end": 263.15659375,
+          "probability": 0.9999542236328125
+        },
+        {
+          "word": " la",
+          "start": 263.15659375,
+          "end": 263.29659375,
+          "probability": 0.9998539686203003
+        },
+        {
+          "word": " compagnia",
+          "start": 263.29659375,
+          "end": 264.05659375000005,
+          "probability": 0.9987132350603739
+        },
+        {
+          "word": " che",
+          "start": 264.05659375000005,
+          "end": 264.59659375,
+          "probability": 0.8328207731246948
+        },
+        {
+          "word": " verrà",
+          "start": 264.59659375,
+          "end": 264.97659375,
+          "probability": 0.9995010793209076
+        },
+        {
+          "word": " a",
+          "start": 264.97659375,
+          "end": 265.17659375,
+          "probability": 0.9999068975448608
+        },
+        {
+          "word": " prenderti",
+          "start": 265.17659375,
+          "end": 265.73659375,
+          "probability": 0.9997705419858297
+        },
+        {
+          "word": " credendoti",
+          "start": 265.73659375,
+          "end": 266.37659375000004,
+          "probability": 0.9984767834345499
+        },
+        {
+          "word": " morto,",
+          "start": 266.37659375000004,
+          "end": 266.95659375,
+          "probability": 0.9997356832027435
+        },
+        {
+          "word": " e",
+          "start": 267.07659375000003,
+          "end": 267.39659375,
+          "probability": 0.9687869548797607
+        },
+        {
+          "word": " il",
+          "start": 267.39659375,
+          "end": 267.51659375,
+          "probability": 0.9999290704727173
+        },
+        {
+          "word": " terzo",
+          "start": 267.51659375,
+          "end": 267.93659375000004,
+          "probability": 0.9999105334281921
+        },
+        {
+          "word": " per",
+          "start": 267.93659375000004,
+          "end": 268.13659375000003,
+          "probability": 0.999478280544281
+        },
+        {
+          "word": " il",
+          "start": 268.13659375000003,
+          "end": 268.25659375000004,
+          "probability": 0.9999221563339233
+        },
+        {
+          "word": " primo",
+          "start": 268.25659375000004,
+          "end": 268.57659375000003,
+          "probability": 0.999748170375824
+        },
+        {
+          "word": " povero",
+          "start": 268.57659375000003,
+          "end": 269.07659375000003,
+          "probability": 0.9995036125183105
+        },
+        {
+          "word": " che",
+          "start": 269.07659375000003,
+          "end": 269.27659375,
+          "probability": 0.9999717473983765
+        },
+        {
+          "word": " passerà",
+          "start": 269.27659375,
+          "end": 269.79659375,
+          "probability": 0.9996854364871979
+        },
+        {
+          "word": " di",
+          "start": 269.79659375,
+          "end": 269.95659375,
+          "probability": 0.9999784231185913
+        },
+        {
+          "word": " qui.",
+          "start": 269.95659375,
+          "end": 270.17659375,
+          "probability": 0.9993547797203064
+        }
+      ]
+    },
+    {
+      "index": 69,
+      "speaker": "SPEAKER_02",
+      "start": 271.02659375,
+      "end": 272.66346875,
+      "duration": 1.637,
+      "text": " Il palazzo tienilo tu.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Il",
+          "start": 271.02659375,
+          "end": 271.22659375,
+          "probability": 0.9344246983528137
+        },
+        {
+          "word": " palazzo",
+          "start": 271.22659375,
+          "end": 271.84659375,
+          "probability": 0.8611575166384379
+        },
+        {
+          "word": " tienilo",
+          "start": 271.84659375,
+          "end": 272.32659375000003,
+          "probability": 0.9837553799152374
+        },
+        {
+          "word": " tu.",
+          "start": 272.32659375000003,
+          "end": 272.54659375,
+          "probability": 0.9993005990982056
+        }
+      ]
+    },
+    {
+      "index": 70,
+      "speaker": "SPEAKER_02",
+      "start": 273.30471875,
+      "end": 276.62909375000004,
+      "duration": 3.324,
+      "text": " Perché io sono l'ultimo dei predoni che ci hanno vissuto.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Perché",
+          "start": 273.30471875,
+          "end": 273.58471875,
+          "probability": 0.5451668500900269
+        },
+        {
+          "word": " io",
+          "start": 273.58471875,
+          "end": 273.86471875,
+          "probability": 0.9893587827682495
+        },
+        {
+          "word": " sono",
+          "start": 273.86471875,
+          "end": 274.18471875,
+          "probability": 0.9997593760490417
+        },
+        {
+          "word": " l",
+          "start": 274.18471875,
+          "end": 274.38471875,
+          "probability": 0.9996832609176636
+        },
+        {
+          "word": "'ultimo",
+          "start": 274.38471875,
+          "end": 274.74471875,
+          "probability": 0.9998726646105448
+        },
+        {
+          "word": " dei",
+          "start": 274.74471875,
+          "end": 274.90471875000003,
+          "probability": 0.998666524887085
+        },
+        {
+          "word": " predoni",
+          "start": 274.90471875000003,
+          "end": 275.36471875,
+          "probability": 0.9944908022880554
+        },
+        {
+          "word": " che",
+          "start": 275.36471875,
+          "end": 275.52471875000003,
+          "probability": 0.9994055032730103
+        },
+        {
+          "word": " ci",
+          "start": 275.52471875000003,
+          "end": 275.66471875,
+          "probability": 0.9994569420814514
+        },
+        {
+          "word": " hanno",
+          "start": 275.66471875,
+          "end": 275.84471875,
+          "probability": 0.9999353885650635
+        },
+        {
+          "word": " vissuto.",
+          "start": 275.84471875,
+          "end": 276.44471875,
+          "probability": 0.9999069968859354
+        }
+      ]
+    },
+    {
+      "index": 71,
+      "speaker": "SPEAKER_02",
+      "start": 277.13534375,
+      "end": 278.85659375,
+      "duration": 1.721,
+      "text": " La mia gente non c'è più.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " La",
+          "start": 277.13534375,
+          "end": 277.37534375,
+          "probability": 0.7893277406692505
+        },
+        {
+          "word": " mia",
+          "start": 277.37534375,
+          "end": 277.53534375,
+          "probability": 0.9969590902328491
+        },
+        {
+          "word": " gente",
+          "start": 277.53534375,
+          "end": 277.97534375,
+          "probability": 0.9976812601089478
+        },
+        {
+          "word": " non",
+          "start": 277.97534375,
+          "end": 278.21534375,
+          "probability": 0.997701108455658
+        },
+        {
+          "word": " c",
+          "start": 278.21534375,
+          "end": 278.39534375,
+          "probability": 0.9977900981903076
+        },
+        {
+          "word": "'è",
+          "start": 278.39534375,
+          "end": 278.49534375,
+          "probability": 0.9912870824337006
+        },
+        {
+          "word": " più.",
+          "start": 278.49534375,
+          "end": 278.65534375,
+          "probability": 0.9890262484550476
+        }
+      ]
+    },
+    {
+      "index": 72,
+      "speaker": "SPEAKER_00",
+      "start": 279.14346875,
+      "end": 283.48034375000003,
+      "duration": 4.337,
+      "text": " E la testa si sollevò piano e salì su per la cappa del camino.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " E",
+          "start": 279.14346875,
+          "end": 279.28346875,
+          "probability": 0.5248232483863831
+        },
+        {
+          "word": " la",
+          "start": 279.28346875,
+          "end": 279.42346875,
+          "probability": 0.9993410706520081
+        },
+        {
+          "word": " testa",
+          "start": 279.42346875,
+          "end": 279.82346875,
+          "probability": 0.9997740089893341
+        },
+        {
+          "word": " si",
+          "start": 279.82346875,
+          "end": 279.98346875,
+          "probability": 0.9998726844787598
+        },
+        {
+          "word": " sollevò",
+          "start": 279.98346875,
+          "end": 280.46346875,
+          "probability": 0.9997069984674454
+        },
+        {
+          "word": " piano",
+          "start": 280.46346875,
+          "end": 280.88346875,
+          "probability": 0.9997442364692688
+        },
+        {
+          "word": " e",
+          "start": 280.88346875,
+          "end": 281.12346875000003,
+          "probability": 0.9947772026062012
+        },
+        {
+          "word": " salì",
+          "start": 281.12346875000003,
+          "end": 281.44346875,
+          "probability": 0.9989318251609802
+        },
+        {
+          "word": " su",
+          "start": 281.44346875,
+          "end": 281.62346875000003,
+          "probability": 0.9997474551200867
+        },
+        {
+          "word": " per",
+          "start": 281.62346875000003,
+          "end": 281.80346875000004,
+          "probability": 0.9997777342796326
+        },
+        {
+          "word": " la",
+          "start": 281.80346875000004,
+          "end": 281.94346875,
+          "probability": 0.9998462200164795
+        },
+        {
+          "word": " cappa",
+          "start": 281.94346875,
+          "end": 282.28346875,
+          "probability": 0.9679166376590729
+        },
+        {
+          "word": " del",
+          "start": 282.28346875,
+          "end": 282.48346875,
+          "probability": 0.9998581409454346
+        },
+        {
+          "word": " camino.",
+          "start": 282.48346875,
+          "end": 282.80346875000004,
+          "probability": 0.8148781061172485
+        }
+      ]
+    },
+    {
+      "index": 73,
+      "speaker": "SPEAKER_00",
+      "start": 283.51409375000003,
+      "end": 297.99284375,
+      "duration": 14.479,
+      "text": " e di lui non si seppe più niente. L'alba. Quando spuntò l'alba si sentì un canto lontano che si avvicinava. Era la compagnia con la bara venuta a prendere il povero Giovannino.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " e",
+          "start": 283.51409375000003,
+          "end": 283.77409375,
+          "probability": 0.3833100497722626
+        },
+        {
+          "word": " di",
+          "start": 283.77409375,
+          "end": 283.93409375000005,
+          "probability": 0.999261200428009
+        },
+        {
+          "word": " lui",
+          "start": 283.93409375000005,
+          "end": 284.25409375000004,
+          "probability": 0.990268349647522
+        },
+        {
+          "word": " non",
+          "start": 284.25409375000004,
+          "end": 284.99409375000005,
+          "probability": 0.995274543762207
+        },
+        {
+          "word": " si",
+          "start": 284.99409375000005,
+          "end": 285.19409375000004,
+          "probability": 0.9999213218688965
+        },
+        {
+          "word": " seppe",
+          "start": 285.19409375000004,
+          "end": 285.59409375,
+          "probability": 0.9965469837188721
+        },
+        {
+          "word": " più",
+          "start": 285.59409375,
+          "end": 285.79409375,
+          "probability": 0.9996875524520874
+        },
+        {
+          "word": " niente.",
+          "start": 285.79409375,
+          "end": 286.33409375,
+          "probability": 0.999934196472168
+        },
+        {
+          "word": " L",
+          "start": 286.69409375000004,
+          "end": 287.17409375000005,
+          "probability": 0.992975115776062
+        },
+        {
+          "word": "'alba.",
+          "start": 287.17409375000005,
+          "end": 287.57409375000003,
+          "probability": 0.9960562189420065
+        },
+        {
+          "word": " Quando",
+          "start": 287.81409375000004,
+          "end": 288.45409375,
+          "probability": 0.9986805319786072
+        },
+        {
+          "word": " spuntò",
+          "start": 288.45409375,
+          "end": 289.03409375,
+          "probability": 0.9997763435045878
+        },
+        {
+          "word": " l",
+          "start": 289.03409375,
+          "end": 289.19409375000004,
+          "probability": 0.9986898303031921
+        },
+        {
+          "word": "'alba",
+          "start": 289.19409375000004,
+          "end": 289.47409375,
+          "probability": 0.9999681313832601
+        },
+        {
+          "word": " si",
+          "start": 289.47409375,
+          "end": 289.67409375000005,
+          "probability": 0.8504117131233215
+        },
+        {
+          "word": " sentì",
+          "start": 289.67409375000005,
+          "end": 290.13409375000003,
+          "probability": 0.999453067779541
+        },
+        {
+          "word": " un",
+          "start": 290.13409375000003,
+          "end": 290.31409375000004,
+          "probability": 0.9999573230743408
+        },
+        {
+          "word": " canto",
+          "start": 290.31409375000004,
+          "end": 290.69409375000004,
+          "probability": 0.9999281167984009
+        },
+        {
+          "word": " lontano",
+          "start": 290.69409375000004,
+          "end": 291.37409375000004,
+          "probability": 0.9999390045801798
+        },
+        {
+          "word": " che",
+          "start": 291.37409375000004,
+          "end": 291.55409375000005,
+          "probability": 0.998561441898346
+        },
+        {
+          "word": " si",
+          "start": 291.55409375000005,
+          "end": 291.73409375000006,
+          "probability": 0.9998921155929565
+        },
+        {
+          "word": " avvicinava.",
+          "start": 291.73409375000006,
+          "end": 292.57409375000003,
+          "probability": 0.9999432861804962
+        },
+        {
+          "word": " Era",
+          "start": 292.85409375,
+          "end": 293.31409375000004,
+          "probability": 0.9960491061210632
+        },
+        {
+          "word": " la",
+          "start": 293.31409375000004,
+          "end": 293.53409375,
+          "probability": 0.999688982963562
+        },
+        {
+          "word": " compagnia",
+          "start": 293.53409375,
+          "end": 294.33409375,
+          "probability": 0.9988574186960856
+        },
+        {
+          "word": " con",
+          "start": 294.33409375,
+          "end": 294.57409375000003,
+          "probability": 0.962936520576477
+        },
+        {
+          "word": " la",
+          "start": 294.57409375000003,
+          "end": 294.67409375000005,
+          "probability": 0.9952824711799622
+        },
+        {
+          "word": " bara",
+          "start": 294.67409375000005,
+          "end": 295.01409375000003,
+          "probability": 0.9454075694084167
+        },
+        {
+          "word": " venuta",
+          "start": 295.01409375000003,
+          "end": 295.95409375,
+          "probability": 0.9644820094108582
+        },
+        {
+          "word": " a",
+          "start": 295.95409375,
+          "end": 296.11409375000005,
+          "probability": 0.999923586845398
+        },
+        {
+          "word": " prendere",
+          "start": 296.11409375000005,
+          "end": 296.51409375000003,
+          "probability": 0.9999324679374695
+        },
+        {
+          "word": " il",
+          "start": 296.51409375000003,
+          "end": 296.63409375000003,
+          "probability": 0.9998841285705566
+        },
+        {
+          "word": " povero",
+          "start": 296.63409375000003,
+          "end": 296.99409375000005,
+          "probability": 0.9993655681610107
+        },
+        {
+          "word": " Giovannino.",
+          "start": 296.99409375000005,
+          "end": 297.73409375000006,
+          "probability": 0.9932400584220886
+        }
+      ]
+    },
+    {
+      "index": 74,
+      "speaker": "SPEAKER_00",
+      "start": 298.73534375,
+      "end": 303.25784375,
+      "duration": 4.522,
+      "text": " Ma quando alzarono gli occhi, lo videro alla finestra.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Ma",
+          "start": 298.73534375,
+          "end": 298.89534375000005,
+          "probability": 0.7008843421936035
+        },
+        {
+          "word": " quando",
+          "start": 298.89534375000005,
+          "end": 299.25534375,
+          "probability": 0.9986560344696045
+        },
+        {
+          "word": " alzarono",
+          "start": 299.25534375,
+          "end": 299.99534375,
+          "probability": 0.9998519271612167
+        },
+        {
+          "word": " gli",
+          "start": 299.99534375,
+          "end": 300.17534375,
+          "probability": 0.9999039173126221
+        },
+        {
+          "word": " occhi,",
+          "start": 300.17534375,
+          "end": 300.63534375,
+          "probability": 0.9999355673789978
+        },
+        {
+          "word": " lo",
+          "start": 300.89534375000005,
+          "end": 301.41534375000003,
+          "probability": 0.9995085000991821
+        },
+        {
+          "word": " videro",
+          "start": 301.41534375000003,
+          "end": 301.91534375000003,
+          "probability": 0.9986685713132223
+        },
+        {
+          "word": " alla",
+          "start": 301.91534375000003,
+          "end": 302.09534375000004,
+          "probability": 0.9995003938674927
+        },
+        {
+          "word": " finestra.",
+          "start": 302.09534375000004,
+          "end": 302.93534375,
+          "probability": 0.9999111294746399
+        }
+      ]
+    },
+    {
+      "index": 75,
+      "speaker": "SPEAKER_00",
+      "start": 303.69659375000003,
+      "end": 306.19409375000004,
+      "duration": 2.498,
+      "text": " che fumava tranquillamente la pipa.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " che",
+          "start": 303.69659375000003,
+          "end": 303.85659375000006,
+          "probability": 0.8836748003959656
+        },
+        {
+          "word": " fumava",
+          "start": 303.85659375000006,
+          "end": 304.31659375000004,
+          "probability": 0.9994797110557556
+        },
+        {
+          "word": " tranquillamente",
+          "start": 304.31659375000004,
+          "end": 305.33659375,
+          "probability": 0.9994741479555765
+        },
+        {
+          "word": " la",
+          "start": 305.33659375,
+          "end": 305.57659375000003,
+          "probability": 0.9962998032569885
+        },
+        {
+          "word": " pipa.",
+          "start": 305.57659375000003,
+          "end": 306.05659375000005,
+          "probability": 0.9966951608657837
+        }
+      ]
+    },
+    {
+      "index": 76,
+      "speaker": "SPEAKER_00",
+      "start": 307.30784375,
+      "end": 308.21909375,
+      "duration": 0.911,
+      "text": " A O",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " A",
+          "start": 307.30784375,
+          "end": 307.58784375,
+          "probability": 0.37755611538887024
+        },
+        {
+          "word": " O",
+          "start": 307.58784375,
+          "end": 308.00784375,
+          "probability": 0.521896481513977
+        }
+      ]
+    },
+    {
+      "index": 77,
+      "speaker": "SPEAKER_00",
+      "start": 309.19784375,
+      "end": 310.39596875,
+      "duration": 1.198,
+      "text": " Per sempre!",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Per",
+          "start": 309.19784375,
+          "end": 309.43784375,
+          "probability": 0.7490689158439636
+        },
+        {
+          "word": " sempre!",
+          "start": 309.43784375,
+          "end": 309.97784375,
+          "probability": 0.9976314306259155
+        }
+      ]
+    },
+    {
+      "index": 78,
+      "speaker": "SPEAKER_00",
+      "start": 310.59846875,
+      "end": 311.67846875000004,
+      "duration": 1.08,
+      "text": " Il ombra",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Il",
+          "start": 310.59846875,
+          "end": 310.95846875,
+          "probability": 0.4953329861164093
+        },
+        {
+          "word": " ombra",
+          "start": 310.95846875,
+          "end": 311.41846875,
+          "probability": 0.6536926950017611
+        }
+      ]
+    },
+    {
+      "index": 79,
+      "speaker": "SPEAKER_00",
+      "start": 312.15096875,
+      "end": 315.64409375,
+      "duration": 3.493,
+      "text": " Con l'oro dei lingotti Giovannino diventò ricco.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Con",
+          "start": 312.15096875,
+          "end": 312.39096875,
+          "probability": 0.8580844402313232
+        },
+        {
+          "word": " l",
+          "start": 312.39096875,
+          "end": 312.51096875,
+          "probability": 0.8987036943435669
+        },
+        {
+          "word": "'oro",
+          "start": 312.51096875,
+          "end": 312.67096875,
+          "probability": 0.9968189299106598
+        },
+        {
+          "word": " dei",
+          "start": 312.67096875,
+          "end": 312.89096875,
+          "probability": 0.999652624130249
+        },
+        {
+          "word": " lingotti",
+          "start": 312.89096875,
+          "end": 313.53096875,
+          "probability": 0.9716557264328003
+        },
+        {
+          "word": " Giovannino",
+          "start": 313.53096875,
+          "end": 314.23096875,
+          "probability": 0.9678157567977905
+        },
+        {
+          "word": " diventò",
+          "start": 314.23096875,
+          "end": 314.79096875,
+          "probability": 0.9964776436487833
+        },
+        {
+          "word": " ricco.",
+          "start": 314.79096875,
+          "end": 315.27096875,
+          "probability": 0.9996742606163025
+        }
+      ]
+    },
+    {
+      "index": 80,
+      "speaker": "SPEAKER_00",
+      "start": 315.74534375,
+      "end": 318.90096875,
+      "duration": 3.156,
+      "text": " Visse nel palazzo felice per molti anni.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Visse",
+          "start": 315.74534375,
+          "end": 316.26534375,
+          "probability": 0.6985485255718231
+        },
+        {
+          "word": " nel",
+          "start": 316.26534375,
+          "end": 316.48534375,
+          "probability": 0.9993517994880676
+        },
+        {
+          "word": " palazzo",
+          "start": 316.48534375,
+          "end": 317.10534375000003,
+          "probability": 0.9654293457667033
+        },
+        {
+          "word": " felice",
+          "start": 317.10534375000003,
+          "end": 317.62534375,
+          "probability": 0.9944683909416199
+        },
+        {
+          "word": " per",
+          "start": 317.62534375,
+          "end": 317.86534375,
+          "probability": 0.9996440410614014
+        },
+        {
+          "word": " molti",
+          "start": 317.86534375,
+          "end": 318.30534375,
+          "probability": 0.9998207092285156
+        },
+        {
+          "word": " anni.",
+          "start": 318.30534375,
+          "end": 318.56534375,
+          "probability": 0.999922513961792
+        }
+      ]
+    },
+    {
+      "index": 81,
+      "speaker": "SPEAKER_00",
+      "start": 319.28909375,
+      "end": 320.80784375,
+      "duration": 1.519,
+      "text": " Finché un giorno.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Finché",
+          "start": 319.28909375,
+          "end": 319.72909375,
+          "probability": 0.8728034198284149
+        },
+        {
+          "word": " un",
+          "start": 319.72909375,
+          "end": 319.92909375,
+          "probability": 0.9980586171150208
+        },
+        {
+          "word": " giorno.",
+          "start": 319.92909375,
+          "end": 320.30909375,
+          "probability": 0.9995538592338562
+        }
+      ]
+    },
+    {
+      "index": 82,
+      "speaker": "SPEAKER_00",
+      "start": 320.95971875000004,
+      "end": 328.04721875,
+      "duration": 7.087,
+      "text": " Voltandosi di scatto, vide qualcosa muoversi dietro di sé, la sua stessa ombra.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Voltandosi",
+          "start": 320.95971875000004,
+          "end": 321.89971875000003,
+          "probability": 0.9834821025530497
+        },
+        {
+          "word": " di",
+          "start": 321.89971875000003,
+          "end": 322.05971875000006,
+          "probability": 0.9999599456787109
+        },
+        {
+          "word": " scatto,",
+          "start": 322.05971875000006,
+          "end": 322.65971875,
+          "probability": 0.9993506669998169
+        },
+        {
+          "word": " vide",
+          "start": 322.95971875000004,
+          "end": 323.31971875000005,
+          "probability": 0.9966562986373901
+        },
+        {
+          "word": " qualcosa",
+          "start": 323.31971875000005,
+          "end": 323.81971875000005,
+          "probability": 0.9998741149902344
+        },
+        {
+          "word": " muoversi",
+          "start": 323.81971875000005,
+          "end": 324.59971875,
+          "probability": 0.9995997548103333
+        },
+        {
+          "word": " dietro",
+          "start": 324.59971875,
+          "end": 324.97971875,
+          "probability": 0.9999159574508667
+        },
+        {
+          "word": " di",
+          "start": 324.97971875,
+          "end": 325.11971875000006,
+          "probability": 0.9999969005584717
+        },
+        {
+          "word": " sé,",
+          "start": 325.11971875000006,
+          "end": 325.41971875,
+          "probability": 0.995969295501709
+        },
+        {
+          "word": " la",
+          "start": 325.71971875,
+          "end": 326.21971875,
+          "probability": 0.9998654127120972
+        },
+        {
+          "word": " sua",
+          "start": 326.21971875,
+          "end": 326.45971875000004,
+          "probability": 0.9997110962867737
+        },
+        {
+          "word": " stessa",
+          "start": 326.45971875000004,
+          "end": 326.99971875000006,
+          "probability": 0.9999650716781616
+        },
+        {
+          "word": " ombra.",
+          "start": 326.99971875000006,
+          "end": 327.57971875000004,
+          "probability": 0.9996764659881592
+        }
+      ]
+    },
+    {
+      "index": 83,
+      "speaker": "SPEAKER_00",
+      "start": 328.40159375,
+      "end": 341.85096875000005,
+      "duration": 13.449,
+      "text": " Si spaventò tanto, ma tanto che morì. Era la prima paura della sua vita e fu anche l'ultima. E così finisce la storia di Giovannino senza paura.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Si",
+          "start": 328.40159375,
+          "end": 329.24159375,
+          "probability": 0.9107887148857117
+        },
+        {
+          "word": " spaventò",
+          "start": 329.24159375,
+          "end": 329.94159375000004,
+          "probability": 0.9998522847890854
+        },
+        {
+          "word": " tanto,",
+          "start": 329.94159375000004,
+          "end": 330.46159375,
+          "probability": 0.9997580647468567
+        },
+        {
+          "word": " ma",
+          "start": 330.94159375000004,
+          "end": 331.48159375,
+          "probability": 0.9998779296875
+        },
+        {
+          "word": " tanto",
+          "start": 331.48159375,
+          "end": 332.04159375,
+          "probability": 0.9999326467514038
+        },
+        {
+          "word": " che",
+          "start": 332.04159375,
+          "end": 332.42159375,
+          "probability": 0.9996858835220337
+        },
+        {
+          "word": " morì.",
+          "start": 332.42159375,
+          "end": 333.54159375,
+          "probability": 0.7978656589984894
+        },
+        {
+          "word": " Era",
+          "start": 333.82159375000003,
+          "end": 334.30159375,
+          "probability": 0.9988935589790344
+        },
+        {
+          "word": " la",
+          "start": 334.30159375,
+          "end": 334.48159375,
+          "probability": 0.9999783039093018
+        },
+        {
+          "word": " prima",
+          "start": 334.48159375,
+          "end": 334.78159375,
+          "probability": 0.9997566342353821
+        },
+        {
+          "word": " paura",
+          "start": 334.78159375,
+          "end": 335.28159375,
+          "probability": 0.9999617338180542
+        },
+        {
+          "word": " della",
+          "start": 335.28159375,
+          "end": 335.54159375,
+          "probability": 0.9998875856399536
+        },
+        {
+          "word": " sua",
+          "start": 335.54159375,
+          "end": 335.80159375,
+          "probability": 0.999796450138092
+        },
+        {
+          "word": " vita",
+          "start": 335.80159375,
+          "end": 336.16159375,
+          "probability": 0.9999440908432007
+        },
+        {
+          "word": " e",
+          "start": 336.16159375,
+          "end": 336.34159375,
+          "probability": 0.9990515112876892
+        },
+        {
+          "word": " fu",
+          "start": 336.34159375,
+          "end": 336.56159375000004,
+          "probability": 0.999895453453064
+        },
+        {
+          "word": " anche",
+          "start": 336.56159375000004,
+          "end": 336.82159375000003,
+          "probability": 0.9999686479568481
+        },
+        {
+          "word": " l",
+          "start": 336.82159375000003,
+          "end": 337.02159375,
+          "probability": 0.9999954700469971
+        },
+        {
+          "word": "'ultima.",
+          "start": 337.02159375,
+          "end": 337.46159375,
+          "probability": 0.9999408721923828
+        },
+        {
+          "word": " E",
+          "start": 337.74159375,
+          "end": 338.24159375,
+          "probability": 0.9997746348381042
+        },
+        {
+          "word": " così",
+          "start": 338.24159375,
+          "end": 338.56159375000004,
+          "probability": 0.9998751878738403
+        },
+        {
+          "word": " finisce",
+          "start": 338.56159375000004,
+          "end": 339.12159375000005,
+          "probability": 0.9999164342880249
+        },
+        {
+          "word": " la",
+          "start": 339.12159375000005,
+          "end": 339.30159375,
+          "probability": 0.9998623132705688
+        },
+        {
+          "word": " storia",
+          "start": 339.30159375,
+          "end": 339.80159375,
+          "probability": 0.9999194741249084
+        },
+        {
+          "word": " di",
+          "start": 339.80159375,
+          "end": 339.96159375,
+          "probability": 0.9998805522918701
+        },
+        {
+          "word": " Giovannino",
+          "start": 339.96159375,
+          "end": 340.58159375,
+          "probability": 0.998775323232015
+        },
+        {
+          "word": " senza",
+          "start": 340.58159375,
+          "end": 340.96159375,
+          "probability": 0.8173975944519043
+        },
+        {
+          "word": " paura.",
+          "start": 340.96159375,
+          "end": 341.54159375,
+          "probability": 0.9997909963130951
+        }
+      ]
+    }
+  ],
+  "reviewed": false
+}

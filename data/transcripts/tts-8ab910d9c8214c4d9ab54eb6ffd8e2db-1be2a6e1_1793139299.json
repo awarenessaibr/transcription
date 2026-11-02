@@ -1,0 +1,66 @@
+{
+  "transcript_id": "tts-8ab910d9c8214c4d9ab54eb6ffd8e2db-1be2a6e1_1793139299",
+  "source_file": "tts-8ab910d9c8214c4d9ab54eb6ffd8e2db-1be2a6e1_1793139299.wav",
+  "source_path": "",
+  "language": "en",
+  "timestamp": "",
+  "provider": "",
+  "original_transcript_id": null,
+  "metadata": {
+    "saved_audio_file": "tts-8ab910d9c8214c4d9ab54eb6ffd8e2db-1be2a6e1_1793139299.wav",
+    "processed_audio_file": "tts-8ab910d9c8214c4d9ab54eb6ffd8e2db-1be2a6e1_1793139299_processed.wav"
+  },
+  "title": "",
+  "subtitle": "",
+  "recording_datetime": "",
+  "location": "",
+  "audio_id": "",
+  "case_id": "",
+  "narrative_id": "",
+  "chronological_order": null,
+  "prior_stage": "",
+  "next_stage": "",
+  "classification": "",
+  "participants": [],
+  "violations_cited": [],
+  "tags": [],
+  "forensic_clusters": {},
+  "key_evidentiary_findings": [],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 1,
+      "speaker": "SPEAKER_00",
+      "start": 0.45284375,
+      "end": 2.15721875,
+      "duration": 1.704,
+      "text": " Carl Gustav Jung",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Carl",
+          "start": 0.45284375,
+          "end": 0.93284375,
+          "probability": 0.8937594294548035
+        },
+        {
+          "word": " Gustav",
+          "start": 0.93284375,
+          "end": 1.61284375,
+          "probability": 0.9791713953018188
+        },
+        {
+          "word": " Jung",
+          "start": 1.61284375,
+          "end": 1.91284375,
+          "probability": 0.9948503375053406
+        }
+      ]
+    }
+  ],
+  "reviewed": false
+}

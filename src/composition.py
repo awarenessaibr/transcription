@@ -6,6 +6,7 @@ import logging
 from dataclasses import dataclass
 from typing import Any
 
+from .application.use_cases.align_narration import AlignNarrationUseCase
 from .application.use_cases.diarize_excerpt import DiarizeExcerptUseCase
 from .application.use_cases.guided_transcribe import ReferenceGuidedTranscribeUseCase
 from .application.use_cases.transcribe_audio import TranscribeAudioUseCase
@@ -43,6 +44,7 @@ class transcriptionRuntime:
     search_use_case: Any = None
 
     transcribe_use_case: TranscribeAudioUseCase | None = None
+    align_narration_use_case: AlignNarrationUseCase | None = None
     excerpt_use_case: DiarizeExcerptUseCase | None = None
     guided_transcribe_use_case: ReferenceGuidedTranscribeUseCase | None = None
 
@@ -157,6 +159,10 @@ def build_runtime() -> transcriptionRuntime:
         store=store_adapter,
         audio_files=audio_file_adapter,
         index=runtime.qdrant_adapter,
+    )
+    runtime.align_narration_use_case = AlignNarrationUseCase(
+        asr=asr_adapter,
+        audio_files=audio_file_adapter,
     )
     runtime.excerpt_use_case = DiarizeExcerptUseCase(
         diarizer=diarizer_adapter,

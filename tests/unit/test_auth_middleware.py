@@ -39,6 +39,10 @@ def _app() -> FastAPI:
     async def shell():
         return {"ui": True}
 
+    @app.get("/aligner")
+    async def aligner_shell():
+        return {"ui": True}
+
     return app
 
 
@@ -60,6 +64,7 @@ def test_public_path_classification() -> None:
     assert auth.is_public_path("/health")
     assert auth.is_public_path("/static/js/llm-providers.js")
     assert auth.is_public_path("/pinocchio")
+    assert auth.is_public_path("/aligner")
     assert auth.is_public_path("/")
     # These carry evidence and must NOT be public.
     assert not auth.is_public_path("/api/transcripts")
@@ -88,6 +93,12 @@ def test_static_evidence_path_requires_a_key(with_key) -> None:
 def test_health_and_shell_stay_public(with_key) -> None:
     assert with_key.get("/health").status_code == 200
     assert with_key.get("/pinocchio").status_code == 200
+
+
+def test_public_shell_token_sets_auth_cookie(with_key) -> None:
+    response = with_key.get("/aligner", params={"token": KEY})
+    assert response.status_code == 200
+    assert response.cookies.get(auth.COOKIE_NAME) == KEY
 
 
 def test_x_api_key_header_authenticates(with_key) -> None:

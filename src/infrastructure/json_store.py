@@ -7,7 +7,7 @@ import os
 import re
 import tempfile
 
-from src.domain.entities.transcript import Segment, Speaker, Transcript
+from src.domain.entities.transcript import Segment, Speaker, Transcript, WordTimestamp
 from src.domain.transcript_fields import validate_transcript
 
 logger = logging.getLogger(__name__)
@@ -81,6 +81,15 @@ class JSONTranscriptStore:
                 # silently destroys it on the next save.
                 "segment_datetime": getattr(seg, "segment_datetime", ""),
                 "speaker_id": getattr(seg, "speaker_id", ""),
+                "words": [
+                    {
+                        "word": word.word,
+                        "start": word.start,
+                        "end": word.end,
+                        "probability": word.probability,
+                    }
+                    for word in getattr(seg, "words", [])
+                ],
             }
             for seg in transcript.segments
         ]
@@ -197,6 +206,34 @@ class JSONTranscriptStore:
             except Exception:
                 # If conversion fails (e.g., "4.2"), default to enumeration order.
                 index = i
+            words = []
+            for word in item.get("words", []):
+                if not isinstance(word, dict):
+                    logger.warning(
+                        "[store] %s segment %s: ignoring malformed word timestamp %r",
+                        transcript_id, index, word,
+                    )
+                    continue
+                try:
+                    word_start = float(word["start"])
+                    word_end = float(word["end"])
+                    probability = (
+                        float(word["probability"])
+                        if word.get("probability") is not None else None
+                    )
+                except (KeyError, TypeError, ValueError):
+                    logger.warning(
+                        "[store] %s segment %s: ignoring malformed word timestamp %r",
+                        transcript_id, index, word,
+                    )
+                    continue
+                words.append(WordTimestamp(
+                    word=str(word.get("word", "")),
+                    start=word_start,
+                    end=word_end,
+                    probability=probability,
+                ))
+
             segment = Segment(
                 index=index,
                 speaker=Speaker(label=item.get("speaker", "")),
@@ -208,6 +245,7 @@ class JSONTranscriptStore:
                 backchannel_events=item.get("backchannel_events", ""),
                 segment_datetime=item.get("segment_datetime", ""),
                 speaker_id=item.get("speaker_id", ""),
+                words=words,
             )
             segments.append(segment)
 

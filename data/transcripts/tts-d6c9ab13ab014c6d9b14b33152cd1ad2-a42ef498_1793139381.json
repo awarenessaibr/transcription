@@ -1,0 +1,738 @@
+{
+  "transcript_id": "tts-d6c9ab13ab014c6d9b14b33152cd1ad2-a42ef498_1793139381",
+  "source_file": "tts-d6c9ab13ab014c6d9b14b33152cd1ad2-a42ef498_1793139381.wav",
+  "source_path": "",
+  "language": "en",
+  "timestamp": "",
+  "provider": "",
+  "original_transcript_id": null,
+  "metadata": {
+    "saved_audio_file": "tts-d6c9ab13ab014c6d9b14b33152cd1ad2-a42ef498_1793139381.wav",
+    "processed_audio_file": "tts-d6c9ab13ab014c6d9b14b33152cd1ad2-a42ef498_1793139381_processed.wav"
+  },
+  "title": "",
+  "subtitle": "",
+  "recording_datetime": "",
+  "location": "",
+  "audio_id": "",
+  "case_id": "",
+  "narrative_id": "",
+  "chronological_order": null,
+  "prior_stage": "",
+  "next_stage": "",
+  "classification": "",
+  "participants": [],
+  "violations_cited": [],
+  "tags": [],
+  "forensic_clusters": {},
+  "key_evidentiary_findings": [],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 1,
+      "speaker": "SPEAKER_00",
+      "start": 0.30096875,
+      "end": 0.9422187500000001,
+      "duration": 0.641,
+      "text": " I said",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " I",
+          "start": 0.30096875,
+          "end": 0.46096875000000004,
+          "probability": 0.6662891507148743
+        },
+        {
+          "word": " said",
+          "start": 0.46096875000000004,
+          "end": 0.82096875,
+          "probability": 0.6796851754188538
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "speaker": "SPEAKER_00",
+      "start": 1.5834687500000002,
+      "end": 2.49471875,
+      "duration": 0.911,
+      "text": " At that time,",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " At",
+          "start": 1.5834687500000002,
+          "end": 1.7634687500000001,
+          "probability": 0.7484758496284485
+        },
+        {
+          "word": " that",
+          "start": 1.7634687500000001,
+          "end": 1.9234687500000003,
+          "probability": 0.6521664261817932
+        },
+        {
+          "word": " time,",
+          "start": 1.9234687500000003,
+          "end": 2.3034687500000004,
+          "probability": 0.9898069500923157
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "speaker": "SPEAKER_00",
+      "start": 2.7478437500000004,
+      "end": 3.8278437500000004,
+      "duration": 1.08,
+      "text": " that you were",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " that",
+          "start": 2.7478437500000004,
+          "end": 2.9878437500000006,
+          "probability": 0.6363691687583923
+        },
+        {
+          "word": " you",
+          "start": 2.9878437500000006,
+          "end": 3.2878437500000004,
+          "probability": 0.9894145727157593
+        },
+        {
+          "word": " were",
+          "start": 3.2878437500000004,
+          "end": 3.6878437500000003,
+          "probability": 0.9678520560264587
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "speaker": "SPEAKER_00",
+      "start": 4.03034375,
+      "end": 5.684093750000001,
+      "duration": 1.654,
+      "text": " sector-facing fans",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " sector",
+          "start": 4.03034375,
+          "end": 4.39034375,
+          "probability": 0.14027410745620728
+        },
+        {
+          "word": "-facing",
+          "start": 4.39034375,
+          "end": 4.9303437500000005,
+          "probability": 0.7070888131856918
+        },
+        {
+          "word": " fans",
+          "start": 4.9303437500000005,
+          "end": 5.4303437500000005,
+          "probability": 0.48051583766937256
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "speaker": "SPEAKER_00",
+      "start": 6.257843750000001,
+      "end": 9.26159375,
+      "duration": 3.004,
+      "text": " on the altar of your own spiritual needs.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " on",
+          "start": 6.257843750000001,
+          "end": 6.437843750000001,
+          "probability": 0.871328592300415
+        },
+        {
+          "word": " the",
+          "start": 6.437843750000001,
+          "end": 6.597843750000001,
+          "probability": 0.9978141784667969
+        },
+        {
+          "word": " altar",
+          "start": 6.597843750000001,
+          "end": 7.057843750000001,
+          "probability": 0.9385360479354858
+        },
+        {
+          "word": " of",
+          "start": 7.057843750000001,
+          "end": 7.457843750000001,
+          "probability": 0.9951425790786743
+        },
+        {
+          "word": " your",
+          "start": 7.457843750000001,
+          "end": 7.6978437500000005,
+          "probability": 0.9972901344299316
+        },
+        {
+          "word": " own",
+          "start": 7.6978437500000005,
+          "end": 8.097843750000001,
+          "probability": 0.9968517422676086
+        },
+        {
+          "word": " spiritual",
+          "start": 8.097843750000001,
+          "end": 8.757843750000001,
+          "probability": 0.9960440397262573
+        },
+        {
+          "word": " needs.",
+          "start": 8.757843750000001,
+          "end": 9.137843750000002,
+          "probability": 0.7415813207626343
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "speaker": "SPEAKER_00",
+      "start": 9.818468750000001,
+      "end": 13.53096875,
+      "duration": 3.712,
+      "text": " And I am not certain I have revised that judgment.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " And",
+          "start": 9.818468750000001,
+          "end": 9.978468750000001,
+          "probability": 0.7173197865486145
+        },
+        {
+          "word": " I",
+          "start": 9.978468750000001,
+          "end": 10.17846875,
+          "probability": 0.9959484934806824
+        },
+        {
+          "word": " am",
+          "start": 10.17846875,
+          "end": 10.318468750000001,
+          "probability": 0.9748741984367371
+        },
+        {
+          "word": " not",
+          "start": 10.318468750000001,
+          "end": 10.558468750000001,
+          "probability": 0.9989849925041199
+        },
+        {
+          "word": " certain",
+          "start": 10.558468750000001,
+          "end": 11.138468750000001,
+          "probability": 0.9997460246086121
+        },
+        {
+          "word": " I",
+          "start": 11.138468750000001,
+          "end": 11.57846875,
+          "probability": 0.9921740293502808
+        },
+        {
+          "word": " have",
+          "start": 11.57846875,
+          "end": 11.85846875,
+          "probability": 0.9998384714126587
+        },
+        {
+          "word": " revised",
+          "start": 11.85846875,
+          "end": 12.49846875,
+          "probability": 0.9959970712661743
+        },
+        {
+          "word": " that",
+          "start": 12.49846875,
+          "end": 12.83846875,
+          "probability": 0.9994996786117554
+        },
+        {
+          "word": " judgment.",
+          "start": 12.83846875,
+          "end": 13.17846875,
+          "probability": 0.9824908375740051
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "speaker": "SPEAKER_00",
+      "start": 14.239718750000002,
+      "end": 15.589718750000003,
+      "duration": 1.35,
+      "text": " But I will say this.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " But",
+          "start": 14.239718750000002,
+          "end": 14.419718750000001,
+          "probability": 0.8575809597969055
+        },
+        {
+          "word": " I",
+          "start": 14.419718750000001,
+          "end": 14.679718750000001,
+          "probability": 0.9880697131156921
+        },
+        {
+          "word": " will",
+          "start": 14.679718750000001,
+          "end": 14.919718750000001,
+          "probability": 0.940955638885498
+        },
+        {
+          "word": " say",
+          "start": 14.919718750000001,
+          "end": 15.239718750000002,
+          "probability": 0.9997333884239197
+        },
+        {
+          "word": " this.",
+          "start": 15.239718750000002,
+          "end": 15.459718750000002,
+          "probability": 0.9994258880615234
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "speaker": "SPEAKER_00",
+      "start": 16.11284375,
+      "end": 21.47909375,
+      "duration": 5.366,
+      "text": " Whatever brought us here, whatever force or contrivance has arranged,",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Whatever",
+          "start": 16.11284375,
+          "end": 16.692843749999998,
+          "probability": 0.49745672941207886
+        },
+        {
+          "word": " brought",
+          "start": 16.692843749999998,
+          "end": 17.21284375,
+          "probability": 0.995843231678009
+        },
+        {
+          "word": " us",
+          "start": 17.21284375,
+          "end": 17.59284375,
+          "probability": 0.987613320350647
+        },
+        {
+          "word": " here,",
+          "start": 17.59284375,
+          "end": 18.032843749999998,
+          "probability": 0.9993380904197693
+        },
+        {
+          "word": " whatever",
+          "start": 18.23284375,
+          "end": 18.71284375,
+          "probability": 0.9875040650367737
+        },
+        {
+          "word": " force",
+          "start": 18.71284375,
+          "end": 19.23284375,
+          "probability": 0.9770952463150024
+        },
+        {
+          "word": " or",
+          "start": 19.23284375,
+          "end": 19.57284375,
+          "probability": 0.9927553534507751
+        },
+        {
+          "word": " contrivance",
+          "start": 19.57284375,
+          "end": 20.41284375,
+          "probability": 0.9885872403780619
+        },
+        {
+          "word": " has",
+          "start": 20.41284375,
+          "end": 20.79284375,
+          "probability": 0.9968804121017456
+        },
+        {
+          "word": " arranged,",
+          "start": 20.79284375,
+          "end": 21.31284375,
+          "probability": 0.9972580671310425
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "speaker": "SPEAKER_00",
+      "start": 21.85034375,
+      "end": 23.53784375,
+      "duration": 1.688,
+      "text": " This peculiar theorem",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " This",
+          "start": 21.85034375,
+          "end": 22.13034375,
+          "probability": 0.5560713410377502
+        },
+        {
+          "word": " peculiar",
+          "start": 22.13034375,
+          "end": 22.85034375,
+          "probability": 0.9693822264671326
+        },
+        {
+          "word": " theorem",
+          "start": 22.85034375,
+          "end": 23.21034375,
+          "probability": 0.14849421381950378
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "speaker": "SPEAKER_00",
+      "start": 24.17909375,
+      "end": 30.16971875,
+      "duration": 5.991,
+      "text": " And I use that word with full awareness of how it will irritate you that it irritates me.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " And",
+          "start": 24.17909375,
+          "end": 24.33909375,
+          "probability": 0.7507387399673462
+        },
+        {
+          "word": " I",
+          "start": 24.33909375,
+          "end": 24.47909375,
+          "probability": 0.9945735335350037
+        },
+        {
+          "word": " use",
+          "start": 24.47909375,
+          "end": 24.77909375,
+          "probability": 0.9610599875450134
+        },
+        {
+          "word": " that",
+          "start": 24.77909375,
+          "end": 25.03909375,
+          "probability": 0.9981861710548401
+        },
+        {
+          "word": " word",
+          "start": 25.03909375,
+          "end": 25.35909375,
+          "probability": 0.9947001934051514
+        },
+        {
+          "word": " with",
+          "start": 25.35909375,
+          "end": 25.61909375,
+          "probability": 0.9944224953651428
+        },
+        {
+          "word": " full",
+          "start": 25.61909375,
+          "end": 25.97909375,
+          "probability": 0.9910879731178284
+        },
+        {
+          "word": " awareness",
+          "start": 25.97909375,
+          "end": 26.61909375,
+          "probability": 0.9972298741340637
+        },
+        {
+          "word": " of",
+          "start": 26.61909375,
+          "end": 26.95909375,
+          "probability": 0.9911102056503296
+        },
+        {
+          "word": " how",
+          "start": 26.95909375,
+          "end": 27.21909375,
+          "probability": 0.9942248463630676
+        },
+        {
+          "word": " it",
+          "start": 27.21909375,
+          "end": 27.439093749999998,
+          "probability": 0.9984839558601379
+        },
+        {
+          "word": " will",
+          "start": 27.439093749999998,
+          "end": 27.63909375,
+          "probability": 0.9973746538162231
+        },
+        {
+          "word": " irritate",
+          "start": 27.63909375,
+          "end": 28.35909375,
+          "probability": 0.9990547299385071
+        },
+        {
+          "word": " you",
+          "start": 28.35909375,
+          "end": 28.59909375,
+          "probability": 0.9985027313232422
+        },
+        {
+          "word": " that",
+          "start": 28.59909375,
+          "end": 28.85909375,
+          "probability": 0.5946931838989258
+        },
+        {
+          "word": " it",
+          "start": 28.85909375,
+          "end": 29.03909375,
+          "probability": 0.9950842261314392
+        },
+        {
+          "word": " irritates",
+          "start": 29.03909375,
+          "end": 29.759093749999998,
+          "probability": 0.9953432679176331
+        },
+        {
+          "word": " me.",
+          "start": 29.759093749999998,
+          "end": 29.99909375,
+          "probability": 0.9990777969360352
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "speaker": "SPEAKER_00",
+      "start": 30.55784375,
+      "end": 32.88659375,
+      "duration": 2.329,
+      "text": " The question they have set before us",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " The",
+          "start": 30.55784375,
+          "end": 30.71784375,
+          "probability": 0.7875779271125793
+        },
+        {
+          "word": " question",
+          "start": 30.71784375,
+          "end": 31.17784375,
+          "probability": 0.8920823335647583
+        },
+        {
+          "word": " they",
+          "start": 31.17784375,
+          "end": 31.57784375,
+          "probability": 0.9918427467346191
+        },
+        {
+          "word": " have",
+          "start": 31.57784375,
+          "end": 31.81784375,
+          "probability": 0.9966983199119568
+        },
+        {
+          "word": " set",
+          "start": 31.81784375,
+          "end": 32.05784375,
+          "probability": 0.8689701557159424
+        },
+        {
+          "word": " before",
+          "start": 32.05784375,
+          "end": 32.45784375,
+          "probability": 0.9975287318229675
+        },
+        {
+          "word": " us",
+          "start": 32.45784375,
+          "end": 32.77784375,
+          "probability": 0.998238205909729
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "speaker": "SPEAKER_00",
+      "start": 33.12284375,
+      "end": 34.979093750000004,
+      "duration": 1.856,
+      "text": " is extraordinary enough",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " is",
+          "start": 33.12284375,
+          "end": 33.40284375,
+          "probability": 0.8074103593826294
+        },
+        {
+          "word": " extraordinary",
+          "start": 33.40284375,
+          "end": 34.18284375,
+          "probability": 0.9883467555046082
+        },
+        {
+          "word": " enough",
+          "start": 34.18284375,
+          "end": 34.84284375,
+          "probability": 0.9978829026222229
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "speaker": "SPEAKER_00",
+      "start": 35.16471875,
+      "end": 39.41721875,
+      "duration": 4.253,
+      "text": " that I am willing to set aside old grievances provisionally.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " that",
+          "start": 35.16471875,
+          "end": 35.36471875,
+          "probability": 0.809639036655426
+        },
+        {
+          "word": " I",
+          "start": 35.36471875,
+          "end": 35.52471875,
+          "probability": 0.969247579574585
+        },
+        {
+          "word": " am",
+          "start": 35.52471875,
+          "end": 35.70471875,
+          "probability": 0.9882271885871887
+        },
+        {
+          "word": " willing",
+          "start": 35.70471875,
+          "end": 36.04471875,
+          "probability": 0.9981095790863037
+        },
+        {
+          "word": " to",
+          "start": 36.04471875,
+          "end": 36.34471875,
+          "probability": 0.9979442954063416
+        },
+        {
+          "word": " set",
+          "start": 36.34471875,
+          "end": 36.70471875,
+          "probability": 0.9966042041778564
+        },
+        {
+          "word": " aside",
+          "start": 36.70471875,
+          "end": 37.18471875,
+          "probability": 0.9992647767066956
+        },
+        {
+          "word": " old",
+          "start": 37.18471875,
+          "end": 37.68471875,
+          "probability": 0.5633002519607544
+        },
+        {
+          "word": " grievances",
+          "start": 37.68471875,
+          "end": 38.464718749999996,
+          "probability": 0.996943861246109
+        },
+        {
+          "word": " provisionally.",
+          "start": 38.464718749999996,
+          "end": 39.30471875,
+          "probability": 0.9953984320163727
+        }
+      ]
+    }
+  ],
+  "reviewed": false
+}

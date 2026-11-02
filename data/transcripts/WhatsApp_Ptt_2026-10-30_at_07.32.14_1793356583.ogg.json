@@ -1,0 +1,261 @@
+{
+  "transcript_id": "WhatsApp_Ptt_2026-10-30_at_07.32.14_1793356583.ogg",
+  "source_file": "WhatsApp Ptt 2026-10-30 at 07.32.14_1793356583.ogg.wav",
+  "source_path": "",
+  "language": "pt",
+  "timestamp": "",
+  "provider": "",
+  "original_transcript_id": null,
+  "metadata": {
+    "saved_audio_file": "WhatsApp Ptt 2026-10-30 at 07.32.14_1793356583.ogg.wav",
+    "processed_audio_file": "WhatsApp Ptt 2026-10-30 at 07.32.14_1793356583.ogg_processed.wav"
+  },
+  "title": "",
+  "subtitle": "",
+  "recording_datetime": "",
+  "location": "",
+  "audio_id": "",
+  "case_id": "",
+  "narrative_id": "",
+  "chronological_order": null,
+  "prior_stage": "",
+  "next_stage": "",
+  "classification": "",
+  "participants": [],
+  "violations_cited": [],
+  "tags": [],
+  "forensic_clusters": {},
+  "key_evidentiary_findings": [],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 1,
+      "speaker": "SPEAKER_00",
+      "start": 1.0434687500000002,
+      "end": 4.6715937499999995,
+      "duration": 3.628,
+      "text": " Eu digo sugerir, depois que você tiver o material, eu faço a sugestão.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Eu",
+          "start": 1.0434687500000002,
+          "end": 1.1634687500000003,
+          "probability": 0.9077109694480896
+        },
+        {
+          "word": " digo",
+          "start": 1.1634687500000003,
+          "end": 1.3034687500000002,
+          "probability": 0.5710336565971375
+        },
+        {
+          "word": " sugerir,",
+          "start": 1.3034687500000002,
+          "end": 1.90346875,
+          "probability": 0.9880759318669637
+        },
+        {
+          "word": " depois",
+          "start": 1.90346875,
+          "end": 2.1234687500000002,
+          "probability": 0.9517475962638855
+        },
+        {
+          "word": " que",
+          "start": 2.1234687500000002,
+          "end": 2.3434687500000004,
+          "probability": 0.9999697208404541
+        },
+        {
+          "word": " você",
+          "start": 2.3434687500000004,
+          "end": 2.50346875,
+          "probability": 0.9998558759689331
+        },
+        {
+          "word": " tiver",
+          "start": 2.50346875,
+          "end": 2.8034687500000004,
+          "probability": 0.9996969699859619
+        },
+        {
+          "word": " o",
+          "start": 2.8034687500000004,
+          "end": 2.86346875,
+          "probability": 0.999114453792572
+        },
+        {
+          "word": " material,",
+          "start": 2.86346875,
+          "end": 3.2834687500000004,
+          "probability": 0.9995449185371399
+        },
+        {
+          "word": " eu",
+          "start": 3.32346875,
+          "end": 3.56346875,
+          "probability": 0.9910081028938293
+        },
+        {
+          "word": " faço",
+          "start": 3.56346875,
+          "end": 3.7434687500000003,
+          "probability": 0.9990763664245605
+        },
+        {
+          "word": " a",
+          "start": 3.7434687500000003,
+          "end": 3.86346875,
+          "probability": 0.9998747110366821
+        },
+        {
+          "word": " sugestão.",
+          "start": 3.86346875,
+          "end": 4.48346875,
+          "probability": 0.9988372127215067
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "speaker": "SPEAKER_00",
+      "start": 5.650343750000001,
+      "end": 15.67409375,
+      "duration": 10.024,
+      "text": " para o núcleo de assuntos de raça do Estado. E aí os demais professores podem utilizar dentro do próprio material.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " para",
+          "start": 5.650343750000001,
+          "end": 5.830343750000001,
+          "probability": 0.7315381765365601
+        },
+        {
+          "word": " o",
+          "start": 5.830343750000001,
+          "end": 7.190343750000001,
+          "probability": 0.9771828055381775
+        },
+        {
+          "word": " núcleo",
+          "start": 7.190343750000001,
+          "end": 7.750343750000001,
+          "probability": 0.9521471261978149
+        },
+        {
+          "word": " de",
+          "start": 7.750343750000001,
+          "end": 7.9303437500000005,
+          "probability": 0.9974905252456665
+        },
+        {
+          "word": " assuntos",
+          "start": 7.9303437500000005,
+          "end": 9.610343750000002,
+          "probability": 0.9744885961214701
+        },
+        {
+          "word": " de",
+          "start": 9.610343750000002,
+          "end": 9.71034375,
+          "probability": 0.999116837978363
+        },
+        {
+          "word": " raça",
+          "start": 9.71034375,
+          "end": 10.110343750000002,
+          "probability": 0.9982756674289703
+        },
+        {
+          "word": " do",
+          "start": 10.110343750000002,
+          "end": 10.21034375,
+          "probability": 0.998009979724884
+        },
+        {
+          "word": " Estado.",
+          "start": 10.21034375,
+          "end": 10.470343750000001,
+          "probability": 0.7565097808837891
+        },
+        {
+          "word": " E",
+          "start": 10.71034375,
+          "end": 11.19034375,
+          "probability": 0.9479608535766602
+        },
+        {
+          "word": " aí",
+          "start": 11.19034375,
+          "end": 11.51034375,
+          "probability": 0.9006353616714478
+        },
+        {
+          "word": " os",
+          "start": 11.51034375,
+          "end": 11.930343750000002,
+          "probability": 0.8647367358207703
+        },
+        {
+          "word": " demais",
+          "start": 11.930343750000002,
+          "end": 12.33034375,
+          "probability": 0.9994181394577026
+        },
+        {
+          "word": " professores",
+          "start": 12.33034375,
+          "end": 13.050343750000001,
+          "probability": 0.9998734891414642
+        },
+        {
+          "word": " podem",
+          "start": 13.050343750000001,
+          "end": 13.35034375,
+          "probability": 0.9980185031890869
+        },
+        {
+          "word": " utilizar",
+          "start": 13.35034375,
+          "end": 13.870343750000002,
+          "probability": 0.9991183876991272
+        },
+        {
+          "word": " dentro",
+          "start": 13.870343750000002,
+          "end": 14.33034375,
+          "probability": 0.9990492463111877
+        },
+        {
+          "word": " do",
+          "start": 14.33034375,
+          "end": 14.650343750000001,
+          "probability": 0.9999097585678101
+        },
+        {
+          "word": " próprio",
+          "start": 14.650343750000001,
+          "end": 14.83034375,
+          "probability": 0.9998989105224609
+        },
+        {
+          "word": " material.",
+          "start": 14.83034375,
+          "end": 15.150343750000001,
+          "probability": 0.9997072815895081
+        }
+      ]
+    }
+  ],
+  "reviewed": false
+}

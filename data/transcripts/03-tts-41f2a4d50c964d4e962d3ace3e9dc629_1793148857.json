@@ -1,0 +1,468 @@
+{
+  "transcript_id": "03-tts-41f2a4d50c964d4e962d3ace3e9dc629_1793148857",
+  "source_file": "03-tts-41f2a4d50c964d4e962d3ace3e9dc629_1793148857.wav",
+  "source_path": "",
+  "language": "en",
+  "timestamp": "",
+  "provider": "",
+  "original_transcript_id": null,
+  "metadata": {
+    "saved_audio_file": "03-tts-41f2a4d50c964d4e962d3ace3e9dc629_1793148857.wav",
+    "processed_audio_file": "03-tts-41f2a4d50c964d4e962d3ace3e9dc629_1793148857_processed.wav"
+  },
+  "title": "",
+  "subtitle": "",
+  "recording_datetime": "",
+  "location": "",
+  "audio_id": "",
+  "case_id": "",
+  "narrative_id": "",
+  "chronological_order": null,
+  "prior_stage": "",
+  "next_stage": "",
+  "classification": "",
+  "participants": [],
+  "violations_cited": [],
+  "tags": [],
+  "forensic_clusters": {},
+  "key_evidentiary_findings": [],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 1,
+      "speaker": "SPEAKER_00",
+      "start": 0.45284375,
+      "end": 23.11596875,
+      "duration": 22.663,
+      "text": " this publication is entirely independent it is not affiliated with endorsed by sponsored by or representative of anthropic pvc open ai google deep mind or any ai company university or research institution the use of anthropics clawed as a generation tool does not imply any association with or approval from anthropic",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " this",
+          "start": 0.45284375,
+          "end": 0.77284375,
+          "probability": 0.031148608773946762
+        },
+        {
+          "word": " publication",
+          "start": 0.77284375,
+          "end": 1.55284375,
+          "probability": 0.995546817779541
+        },
+        {
+          "word": " is",
+          "start": 1.55284375,
+          "end": 1.87284375,
+          "probability": 0.9990443587303162
+        },
+        {
+          "word": " entirely",
+          "start": 1.87284375,
+          "end": 2.31284375,
+          "probability": 0.9988885521888733
+        },
+        {
+          "word": " independent",
+          "start": 2.31284375,
+          "end": 2.89284375,
+          "probability": 0.9974032044410706
+        },
+        {
+          "word": " it",
+          "start": 2.89284375,
+          "end": 3.53284375,
+          "probability": 0.6085150241851807
+        },
+        {
+          "word": " is",
+          "start": 3.53284375,
+          "end": 3.69284375,
+          "probability": 0.9991857409477234
+        },
+        {
+          "word": " not",
+          "start": 3.69284375,
+          "end": 3.81284375,
+          "probability": 0.9993584752082825
+        },
+        {
+          "word": " affiliated",
+          "start": 3.81284375,
+          "end": 4.292843749999999,
+          "probability": 0.9942849278450012
+        },
+        {
+          "word": " with",
+          "start": 4.292843749999999,
+          "end": 4.67284375,
+          "probability": 0.9913650751113892
+        },
+        {
+          "word": " endorsed",
+          "start": 4.67284375,
+          "end": 5.33284375,
+          "probability": 0.9463121891021729
+        },
+        {
+          "word": " by",
+          "start": 5.33284375,
+          "end": 5.732843750000001,
+          "probability": 0.9897822141647339
+        },
+        {
+          "word": " sponsored",
+          "start": 5.732843750000001,
+          "end": 6.212843749999999,
+          "probability": 0.9813566207885742
+        },
+        {
+          "word": " by",
+          "start": 6.212843749999999,
+          "end": 6.552843749999999,
+          "probability": 0.9986569881439209
+        },
+        {
+          "word": " or",
+          "start": 6.552843749999999,
+          "end": 7.09284375,
+          "probability": 0.7831296324729919
+        },
+        {
+          "word": " representative",
+          "start": 7.09284375,
+          "end": 7.67284375,
+          "probability": 0.982588529586792
+        },
+        {
+          "word": " of",
+          "start": 7.67284375,
+          "end": 8.13284375,
+          "probability": 0.9995059967041016
+        },
+        {
+          "word": " anthropic",
+          "start": 8.13284375,
+          "end": 8.812843749999999,
+          "probability": 0.9157209396362305
+        },
+        {
+          "word": " pvc",
+          "start": 8.812843749999999,
+          "end": 9.41284375,
+          "probability": 0.9053470492362976
+        },
+        {
+          "word": " open",
+          "start": 9.41284375,
+          "end": 10.05284375,
+          "probability": 0.9901586174964905
+        },
+        {
+          "word": " ai",
+          "start": 10.05284375,
+          "end": 10.35284375,
+          "probability": 0.774052619934082
+        },
+        {
+          "word": " google",
+          "start": 10.35284375,
+          "end": 10.652843749999999,
+          "probability": 0.9924503564834595
+        },
+        {
+          "word": " deep",
+          "start": 10.652843749999999,
+          "end": 10.93284375,
+          "probability": 0.9966388940811157
+        },
+        {
+          "word": " mind",
+          "start": 10.93284375,
+          "end": 11.27284375,
+          "probability": 0.9458242654800415
+        },
+        {
+          "word": " or",
+          "start": 11.27284375,
+          "end": 12.05284375,
+          "probability": 0.9992721676826477
+        },
+        {
+          "word": " any",
+          "start": 12.05284375,
+          "end": 12.392843749999999,
+          "probability": 0.9997182488441467
+        },
+        {
+          "word": " ai",
+          "start": 12.392843749999999,
+          "end": 12.732843749999999,
+          "probability": 0.9680278301239014
+        },
+        {
+          "word": " company",
+          "start": 12.732843749999999,
+          "end": 13.17284375,
+          "probability": 0.9989369511604309
+        },
+        {
+          "word": " university",
+          "start": 13.17284375,
+          "end": 13.67284375,
+          "probability": 0.9986743927001953
+        },
+        {
+          "word": " or",
+          "start": 13.67284375,
+          "end": 14.072843749999999,
+          "probability": 0.9996639490127563
+        },
+        {
+          "word": " research",
+          "start": 14.072843749999999,
+          "end": 14.41284375,
+          "probability": 0.9998292922973633
+        },
+        {
+          "word": " institution",
+          "start": 14.41284375,
+          "end": 15.05284375,
+          "probability": 0.9986215829849243
+        },
+        {
+          "word": " the",
+          "start": 15.05284375,
+          "end": 15.69284375,
+          "probability": 0.994857668876648
+        },
+        {
+          "word": " use",
+          "start": 15.69284375,
+          "end": 15.93284375,
+          "probability": 0.999829888343811
+        },
+        {
+          "word": " of",
+          "start": 15.93284375,
+          "end": 16.11284375,
+          "probability": 0.9999107122421265
+        },
+        {
+          "word": " anthropics",
+          "start": 16.11284375,
+          "end": 16.79284375,
+          "probability": 0.9287404716014862
+        },
+        {
+          "word": " clawed",
+          "start": 16.79284375,
+          "end": 17.25284375,
+          "probability": 0.7797821164131165
+        },
+        {
+          "word": " as",
+          "start": 17.25284375,
+          "end": 17.71284375,
+          "probability": 0.9995781779289246
+        },
+        {
+          "word": " a",
+          "start": 17.71284375,
+          "end": 17.91284375,
+          "probability": 0.9997201561927795
+        },
+        {
+          "word": " generation",
+          "start": 17.91284375,
+          "end": 18.33284375,
+          "probability": 0.999646782875061
+        },
+        {
+          "word": " tool",
+          "start": 18.33284375,
+          "end": 18.692843749999998,
+          "probability": 0.9996366500854492
+        },
+        {
+          "word": " does",
+          "start": 18.692843749999998,
+          "end": 18.95284375,
+          "probability": 0.9997051358222961
+        },
+        {
+          "word": " not",
+          "start": 18.95284375,
+          "end": 19.13284375,
+          "probability": 0.9999052286148071
+        },
+        {
+          "word": " imply",
+          "start": 19.13284375,
+          "end": 19.61284375,
+          "probability": 0.9994863271713257
+        },
+        {
+          "word": " any",
+          "start": 19.61284375,
+          "end": 20.11284375,
+          "probability": 0.9997664093971252
+        },
+        {
+          "word": " association",
+          "start": 20.11284375,
+          "end": 20.71284375,
+          "probability": 0.999539852142334
+        },
+        {
+          "word": " with",
+          "start": 20.71284375,
+          "end": 21.41284375,
+          "probability": 0.9997484087944031
+        },
+        {
+          "word": " or",
+          "start": 21.41284375,
+          "end": 21.73284375,
+          "probability": 0.9434688687324524
+        },
+        {
+          "word": " approval",
+          "start": 21.73284375,
+          "end": 22.13284375,
+          "probability": 0.9979252815246582
+        },
+        {
+          "word": " from",
+          "start": 22.13284375,
+          "end": 22.43284375,
+          "probability": 0.9992467164993286
+        },
+        {
+          "word": " anthropic",
+          "start": 22.43284375,
+          "end": 23.032843749999998,
+          "probability": 0.9724658131599426
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "speaker": "SPEAKER_00",
+      "start": 24.12846875,
+      "end": 26.52471875,
+      "duration": 2.396,
+      "text": " Nothing in this work represents the views.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Nothing",
+          "start": 24.12846875,
+          "end": 24.46846875,
+          "probability": 0.8231998085975647
+        },
+        {
+          "word": " in",
+          "start": 24.46846875,
+          "end": 24.62846875,
+          "probability": 0.9800189137458801
+        },
+        {
+          "word": " this",
+          "start": 24.62846875,
+          "end": 24.78846875,
+          "probability": 0.9965624213218689
+        },
+        {
+          "word": " work",
+          "start": 24.78846875,
+          "end": 25.08846875,
+          "probability": 0.9957540035247803
+        },
+        {
+          "word": " represents",
+          "start": 25.08846875,
+          "end": 25.66846875,
+          "probability": 0.9940979480743408
+        },
+        {
+          "word": " the",
+          "start": 25.66846875,
+          "end": 25.90846875,
+          "probability": 0.9967119693756104
+        },
+        {
+          "word": " views.",
+          "start": 25.90846875,
+          "end": 26.26846875,
+          "probability": 0.9975990653038025
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "speaker": "SPEAKER_00",
+      "start": 26.879093750000003,
+      "end": 29.39346875,
+      "duration": 2.514,
+      "text": " policies or positions of any third party.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " policies",
+          "start": 26.879093750000003,
+          "end": 27.359093750000003,
+          "probability": 0.9348565340042114
+        },
+        {
+          "word": " or",
+          "start": 27.359093750000003,
+          "end": 27.659093750000004,
+          "probability": 0.8630801439285278
+        },
+        {
+          "word": " positions",
+          "start": 27.659093750000004,
+          "end": 28.079093750000002,
+          "probability": 0.9943952560424805
+        },
+        {
+          "word": " of",
+          "start": 28.079093750000002,
+          "end": 28.379093750000003,
+          "probability": 0.9967104196548462
+        },
+        {
+          "word": " any",
+          "start": 28.379093750000003,
+          "end": 28.719093750000003,
+          "probability": 0.9985221028327942
+        },
+        {
+          "word": " third",
+          "start": 28.719093750000003,
+          "end": 28.95909375,
+          "probability": 0.9471190571784973
+        },
+        {
+          "word": " party.",
+          "start": 28.95909375,
+          "end": 29.299093750000004,
+          "probability": 0.9583912491798401
+        }
+      ]
+    }
+  ],
+  "reviewed": false
+}

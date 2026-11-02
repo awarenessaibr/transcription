@@ -52,6 +52,7 @@ PUBLIC_PATHS: frozenset[str] = frozenset({
     "/pinocchio-en",
     "/revision",
     "/revision-en",
+    "/aligner",
     "/speakers-registry",
     "/docs",
     "/openapi.json",
@@ -118,8 +119,22 @@ class APIKeyMiddleware(BaseHTTPMiddleware):
 
     async def dispatch(self, request: Request, call_next) -> Response:
         expected = configured_key()
-        if not expected or is_public_path(request.url.path):
+        if not expected:
             return await call_next(request)
+
+        if is_public_path(request.url.path):
+            response = await call_next(request)
+            if request.query_params.get("token") and key_is_valid(
+                [request.query_params["token"].strip()], expected
+            ):
+                response.set_cookie(
+                    COOKIE_NAME,
+                    expected,
+                    httponly=True,
+                    samesite="lax",
+                    secure=request.url.scheme == "https",
+                )
+            return response
 
         presented = presented_keys(request)
         if not key_is_valid(presented, expected):

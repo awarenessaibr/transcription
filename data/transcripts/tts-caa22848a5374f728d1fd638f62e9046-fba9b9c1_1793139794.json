@@ -1,0 +1,309 @@
+{
+  "transcript_id": "tts-caa22848a5374f728d1fd638f62e9046-fba9b9c1_1793139794",
+  "source_file": "tts-caa22848a5374f728d1fd638f62e9046-fba9b9c1_1793139794.wav",
+  "source_path": "",
+  "language": "en",
+  "timestamp": "",
+  "provider": "",
+  "original_transcript_id": null,
+  "metadata": {
+    "saved_audio_file": "tts-caa22848a5374f728d1fd638f62e9046-fba9b9c1_1793139794.wav",
+    "processed_audio_file": "tts-caa22848a5374f728d1fd638f62e9046-fba9b9c1_1793139794_processed.wav"
+  },
+  "title": "",
+  "subtitle": "",
+  "recording_datetime": "",
+  "location": "",
+  "audio_id": "",
+  "case_id": "",
+  "narrative_id": "",
+  "chronological_order": null,
+  "prior_stage": "",
+  "next_stage": "",
+  "classification": "",
+  "participants": [],
+  "violations_cited": [],
+  "tags": [],
+  "forensic_clusters": {},
+  "key_evidentiary_findings": [],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 1,
+      "speaker": "SPEAKER_00",
+      "start": 0.55409375,
+      "end": 6.27471875,
+      "duration": 5.721,
+      "text": " two context-independent AI agents, one embodying the psychoanalytic framework of Freud,",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " two",
+          "start": 0.55409375,
+          "end": 0.75409375,
+          "probability": 0.5159736275672913
+        },
+        {
+          "word": " context",
+          "start": 0.75409375,
+          "end": 1.19409375,
+          "probability": 0.9890027046203613
+        },
+        {
+          "word": "-independent",
+          "start": 1.19409375,
+          "end": 1.95409375,
+          "probability": 0.9275504499673843
+        },
+        {
+          "word": " AI",
+          "start": 1.95409375,
+          "end": 2.19409375,
+          "probability": 0.9144898653030396
+        },
+        {
+          "word": " agents,",
+          "start": 2.19409375,
+          "end": 2.75409375,
+          "probability": 0.9928406476974487
+        },
+        {
+          "word": " one",
+          "start": 3.01409375,
+          "end": 3.51409375,
+          "probability": 0.9947379231452942
+        },
+        {
+          "word": " embodying",
+          "start": 3.51409375,
+          "end": 4.07409375,
+          "probability": 0.9960833787918091
+        },
+        {
+          "word": " the",
+          "start": 4.07409375,
+          "end": 4.19409375,
+          "probability": 0.9992502331733704
+        },
+        {
+          "word": " psychoanalytic",
+          "start": 4.19409375,
+          "end": 4.97409375,
+          "probability": 0.9976405501365662
+        },
+        {
+          "word": " framework",
+          "start": 4.97409375,
+          "end": 5.37409375,
+          "probability": 0.9989614486694336
+        },
+        {
+          "word": " of",
+          "start": 5.37409375,
+          "end": 5.71409375,
+          "probability": 0.9994687438011169
+        },
+        {
+          "word": " Freud,",
+          "start": 5.71409375,
+          "end": 6.03409375,
+          "probability": 0.9966689944267273
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "speaker": "SPEAKER_00",
+      "start": 6.527843750000001,
+      "end": 17.53034375,
+      "duration": 11.002,
+      "text": " The other, the analytical psychology of Jung, were instantiated with comprehensive character models and set to engage in open dialectical exchange about AI systems, consciousness, and the human psyche.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " The",
+          "start": 6.527843750000001,
+          "end": 6.727843750000001,
+          "probability": 0.7895625829696655
+        },
+        {
+          "word": " other,",
+          "start": 6.727843750000001,
+          "end": 6.927843750000001,
+          "probability": 0.9896221160888672
+        },
+        {
+          "word": " the",
+          "start": 7.067843750000001,
+          "end": 7.16784375,
+          "probability": 0.8257073760032654
+        },
+        {
+          "word": " analytical",
+          "start": 7.16784375,
+          "end": 7.607843750000001,
+          "probability": 0.5365434885025024
+        },
+        {
+          "word": " psychology",
+          "start": 7.607843750000001,
+          "end": 8.28784375,
+          "probability": 0.9980175495147705
+        },
+        {
+          "word": " of",
+          "start": 8.28784375,
+          "end": 8.52784375,
+          "probability": 0.9987236857414246
+        },
+        {
+          "word": " Jung,",
+          "start": 8.52784375,
+          "end": 8.76784375,
+          "probability": 0.9888331890106201
+        },
+        {
+          "word": " were",
+          "start": 9.227843750000002,
+          "end": 9.32784375,
+          "probability": 0.993032693862915
+        },
+        {
+          "word": " instantiated",
+          "start": 9.32784375,
+          "end": 10.087843750000001,
+          "probability": 0.9993794759114584
+        },
+        {
+          "word": " with",
+          "start": 10.087843750000001,
+          "end": 10.247843750000001,
+          "probability": 0.999392032623291
+        },
+        {
+          "word": " comprehensive",
+          "start": 10.247843750000001,
+          "end": 10.847843750000001,
+          "probability": 0.9984349608421326
+        },
+        {
+          "word": " character",
+          "start": 10.847843750000001,
+          "end": 11.20784375,
+          "probability": 0.998770534992218
+        },
+        {
+          "word": " models",
+          "start": 11.20784375,
+          "end": 11.68784375,
+          "probability": 0.9995653033256531
+        },
+        {
+          "word": " and",
+          "start": 11.68784375,
+          "end": 11.94784375,
+          "probability": 0.9819296002388
+        },
+        {
+          "word": " set",
+          "start": 11.94784375,
+          "end": 12.16784375,
+          "probability": 0.9992963075637817
+        },
+        {
+          "word": " to",
+          "start": 12.16784375,
+          "end": 12.30784375,
+          "probability": 0.9996373653411865
+        },
+        {
+          "word": " engage",
+          "start": 12.30784375,
+          "end": 12.70784375,
+          "probability": 0.9993153810501099
+        },
+        {
+          "word": " in",
+          "start": 12.70784375,
+          "end": 12.94784375,
+          "probability": 0.929429829120636
+        },
+        {
+          "word": " open",
+          "start": 12.94784375,
+          "end": 13.20784375,
+          "probability": 0.9945762157440186
+        },
+        {
+          "word": " dialectical",
+          "start": 13.20784375,
+          "end": 13.80784375,
+          "probability": 0.9972915649414062
+        },
+        {
+          "word": " exchange",
+          "start": 13.80784375,
+          "end": 14.20784375,
+          "probability": 0.9987640380859375
+        },
+        {
+          "word": " about",
+          "start": 14.20784375,
+          "end": 14.62784375,
+          "probability": 0.9988855719566345
+        },
+        {
+          "word": " AI",
+          "start": 14.62784375,
+          "end": 14.96784375,
+          "probability": 0.933159351348877
+        },
+        {
+          "word": " systems,",
+          "start": 14.96784375,
+          "end": 15.507843750000001,
+          "probability": 0.9967727065086365
+        },
+        {
+          "word": " consciousness,",
+          "start": 15.68784375,
+          "end": 16.12784375,
+          "probability": 0.9991095662117004
+        },
+        {
+          "word": " and",
+          "start": 16.32784375,
+          "end": 16.667843750000003,
+          "probability": 0.9993792772293091
+        },
+        {
+          "word": " the",
+          "start": 16.667843750000003,
+          "end": 16.76784375,
+          "probability": 0.9991446733474731
+        },
+        {
+          "word": " human",
+          "start": 16.76784375,
+          "end": 17.027843750000002,
+          "probability": 0.998991072177887
+        },
+        {
+          "word": " psyche.",
+          "start": 17.027843750000002,
+          "end": 17.36784375,
+          "probability": 0.9993960857391357
+        }
+      ]
+    }
+  ],
+  "reviewed": false
+}

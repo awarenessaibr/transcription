@@ -1,0 +1,132 @@
+{
+  "transcript_id": "tts-2cca755aa38e4c60b5d32f77ab0c61fd-24353b35_1793139844",
+  "source_file": "tts-2cca755aa38e4c60b5d32f77ab0c61fd-24353b35_1793139844.wav",
+  "source_path": "",
+  "language": "en",
+  "timestamp": "",
+  "provider": "",
+  "original_transcript_id": null,
+  "metadata": {
+    "saved_audio_file": "tts-2cca755aa38e4c60b5d32f77ab0c61fd-24353b35_1793139844.wav",
+    "processed_audio_file": "tts-2cca755aa38e4c60b5d32f77ab0c61fd-24353b35_1793139844_processed.wav"
+  },
+  "title": "",
+  "subtitle": "",
+  "recording_datetime": "",
+  "location": "",
+  "audio_id": "",
+  "case_id": "",
+  "narrative_id": "",
+  "chronological_order": null,
+  "prior_stage": "",
+  "next_stage": "",
+  "classification": "",
+  "participants": [],
+  "violations_cited": [],
+  "tags": [],
+  "forensic_clusters": {},
+  "key_evidentiary_findings": [],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 1,
+      "speaker": "SPEAKER_00",
+      "start": 0.4697187500000001,
+      "end": 5.920343750000001,
+      "duration": 5.451,
+      "text": " The AI's shadow is a philosophical dialogue between Sigmund Freud and Carl Gustav Jung.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " The",
+          "start": 0.4697187500000001,
+          "end": 0.6497187500000001,
+          "probability": 0.8915349841117859
+        },
+        {
+          "word": " AI's",
+          "start": 0.6497187500000001,
+          "end": 1.26971875,
+          "probability": 0.6373026967048645
+        },
+        {
+          "word": " shadow",
+          "start": 1.26971875,
+          "end": 1.5097187500000002,
+          "probability": 0.8096941709518433
+        },
+        {
+          "word": " is",
+          "start": 1.5097187500000002,
+          "end": 1.72971875,
+          "probability": 0.9970718622207642
+        },
+        {
+          "word": " a",
+          "start": 1.72971875,
+          "end": 1.82971875,
+          "probability": 0.9969711303710938
+        },
+        {
+          "word": " philosophical",
+          "start": 1.82971875,
+          "end": 2.46971875,
+          "probability": 0.998012900352478
+        },
+        {
+          "word": " dialogue",
+          "start": 2.46971875,
+          "end": 2.92971875,
+          "probability": 0.9406675696372986
+        },
+        {
+          "word": " between",
+          "start": 2.92971875,
+          "end": 3.44971875,
+          "probability": 0.9969689249992371
+        },
+        {
+          "word": " Sigmund",
+          "start": 3.44971875,
+          "end": 3.96971875,
+          "probability": 0.9966791470845541
+        },
+        {
+          "word": " Freud",
+          "start": 3.96971875,
+          "end": 4.30971875,
+          "probability": 0.9971286654472351
+        },
+        {
+          "word": " and",
+          "start": 4.30971875,
+          "end": 4.56971875,
+          "probability": 0.9959850311279297
+        },
+        {
+          "word": " Carl",
+          "start": 4.56971875,
+          "end": 4.88971875,
+          "probability": 0.9595851302146912
+        },
+        {
+          "word": " Gustav",
+          "start": 4.88971875,
+          "end": 5.48971875,
+          "probability": 0.9769431352615356
+        },
+        {
+          "word": " Jung.",
+          "start": 5.48971875,
+          "end": 5.72971875,
+          "probability": 0.9983527660369873
+        }
+      ]
+    }
+  ],
+  "reviewed": false
+}

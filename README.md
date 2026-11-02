@@ -66,11 +66,18 @@ For RunPod pod template details, see [docs/RUNPOD_POD_TEMPLATE.md](docs/RUNPOD_P
 | `GET` | `/api/diarization/parameters` | Available parameters metadata |
 | `GET` | `/api/diarization/models/whisper` | Available Whisper models |
 | `POST` | `/api/diarization/transcribe` | Full transcription with diarization |
+| `POST` | `/api/alignment/narration` | Align source text lines to Whisper timestamps and return CSV |
 | `POST` | `/api/diarization/transcribe/async` | Async transcription (returns job ID) |
 | `POST` | `/api/diarization/transcribe/guided` | Reference-guided transcription |
 | `POST` | `/api/diarization/transcribe/guided/async` | Async reference-guided transcription |
 | `POST` | `/api/diarization/excerpt` | Diarize a time range (upload or path) |
 | `POST` | `/api/diarization/excerpt_by_path` | Diarize excerpt by server path (JSON) |
+
+The narration aligner UI is available at `/aligner`. Upload an audio file and source text
+(plain lines, `Página N` markers, or CSV with a `text` column) to preview and download
+`start_ms,end_ms,page,text` timestamps. Low-confidence rows are marked for review. The
+alignment request uses Whisper's timed segments without saving or indexing a transcript; the
+returned timestamps stay on the source audio timeline.
 
 ### Transcripts (`/api/transcripts`)
 
@@ -212,6 +219,16 @@ To gracefully shut down all services, run:
 
 > [!NOTE]
 > All logs are preserved in the `.dev-logs/` directory for debugging.
+
+### Word timestamps and segment export
+
+Pinocchio enables word timestamps by default (the setting can still be changed in the
+configuration). When enabled, the transcription response and saved transcript include a
+`words` array per segment. The **Export Segments ZIP** also contains
+`<transcript_id>_word_timestamps.json` and `<transcript_id>_word_timestamps.csv`, with each
+word's text, speaker, segment index, start, and end in seconds on the original audio timeline.
+To preserve that timebase, silence trimming is skipped for runs with word timestamps enabled.
+Existing transcripts without word data need to be transcribed again to generate it.
 
 ## Git Guidance
 

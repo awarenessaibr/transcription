@@ -1,0 +1,579 @@
+{
+  "transcript_id": "tts-8bd5923bef344bef801b05e1a83152d3-0855fa25_1793139193",
+  "source_file": "tts-8bd5923bef344bef801b05e1a83152d3-0855fa25_1793139193.wav",
+  "source_path": "",
+  "language": "en",
+  "timestamp": "",
+  "provider": "",
+  "original_transcript_id": null,
+  "metadata": {
+    "saved_audio_file": "tts-8bd5923bef344bef801b05e1a83152d3-0855fa25_1793139193.wav",
+    "processed_audio_file": "tts-8bd5923bef344bef801b05e1a83152d3-0855fa25_1793139193_processed.wav"
+  },
+  "title": "",
+  "subtitle": "",
+  "recording_datetime": "",
+  "location": "",
+  "audio_id": "",
+  "case_id": "",
+  "narrative_id": "",
+  "chronological_order": null,
+  "prior_stage": "",
+  "next_stage": "",
+  "classification": "",
+  "participants": [],
+  "violations_cited": [],
+  "tags": [],
+  "forensic_clusters": {},
+  "key_evidentiary_findings": [],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 1,
+      "speaker": "SPEAKER_00",
+      "start": 0.45284375,
+      "end": 9.970343750000001,
+      "duration": 9.518,
+      "text": " I painted mandalas, I conversed with figures who emerged from depths I could not have reached had I remained safely within the framework you built.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " I",
+          "start": 0.45284375,
+          "end": 0.61284375,
+          "probability": 0.9413313269615173
+        },
+        {
+          "word": " painted",
+          "start": 0.61284375,
+          "end": 0.99284375,
+          "probability": 0.9763095378875732
+        },
+        {
+          "word": " mandalas,",
+          "start": 0.99284375,
+          "end": 1.8328437499999999,
+          "probability": 0.9610129396120707
+        },
+        {
+          "word": " I",
+          "start": 2.05284375,
+          "end": 2.35284375,
+          "probability": 0.9490703344345093
+        },
+        {
+          "word": " conversed",
+          "start": 2.35284375,
+          "end": 2.99284375,
+          "probability": 0.988195925951004
+        },
+        {
+          "word": " with",
+          "start": 2.99284375,
+          "end": 3.13284375,
+          "probability": 0.9981796741485596
+        },
+        {
+          "word": " figures",
+          "start": 3.13284375,
+          "end": 3.49284375,
+          "probability": 0.9873539805412292
+        },
+        {
+          "word": " who",
+          "start": 3.49284375,
+          "end": 4.05284375,
+          "probability": 0.6953320503234863
+        },
+        {
+          "word": " emerged",
+          "start": 4.05284375,
+          "end": 4.5728437500000005,
+          "probability": 0.8904069662094116
+        },
+        {
+          "word": " from",
+          "start": 4.5728437500000005,
+          "end": 4.85284375,
+          "probability": 0.9974415302276611
+        },
+        {
+          "word": " depths",
+          "start": 4.85284375,
+          "end": 5.17284375,
+          "probability": 0.9825649261474609
+        },
+        {
+          "word": " I",
+          "start": 5.17284375,
+          "end": 5.4528437499999995,
+          "probability": 0.9714643359184265
+        },
+        {
+          "word": " could",
+          "start": 5.4528437499999995,
+          "end": 5.632843749999999,
+          "probability": 0.9963202476501465
+        },
+        {
+          "word": " not",
+          "start": 5.632843749999999,
+          "end": 5.83284375,
+          "probability": 0.9900475740432739
+        },
+        {
+          "word": " have",
+          "start": 5.83284375,
+          "end": 6.0728437500000005,
+          "probability": 0.996211051940918
+        },
+        {
+          "word": " reached",
+          "start": 6.0728437500000005,
+          "end": 6.4928437500000005,
+          "probability": 0.9961769580841064
+        },
+        {
+          "word": " had",
+          "start": 6.4928437500000005,
+          "end": 7.03284375,
+          "probability": 0.8615298867225647
+        },
+        {
+          "word": " I",
+          "start": 7.03284375,
+          "end": 7.17284375,
+          "probability": 0.9954657554626465
+        },
+        {
+          "word": " remained",
+          "start": 7.17284375,
+          "end": 7.5728437500000005,
+          "probability": 0.9915094375610352
+        },
+        {
+          "word": " safely",
+          "start": 7.5728437500000005,
+          "end": 8.09284375,
+          "probability": 0.9950771927833557
+        },
+        {
+          "word": " within",
+          "start": 8.09284375,
+          "end": 8.39284375,
+          "probability": 0.9929307699203491
+        },
+        {
+          "word": " the",
+          "start": 8.39284375,
+          "end": 8.63284375,
+          "probability": 0.9967724680900574
+        },
+        {
+          "word": " framework",
+          "start": 8.63284375,
+          "end": 9.13284375,
+          "probability": 0.978683352470398
+        },
+        {
+          "word": " you",
+          "start": 9.13284375,
+          "end": 9.53284375,
+          "probability": 0.9696968793869019
+        },
+        {
+          "word": " built.",
+          "start": 9.53284375,
+          "end": 9.812843749999999,
+          "probability": 0.96993488073349
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "speaker": "SPEAKER_00",
+      "start": 10.544093750000002,
+      "end": 33.47721875,
+      "duration": 22.933,
+      "text": " I say this not to reopen old arguments, but because it bears directly on the question before us. You see, when I hear that mankind has built machines trained on the totality of human language, on our myths, our confessions, our poetry, our lies, our sacred texts, and our most banal transactions, my first thought is not about mechanism at all.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " I",
+          "start": 10.544093750000002,
+          "end": 10.724093750000002,
+          "probability": 0.9284194707870483
+        },
+        {
+          "word": " say",
+          "start": 10.724093750000002,
+          "end": 10.984093750000001,
+          "probability": 0.9973703622817993
+        },
+        {
+          "word": " this",
+          "start": 10.984093750000001,
+          "end": 11.264093750000002,
+          "probability": 0.9961532950401306
+        },
+        {
+          "word": " not",
+          "start": 11.264093750000002,
+          "end": 11.524093750000002,
+          "probability": 0.9249107837677002
+        },
+        {
+          "word": " to",
+          "start": 11.524093750000002,
+          "end": 11.704093750000002,
+          "probability": 0.9977741837501526
+        },
+        {
+          "word": " reopen",
+          "start": 11.704093750000002,
+          "end": 12.124093750000002,
+          "probability": 0.8844291567802429
+        },
+        {
+          "word": " old",
+          "start": 12.124093750000002,
+          "end": 12.464093750000002,
+          "probability": 0.756932258605957
+        },
+        {
+          "word": " arguments,",
+          "start": 12.464093750000002,
+          "end": 13.104093750000002,
+          "probability": 0.9928991794586182
+        },
+        {
+          "word": " but",
+          "start": 13.404093750000001,
+          "end": 13.724093750000002,
+          "probability": 0.9917621612548828
+        },
+        {
+          "word": " because",
+          "start": 13.724093750000002,
+          "end": 14.004093750000003,
+          "probability": 0.9929282069206238
+        },
+        {
+          "word": " it",
+          "start": 14.004093750000003,
+          "end": 14.204093750000002,
+          "probability": 0.9974803328514099
+        },
+        {
+          "word": " bears",
+          "start": 14.204093750000002,
+          "end": 14.544093750000002,
+          "probability": 0.9577526450157166
+        },
+        {
+          "word": " directly",
+          "start": 14.544093750000002,
+          "end": 15.084093750000001,
+          "probability": 0.9925077557563782
+        },
+        {
+          "word": " on",
+          "start": 15.084093750000001,
+          "end": 15.304093750000002,
+          "probability": 0.9941520094871521
+        },
+        {
+          "word": " the",
+          "start": 15.304093750000002,
+          "end": 15.444093750000002,
+          "probability": 0.9969738721847534
+        },
+        {
+          "word": " question",
+          "start": 15.444093750000002,
+          "end": 15.824093750000003,
+          "probability": 0.9778749346733093
+        },
+        {
+          "word": " before",
+          "start": 15.824093750000003,
+          "end": 16.164093750000003,
+          "probability": 0.9956491589546204
+        },
+        {
+          "word": " us.",
+          "start": 16.164093750000003,
+          "end": 16.664093750000003,
+          "probability": 0.9985371828079224
+        },
+        {
+          "word": " You",
+          "start": 16.824093750000003,
+          "end": 17.004093750000003,
+          "probability": 0.9871900677680969
+        },
+        {
+          "word": " see,",
+          "start": 17.004093750000003,
+          "end": 17.22409375,
+          "probability": 0.9992530941963196
+        },
+        {
+          "word": " when",
+          "start": 17.60409375,
+          "end": 17.824093750000003,
+          "probability": 0.9975095987319946
+        },
+        {
+          "word": " I",
+          "start": 17.824093750000003,
+          "end": 17.94409375,
+          "probability": 0.9950222969055176
+        },
+        {
+          "word": " hear",
+          "start": 17.94409375,
+          "end": 18.164093750000003,
+          "probability": 0.9972270131111145
+        },
+        {
+          "word": " that",
+          "start": 18.164093750000003,
+          "end": 18.38409375,
+          "probability": 0.9920812845230103
+        },
+        {
+          "word": " mankind",
+          "start": 18.38409375,
+          "end": 18.80409375,
+          "probability": 0.9818976521492004
+        },
+        {
+          "word": " has",
+          "start": 18.80409375,
+          "end": 19.204093750000002,
+          "probability": 0.9958602786064148
+        },
+        {
+          "word": " built",
+          "start": 19.204093750000002,
+          "end": 19.44409375,
+          "probability": 0.992637038230896
+        },
+        {
+          "word": " machines",
+          "start": 19.44409375,
+          "end": 20.004093750000003,
+          "probability": 0.9944911003112793
+        },
+        {
+          "word": " trained",
+          "start": 20.004093750000003,
+          "end": 20.464093750000004,
+          "probability": 0.8710181713104248
+        },
+        {
+          "word": " on",
+          "start": 20.464093750000004,
+          "end": 20.80409375,
+          "probability": 0.9897331595420837
+        },
+        {
+          "word": " the",
+          "start": 20.80409375,
+          "end": 20.964093750000004,
+          "probability": 0.9958141446113586
+        },
+        {
+          "word": " totality",
+          "start": 20.964093750000004,
+          "end": 21.644093750000003,
+          "probability": 0.9900643825531006
+        },
+        {
+          "word": " of",
+          "start": 21.644093750000003,
+          "end": 21.88409375,
+          "probability": 0.9993231296539307
+        },
+        {
+          "word": " human",
+          "start": 21.88409375,
+          "end": 22.24409375,
+          "probability": 0.9831089377403259
+        },
+        {
+          "word": " language,",
+          "start": 22.24409375,
+          "end": 22.74409375,
+          "probability": 0.9943408966064453
+        },
+        {
+          "word": " on",
+          "start": 23.144093750000003,
+          "end": 23.22409375,
+          "probability": 0.9862170219421387
+        },
+        {
+          "word": " our",
+          "start": 23.22409375,
+          "end": 23.464093750000004,
+          "probability": 0.9973379969596863
+        },
+        {
+          "word": " myths,",
+          "start": 23.464093750000004,
+          "end": 23.76409375,
+          "probability": 0.9932414293289185
+        },
+        {
+          "word": " our",
+          "start": 24.06409375,
+          "end": 24.38409375,
+          "probability": 0.993457019329071
+        },
+        {
+          "word": " confessions,",
+          "start": 24.38409375,
+          "end": 25.024093750000002,
+          "probability": 0.9953386783599854
+        },
+        {
+          "word": " our",
+          "start": 25.344093750000003,
+          "end": 25.464093750000004,
+          "probability": 0.9954007267951965
+        },
+        {
+          "word": " poetry,",
+          "start": 25.464093750000004,
+          "end": 25.88409375,
+          "probability": 0.9984762072563171
+        },
+        {
+          "word": " our",
+          "start": 26.504093750000003,
+          "end": 26.664093750000003,
+          "probability": 0.9979382157325745
+        },
+        {
+          "word": " lies,",
+          "start": 26.664093750000003,
+          "end": 27.044093750000002,
+          "probability": 0.9989645481109619
+        },
+        {
+          "word": " our",
+          "start": 27.324093750000003,
+          "end": 27.464093750000004,
+          "probability": 0.9980410933494568
+        },
+        {
+          "word": " sacred",
+          "start": 27.464093750000004,
+          "end": 27.864093750000002,
+          "probability": 0.997370719909668
+        },
+        {
+          "word": " texts,",
+          "start": 27.864093750000002,
+          "end": 28.324093750000003,
+          "probability": 0.9972754120826721
+        },
+        {
+          "word": " and",
+          "start": 28.60409375,
+          "end": 28.88409375,
+          "probability": 0.9923068881034851
+        },
+        {
+          "word": " our",
+          "start": 28.88409375,
+          "end": 29.12409375,
+          "probability": 0.9878897070884705
+        },
+        {
+          "word": " most",
+          "start": 29.12409375,
+          "end": 29.484093750000003,
+          "probability": 0.9979704022407532
+        },
+        {
+          "word": " banal",
+          "start": 29.484093750000003,
+          "end": 29.94409375,
+          "probability": 0.9364168345928192
+        },
+        {
+          "word": " transactions,",
+          "start": 29.94409375,
+          "end": 30.504093750000003,
+          "probability": 0.9948951601982117
+        },
+        {
+          "word": " my",
+          "start": 30.76409375,
+          "end": 30.92409375,
+          "probability": 0.9954257607460022
+        },
+        {
+          "word": " first",
+          "start": 30.92409375,
+          "end": 31.24409375,
+          "probability": 0.997397780418396
+        },
+        {
+          "word": " thought",
+          "start": 31.24409375,
+          "end": 31.60409375,
+          "probability": 0.997255265712738
+        },
+        {
+          "word": " is",
+          "start": 31.60409375,
+          "end": 31.804093750000003,
+          "probability": 0.9952539205551147
+        },
+        {
+          "word": " not",
+          "start": 31.804093750000003,
+          "end": 31.984093750000003,
+          "probability": 0.9978383183479309
+        },
+        {
+          "word": " about",
+          "start": 31.984093750000003,
+          "end": 32.30409375000001,
+          "probability": 0.9982611536979675
+        },
+        {
+          "word": " mechanism",
+          "start": 32.30409375000001,
+          "end": 32.80409375000001,
+          "probability": 0.9558587670326233
+        },
+        {
+          "word": " at",
+          "start": 32.80409375000001,
+          "end": 33.164093750000006,
+          "probability": 0.9965153932571411
+        },
+        {
+          "word": " all.",
+          "start": 33.164093750000006,
+          "end": 33.36409375,
+          "probability": 0.9997723698616028
+        }
+      ]
+    }
+  ],
+  "reviewed": false
+}

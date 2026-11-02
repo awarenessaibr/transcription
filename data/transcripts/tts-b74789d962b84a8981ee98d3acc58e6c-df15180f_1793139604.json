@@ -1,0 +1,74 @@
+{
+  "transcript_id": "tts-b74789d962b84a8981ee98d3acc58e6c-df15180f_1793139604",
+  "source_file": "tts-b74789d962b84a8981ee98d3acc58e6c-df15180f_1793139604.wav",
+  "source_path": "",
+  "language": "en",
+  "timestamp": "",
+  "provider": "",
+  "original_transcript_id": null,
+  "metadata": {
+    "saved_audio_file": "tts-b74789d962b84a8981ee98d3acc58e6c-df15180f_1793139604.wav",
+    "processed_audio_file": "tts-b74789d962b84a8981ee98d3acc58e6c-df15180f_1793139604_processed.wav"
+  },
+  "title": "",
+  "subtitle": "",
+  "recording_datetime": "",
+  "location": "",
+  "audio_id": "",
+  "case_id": "",
+  "narrative_id": "",
+  "chronological_order": null,
+  "prior_stage": "",
+  "next_stage": "",
+  "classification": "",
+  "participants": [],
+  "violations_cited": [],
+  "tags": [],
+  "forensic_clusters": {},
+  "key_evidentiary_findings": [],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 1,
+      "speaker": "SPEAKER_00",
+      "start": 0.03096875,
+      "end": 0.047843750000000004,
+      "duration": 0.017,
+      "text": "",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": []
+    },
+    {
+      "index": 2,
+      "speaker": "SPEAKER_00",
+      "start": 0.28409375000000003,
+      "end": 1.65096875,
+      "duration": 1.367,
+      "text": " Sigmund Freud",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Sigmund",
+          "start": 0.28409375000000003,
+          "end": 1.00409375,
+          "probability": 0.9596905906995138
+        },
+        {
+          "word": " Freud",
+          "start": 1.00409375,
+          "end": 1.36409375,
+          "probability": 0.998660683631897
+        }
+      ]
+    }
+  ],
+  "reviewed": false
+}

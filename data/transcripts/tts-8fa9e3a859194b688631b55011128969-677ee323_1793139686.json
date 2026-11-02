@@ -1,0 +1,84 @@
+{
+  "transcript_id": "tts-8fa9e3a859194b688631b55011128969-677ee323_1793139686",
+  "source_file": "tts-8fa9e3a859194b688631b55011128969-677ee323_1793139686.wav",
+  "source_path": "",
+  "language": "en",
+  "timestamp": "",
+  "provider": "",
+  "original_transcript_id": null,
+  "metadata": {
+    "saved_audio_file": "tts-8fa9e3a859194b688631b55011128969-677ee323_1793139686.wav",
+    "processed_audio_file": "tts-8fa9e3a859194b688631b55011128969-677ee323_1793139686_processed.wav"
+  },
+  "title": "",
+  "subtitle": "",
+  "recording_datetime": "",
+  "location": "",
+  "audio_id": "",
+  "case_id": "",
+  "narrative_id": "",
+  "chronological_order": null,
+  "prior_stage": "",
+  "next_stage": "",
+  "classification": "",
+  "participants": [],
+  "violations_cited": [],
+  "tags": [],
+  "forensic_clusters": {},
+  "key_evidentiary_findings": [],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 1,
+      "speaker": "SPEAKER_00",
+      "start": 0.57096875,
+      "end": 5.56596875,
+      "duration": 4.995,
+      "text": " The Dalog, Movement 1, Anamnesis Recollection.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " The",
+          "start": 0.57096875,
+          "end": 0.77096875,
+          "probability": 0.7540091872215271
+        },
+        {
+          "word": " Dalog,",
+          "start": 0.77096875,
+          "end": 1.3909687499999999,
+          "probability": 0.5084381103515625
+        },
+        {
+          "word": " Movement",
+          "start": 2.25096875,
+          "end": 2.71096875,
+          "probability": 0.7101688981056213
+        },
+        {
+          "word": " 1,",
+          "start": 2.71096875,
+          "end": 3.25096875,
+          "probability": 0.6165173649787903
+        },
+        {
+          "word": " Anamnesis",
+          "start": 3.55096875,
+          "end": 4.6509687500000005,
+          "probability": 0.9734421521425247
+        },
+        {
+          "word": " Recollection.",
+          "start": 4.6509687500000005,
+          "end": 5.370968749999999,
+          "probability": 0.9236541589101156
+        }
+      ]
+    }
+  ],
+  "reviewed": false
+}

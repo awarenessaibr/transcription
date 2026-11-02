@@ -1,0 +1,522 @@
+{
+  "transcript_id": "tts-765235ce57e844f7b2a8266de1af0737_1793139853",
+  "source_file": "tts-765235ce57e844f7b2a8266de1af0737_1793139853.wav",
+  "source_path": "",
+  "language": "en",
+  "timestamp": "",
+  "provider": "",
+  "original_transcript_id": null,
+  "metadata": {
+    "saved_audio_file": "tts-765235ce57e844f7b2a8266de1af0737_1793139853.wav",
+    "processed_audio_file": "tts-765235ce57e844f7b2a8266de1af0737_1793139853_processed.wav"
+  },
+  "title": "",
+  "subtitle": "",
+  "recording_datetime": "",
+  "location": "",
+  "audio_id": "",
+  "case_id": "",
+  "narrative_id": "",
+  "chronological_order": null,
+  "prior_stage": "",
+  "next_stage": "",
+  "classification": "",
+  "participants": [],
+  "violations_cited": [],
+  "tags": [],
+  "forensic_clusters": {},
+  "key_evidentiary_findings": [],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 1,
+      "speaker": "SPEAKER_00",
+      "start": 0.6890937500000001,
+      "end": 5.85284375,
+      "duration": 5.164,
+      "text": " The study materializes around them like a developing photograph, first the firelight.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " The",
+          "start": 0.6890937500000001,
+          "end": 0.8290937500000001,
+          "probability": 0.86795574426651
+        },
+        {
+          "word": " study",
+          "start": 0.8290937500000001,
+          "end": 1.10909375,
+          "probability": 0.9980934262275696
+        },
+        {
+          "word": " materializes",
+          "start": 1.10909375,
+          "end": 2.00909375,
+          "probability": 0.9620626270771027
+        },
+        {
+          "word": " around",
+          "start": 2.00909375,
+          "end": 2.4090937500000003,
+          "probability": 0.9983345866203308
+        },
+        {
+          "word": " them",
+          "start": 2.4090937500000003,
+          "end": 2.58909375,
+          "probability": 0.997778594493866
+        },
+        {
+          "word": " like",
+          "start": 2.58909375,
+          "end": 2.80909375,
+          "probability": 0.9895238280296326
+        },
+        {
+          "word": " a",
+          "start": 2.80909375,
+          "end": 2.9290937500000003,
+          "probability": 0.9937280416488647
+        },
+        {
+          "word": " developing",
+          "start": 2.9290937500000003,
+          "end": 3.4090937500000003,
+          "probability": 0.9990735054016113
+        },
+        {
+          "word": " photograph,",
+          "start": 3.4090937500000003,
+          "end": 4.0290937499999995,
+          "probability": 0.9976658821105957
+        },
+        {
+          "word": " first",
+          "start": 4.56909375,
+          "end": 4.98909375,
+          "probability": 0.9913278222084045
+        },
+        {
+          "word": " the",
+          "start": 4.98909375,
+          "end": 5.16909375,
+          "probability": 0.9687840342521667
+        },
+        {
+          "word": " firelight.",
+          "start": 5.16909375,
+          "end": 5.68909375,
+          "probability": 0.9683339893817902
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "speaker": "SPEAKER_00",
+      "start": 6.3590937499999995,
+      "end": 9.953468750000003,
+      "duration": 3.594,
+      "text": " then the leather spines of books arranging themselves along the walls.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " then",
+          "start": 6.3590937499999995,
+          "end": 6.55909375,
+          "probability": 0.6632481813430786
+        },
+        {
+          "word": " the",
+          "start": 6.55909375,
+          "end": 6.739093749999999,
+          "probability": 0.9972483515739441
+        },
+        {
+          "word": " leather",
+          "start": 6.739093749999999,
+          "end": 6.959093749999999,
+          "probability": 0.9992018342018127
+        },
+        {
+          "word": " spines",
+          "start": 6.959093749999999,
+          "end": 7.459093749999999,
+          "probability": 0.9984170496463776
+        },
+        {
+          "word": " of",
+          "start": 7.459093749999999,
+          "end": 7.59909375,
+          "probability": 0.9986996650695801
+        },
+        {
+          "word": " books",
+          "start": 7.59909375,
+          "end": 7.8590937499999995,
+          "probability": 0.9969461560249329
+        },
+        {
+          "word": " arranging",
+          "start": 7.8590937499999995,
+          "end": 8.37909375,
+          "probability": 0.9970895648002625
+        },
+        {
+          "word": " themselves",
+          "start": 8.37909375,
+          "end": 8.69909375,
+          "probability": 0.9986532926559448
+        },
+        {
+          "word": " along",
+          "start": 8.69909375,
+          "end": 9.11909375,
+          "probability": 0.9972001314163208
+        },
+        {
+          "word": " the",
+          "start": 9.11909375,
+          "end": 9.299093749999999,
+          "probability": 0.9991670846939087
+        },
+        {
+          "word": " walls.",
+          "start": 9.299093749999999,
+          "end": 9.67909375,
+          "probability": 0.9987863898277283
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "speaker": "SPEAKER_00",
+      "start": 10.18971875,
+      "end": 26.76096875,
+      "duration": 16.571,
+      "text": " Then the chairs, and finally the two men themselves, seated as though they have always been here and have only just noticed each other. A mahogany side table holds two glasses of water, an ashtray with a half-smoked cigar and a pipe. The clock on the mantelpiece has no hands.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Then",
+          "start": 10.18971875,
+          "end": 10.52971875,
+          "probability": 0.7903309464454651
+        },
+        {
+          "word": " the",
+          "start": 10.52971875,
+          "end": 10.70971875,
+          "probability": 0.7905113697052002
+        },
+        {
+          "word": " chairs,",
+          "start": 10.70971875,
+          "end": 11.12971875,
+          "probability": 0.9991357922554016
+        },
+        {
+          "word": " and",
+          "start": 11.309718750000002,
+          "end": 11.589718750000001,
+          "probability": 0.9992870688438416
+        },
+        {
+          "word": " finally",
+          "start": 11.589718750000001,
+          "end": 12.009718750000001,
+          "probability": 0.9984513521194458
+        },
+        {
+          "word": " the",
+          "start": 12.009718750000001,
+          "end": 12.22971875,
+          "probability": 0.9931725859642029
+        },
+        {
+          "word": " two",
+          "start": 12.22971875,
+          "end": 12.38971875,
+          "probability": 0.9970236420631409
+        },
+        {
+          "word": " men",
+          "start": 12.38971875,
+          "end": 12.62971875,
+          "probability": 0.9996461868286133
+        },
+        {
+          "word": " themselves,",
+          "start": 12.62971875,
+          "end": 13.18971875,
+          "probability": 0.9987629652023315
+        },
+        {
+          "word": " seated",
+          "start": 13.649718750000002,
+          "end": 14.06971875,
+          "probability": 0.9987298846244812
+        },
+        {
+          "word": " as",
+          "start": 14.06971875,
+          "end": 14.309718750000002,
+          "probability": 0.9997854828834534
+        },
+        {
+          "word": " though",
+          "start": 14.309718750000002,
+          "end": 14.429718750000001,
+          "probability": 0.9987353682518005
+        },
+        {
+          "word": " they",
+          "start": 14.429718750000001,
+          "end": 14.589718750000001,
+          "probability": 0.9995982050895691
+        },
+        {
+          "word": " have",
+          "start": 14.589718750000001,
+          "end": 14.74971875,
+          "probability": 0.9888308644294739
+        },
+        {
+          "word": " always",
+          "start": 14.74971875,
+          "end": 15.02971875,
+          "probability": 0.9987072944641113
+        },
+        {
+          "word": " been",
+          "start": 15.02971875,
+          "end": 15.269718750000001,
+          "probability": 0.9997387528419495
+        },
+        {
+          "word": " here",
+          "start": 15.269718750000001,
+          "end": 15.629718750000002,
+          "probability": 0.9988952875137329
+        },
+        {
+          "word": " and",
+          "start": 15.629718750000002,
+          "end": 15.929718750000001,
+          "probability": 0.9511638879776001
+        },
+        {
+          "word": " have",
+          "start": 15.929718750000001,
+          "end": 16.129718750000002,
+          "probability": 0.9976056814193726
+        },
+        {
+          "word": " only",
+          "start": 16.129718750000002,
+          "end": 16.34971875,
+          "probability": 0.9986127614974976
+        },
+        {
+          "word": " just",
+          "start": 16.34971875,
+          "end": 16.629718750000002,
+          "probability": 0.999312162399292
+        },
+        {
+          "word": " noticed",
+          "start": 16.629718750000002,
+          "end": 16.969718750000002,
+          "probability": 0.9995251893997192
+        },
+        {
+          "word": " each",
+          "start": 16.969718750000002,
+          "end": 17.20971875,
+          "probability": 0.999697208404541
+        },
+        {
+          "word": " other.",
+          "start": 17.20971875,
+          "end": 17.469718750000002,
+          "probability": 0.999752938747406
+        },
+        {
+          "word": " A",
+          "start": 17.72971875,
+          "end": 18.089718750000003,
+          "probability": 0.9985129237174988
+        },
+        {
+          "word": " mahogany",
+          "start": 18.089718750000003,
+          "end": 18.629718750000002,
+          "probability": 0.9989725748697916
+        },
+        {
+          "word": " side",
+          "start": 18.629718750000002,
+          "end": 18.98971875,
+          "probability": 0.8823676109313965
+        },
+        {
+          "word": " table",
+          "start": 18.98971875,
+          "end": 19.409718750000003,
+          "probability": 0.9907494187355042
+        },
+        {
+          "word": " holds",
+          "start": 19.409718750000003,
+          "end": 19.809718750000002,
+          "probability": 0.9994070529937744
+        },
+        {
+          "word": " two",
+          "start": 19.809718750000002,
+          "end": 20.02971875,
+          "probability": 0.9951234459877014
+        },
+        {
+          "word": " glasses",
+          "start": 20.02971875,
+          "end": 20.42971875,
+          "probability": 0.9989814162254333
+        },
+        {
+          "word": " of",
+          "start": 20.42971875,
+          "end": 20.66971875,
+          "probability": 0.9998984336853027
+        },
+        {
+          "word": " water,",
+          "start": 20.66971875,
+          "end": 21.00971875,
+          "probability": 0.9998446702957153
+        },
+        {
+          "word": " an",
+          "start": 21.22971875,
+          "end": 21.46971875,
+          "probability": 0.9973030090332031
+        },
+        {
+          "word": " ashtray",
+          "start": 21.46971875,
+          "end": 21.96971875,
+          "probability": 0.9794854124387106
+        },
+        {
+          "word": " with",
+          "start": 21.96971875,
+          "end": 22.16971875,
+          "probability": 0.9994332194328308
+        },
+        {
+          "word": " a",
+          "start": 22.16971875,
+          "end": 22.28971875,
+          "probability": 0.9992732405662537
+        },
+        {
+          "word": " half",
+          "start": 22.28971875,
+          "end": 22.50971875,
+          "probability": 0.9997343420982361
+        },
+        {
+          "word": "-smoked",
+          "start": 22.50971875,
+          "end": 22.84971875,
+          "probability": 0.9806388219197592
+        },
+        {
+          "word": " cigar",
+          "start": 22.84971875,
+          "end": 23.28971875,
+          "probability": 0.9997180104255676
+        },
+        {
+          "word": " and",
+          "start": 23.28971875,
+          "end": 23.56971875,
+          "probability": 0.6508460640907288
+        },
+        {
+          "word": " a",
+          "start": 23.56971875,
+          "end": 23.66971875,
+          "probability": 0.9998332262039185
+        },
+        {
+          "word": " pipe.",
+          "start": 23.66971875,
+          "end": 23.98971875,
+          "probability": 0.9997722506523132
+        },
+        {
+          "word": " The",
+          "start": 24.22971875,
+          "end": 24.56971875,
+          "probability": 0.999380350112915
+        },
+        {
+          "word": " clock",
+          "start": 24.56971875,
+          "end": 24.82971875,
+          "probability": 0.9995183944702148
+        },
+        {
+          "word": " on",
+          "start": 24.82971875,
+          "end": 25.00971875,
+          "probability": 0.9999138116836548
+        },
+        {
+          "word": " the",
+          "start": 25.00971875,
+          "end": 25.10971875,
+          "probability": 0.9996966123580933
+        },
+        {
+          "word": " mantelpiece",
+          "start": 25.10971875,
+          "end": 25.66971875,
+          "probability": 0.9970422784487406
+        },
+        {
+          "word": " has",
+          "start": 25.66971875,
+          "end": 25.909718750000003,
+          "probability": 0.9999016523361206
+        },
+        {
+          "word": " no",
+          "start": 25.909718750000003,
+          "end": 26.089718750000003,
+          "probability": 0.9998645782470703
+        },
+        {
+          "word": " hands.",
+          "start": 26.089718750000003,
+          "end": 26.40971875,
+          "probability": 0.9998214840888977
+        }
+      ]
+    }
+  ],
+  "reviewed": false
+}

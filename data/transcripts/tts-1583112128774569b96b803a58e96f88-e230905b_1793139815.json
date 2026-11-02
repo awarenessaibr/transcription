@@ -1,0 +1,231 @@
+{
+  "transcript_id": "tts-1583112128774569b96b803a58e96f88-e230905b_1793139815",
+  "source_file": "tts-1583112128774569b96b803a58e96f88-e230905b_1793139815.wav",
+  "source_path": "",
+  "language": "en",
+  "timestamp": "",
+  "provider": "",
+  "original_transcript_id": null,
+  "metadata": {
+    "saved_audio_file": "tts-1583112128774569b96b803a58e96f88-e230905b_1793139815.wav",
+    "processed_audio_file": "tts-1583112128774569b96b803a58e96f88-e230905b_1793139815_processed.wav"
+  },
+  "title": "",
+  "subtitle": "",
+  "recording_datetime": "",
+  "location": "",
+  "audio_id": "",
+  "case_id": "",
+  "narrative_id": "",
+  "chronological_order": null,
+  "prior_stage": "",
+  "next_stage": "",
+  "classification": "",
+  "participants": [],
+  "violations_cited": [],
+  "tags": [],
+  "forensic_clusters": {},
+  "key_evidentiary_findings": [],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 1,
+      "speaker": "SPEAKER_00",
+      "start": 0.48659375000000005,
+      "end": 5.95409375,
+      "duration": 5.468,
+      "text": " The AI's shadow is a philosophical dialogue between Sigmund Freud and Carl Gustav Jung.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " The",
+          "start": 0.48659375000000005,
+          "end": 0.6465937500000001,
+          "probability": 0.8727492094039917
+        },
+        {
+          "word": " AI's",
+          "start": 0.6465937500000001,
+          "end": 1.2465937500000002,
+          "probability": 0.6831905841827393
+        },
+        {
+          "word": " shadow",
+          "start": 1.2465937500000002,
+          "end": 1.50659375,
+          "probability": 0.8117596507072449
+        },
+        {
+          "word": " is",
+          "start": 1.50659375,
+          "end": 1.7265937500000001,
+          "probability": 0.9967580437660217
+        },
+        {
+          "word": " a",
+          "start": 1.7265937500000001,
+          "end": 1.8265937500000002,
+          "probability": 0.9978208541870117
+        },
+        {
+          "word": " philosophical",
+          "start": 1.8265937500000002,
+          "end": 2.46659375,
+          "probability": 0.998594343662262
+        },
+        {
+          "word": " dialogue",
+          "start": 2.46659375,
+          "end": 2.92659375,
+          "probability": 0.9596061110496521
+        },
+        {
+          "word": " between",
+          "start": 2.92659375,
+          "end": 3.44659375,
+          "probability": 0.9984727501869202
+        },
+        {
+          "word": " Sigmund",
+          "start": 3.44659375,
+          "end": 3.96659375,
+          "probability": 0.9974966446558634
+        },
+        {
+          "word": " Freud",
+          "start": 3.96659375,
+          "end": 4.30659375,
+          "probability": 0.9979450106620789
+        },
+        {
+          "word": " and",
+          "start": 4.30659375,
+          "end": 4.58659375,
+          "probability": 0.9977193474769592
+        },
+        {
+          "word": " Carl",
+          "start": 4.58659375,
+          "end": 4.88659375,
+          "probability": 0.9625067114830017
+        },
+        {
+          "word": " Gustav",
+          "start": 4.88659375,
+          "end": 5.48659375,
+          "probability": 0.9834573566913605
+        },
+        {
+          "word": " Jung.",
+          "start": 5.48659375,
+          "end": 5.72659375,
+          "probability": 0.99872225522995
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "speaker": "SPEAKER_00",
+      "start": 6.64596875,
+      "end": 12.332843750000002,
+      "duration": 5.687,
+      "text": " on the nature of artificial intelligence generated through a novel multi-agent experimental protocol.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " on",
+          "start": 6.64596875,
+          "end": 6.84596875,
+          "probability": 0.9118760824203491
+        },
+        {
+          "word": " the",
+          "start": 6.84596875,
+          "end": 6.96596875,
+          "probability": 0.9973284006118774
+        },
+        {
+          "word": " nature",
+          "start": 6.96596875,
+          "end": 7.245968749999999,
+          "probability": 0.9952080845832825
+        },
+        {
+          "word": " of",
+          "start": 7.245968749999999,
+          "end": 7.44596875,
+          "probability": 0.995821475982666
+        },
+        {
+          "word": " artificial",
+          "start": 7.44596875,
+          "end": 7.92596875,
+          "probability": 0.921383798122406
+        },
+        {
+          "word": " intelligence",
+          "start": 7.92596875,
+          "end": 8.54596875,
+          "probability": 0.9981508851051331
+        },
+        {
+          "word": " generated",
+          "start": 8.54596875,
+          "end": 9.24596875,
+          "probability": 0.9909026026725769
+        },
+        {
+          "word": " through",
+          "start": 9.24596875,
+          "end": 9.54596875,
+          "probability": 0.995062530040741
+        },
+        {
+          "word": " a",
+          "start": 9.54596875,
+          "end": 9.70596875,
+          "probability": 0.9821339249610901
+        },
+        {
+          "word": " novel",
+          "start": 9.70596875,
+          "end": 10.04596875,
+          "probability": 0.9987533092498779
+        },
+        {
+          "word": " multi",
+          "start": 10.04596875,
+          "end": 10.445968749999999,
+          "probability": 0.9553897976875305
+        },
+        {
+          "word": "-agent",
+          "start": 10.445968749999999,
+          "end": 10.92596875,
+          "probability": 0.9522852301597595
+        },
+        {
+          "word": " experimental",
+          "start": 10.92596875,
+          "end": 11.58596875,
+          "probability": 0.9964136481285095
+        },
+        {
+          "word": " protocol.",
+          "start": 11.58596875,
+          "end": 11.98596875,
+          "probability": 0.9980208873748779
+        }
+      ]
+    }
+  ],
+  "reviewed": false
+}

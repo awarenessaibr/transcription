@@ -1,0 +1,321 @@
+{
+  "transcript_id": "tts-265e7355dd4244f482f5d71cbd882ad8-fe6061ef_1793139617",
+  "source_file": "tts-265e7355dd4244f482f5d71cbd882ad8-fe6061ef_1793139617.wav",
+  "source_path": "",
+  "language": "en",
+  "timestamp": "",
+  "provider": "",
+  "original_transcript_id": null,
+  "metadata": {
+    "saved_audio_file": "tts-265e7355dd4244f482f5d71cbd882ad8-fe6061ef_1793139617.wav",
+    "processed_audio_file": "tts-265e7355dd4244f482f5d71cbd882ad8-fe6061ef_1793139617_processed.wav"
+  },
+  "title": "",
+  "subtitle": "",
+  "recording_datetime": "",
+  "location": "",
+  "audio_id": "",
+  "case_id": "",
+  "narrative_id": "",
+  "chronological_order": null,
+  "prior_stage": "",
+  "next_stage": "",
+  "classification": "",
+  "participants": [],
+  "violations_cited": [],
+  "tags": [],
+  "forensic_clusters": {},
+  "key_evidentiary_findings": [],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 1,
+      "speaker": "SPEAKER_00",
+      "start": 0.03096875,
+      "end": 0.30096875,
+      "duration": 0.27,
+      "text": " You",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " You",
+          "start": 0.03096875,
+          "end": 0.21096874999999998,
+          "probability": 0.06894424557685852
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "speaker": "SPEAKER_00",
+      "start": 0.45284375,
+      "end": 14.72909375,
+      "duration": 14.276,
+      "text": " Outside the window, snow falls upward or downward, it is impossible to tell. Freud sits with the composure of a man accustomed to listening. Jung leans forward slightly, as though the room itself is a patient whose dreams he wishes to interpret.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Outside",
+          "start": 0.45284375,
+          "end": 0.91284375,
+          "probability": 0.9539969563484192
+        },
+        {
+          "word": " the",
+          "start": 0.91284375,
+          "end": 1.07284375,
+          "probability": 0.9987471103668213
+        },
+        {
+          "word": " window,",
+          "start": 1.07284375,
+          "end": 1.41284375,
+          "probability": 0.9939908385276794
+        },
+        {
+          "word": " snow",
+          "start": 1.61284375,
+          "end": 1.8328437499999999,
+          "probability": 0.9865761995315552
+        },
+        {
+          "word": " falls",
+          "start": 1.8328437499999999,
+          "end": 2.23284375,
+          "probability": 0.9967716336250305
+        },
+        {
+          "word": " upward",
+          "start": 2.23284375,
+          "end": 2.57284375,
+          "probability": 0.9951677322387695
+        },
+        {
+          "word": " or",
+          "start": 2.57284375,
+          "end": 2.77284375,
+          "probability": 0.9984709620475769
+        },
+        {
+          "word": " downward,",
+          "start": 2.77284375,
+          "end": 3.17284375,
+          "probability": 0.9991326928138733
+        },
+        {
+          "word": " it",
+          "start": 3.43284375,
+          "end": 3.79284375,
+          "probability": 0.9903538227081299
+        },
+        {
+          "word": " is",
+          "start": 3.79284375,
+          "end": 3.91284375,
+          "probability": 0.9982740879058838
+        },
+        {
+          "word": " impossible",
+          "start": 3.91284375,
+          "end": 4.3728437499999995,
+          "probability": 0.999457061290741
+        },
+        {
+          "word": " to",
+          "start": 4.3728437499999995,
+          "end": 4.61284375,
+          "probability": 0.9995455145835876
+        },
+        {
+          "word": " tell.",
+          "start": 4.61284375,
+          "end": 4.91284375,
+          "probability": 0.9997950196266174
+        },
+        {
+          "word": " Freud",
+          "start": 5.51284375,
+          "end": 6.052843749999999,
+          "probability": 0.9983903169631958
+        },
+        {
+          "word": " sits",
+          "start": 6.052843749999999,
+          "end": 6.3728437499999995,
+          "probability": 0.9990248680114746
+        },
+        {
+          "word": " with",
+          "start": 6.3728437499999995,
+          "end": 6.51284375,
+          "probability": 0.9990291595458984
+        },
+        {
+          "word": " the",
+          "start": 6.51284375,
+          "end": 6.632843749999999,
+          "probability": 0.9967188239097595
+        },
+        {
+          "word": " composure",
+          "start": 6.632843749999999,
+          "end": 7.11284375,
+          "probability": 0.9979207813739777
+        },
+        {
+          "word": " of",
+          "start": 7.11284375,
+          "end": 7.27284375,
+          "probability": 0.9996727705001831
+        },
+        {
+          "word": " a",
+          "start": 7.27284375,
+          "end": 7.3728437499999995,
+          "probability": 0.9979401230812073
+        },
+        {
+          "word": " man",
+          "start": 7.3728437499999995,
+          "end": 7.552843749999999,
+          "probability": 0.9993632435798645
+        },
+        {
+          "word": " accustomed",
+          "start": 7.552843749999999,
+          "end": 7.9528437499999995,
+          "probability": 0.9981326460838318
+        },
+        {
+          "word": " to",
+          "start": 7.9528437499999995,
+          "end": 8.17284375,
+          "probability": 0.9996104836463928
+        },
+        {
+          "word": " listening.",
+          "start": 8.17284375,
+          "end": 8.53284375,
+          "probability": 0.9993616938591003
+        },
+        {
+          "word": " Jung",
+          "start": 9.312843749999999,
+          "end": 9.47284375,
+          "probability": 0.9861010909080505
+        },
+        {
+          "word": " leans",
+          "start": 9.47284375,
+          "end": 9.892843749999999,
+          "probability": 0.9997206330299377
+        },
+        {
+          "word": " forward",
+          "start": 9.892843749999999,
+          "end": 10.232843749999999,
+          "probability": 0.9983741044998169
+        },
+        {
+          "word": " slightly,",
+          "start": 10.232843749999999,
+          "end": 10.77284375,
+          "probability": 0.9977555871009827
+        },
+        {
+          "word": " as",
+          "start": 11.03284375,
+          "end": 11.35284375,
+          "probability": 0.9992908239364624
+        },
+        {
+          "word": " though",
+          "start": 11.35284375,
+          "end": 11.492843749999999,
+          "probability": 0.998022198677063
+        },
+        {
+          "word": " the",
+          "start": 11.492843749999999,
+          "end": 11.63284375,
+          "probability": 0.9991471767425537
+        },
+        {
+          "word": " room",
+          "start": 11.63284375,
+          "end": 11.812843749999999,
+          "probability": 0.9985986351966858
+        },
+        {
+          "word": " itself",
+          "start": 11.812843749999999,
+          "end": 12.19284375,
+          "probability": 0.9973832964897156
+        },
+        {
+          "word": " is",
+          "start": 12.19284375,
+          "end": 12.41284375,
+          "probability": 0.9988547563552856
+        },
+        {
+          "word": " a",
+          "start": 12.41284375,
+          "end": 12.55284375,
+          "probability": 0.9992019534111023
+        },
+        {
+          "word": " patient",
+          "start": 12.55284375,
+          "end": 12.85284375,
+          "probability": 0.9991356730461121
+        },
+        {
+          "word": " whose",
+          "start": 12.85284375,
+          "end": 13.11284375,
+          "probability": 0.9944986701011658
+        },
+        {
+          "word": " dreams",
+          "start": 13.11284375,
+          "end": 13.492843749999999,
+          "probability": 0.9986448884010315
+        },
+        {
+          "word": " he",
+          "start": 13.492843749999999,
+          "end": 13.71284375,
+          "probability": 0.999534010887146
+        },
+        {
+          "word": " wishes",
+          "start": 13.71284375,
+          "end": 13.992843749999999,
+          "probability": 0.999444305896759
+        },
+        {
+          "word": " to",
+          "start": 13.992843749999999,
+          "end": 14.232843749999999,
+          "probability": 0.9996259212493896
+        },
+        {
+          "word": " interpret.",
+          "start": 14.232843749999999,
+          "end": 14.53284375,
+          "probability": 0.9991459846496582
+        }
+      ]
+    }
+  ],
+  "reviewed": false
+}

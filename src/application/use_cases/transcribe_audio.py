@@ -7,17 +7,23 @@ import os
 import re
 import tempfile
 import time
+from collections.abc import Callable
 from pathlib import Path
-from typing import Callable
 
 from src.application.dto.schemas import (
     SegmentResult,
     TimingResult,
     TranscribeResult,
+    WordTimestampResult,
 )
 from src.domain.chilean_spanish import post_process_chilean_spanish
-from src.domain.entities.transcript import Segment, Speaker, Transcript
-from src.domain.entities.transcript import DiarizationTurn
+from src.domain.entities.transcript import (
+    DiarizationTurn,
+    Segment,
+    Speaker,
+    Transcript,
+    WordTimestamp,
+)
 from src.domain.ports.interfaces import (
     ASRPort,
     AudioFilePort,
@@ -301,7 +307,12 @@ class TranscribeAudioUseCase:
                     "voice_enhance": params.get("voice_enhance", True),
                     "apply_gain": params.get("apply_gain", True),
                     "target_lufs": params.get("target_lufs", -16.0),
-                    "remove_silence": params.get("remove_silence", True),
+                    # Trimming silence changes the timeline. Keep it intact when word
+                    # timestamps must line up with the original audio.
+                    "remove_silence": (
+                        params.get("remove_silence", True)
+                        and not params.get("word_timestamps", False)
+                    ),
                     "silence_thresh": params.get("silence_thresh", -45),
                     "min_silence_len": params.get("min_silence_len", 250),
                     "word_timestamps": params.get("word_timestamps", False),
@@ -370,9 +381,15 @@ class TranscribeAudioUseCase:
             "noise_reduce": params.get("noise_reduce", True),
             "reduction_db": params.get("reduction_db", 25),
             "voice_enhance": params.get("voice_enhance", True),
+            "enhance_highpass_hz": params.get("enhance_highpass_hz"),
+            "enhance_lowpass_hz": params.get("enhance_lowpass_hz"),
             "apply_gain": params.get("apply_gain", True),
             "target_lufs": params.get("target_lufs", -16.0),
-            "remove_silence": params.get("remove_silence", True),
+            "allow_attenuation": params.get("allow_attenuation", True),
+            "remove_silence": (
+                params.get("remove_silence", True)
+                and not params.get("word_timestamps", False)
+            ),
             "silence_thresh": params.get("silence_thresh", -45),
             "min_silence_len": params.get("min_silence_len", 250),
         })
@@ -565,6 +582,23 @@ class TranscribeAudioUseCase:
                 word_timestamps=params.get("word_timestamps", False),
             )
             raw_text = asr_result.get("text", "") if isinstance(asr_result, dict) else asr_result
+            words = []
+            if isinstance(asr_result, dict) and params.get("word_timestamps", False):
+                for word in asr_result.get("words") or []:
+                    try:
+                        words.append(WordTimestampResult(
+                            word=str(word.get("word", "")),
+                            start=turn.start + float(word["start"]),
+                            end=turn.start + float(word["end"]),
+                            probability=(
+                                float(word["probability"])
+                                if word.get("probability") is not None else None
+                            ),
+                        ))
+                    except (KeyError, TypeError, ValueError):
+                        logger.warning(
+                            "[segment %d] ignoring malformed word timestamp: %r", idx, word
+                        )
             if idx == 1 and isinstance(asr_result, dict):
                 detected_language = asr_result.get("language")
             seg_elapsed = time.time() - t_seg
@@ -596,6 +630,7 @@ class TranscribeAudioUseCase:
                 end=turn.end,
                 duration=turn.duration,
                 text=text,
+                words=words,
             ))
 
         return segments, transcription_elapsed_total
@@ -616,6 +651,15 @@ class TranscribeAudioUseCase:
                 start=s.start,
                 end=s.end,
                 text=s.text,
+                words=[
+                    WordTimestamp(
+                        word=word.word,
+                        start=word.start,
+                        end=word.end,
+                        probability=word.probability,
+                    )
+                    for word in s.words
+                ],
             )
             for s in segments
         ]

@@ -4,6 +4,7 @@ Serves the two active UIs:
 
 * ``/``, ``/pinocchio`` and ``/pinocchio-en`` -> ``templates/pinocchio-en.html``
 * ``/revision`` and ``/revision-en``           -> ``templates/revision-en.html``
+* ``/aligner``                                 -> ``templates/aligner.html``
 
 The Spanish twins (``pinocchio.html`` / ``revision.html``) were retired in favour
 of the English pair; the Spanish URLs are kept as aliases so existing links and
@@ -29,6 +30,7 @@ router = APIRouter(tags=["pinocchio"])
 _TEMPLATE_DIR = Path(__file__).resolve().parents[3] / "templates"
 _PINOCCIO_TEMPLATE = _TEMPLATE_DIR / "pinocchio-en.html"
 _REVISION_TEMPLATE = _TEMPLATE_DIR / "revision-en.html"
+_ALIGNER_TEMPLATE = _TEMPLATE_DIR / "aligner.html"
 _SPEAKERS_REGISTRY_TEMPLATE = _TEMPLATE_DIR / "speakers-registry.html"
 
 
@@ -56,6 +58,12 @@ async def serve_revision() -> FileResponse:
 @router.get("/speakers-registry", include_in_schema=False)
 async def serve_speakers_registry() -> FileResponse:
     return _serve(_SPEAKERS_REGISTRY_TEMPLATE)
+
+
+@router.get("/aligner", include_in_schema=False)
+async def serve_aligner() -> FileResponse:
+    """Narration-to-audio timestamp alignment UI."""
+    return _serve(_ALIGNER_TEMPLATE)
 
 
 # ── /api/pinocchio/* aliases (307 preserves method + body) ────────────────

@@ -1,0 +1,363 @@
+{
+  "transcript_id": "tts-33c5d126e37c45169559fd3c267762a2-23e18239_1793139074",
+  "source_file": "tts-33c5d126e37c45169559fd3c267762a2-23e18239_1793139074.wav",
+  "source_path": "",
+  "language": "en",
+  "timestamp": "",
+  "provider": "",
+  "original_transcript_id": null,
+  "metadata": {
+    "saved_audio_file": "tts-33c5d126e37c45169559fd3c267762a2-23e18239_1793139074.wav",
+    "processed_audio_file": "tts-33c5d126e37c45169559fd3c267762a2-23e18239_1793139074_processed.wav"
+  },
+  "title": "",
+  "subtitle": "",
+  "recording_datetime": "",
+  "location": "",
+  "audio_id": "",
+  "case_id": "",
+  "narrative_id": "",
+  "chronological_order": null,
+  "prior_stage": "",
+  "next_stage": "",
+  "classification": "",
+  "participants": [],
+  "violations_cited": [],
+  "tags": [],
+  "forensic_clusters": {},
+  "key_evidentiary_findings": [],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 1,
+      "speaker": "SPEAKER_00",
+      "start": 0.03096875,
+      "end": 0.13221875,
+      "duration": 0.101,
+      "text": " For more information visit www.fema.org",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " For",
+          "start": 0.03096875,
+          "end": 0.11096875,
+          "probability": 0.015512940473854542
+        },
+        {
+          "word": " more",
+          "start": 0.11096875,
+          "end": 0.11096875,
+          "probability": 0.7384642362594604
+        },
+        {
+          "word": " information",
+          "start": 0.11096875,
+          "end": 0.11096875,
+          "probability": 0.9080067873001099
+        },
+        {
+          "word": " visit",
+          "start": 0.11096875,
+          "end": 0.11096875,
+          "probability": 0.40937721729278564
+        },
+        {
+          "word": " www",
+          "start": 0.11096875,
+          "end": 0.11096875,
+          "probability": 0.9463568329811096
+        },
+        {
+          "word": ".fema",
+          "start": 0.11096875,
+          "end": 0.11096875,
+          "probability": 0.8680669267972311
+        },
+        {
+          "word": ".org",
+          "start": 0.11096875,
+          "end": 0.11096875,
+          "probability": 0.8077394664287567
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "speaker": "SPEAKER_00",
+      "start": 0.41909375000000004,
+      "end": 6.66284375,
+      "duration": 6.244,
+      "text": " Jung reaches for the pipe on the side table, turns it in his hands contemplatively, but does not light it.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Jung",
+          "start": 0.41909375000000004,
+          "end": 0.67909375,
+          "probability": 0.8858202695846558
+        },
+        {
+          "word": " reaches",
+          "start": 0.67909375,
+          "end": 1.0590937500000002,
+          "probability": 0.998819887638092
+        },
+        {
+          "word": " for",
+          "start": 1.0590937500000002,
+          "end": 1.27909375,
+          "probability": 0.9989961981773376
+        },
+        {
+          "word": " the",
+          "start": 1.27909375,
+          "end": 1.37909375,
+          "probability": 0.9992591738700867
+        },
+        {
+          "word": " pipe",
+          "start": 1.37909375,
+          "end": 1.65909375,
+          "probability": 0.9983546137809753
+        },
+        {
+          "word": " on",
+          "start": 1.65909375,
+          "end": 1.81909375,
+          "probability": 0.9989757537841797
+        },
+        {
+          "word": " the",
+          "start": 1.81909375,
+          "end": 1.93909375,
+          "probability": 0.9988203644752502
+        },
+        {
+          "word": " side",
+          "start": 1.93909375,
+          "end": 2.2390937500000003,
+          "probability": 0.9606292843818665
+        },
+        {
+          "word": " table,",
+          "start": 2.2390937500000003,
+          "end": 2.59909375,
+          "probability": 0.9105247259140015
+        },
+        {
+          "word": " turns",
+          "start": 2.81909375,
+          "end": 3.33909375,
+          "probability": 0.998741090297699
+        },
+        {
+          "word": " it",
+          "start": 3.33909375,
+          "end": 3.49909375,
+          "probability": 0.9986288547515869
+        },
+        {
+          "word": " in",
+          "start": 3.49909375,
+          "end": 3.61909375,
+          "probability": 0.9980219602584839
+        },
+        {
+          "word": " his",
+          "start": 3.61909375,
+          "end": 3.77909375,
+          "probability": 0.9986990690231323
+        },
+        {
+          "word": " hands",
+          "start": 3.77909375,
+          "end": 4.139093750000001,
+          "probability": 0.9950045943260193
+        },
+        {
+          "word": " contemplatively,",
+          "start": 4.139093750000001,
+          "end": 5.03909375,
+          "probability": 0.9952445328235626
+        },
+        {
+          "word": " but",
+          "start": 5.27909375,
+          "end": 5.57909375,
+          "probability": 0.9995597004890442
+        },
+        {
+          "word": " does",
+          "start": 5.57909375,
+          "end": 5.75909375,
+          "probability": 0.9995216131210327
+        },
+        {
+          "word": " not",
+          "start": 5.75909375,
+          "end": 5.97909375,
+          "probability": 0.9998071789741516
+        },
+        {
+          "word": " light",
+          "start": 5.97909375,
+          "end": 6.21909375,
+          "probability": 0.9995459914207458
+        },
+        {
+          "word": " it.",
+          "start": 6.21909375,
+          "end": 6.45909375,
+          "probability": 0.9993090629577637
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "speaker": "SPEAKER_00",
+      "start": 7.101593750000001,
+      "end": 12.552218750000002,
+      "duration": 5.451,
+      "text": " His eyes moved to the bookshelves, where titles seemed to rearrange themselves when not directly observed.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " His",
+          "start": 7.101593750000001,
+          "end": 7.301593750000001,
+          "probability": 0.8848164081573486
+        },
+        {
+          "word": " eyes",
+          "start": 7.301593750000001,
+          "end": 7.561593750000001,
+          "probability": 0.9971588850021362
+        },
+        {
+          "word": " moved",
+          "start": 7.561593750000001,
+          "end": 7.881593750000001,
+          "probability": 0.9118644595146179
+        },
+        {
+          "word": " to",
+          "start": 7.881593750000001,
+          "end": 8.021593750000001,
+          "probability": 0.9981921315193176
+        },
+        {
+          "word": " the",
+          "start": 8.021593750000001,
+          "end": 8.12159375,
+          "probability": 0.9973804354667664
+        },
+        {
+          "word": " bookshelves,",
+          "start": 8.12159375,
+          "end": 8.841593750000001,
+          "probability": 0.9966989904642105
+        },
+        {
+          "word": " where",
+          "start": 8.841593750000001,
+          "end": 9.12159375,
+          "probability": 0.997099757194519
+        },
+        {
+          "word": " titles",
+          "start": 9.12159375,
+          "end": 9.501593750000001,
+          "probability": 0.9990708827972412
+        },
+        {
+          "word": " seemed",
+          "start": 9.501593750000001,
+          "end": 9.78159375,
+          "probability": 0.9227981567382812
+        },
+        {
+          "word": " to",
+          "start": 9.78159375,
+          "end": 9.941593750000001,
+          "probability": 0.9990484118461609
+        },
+        {
+          "word": " rearrange",
+          "start": 9.941593750000001,
+          "end": 10.301593750000002,
+          "probability": 0.9738473296165466
+        },
+        {
+          "word": " themselves",
+          "start": 10.301593750000002,
+          "end": 10.88159375,
+          "probability": 0.9995643496513367
+        },
+        {
+          "word": " when",
+          "start": 10.88159375,
+          "end": 11.28159375,
+          "probability": 0.9908260703086853
+        },
+        {
+          "word": " not",
+          "start": 11.28159375,
+          "end": 11.521593750000001,
+          "probability": 0.9994983673095703
+        },
+        {
+          "word": " directly",
+          "start": 11.521593750000001,
+          "end": 11.921593750000001,
+          "probability": 0.9987202882766724
+        },
+        {
+          "word": " observed.",
+          "start": 11.921593750000001,
+          "end": 12.22159375,
+          "probability": 0.9990949630737305
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "speaker": "SPEAKER_00",
+      "start": 12.88971875,
+      "end": 12.957218750000003,
+      "duration": 0.068,
+      "text": " Thank you.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Thank",
+          "start": 12.88971875,
+          "end": 12.90971875,
+          "probability": 0.11674198508262634
+        },
+        {
+          "word": " you.",
+          "start": 12.90971875,
+          "end": 12.90971875,
+          "probability": 0.9977230429649353
+        }
+      ]
+    }
+  ],
+  "reviewed": false
+}

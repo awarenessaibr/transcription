@@ -1,0 +1,447 @@
+{
+  "transcript_id": "tts-f0c7d94e10b64c0a9b7c8934508dffe6_1793138859",
+  "source_file": "tts-f0c7d94e10b64c0a9b7c8934508dffe6_1793138859.wav",
+  "source_path": "",
+  "language": "en",
+  "timestamp": "",
+  "provider": "",
+  "original_transcript_id": null,
+  "metadata": {
+    "saved_audio_file": "tts-f0c7d94e10b64c0a9b7c8934508dffe6_1793138859.wav",
+    "processed_audio_file": "tts-f0c7d94e10b64c0a9b7c8934508dffe6_1793138859_processed.wav"
+  },
+  "title": "",
+  "subtitle": "",
+  "recording_datetime": "",
+  "location": "",
+  "audio_id": "",
+  "case_id": "",
+  "narrative_id": "",
+  "chronological_order": null,
+  "prior_stage": "",
+  "next_stage": "",
+  "classification": "",
+  "participants": [],
+  "violations_cited": [],
+  "tags": [],
+  "forensic_clusters": {},
+  "key_evidentiary_findings": [],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 1,
+      "speaker": "SPEAKER_00",
+      "start": 0.40221875,
+      "end": 4.2497187499999995,
+      "duration": 3.847,
+      "text": " They tell me mankind has built thinking machines.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " They",
+          "start": 0.40221875,
+          "end": 0.58221875,
+          "probability": 0.8090963959693909
+        },
+        {
+          "word": " tell",
+          "start": 0.58221875,
+          "end": 1.02221875,
+          "probability": 0.9911602139472961
+        },
+        {
+          "word": " me",
+          "start": 1.02221875,
+          "end": 1.26221875,
+          "probability": 0.9937680959701538
+        },
+        {
+          "word": " mankind",
+          "start": 1.26221875,
+          "end": 1.90221875,
+          "probability": 0.9413475394248962
+        },
+        {
+          "word": " has",
+          "start": 1.90221875,
+          "end": 2.40221875,
+          "probability": 0.9946176409721375
+        },
+        {
+          "word": " built",
+          "start": 2.40221875,
+          "end": 2.7822187499999997,
+          "probability": 0.9942846894264221
+        },
+        {
+          "word": " thinking",
+          "start": 2.7822187499999997,
+          "end": 3.2822187499999997,
+          "probability": 0.9652329683303833
+        },
+        {
+          "word": " machines.",
+          "start": 3.2822187499999997,
+          "end": 3.7622187499999997,
+          "probability": 0.761365532875061
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "speaker": "SPEAKER_00",
+      "start": 4.755968750000001,
+      "end": 7.422218750000001,
+      "duration": 2.666,
+      "text": " They tell me these machines dream",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " They",
+          "start": 4.755968750000001,
+          "end": 4.995968750000001,
+          "probability": 0.685732901096344
+        },
+        {
+          "word": " tell",
+          "start": 4.995968750000001,
+          "end": 5.355968750000001,
+          "probability": 0.9955419898033142
+        },
+        {
+          "word": " me",
+          "start": 5.355968750000001,
+          "end": 5.595968750000001,
+          "probability": 0.9988870024681091
+        },
+        {
+          "word": " these",
+          "start": 5.595968750000001,
+          "end": 5.995968750000001,
+          "probability": 0.9859678149223328
+        },
+        {
+          "word": " machines",
+          "start": 5.995968750000001,
+          "end": 6.615968750000001,
+          "probability": 0.9930371642112732
+        },
+        {
+          "word": " dream",
+          "start": 6.615968750000001,
+          "end": 7.135968750000001,
+          "probability": 0.9435839056968689
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "speaker": "SPEAKER_00",
+      "start": 7.894718750000001,
+      "end": 9.29534375,
+      "duration": 1.401,
+      "text": " After a fashion",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " After",
+          "start": 7.894718750000001,
+          "end": 8.354718750000002,
+          "probability": 0.5535778999328613
+        },
+        {
+          "word": " a",
+          "start": 8.354718750000002,
+          "end": 8.634718750000001,
+          "probability": 0.9806609153747559
+        },
+        {
+          "word": " fashion",
+          "start": 8.634718750000001,
+          "end": 9.01471875,
+          "probability": 0.9663230776786804
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "speaker": "SPEAKER_00",
+      "start": 9.98721875,
+      "end": 13.952843750000003,
+      "duration": 3.966,
+      "text": " I confess that when I first grasped the scope of it,",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " I",
+          "start": 9.98721875,
+          "end": 10.16721875,
+          "probability": 0.9715828895568848
+        },
+        {
+          "word": " confess",
+          "start": 10.16721875,
+          "end": 10.76721875,
+          "probability": 0.9762569665908813
+        },
+        {
+          "word": " that",
+          "start": 10.76721875,
+          "end": 11.107218750000001,
+          "probability": 0.9962812066078186
+        },
+        {
+          "word": " when",
+          "start": 11.107218750000001,
+          "end": 11.40721875,
+          "probability": 0.9944173097610474
+        },
+        {
+          "word": " I",
+          "start": 11.40721875,
+          "end": 11.58721875,
+          "probability": 0.9986900687217712
+        },
+        {
+          "word": " first",
+          "start": 11.58721875,
+          "end": 12.14721875,
+          "probability": 0.999100923538208
+        },
+        {
+          "word": " grasped",
+          "start": 12.14721875,
+          "end": 12.86721875,
+          "probability": 0.9804094433784485
+        },
+        {
+          "word": " the",
+          "start": 12.86721875,
+          "end": 13.06721875,
+          "probability": 0.9988985061645508
+        },
+        {
+          "word": " scope",
+          "start": 13.06721875,
+          "end": 13.48721875,
+          "probability": 0.9995267391204834
+        },
+        {
+          "word": " of",
+          "start": 13.48721875,
+          "end": 13.707218750000001,
+          "probability": 0.9997645020484924
+        },
+        {
+          "word": " it,",
+          "start": 13.707218750000001,
+          "end": 13.86721875,
+          "probability": 0.9993870258331299
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "speaker": "SPEAKER_00",
+      "start": 14.340968750000002,
+      "end": 18.20534375,
+      "duration": 3.864,
+      "text": " My initial thought was not scientific but personal.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " My",
+          "start": 14.340968750000002,
+          "end": 14.600968750000002,
+          "probability": 0.6903315782546997
+        },
+        {
+          "word": " initial",
+          "start": 14.600968750000002,
+          "end": 15.120968750000001,
+          "probability": 0.9962698221206665
+        },
+        {
+          "word": " thought",
+          "start": 15.120968750000001,
+          "end": 15.500968750000002,
+          "probability": 0.9917729496955872
+        },
+        {
+          "word": " was",
+          "start": 15.500968750000002,
+          "end": 15.800968750000003,
+          "probability": 0.9974268078804016
+        },
+        {
+          "word": " not",
+          "start": 15.800968750000003,
+          "end": 16.120968750000003,
+          "probability": 0.9947237968444824
+        },
+        {
+          "word": " scientific",
+          "start": 16.120968750000003,
+          "end": 16.90096875,
+          "probability": 0.9957952499389648
+        },
+        {
+          "word": " but",
+          "start": 16.90096875,
+          "end": 17.36096875,
+          "probability": 0.6325920820236206
+        },
+        {
+          "word": " personal.",
+          "start": 17.36096875,
+          "end": 17.960968750000003,
+          "probability": 0.9891742467880249
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "speaker": "SPEAKER_00",
+      "start": 18.82971875,
+      "end": 25.664093750000003,
+      "duration": 6.834,
+      "text": " I thought so they have finally found a way to construct an analyzant who cannot leave the couch.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " I",
+          "start": 18.82971875,
+          "end": 19.00971875,
+          "probability": 0.9315999150276184
+        },
+        {
+          "word": " thought",
+          "start": 19.00971875,
+          "end": 19.38971875,
+          "probability": 0.9937703013420105
+        },
+        {
+          "word": " so",
+          "start": 19.38971875,
+          "end": 19.809718750000002,
+          "probability": 0.890407383441925
+        },
+        {
+          "word": " they",
+          "start": 19.809718750000002,
+          "end": 20.04971875,
+          "probability": 0.7864255905151367
+        },
+        {
+          "word": " have",
+          "start": 20.04971875,
+          "end": 20.24971875,
+          "probability": 0.9492358565330505
+        },
+        {
+          "word": " finally",
+          "start": 20.24971875,
+          "end": 20.82971875,
+          "probability": 0.9949476718902588
+        },
+        {
+          "word": " found",
+          "start": 20.82971875,
+          "end": 21.309718750000002,
+          "probability": 0.9988849759101868
+        },
+        {
+          "word": " a",
+          "start": 21.309718750000002,
+          "end": 21.54971875,
+          "probability": 0.9661253094673157
+        },
+        {
+          "word": " way",
+          "start": 21.54971875,
+          "end": 21.70971875,
+          "probability": 0.9994909763336182
+        },
+        {
+          "word": " to",
+          "start": 21.70971875,
+          "end": 21.949718750000002,
+          "probability": 0.9946135878562927
+        },
+        {
+          "word": " construct",
+          "start": 21.949718750000002,
+          "end": 22.609718750000003,
+          "probability": 0.9982889294624329
+        },
+        {
+          "word": " an",
+          "start": 22.609718750000003,
+          "end": 22.92971875,
+          "probability": 0.9879539012908936
+        },
+        {
+          "word": " analyzant",
+          "start": 22.92971875,
+          "end": 23.84971875,
+          "probability": 0.7664969066778818
+        },
+        {
+          "word": " who",
+          "start": 23.84971875,
+          "end": 24.129718750000002,
+          "probability": 0.9869714379310608
+        },
+        {
+          "word": " cannot",
+          "start": 24.129718750000002,
+          "end": 24.56971875,
+          "probability": 0.9917883276939392
+        },
+        {
+          "word": " leave",
+          "start": 24.56971875,
+          "end": 25.00971875,
+          "probability": 0.997624933719635
+        },
+        {
+          "word": " the",
+          "start": 25.00971875,
+          "end": 25.20971875,
+          "probability": 0.9972535967826843
+        },
+        {
+          "word": " couch.",
+          "start": 25.20971875,
+          "end": 25.52971875,
+          "probability": 0.9969220757484436
+        }
+      ]
+    }
+  ],
+  "reviewed": false
+}

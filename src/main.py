@@ -17,6 +17,10 @@ from .composition import build_runtime
 from .config import settings
 from .llm.router import router as llm_router
 from .logging_setup import setup_logging
+from .presentation.routers.alignment import init_alignment_router
+from .presentation.routers.alignment import router as alignment_router
+from .presentation.routers.audio_lab import init_audio_lab_router
+from .presentation.routers.audio_lab import router as audio_lab_router
 from .presentation.routers.diarization import init_diarization_router
 from .presentation.routers.diarization import router as diarization_router
 
@@ -43,6 +47,7 @@ runtime = build_runtime()
 
 # ── Router Injection ─────────────────────────────────────────────────────
 init_diarization_router(runtime.excerpt_use_case, runtime.audio_file_adapter, settings.TRANSCRIPT_DIR)
+init_alignment_router(runtime.align_narration_use_case)
 init_transcription_router(
     runtime.transcribe_use_case,
     settings.ORIGINALS_DIR,
@@ -68,6 +73,9 @@ init_references_router(
     runtime.narrative_store_adapter,
     settings.REFERENCE_DIR,
 )
+# Audio Lab: speech-oriented DSP for the File & Execution panel.  Reuses the audio file
+# adapter for container→WAV conversion and writes opt-in outputs next to the uploads.
+init_audio_lab_router(runtime.audio_file_adapter, settings.AUDIO_DIR)
 
 
 # ── FastAPI App ──────────────────────────────────────────────────────────
@@ -98,6 +106,8 @@ app.include_router(transcripts_router)
 app.include_router(projects_router)
 app.include_router(references_router)
 app.include_router(pinocchio_router)
+app.include_router(alignment_router)
+app.include_router(audio_lab_router)
 app.include_router(llm_router)
 app.include_router(speakers_router)
 

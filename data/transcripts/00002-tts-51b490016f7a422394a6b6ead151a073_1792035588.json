@@ -1,0 +1,46 @@
+{
+  "transcript_id": "00002-tts-51b490016f7a422394a6b6ead151a073_1792035588",
+  "source_file": "00002-tts-51b490016f7a422394a6b6ead151a073_1792035588.wav",
+  "source_path": "",
+  "language": "es",
+  "timestamp": "",
+  "provider": "",
+  "original_transcript_id": null,
+  "metadata": {
+    "saved_audio_file": "00002-tts-51b490016f7a422394a6b6ead151a073_1792035588.wav",
+    "processed_audio_file": "00002-tts-51b490016f7a422394a6b6ead151a073_1792035588_processed.wav"
+  },
+  "title": "",
+  "subtitle": "",
+  "recording_datetime": "",
+  "location": "",
+  "audio_id": "",
+  "case_id": "",
+  "narrative_id": "",
+  "chronological_order": null,
+  "prior_stage": "",
+  "next_stage": "",
+  "classification": "",
+  "participants": [],
+  "violations_cited": [],
+  "tags": [],
+  "forensic_clusters": {},
+  "key_evidentiary_findings": [],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 1,
+      "speaker": "SPEAKER_00",
+      "start": 0.03096875,
+      "end": 17.96909375,
+      "duration": 17.938,
+      "text": " Página 2. Conheça o Curupira. O nome dele é Curupira. Seu cabelo é vermelho como fogo. E seus pés apontam para trás. Isso mesmo. Para trás. Assim, quem tenta seguir suas pegadas acaba caminhando na direção errada. E ninguém consegue descobrir facilmente para onde ele foi.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": ""
+    }
+  ],
+  "reviewed": false
+}

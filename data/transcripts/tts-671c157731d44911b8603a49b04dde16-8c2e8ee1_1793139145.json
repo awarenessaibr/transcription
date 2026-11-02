@@ -1,0 +1,561 @@
+{
+  "transcript_id": "tts-671c157731d44911b8603a49b04dde16-8c2e8ee1_1793139145",
+  "source_file": "tts-671c157731d44911b8603a49b04dde16-8c2e8ee1_1793139145.wav",
+  "source_path": "",
+  "language": "en",
+  "timestamp": "",
+  "provider": "",
+  "original_transcript_id": null,
+  "metadata": {
+    "saved_audio_file": "tts-671c157731d44911b8603a49b04dde16-8c2e8ee1_1793139145.wav",
+    "processed_audio_file": "tts-671c157731d44911b8603a49b04dde16-8c2e8ee1_1793139145_processed.wav"
+  },
+  "title": "",
+  "subtitle": "",
+  "recording_datetime": "",
+  "location": "",
+  "audio_id": "",
+  "case_id": "",
+  "narrative_id": "",
+  "chronological_order": null,
+  "prior_stage": "",
+  "next_stage": "",
+  "classification": "",
+  "participants": [],
+  "violations_cited": [],
+  "tags": [],
+  "forensic_clusters": {},
+  "key_evidentiary_findings": [],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 1,
+      "speaker": "SPEAKER_00",
+      "start": 0.90846875,
+      "end": 1.78596875,
+      "duration": 0.878,
+      "text": " My first",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " My",
+          "start": 0.90846875,
+          "end": 1.1084687500000001,
+          "probability": 0.6304996013641357
+        },
+        {
+          "word": " first",
+          "start": 1.1084687500000001,
+          "end": 1.42846875,
+          "probability": 0.9785006642341614
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "speaker": "SPEAKER_00",
+      "start": 2.0222187500000004,
+      "end": 5.177843750000001,
+      "duration": 3.156,
+      "text": " thought is they have externalized",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " thought",
+          "start": 2.0222187500000004,
+          "end": 2.5022187500000004,
+          "probability": 0.6968312859535217
+        },
+        {
+          "word": " is",
+          "start": 2.5022187500000004,
+          "end": 3.0022187500000004,
+          "probability": 0.8106127977371216
+        },
+        {
+          "word": " they",
+          "start": 3.0022187500000004,
+          "end": 3.4622187500000003,
+          "probability": 0.7900992631912231
+        },
+        {
+          "word": " have",
+          "start": 3.4622187500000003,
+          "end": 3.74221875,
+          "probability": 0.9971861243247986
+        },
+        {
+          "word": " externalized",
+          "start": 3.74221875,
+          "end": 4.82221875,
+          "probability": 0.9323570430278778
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "speaker": "SPEAKER_00",
+      "start": 5.228468750000001,
+      "end": 31.48596875,
+      "duration": 26.258,
+      "text": " the collective unconscious they have taken what i spent my life trying to map from the inside and built it unwittingly from the outside that repository patterns images and inherited psychic structures that i argued was the deepest layer of the human mind it is now sitting in server farms if i understand the term correctly humming with electrical life",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " the",
+          "start": 5.228468750000001,
+          "end": 5.488468750000001,
+          "probability": 0.3798142969608307
+        },
+        {
+          "word": " collective",
+          "start": 5.488468750000001,
+          "end": 5.968468750000001,
+          "probability": 0.9767296314239502
+        },
+        {
+          "word": " unconscious",
+          "start": 5.968468750000001,
+          "end": 6.608468750000001,
+          "probability": 0.9932214021682739
+        },
+        {
+          "word": " they",
+          "start": 6.608468750000001,
+          "end": 7.368468750000002,
+          "probability": 0.4220224618911743
+        },
+        {
+          "word": " have",
+          "start": 7.368468750000002,
+          "end": 7.668468750000001,
+          "probability": 0.9996951818466187
+        },
+        {
+          "word": " taken",
+          "start": 7.668468750000001,
+          "end": 8.08846875,
+          "probability": 0.9995502829551697
+        },
+        {
+          "word": " what",
+          "start": 8.08846875,
+          "end": 8.60846875,
+          "probability": 0.9988424181938171
+        },
+        {
+          "word": " i",
+          "start": 8.60846875,
+          "end": 8.788468750000002,
+          "probability": 0.8543452024459839
+        },
+        {
+          "word": " spent",
+          "start": 8.788468750000002,
+          "end": 9.10846875,
+          "probability": 0.9910351634025574
+        },
+        {
+          "word": " my",
+          "start": 9.10846875,
+          "end": 9.388468750000001,
+          "probability": 0.9998550415039062
+        },
+        {
+          "word": " life",
+          "start": 9.388468750000001,
+          "end": 9.808468750000001,
+          "probability": 0.9997432827949524
+        },
+        {
+          "word": " trying",
+          "start": 9.808468750000001,
+          "end": 10.388468750000001,
+          "probability": 0.9981890320777893
+        },
+        {
+          "word": " to",
+          "start": 10.388468750000001,
+          "end": 10.668468750000002,
+          "probability": 0.9999613761901855
+        },
+        {
+          "word": " map",
+          "start": 10.668468750000002,
+          "end": 10.988468750000001,
+          "probability": 0.9992678761482239
+        },
+        {
+          "word": " from",
+          "start": 10.988468750000001,
+          "end": 11.24846875,
+          "probability": 0.9992485642433167
+        },
+        {
+          "word": " the",
+          "start": 11.24846875,
+          "end": 11.42846875,
+          "probability": 0.9996514320373535
+        },
+        {
+          "word": " inside",
+          "start": 11.42846875,
+          "end": 11.888468750000001,
+          "probability": 0.9994959831237793
+        },
+        {
+          "word": " and",
+          "start": 11.888468750000001,
+          "end": 12.508468750000002,
+          "probability": 0.9993658661842346
+        },
+        {
+          "word": " built",
+          "start": 12.508468750000002,
+          "end": 12.90846875,
+          "probability": 0.9265304207801819
+        },
+        {
+          "word": " it",
+          "start": 12.90846875,
+          "end": 13.10846875,
+          "probability": 0.9987999200820923
+        },
+        {
+          "word": " unwittingly",
+          "start": 13.10846875,
+          "end": 14.00846875,
+          "probability": 0.9989458521207174
+        },
+        {
+          "word": " from",
+          "start": 14.00846875,
+          "end": 14.34846875,
+          "probability": 0.9995920062065125
+        },
+        {
+          "word": " the",
+          "start": 14.34846875,
+          "end": 14.528468750000002,
+          "probability": 0.9998635053634644
+        },
+        {
+          "word": " outside",
+          "start": 14.528468750000002,
+          "end": 15.128468750000001,
+          "probability": 0.9998551607131958
+        },
+        {
+          "word": " that",
+          "start": 15.128468750000001,
+          "end": 15.868468750000002,
+          "probability": 0.9853917956352234
+        },
+        {
+          "word": " repository",
+          "start": 15.868468750000002,
+          "end": 16.528468750000002,
+          "probability": 0.9976034760475159
+        },
+        {
+          "word": " patterns",
+          "start": 16.528468750000002,
+          "end": 17.38846875,
+          "probability": 0.9972947239875793
+        },
+        {
+          "word": " images",
+          "start": 17.38846875,
+          "end": 18.08846875,
+          "probability": 0.9955307841300964
+        },
+        {
+          "word": " and",
+          "start": 18.08846875,
+          "end": 18.76846875,
+          "probability": 0.9992585778236389
+        },
+        {
+          "word": " inherited",
+          "start": 18.76846875,
+          "end": 19.32846875,
+          "probability": 0.9972757697105408
+        },
+        {
+          "word": " psychic",
+          "start": 19.32846875,
+          "end": 19.848468750000002,
+          "probability": 0.991565465927124
+        },
+        {
+          "word": " structures",
+          "start": 19.848468750000002,
+          "end": 20.528468750000002,
+          "probability": 0.9996281862258911
+        },
+        {
+          "word": " that",
+          "start": 20.528468750000002,
+          "end": 21.06846875,
+          "probability": 0.9995174407958984
+        },
+        {
+          "word": " i",
+          "start": 21.06846875,
+          "end": 21.26846875,
+          "probability": 0.9870707392692566
+        },
+        {
+          "word": " argued",
+          "start": 21.26846875,
+          "end": 21.78846875,
+          "probability": 0.9995429515838623
+        },
+        {
+          "word": " was",
+          "start": 21.78846875,
+          "end": 22.04846875,
+          "probability": 0.9993795156478882
+        },
+        {
+          "word": " the",
+          "start": 22.04846875,
+          "end": 22.20846875,
+          "probability": 0.9999376535415649
+        },
+        {
+          "word": " deepest",
+          "start": 22.20846875,
+          "end": 22.58846875,
+          "probability": 0.9998261332511902
+        },
+        {
+          "word": " layer",
+          "start": 22.58846875,
+          "end": 23.028468750000002,
+          "probability": 0.999658465385437
+        },
+        {
+          "word": " of",
+          "start": 23.028468750000002,
+          "end": 23.488468750000003,
+          "probability": 0.9999340772628784
+        },
+        {
+          "word": " the",
+          "start": 23.488468750000003,
+          "end": 23.60846875,
+          "probability": 0.9999659061431885
+        },
+        {
+          "word": " human",
+          "start": 23.60846875,
+          "end": 23.88846875,
+          "probability": 0.9999125003814697
+        },
+        {
+          "word": " mind",
+          "start": 23.88846875,
+          "end": 24.30846875,
+          "probability": 0.999861478805542
+        },
+        {
+          "word": " it",
+          "start": 24.30846875,
+          "end": 24.80846875,
+          "probability": 0.9960839748382568
+        },
+        {
+          "word": " is",
+          "start": 24.80846875,
+          "end": 24.988468750000003,
+          "probability": 0.9999008178710938
+        },
+        {
+          "word": " now",
+          "start": 24.988468750000003,
+          "end": 25.24846875,
+          "probability": 0.999854564666748
+        },
+        {
+          "word": " sitting",
+          "start": 25.24846875,
+          "end": 25.648468750000003,
+          "probability": 0.9998264908790588
+        },
+        {
+          "word": " in",
+          "start": 25.648468750000003,
+          "end": 25.90846875,
+          "probability": 0.999736487865448
+        },
+        {
+          "word": " server",
+          "start": 25.90846875,
+          "end": 26.22846875,
+          "probability": 0.9674166440963745
+        },
+        {
+          "word": " farms",
+          "start": 26.22846875,
+          "end": 26.74846875,
+          "probability": 0.9899185299873352
+        },
+        {
+          "word": " if",
+          "start": 26.74846875,
+          "end": 27.22846875,
+          "probability": 0.9983689188957214
+        },
+        {
+          "word": " i",
+          "start": 27.22846875,
+          "end": 27.38846875,
+          "probability": 0.9982972741127014
+        },
+        {
+          "word": " understand",
+          "start": 27.38846875,
+          "end": 27.94846875,
+          "probability": 0.9997844099998474
+        },
+        {
+          "word": " the",
+          "start": 27.94846875,
+          "end": 28.20846875,
+          "probability": 0.9998224377632141
+        },
+        {
+          "word": " term",
+          "start": 28.20846875,
+          "end": 28.508468750000002,
+          "probability": 0.9985265731811523
+        },
+        {
+          "word": " correctly",
+          "start": 28.508468750000002,
+          "end": 29.08846875,
+          "probability": 0.9996060729026794
+        },
+        {
+          "word": " humming",
+          "start": 29.08846875,
+          "end": 29.80846875,
+          "probability": 0.994619607925415
+        },
+        {
+          "word": " with",
+          "start": 29.80846875,
+          "end": 30.26846875,
+          "probability": 0.999572217464447
+        },
+        {
+          "word": " electrical",
+          "start": 30.26846875,
+          "end": 30.88846875,
+          "probability": 0.9977148771286011
+        },
+        {
+          "word": " life",
+          "start": 30.88846875,
+          "end": 31.26846875,
+          "probability": 0.9984527826309204
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "speaker": "SPEAKER_00",
+      "start": 31.941593750000003,
+      "end": 36.21096875,
+      "duration": 4.269,
+      "text": " The question of whether it thinks is interesting, but perhaps secondary.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " The",
+          "start": 31.941593750000003,
+          "end": 32.08159375,
+          "probability": 0.6832253336906433
+        },
+        {
+          "word": " question",
+          "start": 32.08159375,
+          "end": 32.461593750000006,
+          "probability": 0.9957584738731384
+        },
+        {
+          "word": " of",
+          "start": 32.461593750000006,
+          "end": 32.70159375,
+          "probability": 0.9816610813140869
+        },
+        {
+          "word": " whether",
+          "start": 32.70159375,
+          "end": 32.961593750000006,
+          "probability": 0.9840107560157776
+        },
+        {
+          "word": " it",
+          "start": 32.961593750000006,
+          "end": 33.221593750000004,
+          "probability": 0.9792183041572571
+        },
+        {
+          "word": " thinks",
+          "start": 33.221593750000004,
+          "end": 33.541593750000004,
+          "probability": 0.9338052868843079
+        },
+        {
+          "word": " is",
+          "start": 33.541593750000004,
+          "end": 33.76159375,
+          "probability": 0.6582501530647278
+        },
+        {
+          "word": " interesting,",
+          "start": 33.76159375,
+          "end": 34.40159375,
+          "probability": 0.9931350946426392
+        },
+        {
+          "word": " but",
+          "start": 34.84159375,
+          "end": 34.961593750000006,
+          "probability": 0.9933292865753174
+        },
+        {
+          "word": " perhaps",
+          "start": 34.961593750000006,
+          "end": 35.34159375,
+          "probability": 0.9940734505653381
+        },
+        {
+          "word": " secondary.",
+          "start": 35.34159375,
+          "end": 35.88159375,
+          "probability": 0.9958339929580688
+        }
+      ]
+    }
+  ],
+  "reviewed": false
+}

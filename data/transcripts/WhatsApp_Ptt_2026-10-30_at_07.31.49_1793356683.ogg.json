@@ -1,0 +1,720 @@
+{
+  "transcript_id": "WhatsApp_Ptt_2026-10-30_at_07.31.49_1793356683.ogg",
+  "source_file": "WhatsApp Ptt 2026-10-30 at 07.31.49_1793356683.ogg.wav",
+  "source_path": "",
+  "language": "pt",
+  "timestamp": "",
+  "provider": "",
+  "original_transcript_id": null,
+  "metadata": {
+    "saved_audio_file": "WhatsApp Ptt 2026-10-30 at 07.31.49_1793356683.ogg.wav",
+    "processed_audio_file": "WhatsApp Ptt 2026-10-30 at 07.31.49_1793356683.ogg_processed.wav"
+  },
+  "title": "",
+  "subtitle": "",
+  "recording_datetime": "",
+  "location": "",
+  "audio_id": "",
+  "case_id": "",
+  "narrative_id": "",
+  "chronological_order": null,
+  "prior_stage": "",
+  "next_stage": "",
+  "classification": "",
+  "participants": [],
+  "violations_cited": [],
+  "tags": [],
+  "forensic_clusters": {},
+  "key_evidentiary_findings": [],
+  "corrections_applied": [],
+  "segments": [
+    {
+      "index": 1,
+      "speaker": "SPEAKER_00",
+      "start": 0.03096875,
+      "end": 3.4734687500000003,
+      "duration": 3.443,
+      "text": " Então, Leandro, é bem interessante porque...",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Então,",
+          "start": 0.03096875,
+          "end": 0.95096875,
+          "probability": 0.8347302079200745
+        },
+        {
+          "word": " Leandro,",
+          "start": 0.99096875,
+          "end": 1.39096875,
+          "probability": 0.9858864843845367
+        },
+        {
+          "word": " é",
+          "start": 1.43096875,
+          "end": 1.55096875,
+          "probability": 0.9995924830436707
+        },
+        {
+          "word": " bem",
+          "start": 1.55096875,
+          "end": 1.75096875,
+          "probability": 0.9998688697814941
+        },
+        {
+          "word": " interessante",
+          "start": 1.75096875,
+          "end": 2.15096875,
+          "probability": 0.9998825788497925
+        },
+        {
+          "word": " porque...",
+          "start": 2.15096875,
+          "end": 2.89096875,
+          "probability": 0.9377400279045105
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "speaker": "SPEAKER_00",
+      "start": 3.9290937500000003,
+      "end": 16.19721875,
+      "duration": 12.268,
+      "text": " Nas escolas, algumas do Estado, eu vou levar em consideração minhas aulas do Estado, porque eu trabalho questão de raça e gênero, eu faço adaptação do material de língua inglesa para poder trabalhar raça e gênero dentro.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Nas",
+          "start": 3.9290937500000003,
+          "end": 4.10909375,
+          "probability": 0.7276341319084167
+        },
+        {
+          "word": " escolas,",
+          "start": 4.10909375,
+          "end": 4.82909375,
+          "probability": 0.9982520639896393
+        },
+        {
+          "word": " algumas",
+          "start": 4.849093750000001,
+          "end": 5.6490937500000005,
+          "probability": 0.9807899594306946
+        },
+        {
+          "word": " do",
+          "start": 5.6490937500000005,
+          "end": 5.94909375,
+          "probability": 0.992145836353302
+        },
+        {
+          "word": " Estado,",
+          "start": 5.94909375,
+          "end": 6.24909375,
+          "probability": 0.6247686743736267
+        },
+        {
+          "word": " eu",
+          "start": 6.389093750000001,
+          "end": 6.549093750000001,
+          "probability": 0.514978289604187
+        },
+        {
+          "word": " vou",
+          "start": 6.549093750000001,
+          "end": 6.74909375,
+          "probability": 0.998630702495575
+        },
+        {
+          "word": " levar",
+          "start": 6.74909375,
+          "end": 6.90909375,
+          "probability": 0.9980056881904602
+        },
+        {
+          "word": " em",
+          "start": 6.90909375,
+          "end": 7.049093750000001,
+          "probability": 0.998583197593689
+        },
+        {
+          "word": " consideração",
+          "start": 7.049093750000001,
+          "end": 7.58909375,
+          "probability": 0.9994658827781677
+        },
+        {
+          "word": " minhas",
+          "start": 7.58909375,
+          "end": 7.90909375,
+          "probability": 0.8495900630950928
+        },
+        {
+          "word": " aulas",
+          "start": 7.90909375,
+          "end": 8.14909375,
+          "probability": 0.9996736645698547
+        },
+        {
+          "word": " do",
+          "start": 8.14909375,
+          "end": 8.26909375,
+          "probability": 0.9939525723457336
+        },
+        {
+          "word": " Estado,",
+          "start": 8.26909375,
+          "end": 8.52909375,
+          "probability": 0.9987363219261169
+        },
+        {
+          "word": " porque",
+          "start": 8.66909375,
+          "end": 8.90909375,
+          "probability": 0.9953373670578003
+        },
+        {
+          "word": " eu",
+          "start": 8.90909375,
+          "end": 9.38909375,
+          "probability": 0.997271716594696
+        },
+        {
+          "word": " trabalho",
+          "start": 9.38909375,
+          "end": 9.74909375,
+          "probability": 0.9992332458496094
+        },
+        {
+          "word": " questão",
+          "start": 9.74909375,
+          "end": 10.08909375,
+          "probability": 0.9443876147270203
+        },
+        {
+          "word": " de",
+          "start": 10.08909375,
+          "end": 10.44909375,
+          "probability": 0.9997640252113342
+        },
+        {
+          "word": " raça",
+          "start": 10.44909375,
+          "end": 10.869093750000001,
+          "probability": 0.99908846616745
+        },
+        {
+          "word": " e",
+          "start": 10.869093750000001,
+          "end": 10.94909375,
+          "probability": 0.9997579455375671
+        },
+        {
+          "word": " gênero,",
+          "start": 10.94909375,
+          "end": 11.48909375,
+          "probability": 0.9999487698078156
+        },
+        {
+          "word": " eu",
+          "start": 11.48909375,
+          "end": 11.80909375,
+          "probability": 0.8539574146270752
+        },
+        {
+          "word": " faço",
+          "start": 11.80909375,
+          "end": 12.08909375,
+          "probability": 0.99949049949646
+        },
+        {
+          "word": " adaptação",
+          "start": 12.08909375,
+          "end": 12.66909375,
+          "probability": 0.9881506959597269
+        },
+        {
+          "word": " do",
+          "start": 12.66909375,
+          "end": 12.80909375,
+          "probability": 0.9978261590003967
+        },
+        {
+          "word": " material",
+          "start": 12.80909375,
+          "end": 13.12909375,
+          "probability": 0.9997406601905823
+        },
+        {
+          "word": " de",
+          "start": 13.12909375,
+          "end": 13.40909375,
+          "probability": 0.999167799949646
+        },
+        {
+          "word": " língua",
+          "start": 13.40909375,
+          "end": 13.56909375,
+          "probability": 0.9967575073242188
+        },
+        {
+          "word": " inglesa",
+          "start": 13.56909375,
+          "end": 13.92909375,
+          "probability": 0.9997321963310242
+        },
+        {
+          "word": " para",
+          "start": 13.92909375,
+          "end": 14.00909375,
+          "probability": 0.898821234703064
+        },
+        {
+          "word": " poder",
+          "start": 14.00909375,
+          "end": 14.20909375,
+          "probability": 0.9980682730674744
+        },
+        {
+          "word": " trabalhar",
+          "start": 14.20909375,
+          "end": 14.50909375,
+          "probability": 0.9998466968536377
+        },
+        {
+          "word": " raça",
+          "start": 14.50909375,
+          "end": 15.00909375,
+          "probability": 0.9849547147750854
+        },
+        {
+          "word": " e",
+          "start": 15.00909375,
+          "end": 15.08909375,
+          "probability": 0.9998278617858887
+        },
+        {
+          "word": " gênero",
+          "start": 15.08909375,
+          "end": 15.50909375,
+          "probability": 0.9999811351299286
+        },
+        {
+          "word": " dentro.",
+          "start": 15.50909375,
+          "end": 15.72909375,
+          "probability": 0.9988980293273926
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "speaker": "SPEAKER_00",
+      "start": 16.551593750000002,
+      "end": 19.62284375,
+      "duration": 3.071,
+      "text": " das aulas de língua inglesa atrelado com tecnologia.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " das",
+          "start": 16.551593750000002,
+          "end": 16.691593750000003,
+          "probability": 0.8205358386039734
+        },
+        {
+          "word": " aulas",
+          "start": 16.691593750000003,
+          "end": 16.971593750000004,
+          "probability": 0.9700378477573395
+        },
+        {
+          "word": " de",
+          "start": 16.971593750000004,
+          "end": 17.07159375,
+          "probability": 0.9973611235618591
+        },
+        {
+          "word": " língua",
+          "start": 17.07159375,
+          "end": 17.29159375,
+          "probability": 0.834152340888977
+        },
+        {
+          "word": " inglesa",
+          "start": 17.29159375,
+          "end": 17.891593750000002,
+          "probability": 0.999563455581665
+        },
+        {
+          "word": " atrelado",
+          "start": 17.891593750000002,
+          "end": 18.511593750000003,
+          "probability": 0.9649743040402731
+        },
+        {
+          "word": " com",
+          "start": 18.511593750000003,
+          "end": 18.63159375,
+          "probability": 0.9984489679336548
+        },
+        {
+          "word": " tecnologia.",
+          "start": 18.63159375,
+          "end": 18.93159375,
+          "probability": 0.9935547709465027
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "speaker": "SPEAKER_00",
+      "start": 20.12909375,
+      "end": 29.612843750000003,
+      "duration": 9.484,
+      "text": " porque a gente também tem que usar. E aí, se você, mais na frente, você conseguir fazer essa junção, é interessante porque eu posso sugerir o material.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " porque",
+          "start": 20.12909375,
+          "end": 20.28909375,
+          "probability": 0.46358174085617065
+        },
+        {
+          "word": " a",
+          "start": 20.28909375,
+          "end": 20.42909375,
+          "probability": 0.9958181977272034
+        },
+        {
+          "word": " gente",
+          "start": 20.42909375,
+          "end": 20.62909375,
+          "probability": 0.9999185800552368
+        },
+        {
+          "word": " também",
+          "start": 20.62909375,
+          "end": 20.849093749999998,
+          "probability": 0.9983745813369751
+        },
+        {
+          "word": " tem",
+          "start": 20.849093749999998,
+          "end": 21.04909375,
+          "probability": 0.9997574687004089
+        },
+        {
+          "word": " que",
+          "start": 21.04909375,
+          "end": 21.16909375,
+          "probability": 0.9997878670692444
+        },
+        {
+          "word": " usar.",
+          "start": 21.16909375,
+          "end": 21.42909375,
+          "probability": 0.9998040795326233
+        },
+        {
+          "word": " E",
+          "start": 21.66909375,
+          "end": 22.08909375,
+          "probability": 0.979949951171875
+        },
+        {
+          "word": " aí,",
+          "start": 22.08909375,
+          "end": 22.28909375,
+          "probability": 0.9867683053016663
+        },
+        {
+          "word": " se",
+          "start": 22.30909375,
+          "end": 22.46909375,
+          "probability": 0.9174317717552185
+        },
+        {
+          "word": " você,",
+          "start": 22.46909375,
+          "end": 22.74909375,
+          "probability": 0.9973165392875671
+        },
+        {
+          "word": " mais",
+          "start": 22.88909375,
+          "end": 23.66909375,
+          "probability": 0.9991788268089294
+        },
+        {
+          "word": " na",
+          "start": 23.66909375,
+          "end": 23.869093749999998,
+          "probability": 0.9994483590126038
+        },
+        {
+          "word": " frente,",
+          "start": 23.869093749999998,
+          "end": 24.189093749999998,
+          "probability": 0.9999172687530518
+        },
+        {
+          "word": " você",
+          "start": 24.26909375,
+          "end": 24.46909375,
+          "probability": 0.4044668972492218
+        },
+        {
+          "word": " conseguir",
+          "start": 24.46909375,
+          "end": 24.90909375,
+          "probability": 0.9997585415840149
+        },
+        {
+          "word": " fazer",
+          "start": 24.90909375,
+          "end": 25.189093749999998,
+          "probability": 0.9999632835388184
+        },
+        {
+          "word": " essa",
+          "start": 25.189093749999998,
+          "end": 25.52909375,
+          "probability": 0.9984686970710754
+        },
+        {
+          "word": " junção,",
+          "start": 25.52909375,
+          "end": 26.10909375,
+          "probability": 0.999636173248291
+        },
+        {
+          "word": " é",
+          "start": 26.619093749999998,
+          "end": 26.82909375,
+          "probability": 0.999334990978241
+        },
+        {
+          "word": " interessante",
+          "start": 26.82909375,
+          "end": 27.26909375,
+          "probability": 0.9999282360076904
+        },
+        {
+          "word": " porque",
+          "start": 27.26909375,
+          "end": 27.58909375,
+          "probability": 0.5684258937835693
+        },
+        {
+          "word": " eu",
+          "start": 27.58909375,
+          "end": 27.74909375,
+          "probability": 0.999671220779419
+        },
+        {
+          "word": " posso",
+          "start": 27.74909375,
+          "end": 27.94909375,
+          "probability": 0.9999083280563354
+        },
+        {
+          "word": " sugerir",
+          "start": 27.94909375,
+          "end": 28.549093749999997,
+          "probability": 0.9767131805419922
+        },
+        {
+          "word": " o",
+          "start": 28.549093749999997,
+          "end": 28.64909375,
+          "probability": 0.9993669390678406
+        },
+        {
+          "word": " material.",
+          "start": 28.64909375,
+          "end": 28.92909375,
+          "probability": 0.9996248483657837
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "speaker": "SPEAKER_00",
+      "start": 30.08534375,
+      "end": 31.06409375,
+      "duration": 0.979,
+      "text": " Para o núcleo.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " Para",
+          "start": 30.08534375,
+          "end": 30.18534375,
+          "probability": 0.2355739176273346
+        },
+        {
+          "word": " o",
+          "start": 30.18534375,
+          "end": 30.26534375,
+          "probability": 0.9992400407791138
+        },
+        {
+          "word": " núcleo.",
+          "start": 30.26534375,
+          "end": 30.86534375,
+          "probability": 0.9993226925532023
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "speaker": "SPEAKER_00",
+      "start": 31.300343750000003,
+      "end": 33.96659375,
+      "duration": 2.666,
+      "text": " E a gente começar a utilizar.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " E",
+          "start": 31.300343750000003,
+          "end": 31.580343750000004,
+          "probability": 0.36893418431282043
+        },
+        {
+          "word": " a",
+          "start": 31.580343750000004,
+          "end": 32.180343750000006,
+          "probability": 0.9567693471908569
+        },
+        {
+          "word": " gente",
+          "start": 32.180343750000006,
+          "end": 32.52034375,
+          "probability": 0.9997411370277405
+        },
+        {
+          "word": " começar",
+          "start": 32.52034375,
+          "end": 32.860343750000006,
+          "probability": 0.7693685293197632
+        },
+        {
+          "word": " a",
+          "start": 32.860343750000006,
+          "end": 33.12034375,
+          "probability": 0.9970644116401672
+        },
+        {
+          "word": " utilizar.",
+          "start": 33.12034375,
+          "end": 33.38034375,
+          "probability": 0.998473584651947
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "speaker": "SPEAKER_00",
+      "start": 34.37159375,
+      "end": 37.172843750000006,
+      "duration": 2.801,
+      "text": " E é bom que dá uma rentabilidade interessante para você.",
+      "reviewed": false,
+      "correction_note": "",
+      "backchannel_events": "",
+      "segment_datetime": "",
+      "speaker_id": "",
+      "words": [
+        {
+          "word": " E",
+          "start": 34.37159375,
+          "end": 34.51159375,
+          "probability": 0.8344274759292603
+        },
+        {
+          "word": " é",
+          "start": 34.51159375,
+          "end": 34.59159375,
+          "probability": 0.9978690147399902
+        },
+        {
+          "word": " bom",
+          "start": 34.59159375,
+          "end": 34.77159375,
+          "probability": 0.9995405673980713
+        },
+        {
+          "word": " que",
+          "start": 34.77159375,
+          "end": 34.87159375,
+          "probability": 0.928564190864563
+        },
+        {
+          "word": " dá",
+          "start": 34.87159375,
+          "end": 35.01159375,
+          "probability": 0.9852514266967773
+        },
+        {
+          "word": " uma",
+          "start": 35.01159375,
+          "end": 35.15159375,
+          "probability": 0.9994412064552307
+        },
+        {
+          "word": " rentabilidade",
+          "start": 35.15159375,
+          "end": 35.83159375,
+          "probability": 0.999802033106486
+        },
+        {
+          "word": " interessante",
+          "start": 35.83159375,
+          "end": 36.09159375,
+          "probability": 0.9993054866790771
+        },
+        {
+          "word": " para",
+          "start": 36.09159375,
+          "end": 36.63159375,
+          "probability": 0.7661011815071106
+        },
+        {
+          "word": " você.",
+          "start": 36.63159375,
+          "end": 36.931593750000005,
+          "probability": 0.9990755319595337
+        }
+      ]
+    }
+  ],
+  "reviewed": false
+}
